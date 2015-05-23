@@ -22,8 +22,7 @@ Medical Informatics and Clinical Epidemiology (BCB/DMICE). My research focus is 
 
 + [R-Bootcamp](https://www.coursesites.com/s/_Rbootcamp) - an online MOOC for teaching the basics of data manipulation in R (Coursesites registration required)
 + [BioDSP](http://biodsp.slack.com) - Bioinformatics for Students and Postdocs - a discussion group at OHSU that focuses on practical skills (documentation, software engineering) necessary for success.
-+ Systems Science 
-+ Modeling 
++ Systems Science and Modeling
 
 **Software Development:**
 
@@ -33,11 +32,11 @@ Medical Informatics and Clinical Epidemiology (BCB/DMICE). My research focus is 
 + [ExonModelStrain](https://github.com/laderast/ExonModelStrain) - a package for detecting alternative exon usage in the Affymetrix Exon Array
 + [TandTRAQ]() - Perl Script for merging iTRAQ and XTandem Results
 
-**Publications of Interest:**
+**Selected Publications:**
 
-+ "Between Networks and Pathways Lies Context." **Ted Laderas**, Guanming Wu, and Shannon McWeeney. In press. In this article, I discuss the need for a level of analysis, which we call the contextual level that integrates aspects of both Pathway-level and Network level analysis.
-+ "A Network Based Model of Oncogenic Collaboration to Predict Drug Sensitivity." **Ted Laderas**, Kemal Sonmez, and Laura Heiser. In press.
-+ "The Consensus Molecular Subtypes of Colorectal Cancer." Justin Guinney, Rodrigo Dienstmann, Xin Wang, Aurélien de Reyniès, Andreas Schlicker, Charlotte Soneson, Laetitia Marisa, Paul Roepman, Gift Nyamundanda, Paolo Angelino, Brian M. Bot, Jeffrey S. Morris, Iris Simon, Sarah Gerster, Evelyn Fessler, Felipe de Sousa e Melo, Edoardo Missiaglia, Hena Ramay, David Barras, Krisztian Homicsko, Dipen Maru, Ganiraju C. Manyam, Bradley Broom, Valerie Boige, **Ted Laderas**, Ramon Salazar, Joe W. Gray, Douglas Hanahan, Josep Tabernero, Rene Bernards, Stephen H. Friend, Pierre Laurent-Puig, Jan P. Medema, Anguraj Sadanandam, Lodewyk Wessels, Mauro Delorenzi, Scott Kopetz, Louis Vermeulen, and Sabine Tejpar. Manuscript submitted to Nature Medicine.
-+ "Computational detection of alternative exon usage." **Ted Laderas**, Nicole Walter, Michael Mooney, Kristina Vartanian, Priscila Darakjian, Kari Buck, Chris Harrington, John Belknap, Robert Hitzemann, and Shannon McWeeney.  Frontiers in Neurogenomics. 2011. Article 69. PMID 21625610. In this paper, Nicole Walter and I developed a computational framework for detecting alternative exon usage between strains of mice (B6/alcohol preferring and D2/wild type).
-+ "TandTRAQ: An open-source tool for integrated protein identification and quantitation." Ted Laderas, Cory Bystrom, Debra McMillen, Guang Fan and Shannon McWeeney.  Bioinformatics. 2007. 
-+ "A consensus framework for clustering microarray data." Ted Laderas and Shannon McWeeney. OMICS: A Journal of Integrative Biology. OMICS: A Journal of Integrative Biology.  2007. 116-128.
++ Between Networks and Pathways Lies Context. **Ted Laderas**, Guanming Wu, and Shannon McWeeney. In press. 
++ A Network Based Model of Oncogenic Collaboration to Predict Drug Sensitivity. **Ted Laderas**, Kemal Sonmez, and Laura Heiser. In press.
++ The Consensus Molecular Subtypes of Colorectal Cancer. Justin Guinney, Rodrigo Dienstmann, Xin Wang, Aurélien de Reyniès, Andreas Schlicker, Charlotte Soneson, Laetitia Marisa, Paul Roepman, Gift Nyamundanda, Paolo Angelino, Brian M. Bot, Jeffrey S. Morris, Iris Simon, Sarah Gerster, Evelyn Fessler, Felipe de Sousa e Melo, Edoardo Missiaglia, Hena Ramay, David Barras, Krisztian Homicsko, Dipen Maru, Ganiraju C. Manyam, Bradley Broom, Valerie Boige, **Ted Laderas**, Ramon Salazar, Joe W. Gray, Douglas Hanahan, Josep Tabernero, Rene Bernards, Stephen H. Friend, Pierre Laurent-Puig, Jan P. Medema, Anguraj Sadanandam, Lodewyk Wessels, Mauro Delorenzi, Scott Kopetz, Louis Vermeulen, and Sabine Tejpar. Manuscript submitted to Nature Medicine.
++ Computational detection of alternative exon usage. **Ted Laderas**, Nicole Walter, Michael Mooney, Kristina Vartanian, Priscila Darakjian, Kari Buck, Chris Harrington, John Belknap, Robert Hitzemann, and Shannon McWeeney.  Frontiers in Neurogenomics. 2011. Article 69. PMID 21625610. In this paper, Nicole Walter and I developed a computational framework for detecting alternative exon usage between strains of mice (B6/alcohol preferring and D2/wild type).
++ TandTRAQ: An open-source tool for integrated protein identification and quantitation. Ted Laderas, Cory Bystrom, Debra McMillen, Guang Fan and Shannon McWeeney.  Bioinformatics. 2007. 
++ A consensus framework for clustering microarray data. Ted Laderas and Shannon McWeeney. OMICS: A Journal of Integrative Biology. OMICS: A Journal of Integrative Biology.  2007. 116-128.
