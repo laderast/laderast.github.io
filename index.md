@@ -3,7 +3,7 @@ layout: default
 title: Homepage of Ted Laderas, PhD
 ---
 
-![Ted Image]({{site.url}}/images/ted-headshot.jpg)
+![Ted Image]({{site.url}}/images/ted-headshot.jpg =250x)
 
 I am a Postdoctoral Researcher at the OHSU Knight Cancer Institute and an instructor 
 in the Bioinformatics and Computational Biology track in the OHSU Department of
