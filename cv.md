@@ -4,10 +4,10 @@ title: CV
 permalink: /CV/
 ---
 
-##Ted Laderas, PhD
+###Ted Laderas, PhD
 Postdoctoral Researcher   
-Knight Cancer Institute  
-Instructor  
+Knight Cancer Institute   
+Instructor   
 Division of Bioinformatics and Computational Biology  
 Department of Medical Informatics and Clinical Epidemiology  
 Oregon Health & Science University  
@@ -279,20 +279,14 @@ _Academic_
 
 **AWARDS**
 
-NLM Predoctoral Fellowship. 2009-2013.
-
-NLM Postdoctoral Fellowship. 2014-2015.
+NLM Predoctoral Fellowship. 2009-2013.  
+NLM Postdoctoral Fellowship. 2014-2015.  
 
 **REFERENCES**
 
-Dr. Shannon McWeeney, Oregon Health & Science University, [mcweeney@ohsu.edu](mailto:mcweeney@ohsu.edu)
-
-Dr. Laura Heiser, Oregon Health & Science University, [heiserl@ohsu.edu](mailto:heiserl@ohsu.edu)
-
-Dr. Wayne Wakeland, Portland State University, [wakeland@pdx.edu](mailto:wakeland@pdx.edu)
-
-Dr. Robert Hitzemann, Oregon Health & Science University, [hitzeman@ohsu.edu](mailto:hitzeman@ohsu.edu)
-
-Dr. Stephen Hall, Oregon Health & Science University, [sbh@ohsu.edu](mailto:sbh@ohsu.edu)
-
-Dr. Daniel Gerrity, Reed College, [gerrity@reed.edu](mailto:gerrity@reed.edu)
+Dr. Shannon McWeeney, Oregon Health & Science University, [mcweeney@ohsu.edu](mailto:mcweeney@ohsu.edu)  
+Dr. Laura Heiser, Oregon Health & Science University, [heiserl@ohsu.edu](mailto:heiserl@ohsu.edu)  
+Dr. Wayne Wakeland, Portland State University, [wakeland@pdx.edu](mailto:wakeland@pdx.edu)  
+Dr. Robert Hitzemann, Oregon Health & Science University, [hitzeman@ohsu.edu](mailto:hitzeman@ohsu.edu)  
+Dr. Stephen Hall, Oregon Health & Science University, [sbh@ohsu.edu](mailto:sbh@ohsu.edu)  
+Dr. Daniel Gerrity, Reed College, [gerrity@reed.edu](mailto:gerrity@reed.edu)  
