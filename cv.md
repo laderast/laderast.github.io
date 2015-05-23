@@ -5,11 +5,23 @@ permalink: /CV/
 ---
 
 **Ted Laderas, PhD**
+
 Postdoctoral Researcher 
+
 Knight Cancer Institute
+
+Instructor
+
+Division of Bioinformatics and Computational Biology
+
+Department of Medical Informatics and Clinical Epidemiology
+
 Oregon Health & Science University
+
 3181 SW Sam Jackson Park Road BICC
+
 Portland, OR 97239
+
 [laderast@ohsu.edu](mailto:laderast@ohsu.edu)
 
 
