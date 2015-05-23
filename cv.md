@@ -5,9 +5,9 @@ permalink: /CV/
 ---
 
 ###Ted Laderas, PhD
-Postdoctoral Researcher   
+_Postdoctoral Researcher_   
 Knight Cancer Institute   
-Instructor   
+_Instructor_   
 Division of Bioinformatics and Computational Biology  
 Department of Medical Informatics and Clinical Epidemiology  
 Oregon Health & Science University  
@@ -19,9 +19,9 @@ Portland, OR 97239
 
 **EDUCATION**
 
-B.A., Chemistry, Reed College, Portland, OR 1998.
-M.S. Biomedical Informatics, Oregon Health & Science University (OHSU), 2004.
-PhD, Biomedical Informatics, Oregon Health & Science University, 2014.
+B.A., Chemistry, Reed College, Portland, OR 1998.  
+M.S. Biomedical Informatics, Oregon Health & Science University (OHSU), 2004.  
+PhD, Biomedical Informatics, Oregon Health & Science University, 2014.  
 
 _Relevant Coursework_:
 
