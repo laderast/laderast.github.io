@@ -16,6 +16,7 @@ Medical Informatics and Clinical Epidemiology (BCB/DMICE). My research focus is 
 +  Prioritization of Combination Therapies in the treatment of cancer
 +  Integrating OMICs data to understand dysregulation in cancer
 +  Modeling Disease using Graphical Models and Agent-Based Models
++  Interactive visualization of Data
 
 **My teaching and mentoring interests:**
 
@@ -27,7 +28,7 @@ Medical Informatics and Clinical Epidemiology (BCB/DMICE). My research focus is 
 **Software Development:**
 
 + [surrogateMutation](https://github.com/laderast/surrogateMutation) - a package for detecting oncogenic collaboration in somatic mutation and copy nubmer data
-+ [surrogateShiny](https://github.com/laderast/surrogateShiny) - an R/Shiny Framework for exploring oncogenic collaboration
++ [surrogateShiny](https://github.com/laderast/surrogateShiny) - an R/Shiny Framework for exploring oncogenic collaboration in breast cancer cell lines. [See it in action.](https://tladeras.shinyapps.io/surrogateShiny/)
 + [Consense](https://github.com/laderast/surrogateMutation) - a package for comparing clustering methods
 + [ExonModelStrain](https://github.com/laderast/ExonModelStrain) - a package for detecting alternative exon usage in the Affymetrix Exon Array
 + [TandTRAQ]() - Perl Script for merging iTRAQ and XTandem Results
@@ -36,7 +37,7 @@ Medical Informatics and Clinical Epidemiology (BCB/DMICE). My research focus is 
 
 + "Between Networks and Pathways Lies Context." **Ted Laderas**, Guanming Wu, and Shannon McWeeney. In press. In this article, I discuss the need for a level of analysis, which we call the contextual level that integrates aspects 
 + "A Network Based Model of Oncogenic Collaboration to Predict Drug Sensitivity." **Ted Laderas**, Kemal Sonmez, and Laura Heiser. In press.
-+ The Consensus Molecular Subtypes of Colorectal Cancer. Justin Guinney, Rodrigo Dienstmann, Xin Wang, Aurélien de Reyniès, Andreas Schlicker, Charlotte Soneson, Laetitia Marisa, Paul Roepman, Gift Nyamundanda, Paolo Angelino, Brian M. Bot, Jeffrey S. Morris, Iris Simon, Sarah Gerster, Evelyn Fessler, Felipe de Sousa e Melo, Edoardo Missiaglia, Hena Ramay, David Barras, Krisztian Homicsko, Dipen Maru, Ganiraju C. Manyam, Bradley Broom, Valerie Boige, **Ted Laderas**, Ramon Salazar, Joe W. Gray, Douglas Hanahan, Josep Tabernero, Rene Bernards, Stephen H. Friend, Pierre Laurent-Puig, Jan P. Medema, Anguraj Sadanandam, Lodewyk Wessels, Mauro Delorenzi, Scott Kopetz, Louis Vermeulen, and Sabine Tejpar. Manuscript submitted to Nature Medicine.
++ "The Consensus Molecular Subtypes of Colorectal Cancer." Justin Guinney, Rodrigo Dienstmann, Xin Wang, Aurélien de Reyniès, Andreas Schlicker, Charlotte Soneson, Laetitia Marisa, Paul Roepman, Gift Nyamundanda, Paolo Angelino, Brian M. Bot, Jeffrey S. Morris, Iris Simon, Sarah Gerster, Evelyn Fessler, Felipe de Sousa e Melo, Edoardo Missiaglia, Hena Ramay, David Barras, Krisztian Homicsko, Dipen Maru, Ganiraju C. Manyam, Bradley Broom, Valerie Boige, **Ted Laderas**, Ramon Salazar, Joe W. Gray, Douglas Hanahan, Josep Tabernero, Rene Bernards, Stephen H. Friend, Pierre Laurent-Puig, Jan P. Medema, Anguraj Sadanandam, Lodewyk Wessels, Mauro Delorenzi, Scott Kopetz, Louis Vermeulen, and Sabine Tejpar. Manuscript submitted to Nature Medicine.
 + "Computational detection of alternative exon usage." **Ted Laderas**, Nicole Walter, Michael Mooney, Kristina Vartanian, Priscila Darakjian, Kari Buck, Chris Harrington, John Belknap, Robert Hitzemann, and Shannon McWeeney.  Frontiers in Neurogenomics. 2011. Article 69. PMID 21625610. In this paper, Nicole Walter and I developed a computational framework for detecting alternative exon usage between strains of mice (B6/alcohol preferring and D2/wild type).
 + "TandTRAQ: An open-source tool for integrated protein identification and quantitation." Ted Laderas, Cory Bystrom, Debra McMillen, Guang Fan and Shannon McWeeney.  Bioinformatics. 2007. 
-+ "A consensus framework for clustering microarray data."  Ted Laderas and Shannon McWeeney. OMICS: A Journal of Integrative Biology. OMICS: A Journal of Integrative Biology.  2007. 116-128.
++ "A consensus framework for clustering microarray data." Ted Laderas and Shannon McWeeney. OMICS: A Journal of Integrative Biology. OMICS: A Journal of Integrative Biology.  2007. 116-128.
