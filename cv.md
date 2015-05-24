@@ -225,37 +225,37 @@ _Postdoctoral Researcher_, Knight Cancer Institute, 2015-Present
 
 _Software/Algorithm Development/Data Analysis_
 
-**Developed**** annotation pipeline** to map peptide data to genomic coordinates to enable comparison of alternative splicing in peptides versus transcriptional data. Expected result: investigational study comparing alternative splicing and isoform usage in colorectal cancer.
+**Developed** annotation pipeline to map peptide data to genomic coordinates to enable comparison of alternative splicing in peptides versus transcriptional data. Expected result: investigational study comparing alternative splicing and isoform usage in colorectal cancer.
 
 **Developed visualization framework** for evaluating oncogene collaboration using protein-protein interaction networks. Result: online application with interactive filtering and visualization tools available at
 
-**Developed**  and **validating** analysis workflow for cell-line based mutation and copy number data to understand oncogene collaboration in a systems context.  _Expected Results_: workflow has potential to integrate personal mutation information into understanding of drug sensitivity.
+**Developed** and **validated** analysis workflow for cell-line based mutation and copy number data to understand oncogene collaboration in a systems context. _Expected Results_: workflow has potential to integrate personal mutation information into understanding of drug sensitivity.
 
-**Developed** analysis workflow for Reverse Phase Protein Array (RPPA) timecourse data.  Developing and prototyping methods that allow for comparison of timecourse data across cell lines and visualize the data in a pathway-specific context.  _Expected Results_: workflow will enable researchers in Integrative Cancer Biology Program to understand gaps in current knowledge of pathways.
+**Developed** analysis workflow for Reverse Phase Protein Array (RPPA) timecourse data.  Developing and prototyping methods that allow for comparison of timecourse data across cell lines and visualize the data in a pathway-specific context. _Expected Results_: workflow will enable researchers in Integrative Cancer Biology Program to understand gaps in current knowledge of pathways.
 
-**Developed** analysis workflow for Affymetrix Mouse Exon arrays to detect alternative exon usage between two strains of mice.  Prototyped SNP masking workflow to allow for masking of strain/strain differences, remapped Affymetrix Probe sets to Ensembl Transcript structure, developed software package for analysis, wrote and published paper.  _Results:_ Software is freely available for everyone to analyse exon array data.  Paper is one of the most highly accessed articles for _Frontiers in Neurogenomics_.
+**Developed** analysis workflow for Affymetrix Mouse Exon arrays to detect alternative exon usage between two strains of mice. Prototyped SNP masking workflow to allow for masking of strain/strain differences, remapped Affymetrix Probe sets to Ensembl Transcript structure, developed software package for analysis, wrote and published paper.  _Results:_ Software is freely available for everyone to analyse exon array data. Paper is one of the most highly accessed articles for _Frontiers in Neurogenomics_.
 
-**Developed** tool (TandTRAQ) for integrating protein database searching results with quantitative peptide analysis.  Reviewed current code and data formats, adapted code.  _Results_: tool produced list of peptides of interest for follow up in cerebrospinal fluid (CSF).  Paper on TandTRAQ has been published.
+**Developed** tool (TandTRAQ) for integrating protein database searching results with quantitative peptide analysis. Reviewed current code and data formats, adapted code.  _Results_: tool produced list of peptides of interest for follow up in cerebrospinal fluid (CSF). Paper on TandTRAQ has been published.
 
-**Developed** and **redesigned** webpage interface of Affymetrix Microarray Core (AMC) database.  Explored current applications available for annotating data, designed improved interface, presented improved interface to AMC database to users.  Results: positive feedback from users with respect to new GUI.
+**Developed** and **redesigned** webpage interface of Affymetrix Microarray Core (AMC) database. Explored current applications available for annotating data, designed improved interface, presented improved interface to AMC database to users. Results: positive feedback from users with respect to new GUI.
 
-**Designed** , **developed** , and **validated** tool (Consense-Cluster) to compare results for microarray cluster analysis using R/Bioconductor for Master's thesis.  Conducted literature review, designed program structure, coded program in R, ran simulated and real microarray data in program, validated results using annotations. _Results_: tool will be released as an open-source Bioconductor project, providing biologists with the ability to compare clustering results.
+**Designed**, **developed**, and **validated** tool (Consense-Cluster) to compare results for microarray cluster analysis using R/Bioconductor for Master's thesis.  Conducted literature review, designed program structure, coded program in R, ran simulated and real microarray data in program, validated results using annotations. _Results_: tool will be released as an open-source Bioconductor project, providing biologists with the ability to compare clustering results.
 
 **Utilized** Consense-Cluster to explore leukemia phosphopeptide dataset.  Explored dataset using multiple clustering methods, grouped samples into two groupings.  _Results_: clustering reproduced patient/control groupings blinded, produced peptide list for possible follow up.
 
-**Reviewed** , **annotated** and **modified** Happy eQTL code to run permutation analysis.  Reviewed and commented entire codebase, designed permutation analysis component, integrated code modifications into analysis.  _Result_: eQTL permutation analysis allowed researchers to assign p-value to QTL analysis.
+**Reviewed**, **annotated**, and **modified** Happy eQTL code to run permutation analysis. Reviewed and commented entire codebase, designed permutation analysis component, integrated code modifications into analysis.  _Result_: eQTL permutation analysis allowed researchers to assign p-value to QTL analysis.
 
 _Software Evaluation/Testing_
 
 **Designed** and **utilized** synthetic proteomics dataset for benchmarking classification algorithms.  Result: validation of caBIG related proteomics application.
 
-**Evaluated** , **reviewed** and **debugged** caBIG application for classifying proteomics data.  Reviewed code, compared approach to other classification algorithms, developed a testing framework for benchmarking classification algorithms.  _Result_: current version of caBIG application has improved classification ability.
+**Evaluated**, **reviewed**, and **debugged** caBIG application for classifying proteomics data.  Reviewed code, compared approach to other classification algorithms, developed a testing framework for benchmarking classification algorithms.  _Result_: current version of caBIG application has improved classification ability.
 
 **Reviewed** and **tested** code for caBIG RProteomics statistical framework.  Extensively reviewed entire code framework and evaluated effectiveness of statistical routines.  _Results_: Several bugs in implementation were found; testing results were submitted for future improvements to the RProteomics project.
 
 _Project Management_
 
-**Managed** and **produced** project deliverables for 3 caBIG applications.  Developed documentation, test plans, project time, assigned tasks for 3 different people, managed deliverable timeline.  _Result_: all deliverables were approved and delivered within assigned timeframe.
+**Managed** and **produced** project deliverables for 3 caBIG applications.  Developed documentation, test plans, project time, assigned tasks for 3 different people, managed deliverable timeline. _Result_: all deliverables were approved and delivered within assigned timeframe.
 
 _Academic_
 
