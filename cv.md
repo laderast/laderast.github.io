@@ -11,7 +11,7 @@ _Instructor_
 Division of Bioinformatics and Computational Biology  
 Department of Medical Informatics and Clinical Epidemiology  
 Oregon Health & Science University  
-3181 SW Sam Jackson Park Road BICC  
+3181 SW Sam Jackson Park Road CR145
 Portland, OR 97239  
 [laderast@ohsu.edu](mailto:laderast@ohsu.edu)  
 
@@ -31,27 +31,27 @@ System Dynamics, Agent Based Modeling, Discrete Multivariate Modeling, Systems B
 
 1. A Network-Based Model of Oncogenic Collaboration to Predict Drug Sensitivity. **Ted Laderas**, Laura Heiser and Kemal Sonmez. In press, submitted to Molecular Systems Biology.
 
-2. The Consensus Molecular Subtypes of Colorectal Cancer. Justin Guinney, Rodrigo Dienstmann, Xin Wang, Aurélien de Reyniès, Andreas Schlicker, Charlotte Soneson, Laetitia Marisa, Paul Roepman, Gift Nyamundanda, Paolo Angelino, Brian M. Bot, Jeffrey S. Morris, Iris Simon, Sarah Gerster, Evelyn Fessler, Felipe de Sousa e Melo, Edoardo Missiaglia, Hena Ramay, David Barras, Krisztian Homicsko, Dipen Maru, Ganiraju C. Manyam, Bradley Broom, Valerie Boige, **Ted Laderas** , Ramon Salazar, Joe W. Gray, Douglas Hanahan, Josep Tabernero, Rene Bernards, Stephen H. Friend, Pierre Laurent-Puig, Jan P. Medema, Anguraj Sadanandam, Lodewyk Wessels, Mauro Delorenzi, Scott Kopetz, Louis Vermeulen, and Sabine Tejpar. Manuscript submitted to Nature Medicine.
+2. The Consensus Molecular Subtypes of Colorectal Cancer. Justin Guinney, Rodrigo Dienstmann, Xin Wang, Aurélien de Reyniès, Andreas Schlicker, Charlotte Soneson, Laetitia Marisa, Paul Roepman, Gift Nyamundanda, Paolo Angelino, Brian M. Bot, Jeffrey S. Morris, Iris Simon, Sarah Gerster, Evelyn Fessler, Felipe de Sousa e Melo, Edoardo Missiaglia, Hena Ramay, David Barras, Krisztian Homicsko, Dipen Maru, Ganiraju C. Manyam, Bradley Broom, Valerie Boige, **Ted Laderas**, Ramon Salazar, Joe W. Gray, Douglas Hanahan, Josep Tabernero, Rene Bernards, Stephen H. Friend, Pierre Laurent-Puig, Jan P. Medema, Anguraj Sadanandam, Lodewyk Wessels, Mauro Delorenzi, Scott Kopetz, Louis Vermeulen, and Sabine Tejpar. Manuscript submitted to Nature Medicine.
 
 3. Between Pathways and Networks lies Context. **Ted Laderas** and Shannon McWeeney. Review paper submitted to Science Progress. In press.
 
-4. Computational detection of alternative exon usage. **Ted Laderas**, Nicole A Walter, Michael Mooney, Kristina Vartanian, Priscila Darakjian, Kari Buck, Chris Harrington, John Belknap, Robert Hitzemann, and Shannon McWeeney.  Frontiers in Neurogenomics. 2011. Article 69. PMID 21625610
+4. Computational detection of alternative exon usage. **Ted Laderas**, Nicole A Walter, Michael Mooney, Kristina Vartanian, Priscila Darakjian, Kari Buck, Chris Harrington, John Belknap, Robert Hitzemann, and Shannon McWeeney. Frontiers in Neurogenomics. 2011. Article 69. PMID 21625610
 
-5. High throughput sequencing in mice: a platform comparison identifies a preponderance of cryptic SNPs. Nicole A Walter, Daniel Bottomly, **Ted Laderas** , Michael Mooney, Priscila Darakjian, Robert P Searles, Christina Harrington, Shannon K McWeeney, Robert Hitzemann, Kari J Buck. BMC Genomics. 2009 Aug 17;10:379.
+5. High throughput sequencing in mice: a platform comparison identifies a preponderance of cryptic SNPs. Nicole A Walter, Daniel Bottomly, **Ted Laderas**, Michael Mooney, Priscila Darakjian, Robert P Searles, Christina Harrington, Shannon K McWeeney, Robert Hitzemann, Kari J Buck. BMC Genomics. 2009 Aug 17;10:379.
 
 6. Cross-platform Gene Expression Concordance Evaluation: A Tale of Mappings, Masks and Mice. Michael Mooney, **Ted Laderas**, Nicole A Walter, Kristina Vartanian, Priscila Darakjian, Kari Buck, Chris Harrington, John Belknap, Robert Hitzemann, and Shannon McWeeney.  In press.
 
 7. TandTRAQ: An open-source tool for integrated protein identification and quantitation. **Ted Laderas** , Cory Bystrom, Debra McMillen, Guang Fan and Shannon McWeeney.  Bioinformatics. 2007.
 
-8. A consensus framework for clustering microarray data.   **Ted Laderas** and Shannon McWeeney. OMICS: A Journal of Integrative Biology. OMICS: A Journal of Integrative Biology.  2007. 116-128.
+8. A consensus framework for clustering microarray data. **Ted Laderas** and Shannon McWeeney. OMICS: A Journal of Integrative Biology. OMICS: A Journal of Integrative Biology. 2007. 116-128.
 
 9. Developing and Validating a Tool to Compare Microarray Clusterings. Masters Thesis, Biomedical Informatics, OHSU. 2004.
 
-10. The Melting of Pulmonary Surfactant Monolayers. Wen-fei Yan, Samir C Biswas, **Ted Laderas** , Stephen B. Hall.  Journal of Applied Physiology. 2006. 1739-45.
+10. The Melting of Pulmonary Surfactant Monolayers. Wen-fei Yan, Samir C Biswas, **Ted Laderas** , Stephen B. Hall. Journal of Applied Physiology. 2006. 1739-45.
 
-11. Metastability of a supercompressed fluid monolayer. Ethan C. Smith, Jonathan M. Crane, **Ted G. Laderas** , and Stephen B. Hall. Biophysical Journal. 2003. 853048-57.
+11. Metastability of a supercompressed fluid monolayer. Ethan C. Smith, Jonathan M. Crane, **Ted G. Laderas**, and Stephen B. Hall. Biophysical Journal. 2003. 853048-57.
 
-12. Persistence of Metastability after Expansion of a Supercompressed Fluid Monolayer. Ethan C. Smith, **Ted G. Laderas** , Jonathan M. Crane, and Stephen B. Hall. Langmuir. 2004. 204945 - 4953.
+12. Persistence of Metastability after Expansion of a Supercompressed Fluid Monolayer. Ethan C. Smith, **Ted G. Laderas**, Jonathan M. Crane, and Stephen B. Hall. Langmuir. 2004. 204945 - 4953.
 
 13. Resonance-Raman Spectroscopy, Chromium Hexacarbonyl, and Me: A Tale of Intrigue. Bachelor Thesis. Reed College. 1998.
 
@@ -67,11 +67,11 @@ System Dynamics, Agent Based Modeling, Discrete Multivariate Modeling, Systems B
 
 5. A computational framework for the detection of alternative exon usage using Affymetrix Exon arrays. **Ted Laderas**, Michael Mooney, Nikki Walter, Kristina Vartanian, Christina Harrington, Priscila Darakijan, John Belknap, Robert Hitzemann, and Shannon McWeeney.  Intelligent Systems in Molecular Biology conference, Toronto, July 2008.
 
-6. Cerebrospinal fluid (CSF) proteomics in children with acute lymphoblastic leukemia (ALL).  Robert C Trueworthy, Linda C Stork, Yanping Zhong, Sharon Pine, Yousif Matloub, **Ted Laderas**, Shannon McWeeney, and Guang Fan.  Poster 2006.
+6. Cerebrospinal fluid (CSF) proteomics in children with acute lymphoblastic leukemia (ALL). Robert C Trueworthy, Linda C Stork, Yanping Zhong, Sharon Pine, Yousif Matloub, **Ted Laderas**, Shannon McWeeney, and Guang Fan.  Poster 2006.
 
-7. A metrics-based low-level preprocessing framework for proteomics data. **Ted Laderas**, Solange Mongoue-Tchokote, Veena Rajaraman, Kimberly Sellers, Cory Bystrom and Shannon McWeeney.  Bioconductor Developer's Meeting, Seattle, Washington, August 2006.
+7. A metrics-based low-level preprocessing framework for proteomics data. **Ted Laderas**, Solange Mongoue-Tchokote, Veena Rajaraman, Kimberly Sellers, Cory Bystrom and Shannon McWeeney. Bioconductor Developer's Meeting, Seattle, Washington, August 2006.
 
-8. A diagnostic test suite for the RProteomics statistical routines.   **Ted Laderas**, Solange Mongoue-Tchokote, Veena Rajaraman, Kimberly Sellers and Shannon McWeeney.  caBIG annual meeting, Washington DC, April 2006.
+8. A diagnostic test suite for the RProteomics statistical routines. **Ted Laderas**, Solange Mongoue-Tchokote, Veena Rajaraman, Kimberly Sellers and Shannon McWeeney.  caBIG annual meeting, Washington DC, April 2006.
 
 9. Consense-Cluster: a framework for comparing and benchmarking clustering algorithms. **Ted Laderas** and Shannon McWeeney. Bioconductor Developer's Meeting, Seattle, Washington, August 2005.
 
