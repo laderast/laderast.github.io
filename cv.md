@@ -35,15 +35,15 @@ System Dynamics, Agent Based Modeling, Discrete Multivariate Modeling, Systems B
 
 3. Between Pathways and Networks lies Context. **Ted Laderas** and Shannon McWeeney. Review paper submitted to Science Progress. In press.
 
-4. Computational detection of alternative exon usage. **Ted Laderas** , Nikki Walter, Michael Mooney, Kristina Vartanian, Priscila Darakjian, Kari Buck, Chris Harrington, John Belknap, Robert Hitzemann, and Shannon McWeeney.  Frontiers in Neurogenomics. 2011. Article 69. PMID 21625610
+4. Computational detection of alternative exon usage. **Ted Laderas**, Nicole A Walter, Michael Mooney, Kristina Vartanian, Priscila Darakjian, Kari Buck, Chris Harrington, John Belknap, Robert Hitzemann, and Shannon McWeeney.  Frontiers in Neurogenomics. 2011. Article 69. PMID 21625610
 
 5. High throughput sequencing in mice: a platform comparison identifies a preponderance of cryptic SNPs. Nicole A Walter, Daniel Bottomly, **Ted Laderas** , Michael Mooney, Priscila Darakjian, Robert P Searles, Christina Harrington, Shannon K McWeeney, Robert Hitzemann, Kari J Buck. BMC Genomics. 2009 Aug 17;10:379.
 
-6. Cross-platform Gene Expression Concordance Evaluation: A Tale of Mappings, Masks and Mice. Michael Mooney, **Ted Laderas** , Nikki Walter, Kristina Vartanian, Priscila Darakjian, Kari Buck, Chris Harrington, John Belknap, Robert Hitzemann, and Shannon McWeeney.  In press.
+6. Cross-platform Gene Expression Concordance Evaluation: A Tale of Mappings, Masks and Mice. Michael Mooney, **Ted Laderas**, Nicole A Walter, Kristina Vartanian, Priscila Darakjian, Kari Buck, Chris Harrington, John Belknap, Robert Hitzemann, and Shannon McWeeney.  In press.
 
 7. TandTRAQ: An open-source tool for integrated protein identification and quantitation. **Ted Laderas** , Cory Bystrom, Debra McMillen, Guang Fan and Shannon McWeeney.  Bioinformatics. 2007.
 
-8. A consensus framework for clustering microarray data.   **Ted Ladera** s and Shannon McWeeney. OMICS: A Journal of Integrative Biology. OMICS: A Journal of Integrative Biology.  2007. 116-128.
+8. A consensus framework for clustering microarray data.   **Ted Laderas** and Shannon McWeeney. OMICS: A Journal of Integrative Biology. OMICS: A Journal of Integrative Biology.  2007. 116-128.
 
 9. Developing and Validating a Tool to Compare Microarray Clusterings. Masters Thesis, Biomedical Informatics, OHSU. 2004.
 
@@ -63,15 +63,15 @@ System Dynamics, Agent Based Modeling, Discrete Multivariate Modeling, Systems B
 
 3. Integrating to Interact: Using Reconstructability Analysis to Integrate Genomic and Proteomic Data to Predict Drug Sensitivity. **Ted Laderas**. Intelligent Systems in Molecular Biology conference, 2012.
 
-4. Tales from the Cryptic Snp: High Throughput Sequencing of DBA/2J and C57BL/6J mouse chromosome 1 reveals an abundance of polymorphisms. Kari J. Buck, Nicole A.R. Walter, Daniel Bottomly, **Ted Laderas** , Michale Mooney, Priscila Darakjian, Shannon McWeeney, Robert Hitzemann. Research Society on Alcoholism Annual Meeting. 2009.
+4. Tales from the Cryptic Snp: High Throughput Sequencing of DBA/2J and C57BL/6J mouse chromosome 1 reveals an abundance of polymorphisms. Kari J. Buck, Nicole A.R. Walter, Daniel Bottomly, **Ted Laderas**, Michale Mooney, Priscila Darakjian, Shannon McWeeney, Robert Hitzemann. Research Society on Alcoholism Annual Meeting. 2009.
 
-5. A computational framework for the detection of alternative exon usage using Affymetrix Exon arrays. **Ted Laderas** , Michael Mooney, Nikki Walter, Kristina Vartanian, Christina Harrington, Priscila Darakijan, John Belknap, Robert Hitzemann, and Shannon McWeeney.  Intelligent Systems in Molecular Biology conference, Toronto, July 2008.
+5. A computational framework for the detection of alternative exon usage using Affymetrix Exon arrays. **Ted Laderas**, Michael Mooney, Nikki Walter, Kristina Vartanian, Christina Harrington, Priscila Darakijan, John Belknap, Robert Hitzemann, and Shannon McWeeney.  Intelligent Systems in Molecular Biology conference, Toronto, July 2008.
 
-6. Cerebrospinal fluid (CSF) proteomics in children with acute lymphoblastic leukemia (ALL).  Robert C Trueworthy, Linda C Stork, Yanping Zhong, Sharon Pine, Yousif Matloub, **Ted Laderas** , Shannon McWeeney, and Guang Fan.  Poster 2006.
+6. Cerebrospinal fluid (CSF) proteomics in children with acute lymphoblastic leukemia (ALL).  Robert C Trueworthy, Linda C Stork, Yanping Zhong, Sharon Pine, Yousif Matloub, **Ted Laderas**, Shannon McWeeney, and Guang Fan.  Poster 2006.
 
-7. A metrics-based low-level preprocessing framework for proteomics data. **Ted Laderas** , Solange Mongoue-Tchokote, Veena Rajaraman, Kimberly Sellers, Cory Bystrom and Shannon McWeeney.  Bioconductor Developer's Meeting, Seattle, Washington, August 2006.
+7. A metrics-based low-level preprocessing framework for proteomics data. **Ted Laderas**, Solange Mongoue-Tchokote, Veena Rajaraman, Kimberly Sellers, Cory Bystrom and Shannon McWeeney.  Bioconductor Developer's Meeting, Seattle, Washington, August 2006.
 
-8. A diagnostic test suite for the RProteomics statistical routines.   **Ted Laderas** , Solange Mongoue-Tchokote, Veena Rajaraman, Kimberly Sellers and Shannon McWeeney.  caBIG annual meeting, Washington DC, April 2006.
+8. A diagnostic test suite for the RProteomics statistical routines.   **Ted Laderas**, Solange Mongoue-Tchokote, Veena Rajaraman, Kimberly Sellers and Shannon McWeeney.  caBIG annual meeting, Washington DC, April 2006.
 
 9. Consense-Cluster: a framework for comparing and benchmarking clustering algorithms. **Ted Laderas** and Shannon McWeeney. Bioconductor Developer's Meeting, Seattle, Washington, August 2005.
 
@@ -97,7 +97,7 @@ System Dynamics, Agent Based Modeling, Discrete Multivariate Modeling, Systems B
 
 3. Everything you wanted to know about bioinformatics but were afraid to ask. Lecture/Workshop given for OHSU PhD/Postdoc Fellows meeting, October 2014.
 
-4. Surrogate Mutations and Drug Sensitivity in Breast Cancer Cell Lines. Plenary talk at NLM Training Conference, Pittburgh June 2014.
+4. Surrogate Mutations and Drug Sensitivity in Breast Cancer Cell Lines. Plenary talk at NLM Training Conference, Pittburgh, PA, June 2014.
 
 5. Connecting Genotypes to Drug Sensitivities in HER2 Positive Cancer Cell Lines. Doctoral Defense, OHSU, March 2014.
 
@@ -157,9 +157,9 @@ System Dynamics, Agent Based Modeling, Discrete Multivariate Modeling, Systems B
 
 10. Workshop on Strings and Matrices in R. Workshop given for Statistical Methods in Bioinformatics class. 2011.
 
-11. Introduction to R Workshop.  Workshop given for Statistical Methods in Bioinformatics class. 2011.
+11. Introduction to R Workshop. Workshop given for Statistical Methods in Bioinformatics class. 2011.
 
-12. Lab: Using Consense-Cluster to explore the Bittner dataset.  Laboratory given as part of Microarray Analysis Course, OHSU, 2006.
+12. Lab: Using Consense-Cluster to explore the Bittner dataset. Laboratory given as part of Microarray Analysis Course, OHSU, 2006.
 
 **EXPERIENCE**
 
