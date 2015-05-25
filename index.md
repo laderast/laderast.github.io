@@ -11,7 +11,7 @@ Medical Informatics and Clinical Epidemiology ([BCB/DMICE](http://www.ohsu.edu/x
 
 Over twelve years of bioinformatics experience, I have developed methods for low-level preprocessing and high-level analysis of many OMICs types, including expression (especially alternative splicing), phosphoproteomics, proteomics, and genomics. My experience in functional genomics has led me to use models such as Graphical Models and Networks to integrate these many OMICs types into building a unified picture of integrated systems-level dysregulation in complex diseases such as alcoholism and cancer. 
 
-**Research interests:**
+**Research Interests:**
 
 +  Heterogeneity of Cancer and Measurement using Flow Cytometry Methods
 +  Systems Biology of Cancer, especially oncogenic collaboration
@@ -23,7 +23,7 @@ Over twelve years of bioinformatics experience, I have developed methods for low
 **Teaching and Mentoring Interests:**
 
 + [R-Bootcamp](https://www.coursesites.com/s/_Rbootcamp) - an MOOC (Massively Open Online Course) for teaching the basics of data manipulation in R (Coursesites registration required)
-+ [BioDSP](http://biodsp.slack.com) - Bioinformatics for Students and Postdocs - a discussion group at OHSU that focuses on practical skills (documentation, software engineering) necessary for success.
++ [BioDSP](http://biodsp.slack.com) - Bioinformatics for Students and Postdocs - a student and postdoc driven discussion group at OHSU that focuses on practical skills (documentation, software engineering and visualization) necessary for success.
 + Systems Science and Modeling.
 + Developing training modules for translating Big Data to Knowledge ([BD2K](http://datascience.nih.gov/bd2k)).
 
