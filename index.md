@@ -24,7 +24,6 @@ Over twelve years of bioinformatics experience, I have developed methods for low
 
 + [R-Bootcamp](https://www.coursesites.com/s/_Rbootcamp) - an MOOC (Massively Open Online Course) for teaching the basics of data manipulation in R (Coursesites registration required)
 + [BioDSP](http://biodsp.slack.com) - Bioinformatics for Students and Postdocs - a student and postdoc driven discussion group at OHSU that focuses on practical skills (documentation, software engineering and visualization) necessary for success.
-+ Systems Science and Modeling.
 + Developing training modules for translating Big Data to Knowledge ([BD2K](http://datascience.nih.gov/bd2k)).
 
 **Software Development:**
