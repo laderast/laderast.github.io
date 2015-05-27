@@ -6,7 +6,7 @@ permalink: /CV/
 
 ###Ted Laderas, PhD
 _Postdoctoral Researcher_   
-Knight Cancer Institute   
+OHSU Knight Cancer Institute   
 _Instructor_   
 Division of Bioinformatics and Computational Biology  
 Department of Medical Informatics and Clinical Epidemiology  
