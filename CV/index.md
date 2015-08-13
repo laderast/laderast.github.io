@@ -91,57 +91,61 @@ System Dynamics, Agent Based Modeling, Discrete Multivariate Modeling, Systems B
 
 **PRESENTATIONS/LECTURES/WORKSHOPS**
 
-1. Introduction to ggvis. Lecture/Workshop given for OHSU Bioinformatics Discussion for Students and Postdocs, April 2015.
+1. [Moving From Big Data to Knowledge: Implications for the Health Care and Biomedical Sciences](https://www.dropbox.com/s/ls6agg9uy2b6wp4/big-data-talk_laderas.pdf?dl=0). Lecture given for BioCatalyst Advanced Training workshop at Oregon Bioscience Association. June 2015.
 
-2. Introduction to ggplot2. Lecture/Workshop given for OHSU Bioinformatics Discussion for Students and Postdocs, March 2015.
+2. [Introduction to ggvis](https://www.dropbox.com/s/n0unpdkd5r2tdu7/ggvis-Tutorial.html?dl=0). Lecture/Workshop given for OHSU Bioinformatics Discussion for Students and Postdocs, April 2015.
 
-3. Everything you wanted to know about bioinformatics but were afraid to ask. Lecture/Workshop given for OHSU PhD/Postdoc Fellows meeting, October 2014.
+3. [Introduction to ggplot2](https://www.dropbox.com/s/efbwx3jjx89folh/ggplot2Intro.html?dl=0). Lecture/Workshop given for OHSU Bioinformatics Discussion for Students and Postdocs, March 2015.
 
-4. Surrogate Mutations and Drug Sensitivity in Breast Cancer Cell Lines. Plenary talk at NLM Training Conference, Pittburgh, PA, June 2014.
+4. [Your In-silico Lab Notebook: Best Practices 2015](https://www.dropbox.com/s/ddyq88gqh8priv8/insilicotalk-2015.pptx?dl=0). Lecture/Workshop given for OHSU BioDSP group, January 2015.
 
-5. Connecting Genotypes to Drug Sensitivities in HER2 Positive Cancer Cell Lines. Doctoral Defense, OHSU, March 2014.
+5. [Everything you wanted to know about bioinformatics but were afraid to ask](https://www.dropbox.com/s/a4qgwap4jehzs8x/everything-you-wanted-to-know.pptx?dl=0). Lecture/Workshop given for OHSU PhD/Postdoc Fellows meeting, October 2014.
 
-6. Understanding Expression Differences in RPPA Data: Implications for ODE Models. Presentation at Integrative Cancer Biology Program retreat 2012.
+6. Surrogate Mutations and Drug Sensitivity in Breast Cancer Cell Lines. Plenary talk at NLM Training Conference, Pittburgh, PA, June 2014.
 
-7. Connecting Genotypes to Drug Sensitivity in HER2+ Breast Cancer Cell Lines. Lecture/Dissertation proposal given for PhD/Postdoc Meeting January 2012 and March 2012.
+7. Connecting Genotypes to Drug Sensitivities in HER2 Positive Cancer Cell Lines. Doctoral Defense, OHSU, March 2014.
 
-8. Connecting Genotypes to Drug Sensitivity in Breast Cancer Cell Lines. Presentation at Integrative Cancer Biology Program retreat 2011.
+8. Understanding Expression Differences in RPPA Data: Implications for ODE Models. Presentation at Integrative Cancer Biology Program retreat 2012.
 
-9. Work Smarter, Not Harder: Productivity Tools and You. Lecture given for PhD/Postdoctoral meeting, 2011.
+9. Connecting Genotypes to Drug Sensitivity in HER2+ Breast Cancer Cell Lines. Lecture/Dissertation proposal given for PhD/Postdoc Meeting January 2012 and March 2012.
 
-10. What are Models For? Making Sense of Systems Biology. Predoctoral Symposium. 2010.
+10. Connecting Genotypes to Drug Sensitivity in Breast Cancer Cell Lines. Presentation at Integrative Cancer Biology Program retreat 2011.
 
-11. Extended Dependency Analysis. Presentation given for Information Theory Independent Study 2010.
+11. Work Smarter, Not Harder: Productivity Tools and You. Lecture given for PhD/Postdoctoral meeting, 2011.
 
-12. Conant's _Laws of Information that Govern Systems_. Presentation given for Information Theory Independent Study, 2010.
+12. [What are Models For? Making Sense of Systems Biology](https://www.dropbox.com/s/bi14mo1ahr4yod8/symposium-laderas.pptx?dl=0). Predoctoral Symposium. 2010.
 
-13. Ashby's _Law of Requisite Variety_ and Conant's _Information Transfer in Regulation_. Presentation given for Information Theory Independent Study, 2010.
+13. [Extended Dependency Analysis](https://www.dropbox.com/s/yt8dybaap4sn8hy/03-eda-extended-dependency-analysis.pptx?dl=0). Presentation given for Information Theory Independent Study 2010.
 
-14. Two kinds of Robustness.  Presentation given to Bioinformatics Development Group, 2010.
+14. [Conant's _Laws of Information that Govern Systems_](https://www.dropbox.com/s/kkv4yv2vmwwdqfa/02-conant-laws-of-information.pptx?dl=0). Presentation given for Information Theory Independent Study, 2010.
 
-15. Portland Alcohol Research Center Scientific Advisory Board Review: Bioinformatics & Statistics.  Presentation given to PARC SAB, OHSU, 2009.
+15. [Ashby's _Law of Requisite Variety_ and Conant's _Information Transfer in Regulation_](https://www.dropbox.com/s/jz0gthjbd9cqbrt/01-ashby-conant-variety.pptx?dl=0). Presentation given for Information Theory Independent Study, 2010.
 
-16. An introduction to trend analysis and consensus modules for systems biology.  Presentation given with Sophia Jeng to Mathematical Modeling Core for Systems Virology, OHSU 2009.
+16. Two kinds of Robustness. Presentation given to Bioinformatics Development Group, 2010.
 
-17. An introduction to Consensus Modules for Systems Biology.  Lecture given with Sophia Jeng to Bioinformatics Development Group, OHSU, 2008.
+17. Portland Alcohol Research Center Scientific Advisory Board Review: Bioinformatics & Statistics.  Presentation given to PARC SAB, OHSU, 2009.
 
-18. An Introduction to Sloppy Systems Biology. Lecture given to Bioinformatics Development Group, OHSU, 2008.
+18. An introduction to trend analysis and consensus modules for systems biology.  Presentation given with Sophia Jeng to Mathematical Modeling Core for Systems Virology, OHSU 2009.
 
-19. Your in-silico lab notebook. Lecture given as part of Bioinformatics Software Development class, OHSU, 2008, 2009.
+19. An introduction to Consensus Modules for Systems Biology.  Lecture given with Sophia Jeng to Bioinformatics Development Group, OHSU, 2008.
 
-20. Simulated and Synthetic Data for Benchmarking Algorithms. Lecture given as part of Bioinformatics Methods class, OHSU, 2007.
+20. An Introduction to Sloppy Systems Biology. Lecture given to Bioinformatics Development Group, OHSU, 2008.
 
-21. Introduction to QPACA Pathway Analysis Software and BioPAX. Talk given at 2006 caBIG Annual Meeting, Washington DC.
+21. Your in-silico lab notebook. Lecture given as part of Bioinformatics Software Development class, OHSU, 2008, 2009.
 
-22. Consense: A software package for utilizing multiple clustering methods on Microarray Data.  Talk given at OHSU Student Research Forum, 2005.
+22. Simulated and Synthetic Data for Benchmarking Algorithms. Lecture given as part of Bioinformatics Methods class, OHSU, 2007.
+
+23. Introduction to QPACA Pathway Analysis Software and BioPAX. Talk given at 2006 caBIG Annual Meeting, Washington DC.
+
+24. Consense: A software package for utilizing multiple clustering methods on Microarray Data.  Talk given at OHSU Student Research Forum, 2005.
 
 **TEACHING EXPERIENCE**
 
 1. R-Bootcamp. Massive Open Online Course available at: [http://dx.doi.org/10.5281/zenodo.13756](http://dx.doi.org/10.5281/zenodo.13756)
 
-2. List Comprehensions in Python. Lecture given for Bioinformatics Programming and Scripting Course, Fall 2012.
+2. [List Comprehensions in Python](https://www.dropbox.com/s/1my6l8diprnzg4n/lecture_slides_day7_2012-laderas.pptx?dl=0). Lecture given for Bioinformatics Programming and Scripting Course, Fall 2012.
 
-3. Introduction to Unit Testing. Lecture given for Bioinformatics Programming and Scripting Course, Fall 2012.
+3. [Introduction to Unit Testing](https://www.dropbox.com/s/jdgbb07xydmxah5/lecture_slides_day10_1027-laderas.pdf?dl=0). Lecture given for Bioinformatics Programming and Scripting Course, Fall 2012.
 
 4. Introduction to Numerical Python (NumPy). Lecture given for Bioinformatics Programming and Scripting Course, Fall 2012.
 
@@ -149,11 +153,11 @@ System Dynamics, Agent Based Modeling, Discrete Multivariate Modeling, Systems B
 
 6. An Introduction to ODE Models. Lecture given for Systems Biology Class, 2012.
 
-7. Integrating Data for Systems Biology.  Lecture given for Systems Biology Class, 2012.
+7. [Integrating Data for Systems Biology](https://www.dropbox.com/s/ksnogpxoh22eit8/IntegratingDataforSystemsBiology.pptx?dl=0).  Lecture given for Systems Biology Class, 2012.
 
-8. Bayesian Networks.  Lecture given for Statistical Methods in Bioinformatics Class, 2011.
+8. [Bayesian Networks](https://www.dropbox.com/s/xab61u1jo9y9io9/bayesnets-new-laderas.pptx?dl=0).  Lecture given for Statistical Methods in Bioinformatics Class, 2011.
 
-9. Gibbs Samplers. Lecture given for Statistical Methods in Bioinformatics Class, 2011.
+9. [Gibbs Samplers](https://www.dropbox.com/s/r2j0oi1madn0t1s/GibbsSampler-laderas.pptx?dl=0). Lecture given for Statistical Methods in Bioinformatics Class, 2011.
 
 10. Workshop on Strings and Matrices in R. Workshop given for Statistical Methods in Bioinformatics class. 2011.
 
