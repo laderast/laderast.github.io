@@ -59,9 +59,9 @@ System Dynamics, Agent Based Modeling, Discrete Multivariate Modeling, Systems B
 
 1. A Network-Based Model of Oncogenic Collaboration for Prediction of Drug Sensitivity. **Ted Laderas**. RECOMB/ISCB Conference on Regulatory and Systems Genomics, November 2014.
 
-2. Integrating proteomics and genomic data to illuminate the effects of Lapatinib in HER2+ Cells. **Ted Laderas**. NLM Training Conference, Utah, 2013.
+2. [Integrating proteomics and genomic data to illuminate the effects of Lapatinib in HER2+ Cells](https://www.dropbox.com/s/y3rbkygjn41qsd6/poster-laderas-nlm-2013.pdf?dl=0). **Ted Laderas**. NLM Training Conference, Utah, 2013.
 
-3. Integrating to Interact: Using Reconstructability Analysis to Integrate Genomic and Proteomic Data to Predict Drug Sensitivity. **Ted Laderas**. Intelligent Systems in Molecular Biology conference, 2012.
+3. [Integrating to Interact: Using Reconstructability Analysis to Integrate Genomic and Proteomic Data to Predict Drug Sensitivity](https://www.dropbox.com/s/nhixsztlg1oo4z6/poster-laderas-ismb-2012.pdf?dl=0). **Ted Laderas**. Intelligent Systems in Molecular Biology conference, 2012.
 
 4. Tales from the Cryptic Snp: High Throughput Sequencing of DBA/2J and C57BL/6J mouse chromosome 1 reveals an abundance of polymorphisms. Kari J. Buck, Nicole A.R. Walter, Daniel Bottomly, **Ted Laderas**, Michale Mooney, Priscila Darakjian, Shannon McWeeney, Robert Hitzemann. Research Society on Alcoholism Annual Meeting. 2009.
 
@@ -141,29 +141,31 @@ System Dynamics, Agent Based Modeling, Discrete Multivariate Modeling, Systems B
 
 **TEACHING EXPERIENCE**
 
-1. R-Bootcamp. Massive Open Online Course available at: [http://dx.doi.org/10.5281/zenodo.13756](http://dx.doi.org/10.5281/zenodo.13756)
+1. Analytics Course. Instructor. Hybrid Online/On-campus joint course with DMICE and Kaiser Permanente Analytics group. August 2015.
 
-2. [List Comprehensions in Python](https://www.dropbox.com/s/1my6l8diprnzg4n/lecture_slides_day7_2012-laderas.pptx?dl=0). Lecture given for Bioinformatics Programming and Scripting Course, Fall 2012.
+2. R-Bootcamp. Massive Open Online Course available at: [http://dx.doi.org/10.5281/zenodo.13756](http://dx.doi.org/10.5281/zenodo.13756). With contributions from Eric Leung, Dian Chase, Tracy Edinger, Clint Olson and Gabrielle Chonoo.
 
-3. [Introduction to Unit Testing](https://www.dropbox.com/s/jdgbb07xydmxah5/lecture_slides_day10_1027-laderas.pdf?dl=0). Lecture given for Bioinformatics Programming and Scripting Course, Fall 2012.
+3. [List Comprehensions in Python](https://www.dropbox.com/s/1my6l8diprnzg4n/lecture_slides_day7_2012-laderas.pptx?dl=0). Lecture given for Bioinformatics Programming and Scripting Course, Fall 2012.
 
-4. Introduction to Numerical Python (NumPy). Lecture given for Bioinformatics Programming and Scripting Course, Fall 2012.
+4. [Introduction to Unit Testing](https://www.dropbox.com/s/jdgbb07xydmxah5/lecture_slides_day10_1027-laderas.pdf?dl=0). Lecture given for Bioinformatics Programming and Scripting Course, Fall 2012.
 
-5. Introduction to SciPy.  Lectures given for Bioinformatics Programming and Scripting Course, Fall 2012.
+5. Introduction to Numerical Python (NumPy). Lecture given for Bioinformatics Programming and Scripting Course, Fall 2012.
 
-6. An Introduction to ODE Models. Lecture given for Systems Biology Class, 2012.
+6. Introduction to SciPy.  Lectures given for Bioinformatics Programming and Scripting Course, Fall 2012.
 
-7. [Integrating Data for Systems Biology](https://www.dropbox.com/s/ksnogpxoh22eit8/IntegratingDataforSystemsBiology.pptx?dl=0).  Lecture given for Systems Biology Class, 2012.
+7. An Introduction to ODE Models. Lecture given for Systems Biology Class, 2012.
 
-8. [Bayesian Networks](https://www.dropbox.com/s/xab61u1jo9y9io9/bayesnets-new-laderas.pptx?dl=0).  Lecture given for Statistical Methods in Bioinformatics Class, 2011.
+8. [Integrating Data for Systems Biology](https://www.dropbox.com/s/ksnogpxoh22eit8/IntegratingDataforSystemsBiology.pptx?dl=0).  Lecture given for Systems Biology Class, 2012.
 
-9. [Gibbs Samplers](https://www.dropbox.com/s/r2j0oi1madn0t1s/GibbsSampler-laderas.pptx?dl=0). Lecture given for Statistical Methods in Bioinformatics Class, 2011.
+9. [Bayesian Networks](https://www.dropbox.com/s/xab61u1jo9y9io9/bayesnets-new-laderas.pptx?dl=0).  Lecture given for Statistical Methods in Bioinformatics Class, 2011.
 
-10. Workshop on Strings and Matrices in R. Workshop given for Statistical Methods in Bioinformatics class. 2011.
+10. [Gibbs Samplers](https://www.dropbox.com/s/r2j0oi1madn0t1s/GibbsSampler-laderas.pptx?dl=0). Lecture given for Statistical Methods in Bioinformatics Class, 2011.
 
-11. Introduction to R Workshop. Workshop given for Statistical Methods in Bioinformatics class. 2011.
+11. Workshop on Strings and Matrices in R. Workshop given for Statistical Methods in Bioinformatics class. 2011.
 
-12. Lab: Using Consense-Cluster to explore the Bittner dataset. Laboratory given as part of Microarray Analysis Course, OHSU, 2006.
+12. Introduction to R Workshop. Workshop given for Statistical Methods in Bioinformatics class. 2011.
+
+13. Lab: Using Consense-Cluster to explore the Bittner dataset. Laboratory given as part of Microarray Analysis Course, OHSU, 2006.
 
 **EXPERIENCE**
 
