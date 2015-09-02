@@ -31,29 +31,27 @@ System Dynamics, Agent Based Modeling, Discrete Multivariate Modeling, Systems B
 
 1. A Network-Based Model of Oncogenic Collaboration to Predict Drug Sensitivity. **Ted Laderas**, Laura Heiser and Kemal Sonmez. In press, submitted to Molecular Systems Biology.
 
-2. The Consensus Molecular Subtypes of Colorectal Cancer. Justin Guinney, Rodrigo Dienstmann, Xin Wang, Aurélien de Reyniès, Andreas Schlicker, Charlotte Soneson, Laetitia Marisa, Paul Roepman, Gift Nyamundanda, Paolo Angelino, Brian M. Bot, Jeffrey S. Morris, Iris Simon, Sarah Gerster, Evelyn Fessler, Felipe de Sousa e Melo, Edoardo Missiaglia, Hena Ramay, David Barras, Krisztian Homicsko, Dipen Maru, Ganiraju C. Manyam, Bradley Broom, Valerie Boige, **Ted Laderas**, Ramon Salazar, Joe W. Gray, Douglas Hanahan, Josep Tabernero, Rene Bernards, Stephen H. Friend, Pierre Laurent-Puig, Jan P. Medema, Anguraj Sadanandam, Lodewyk Wessels, Mauro Delorenzi, Scott Kopetz, Louis Vermeulen, and Sabine Tejpar. Manuscript submitted to Nature Medicine.
+2. The Consensus Molecular Subtypes of Colorectal Cancer. Justin Guinney, Rodrigo Dienstmann, Xin Wang, Aurélien de Reyniès, Andreas Schlicker, Charlotte Soneson, Laetitia Marisa, Paul Roepman, Gift Nyamundanda, Paolo Angelino, Brian M. Bot, Jeffrey S. Morris, Iris Simon, Sarah Gerster, Evelyn Fessler, Felipe de Sousa e Melo, Edoardo Missiaglia, Hena Ramay, David Barras, Krisztian Homicsko, Dipen Maru, Ganiraju C. Manyam, Bradley Broom, Valerie Boige, **Ted Laderas**, Ramon Salazar, Joe W. Gray, Douglas Hanahan, Josep Tabernero, Rene Bernards, Stephen H. Friend, Pierre Laurent-Puig, Jan P. Medema, Anguraj Sadanandam, Lodewyk Wessels, Mauro Delorenzi, Scott Kopetz, Louis Vermeulen, and Sabine Tejpar. Manuscript submitted to Nature Medicine. Provisionally Accepted.
 
-3. Between Pathways and Networks lies Context. **Ted Laderas** and Shannon McWeeney. Review paper submitted to Science Progress. In press.
+3. Between Pathways and Networks lies Context. **Ted Laderas**, Guanming Wu, and Shannon McWeeney. Science Progress. 2015. [doi:10.3184/003685015X14368898634462](http://dx.doi.org/10.3184/003685015X14368898634462)
 
-4. Computational detection of alternative exon usage. **Ted Laderas**, Nicole A Walter, Michael Mooney, Kristina Vartanian, Priscila Darakjian, Kari Buck, Chris Harrington, John Belknap, Robert Hitzemann, and Shannon McWeeney. Frontiers in Neurogenomics. 2011. Article 69. PMID 21625610
+4. Computational detection of alternative exon usage. **Ted Laderas**, Nicole A Walter, Michael Mooney, Kristina Vartanian, Priscila Darakjian, Kari Buck, Chris Harrington, John Belknap, Robert Hitzemann, and Shannon McWeeney. Frontiers in Neurogenomics. 2011. Article 69. PMID 21625610 [doi:10.3389/fnins.2011.00069](http://dx.doi.org/10.3389/fnins.2011.00069)
 
-5. High throughput sequencing in mice: a platform comparison identifies a preponderance of cryptic SNPs. Nicole A Walter, Daniel Bottomly, **Ted Laderas**, Michael Mooney, Priscila Darakjian, Robert P Searles, Christina Harrington, Shannon K McWeeney, Robert Hitzemann, Kari J Buck. BMC Genomics. 2009 Aug 17;10:379.
+5. High throughput sequencing in mice: a platform comparison identifies a preponderance of cryptic SNPs. Nicole A Walter, Daniel Bottomly, **Ted Laderas**, Michael Mooney, Priscila Darakjian, Robert P Searles, Christina Harrington, Shannon K McWeeney, Robert Hitzemann, Kari J Buck. BMC Genomics. 2009 Aug 17;10:379. [doi:10.1186/1471-2164-10-379](http://dx.doi.org/10.1186/1471-2164-10-379)
 
-6. Cross-platform Gene Expression Concordance Evaluation: A Tale of Mappings, Masks and Mice. Michael Mooney, **Ted Laderas**, Nicole A Walter, Kristina Vartanian, Priscila Darakjian, Kari Buck, Chris Harrington, John Belknap, Robert Hitzemann, and Shannon McWeeney.  In press.
+6. TandTRAQ: An open-source tool for integrated protein identification and quantitation. **Ted Laderas** , Cory Bystrom, Debra McMillen, Guang Fan and Shannon McWeeney.  Bioinformatics. 2007. [doi:10.1093/bioinformatics/btm467](http://dx.doi.org/10.1093/bioinformatics/btm467)
 
-7. TandTRAQ: An open-source tool for integrated protein identification and quantitation. **Ted Laderas** , Cory Bystrom, Debra McMillen, Guang Fan and Shannon McWeeney.  Bioinformatics. 2007.
+7. A consensus framework for exploring microarray data using multiple clustering methods. **Ted Laderas** and Shannon McWeeney. OMICS: A Journal of Integrative Biology. OMICS: A Journal of Integrative Biology. 2007. 116-128. [doi:10.1089/omi.2006.0008](http://dx.doi.org/10.1089/omi.2006.0008)
 
-8. A consensus framework for clustering microarray data. **Ted Laderas** and Shannon McWeeney. OMICS: A Journal of Integrative Biology. OMICS: A Journal of Integrative Biology. 2007. 116-128.
+8. Developing and Validating a Tool to Compare Microarray Clusterings. Masters Thesis, Biomedical Informatics, OHSU. 2004.
 
-9. Developing and Validating a Tool to Compare Microarray Clusterings. Masters Thesis, Biomedical Informatics, OHSU. 2004.
+9. The Melting of Pulmonary Surfactant Monolayers. Wen-fei Yan, Samir C Biswas, **Ted Laderas** , Stephen B. Hall. Journal of Applied Physiology. 2006. 1739-45. [doi:10.1152/japplphysiol.00948.2006](http://dx.doi.org/10.1152/japplphysiol.00948.2006)
 
-10. The Melting of Pulmonary Surfactant Monolayers. Wen-fei Yan, Samir C Biswas, **Ted Laderas** , Stephen B. Hall. Journal of Applied Physiology. 2006. 1739-45.
+10. Metastability of a Supercompressed Fluid Monolayer. Ethan C. Smith, Jonathan M. Crane, **Ted G. Laderas**, and Stephen B. Hall. Biophysical Journal. 2003. 853048-57. [doi:10.1016/S0006-3495(03)74723-7](http://dx.doi.org/10.1016/S0006-3495(03)74723-7)
 
-11. Metastability of a supercompressed fluid monolayer. Ethan C. Smith, Jonathan M. Crane, **Ted G. Laderas**, and Stephen B. Hall. Biophysical Journal. 2003. 853048-57.
+11. Persistence of Metastability after Expansion of a Supercompressed Fluid Monolayer. Ethan C. Smith, **Ted G. Laderas**, Jonathan M. Crane, and Stephen B. Hall. Langmuir. 2004. 204945 - 4953. [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3520514/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3520514/)
 
-12. Persistence of Metastability after Expansion of a Supercompressed Fluid Monolayer. Ethan C. Smith, **Ted G. Laderas**, Jonathan M. Crane, and Stephen B. Hall. Langmuir. 2004. 204945 - 4953.
-
-13. Resonance-Raman Spectroscopy, Chromium Hexacarbonyl, and Me: A Tale of Intrigue. Bachelor Thesis. Reed College. 1998.
+12. Resonance-Raman Spectroscopy, Chromium Hexacarbonyl, and Me: A Tale of Intrigue. Bachelor Thesis. Reed College. 1998.
 
 **POSTERS/ABSTRACTS**
 
