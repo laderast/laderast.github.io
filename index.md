@@ -13,7 +13,7 @@ Over twelve years of bioinformatics experience, I have developed methods for low
 
 **Research Interests:**
 
-+  Heterogeneity of Cancer and Measurement using Flow Cytometry Methods
++  Phenotypic Heterogeneity of Cancer and Measurement using Flow Cytometry Methods
 +  Systems Biology of Cancer, especially oncogenic collaboration
 +  Prioritization of Combination Therapies in the treatment of cancer
 +  Integrating multi-OMICs data to understand dysregulation in cancer
@@ -24,6 +24,7 @@ Over twelve years of bioinformatics experience, I have developed methods for low
 
 + [R-Bootcamp](https://www.coursesites.com/s/_Rbootcamp) - an MOOC (Massively Open Online Course) for teaching the basics of data manipulation in R (Coursesites registration required)
 + [BioDSP](http://biodsp.slack.com) - Bioinformatics for Students and Postdocs - a student and postdoc driven discussion group at OHSU that focuses on practical skills (documentation, software engineering and visualization) necessary for success.
++ Instructor for Analytics Course (Hybrid course co-taught with Kaiser Permanente Data & Information Management Enhancement group)
 + Developing training modules for translating Big Data to Knowledge ([BD2K](http://datascience.nih.gov/bd2k)).
 
 **Software Development:**
