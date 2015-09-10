@@ -23,7 +23,7 @@ Over twelve years of bioinformatics experience, I have developed methods for low
 **Teaching and Mentoring Interests:**
 
 + [R-Bootcamp](https://www.coursesites.com/s/_Rbootcamp) - an MOOC (Massively Open Online Course) for teaching the basics of data manipulation in R (Coursesites registration required)
-+ [Shiny Tutorial](https://www.dropbox.com/s/5ceg6wdrustjoae/tutorialApp.zip) - A do it yourself tutorial to try out Shiny, ggplot2, and dplyr of interactive graphics.
++ [Shiny Tutorial](https://www.dropbox.com/s/5ceg6wdrustjoae/tutorialApp.zip) - A do it yourself tutorial to try out Shiny, ggplot2, and dplyr for interactive graphics.
 + [BioDSP](http://biodsp.slack.com) - Bioinformatics for Students and Postdocs - a student and postdoc driven discussion group at OHSU that focuses on practical skills (documentation, software engineering and visualization) necessary for success.
 + Instructor for Analytics Course (Hybrid course co-taught with Kaiser Permanente Data & Information Management Enhancement group)
 + Developing training modules for translating Big Data to Knowledge ([BD2K](http://datascience.nih.gov/bd2k)).
