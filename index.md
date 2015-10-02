@@ -5,11 +5,11 @@ title: Homepage of Ted Laderas, PhD
 
 ![Ted Image]({{site.url}}/images/ted-headshot.jpg)
 
-I am a Postdoctoral Researcher at the [OHSU Knight Cancer Institute](http://www.ohsu.edu/xd/health/services/cancer/) and an instructor 
+I am a Postdoctoral Researcher at the [OHSU Knight Cancer Institute](http://www.ohsu.edu/xd/health/services/cancer/) and an instructor
 in the Bioinformatics and Computational Biology track in the OHSU Department of
 Medical Informatics and Clinical Epidemiology ([BCB/DMICE](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/educational-programs/dmice-programs/computational-biology.cfm)). My research focus is on the Systems Biology of Complex Diseases. I use integrative modeling approaches across OMICs types to achieve this.
 
-Over twelve years of bioinformatics experience, I have developed methods for low-level preprocessing and high-level analysis of many OMICs types, including expression (especially alternative splicing), phosphoproteomics, proteomics, and genomics. My experience in functional genomics has led me to use models such as Graphical Models and Networks to integrate these many OMICs types into building a unified picture of integrated systems-level dysregulation in complex diseases such as alcoholism and cancer. 
+Over twelve years of bioinformatics experience, I have developed methods for low-level preprocessing and high-level analysis of many OMICs types, including expression (especially alternative splicing), phosphoproteomics, proteomics, and genomics. My experience in functional genomics has led me to use models such as Graphical Models and Networks to integrate these many OMICs types into building a unified picture of integrated systems-level dysregulation in complex diseases such as alcoholism and cancer.
 
 **Research Interests:**
 
@@ -24,7 +24,7 @@ Over twelve years of bioinformatics experience, I have developed methods for low
 
 + [R-Bootcamp](https://www.coursesites.com/s/_Rbootcamp) - an MOOC (Massively Open Online Course) for teaching the basics of data manipulation in R (Coursesites registration required)
 + [Shiny Tutorial](https://www.dropbox.com/s/5ceg6wdrustjoae/tutorialApp.zip) - A do it yourself tutorial to try out Shiny, ggplot2, and dplyr for interactive graphics.
-+ [BioDSP](http://biodsp.slack.com) - Bioinformatics for Students and Postdocs - a student and postdoc driven discussion group at OHSU that focuses on practical skills (documentation, software engineering and visualization) necessary for success.
++ [BioDSP](http://biodsp.slack.com) - Bioinformatics for Students and Postdocs - a student and postdoc driven discussion group at OHSU that focuses on practical skills (documentation, software engineering and visualization) necessary for success in bioinformatics.
 + Instructor for Analytics Course (Hybrid course co-taught with Kaiser Permanente Data & Information Management Enhancement group)
 + Developing training modules for translating Big Data to Knowledge ([BD2K](http://datascience.nih.gov/bd2k)).
 
@@ -38,9 +38,9 @@ Over twelve years of bioinformatics experience, I have developed methods for low
 
 **Selected Publications:**
 
-+ Between Networks and Pathways Lies Context. **Ted Laderas**, Guanming Wu, and Shannon McWeeney. In press. 
++ [Between Networks and Pathways Lies Context.](http://journal.frontiersin.org/article/10.3389/fnins.2011.00069/abstract) **Ted Laderas**, Guanming Wu, and Shannon McWeeney. Science Progress.
 + A Network Based Model of Oncogenic Collaboration to Predict Drug Sensitivity. **Ted Laderas**, Kemal Sonmez, and Laura Heiser. In press.
-+ The Consensus Molecular Subtypes of Colorectal Cancer. Justin Guinney, Rodrigo Dienstmann, Xin Wang, Aurélien de Reyniès, Andreas Schlicker, Charlotte Soneson, Laetitia Marisa, Paul Roepman, Gift Nyamundanda, Paolo Angelino, Brian M. Bot, Jeffrey S. Morris, Iris Simon, Sarah Gerster, Evelyn Fessler, Felipe de Sousa e Melo, Edoardo Missiaglia, Hena Ramay, David Barras, Krisztian Homicsko, Dipen Maru, Ganiraju C. Manyam, Bradley Broom, Valerie Boige, **Ted Laderas**, Ramon Salazar, Joe W. Gray, Douglas Hanahan, Josep Tabernero, Rene Bernards, Stephen H. Friend, Pierre Laurent-Puig, Jan P. Medema, Anguraj Sadanandam, Lodewyk Wessels, Mauro Delorenzi, Scott Kopetz, Louis Vermeulen, and Sabine Tejpar. Manuscript submitted to Nature Medicine.
++ The Consensus Molecular Subtypes of Colorectal Cancer. Justin Guinney, Rodrigo Dienstmann, Xin Wang, Aurélien de Reyniès, Andreas Schlicker, Charlotte Soneson, Laetitia Marisa, Paul Roepman, Gift Nyamundanda, Paolo Angelino, Brian M. Bot, Jeffrey S. Morris, Iris Simon, Sarah Gerster, Evelyn Fessler, Felipe de Sousa e Melo, Edoardo Missiaglia, Hena Ramay, David Barras, Krisztian Homicsko, Dipen Maru, Ganiraju C. Manyam, Bradley Broom, Valerie Boige, **Ted Laderas**, Ramon Salazar, Joe W. Gray, Douglas Hanahan, Josep Tabernero, Rene Bernards, Stephen H. Friend, Pierre Laurent-Puig, Jan P. Medema, Anguraj Sadanandam, Lodewyk Wessels, Mauro Delorenzi, Scott Kopetz, Louis Vermeulen, and Sabine Tejpar. Nature Medicine.
 + Computational detection of alternative exon usage. **Ted Laderas**, Nicole Walter, Michael Mooney, Kristina Vartanian, Priscila Darakjian, Kari Buck, Chris Harrington, John Belknap, Robert Hitzemann, and Shannon McWeeney.  Frontiers in Neurogenomics. 2011. Article 69. PMID 21625610. In this paper, Nicole Walter and I developed a computational framework for detecting alternative exon usage between strains of mice (B6/alcohol preferring and D2/wild type).
-+ TandTRAQ: An open-source tool for integrated protein identification and quantitation. **Ted Laderas**, Cory Bystrom, Debra McMillen, Guang Fan and Shannon McWeeney.  Bioinformatics. 2007. 
++ TandTRAQ: An open-source tool for integrated protein identification and quantitation. **Ted Laderas**, Cory Bystrom, Debra McMillen, Guang Fan and Shannon McWeeney.  Bioinformatics. 2007.
 + A consensus framework for clustering microarray data. **Ted Laderas** and Shannon McWeeney. OMICS: A Journal of Integrative Biology. 2007. 116-128.

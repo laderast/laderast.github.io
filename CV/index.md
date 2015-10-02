@@ -29,11 +29,11 @@ System Dynamics, Agent Based Modeling, Discrete Multivariate Modeling, Systems B
 
 **PUBLICATIONS**
 
-1. *A Network-Based Model of Oncogenic Collaboration to Predict Drug Sensitivity*. **Ted Laderas**, Laura Heiser and Kemal Sonmez. In press, submitted to Molecular Systems Biology.
+1. *A Network-Based Model of Oncogenic Collaboration to Predict Drug Sensitivity*. **Ted Laderas**, Laura Heiser and Kemal Sonmez. In press, submitted to Frontiers in Genetics.
 
-2. *The Consensus Molecular Subtypes of Colorectal Cancer*. Justin Guinney, Rodrigo Dienstmann, Xin Wang, Aurélien de Reyniès, Andreas Schlicker, Charlotte Soneson, Laetitia Marisa, Paul Roepman, Gift Nyamundanda, Paolo Angelino, Brian M. Bot, Jeffrey S. Morris, Iris Simon, Sarah Gerster, Evelyn Fessler, Felipe de Sousa e Melo, Edoardo Missiaglia, Hena Ramay, David Barras, Krisztian Homicsko, Dipen Maru, Ganiraju C. Manyam, Bradley Broom, Valerie Boige, **Ted Laderas**, Ramon Salazar, Joe W. Gray, Douglas Hanahan, Josep Tabernero, Rene Bernards, Stephen H. Friend, Pierre Laurent-Puig, Jan P. Medema, Anguraj Sadanandam, Lodewyk Wessels, Mauro Delorenzi, Scott Kopetz, Louis Vermeulen, and Sabine Tejpar. Manuscript submitted to Nature Medicine. Provisionally Accepted.
+2. *The Consensus Molecular Subtypes of Colorectal Cancer*. Justin Guinney, Rodrigo Dienstmann, Xin Wang, Aurélien de Reyniès, Andreas Schlicker, Charlotte Soneson, Laetitia Marisa, Paul Roepman, Gift Nyamundanda, Paolo Angelino, Brian M. Bot, Jeffrey S. Morris, Iris Simon, Sarah Gerster, Evelyn Fessler, Felipe de Sousa e Melo, Edoardo Missiaglia, Hena Ramay, David Barras, Krisztian Homicsko, Dipen Maru, Ganiraju C. Manyam, Bradley Broom, Valerie Boige, **Ted Laderas**, Ramon Salazar, Joe W. Gray, Douglas Hanahan, Josep Tabernero, Rene Bernards, Stephen H. Friend, Pierre Laurent-Puig, Jan P. Medema, Anguraj Sadanandam, Lodewyk Wessels, Mauro Delorenzi, Scott Kopetz, Louis Vermeulen, and Sabine Tejpar. Nature Medicine. Provisionally Accepted.
 
-3. *Between Pathways and Networks lies Context*. **Ted Laderas**, Guanming Wu, and Shannon McWeeney. Science Progress. 2015. [doi:10.3184/003685015X14368898634462](http://dx.doi.org/10.3184/003685015X14368898634462)
+3. [*Between Pathways and Networks lies Context*](https://www.dropbox.com/s/70z4yp3k36y9bmu/laderast_between_pathways.pdf?dl=0). **Ted Laderas**, Guanming Wu, and Shannon McWeeney. Science Progress. 2015. [doi:10.3184/003685015X14368898634462](http://dx.doi.org/10.3184/003685015X14368898634462)
 
 4. *Computational detection of alternative exon usage*. **Ted Laderas**, Nicole A Walter, Michael Mooney, Kristina Vartanian, Priscila Darakjian, Kari Buck, Chris Harrington, John Belknap, Robert Hitzemann, and Shannon McWeeney. Frontiers in Neurogenomics. 2011. Article 69. PMID 21625610 [doi:10.3389/fnins.2011.00069](http://dx.doi.org/10.3389/fnins.2011.00069)
 
