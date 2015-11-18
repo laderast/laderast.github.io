@@ -139,31 +139,35 @@ System Dynamics, Agent Based Modeling, Discrete Multivariate Modeling, Systems B
 
 **TEACHING EXPERIENCE**
 
-1. *Analytics Course*. Instructor. Hybrid Online/On-campus joint course with DMICE and Kaiser Permanente Analytics group. August 2015.
+1. *[Shiny Tutorial](https://www.dropbox.com/s/5ceg6wdrustjoae/tutorialApp.zip)* - A do it yourself tutorial to try out Shiny, ggplot2, and dplyr for interactive graphics.
 
-2. *R-Bootcamp*. Massive Open Online Course available at: [http://dx.doi.org/10.5281/zenodo.13756](http://dx.doi.org/10.5281/zenodo.13756). With contributions from Eric Leung, Dian Chase, Tracy Edinger, Clint Olson and Gabrielle Chonoo.
+2. *[Exacloud Tutorial](https://www.dropbox.com/s/chg6ciknxonp5el/exacloud-tutorial.pdf)* - A DIY tutorial to running jobs on Exacloud, OHSU's cluster computing environment.
 
-3. *[List Comprehensions in Python](https://www.dropbox.com/s/1my6l8diprnzg4n/lecture_slides_day7_2012-laderas.pptx?dl=0)*. Lecture given for Bioinformatics Programming and Scripting Course, Fall 2012.
+3. *Analytics Course*. Instructor. Hybrid Online/On-campus joint course with DMICE and Kaiser Permanente Analytics group. August 2015.
 
-4. *[Introduction to Unit Testing](https://www.dropbox.com/s/jdgbb07xydmxah5/lecture_slides_day10_1027-laderas.pdf?dl=0)*. Lecture given for Bioinformatics Programming and Scripting Course, Fall 2012.
+4. *R-Bootcamp*. Massive Open Online Course available at: [http://dx.doi.org/10.5281/zenodo.13756](http://dx.doi.org/10.5281/zenodo.13756). With contributions from Eric Leung, Dian Chase, Tracy Edinger, Clint Olson and Gabrielle Chonoo.
 
-5. *Introduction to Numerical Python (NumPy).* Lecture given for Bioinformatics Programming and Scripting Course, Fall 2012.
+5. *[List Comprehensions in Python](https://www.dropbox.com/s/1my6l8diprnzg4n/lecture_slides_day7_2012-laderas.pptx?dl=0)*. Lecture given for Bioinformatics Programming and Scripting Course, Fall 2012.
 
-6. *Introduction to SciPy.* Lectures given for Bioinformatics Programming and Scripting Course, Fall 2012.
+6. *[Introduction to Unit Testing](https://www.dropbox.com/s/jdgbb07xydmxah5/lecture_slides_day10_1027-laderas.pdf?dl=0)*. Lecture given for Bioinformatics Programming and Scripting Course, Fall 2012.
 
-7. *An Introduction to ODE Models.* Lecture given for Systems Biology Class, 2012.
+7. *Introduction to Numerical Python (NumPy).* Lecture given for Bioinformatics Programming and Scripting Course, Fall 2012.
 
-8. *[Integrating Data for Systems Biology](https://www.dropbox.com/s/ksnogpxoh22eit8/IntegratingDataforSystemsBiology.pptx?dl=0)*.  Lecture given for Systems Biology Class, 2012.
+8. *Introduction to SciPy.* Lectures given for Bioinformatics Programming and Scripting Course, Fall 2012.
 
-9. *[Bayesian Networks](https://www.dropbox.com/s/xab61u1jo9y9io9/bayesnets-new-laderas.pptx?dl=0)*. Lecture given for Statistical Methods in Bioinformatics Class, 2011.
+9. *An Introduction to ODE Models.* Lecture given for Systems Biology Class, 2012.
 
-10. *[Gibbs Samplers](https://www.dropbox.com/s/r2j0oi1madn0t1s/GibbsSampler-laderas.pptx?dl=0)*. Lecture given for Statistical Methods in Bioinformatics Class, 2011.
+10. *[Integrating Data for Systems Biology](https://www.dropbox.com/s/ksnogpxoh22eit8/IntegratingDataforSystemsBiology.pptx?dl=0)*.  Lecture given for Systems Biology Class, 2012.
 
-11. *Workshop on Strings and Matrices in R*. Workshop given for Statistical Methods in Bioinformatics class. 2011.
+11. *[Bayesian Networks](https://www.dropbox.com/s/xab61u1jo9y9io9/bayesnets-new-laderas.pptx?dl=0)*. Lecture given for Statistical Methods in Bioinformatics Class, 2011.
 
-12. *Introduction to R Workshop.* Workshop given for Statistical Methods in Bioinformatics class. 2011.
+12. *[Gibbs Samplers](https://www.dropbox.com/s/r2j0oi1madn0t1s/GibbsSampler-laderas.pptx?dl=0)*. Lecture given for Statistical Methods in Bioinformatics Class, 2011.
 
-13. *Lab: Using Consense-Cluster to explore the Bittner dataset.* Laboratory given as part of Microarray Analysis Course, OHSU, 2006.
+13. *Workshop on Strings and Matrices in R*. Workshop given for Statistical Methods in Bioinformatics class. 2011.
+
+14. *Introduction to R Workshop.* Workshop given for Statistical Methods in Bioinformatics class. 2011.
+
+15. *Lab: Using Consense-Cluster to explore the Bittner dataset.* Laboratory given as part of Microarray Analysis Course, OHSU, 2006.
 
 **EXPERIENCE**
 
