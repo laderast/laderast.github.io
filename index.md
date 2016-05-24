@@ -32,7 +32,7 @@ I have developed a number of self-directed training materials for learning R and
 + [igraph Tutorial](https://github.com/laderast/igraphTutorial) - Another tutorial, this time on network analysis using the igraph package.
 + [Exacloud Tutorial](https://www.dropbox.com/s/chg6ciknxonp5el/exacloud-tutorial.pdf) - A DIY tutorial to running jobs on Exacloud, OHSU's cluster computing environment.
 
-As an instructor under OHSU's [Big Data To Knowledge (BD2K)](http://ohsu.edu/BD2K) Training Grant, I have also developed the following short workshops.
+As an instructor under OHSU's [Big Data To Knowledge (BD2K)](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/research/bd2k.cfm) Training Grant, I have also developed the following short workshops.
 
 + [Exploratory Data Analysis Using Shiny](https://github.com/laderast/shinyEDA) - A Tutorial and slides about doing exploratory data analysis with a Shiny Dashboard
 + [Machine Learning Using RMarkdown](https://github.com/laderast/MLtutorial) - A tutorial about Machine Learning and Reproducible Scripting and Workflows.
