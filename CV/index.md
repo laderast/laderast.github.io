@@ -23,6 +23,24 @@ B.A., Chemistry, Reed College, Portland, OR 1998.
 M.S. Biomedical Informatics, Oregon Health & Science University (OHSU), 2004.  
 PhD, Biomedical Informatics, Oregon Health & Science University, 2014.  
 
+**SKILLS**
+
+* Project Management
+* Education and Training
+* Communication Skills
+* Cross-Disciplinary Collaboration
+* Problem Solving
+* Grace Under Fire
+* Statistical Analysis and Interpretation
+* Statistical Programming
+* Statistical Method Development
+* Systems Biology
+* Systems Modeling
+* Integrative Analysis of Multiple Data Types
+* Knowledge Synthesis
+* Software Documentation
+* Interactive Visualization for Communication
+
 _Relevant Coursework_:
 
 System Dynamics, Agent Based Modeling, Discrete Multivariate Modeling, Systems Biology, Biological Simulation, Systems Theory, Discrete Systems Simulation, Genetic Mechanisms, Development, Differentiation, and Cancer. Biochemical Structure and Function, Enzymology and Metabolism, Research Methods in Bioinformatics, Statistical Methods in Bioinformatics, Nucleic Acids and Information Flow, Advanced R/Bioconductor Programming, Introduction to Microarray Analysis, Intro to Computational Biology, Computational Biology, Bioinformatics I: Intro to Bioinformatics, Bioinformatics II: Topics in Bioinformatics, Bioinformatics III: Software Development in Bioinformatics, Machine Learning, Advanced Java Programming, Databases, Research Design
@@ -266,6 +284,16 @@ _Project Management_
 **Managed** and **produced** project deliverables for 3 caBIG applications.  Developed documentation, test plans, project time, assigned tasks for 3 different people, managed deliverable timeline. _Result_: all deliverables were approved and delivered within assigned timeframe.
 
 _Academic_
+
+**Taught Analytics Course**.
+
+**Taught students in Big Data To Knowledge (BD2K)**.
+
+**Developed R-Bootcamp Self Directed Course**.
+
+**Developed Workshops in Interactive Visualization**. Taught
+
+**Developed Training Workshop in Cluster Computing**.
 
 **Founded student discussion group for bioinformatics students and postdocs**. Discussion group is now active and students are more actively enaged.
 

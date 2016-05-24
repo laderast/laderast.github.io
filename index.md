@@ -22,16 +22,29 @@ Over twelve years of bioinformatics experience, I have developed methods for low
 
 **Teaching and Mentoring Interests:**
 
-+ [R-Bootcamp](https://www.coursesites.com/s/_Rbootcamp) - an MOOC (Massively Open Online Course) for teaching the basics of data manipulation in R (Coursesites registration required)
-+ [Shiny Tutorial](https://www.dropbox.com/s/5ceg6wdrustjoae/tutorialApp.zip) - A do it yourself tutorial to try out Shiny, ggplot2, and dplyr for interactive graphics.
+I have developed a number of self-directed training materials for learning R and specific packages that I've found useful. Most of these are available from my github page and may be used freely by students.
+
++ [R-Bootcamp](https://www.coursesites.com/s/_Rbootcamp) - an MOOC (Massively Open Online Course) for teaching the basics of data manipulation in R (Coursesites registration required).
++ [ggplot2 Tutorial](https://github.com/laderast/ggplot2-intro) - A gentle introduction to ggplot2 and the grammar of graphics.
++ [ggvis Tutorial](https://github.com/laderast/ggvis-intro) - A gentle introduction to ggvis, which adds extra interactivity to Shiny plots using the magic of vega.
++ [The Magic of Markdown](https://github.com/laderast/magic-of-markdown) - An introduction to the many uses of Markdown, including RMarkdown for reproducible scripting.
++ [Shiny Tutorial](https://github.com/laderast/shinyTutorial) - A do it yourself tutorial to try out Shiny, ggplot2, and dplyr for interactive graphics.
++ [igraph Tutorial](https://github.com/laderast/igraphTutorial) - Another tutorial, this time on network analysis using the igraph package.
 + [Exacloud Tutorial](https://www.dropbox.com/s/chg6ciknxonp5el/exacloud-tutorial.pdf) - A DIY tutorial to running jobs on Exacloud, OHSU's cluster computing environment.
+
+As an instructor under OHSU's [Big Data To Knowledge (BD2K)](http://ohsu.edu/BD2K) Training Grant, I have also developed the following short workshops.
+
++ [Exploratory Data Analysis Using Shiny](https://github.com/laderast/shinyEDA) - A Tutorial and slides about doing exploratory data analysis with a Shiny Dashboard
++ [Machine Learning Using RMarkdown](https://github.com/laderast/MLtutorial) - A tutorial about Machine Learning and Reproducible Scripting and Workflows.
+
+**Other Teaching Interests**
+
 + [BioDSP](http://biodsp.slack.com) - Bioinformatics for Students and Postdocs - a student and postdoc driven discussion group at OHSU that focuses on practical skills (documentation, software engineering and visualization) necessary for success in bioinformatics.
 + Instructor for Analytics Course (Hybrid course co-taught with Kaiser Permanente Data & Information Management Enhancement group)
-+ Developing training modules for translating Big Data to Knowledge ([BD2K](http://datascience.nih.gov/bd2k)).
 
 **Software Development:**
 
-+ Software Reporting for automating and visualizing CyTOF gating results.
++ Software Reporting for automating and visualizing CyTOF gating results (to be published soon).
 + [surrogateMutation](https://github.com/laderast/surrogateMutation) - a package for detecting oncogenic collaboration in somatic mutation and copy nubmer data.
 + [surrogateShiny](https://github.com/laderast/surrogateShiny) - an R/Shiny Framework for exploring oncogenic collaboration in breast cancer cell lines. [See it in action.](https://tladeras.shinyapps.io/surrogateShiny/)
 + [Consense](https://github.com/laderast/surrogateMutation) - a package for comparing clustering methods.
