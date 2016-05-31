@@ -298,8 +298,6 @@ _Project Management_
 
 **Administered** server and software for students. Managed disk quotas, balanced jobs, managed user accounts. 
 
-**Managed** student group and presentations.
-
 **Managed** and **produced** project deliverables for 3 caBIG applications.  Developed documentation, test plans, project time, assigned tasks for 3 different people, managed deliverable timeline. _Result_: all deliverables were approved and delivered within assigned timeframe.
 
 _Academic Accomplishments_
@@ -334,7 +332,7 @@ _Academic Accomplishments_
 
 _Service Accomplishments_
 
-Organized and Run BioDSP group for students and postdocs. Managed speakers, developed free workshops for students, and provided feedback for student presentations.
+**Organized** and **ran** BioDSP group for students and postdocs. Managed speakers, developed free workshops for students, and provided feedback for student presentations.
 
 Formally mentored 2 students and informally mentored 4 students.
 
