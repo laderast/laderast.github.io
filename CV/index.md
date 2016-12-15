@@ -1,18 +1,20 @@
-*Postdoctoral Researcher*\
+Ted Laderas, PhD
+
+*Postdoctoral Researcher*
 OHSU Knight Cancer Institute
 
-*Instructor*\
-Division of Bioinformatics and Computational Biology\
-Department of Medical Informatics and Clinical Epidemiology\
-Oregon Health & Science University\
-3181 SW Sam Jackson Park Road CR145 Portland, OR 97239\
+*Instructor*
+Division of Bioinformatics and Computational Biology
+Department of Medical Informatics and Clinical Epidemiology
+Oregon Health & Science University
+3181 SW Sam Jackson Park Road CR145 Portland, OR 97239
 (503) 481-8470 <laderast@ohsu.edu>
 
 **EDUCATION**
 
-B.A., Chemistry, Reed College, Portland, OR 1998.\
+B.A., Chemistry, Reed College, Portland, OR 1998.
 M.S. Biomedical Informatics, Oregon Health & Science University (OHSU),
-2004.\
+2004.
 PhD, Biomedical Informatics, Oregon Health & Science University, 2014.
 
 **RESEARCH STATEMENT**
@@ -500,7 +502,7 @@ DMICE.
 
 *Current Research Support:*
 
-No \# assigned Druker (PI) 5/1/2013-4/30/2016 The Leukemia & Lymphoma
+No # assigned Druker (PI) 5/1/2013-4/30/2016 The Leukemia & Lymphoma
 Society 
 
 Beat AML: Precision Medicine for AML Based on Functional Genomics 
@@ -513,7 +515,7 @@ and molecular drivers, 2) functionally annotating drug sensitivity, and
 3) Initiating clinical trials with combinations of drugs in refractory
 patients. Role: Computational Biologist
 
-OPP1131709 Lewinsohn, DM (PI) 10/26/2015-10/31/2018\
+OPP1131709 Lewinsohn, DM (PI) 10/26/2015-10/31/2018
 Bill & Melinda Gates Foundation 
 
 Targeting MAIT cells for TB vaccines 
@@ -523,23 +525,23 @@ targeting Mucosal Associated Invariant (MAIT) can be used to prevent
 tuberculosis (TB). Role: Computational Biologist
 
 *Instructor*, Department of Medical Informatics and Clinical
-Epidemiology. 2015-Present.\
+Epidemiology. 2015-Present.
 *NLM Postdoctoral Fellow*, Oregon Health & Science University.
-2014-2015.\
-*Visiting Scientist*, Sage Bionetworks, Seattle Washington. 2014-2015.\
+2014-2015.
+*Visiting Scientist*, Sage Bionetworks, Seattle Washington. 2014-2015.
 *NLM Predoctoral Fellow*, Medical Informatics and Clinical Epidemiology,
-Oregon Health & Science University. 2009–2014.\
+Oregon Health & Science University. 2009–2014.
 *Bioinformatics Developer/Project Manager*, OHSU Knight Cancer
-Institute, Oregon Health & Science University. 2003-2009.\
+Institute, Oregon Health & Science University. 2003-2009.
 *Teaching Assistant/Computer Programmer/Server Admin*, Department of
 Medical Informatics & Clinical Epidemiology, Oregon Health & Science
-University. 2001-2002.\
+University. 2001-2002.
 *Research Assistant/Computer Programmer*, Department of Molecular
-Medicine, Oregon Health & Science University. 1999-2001.\
+Medicine, Oregon Health & Science University. 1999-2001.
 *Research Assistant/Teaching Assistant*, Department of Chemistry, Reed
 College. 1998
 
 **AWARDS**
 
-NLM Predoctoral Fellowship. 2009-2013.\
+NLM Predoctoral Fellowship. 2009-2013.
 NLM Postdoctoral Fellowship. 2014-2015.
