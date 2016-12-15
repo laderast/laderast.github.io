@@ -1,376 +1,545 @@
----
-title: "Ted Laderas, PhD"
-output: pdf_document
-permalink: /CV/
-layout: page
----
+*Postdoctoral Researcher*\
+OHSU Knight Cancer Institute
 
-_Postdoctoral Researcher_   
-OHSU Knight Cancer Institute   
-
-_Instructor_   
-Division of Bioinformatics and Computational Biology  
-Department of Medical Informatics and Clinical Epidemiology  
-Oregon Health & Science University  
-3181 SW Sam Jackson Park Road CR145
-Portland, OR 97239  
-[laderast@ohsu.edu](mailto:laderast@ohsu.edu)  
-
-[Download a PDF version of my CV]({{site.url}}/assets/CV-laderas.pdf)
+*Instructor*\
+Division of Bioinformatics and Computational Biology\
+Department of Medical Informatics and Clinical Epidemiology\
+Oregon Health & Science University\
+3181 SW Sam Jackson Park Road CR145 Portland, OR 97239\
+(503) 481-8470 <laderast@ohsu.edu>
 
 **EDUCATION**
 
-B.A., Chemistry, Reed College, Portland, OR 1998.  
-M.S. Biomedical Informatics, Oregon Health & Science University (OHSU), 2004.  
-PhD, Biomedical Informatics, Oregon Health & Science University, 2014.  
+B.A., Chemistry, Reed College, Portland, OR 1998.\
+M.S. Biomedical Informatics, Oregon Health & Science University (OHSU),
+2004.\
+PhD, Biomedical Informatics, Oregon Health & Science University, 2014.
+
+**RESEARCH STATEMENT**
+
+My research interests are complex diseases, precision medicine,
+applications of systems science (including network analysis and
+modeling), and applying data integration to difficult and high-impact
+translational research questions. These questions include immune system
+profiling in both infectious disease and Acute Myeloid Leukemia,
+understanding drug sensitivity in the context of multiple cancer types
+(AML, Colorectal, Breast and Head and Neck Cancer), and quantifying
+expression differences in alcoholic preference. I have worked with a
+large number of datatypes (high-throughput immunophenotyping,
+proteomics, expression, genomic, and functional drug screen data) and
+have focused on methods and frameworks integrating these datatypes
+within the biological and clinical context of these translational
+research questions. My training in biomedical informatics as a master’s
+student in Biomedical Informatics, as an NLM Predoctoral Fellow, and as
+a NLM Postdoctoral fellow has enabled me to communicate with a wide
+variety of collaborators by giving me a strong background in Cancer
+Biology, Software Development, and Clinical Systems. Additionally, I am
+a strong supporter of Open Science initiatives, most notably the effort
+for reproducibility in scientific analysis. To this end, I have
+developed multiple novel software pipelines that transparently process
+data from raw data to through the final stages of analysis.
+
+**SELECTED RESEARCH PUBLICATIONS**
+
+1.  *Probabilistic Graphical Models for Systems Biology*. **Ted
+    Laderas**, Aurora Blucher, Guanming Wu and Shannon McWeeney.
+    Awaiting submission. Contribution: first author and conception
+    of manuscript.
+
+2.  [*A Network-Based Model of Oncogenic Collaboration to Predict Drug
+    Sensitivity*.](http://journal.frontiersin.org/article/10.3389/fgene.2015.00341/abstract)
+    **Ted Laderas**, Laura Heiser and Kemal Sonmez. Featured article in
+    Frontiers in Genetics. 2015. Contribution: First author, developer
+    of methodology and visualization framework.
+
+3.  [*The Consensus Molecular Subtypes of Colorectal
+    Cancer*.](https://www.dropbox.com/s/p92dn5buctlyqpc/nm.3967.pdf?dl=0)
+    123 citations, Impact Factor 30.36. Justin Guinney, Rodrigo
+    Dienstmann, Xin Wang, Aurélien de Reyniès, Andreas Schlicker,
+    Charlotte Soneson, Laetitia Marisa, Paul Roepman, Gift Nyamundanda,
+    Paolo Angelino, Brian M. Bot, Jeffrey S. Morris, Iris Simon, Sarah
+    Gerster, Evelyn Fessler, Felipe de Sousa e Melo, Edoardo Missiaglia,
+    Hena Ramay, David Barras, Krisztian Homicsko, Dipen Maru,
+    Ganiraju C. Manyam, Bradley Broom, Valerie Boige, **Ted Laderas**,
+    Ramon Salazar, Joe W. Gray, Douglas Hanahan, Josep Tabernero, Rene
+    Bernards, Stephen H. Friend, Pierre Laurent-Puig, Jan P. Medema,
+    Anguraj Sadanandam, Lodewyk Wessels, Mauro Delorenzi, Scott Kopetz,
+    Louis Vermeulen, and Sabine Tejpar. Nature Medicine. 2015.
+    Contribution: mapped OMICs types to consensus cancer subtypes.
+
+4.  [*Between Pathways and Networks lies
+    Context*](https://www.dropbox.com/s/70z4yp3k36y9bmu/laderast_between_pathways.pdf?dl=0).
+    Impact Factor: 1.76. **Ted Laderas**, Guanming Wu, and
+    Shannon McWeeney. Science Progress. 2015. Contribution: first
+    author, conceptualized and wrote manuscript.
+    [doi:10.3184/003685015X14368898634462](http://dx.doi.org/10.3184/003685015X14368898634462)
+
+5.  [*Computational detection of alternative exon
+    usage*.](https://www.dropbox.com/s/t9ic1rpirja4xqv/computational-exon-laderas.pdf?dl=0)
+    8 citations, Impact Factor: 3.398. **Ted Laderas**, Nicole A Walter,
+    Michael Mooney, Kristina Vartanian, Priscila Darakjian, Kari Buck,
+    Chris Harrington, John Belknap, Robert Hitzemann, and
+    Shannon McWeeney. Frontiers in Neurogenomics. 2011. Article 69.
+    PMID 21625610. Contribution: First author, developer of methodology.
+    [doi:10.3389/fnins.2011.00069](http://dx.doi.org/10.3389/fnins.2011.00069)
+
+6.  [*High throughput sequencing in mice: a platform comparison
+    identifies a preponderance of cryptic
+    SNPs*.](https://www.dropbox.com/s/2v0h7ufxu1664yt/preponderance-SNPs-walter-laderas.pdf?dl=0)
+    19 Citations, Impact Factor 3.87. Nicole A Walter, Daniel Bottomly,
+    **Ted Laderas**, Michael Mooney, Priscila Darakjian, Robert P
+    Searles, Christina Harrington, Shannon K McWeeney, Robert Hitzemann,
+    Kari J Buck. BMC Genomics. 2009 Aug 17;10:379. Contribution: helped
+    develop methodology of manuscript, conceptualization.
+    [doi:10.1186/1471-2164-10-379](http://dx.doi.org/10.1186/1471-2164-10-379)
+
+7.  *TandTRAQ: An open-source tool for integrated protein identification
+    and quantitation*. 14 citations, Impact Factor 5.766. **Ted
+    Laderas**, Cory Bystrom, Debra McMillen, Guang Fan and
+    Shannon McWeeney. Bioinformatics. 2007. Contribution: first author,
+    designed software framework.
+    [doi:10.1093/bioinformatics/btm467](http://dx.doi.org/10.1093/bioinformatics/btm467)
+
+8.  [*A consensus framework for exploring microarray data using multiple
+    clustering
+    methods*.](https://www.dropbox.com/s/v56bomf1ijhmds3/Laderas_McWeeney07.pdf?dl=0)
+    16 citations. **Ted Laderas** and Shannon McWeeney. OMICS: A Journal
+    of Integrative Biology. OMICS: A Journal of Integrative Biology.
+    2007. 116-128. Contribution: first author, developed methodology for
+    comparison analysis.
+    [doi:10.1089/omi.2006.0008](http://dx.doi.org/10.1089/omi.2006.0008)
+
+**RESEARCH SOFTWARE (Sole Developer unless specified)**
+
+1.  *flowDashboard*. Visualization framework in R/Shiny and processing
+    pipeline for CyTOF and flow cytometry data. Currently under embargo,
+    waiting publication and submission.
 
-**SKILLS**
+2.  *Surrogate Network Explorer for Head and Neck Cancer*. Interactive
+    visualization framework for understanding network effects in Head
+    and Neck cancer. Awaiting validation, publication, and submission.
 
-* Project Management
-* Education and Training
-* Effective Communication 
-* Interactive Visualization for Communication
-* Cross-Disciplinary Collaboration
-* Problem Solving
-* Statistical Analysis and Interpretation
-* Statistical Programming
-* Statistical Method Development
-* Systems Modeling
-* Integrative Systems Biology
-* Knowledge Synthesis
-* Software Documentation
+3.  *R-Bootcamp: Introduction to R*. Script-based introductory MOOC
+    to R. With contributions from Eric Leung, Dian Chase, Tracy Edinger,
+    Clint Olson, and Gabrielle Chonoo.
+    <http://dx.doi.org/10.5281/zenodo.13756>
 
-**PUBLICATIONS**
+4.  *Surrogate Mutation Explorer*. R/Shiny Interactive Application for
+    exploring surrogate mutations.
+    <http://dx.doi.org/10.5281/zenodo.13757>
 
-1. *Probabilistic Graphical Models for Systems Biology*. **Ted Laderas**, Aurora Blucher, Guanming Wu and Shannon McWeeney. Awaiting submission.
+5.  *SurrogateMutation*. R Package for mapping mutations and copy number
+    alterations to networks and associated statistics.
+    <http://dx.doi.org/10.5281/zenodo.17303>
+
+6.  *Consense-Cluster*. R Package for comparing clustering output
+    across algorithms. <http://dx.doi.org/10.5281/zenodo.17304>
 
-2. [*A Network-Based Model of Oncogenic Collaboration to Predict Drug Sensitivity*.](http://journal.frontiersin.org/article/10.3389/fgene.2015.00341/abstract) **Ted Laderas**, Laura Heiser and Kemal Sonmez. Frontiers in Genetics. 2015.
-
-3. [*The Consensus Molecular Subtypes of Colorectal Cancer*.](https://www.dropbox.com/s/p92dn5buctlyqpc/nm.3967.pdf?dl=0) Justin Guinney, Rodrigo Dienstmann, Xin Wang, Aurélien de Reyniès, Andreas Schlicker, Charlotte Soneson, Laetitia Marisa, Paul Roepman, Gift Nyamundanda, Paolo Angelino, Brian M. Bot, Jeffrey S. Morris, Iris Simon, Sarah Gerster, Evelyn Fessler, Felipe de Sousa e Melo, Edoardo Missiaglia, Hena Ramay, David Barras, Krisztian Homicsko, Dipen Maru, Ganiraju C. Manyam, Bradley Broom, Valerie Boige, **Ted Laderas**, Ramon Salazar, Joe W. Gray, Douglas Hanahan, Josep Tabernero, Rene Bernards, Stephen H. Friend, Pierre Laurent-Puig, Jan P. Medema, Anguraj Sadanandam, Lodewyk Wessels, Mauro Delorenzi, Scott Kopetz, Louis Vermeulen, and Sabine Tejpar. Nature Medicine. 2015.
-
-4. [*Between Pathways and Networks lies Context*](https://www.dropbox.com/s/70z4yp3k36y9bmu/laderast_between_pathways.pdf?dl=0). **Ted Laderas**, Guanming Wu, and Shannon McWeeney. Science Progress. 2015. [doi:10.3184/003685015X14368898634462](http://dx.doi.org/10.3184/003685015X14368898634462)
-
-5. [*Computational detection of alternative exon usage*.](https://www.dropbox.com/s/t9ic1rpirja4xqv/computational-exon-laderas.pdf?dl=0) **Ted Laderas**, Nicole A Walter, Michael Mooney, Kristina Vartanian, Priscila Darakjian, Kari Buck, Chris Harrington, John Belknap, Robert Hitzemann, and Shannon McWeeney. Frontiers in Neurogenomics. 2011. Article 69. PMID 21625610 [doi:10.3389/fnins.2011.00069](http://dx.doi.org/10.3389/fnins.2011.00069)
-
-6. [*High throughput sequencing in mice: a platform comparison identifies a preponderance of cryptic SNPs*.](https://www.dropbox.com/s/2v0h7ufxu1664yt/preponderance-SNPs-walter-laderas.pdf?dl=0) Nicole A Walter, Daniel Bottomly, **Ted Laderas**, Michael Mooney, Priscila Darakjian, Robert P Searles, Christina Harrington, Shannon K McWeeney, Robert Hitzemann, Kari J Buck. BMC Genomics. 2009 Aug 17;10:379. [doi:10.1186/1471-2164-10-379](http://dx.doi.org/10.1186/1471-2164-10-379)
-
-7. *TandTRAQ: An open-source tool for integrated protein identification and quantitation*. **Ted Laderas** , Cory Bystrom, Debra McMillen, Guang Fan and Shannon McWeeney.  Bioinformatics. 2007. [doi:10.1093/bioinformatics/btm467](http://dx.doi.org/10.1093/bioinformatics/btm467)
-
-8. [*A consensus framework for exploring microarray data using multiple clustering methods*.](https://www.dropbox.com/s/v56bomf1ijhmds3/Laderas_McWeeney07.pdf?dl=0) **Ted Laderas** and Shannon McWeeney. OMICS: A Journal of Integrative Biology. OMICS: A Journal of Integrative Biology. 2007. 116-128. [doi:10.1089/omi.2006.0008](http://dx.doi.org/10.1089/omi.2006.0008)
-
-9. *Developing and Validating a Tool to Compare Microarray Clusterings*. Masters Thesis, Biomedical Informatics, OHSU. 2004.
-
-10. *The Melting of Pulmonary Surfactant Monolayers*. Wen-fei Yan, Samir C Biswas, **Ted Laderas**, Stephen B. Hall. Journal of Applied Physiology. 2006. 1739-45. [doi:10.1152/japplphysiol.00948.2006](http://dx.doi.org/10.1152/japplphysiol.00948.2006)
-
-11. *Metastability of a Supercompressed Fluid Monolayer*. Ethan C. Smith, Jonathan M. Crane, **Ted G. Laderas**, and Stephen B. Hall. Biophysical Journal. 2003. 853048-57. [doi:10.1016/S0006-3495(03)74723-7](http://dx.doi.org/10.1016/S0006-3495(03)74723-7)
-
-12. *Persistence of Metastability after Expansion of a Supercompressed Fluid Monolayer.* Ethan C. Smith, **Ted G. Laderas**, Jonathan M. Crane, and Stephen B. Hall. Langmuir. 2004. 204945 - 4953. [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3520514/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3520514/)
-
-13. *Resonance-Raman Spectroscopy, Chromium Hexacarbonyl, and Me: A Tale of Intrigue.* Bachelor Thesis. Reed College. 1998.
-
-**POSTERS/ABSTRACTS**
-
-1. *A Network-Based Model of Oncogenic Collaboration for Prediction of Drug Sensitivity.* **Ted Laderas**. RECOMB/ISCB Conference on Regulatory and Systems Genomics, November 2014.
-
-2. *[Integrating proteomics and genomic data to illuminate the effects of Lapatinib in HER2+ Cells](https://www.dropbox.com/s/y3rbkygjn41qsd6/poster-laderas-nlm-2013.pdf?dl=0)*. **Ted Laderas**. NLM Training Conference, Utah, 2013.
-
-3. *[Integrating to Interact: Using Reconstructability Analysis to Integrate Genomic and Proteomic Data to Predict Drug Sensitivity](https://www.dropbox.com/s/nhixsztlg1oo4z6/poster-laderas-ismb-2012.pdf?dl=0)*. **Ted Laderas**. Intelligent Systems in Molecular Biology conference, 2012.
-
-4. *Tales from the Cryptic Snp: High Throughput Sequencing of DBA/2J and C57BL/6J mouse chromosome 1 reveals an abundance of polymorphisms.* Kari J. Buck, Nicole A.R. Walter, Daniel Bottomly, **Ted Laderas**, Michale Mooney, Priscila Darakjian, Shannon McWeeney, Robert Hitzemann. Research Society on Alcoholism Annual Meeting. 2009.
-
-5. *A computational framework for the detection of alternative exon usage using Affymetrix Exon arrays.* **Ted Laderas**, Michael Mooney, Nikki Walter, Kristina Vartanian, Christina Harrington, Priscila Darakijan, John Belknap, Robert Hitzemann, and Shannon McWeeney.  Intelligent Systems in Molecular Biology conference, Toronto, July 2008.
-
-6. *Cerebrospinal fluid (CSF) proteomics in children with acute lymphoblastic leukemia (ALL).* Robert C Trueworthy, Linda C Stork, Yanping Zhong, Sharon Pine, Yousif Matloub, **Ted Laderas**, Shannon McWeeney, and Guang Fan.  Poster 2006.
-
-7. *A metrics-based low-level preprocessing framework for proteomics data.* **Ted Laderas**, Solange Mongoue-Tchokote, Veena Rajaraman, Kimberly Sellers, Cory Bystrom and Shannon McWeeney. Bioconductor Developer's Meeting, Seattle, Washington, August 2006.
-
-8. *A diagnostic test suite for the RProteomics statistical routines.* **Ted Laderas**, Solange Mongoue-Tchokote, Veena Rajaraman, Kimberly Sellers and Shannon McWeeney.  caBIG annual meeting, Washington DC, April 2006.
-
-9. *Consense-Cluster: a framework for comparing and benchmarking clustering algorithms.* **Ted Laderas** and Shannon McWeeney. Bioconductor Developer's Meeting, Seattle, Washington, August 2005.
-
-**SOFTWARE (Sole Developer unless specified)**
-
-1. CytoShare. Visualization framework and processing pipeline for CyTOF data. Awaiting publication and submission.
-
-2. Surrogate Network Explorer for Head and Neck Cancer. Interactive visualization framework for understanding network effects in Head and Neck cancer. Awaiting publication and submission.
-
-3. R-Bootcamp: Introduction to R. Script-based introductory MOOC to R. [http://dx.doi.org/10.5281/zenodo.13756](http://dx.doi.org/10.5281/zenodo.13756)
-
-4. Surrogate Mutation Explorer. R/Shiny Interactive Application for exploring surrogate mutations. [http://dx.doi.org/10.5281/zenodo.13757](http://dx.doi.org/10.5281/zenodo.13757)
-
-5. SurrogateMutation. R Package for mapping mutations and copy number alterations to networks and associated statistics. [http://dx.doi.org/10.5281/zenodo.17303](http://dx.doi.org/10.5281/zenodo.17303)
-
-6. Consense-Cluster. R Package for comparing clustering output across algorithms. [http://dx.doi.org/10.5281/zenodo.17304](http://dx.doi.org/10.5281/zenodo.17304)
-
-7. ExonModelStrain. RPackage for detecting alternative exon usage between two strains of mice. [http://dx.doi.org/10.5281/zenodo.17305](http://dx.doi.org/10.5281/zenodo.17305)
-
-8. TandTRAQ. Perl Script for mapping iTRAQ protein quantitation to X!Tandem peptides.
-
-**RESEARCH PRESENTATIONS/LECTURES**
-
-1. *[Moving From Big Data to Knowledge: Implications for the Health Care and Biomedical Sciences](https://www.dropbox.com/s/ls6agg9uy2b6wp4/big-data-talk_laderas.pdf?dl=0).* Lecture given for BioCatalyst Advanced Training workshop at Oregon Bioscience Association. June 2015.
-
-2. *[Your In-silico Lab Notebook: Best Practices 2015](https://www.dropbox.com/s/ddyq88gqh8priv8/insilicotalk-2015.pptx?dl=0).* Lecture/Workshop given for OHSU BioDSP group, January 2015.
-
-3. *[Everything you wanted to know about bioinformatics but were afraid to ask](https://www.dropbox.com/s/a4qgwap4jehzs8x/everything-you-wanted-to-know.pptx?dl=0).* Lecture/Workshop given for OHSU PhD/Postdoc Fellows meeting, October 2014.
-
-4. *Surrogate Mutations and Drug Sensitivity in Breast Cancer Cell Lines.* Plenary talk at NLM Training Conference, Pittburgh, PA, June 2014.
-
-5. *Connecting Genotypes to Drug Sensitivities in HER2 Positive Cancer Cell Lines.* Doctoral Defense, OHSU, March 2014.
-
-6. *Understanding Expression Differences in RPPA Data: Implications for ODE Models.* Presentation at Integrative Cancer Biology Program retreat 2012.
-
-7. *Connecting Genotypes to Drug Sensitivity in HER2+ Breast Cancer Cell Lines.* Lecture/Dissertation proposal given for PhD/Postdoc Meeting January 2012 and March 2012.
-
-8. *Connecting Genotypes to Drug Sensitivity in Breast Cancer Cell Lines.* Presentation at Integrative Cancer Biology Program retreat 2011.
-
-9. *Work Smarter, Not Harder: Productivity Tools and You.* Lecture given for PhD/Postdoctoral meeting, 2011.
-
-10. *[What are Models For? Making Sense of Systems Biology](https://www.dropbox.com/s/bi14mo1ahr4yod8/symposium-laderas.pptx?dl=0)*. Predoctoral Symposium. 2010.
-
-11. *[Extended Dependency Analysis](https://www.dropbox.com/s/yt8dybaap4sn8hy/03-eda-extended-dependency-analysis.pptx?dl=0)*. Presentation given for Information Theory Independent Study 2010.
-
-12. *[Conant's _Laws of Information that Govern Systems_](https://www.dropbox.com/s/kkv4yv2vmwwdqfa/02-conant-laws-of-information.pptx?dl=0)*. Presentation given for Information Theory Independent Study, 2010.
-
-13. *[Ashby's _Law of Requisite Variety_ and Conant's _Information Transfer in Regulation_](https://www.dropbox.com/s/jz0gthjbd9cqbrt/01-ashby-conant-variety.pptx?dl=0)*. Presentation given for Information Theory Independent Study, 2010.
-
-14. *Two kinds of Robustness.* Presentation given to Bioinformatics Development Group, 2010.
-
-15. *Portland Alcohol Research Center Scientific Advisory Board Review: Bioinformatics & Statistics.*  Presentation given to PARC SAB, OHSU, 2009.
-
-16. *An introduction to trend analysis and consensus modules for systems biology.*  Presentation given with Sophia Jeng to Mathematical Modeling Core for Systems Virology, OHSU 2009.
-
-17. *An introduction to Consensus Modules for Systems Biology.*  Lecture given with Sophia Jeng to Bioinformatics Development Group, OHSU, 2008.
-
-18. *An Introduction to Sloppy Systems Biology.* Lecture given to Bioinformatics Development Group, OHSU, 2008.
-
-19. *Your in-silico lab notebook.* Lecture given as part of Bioinformatics Software Development class, OHSU, 2008, 2009.
-
-20. *Simulated and Synthetic Data for Benchmarking Algorithms.* Lecture given as part of Bioinformatics Methods class, OHSU, 2007.
-
-21. *Introduction to QPACA Pathway Analysis Software and BioPAX.* Talk given at 2006 caBIG Annual Meeting, Washington DC.
-
-22. *Consense: A software package for utilizing multiple clustering methods on Microarray Data.*  Talk given at OHSU Student Research Forum, 2005.
-
-**TEACHING EXPERIENCE (Interactive Workshops and Lectures)**
-
-1. *Introduction to Exploratory Data Analysis using Shiny* - Interactive workshop in using a Shiny Dashboard to conduct EDA on a dataset for BD2K Advanced Skills Course. May 2016.
-
-2. *Introduction to Machine Learning using Markdown* - Interactive workshop using Markdown to explore machine learning algorithms for BD2K Advanced Skills Course. May 2016.
-
-3. *Clustering Algorithms*. Lecture given for Statistical Methods class. February 2016.
-
-4. *[iGraph Tutorial](https://github.com/laderast/igraphTutorial)*. Introduction to the iGraph package in R for network analysis. November 2015.
-
-5. *[The Magic of Markdown](https://github.com/laderast/magic-of-markdown)*. Introduction to Markdown in both R, GitHub pages, and Pandoc. October 2015.
-
-6. *Pharmacogenomics* Lecture for Analytics Course, August 2015.
-
-7. *[Introduction to Clustering](http://church.ohsu.edu:3838/laderast/clusteringLecture/).* Interactive slides for understanding clustering.
-
-8. *[Introduction to ggvis](https://www.dropbox.com/s/n0unpdkd5r2tdu7/ggvis-Tutorial.html?dl=0)*. Lecture/Workshop given for OHSU Bioinformatics Discussion for Students and Postdocs, April 2015.
-
-9. *[Introduction to ggplot2](https://www.dropbox.com/s/efbwx3jjx89folh/ggplot2Intro.html?dl=0).* Lecture/Workshop given for OHSU Bioinformatics Discussion for Students and Postdocs, March 2015.
-
-10. *[Exacloud Tutorial](https://www.dropbox.com/s/chg6ciknxonp5el/exacloud-tutorial.pdf)* - A DIY tutorial to running jobs on Exacloud, OHSU's cluster computing environment. November 2015.
-
-11. *[Shiny Tutorial](https://www.dropbox.com/s/5ceg6wdrustjoae/tutorialApp.zip)* - A do it yourself tutorial to try out Shiny, ggplot2, and dplyr for interactive graphics. September 2015.
-
-12. *Analytics Course*. Instructor. Hybrid Online/On-campus joint course with DMICE and Kaiser Permanente Analytics group. August 2015.
-
-13. *R-Bootcamp*. Massive Open Online Course available at: [http://dx.doi.org/10.5281/zenodo.13756](http://dx.doi.org/10.5281/zenodo.13756). With contributions from Eric Leung, Dian Chase, Tracy Edinger, Clint Olson and Gabrielle Chonoo.
-
-14. *[List Comprehensions in Python](https://www.dropbox.com/s/1my6l8diprnzg4n/lecture_slides_day7_2012-laderas.pptx?dl=0)*. Lecture given for Bioinformatics Programming and Scripting Course, Fall 2012.
-
-15. *[Introduction to Unit Testing](https://www.dropbox.com/s/jdgbb07xydmxah5/lecture_slides_day10_1027-laderas.pdf?dl=0)*. Lecture given for Bioinformatics Programming and Scripting Course, Fall 2012.
-
-16. *Introduction to Numerical Python (NumPy).* Lecture given for Bioinformatics Programming and Scripting Course, Fall 2012.
-
-17. *Introduction to SciPy.* Lectures given for Bioinformatics Programming and Scripting Course, Fall 2012.
-
-18. *An Introduction to ODE Models.* Lecture given for Systems Biology Class, 2012.
-
-19. *[Integrating Data for Systems Biology](https://www.dropbox.com/s/ksnogpxoh22eit8/IntegratingDataforSystemsBiology.pptx?dl=0)*.  Lecture given for Systems Biology Class, 2012.
-
-20. *[Bayesian Networks](https://www.dropbox.com/s/xab61u1jo9y9io9/bayesnets-new-laderas.pptx?dl=0)*. Lecture given for Statistical Methods in Bioinformatics Class, 2011.
-
-21. *[Gibbs Samplers](https://www.dropbox.com/s/r2j0oi1madn0t1s/GibbsSampler-laderas.pptx?dl=0)*. Lecture given for Statistical Methods in Bioinformatics Class, 2011.
-
-22. *Workshop on Strings and Matrices in R*. Workshop given for Statistical Methods in Bioinformatics class. 2011.
-
-23. *Introduction to R Workshop.* Workshop given for Statistical Methods in Bioinformatics class. 2011.
-
-24. *Lab: Using Consense-Cluster to explore the Bittner dataset.* Laboratory given as part of Microarray Analysis Course, OHSU, 2006.
-
-**EXPERIENCE**
-
-_Research Assistant/Teaching Assistant_, Department of Chemistry, Reed College. 1998
-
- - Conducted research into multiphoton dissociation of Chromium Hexacarbonyl
- - Graded problem sets for professor
- - Monitored and tutored students in electronics laboratory
-
-_Research Assistant/Computer Programmer_, Department of Molecular Medicine, Oregon Health & Science University. 1999-2001.
-
- - Conducted and collaborated on research about supercompressed films of lung surfactant
- - Maintained, documented, and redesigned instrument control programs
- - Responsible for supporting instrument control software in laboratory setting
-
-_Teaching Assistant/Computer Programmer/Server Admin_, Department of Medical Informatics & Clinical Epidemiology, Oregon Health & Science University.  2001-2002.
-
- - Developed and Maintained Student Projects Database
- - Administered Apple XServe, installed and maintained Unix-Based applications
-
-_Bioinformatics Developer/Project Manager_, OHSU Knight Cancer Institute, Oregon Health & Science University.  2003-2009.
-
-- Developer/Documenter of Consense-Cluster (see achievements below)
-- Project Manager for Cancer Biomedical Informatics Grid projects (caBIG)
-- oversaw deliverables/managed three workers
-- Software Tester/Code Reviewer for caBIG projects
-- Documentation Developer/Editor for caBIG projects
-- Liaison between Developer Institutions and National Cancer Institute (NCI)
-- Developer/Interface Designer/Code Maintainer of Affymetrix Microarray Core Database (AMCDB)
-- Developer/Code Reviewer for HAPPY eQTL project
-- Developer for TandTRAQ project
-- Primary Author on journal articles
-- Planner of class curriculum for Systems Biology class
-- Reviewer of journal articles
-- Analyst/Bioinformatician/Developer on Exon Array project
-- Analyst/Developer on Systems Biology project investigating Influenza and SARS
-
-_NLM Predoctoral Fellow_, Medical Informatics and Clinical Epidemiology, Oregon Health & Science University 2009 – 2014
-
-- Collaborated with Joe Gray's group for modeling project in Integrative Cancer Biology Program
-- Worked within Paul Spellman's group to analyze breast cancer genomic data from The Cancer Genome Atlas
-- Gained certification in modeling from PSU Systems Science Program
-- Developed workflows to analyse both dynamic time course data and integrative genetic analysis
-- Audited classes in Cancer Biology and Development and Signaling
-
-_NLM Postdoctoral Fellow_, Oregon Health & Science University 2014-2015
-
-- Developed Introductory Class in R programming as massive open online course
-- Founder of Bioinformatics Discussion for Students and Postdocs (BioDSP)
-- Developed visualization framework for Surrogate Mutations
-- Analyzed surrogate mutations in 6 different cancer types
-
-_Visiting Scientist_, Sage Bionetworks, Seattle Washington, 2014-2015
-
-- Collaborated with Colorectal Cancer Consortium on biological interrogation of consensus subtypes
-- Developed annotation pipeline to map proteomic data to genomic coordinates to enable comparison of cross
-
-_Postdoctoral Researcher_, Knight Cancer Institute, 2015-Present
-
-- Developing automated workflows for high-dimensional flow cytometry project
-
-**RELATED ACHIEVEMENTS**
-
-_Software/Algorithm Development/Data Analysis_
-
-**Developed** annotation pipeline to map peptide data to genomic coordinates to enable comparison of alternative splicing in peptides versus transcriptional data. Expected result: investigational study comparing alternative splicing and isoform usage in colorectal cancer.
-
-**Developed visualization framework** for evaluating oncogene collaboration using protein-protein interaction networks. Result: online application with interactive filtering and visualization tools available at https://tladeras.shinyapps.io/surrogateShiny/.
-
-**Developed** and **validated** analysis workflow for cell-line based mutation and copy number data to understand oncogene collaboration in a systems context. _Expected Results_: workflow has potential to integrate personal mutation information into understanding of drug sensitivity.
-
-**Developed** analysis workflow for Reverse Phase Protein Array (RPPA) timecourse data.  Developing and prototyping methods that allow for comparison of timecourse data across cell lines and visualize the data in a pathway-specific context. _Expected Results_: workflow will enable researchers in Integrative Cancer Biology Program to understand gaps in current knowledge of pathways.
-
-**Developed** analysis workflow for Affymetrix Mouse Exon arrays to detect alternative exon usage between two strains of mice. Prototyped SNP masking workflow to allow for masking of strain/strain differences, remapped Affymetrix Probe sets to Ensembl Transcript structure, developed software package for analysis, wrote and published paper.  _Results:_ Software is freely available for everyone to analyse exon array data. Paper is one of the most highly accessed articles for _Frontiers in Neurogenomics_.
-
-**Developed** tool (TandTRAQ) for integrating protein database searching results with quantitative peptide analysis. Reviewed current code and data formats, adapted code.  _Results_: tool produced list of peptides of interest for follow up in cerebrospinal fluid (CSF). Paper on TandTRAQ has been published.
-
-**Developed** and **redesigned** webpage interface of Affymetrix Microarray Core (AMC) database. Explored current applications available for annotating data, designed improved interface, presented improved interface to AMC database to users. Results: positive feedback from users with respect to new GUI.
-
-**Designed**, **developed**, and **validated** tool (Consense-Cluster) to compare results for microarray cluster analysis using R/Bioconductor for Master's thesis.  Conducted literature review, designed program structure, coded program in R, ran simulated and real microarray data in program, validated results using annotations. _Results_: tool will be released as an open-source Bioconductor project, providing biologists with the ability to compare clustering results.
-
-**Utilized** Consense-Cluster to explore leukemia phosphopeptide dataset.  Explored dataset using multiple clustering methods, grouped samples into two groupings.  _Results_: clustering reproduced patient/control groupings blinded, produced peptide list for possible follow up.
-
-**Reviewed**, **annotated**, and **modified** Happy eQTL code to run permutation analysis. Reviewed and commented entire codebase, designed permutation analysis component, integrated code modifications into analysis.  _Result_: eQTL permutation analysis allowed researchers to assign p-value to QTL analysis.
-
-_Software Evaluation/Testing_
-
-**Designed** and **utilized** synthetic proteomics dataset for benchmarking classification algorithms.  Result: validation of caBIG related proteomics application.
-
-**Evaluated**, **reviewed**, and **debugged** caBIG application for classifying proteomics data.  Reviewed code, compared approach to other classification algorithms, developed a testing framework for benchmarking classification algorithms.  _Result_: current version of caBIG application has improved classification ability.
-
-**Reviewed** and **tested** code for caBIG RProteomics statistical framework.  Extensively reviewed entire code framework and evaluated effectiveness of statistical routines.  _Results_: Several bugs in implementation were found; testing results were submitted for future improvements to the RProteomics project.
-
-_Project Management_
-
-**Administered** server and software for students. Managed disk quotas, balanced jobs, managed user accounts. 
-
-**Managed** and **produced** project deliverables for 3 caBIG applications.  Developed documentation, test plans, project time, assigned tasks for 3 different people, managed deliverable timeline. _Result_: all deliverables were approved and delivered within assigned timeframe.
-
-_Academic Accomplishments_
-
-**Taught students in Big Data To Knowledge (BD2K) advanced skills course**.
-
-**Taught Analytics Course**. Helped students in hands-on workshops for analytics course co-taught with Kaiser Permanente.
-
-**Developed R-Bootcamp Self Directed Course**. Developed self-directed *Result*: Course has had over 100 students enrolled.
-
-**Developed Workshops in Interactive Visualization**. Developed self-directed interactive workshop utilizing interactive visualization. 
-
-**Developed Training Workshop in Cluster Computing**. Developed self-directed interactive workshop for students in cluster computing. *Results*: student are actively utilizing exacloud resource.
-
-**Founded student discussion group for bioinformatics students and postdocs**. Discussion group is now active and students are more actively enaged.
-
-**Tutored and mentored students in R programming.** Actively taught students in hands-on sessions, helping them debug code.
-
-**Developed workshop/massively open online course introducing R programming**.  Researched topics, put together self-teaching workshop materials, oversaw workshop.
-
-**Delivered two lectures** for Systems Biology class. Researched topics (multi-omic integration, ODE modeling), developed lectures, and moderated student discussions.
-
-**Delivered four lectures** for Bioinformatics Programming and Scripting class.  Researched topics (List comprehensions, Unit Testing, Numerical Python, and Scientific Python), developed lectures, oversaw in class exercises, and tutored students one on one.
-
-**Delivered two lectures** in Statistical Methods in Bioinformatics Class.  Researched topics (Bayesian Networks and Gibbs Samplers for Motif Finding), developed lectures, and delivered in class.
-
-**Helped write** and **plan** class curriculum for Systems Biology/Network Reconstruction class.  Read primary literature, summarized textbook for class notes, developed examples.  _Result_: class curriculum was used for course in Spring 2007.
-
-**Documented** and **wrote** paper on utility of Consense-Cluster.  Explored primary literature, wrote paper, developed supplementary website.  Result: Paper is currently published.
-
-**Reviewed** journal articles for _Neurocomputing _and _BMC Bioinformatics_.
-
-_Service Accomplishments_
-
-**Organized** and **ran** BioDSP group for students and postdocs. Managed speakers, developed free workshops for students, and provided feedback for student presentations.
-
-Formally mentored 2 students and informally mentored 4 students.
-
-_Relevant Coursework_:
-
-* System Dynamics 
-* Agent Based Modeling
-* Discrete Multivariate Modeling
-* Systems Biology
-* Biological Simulation
-* Systems Theory
-* Discrete Systems Simulation
-* Genetic Mechanisms
-* Development, Differentiation, and Cancer
-* Biochemical Structure and Function
-* Enzymology and Metabolism
-* Nucleic Acids and Information Flow
-* Research Methods in Bioinformatics
-* Statistical Methods in Bioinformatics
-* Advanced R/Bioconductor Programming
-* Introduction to Microarray Analysis
-* Intro to Computational Biology
-* Computational Biology,
-* Machine Learning
-* Advanced Java Programming
-* Databases
-* Research Design
+7.  *ExonModelStrain*. RPackage for detecting alternative exon usage
+    between two strains of mice.
+    <http://dx.doi.org/10.5281/zenodo.17305>
+
+8.  *TandTRAQ*. Perl Script for mapping iTRAQ protein quantitation to
+    X!Tandem peptides.
+
+**RESEARCH PRESENTATIONS/LECTURES (Invited Lectures are Indicated)**
+
+1.  [*Moving From Big Data to Knowledge: Implications for the Health
+    Care and Biomedical
+    Sciences*](https://www.dropbox.com/s/ls6agg9uy2b6wp4/big-data-talk_laderas.pdf?dl=0)*.*
+    Invited Lecture given for BioCatalyst Advanced Training workshop at
+    Oregon Bioscience Association. June 2015.
+
+2.  *Surrogate Mutations and Drug Sensitivity in Breast Cancer
+    Cell Lines.* Plenary talk at NLM Training Conference, Pittburgh, PA,
+    June 2014.
+
+3.  *Connecting Genotypes to Drug Sensitivities in HER2 Positive Cancer
+    Cell Lines.* Doctoral Defense, OHSU, March 2014.
+
+4.  *Understanding Expression Differences in RPPA Data: Implications for
+    ODE Models.* Presentation at Integrative Cancer Biology Program
+    retreat 2012.
+
+5.  *Connecting Genotypes to Drug Sensitivity in HER2+ Breast Cancer
+    Cell Lines.* Lecture/Dissertation proposal given for PhD/Postdoc
+    Meeting January 2012 and March 2012.
+
+6.  *Connecting Genotypes to Drug Sensitivity in Breast Cancer
+    Cell Lines.* Invited presentation at Integrative Cancer Biology
+    Program retreat, 2011.
+
+7.  [*What are Models For? Making Sense of Systems
+    Biology*](https://www.dropbox.com/s/bi14mo1ahr4yod8/symposium-laderas.pptx?dl=0).
+    Predoctoral Symposium. 2010.
+
+8.  *Two kinds of Robustness.* Presentation given to Bioinformatics
+    Development Group, 2010.
+
+9.  *Portland Alcohol Research Center Scientific Advisory Board Review:
+    Bioinformatics & Statistics.* Presentation given to PARC SAB,
+    OHSU, 2009.
+
+10. *An introduction to trend analysis and consensus modules for
+    systems biology.* Presentation given with Sophia Jeng to
+    Mathematical Modeling Core for Systems Virology, OHSU 2009.
+
+11. *An introduction to Consensus Modules for Systems Biology.* Lecture
+    given with Sophia Jeng to Bioinformatics Development Group,
+    OHSU, 2008.
+
+12. *An Introduction to Sloppy Systems Biology.* Lecture given to
+    Bioinformatics Development Group, OHSU, 2008.
+
+13. *Simulated and Synthetic Data for Benchmarking Algorithms.* Lecture
+    given as part of Bioinformatics Methods class, OHSU, 2007.
+
+14. *Introduction to QPACA Pathway Analysis Software and BioPAX.* Talk
+    given at 2006 caBIG Annual Meeting, Washington DC.
+
+15. *Consense: A software package for utilizing multiple clustering
+    methods on Microarray Data.* Talk given at OHSU Student Research
+    Forum, 2005.
+
+**RESEARCH POSTERS/ABSTRACTS**
+
+1.  *Getting your hands dirty with data*. **Ted Laderas**, Melissa
+    Hanedel, Bjorn Pederson, Jackie Wirz, William Hersh, David A. Dorr,
+    Shannon McWeeney. Big Data to Knowledge (BD2K) All Hands meeting,
+    November 2016.
+
+2.  *Get Real: A synthetic dataset illustrating clinical and
+    genetic covariates.* **Ted Laderas**, Nicole Vasilevsky, Melissa
+    Haendel, Shannon McWeeney and David A. Dorr. BD2K All Hands meeting,
+    November 2016.
+
+3.  *Mass Cytometry as a Modality to Identify Candidates for Immune
+    Checkpoint Inhibitor Therapy within Acute Myeloid Leukemia.* Adam
+    Lamble, Fei Huang, Kate Sasser, Homer Adams III, Cristina E. Tognon,
+    **Ted Laderas**, Shannon McWeeney, Marc Loriaux, Jeffery W. Tyner,
+    Brian J. Druker, and Evan F. Lind. American Society for Hematology,
+    December 2016.
+
+4.  *Enhanced VISTA Expression in a Subset of Patients with Acute
+    Myeloid Leukemia*. Adam Lamble, Yoko Kosaka, Fei Huang, Kate Sasser,
+    Homer Adams III, Cristina E. Tognon, **Ted Laderas**, Shannon
+    McWeeney, Marc Loriaux, Jeffery W. Tyner, Brian J. Druker, and
+    Evan F. Lind. American Society for Hematology, December 2016.
+
+5.  *Improving Knowledge Discovery Through Development of Big Data to
+    Knowledge Skills Courses and Open Educational Resources*. Nicole
+    Vasilevsky, Shannon McWeeney, William Hersh, David A. Dorr, Ted
+    Laderas, Jackie Wirz, Bjorn Pederson and Melissa Haendel. Poster for
+    BICC Building 25th Anniversary.
+
+6.  *Consensus molecular subtyping through a community of experts
+    advances unsupervised gene expression-based disease classification
+    and facilitates clinical translation.* Justin Guinney, Rodrigo
+    Dienstmann, Xin Wang, Aurelien de Reynies, Andreas Schlicker,
+    Charlotte Soneson, Laetitia Marisa, Paul Roepman, Gift Nyamundanda,
+    Paolo Angelino, Brian Bot, Jeffrey S. Morris, Iris Simon, Sarah
+    Gerster, Evelyn Fessler, Felipe de Sousa e Melo, Edoardo Missiaglia,
+    Hena Ramay, David Barras, Krisztian Homicsko, Dipen Maru, Ganiraju
+    Manyam, Bradley Broom, Valerie Boige, **Ted Laderas**, Ramon
+    Salazar, Joe W. Gray, Josep Tabernero, Rene Bernards, Stephen
+    Friend, Pierre Laurent-Puig, Jan P. Medema, Anguraj Sadanandam,
+    Lodewyk Wessels, Mauro Delorenzi, Scott Kopetz, Louis Vermeulen and
+    Sabine Tejpar. American Association for Cancer Research Conference,
+    August 2015.
+
+7.  *A Network-Based Model of Oncogenic Collaboration for Prediction of
+    Drug Sensitivity.* **Ted Laderas**. RECOMB/ISCB Conference on
+    Regulatory and Systems Genomics, November 2014.
+
+8.  [*Integrating proteomics and genomic data to illuminate the effects
+    of Lapatinib in HER2+
+    Cells*](https://www.dropbox.com/s/y3rbkygjn41qsd6/poster-laderas-nlm-2013.pdf?dl=0).
+    **Ted Laderas** and Kemal Sonmez. National Library of Medicine
+    Training Conference, Utah, 2013.
+
+9.  [*Integrating to Interact: Using Reconstructability Analysis to
+    Integrate Genomic and Proteomic Data to Predict Drug
+    Sensitivity*](https://www.dropbox.com/s/nhixsztlg1oo4z6/poster-laderas-ismb-2012.pdf?dl=0).
+    **Ted Laderas** and Kemal Sonmez. Intelligent Systems in Molecular
+    Biology conference, 2012.
+
+10. *Tales from the Cryptic Snp: High Throughput Sequencing of DBA/2J
+    and C57BL/6J mouse chromosome 1 reveals an abundance
+    of polymorphisms.* Kari J. Buck, Nicole A.R. Walter, Daniel
+    Bottomly, **Ted Laderas**, Michael Mooney, Priscila Darakjian,
+    Shannon McWeeney, Robert Hitzemann. Research Society on Alcoholism
+    Annual Meeting. 2009.
+
+11. *A computational framework for the detection of alternative exon
+    usage using Affymetrix Exon arrays.* **Ted Laderas**, Michael
+    Mooney, Nikki Walter, Kristina Vartanian, Christina Harrington,
+    Priscila Darakijan, John Belknap, Robert Hitzemann, and
+    Shannon McWeeney. Intelligent Systems in Molecular Biology
+    conference, Toronto, July 2008.
+
+12. *Cerebrospinal fluid (CSF) proteomics in children with acute
+    lymphoblastic leukemia (ALL).* Robert C Trueworthy, Linda C Stork,
+    Yanping Zhong, Sharon Pine, Yousif Matloub, **Ted Laderas**, Shannon
+    McWeeney, and Guang Fan. Poster 2006.
+
+13. *A metrics-based low-level preprocessing framework for
+    proteomics data.* **Ted Laderas**, Solange Mongoue-Tchokote, Veena
+    Rajaraman, Kimberly Sellers, Cory Bystrom and Shannon McWeeney.
+    Bioconductor Developer's Meeting, Seattle, Washington, August 2006.
+
+14. *A diagnostic test suite for the RProteomics statistical routines.*
+    **Ted Laderas**, Solange Mongoue-Tchokote, Veena Rajaraman, Kimberly
+    Sellers and Shannon McWeeney. caBIG annual meeting, Washington DC,
+    April 2006.
+
+15. *Consense-Cluster: a framework for comparing and benchmarking
+    clustering algorithms.* **Ted Laderas** and Shannon McWeeney.
+    Bioconductor Developer's Meeting, Seattle, Washington, August 2005.
+
+**TEACHING STATEMENT**
+
+Effective communication, hands-on learning, and mentoring are core to my
+teaching philosophy. I am a strong believer in enabling students in
+self-directed learning through hands-on workshops including both
+practical skills in bioinformatics (software development, design and
+data analysis and visualization) and social skills essential to
+collaboration (interpretation and communication). In terms of practical
+skills, I have developed and contributed to a number of courses
+(Analytics, RBootcamp, Network Analysis, and BD2K skills courses) and
+workshops in a large variety of software development and communication
+topics. These topics include software design, interactive visualization,
+exploratory data analysis, and presentation of results. In terms of
+fostering social and collaborative skills in students, I am a founder
+and leader of BioDSP (Bioinformatics Discussion for Students and
+Postdocs), a collaborative forum for students and postdocs to share and
+teach each other practical skills for success in a research environment.
+Through BioDSP, I have informally mentored a number of students through
+feedback and collaboration on workshops and presentations. I believe
+that by "training the trainers", we can more effectively educate
+students in these skills in Data Science and Analytics. In order to
+accomplish this training of trainers, my course materials are openly
+available for use and modification by other teachers. Because of my
+dedication to teaching and incorporation of student feedback, I have
+consistently high ratings from students in terms of teaching both
+long-form courses and short-term workshops.
+
+**TEACHING EXPERIENCE**
+
+Lectures and Interactive Workshops are linked where possible.
+
+1.  [*Analytics Course*](https://github.com/laderast/AnalyticsCourse).
+    New Course material in SQLite, Logistic Regression and Analysis.
+    August 2016.
+
+2.  [*Exploring the DREAM Viral Respiratory Dataset using
+    Shiny*](https://github.com/laderast/DreamEDAShiny). Tutorial in
+    Exploratory Data Analysis (EDA) using *data.table* and *Shiny*.
+    July 2016.
+
+3.  [*Introduction to Exploratory Data Analysis using
+    Shiny*](https://github.com/laderast/shinyEDA) - Interactive workshop
+    in using a Shiny Dashboard to conduct EDA on a dataset for BD2K
+    Advanced Skills Course. May 2016.
+
+4.  [*Introduction to Machine Learning using
+    Markdown*](https://github.com/laderast/MLtutorial) - Interactive
+    workshop using Markdown to explore machine learning algorithms for
+    BD2K Advanced Skills Course. May 2016.
+
+5.  *Clustering Algorithms*. Lecture given for Statistical
+    Methods class. February 2016.
+
+6.  [*iGraph Tutorial*](https://github.com/laderast/igraphTutorial).
+    Introductory lecture for the igraph package in R for
+    network analysis. November 2015.
+
+7.  [*The Magic of
+    Markdown*](https://github.com/laderast/magic-of-markdown).
+    Introduction to Markdown in both R, GitHub pages, and Pandoc. BioDSP
+    October 2015.
+
+8.  *Pharmacogenomics* Lecture for Analytics Course, August 2015.
+
+9.  [*Introduction to
+    Clustering*](http://church.ohsu.edu:3838/laderast/clusteringLecture/)*.*
+    Interactive slides for understanding clustering.
+
+10. [*Introduction to
+    ggvis*](https://www.dropbox.com/s/n0unpdkd5r2tdu7/ggvis-Tutorial.html?dl=0).
+    Lecture/Workshop given for OHSU Bioinformatics Discussion for
+    Students and Postdocs, April 2015.
+
+11. [*Introduction to
+    ggplot2*](https://www.dropbox.com/s/efbwx3jjx89folh/ggplot2Intro.html?dl=0)*.*
+    Lecture/Workshop given for OHSU Bioinformatics Discussion for
+    Students and Postdocs, March 2015.
+
+12. [*Exacloud
+    Tutorial*](https://www.dropbox.com/s/chg6ciknxonp5el/exacloud-tutorial.pdf) -
+    A DIY tutorial to running jobs on Exacloud, OHSU's cluster
+    computing environment. November 2015.
+
+13. [*Shiny
+    Tutorial*](https://www.dropbox.com/s/5ceg6wdrustjoae/tutorialApp.zip) -
+    A do it yourself tutorial to try out Shiny, ggplot2, and dplyr for
+    interactive graphics. September 2015.
+
+14. *Analytics Course*. Instructor. Hybrid Online/On-campus joint course
+    with DMICE and Kaiser Permanente Analytics group. August 2015.
+
+15. *R-Bootcamp*. Massive Open Online Course available at:
+    <http://dx.doi.org/10.5281/zenodo.13756>. With contributions from
+    Eric Leung, Dian Chase, Tracy Edinger, Clint Olson, and
+    Gabrielle Chonoo. 2014-Present
+
+16. [*Your In-silico Lab Notebook: Best Practices
+    2015*](https://www.dropbox.com/s/ddyq88gqh8priv8/insilicotalk-2015.pptx?dl=0)*.*
+    Lecture/Workshop given for OHSU BioDSP group, January 2015.
+
+17. [*Everything you wanted to know about bioinformatics but were afraid
+    to
+    ask*](https://www.dropbox.com/s/a4qgwap4jehzs8x/everything-you-wanted-to-know.pptx?dl=0)*.*
+    Lecture/Workshop given for OHSU PhD/Postdoc Fellows meeting,
+    October 2014.
+
+18. [*List Comprehensions in
+    Python*](https://www.dropbox.com/s/1my6l8diprnzg4n/lecture_slides_day7_2012-laderas.pptx?dl=0).
+    Lecture given for Bioinformatics Programming and Scripting Course,
+    Fall 2012.
+
+19. [*Introduction to Unit
+    Testing*](https://www.dropbox.com/s/jdgbb07xydmxah5/lecture_slides_day10_1027-laderas.pdf?dl=0).
+    Lecture given for Bioinformatics Programming and Scripting Course,
+    Fall 2012.
+
+20. *Introduction to Numerical Python (NumPy).* Lecture given for
+    Bioinformatics Programming and Scripting Course, Fall 2012.
+
+21. *Introduction to SciPy.* Lectures given for Bioinformatics
+    Programming and Scripting Course, Fall 2012.
+
+22. *An Introduction to ODE Models.* Lecture given for Systems Biology
+    Class, 2012.
+
+23. [*Integrating Data for Systems
+    Biology*](https://www.dropbox.com/s/ksnogpxoh22eit8/IntegratingDataforSystemsBiology.pptx?dl=0).
+    Lecture given for Systems Biology Class, 2012.
+
+24. *Work Smarter, Not Harder: Productivity Tools and You.* Lecture
+    given for PhD/Postdoctoral meeting, 2011.
+
+25. [*Bayesian
+    Networks*](https://www.dropbox.com/s/xab61u1jo9y9io9/bayesnets-new-laderas.pptx?dl=0).
+    Lecture given for Statistical Methods in Bioinformatics Class, 2011.
+
+26. [*Gibbs
+    Samplers*](https://www.dropbox.com/s/r2j0oi1madn0t1s/GibbsSampler-laderas.pptx?dl=0).
+    Lecture given for Statistical Methods in Bioinformatics Class, 2011.
+
+27. *Workshop on Strings and Matrices in R*. Workshop given for
+    Statistical Methods in Bioinformatics class. 2011.
+
+28. *Introduction to R Workshop.* Workshop given for Statistical Methods
+    in Bioinformatics class. 2011.
+
+29. [*Extended Dependency
+    Analysis*](https://www.dropbox.com/s/yt8dybaap4sn8hy/03-eda-extended-dependency-analysis.pptx?dl=0).
+    Presentation given for Information Theory Independent Study 2010.
+
+30. [*Conant's Laws of Information that Govern
+    Systems*](https://www.dropbox.com/s/kkv4yv2vmwwdqfa/02-conant-laws-of-information.pptx?dl=0).
+    Presentation given for Information Theory Independent Study, 2010.
+
+31. [*Ashby's Law of Requisite Variety and Conant's Information Transfer
+    in
+    Regulation*](https://www.dropbox.com/s/jz0gthjbd9cqbrt/01-ashby-conant-variety.pptx?dl=0).
+    Presentation given for Information Theory Independent Study, 2010.
+
+32. *Lab: Using Consense-Cluster to explore the Bittner dataset.*
+    Laboratory given as part of Microarray Analysis Course, OHSU, 2006.
+
+**SERVICE STATEMENT**
+
+I am a strong supporter of service at OHSU and beyond. I currently
+participate in the DMICE BCB (Bioinformatics and Computational Biology)
+Faculty Division meeting, the DMICE Mentoring committee, and have
+participated in the BCB Curriculum Retreat in order to plan upcoming
+coursework at DMICE. As a Pacific Islander, I have a unique viewpoint
+about diversity and I hope to enhance equal opportunity by participating
+in OHSU’s Diversity Advisory Council (DAC). Beyond OHSU, I believe that
+we need to increase public engagement of science and increase outreach
+and mentoring of next-generation science students, especially from
+disadvantaged populations will enable these students to succeed in
+STEM-based careers. As a former student of Saturday Academy's scientific
+mentoring program, I want to contribute back to this community and
+engage potential STEM students through student outreach and mentoring. I
+am also involved in outreach through the development of course material
+for the Biocatalyst training program through Oregon Bioscience
+Association, which provides bioscience training for unemployed or
+under-employed professionals.
+
+**SERVICE ACCOMPLISHMENTS**
+
+Co-Founder of BioDSP group for students and postdocs. Managed speakers,
+developed free workshops for students, and provided feedback for student
+presentations. BioDSP is currently at 57 students and its members range
+from OHSU staff, faculty, students and postdocs, providing a unique
+opportunity to share information and provide mentoring to students.
+
+Developed coursework for unemployed or underemployed IT workers in both
+biosciences and healthcare for Oregon Bioscience Association.
+
+Reviewer for both BMC Bioinformatics and Neurocomputing.
+
+My mentees include Jason Li and Eisa Mahyari, both PhD candidates in
+DMICE.
+
+**WORK EXPERIENCE**
+
+*Postdoctoral Researcher*, OHSU Knight Cancer Institute, 2015-Present.
+
+*Current Research Support:*
+
+No \# assigned Druker (PI) 5/1/2013-4/30/2016 The Leukemia & Lymphoma
+Society 
+
+Beat AML: Precision Medicine for AML Based on Functional Genomics 
+
+The major goals of this project is to transform our approach to AML
+treatment through a deeper understanding of the diversity of the
+underlying molecular causes of disease and to bring targeted therapies
+to AML patients through 1) understanding the spectrum of genetic lesions
+and molecular drivers, 2) functionally annotating drug sensitivity, and
+3) Initiating clinical trials with combinations of drugs in refractory
+patients. Role: Computational Biologist
+
+OPP1131709 Lewinsohn, DM (PI) 10/26/2015-10/31/2018\
+Bill & Melinda Gates Foundation 
+
+Targeting MAIT cells for TB vaccines 
+
+This proposal is designed to establish whether or not a vaccine
+targeting Mucosal Associated Invariant (MAIT) can be used to prevent
+tuberculosis (TB). Role: Computational Biologist
+
+*Instructor*, Department of Medical Informatics and Clinical
+Epidemiology. 2015-Present.\
+*NLM Postdoctoral Fellow*, Oregon Health & Science University.
+2014-2015.\
+*Visiting Scientist*, Sage Bionetworks, Seattle Washington. 2014-2015.\
+*NLM Predoctoral Fellow*, Medical Informatics and Clinical Epidemiology,
+Oregon Health & Science University. 2009–2014.\
+*Bioinformatics Developer/Project Manager*, OHSU Knight Cancer
+Institute, Oregon Health & Science University. 2003-2009.\
+*Teaching Assistant/Computer Programmer/Server Admin*, Department of
+Medical Informatics & Clinical Epidemiology, Oregon Health & Science
+University. 2001-2002.\
+*Research Assistant/Computer Programmer*, Department of Molecular
+Medicine, Oregon Health & Science University. 1999-2001.\
+*Research Assistant/Teaching Assistant*, Department of Chemistry, Reed
+College. 1998
 
 **AWARDS**
 
-NLM Predoctoral Fellowship. 2009-2013.  
-NLM Postdoctoral Fellowship. 2014-2015.  
-
-**REFERENCES**
-
-Dr. Shannon McWeeney, Oregon Health & Science University, [mcweeney@ohsu.edu](mailto:mcweeney@ohsu.edu)  
-Dr. Laura Heiser, Oregon Health & Science University, [heiserl@ohsu.edu](mailto:heiserl@ohsu.edu)  
-Dr. Wayne Wakeland, Portland State University, [wakeland@pdx.edu](mailto:wakeland@pdx.edu)  
-Dr. Robert Hitzemann, Oregon Health & Science University, [hitzeman@ohsu.edu](mailto:hitzeman@ohsu.edu)  
-Dr. Stephen Hall, Oregon Health & Science University, [sbh@ohsu.edu](mailto:sbh@ohsu.edu)  
-Dr. Daniel Gerrity, Reed College, [gerrity@reed.edu](mailto:gerrity@reed.edu)  
+NLM Predoctoral Fellowship. 2009-2013.\
+NLM Postdoctoral Fellowship. 2014-2015.
