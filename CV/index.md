@@ -33,7 +33,7 @@ student in Biomedical Informatics, as an NLM Predoctoral Fellow, and as
 a NLM Postdoctoral fellow has enabled me to communicate with a wide
 variety of collaborators by giving me a strong background in Cancer
 Biology, Software Development, and Clinical Systems. Additionally, I am
-a strong supporter of Open Science initiatives, most notably the effort
+a strong advocate for Open Science initiatives, most notably the effort
 for reproducibility in scientific analysis. To this end, I have
 developed multiple novel software pipelines that transparently process
 data from raw data to through the final stages of analysis.
@@ -64,7 +64,7 @@ data from raw data to through the final stages of analysis.
     Bernards, Stephen H. Friend, Pierre Laurent-Puig, Jan P. Medema,
     Anguraj Sadanandam, Lodewyk Wessels, Mauro Delorenzi, Scott Kopetz,
     Louis Vermeulen, and Sabine Tejpar. Nature Medicine. 2015.
-    Contribution: mapped OMICs types to consensus cancer subtypes.
+    Contribution: mapped and analyzed OMICs data to consensus cancer subtypes.
 
 4.  [*Between Pathways and Networks lies
     Context*](https://www.dropbox.com/s/70z4yp3k36y9bmu/laderast_between_pathways.pdf?dl=0).
@@ -112,7 +112,7 @@ data from raw data to through the final stages of analysis.
 
 1.  *flowDashboard*. Visualization framework in R/Shiny and processing
     pipeline for CyTOF and flow cytometry data. Currently under embargo,
-    waiting publication and submission.
+    waiting publication and submission. <https://doi.org/10.5281/zenodo.260421>
 
 2.  *Surrogate Network Explorer for Head and Neck Cancer*. Interactive
     visualization framework for understanding network effects in Head
@@ -142,6 +142,8 @@ data from raw data to through the final stages of analysis.
     X!Tandem peptides.
 
 **RESEARCH PRESENTATIONS/LECTURES (Invited Lectures are Indicated)**
+
+1.  [*Data Science for Basic Scientists*](). Invited talk for OHSU Education Symposium. April 2017.
 
 1.  [*Moving From Big Data to Knowledge: Implications for the Health
     Care and Biomedical
@@ -205,12 +207,12 @@ data from raw data to through the final stages of analysis.
 1.  *Getting your hands dirty with data*. **Ted Laderas**, Melissa
     Hanedel, Bjorn Pederson, Jackie Wirz, William Hersh, David A. Dorr,
     Shannon McWeeney. Big Data to Knowledge (BD2K) All Hands meeting,
-    November 2016.
+    November 2016. [doi:10.6084/m9.figshare.4235594.v1](https://doi.org/10.6084/m9.figshare.4235594.v1)
 
 2.  *Get Real: A synthetic dataset illustrating clinical and
     genetic covariates.* **Ted Laderas**, Nicole Vasilevsky, Melissa
     Haendel, Shannon McWeeney and David A. Dorr. BD2K All Hands meeting,
-    November 2016.
+    November 2016. [doi:10.6084/m9.figshare.4239959.v1](https://doi.org/10.6084/m9.figshare.4239959.v1)
 
 3.  *Mass Cytometry as a Modality to Identify Candidates for Immune
     Checkpoint Inhibitor Therapy within Acute Myeloid Leukemia.* Adam
@@ -227,8 +229,8 @@ data from raw data to through the final stages of analysis.
 
 5.  *Improving Knowledge Discovery Through Development of Big Data to
     Knowledge Skills Courses and Open Educational Resources*. Nicole
-    Vasilevsky, Shannon McWeeney, William Hersh, David A. Dorr, Ted
-    Laderas, Jackie Wirz, Bjorn Pederson and Melissa Haendel. Poster for
+    Vasilevsky, Shannon McWeeney, William Hersh, David A. Dorr, **Ted
+    Laderas**, Jackie Wirz, Bjorn Pederson and Melissa Haendel. Poster for
     BICC Building 25th Anniversary.
 
 6.  *Consensus molecular subtyping through a community of experts
@@ -254,13 +256,13 @@ data from raw data to through the final stages of analysis.
     of Lapatinib in HER2+
     Cells*](https://www.dropbox.com/s/y3rbkygjn41qsd6/poster-laderas-nlm-2013.pdf?dl=0).
     **Ted Laderas** and Kemal Sonmez. National Library of Medicine
-    Training Conference, Utah, 2013.
+    Training Conference, Utah, 2013. [doi:10.6084/m9.figshare.4829749.v1](https://doi.org/10.6084/m9.figshare.4829749.v1)
 
 9.  [*Integrating to Interact: Using Reconstructability Analysis to
     Integrate Genomic and Proteomic Data to Predict Drug
     Sensitivity*](https://www.dropbox.com/s/nhixsztlg1oo4z6/poster-laderas-ismb-2012.pdf?dl=0).
     **Ted Laderas** and Kemal Sonmez. Intelligent Systems in Molecular
-    Biology conference, 2012.
+    Biology conference, 2012. [doi:10.6084/m9.figshare.4830007.v1](https://doi.org/10.6084/m9.figshare.4830007.v1)
 
 10. *Tales from the Cryptic Snp: High Throughput Sequencing of DBA/2J
     and C57BL/6J mouse chromosome 1 reveals an abundance
@@ -300,7 +302,7 @@ data from raw data to through the final stages of analysis.
 Effective communication, hands-on learning, and mentoring are core to my
 teaching philosophy. I am a strong believer in enabling students in
 self-directed learning through hands-on workshops including both
-practical skills in bioinformatics (software development, design and
+practical skills in bioinformatics (software development, design, and
 data analysis and visualization) and social skills essential to
 collaboration (interpretation and communication). In terms of practical
 skills, I have developed and contributed to a number of courses
@@ -326,135 +328,155 @@ long-form courses and short-term workshops.
 
 Lectures and Interactive Workshops are linked where possible.
 
-1.  [*Analytics Course*](https://github.com/laderast/AnalyticsCourse).
-    New Course material in SQLite, Logistic Regression and Analysis.
-    August 2016.
+1.  [*Assessing Cardiovascular Risk*](). Workshop for Portland State University
+    Students. May 2017.
 
-2.  [*Exploring the DREAM Viral Respiratory Dataset using
+2.  [*An Intro to GitHub Pages*](https://github.com/laderast/githubPagesTutorial).
+    Workshop given with Robin Champieux and Eric Leung on setting up a personal
+    GitHub webpage. April 2017.
+
+3.  [*An Intro To Data Carpentry*](https://github.com/erictleung/tutorial-tidyverse).
+    Lecture given with Eric Leung about the tidyverse suite of packages for data
+    wrangling and visualization. March 2017.
+
+4.  [*The Magic of Markdown*](https://github.com/laderast/magic-of-markdown).
+    Updated for 2017, including examples of using Zotero as citation manager. March 2017. [doi:10.5281/zenodo.495614](https://doi.org/10.5281/zenodo.495614)
+
+5.  [*Shiny Tutorial for CSE631*](https://github.com/laderast/CSE631Shiny). Workshop on
+    developing interactive visualizations using Shiny for CSE631 Data
+    Visualization course. November 2016. [DOI: 10.5281/zenodo.495621](https://doi.org/10.5281/zenodo.495621)
+
+6.  [*Analytics Course*](https://github.com/laderast/AnalyticsCourse).
+    New Course material in SQLite, Logistic Regression and Analysis.
+    August 2016. [doi:10.5281/zenodo.495623](https://doi.org/10.5281/zenodo.495623)
+
+7.  [*Exploring the DREAM Viral Respiratory Dataset using
     Shiny*](https://github.com/laderast/DreamEDAShiny). Tutorial in
     Exploratory Data Analysis (EDA) using *data.table* and *Shiny*.
     July 2016.
 
-3.  [*Introduction to Exploratory Data Analysis using
+8.  [*Introduction to Exploratory Data Analysis using
     Shiny*](https://github.com/laderast/shinyEDA) - Interactive workshop
     in using a Shiny Dashboard to conduct EDA on a dataset for BD2K
-    Advanced Skills Course. May 2016.
+    Advanced Skills Course. May 2016. [doi:10.5281/zenodo.495618](https://doi.org/10.5281/zenodo.495618)
 
-4.  [*Introduction to Machine Learning using
+9.  [*Introduction to Machine Learning using
     Markdown*](https://github.com/laderast/MLtutorial) - Interactive
     workshop using Markdown to explore machine learning algorithms for
-    BD2K Advanced Skills Course. May 2016.
+    BD2K Advanced Skills Course. May 2016. []()
 
-5.  *Clustering Algorithms*. Lecture given for Statistical
+10.  *Clustering Algorithms*. Lecture given for Statistical
     Methods class. February 2016.
 
-6.  [*iGraph Tutorial*](https://github.com/laderast/igraphTutorial).
+11.  [*iGraph Tutorial*](https://github.com/laderast/igraphTutorial).
     Introductory lecture for the igraph package in R for
-    network analysis. November 2015.
+    network analysis. November 2015. [doi:10.5281/zenodo.495616](https://doi.org/10.5281/zenodo.495616)
 
-7.  [*The Magic of
+12.  [*The Magic of
     Markdown*](https://github.com/laderast/magic-of-markdown).
     Introduction to Markdown in both R, GitHub pages, and Pandoc. BioDSP
-    October 2015.
+    October 2015. [doi:10.5281/zenodo.495614](https://doi.org/10.5281/zenodo.495614)
 
-8.  *Pharmacogenomics* Lecture for Analytics Course, August 2015.
+13.  *Pharmacogenomics* Lecture for Analytics Course, August 2015.
 
-9.  [*Introduction to
+14.  [*Introduction to
     Clustering*](http://church.ohsu.edu:3838/laderast/clusteringLecture/)*.*
-    Interactive slides for understanding clustering.
+    Interactive slides for understanding clustering. [doi:10.5281/zenodo.495624](https://doi.org/10.5281/zenodo.495624)
 
-10. [*Introduction to
+15. [*Introduction to
     ggvis*](https://www.dropbox.com/s/n0unpdkd5r2tdu7/ggvis-Tutorial.html?dl=0).
     Lecture/Workshop given for OHSU Bioinformatics Discussion for
     Students and Postdocs, April 2015.
 
-11. [*Introduction to
+16. [*Introduction to
     ggplot2*](https://www.dropbox.com/s/efbwx3jjx89folh/ggplot2Intro.html?dl=0)*.*
     Lecture/Workshop given for OHSU Bioinformatics Discussion for
-    Students and Postdocs, March 2015.
+    Students and Postdocs, March 2015. [doi:10.5281/zenodo.495622](https://doi.org/10.5281/zenodo.495622)
 
-12. [*Exacloud
+17. [*Exacloud
     Tutorial*](https://www.dropbox.com/s/chg6ciknxonp5el/exacloud-tutorial.pdf) -
     A DIY tutorial to running jobs on Exacloud, OHSU's cluster
     computing environment. November 2015.
 
-13. [*Shiny
+18. [*Shiny
     Tutorial*](https://www.dropbox.com/s/5ceg6wdrustjoae/tutorialApp.zip) -
     A do it yourself tutorial to try out Shiny, ggplot2, and dplyr for
     interactive graphics. September 2015.
+    [doi:10.5281/zenodo.495620](https://doi.org/10.5281/zenodo.495620)
 
-14. *Analytics Course*. Instructor. Hybrid Online/On-campus joint course
+19. *Analytics Course*. Instructor. Hybrid Online/On-campus joint course
     with DMICE and Kaiser Permanente Analytics group. August 2015.
 
-15. *R-Bootcamp*. Massive Open Online Course available at:
+20. *R-Bootcamp*. Massively Open Online Course available at:
     <http://dx.doi.org/10.5281/zenodo.13756>. With contributions from
     Eric Leung, Dian Chase, Tracy Edinger, Clint Olson, and
     Gabrielle Chonoo. 2014-Present
 
-16. [*Your In-silico Lab Notebook: Best Practices
+21. [*Your In-silico Lab Notebook: Best Practices
     2015*](https://www.dropbox.com/s/ddyq88gqh8priv8/insilicotalk-2015.pptx?dl=0)*.*
     Lecture/Workshop given for OHSU BioDSP group, January 2015.
 
-17. [*Everything you wanted to know about bioinformatics but were afraid
+22. [*Everything you wanted to know about bioinformatics but were afraid
     to
     ask*](https://www.dropbox.com/s/a4qgwap4jehzs8x/everything-you-wanted-to-know.pptx?dl=0)*.*
     Lecture/Workshop given for OHSU PhD/Postdoc Fellows meeting,
     October 2014.
 
-18. [*List Comprehensions in
+23. [*List Comprehensions in
     Python*](https://www.dropbox.com/s/1my6l8diprnzg4n/lecture_slides_day7_2012-laderas.pptx?dl=0).
     Lecture given for Bioinformatics Programming and Scripting Course,
     Fall 2012.
 
-19. [*Introduction to Unit
+24. [*Introduction to Unit
     Testing*](https://www.dropbox.com/s/jdgbb07xydmxah5/lecture_slides_day10_1027-laderas.pdf?dl=0).
     Lecture given for Bioinformatics Programming and Scripting Course,
     Fall 2012.
 
-20. *Introduction to Numerical Python (NumPy).* Lecture given for
+25. *Introduction to Numerical Python (NumPy).* Lecture given for
     Bioinformatics Programming and Scripting Course, Fall 2012.
 
-21. *Introduction to SciPy.* Lectures given for Bioinformatics
+26. *Introduction to SciPy.* Lectures given for Bioinformatics
     Programming and Scripting Course, Fall 2012.
 
-22. *An Introduction to ODE Models.* Lecture given for Systems Biology
+27. *An Introduction to ODE Models.* Lecture given for Systems Biology
     Class, 2012.
 
-23. [*Integrating Data for Systems
+28. [*Integrating Data for Systems
     Biology*](https://www.dropbox.com/s/ksnogpxoh22eit8/IntegratingDataforSystemsBiology.pptx?dl=0).
     Lecture given for Systems Biology Class, 2012.
 
-24. *Work Smarter, Not Harder: Productivity Tools and You.* Lecture
+29. *Work Smarter, Not Harder: Productivity Tools and You.* Lecture
     given for PhD/Postdoctoral meeting, 2011.
 
-25. [*Bayesian
+30. [*Bayesian
     Networks*](https://www.dropbox.com/s/xab61u1jo9y9io9/bayesnets-new-laderas.pptx?dl=0).
     Lecture given for Statistical Methods in Bioinformatics Class, 2011.
 
-26. [*Gibbs
+31. [*Gibbs
     Samplers*](https://www.dropbox.com/s/r2j0oi1madn0t1s/GibbsSampler-laderas.pptx?dl=0).
     Lecture given for Statistical Methods in Bioinformatics Class, 2011.
+    [doi:10.6084/m9.figshare.4829530](https://doi.org/10.6084/m9.figshare.4829530)
 
-27. *Workshop on Strings and Matrices in R*. Workshop given for
+32. *Workshop on Strings and Matrices in R*. Workshop given for
     Statistical Methods in Bioinformatics class. 2011.
 
-28. *Introduction to R Workshop.* Workshop given for Statistical Methods
+33. *Introduction to R Workshop.* Workshop given for Statistical Methods
     in Bioinformatics class. 2011.
 
-29. [*Extended Dependency
+34. [*Extended Dependency
     Analysis*](https://www.dropbox.com/s/yt8dybaap4sn8hy/03-eda-extended-dependency-analysis.pptx?dl=0).
     Presentation given for Information Theory Independent Study 2010.
 
-30. [*Conant's Laws of Information that Govern
+35. [*Conant's Laws of Information that Govern
     Systems*](https://www.dropbox.com/s/kkv4yv2vmwwdqfa/02-conant-laws-of-information.pptx?dl=0).
     Presentation given for Information Theory Independent Study, 2010.
 
-31. [*Ashby's Law of Requisite Variety and Conant's Information Transfer
+36. [*Ashby's Law of Requisite Variety and Conant's Information Transfer
     in
     Regulation*](https://www.dropbox.com/s/jz0gthjbd9cqbrt/01-ashby-conant-variety.pptx?dl=0).
     Presentation given for Information Theory Independent Study, 2010.
 
-32. *Lab: Using Consense-Cluster to explore the Bittner dataset.*
+37. *Lab: Using Consense-Cluster to explore the Bittner dataset.*
     Laboratory given as part of Microarray Analysis Course, OHSU, 2006.
 
 **SERVICE STATEMENT**
@@ -479,16 +501,20 @@ under-employed professionals.
 
 **SERVICE ACCOMPLISHMENTS**
 
-Co-Founder of BioDSP group for students and postdocs. Managed speakers,
+Organizer for Cascadia R Conference.
+
+Participant/Instructor for PDX Data Rescue/Open Data Day.
+
+Co-Founder of BioData Club group for students and postdocs. Managed speakers,
 developed free workshops for students, and provided feedback for student
-presentations. BioDSP is currently at 57 students and its members range
+presentations. BioData Club is currently at 80 members ranging
 from OHSU staff, faculty, students and postdocs, providing a unique
 opportunity to share information and provide mentoring to students.
 
 Developed coursework for unemployed or underemployed IT workers in both
 biosciences and healthcare for Oregon Bioscience Association.
 
-Reviewer for both BMC Bioinformatics and Neurocomputing.
+Reviewer for AMIA, BMC Bioinformatics, and Neurocomputing.
 
 My mentees include Jason Li and Eisa Mahyari, both PhD candidates in
 DMICE.
