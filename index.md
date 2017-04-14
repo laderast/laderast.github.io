@@ -54,8 +54,9 @@ As an instructor under OHSU's [Big Data To Knowledge (BD2K)](http://www.ohsu.edu
 #### **Other Teaching Interests**
 
 + [BioData Club](http://biodata-club.github.io) - A student and postdoc driven discussion group at OHSU that focuses on practical skills (documentation, software engineering and visualization) necessary for success in data science and bioinformatics.
-+ I'm also an Instructor for the summer hybrid Analytics Course taught at OHSU (Hybrid course co-taught with Kaiser Permanente Data & Information Management Enhancement (DIME) group).
-+ I also participate in the [PDX R User Group](https://www.meetup.com/portland-r-user-group/) and I'm helping organize the first [Cascadia R conference](https://cascadiarconf.com)
++ I teach in the summer hybrid [BMI569/669 Data Analytics](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/BMI-569_669-Data-Analytics-Syllabus-SU16-2.pdf) course taught at OHSU (Hybrid course co-taught with Kaiser Permanente Data & Information Management Enhancement (DIME) group).
++ I am also a co-instructor for the [BMI551/651 Bioinformatics and Computational Biology II: Statistical Methods](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/BMI-551-Syllabus-WI16.pdf), providing drop-in sessions for R programming and general tutoring.
++ I participate in the [PDX R User Group](https://www.meetup.com/portland-r-user-group/) and I'm helping organize the first [Cascadia R conference](https://cascadiarconf.com)
 
 ### **Software Development:**
 
