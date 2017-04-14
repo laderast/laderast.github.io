@@ -24,6 +24,7 @@ Over twelve years of bioinformatics experience, I have developed methods for low
 
 I have developed a number of self-directed training materials for learning R and specific packages that I've found useful. Most of these are available from my github page and may be used freely by students.
 
++ [Data Science For Basic Scientists](http://laderast.github.io/DS4BS/) - My talk for OHSU's Symposium on Education Excellence about teaching data science at OHSU.
 + [R-Bootcamp](https://www.coursesites.com/s/_Rbootcamp) - an MOOC (Massively Open Online Course) for teaching the basics of data manipulation in R (Coursesites registration required).
 + [ggplot2 Tutorial](https://github.com/laderast/ggplot2-intro) - A gentle introduction to ggplot2 and the grammar of graphics.
 + [ggvis Tutorial](https://github.com/laderast/ggvis-intro) - A gentle introduction to ggvis, which adds extra interactivity to Shiny plots using the magic of vega.
@@ -39,7 +40,7 @@ As an instructor under OHSU's [Big Data To Knowledge (BD2K)](http://www.ohsu.edu
 
 **Other Teaching Interests**
 
-+ [BioDSP](http://biodsp.slack.com) - Bioinformatics for Students and Postdocs - a student and postdoc driven discussion group at OHSU that focuses on practical skills (documentation, software engineering and visualization) necessary for success in bioinformatics.
++ [BioData Club](http://biodata-club.github.io) -A student and postdoc driven discussion group at OHSU that focuses on practical skills (documentation, software engineering and visualization) necessary for success in bioinformatics.
 + Instructor for Analytics Course (Hybrid course co-taught with Kaiser Permanente Data & Information Management Enhancement group)
 
 **Software Development:**
