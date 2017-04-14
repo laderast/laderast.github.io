@@ -64,7 +64,7 @@ As an instructor under OHSU's [Big Data To Knowledge (BD2K)](http://www.ohsu.edu
 + [surrogateShiny](https://github.com/laderast/surrogateShiny) - an R/Shiny Framework for exploring oncogenic collaboration in breast cancer cell lines. [See it in action.](https://tladeras.shinyapps.io/surrogateShiny/)
 + [Consense](https://github.com/laderast/surrogateMutation) - a package for comparing clustering methods.
 + [ExonModelStrain](https://github.com/laderast/ExonModelStrain) - a package for detecting alternative exon usage in the Affymetrix Exon Array
-+ [TandTRAQ]() - Perl Script for merging iTRAQ and XTandem Results.
++ TandTRAQ - Perl Script for merging iTRAQ and XTandem Results.
 
 ### **Selected Publications:**
 
