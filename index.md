@@ -28,7 +28,7 @@ I have developed a number of self-directed training materials for learning R and
 
 ### **Standalone Tutorials**
 
-Many of these tutorials have been given through the student club at OHSU that I mentor, called[BioData Club](http://biodata-club.github.io). They are all freely available to be reused by other instructors.
+Many of these tutorials have been given through the student club at OHSU that I mentor, called [BioData Club](http://biodata-club.github.io). They are all freely available to be reused by other instructors.
 
 + [The Magic of Markdown](https://github.com/laderast/magic-of-markdown) - An introduction to the many uses of Markdown, including RMarkdown for reproducible scripting.
 + [GitHub Pages](https://github.com/BioData-Club/githubPagesTutorial) - A pain free introduction to getting a personal website started using GitHub pages. With Robin Champieux and Eric Leung

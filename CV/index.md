@@ -1,4 +1,4 @@
-##Ted Laderas, PhD
+## Ted Laderas, PhD
 
 *Postdoctoral Researcher*, OHSU Knight Cancer Institute  
 *Instructor*, Division of Bioinformatics and Computational Biology, Department of Medical Informatics and Clinical Epidemiology  
@@ -529,18 +529,22 @@ No # assigned
 Druker (PI)  
 5/1/2013-4/30/2016   
 The Leukemia & Lymphoma
-Society   
+Society
+  
 
-Beat AML: Precision Medicine for AML Based on Functional Genomics 
+Beat AML: Precision Medicine for AML Based on Functional Genomics
+
 
 The major goals of this project is to transform our approach to AML treatment through a deeper understanding of the diversity of the underlying molecular causes of disease and to bring targeted therapies to AML patients through 1) understanding the spectrum of genetic lesions and molecular drivers, 2) functionally annotating drug sensitivity, and 3) Initiating clinical trials with combinations of drugs in refractory patients. Role: Computational Biologist
 
 OPP1131709  
 Lewinsohn, DM (PI)  
 10/26/2015-10/31/2018  
-Bill & Melinda Gates Foundation   
+Bill & Melinda Gates Foundation
+  
 
-Targeting MAIT cells for TB vaccines 
+Targeting MAIT cells for TB vaccines
+
 
 This proposal is designed to establish whether or not a vaccine
 targeting Mucosal Associated Invariant (MAIT) can be used to prevent
