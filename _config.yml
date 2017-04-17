@@ -8,3 +8,5 @@ twitter_username: tladeras
 github_username:  laderast
 # Build settings
 markdown: kramdown
+
+theme: jekyll-theme-minimal
