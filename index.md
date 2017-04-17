@@ -75,3 +75,7 @@ As an instructor under OHSU's [Big Data To Knowledge (BD2K)](http://www.ohsu.edu
 + [Computational detection of alternative exon usage.](http://journal.frontiersin.org/article/10.3389/fnins.2011.00069/abstract) **Ted Laderas**, Nicole Walter, Michael Mooney, Kristina Vartanian, Priscila Darakjian, Kari Buck, Chris Harrington, John Belknap, Robert Hitzemann, and Shannon McWeeney. Frontiers in Neurogenomics. 2011. Article 69. PMID 21625610. In this paper, Nicole Walter and I developed a computational framework for detecting alternative exon usage between strains of mice (B6/alcohol preferring and D2/wild type).
 + [TandTRAQ: An open-source tool for integrated protein identification and quantitation.](http://bioinformatics.oxfordjournals.org/content/23/24/3394.full) **Ted Laderas**, Cory Bystrom, Debra McMillen, Guang Fan and Shannon McWeeney.  Bioinformatics. 2007.
 + [A consensus framework for clustering microarray data.](http://www.ncbi.nlm.nih.gov/pubmed/17411399) **Ted Laderas** and Shannon McWeeney. OMICS: A Journal of Integrative Biology. 2007. 116-128.
+
+### Other Interests
+
+I have a parallel career as a composer and performing musician. I started taking cello lessons when I turned 30. I'm a lifelong learner and I love to play and accompany other musicians. For more information, please see my artist webpage: http://15people.net 
