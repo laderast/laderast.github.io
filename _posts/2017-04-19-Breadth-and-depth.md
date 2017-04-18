@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "On Breadth and Depth in Your Academic Career"
+tags: arts music plasticity cross-discipline
 ---
 I was talking with a student and they were complaining that when at conferences, they would try to inject other topics of interest (such as cooking) into discussions with colleagues. Unfortunately, one of the after effects of this was that they were looked at as "not a serious scientist". There's an expectation that a scientist must be all depth, only talking and thinking about their sub-field.
 

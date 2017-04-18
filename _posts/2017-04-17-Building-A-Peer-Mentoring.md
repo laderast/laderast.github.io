@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Fostering a Peer Mentoring Culture"
+tags: peer-mentoring community university
 ---
 I realize that it has been an embarrasingly long time since I updated this blog. I had all sorts of grandiose plans for it, and I think my problem was that I was thinking too broad, too pie-in-the-sky. I'm going to try to focus on short and informative blog posts.
 
