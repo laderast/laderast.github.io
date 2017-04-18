@@ -10,7 +10,7 @@ I have a parallel career in [performance and improvisational music](http://15peo
 
 So, the next time a scientist looks down at you for being a polymath, pity them. Their world and their ideas are not as rich as yours.
 
-###More Reading
+### Further Reading
 
 - [The Correlation Between Arts and Crafts and a Nobel  Prize](https://priceonomics.com/the-correlation-between-arts-and-crafts-and-a/)
 - [Arts Foster Scientific Success](https://www.researchgate.net/profile/Kendell_Pawelec/publication/247857346_Arts_Foster_Scientific_Success_Avocations_of_Nobel_National_Academy_Royal_Society_and_Sigma_Xi_Members/links/00b4953c00f875f191000000.pdf)
