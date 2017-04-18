@@ -78,4 +78,4 @@ As an instructor under OHSU's [Big Data To Knowledge (BD2K)](http://www.ohsu.edu
 
 ### **Other Interests**
 
-I have a parallel career as a composer and performing musician. I started taking cello lessons when I turned 30. I'm a lifelong learner and I love to play with and accompany other musicians. For more information, please see my artist webpage: http://15people.net 
+I have a parallel career as a composer and performing musician. I started taking cello lessons when I turned 30. I'm a lifelong learner and I love to play with and accompany other musicians. For more information, please see [my artist webpage](http://15people.net).
