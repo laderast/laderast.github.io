@@ -15,7 +15,7 @@ Having breadth and depth enables you to make connections that no one else has. I
 
 I have a parallel career in [performance and improvisational music](http://15people.net). Music, for me, is endlessly inspiring and has forced me out of my introverted shell. One of the reasons I took up cello is that I can play many roles; accompanist, rhythm, solo. This flexibility in playing music has translated to my flexibility in collaboration. Being able to adjust to new circumstances and improvise new ideas to explore is a critical component of being a responsible scientist. My background improvisation has helped me pivot ideas. I have become less attached to dogmatic ideas. Many of my good ideas come from idle wondering about data that has captured my imagination. This is part of the reason why I teach students [how to explore their data](https://github.com/laderast/shinyEDA).
 
-So, the next time a scientist looks down at you for being a polymath, pity them. Their world and their ideas are not as rich as yours.
+So, the next time another scientist looks down at you for being a polymath, pity them. Their world and their ideas are not as rich as yours.
 
 ### Further Reading
 
