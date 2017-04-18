@@ -6,6 +6,15 @@ layout: default
 
   <h1 class="page-heading">Ted's Blog</h1>
 
+  {% comment %}
+=======================
+The purpose of this snippet is to list all the tags you have in your site.
+=======================
+{% endcomment %}
+{% for tag in tags %}
+	<a href="#{{ tag | slugify }}"> {{ tag }} </a>
+{% endfor %}
+
   <ul class="post-list">
     {% for post in site.posts %}
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
