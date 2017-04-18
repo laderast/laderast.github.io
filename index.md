@@ -76,6 +76,6 @@ As an instructor under OHSU's [Big Data To Knowledge (BD2K)](http://www.ohsu.edu
 + [TandTRAQ: An open-source tool for integrated protein identification and quantitation.](http://bioinformatics.oxfordjournals.org/content/23/24/3394.full) **Ted Laderas**, Cory Bystrom, Debra McMillen, Guang Fan and Shannon McWeeney.  Bioinformatics. 2007.
 + [A consensus framework for clustering microarray data.](http://www.ncbi.nlm.nih.gov/pubmed/17411399) **Ted Laderas** and Shannon McWeeney. OMICS: A Journal of Integrative Biology. 2007. 116-128.
 
-### Other Interests
+### **Other Interests**
 
-I have a parallel career as a composer and performing musician. I started taking cello lessons when I turned 30. I'm a lifelong learner and I love to play and accompany other musicians. For more information, please see my artist webpage: http://15people.net 
+I have a parallel career as a composer and performing musician. I started taking cello lessons when I turned 30. I'm a lifelong learner and I love to play with and accompany other musicians. For more information, please see my artist webpage: http://15people.net 
