@@ -9,6 +9,9 @@ github_username:  laderast
 # Build settings
 markdown: kramdown
 
+gems:
+  - jekyll-seo-tag
+
 tags:
 - jekyll
 - code
