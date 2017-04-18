@@ -9,4 +9,6 @@ github_username:  laderast
 # Build settings
 markdown: kramdown
 
-theme: jekyll-theme-time-machine
+tags:
+- jekyll
+- code
