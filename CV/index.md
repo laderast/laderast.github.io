@@ -143,7 +143,7 @@ data from raw data to through the final stages of analysis.
 
 **RESEARCH PRESENTATIONS/LECTURES (Invited Lectures are Indicated)**
 
-1.  [*Data Science for Basic Scientists*](https://doi.org/10.6084/m9.figshare.4876811.v3). Invited talk for OHSU Education Symposium. April 2017. [doi:10.6084/m9.figshare.4876811.v3](https://doi.org/10.6084/m9.figshare.4876811.v3)
+1.  [*Data Science for Basic Scientists*](http://laderast.github.io/DS4BS/). Invited talk for OHSU Symposium on Educational Excellence. April 2017. [doi:10.6084/m9.figshare.4876811.v3](https://doi.org/10.6084/m9.figshare.4876811.v3)
 
 2.  [*Moving From Big Data to Knowledge: Implications for the Health
     Care and Biomedical
@@ -331,7 +331,7 @@ Lectures and Interactive Workshops are linked where possible.
 1.  [*Assessing Cardiovascular Risk*](). Workshop for Portland State University
     Students. May 2017.
 
-2.  [*An Intro to GitHub Pages*](https://github.com/laderast/githubPagesTutorial).
+2.  [*An Intro to GitHub Pages*](https://github.com/biodata-club/githubPagesTutorial).
     Workshop given with Robin Champieux and Eric Leung on setting up a personal
     GitHub webpage. April 2017.
 
@@ -544,7 +544,6 @@ Bill & Melinda Gates Foundation
   
 
 Targeting MAIT cells for TB vaccines
-
 
 This proposal is designed to establish whether or not a vaccine
 targeting Mucosal Associated Invariant (MAIT) can be used to prevent
