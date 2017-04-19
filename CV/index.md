@@ -143,62 +143,62 @@ data from raw data to through the final stages of analysis.
 
 **RESEARCH PRESENTATIONS/LECTURES (Invited Lectures are Indicated)**
 
-1.  [*Data Science for Basic Scientists*](). Invited talk for OHSU Education Symposium. April 2017.
+1.  [*Data Science for Basic Scientists*](https://doi.org/10.6084/m9.figshare.4876811.v3). Invited talk for OHSU Education Symposium. April 2017. [doi:10.6084/m9.figshare.4876811.v3](https://doi.org/10.6084/m9.figshare.4876811.v3)
 
-1.  [*Moving From Big Data to Knowledge: Implications for the Health
+2.  [*Moving From Big Data to Knowledge: Implications for the Health
     Care and Biomedical
     Sciences*](https://www.dropbox.com/s/ls6agg9uy2b6wp4/big-data-talk_laderas.pdf?dl=0)*.*
     Invited Lecture given for BioCatalyst Advanced Training workshop at
     Oregon Bioscience Association. June 2015.
 
-2.  *Surrogate Mutations and Drug Sensitivity in Breast Cancer
+3.  *Surrogate Mutations and Drug Sensitivity in Breast Cancer
     Cell Lines.* Plenary talk at NLM Training Conference, Pittburgh, PA,
     June 2014.
 
-3.  *Connecting Genotypes to Drug Sensitivities in HER2 Positive Cancer
+4.  *Connecting Genotypes to Drug Sensitivities in HER2 Positive Cancer
     Cell Lines.* Doctoral Defense, OHSU, March 2014.
 
-4.  *Understanding Expression Differences in RPPA Data: Implications for
+5.  *Understanding Expression Differences in RPPA Data: Implications for
     ODE Models.* Presentation at Integrative Cancer Biology Program
     retreat 2012.
 
-5.  *Connecting Genotypes to Drug Sensitivity in HER2+ Breast Cancer
+6.  *Connecting Genotypes to Drug Sensitivity in HER2+ Breast Cancer
     Cell Lines.* Lecture/Dissertation proposal given for PhD/Postdoc
     Meeting January 2012 and March 2012.
 
-6.  *Connecting Genotypes to Drug Sensitivity in Breast Cancer
+7.  *Connecting Genotypes to Drug Sensitivity in Breast Cancer
     Cell Lines.* Invited presentation at Integrative Cancer Biology
     Program retreat, 2011.
 
-7.  [*What are Models For? Making Sense of Systems
+8.  [*What are Models For? Making Sense of Systems
     Biology*](https://www.dropbox.com/s/bi14mo1ahr4yod8/symposium-laderas.pptx?dl=0).
     Predoctoral Symposium. 2010.
 
-8.  *Two kinds of Robustness.* Presentation given to Bioinformatics
+9.  *Two kinds of Robustness.* Presentation given to Bioinformatics
     Development Group, 2010.
 
-9.  *Portland Alcohol Research Center Scientific Advisory Board Review:
+10.  *Portland Alcohol Research Center Scientific Advisory Board Review:
     Bioinformatics & Statistics.* Presentation given to PARC SAB,
     OHSU, 2009.
 
-10. *An introduction to trend analysis and consensus modules for
+11. *An introduction to trend analysis and consensus modules for
     systems biology.* Presentation given with Sophia Jeng to
     Mathematical Modeling Core for Systems Virology, OHSU 2009.
 
-11. *An introduction to Consensus Modules for Systems Biology.* Lecture
+12. *An introduction to Consensus Modules for Systems Biology.* Lecture
     given with Sophia Jeng to Bioinformatics Development Group,
     OHSU, 2008.
 
-12. *An Introduction to Sloppy Systems Biology.* Lecture given to
+13. *An Introduction to Sloppy Systems Biology.* Lecture given to
     Bioinformatics Development Group, OHSU, 2008.
 
-13. *Simulated and Synthetic Data for Benchmarking Algorithms.* Lecture
+14. *Simulated and Synthetic Data for Benchmarking Algorithms.* Lecture
     given as part of Bioinformatics Methods class, OHSU, 2007.
 
-14. *Introduction to QPACA Pathway Analysis Software and BioPAX.* Talk
+15. *Introduction to QPACA Pathway Analysis Software and BioPAX.* Talk
     given at 2006 caBIG Annual Meeting, Washington DC.
 
-15. *Consense: A software package for utilizing multiple clustering
+16. *Consense: A software package for utilizing multiple clustering
     methods on Microarray Data.* Talk given at OHSU Student Research
     Forum, 2005.
 
