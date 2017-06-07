@@ -37,6 +37,7 @@ Many of these tutorials have been given through the student club at OHSU that I 
 
 As a developer and programmer of R, I enjoy teaching others about the basics of data wrangling and analysis. Here are a few of the tutorials I've put together.
 
++ [A gRadual intRoduction to the tidyverse](https://github.com/Cascadia-R/gRadual-intRoduction-tidyverse). A workshop that [Chester Ismay](http://ismayc.github.io) and I gave for [Cascadia-R](http://cascadiarconf.com) teaching the basics of `ggplot2`, `dplyr`, and `tidyr`.
 + [Introduction to the Tidyverse](https://github.com/erictleung/tutorial-tidyverse) - An introduction to basic data wrangling using the Tidyverse in R. With Eric Leung.
 + [ggplot2 Tutorial](https://github.com/laderast/ggplot2-intro) - A gentle introduction to ggplot2 and the grammar of graphics.
 + [ggvis Tutorial](https://github.com/laderast/ggvis-intro) - A gentle introduction to ggvis, which adds extra interactivity to Shiny plots using the magic of vega.
