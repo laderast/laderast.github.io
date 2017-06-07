@@ -5,7 +5,6 @@ This is an ongoing list of open science efforts I'm interested in.
   - Big Data to Knowledge: https://datascience.nih.gov/bd2k
     - NIH wide effort to fund data science and data science education
     - Data Science Biocommons: https://datascience.nih.gov/commons
-    - My notes on the BD2K conference here: 
   - ROpenSci https://ropensci.org/
     - A community that builds tools to go from raw data to publication
     - Many, many packages: https://ropensci.org/packages/
