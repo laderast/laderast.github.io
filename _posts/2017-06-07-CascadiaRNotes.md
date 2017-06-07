@@ -25,7 +25,7 @@ Again, who is your desired audience and can they afford your conference? We deci
 
 **Talk with others who have done it**. We were very clueless about much of the logistics side at OHSU. I managed to get through by talking with a number of people here (including Robin Champieux and Shannon McWeeney) who have done conferences here at OHSU. Thank you so much for your invaluable advice.
 
-**Encourage each other and delegate**. No one of us could have done all of the conference planning alone. Each of us took on various aspects of conference organization and brought in the others as support as needed. For example, when we found out that our chosen caterer wouldn't deliver to our venue. We had to scramble to find another vendor. Some of us selected talks, some of us did design, and we all pitched in to get registration working as efficiently and quickly as possible.
+**Encourage each other and delegate**. No one of us could have done all of the conference planning alone. Each of us took on various aspects of conference organization and brought in the others as support as needed. Some of us selected talks, some of us did design, and we all pitched in to get registration working as efficiently and quickly as possible.
 
 Our slack channel on [pdxdata.slack.com](https://pdxdata.slack.com) is full of our decisions. Slack was so useful as a planning mechanism that we only met online via Google Hangouts a few times, and only had two in-person planning sessions.
 
