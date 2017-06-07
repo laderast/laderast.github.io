@@ -37,18 +37,19 @@ Many of these tutorials have been given through the student club at OHSU that I 
 
 As a developer and programmer of R, I enjoy teaching others about the basics of data wrangling and analysis. Here are a few of the tutorials I've put together.
 
-+ [A gRadual intRoduction to the tidyverse](https://github.com/Cascadia-R/gRadual-intRoduction-tidyverse). A workshop that [Chester Ismay](http://ismayc.github.io) and I gave for [Cascadia-R](http://cascadiarconf.com) teaching the basics of `ggplot2`, `dplyr`, and `tidyr`.
-+ [Introduction to the Tidyverse](https://github.com/erictleung/tutorial-tidyverse) - An introduction to basic data wrangling using the Tidyverse in R. With Eric Leung.
-+ [ggplot2 Tutorial](https://github.com/laderast/ggplot2-intro) - A gentle introduction to ggplot2 and the grammar of graphics.
-+ [ggvis Tutorial](https://github.com/laderast/ggvis-intro) - A gentle introduction to ggvis, which adds extra interactivity to Shiny plots using the magic of vega.
-+ [Shiny Tutorial](https://github.com/laderast/shinyTutorial) - A do it yourself tutorial to try out Shiny, ggplot2, and dplyr for interactive graphics.
-+ [igraph Tutorial](https://github.com/laderast/igraphTutorial) - Another tutorial, this time on network analysis using the igraph package.
++ [A gRadual intRoduction to the tidyverse](https://github.com/Cascadia-R/gRadual-intRoduction-tidyverse). A workshop that [Chester Ismay](http://ismayc.github.io) and I gave for [Cascadia-R](http://cascadiarconf.com) teaching the basics of the `tidyverse`: `ggplot2`, `dplyr`, and `tidyr`.
++ [Introduction to the Tidyverse](https://github.com/erictleung/tutorial-tidyverse) - An introduction to basic data wrangling using the `tidyverse` in R. With Eric Leung.
++ [ggplot2 Tutorial](https://github.com/laderast/ggplot2-intro) - A gentle introduction to `ggplot2` and the grammar of graphics.
++ [ggvis Tutorial](https://github.com/laderast/ggvis-intro) - A gentle introduction to `ggvis`, which adds extra interactivity to `shiny` plots using the magic of vega.
++ [Shiny Tutorial](https://github.com/laderast/shinyTutorial) - A do it yourself tutorial to try out `shiny`, `ggplot2`, and `dplyr` for interactive graphics.
++ [igraph Tutorial](https://github.com/laderast/igraphTutorial) - Another tutorial, this time on network analysis using the `igraph` package.
 + [Exacloud Tutorial](https://www.dropbox.com/s/chg6ciknxonp5el/exacloud-tutorial.pdf) - A DIY tutorial to running jobs on Exacloud, OHSU's cluster computing environment. With Ryan Swan.
 
 #### **Big Data to Knowledge**
 
 As an instructor under OHSU's [Big Data To Knowledge (BD2K)](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/research/bd2k.cfm) Training Grant, I have also developed the following short workshops to encourage students to explore data and learn the basics of data-wrangling.
 
++ [Cardiovascular Risk Workshop](https://github.com/laderast/cvdNight1) - A workshop given for Portland State University students exploring the difficulties of predicting cardiovascular risk using `shiny` for exploratory data analysis and `caret` for machine learning. [Part 1](https://github.com/laderast/cvdNight1) and [Part 2](https://github.com/laderast/cvdNight2).
 + [Exploratory Data Analysis Using Shiny](https://github.com/laderast/shinyEDA) - A Tutorial and slides about doing exploratory data analysis with a Shiny Dashboard
 + [Machine Learning Using RMarkdown](https://github.com/laderast/MLtutorial) - A tutorial about Machine Learning and Reproducible Scripting and Workflows.
 
@@ -56,8 +57,8 @@ As an instructor under OHSU's [Big Data To Knowledge (BD2K)](http://www.ohsu.edu
 
 + [BioData Club](http://biodata-club.github.io) - A student and postdoc driven discussion group at OHSU that focuses on practical skills (documentation, software engineering and visualization) necessary for success in data science and bioinformatics.
 + I teach in the summer hybrid [BMI569/669 Data Analytics](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/BMI-569_669-Data-Analytics-Syllabus-SU16-2.pdf) course taught at OHSU (Hybrid course co-taught with Kaiser Permanente Data & Information Management Enhancement (DIME) group).
-+ I am also a co-instructor for the [BMI551/651 Bioinformatics and Computational Biology II: Statistical Methods](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/BMI-551-Syllabus-WI16.pdf), providing drop-in sessions for R programming and general tutoring.
-+ I participate in the [PDX R User Group](https://www.meetup.com/portland-r-user-group/) and I'm helping organize the first [Cascadia R conference](https://cascadiarconf.com)
++ I am also a co-instructor for [BMI551/651 Bioinformatics and Computational Biology II: Statistical Methods](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/BMI-551-Syllabus-WI16.pdf), providing drop-in sessions for R programming and general tutoring.
++ I participate in the [PDX R User Group](https://www.meetup.com/portland-r-user-group/) and I was one of the organizers of the first [Cascadia R conference](https://cascadiarconf.com)
 
 ### **Software Development:**
 
