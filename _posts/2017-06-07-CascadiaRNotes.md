@@ -3,7 +3,7 @@ layout: post
 title: "Some Lessons We Learned Running Cascadia-R"
 ---
 
-Well, the first [Cascadia R Conference](http://cascaderconf.com) has come and gone. I have to say that it was super fun, and well attended (over 190 people!). I had a blast meeting and chatting with everyone. Hopefully, we showed newbies that R is learnable and others that there are lots more things to learn about R.
+Well, the first [Cascadia R Conference](http://cascadiarconf.com) has come and gone. I have to say that it was super fun, and well attended (over 190 people!). I had a blast meeting and chatting with everyone. Hopefully, we showed newbies that R is learnable and others that there are lots more things to learn about R.
 
 The following is my attempt to document what we learned from organizing Cascadia-R. It's not complete; I may add and subtract from it as I think of more things to say about the planning process.
 
