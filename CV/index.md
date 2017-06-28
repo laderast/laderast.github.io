@@ -1,4 +1,7 @@
-## Ted Laderas, PhD
+---
+layout: page
+title: Ted Laderas, PhD
+---
 
 *Postdoctoral Researcher*, OHSU Knight Cancer Institute  
 *Instructor*, Division of Bioinformatics and Computational Biology, Department of Medical Informatics and Clinical Epidemiology  
