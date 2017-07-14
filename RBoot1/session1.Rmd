@@ -1,0 +1,76 @@
+---
+title: 'Session 1: Learning ggplot2'
+author: "Ted Laderas"
+date: "7/13/2017"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## These Slides are Here:
+
+http://laderast.gihub.io/RBoot1/
+
+## If you're new to R
+
+We're going to start from the very beginning. 
+
+We want to show you what's possible first, and then how to get there.
+
+Remember: this is not easy material, but be patient and you can do it!
+
+## If you've used R before
+
+The `tidyverse` simplifies a lot of the data processing steps needed to get data into statisical procedures. 
+
+It's really different than base-R, but it makes a lot of everyday procedures simple.
+
+## Planned Sessions
+
+- July 14 - `ggplot2` - getting to visualization
+- July 28 - `dplyr` - cleaning and shaping your data
+- August 11 - `tidyr` - the philosophy of tidy data
+- August 25 (tenative) - `broom` - doing simple statistics in the tidyverse way 
+
+## DataCamp
+
+DataCamp encourages experimentation! Don't be afraid of it!
+
+- Script Window - CTRL+ENTER (PC) / CMD+ENTER (Mac) - submit final answer here
+- Console Window - can experiment here!
+
+## What is a `data.frame`?
+
+- Table with Columns
+- Each column is called a variable
+    + Each variable can be a different type:
+    + Numeric, Categorical (`factor`), String (`character`)
+- Each row is an observation
+
+```{r echo=TRUE}
+data(iris)
+head(iris)
+```
+
+## Looking at a single variable
+
+```{r echo=TRUE}
+iris$Sepal.Length
+length(iris$Sepal.Length)
+```
+
+## Let's Get Started!
+
++ You'll need to get registered at DataCamp first: http://datacamp.com
++ Datacamp course: http://datacamp.com/courses/rbootcamp 
++ Be patient and curious! Try things out before you answer
++ Help each other! You can do it!
++ Use Post-its to signal for help (red - need help, green - I'm ok)
++ Online students: post questions in chat window, we'll do our best to answer
+
+## Other forms of This Course
+
+- Original Workshop form: https://github.com/Cascadia-R/gRadual-intRoduction-tidyverse
+- Bookdown form (good for reference): https://tidyverse-intro.github.io
