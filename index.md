@@ -2,7 +2,7 @@
 layout: default
 title: Homepage of Ted Laderas, PhD
 ---
-
+ 
 ![Ted Image]({{site.url}}/images/ted-headshot.jpg)
 
 I am a Postdoctoral Researcher at the [OHSU Knight Cancer Institute](http://www.ohsu.edu/xd/health/services/cancer/) and an instructor
