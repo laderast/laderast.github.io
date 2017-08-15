@@ -505,13 +505,13 @@ under-employed professionals.
 
 **SERVICE ACCOMPLISHMENTS**
 
-Organizer for Cascadia R Conference.
+Co-organizer for [Cascadia R Conference](https://cascadiarconf.com).
 
-Participant/Instructor for PDX Data Rescue/Open Data Day.
+Participant/Instructor for [PDX Data Rescue/Open Data Day](https://github.com/daniellecrobinson/Data-Rescue-PDX).
 
-Co-Founder of BioData Club group for students and postdocs. Managed speakers,
+Co-Founder of [BioData Club](https://biodata-club.github.io) group for students and postdocs. Managed speakers,
 developed free workshops for students, and provided feedback for student
-presentations. BioData Club is currently at 80 members ranging
+presentations. BioData Club is currently at 100 members ranging
 from OHSU staff, faculty, students and postdocs, providing a unique
 opportunity to share information and provide mentoring to students.
 
@@ -522,6 +522,8 @@ Reviewer for AMIA, BMC Bioinformatics, and Neurocomputing.
 
 My mentees include Jason Li and Eisa Mahyari, both PhD candidates in
 DMICE.
+
+Contributor of lesson material to [Software Carpentry](https://software-carpentry.org).
 
 **WORK EXPERIENCE**
 

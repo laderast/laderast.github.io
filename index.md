@@ -24,7 +24,8 @@ Over twelve years of bioinformatics experience, I have developed methods for low
 
 I have developed a number of self-directed training materials for learning R and specific packages that I've found useful. Most of these are available from my github page and may be used freely by students.
 
-+ [R-Bootcamp](https://www.coursesites.com/s/_Rbootcamp) - an MOOC (Massively Open Online Course) for teaching the basics of data manipulation in R (Coursesites registration required).
++ [R-Bootcamp (tidyverse)](https://www.datacamp.com/courses/rbootcamp) - The new version of RBootcamp, that covers the `tidyverse` for manipulating data in R. You will need to register on [DataCamp](http://datacamp.com). This interactive course was written with both Jessica Minnier and Chester Ismay.
++ [R-Bootcamp (Base R)](https://www.coursesites.com/s/_Rbootcamp) - an MOOC (Massively Open Online Course) for teaching the basics of data manipulation in R (Coursesites registration required).
 
 ### **Standalone Tutorials**
 
@@ -59,6 +60,7 @@ As an instructor under OHSU's [Big Data To Knowledge (BD2K)](http://www.ohsu.edu
 + I teach in the summer hybrid [BMI569/669 Data Analytics](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/BMI-569_669-Data-Analytics-Syllabus-SU16-2.pdf) course taught at OHSU (Hybrid course co-taught with Kaiser Permanente Data & Information Management Enhancement (DIME) group).
 + I am also a co-instructor for [BMI551/651 Bioinformatics and Computational Biology II: Statistical Methods](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/BMI-551-Syllabus-WI16.pdf), providing drop-in sessions for R programming and general tutoring.
 + I participate in the [PDX R User Group](https://www.meetup.com/portland-r-user-group/) and I was one of the organizers of the first [Cascadia R conference](https://cascadiarconf.com)
++ I have also started to contribute lesson material to [Software Carpentry](https://software-carpentry.org).
 
 ### **Software Development:**
 
