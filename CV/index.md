@@ -3,8 +3,8 @@ layout: page
 title: Ted Laderas, PhD
 ---
  
-*Postdoctoral Researcher*, OHSU Knight Cancer Institute  
-*Instructor*, Division of Bioinformatics and Computational Biology, Department of Medical Informatics and Clinical Epidemiology  
+*Assistant Professor*, Division of Bioinformatics and Computational Biology, Department of Medical Informatics and Clinical Epidemiology  
+*Researcher*, OHSU Knight Cancer Institute  
 Oregon Health & Science University  
 3181 SW Sam Jackson Park Road CR145  
 Portland, OR 97239  

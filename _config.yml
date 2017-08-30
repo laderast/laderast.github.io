@@ -1,7 +1,7 @@
 # Site settings
 title: Homepage for Ted Laderas, PhD
 email: laderast@ohsu.edu
-description: Professional Website for Ted Laderas, Postdoc at OHSU Knight Cancer Institute
+description: Professional Website for Ted Laderas, Assistant Professor in Bioinformatics/Computational Biology
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://laderast.github.io" # the base hostname & protocol for your site
 twitter_username: tladeras
