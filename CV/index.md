@@ -367,7 +367,7 @@ Lectures and Interactive Workshops are linked where possible.
 10.  [*Introduction to Machine Learning using
     Markdown*](https://github.com/laderast/MLtutorial) - Interactive
     workshop using Markdown to explore machine learning algorithms for
-    BD2K Advanced Skills Course. May 2016. []()
+    BD2K Advanced Skills Course. May 2016. 
 
 11.  *Clustering Algorithms*. Lecture given for Statistical
     Methods class. February 2016.

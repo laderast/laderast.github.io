@@ -13,3 +13,5 @@ Since I didn't get to go to useR 2017 this year, I'm compiling the interesting t
 + https://user2017.sched.com/event/AxqR/community-based-learning-and-knowledge-sharing
 + https://user2017.sched.com/event/AxqT/r-based-computing-with-big-data-on-disk
 + https://user2017.sched.com/event/AxqA/codebookr-codebooks-in-r
++ https://user2017.sched.com/event/Axor/how-we-built-a-shiny-app-for-700-users Useful concepts: reactiveTrigger to force a rerender.
++ https://user2017.sched.com/event/AxsL/ensemble-packages-with-user-friendly-interface-an-added-value-for-the-r-community

@@ -64,9 +64,9 @@ As an instructor under OHSU's [Big Data To Knowledge (BD2K)](http://www.ohsu.edu
 
 ### **Software Development:**
 
-+ Software Reporting for automating and visualizing CyTOF gating results (to be published soon).
-+ [surrogateMutation](https://github.com/laderast/surrogateMutation) - a package for detecting oncogenic collaboration in somatic mutation and copy nubmer data.
-+ [surrogateShiny](https://github.com/laderast/surrogateShiny) - an R/Shiny Framework for exploring oncogenic collaboration in breast cancer cell lines. [See it in action.](https://tladeras.shinyapps.io/surrogateShiny/)
++ [flowDashboard](https://github.com/laderast/flowDashboard). Shiny modules for building interactive and comparative dashboards for flow cytometry data. See a demo here: https://tladeras.shinyapps.io/sampleFlowDashboard/
++ [surrogateMutation](https://github.com/laderast/surrogateMutation) - a package for detecting oncogenic collaboration in somatic mutation and copy nubmer data. 
++ [surrogateShiny](https://github.com/laderast/surrogateShiny) - an R/Shiny Framework for exploring oncogenic collaboration in breast cancer cell lines. See a demo here: https://tladeras.shinyapps.io/surrogateShiny/
 + [Consense](https://github.com/laderast/surrogateMutation) - a package for comparing clustering methods.
 + [ExonModelStrain](https://github.com/laderast/ExonModelStrain) - a package for detecting alternative exon usage in the Affymetrix Exon Array
 + TandTRAQ - Perl Script for merging iTRAQ and XTandem Results.
