@@ -24,8 +24,8 @@ Over twelve years of bioinformatics experience, I have developed methods for low
 
 I have developed a number of self-directed training materials for learning R and specific packages that I've found useful. Most of these are available from my github page and may be used freely by students.
 
-+ [R-Bootcamp (tidyverse)](https://www.datacamp.com/courses/rbootcamp) - The new version of RBootcamp, that covers the `tidyverse` for manipulating data in R. You will need to register on [DataCamp](http://datacamp.com). This interactive course was written with both Jessica Minnier and Chester Ismay.
-+ [R-Bootcamp (Base R)](https://www.coursesites.com/s/_Rbootcamp) - an MOOC (Massively Open Online Course) for teaching the basics of data manipulation in R (Coursesites registration required). Note that I do not support this course anymore at this point.
++ [R-Bootcamp (tidyverse)](https://www.datacamp.com/courses/rbootcamp) - The new version of RBootcamp, that covers the `tidyverse` for manipulating data in R. You will need to register on [DataCamp](http://datacamp.com). This interactive course was written with both Jessica Minnier and Chester Ismay. [![DOI](https://zenodo.org/badge/88869265.svg)](https://zenodo.org/badge/latestdoi/88869265)
++ [R-Bootcamp (Base R)](https://www.coursesites.com/s/_Rbootcamp) - an MOOC (Massively Open Online Course) for teaching the basics of data manipulation in R (Coursesites registration required). Note that I do not support this course anymore at this point. 
 
 ### **Standalone Tutorials**
 
@@ -50,25 +50,25 @@ As a developer and programmer of R, I enjoy teaching others about the basics of 
 
 As an instructor under OHSU's [Big Data To Knowledge (BD2K)](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/research/bd2k.cfm) Training Grant, I have also developed the following short workshops to encourage students to explore data and learn the basics of data-wrangling.
 
-+ [Cardiovascular Risk Workshop](https://github.com/laderast/cvdNight1) - A workshop given for Portland State University students exploring the difficulties of predicting cardiovascular risk using `shiny` for exploratory data analysis and `caret` for machine learning. [Part 1](https://github.com/laderast/cvdNight1) and [Part 2](https://github.com/laderast/cvdNight2).
-+ [Exploratory Data Analysis Using Shiny](https://github.com/laderast/shinyEDA) - A Tutorial and slides about doing exploratory data analysis with a Shiny Dashboard
++ [Cardiovascular Risk Workshop](https://github.com/laderast/cvdNight1) - A workshop given for Portland State University students exploring the difficulties of predicting cardiovascular risk using `shiny` for exploratory data analysis and `caret` for machine learning. [Part 1](https://github.com/laderast/cvdNight1) and [Part 2](https://github.com/laderast/cvdNight2). 
++ [Exploratory Data Analysis Using Shiny](https://github.com/laderast/shinyEDA) - A Tutorial and slides about doing exploratory data analysis with a Shiny Dashboard 
 + [Machine Learning Using RMarkdown](https://github.com/laderast/MLtutorial) - A tutorial about Machine Learning and Reproducible Scripting and Workflows.
 
 #### **Other Teaching Interests**
 
 + [BioData Club](http://biodata-club.github.io) - A student and postdoc driven discussion group at OHSU that focuses on practical skills (documentation, software engineering and visualization) necessary for success in data science and bioinformatics.
-+ I teach in the summer hybrid [BMI569/669 Data Analytics](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/BMI-569_669-Data-Analytics-Syllabus-SU16-2.pdf) course taught at OHSU (Hybrid course co-taught with Kaiser Permanente Data & Information Management Enhancement (DIME) group).
++ I teach in the summer hybrid [BMI569/669 Data Analytics](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/BMI-569_669-Data-Analytics-Syllabus-SU16-2.pdf) course at OHSU (Hybrid course co-taught with Kaiser Permanente Data & Information Management Enhancement (DIME) group).
 + I am also a co-instructor for [BMI551/651 Bioinformatics and Computational Biology II: Statistical Methods](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/BMI-551-Syllabus-WI16.pdf), providing drop-in sessions for R programming and general tutoring.
 + I participate in the [PDX R User Group](https://www.meetup.com/portland-r-user-group/) and I was one of the organizers of the first [Cascadia R conference](https://cascadiarconf.com)
 + I have also started to contribute lesson material to [Software Carpentry](https://software-carpentry.org).
 
 ### **Software Development:**
 
-+ [flowDashboard](https://github.com/laderast/flowDashboard). Shiny modules for building interactive and comparative dashboards for flow cytometry data. See a demo here: https://tladeras.shinyapps.io/sampleFlowDashboard/
-+ [surrogateMutation](https://github.com/laderast/surrogateMutation) - a package for detecting oncogenic collaboration in somatic mutation and copy nubmer data. 
-+ [surrogateShiny](https://github.com/laderast/surrogateShiny) - an R/Shiny Framework for exploring oncogenic collaboration in breast cancer cell lines. See a demo here: https://tladeras.shinyapps.io/surrogateShiny/
-+ [Consense](https://github.com/laderast/surrogateMutation) - a package for comparing clustering methods.
-+ [ExonModelStrain](https://github.com/laderast/ExonModelStrain) - a package for detecting alternative exon usage in the Affymetrix Exon Array
++ [flowDashboard](https://github.com/laderast/flowDashboard). Shiny modules for building interactive and comparative dashboards for flow cytometry data. See a demo here: https://tladeras.shinyapps.io/sampleFlowDashboard/ [![DOI](https://zenodo.org/badge/72794399.svg)](https://zenodo.org/badge/latestdoi/72794399)
++ [surrogateMutation](https://github.com/laderast/surrogateMutation) - a package for detecting oncogenic collaboration in somatic mutation and copy nubmer data. [![DOI](https://zenodo.org/badge/34889234.svg)](https://zenodo.org/badge/latestdoi/34889234)
++ [surrogateShiny](https://github.com/laderast/surrogateShiny) - an R/Shiny Framework for exploring oncogenic collaboration in breast cancer cell lines. See a demo here: https://tladeras.shinyapps.io/surrogateShiny/ [![DOI](https://zenodo.org/badge/26290300.svg)](https://zenodo.org/badge/latestdoi/26290300)
++ [Consense](https://github.com/laderast/surrogateMutation) - a package for comparing clustering methods. [![DOI](https://zenodo.org/badge/34889209.svg)](https://zenodo.org/badge/latestdoi/34889209)
++ [ExonModelStrain](https://github.com/laderast/ExonModelStrain) - a package for detecting alternative exon usage in the Affymetrix Exon Array. [![DOI](https://zenodo.org/badge/34889191.svg)](https://zenodo.org/badge/latestdoi/34889191)
 + TandTRAQ - Perl Script for merging iTRAQ and XTandem Results.
 
 ### **Selected Publications:**
