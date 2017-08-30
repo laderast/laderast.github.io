@@ -5,9 +5,8 @@ title: Homepage of Ted Laderas, PhD
  
 ![Ted Image]({{site.url}}/images/ted-headshot.jpg)
 
-I am a Postdoctoral Researcher at the [OHSU Knight Cancer Institute](http://www.ohsu.edu/xd/health/services/cancer/) and an instructor
-in the Bioinformatics and Computational Biology track in the OHSU Department of
-Medical Informatics and Clinical Epidemiology ([BCB/DMICE](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/educational-programs/dmice-programs/computational-biology.cfm)). My research focus is on the Systems Biology of Complex Diseases. I use integrative modeling approaches across OMICs types to achieve this.
+I am an Assistant Professor in the Bioinformatics and Computational Biology track in the OHSU Department of
+Medical Informatics and Clinical Epidemiology ([BCB/DMICE](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/educational-programs/dmice-programs/computational-biology.cfm)) and a member of the [OHSU Knight Cancer Institute](http://www.ohsu.edu/xd/health/services/cancer/). My research focus is on the Systems Biology of Complex Diseases. I use integrative modeling approaches across OMICs types to achieve this.
 
 Over twelve years of bioinformatics experience, I have developed methods for low-level preprocessing and high-level analysis of many OMICs types, including expression (especially alternative splicing), phosphoproteomics, proteomics, and genomics. My experience in functional genomics has led me to use models such as Graphical Models and Networks to integrate these many OMICs types into building a unified picture of integrated systems-level dysregulation in complex diseases such as alcoholism and cancer.
 
