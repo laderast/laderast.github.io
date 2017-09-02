@@ -1,6 +1,7 @@
 ---
+title: "Ted Laderas, PhD"
+output: pdf_document
 layout: page
-title: Ted Laderas, PhD
 ---
  
 *Assistant Professor*, Division of Bioinformatics and Computational Biology, Department of Medical Informatics and Clinical Epidemiology  
@@ -14,7 +15,7 @@ Portland, OR 97239
 **EDUCATION**
 
 B.A., Chemistry, Reed College, Portland, OR 1998.  
-M.S. Biomedical Informatics, Oregon Health & Science University (OHSU), 2004.  
+M.S. Biomedical Informatics, Oregon Health & Science University, 2004.  
 PhD, Biomedical Informatics, Oregon Health & Science University, 2014.
 
 **RESEARCH STATEMENT**
@@ -113,35 +114,37 @@ data from raw data to through the final stages of analysis.
 
 **RESEARCH SOFTWARE (Sole Developer unless specified)**
 
-1.  *flowDashboard*. Visualization framework in R/Shiny and processing
+1. *RBootcamp (tidyverse version)*. DataCamp active exercises for learning introductory R using the `tidyverse`. With Jessica Minnier and Chester Ismay. Available for free at: https://www.datacamp.com/courses/rbootcamp <https:://doi.org/10.5281/zenodo.854727>
+
+2.  *flowDashboard*. Visualization framework in R/Shiny and processing
     pipeline for CyTOF and flow cytometry data. Currently under embargo,
     waiting publication and submission. <https://doi.org/10.5281/zenodo.260421>
 
-2.  *Surrogate Network Explorer for Head and Neck Cancer*. Interactive
+3.  *Surrogate Network Explorer for Head and Neck Cancer*. Interactive
     visualization framework for understanding network effects in Head
     and Neck cancer. Awaiting validation, publication, and submission.
 
-3.  *R-Bootcamp: Introduction to R*. Script-based introductory MOOC
+4.  *R-Bootcamp: Introduction to R*. Script-based introductory MOOC
     to R. With contributions from Eric Leung, Dian Chase, Tracy Edinger,
     Clint Olson, and Gabrielle Chonoo.
     <http://dx.doi.org/10.5281/zenodo.13756>
 
-4.  *Surrogate Mutation Explorer*. R/Shiny Interactive Application for
+5.  *Surrogate Mutation Explorer*. R/Shiny Interactive Application for
     exploring surrogate mutations.
     <http://dx.doi.org/10.5281/zenodo.13757>
 
-5.  *SurrogateMutation*. R Package for mapping mutations and copy number
+6.  *SurrogateMutation*. R Package for mapping mutations and copy number
     alterations to networks and associated statistics.
     <http://dx.doi.org/10.5281/zenodo.17303>
 
-6.  *Consense-Cluster*. R Package for comparing clustering output
+7.  *Consense-Cluster*. R Package for comparing clustering output
     across algorithms. <http://dx.doi.org/10.5281/zenodo.17304>
 
-7.  *ExonModelStrain*. RPackage for detecting alternative exon usage
+8.  *ExonModelStrain*. RPackage for detecting alternative exon usage
     between two strains of mice.
     <http://dx.doi.org/10.5281/zenodo.17305>
 
-8.  *TandTRAQ*. Perl Script for mapping iTRAQ protein quantitation to
+9.  *TandTRAQ*. Perl Script for mapping iTRAQ protein quantitation to
     X!Tandem peptides.
 
 **RESEARCH PRESENTATIONS/LECTURES (Invited Lectures are Indicated)**
@@ -331,156 +334,158 @@ long-form courses and short-term workshops.
 
 Lectures and Interactive Workshops are linked where possible.
 
-1. [*A gRadual intRoduction to the `tidyverse`*](https://github.com/Cascadia-R/gRadual-intRoduction-tidyverse). Workshop given with Chester Ismay for [Cascadia-R 2017](https://cascadiarconf.com) introducing visualization and data cleaning using the `tidyverse`.
+1. [R-Bootcamp (tidyverse version on DataCamp)](https://www.datacamp.com/courses/rbootcamp). Active exercises for learning introductory R. Written with Jessica Minnier and Chester Ismay. Code available at https://github.com/laderast/RBootcamp
 
-2.  [*Assessing Cardiovascular Risk*](https://github.com/laderast/cvdNight1). 2 night Workshop for Portland State University Students teaching [Exploratory Data Analysis](https://github.com/laderast/cvdNight1) and [Machine Learning](https://github.com/laderast/cvdNight2) on a synthetic patient cohort. With David Dorr. May 2017.
+2. [*A gRadual intRoduction to the `tidyverse`*](https://github.com/Cascadia-R/gRadual-intRoduction-tidyverse). Workshop given with Chester Ismay for [Cascadia-R 2017](https://cascadiarconf.com) introducing visualization and data cleaning using the `tidyverse`.
 
-3.  [*An Intro to GitHub Pages*](https://github.com/biodata-club/githubPagesTutorial).
+3.  [*Assessing Cardiovascular Risk*](https://github.com/laderast/cvdNight1). 2 night Workshop for Portland State University Students teaching [Exploratory Data Analysis](https://github.com/laderast/cvdNight1) and [Machine Learning](https://github.com/laderast/cvdNight2) on a synthetic patient cohort. With David Dorr. May 2017.
+
+4.  [*An Intro to GitHub Pages*](https://github.com/biodata-club/githubPagesTutorial).
     Workshop given with Robin Champieux and Eric Leung on setting up a personal
     GitHub webpage. April 2017.
 
-4.  [*An Intro To Data Carpentry*](https://github.com/erictleung/tutorial-tidyverse).
+5.  [*An Intro To Data Carpentry*](https://github.com/erictleung/tutorial-tidyverse).
     Lecture given with Eric Leung about the tidyverse suite of packages for data
     wrangling and visualization. March 2017.
 
-5.  [*The Magic of Markdown*](https://github.com/laderast/magic-of-markdown).
+6.  [*The Magic of Markdown*](https://github.com/laderast/magic-of-markdown).
     Updated for 2017, including examples of using Zotero as citation manager. March 2017. [doi:10.5281/zenodo.495614](https://doi.org/10.5281/zenodo.495614)
 
-6.  [*Shiny Tutorial for CSE631*](https://github.com/laderast/CSE631Shiny). Workshop on
+7.  [*Shiny Tutorial for CSE631*](https://github.com/laderast/CSE631Shiny). Workshop on
     developing interactive visualizations using Shiny for CSE631 Data
     Visualization course. November 2016. [DOI: 10.5281/zenodo.495621](https://doi.org/10.5281/zenodo.495621)
 
-7.  [*Analytics Course*](https://github.com/laderast/AnalyticsCourse).
+8.  [*Analytics Course*](https://github.com/laderast/AnalyticsCourse).
     New Course material in SQLite, Logistic Regression and Analysis.
     August 2016. [doi:10.5281/zenodo.495623](https://doi.org/10.5281/zenodo.495623)
 
-8.  [*Exploring the DREAM Viral Respiratory Dataset using
+9.  [*Exploring the DREAM Viral Respiratory Dataset using
     Shiny*](https://github.com/laderast/DreamEDAShiny). Tutorial in
     Exploratory Data Analysis (EDA) using *data.table* and *Shiny*.
     July 2016.
 
-9.  [*Introduction to Exploratory Data Analysis using
+10.  [*Introduction to Exploratory Data Analysis using
     Shiny*](https://github.com/laderast/shinyEDA) - Interactive workshop
     in using a Shiny Dashboard to conduct EDA on a dataset for BD2K
     Advanced Skills Course. May 2016. [doi:10.5281/zenodo.495618](https://doi.org/10.5281/zenodo.495618)
 
-10.  [*Introduction to Machine Learning using
+11.  [*Introduction to Machine Learning using
     Markdown*](https://github.com/laderast/MLtutorial) - Interactive
     workshop using Markdown to explore machine learning algorithms for
     BD2K Advanced Skills Course. May 2016. 
 
-11.  *Clustering Algorithms*. Lecture given for Statistical
+12.  *Clustering Algorithms*. Lecture given for Statistical
     Methods class. February 2016.
 
-12.  [*iGraph Tutorial*](https://github.com/laderast/igraphTutorial).
+13.  [*iGraph Tutorial*](https://github.com/laderast/igraphTutorial).
     Introductory lecture for the igraph package in R for
     network analysis. November 2015. [doi:10.5281/zenodo.495616](https://doi.org/10.5281/zenodo.495616)
 
-13.  [*The Magic of
+14.  [*The Magic of
     Markdown*](https://github.com/laderast/magic-of-markdown).
     Introduction to Markdown in both R, GitHub pages, and Pandoc. BioDSP
     October 2015. [doi:10.5281/zenodo.495614](https://doi.org/10.5281/zenodo.495614)
 
-14.  *Pharmacogenomics* Lecture for Analytics Course, August 2015.
+15.  *Pharmacogenomics* Lecture for Analytics Course, August 2015.
 
-15.  [*Introduction to
+16.  [*Introduction to
     Clustering*](http://church.ohsu.edu:3838/laderast/clusteringLecture/)*.*
     Interactive slides for understanding clustering. [doi:10.5281/zenodo.495624](https://doi.org/10.5281/zenodo.495624)
 
-16. [*Introduction to
+17. [*Introduction to
     ggvis*](https://www.dropbox.com/s/n0unpdkd5r2tdu7/ggvis-Tutorial.html?dl=0).
     Lecture/Workshop given for OHSU Bioinformatics Discussion for
     Students and Postdocs, April 2015.
 
-17. [*Introduction to
+18. [*Introduction to
     ggplot2*](https://www.dropbox.com/s/efbwx3jjx89folh/ggplot2Intro.html?dl=0)*.*
     Lecture/Workshop given for OHSU Bioinformatics Discussion for
     Students and Postdocs, March 2015. [doi:10.5281/zenodo.495622](https://doi.org/10.5281/zenodo.495622)
 
-18. [*Exacloud
+19. [*Exacloud
     Tutorial*](https://www.dropbox.com/s/chg6ciknxonp5el/exacloud-tutorial.pdf) -
     A DIY tutorial to running jobs on Exacloud, OHSU's cluster
     computing environment. November 2015.
 
-19. [*Shiny
+20. [*Shiny
     Tutorial*](https://www.dropbox.com/s/5ceg6wdrustjoae/tutorialApp.zip) -
     A do it yourself tutorial to try out Shiny, ggplot2, and dplyr for
     interactive graphics. September 2015.
     [doi:10.5281/zenodo.495620](https://doi.org/10.5281/zenodo.495620)
 
-20. *Analytics Course*. Instructor. Hybrid Online/On-campus joint course
+21. *Analytics Course*. Instructor. Hybrid Online/On-campus joint course
     with DMICE and Kaiser Permanente Analytics group. August 2015.
 
-21. *R-Bootcamp*. Massively Open Online Course available at:
+22. *R-Bootcamp*. Massively Open Online Course available at:
     <http://dx.doi.org/10.5281/zenodo.13756>. With contributions from
     Eric Leung, Dian Chase, Tracy Edinger, Clint Olson, and
     Gabrielle Chonoo. 2014-Present
 
-22. [*Your In-silico Lab Notebook: Best Practices
+23. [*Your In-silico Lab Notebook: Best Practices
     2015*](https://www.dropbox.com/s/ddyq88gqh8priv8/insilicotalk-2015.pptx?dl=0)*.*
     Lecture/Workshop given for OHSU BioDSP group, January 2015.
 
-23. [*Everything you wanted to know about bioinformatics but were afraid
+24. [*Everything you wanted to know about bioinformatics but were afraid
     to
     ask*](https://www.dropbox.com/s/a4qgwap4jehzs8x/everything-you-wanted-to-know.pptx?dl=0)*.*
     Lecture/Workshop given for OHSU PhD/Postdoc Fellows meeting,
     October 2014.
 
-24. [*List Comprehensions in
+25. [*List Comprehensions in
     Python*](https://www.dropbox.com/s/1my6l8diprnzg4n/lecture_slides_day7_2012-laderas.pptx?dl=0).
     Lecture given for Bioinformatics Programming and Scripting Course,
     Fall 2012.
 
-25. [*Introduction to Unit
+26. [*Introduction to Unit
     Testing*](https://www.dropbox.com/s/jdgbb07xydmxah5/lecture_slides_day10_1027-laderas.pdf?dl=0).
     Lecture given for Bioinformatics Programming and Scripting Course,
     Fall 2012.
 
-26. *Introduction to Numerical Python (NumPy).* Lecture given for
+27. *Introduction to Numerical Python (NumPy).* Lecture given for
     Bioinformatics Programming and Scripting Course, Fall 2012.
 
-27. *Introduction to SciPy.* Lectures given for Bioinformatics
+28. *Introduction to SciPy.* Lectures given for Bioinformatics
     Programming and Scripting Course, Fall 2012.
 
-28. *An Introduction to ODE Models.* Lecture given for Systems Biology
+29. *An Introduction to ODE Models.* Lecture given for Systems Biology
     Class, 2012.
 
-29. [*Integrating Data for Systems
+30. [*Integrating Data for Systems
     Biology*](https://www.dropbox.com/s/ksnogpxoh22eit8/IntegratingDataforSystemsBiology.pptx?dl=0).
     Lecture given for Systems Biology Class, 2012.
 
-30. *Work Smarter, Not Harder: Productivity Tools and You.* Lecture
+31. *Work Smarter, Not Harder: Productivity Tools and You.* Lecture
     given for PhD/Postdoctoral meeting, 2011.
 
-31. [*Bayesian
+32. [*Bayesian
     Networks*](https://www.dropbox.com/s/xab61u1jo9y9io9/bayesnets-new-laderas.pptx?dl=0).
     Lecture given for Statistical Methods in Bioinformatics Class, 2011.
 
-32. [*Gibbs
+33. [*Gibbs
     Samplers*](https://www.dropbox.com/s/r2j0oi1madn0t1s/GibbsSampler-laderas.pptx?dl=0).
     Lecture given for Statistical Methods in Bioinformatics Class, 2011.
     [doi:10.6084/m9.figshare.4829530](https://doi.org/10.6084/m9.figshare.4829530)
 
-33. *Workshop on Strings and Matrices in R*. Workshop given for
+34. *Workshop on Strings and Matrices in R*. Workshop given for
     Statistical Methods in Bioinformatics class. 2011.
 
-34. *Introduction to R Workshop.* Workshop given for Statistical Methods
+35. *Introduction to R Workshop.* Workshop given for Statistical Methods
     in Bioinformatics class. 2011.
 
-35. [*Extended Dependency
+36. [*Extended Dependency
     Analysis*](https://www.dropbox.com/s/yt8dybaap4sn8hy/03-eda-extended-dependency-analysis.pptx?dl=0).
     Presentation given for Information Theory Independent Study 2010.
 
-36. [*Conant's Laws of Information that Govern
+37. [*Conant's Laws of Information that Govern
     Systems*](https://www.dropbox.com/s/kkv4yv2vmwwdqfa/02-conant-laws-of-information.pptx?dl=0).
     Presentation given for Information Theory Independent Study, 2010.
 
-37. [*Ashby's Law of Requisite Variety and Conant's Information Transfer
+38. [*Ashby's Law of Requisite Variety and Conant's Information Transfer
     in
     Regulation*](https://www.dropbox.com/s/jz0gthjbd9cqbrt/01-ashby-conant-variety.pptx?dl=0).
     Presentation given for Information Theory Independent Study, 2010.
 
-38. *Lab: Using Consense-Cluster to explore the Bittner dataset.*
+39. *Lab: Using Consense-Cluster to explore the Bittner dataset.*
     Laboratory given as part of Microarray Analysis Course, OHSU, 2006.
 
 **SERVICE STATEMENT**
@@ -523,11 +528,12 @@ Reviewer for AMIA, BMC Bioinformatics, and Neurocomputing.
 My mentees include Jason Li and Eisa Mahyari, both PhD candidates in
 DMICE.
 
-Contributor of lesson material to [Software Carpentry](https://software-carpentry.org).
+Contributor to instructor lesson materials to [Software Carpentry](https://software-carpentry.org).
 
 **WORK EXPERIENCE**
 
-*Postdoctoral Researcher*, OHSU Knight Cancer Institute, 2015-Present.
+*Assistant Professor*, Department of Medical Informatics and Clinical Epidemiolgy, OHSU, 2017-present.
+*Postdoctoral Researcher*, OHSU Knight Cancer Institute, 2014-2017.
 
 *Current Research Support:*
 
@@ -536,17 +542,13 @@ Dorr, D (Co-PI), Haendel, M (Co-PI), McWeeney, S (Co-PI)
 BD2K Training Grant
 Big Data to Knowledge
 
-
-
 No # assigned  
 Druker (PI)  
 5/1/2013-4/30/2016   
 The Leukemia & Lymphoma
 Society
 
-
-Beat AML: Precision Medicine for AML Based on Functional Genomics
-
+*Beat AML: Precision Medicine for AML Based on Functional Genomics*
 
 The major goals of this project is to transform our approach to AML treatment through a deeper understanding of the diversity of the underlying molecular causes of disease and to bring targeted therapies to AML patients through 1) understanding the spectrum of genetic lesions and molecular drivers, 2) functionally annotating drug sensitivity, and 3) Initiating clinical trials with combinations of drugs in refractory patients. Role: Computational Biologist
 
@@ -555,8 +557,7 @@ Lewinsohn, DM (PI)
 10/26/2015-10/31/2018  
 Bill & Melinda Gates Foundation
 
-
-Targeting MAIT cells for TB vaccines
+*Targeting MAIT cells for TB vaccines*
 
 This proposal is designed to establish whether or not a vaccine
 targeting Mucosal Associated Invariant (MAIT) can be used to prevent
@@ -566,8 +567,7 @@ tuberculosis (TB). Role: Computational Biologist
 *NLM Postdoctoral Fellow*, Oregon Health & Science University. 2014-2015.  
 *Visiting Scientist*, Sage Bionetworks, Seattle Washington. 2014-2015.  
 *NLM Predoctoral Fellow*, Medical Informatics and Clinical Epidemiology, Oregon Health & Science University. 2009–2014.  
-*Bioinformatics Developer/Project Manager*, OHSU Knight Cancer Institute, Oregon Health & Science University. 2003-2009.  
-*Teaching Assistant/Computer Programmer/Server Admin*, Department of Medical Informatics & Clinical Epidemiology, Oregon Health & Science University. 2001-2002.  
+*Bioinformatics Developer/Project Manager*, OHSU Knight Cancer Institute, Oregon Health & Science University. 2003-2009.  *Teaching Assistant/Computer Programmer/Server Admin*, Department of Medical Informatics & Clinical Epidemiology, Oregon Health & Science University. 2001-2002.  
 *Research Assistant/Computer Programmer*, Department of Molecular Medicine, Oregon Health & Science University. 1999-2001.  
 *Research Assistant/Teaching Assistant*, Department of Chemistry, Reed College. 1998  
 
