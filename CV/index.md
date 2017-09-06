@@ -55,7 +55,10 @@ data from raw data to through the final stages of analysis.
     Frontiers in Genetics. 2015. Contribution: First author, developer
     of methodology and visualization framework.
 
-3.  [*The Consensus Molecular Subtypes of Colorectal
+3. [*Mass Cytometry As a Modality to Identify Candidates for Immune Checkpoint Inhibitor Therapy within Acute Myeloid Leukemia*](http://www.bloodjournal.org/content/128/22/2829?sso-checked=true). Adam Lamble, Yoko Kosaka, Fei Huang, A Kate Sasser, Homer Adams III, Cristina E. Tognon, **Ted Laderas**, Shannon K. McWeeney, Marc M. Loriaux, Jeffrey W. Tyner, Brian J. Druker and Evan F. Lind. Blood, 2016. Contribution: contributed to panel development of CyTOF. 
+
+
+4.  [*The Consensus Molecular Subtypes of Colorectal
     Cancer*.](https://www.dropbox.com/s/p92dn5buctlyqpc/nm.3967.pdf?dl=0)
     123 citations, Impact Factor 30.36. Justin Guinney, Rodrigo
     Dienstmann, Xin Wang, Aurélien de Reyniès, Andreas Schlicker,
@@ -70,14 +73,14 @@ data from raw data to through the final stages of analysis.
     Louis Vermeulen, and Sabine Tejpar. Nature Medicine. 2015.
     Contribution: mapped and analyzed OMICs data to consensus cancer subtypes.
 
-4.  [*Between Pathways and Networks lies
+5.  [*Between Pathways and Networks lies
     Context*](https://www.dropbox.com/s/70z4yp3k36y9bmu/laderast_between_pathways.pdf?dl=0).
     Impact Factor: 1.76. **Ted Laderas**, Guanming Wu, and
     Shannon McWeeney. Science Progress. 2015. Contribution: first
     author, conceptualized and wrote manuscript.
     [doi:10.3184/003685015X14368898634462](http://dx.doi.org/10.3184/003685015X14368898634462)
 
-5.  [*Computational detection of alternative exon
+6.  [*Computational detection of alternative exon
     usage*.](https://www.dropbox.com/s/t9ic1rpirja4xqv/computational-exon-laderas.pdf?dl=0)
     8 citations, Impact Factor: 3.398. **Ted Laderas**, Nicole A Walter,
     Michael Mooney, Kristina Vartanian, Priscila Darakjian, Kari Buck,
@@ -86,7 +89,7 @@ data from raw data to through the final stages of analysis.
     PMID 21625610. Contribution: First author, developer of methodology.
     [doi:10.3389/fnins.2011.00069](http://dx.doi.org/10.3389/fnins.2011.00069)
 
-6.  [*High throughput sequencing in mice: a platform comparison
+7.  [*High throughput sequencing in mice: a platform comparison
     identifies a preponderance of cryptic
     SNPs*.](https://www.dropbox.com/s/2v0h7ufxu1664yt/preponderance-SNPs-walter-laderas.pdf?dl=0)
     19 Citations, Impact Factor 3.87. Nicole A Walter, Daniel Bottomly,
@@ -96,14 +99,14 @@ data from raw data to through the final stages of analysis.
     develop methodology of manuscript, conceptualization.
     [doi:10.1186/1471-2164-10-379](http://dx.doi.org/10.1186/1471-2164-10-379)
 
-7.  *TandTRAQ: An open-source tool for integrated protein identification
+8.  *TandTRAQ: An open-source tool for integrated protein identification
     and quantitation*. 14 citations, Impact Factor 5.766. **Ted
     Laderas**, Cory Bystrom, Debra McMillen, Guang Fan and
     Shannon McWeeney. Bioinformatics. 2007. Contribution: first author,
     designed software framework.
     [doi:10.1093/bioinformatics/btm467](http://dx.doi.org/10.1093/bioinformatics/btm467)
 
-8.  [*A consensus framework for exploring microarray data using multiple
+9.  [*A consensus framework for exploring microarray data using multiple
     clustering
     methods*.](https://www.dropbox.com/s/v56bomf1ijhmds3/Laderas_McWeeney07.pdf?dl=0)
     16 citations. **Ted Laderas** and Shannon McWeeney. OMICS: A Journal
