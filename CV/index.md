@@ -517,6 +517,10 @@ under-employed professionals.
 
 Co-organizer for [Cascadia R Conference](https://cascadiarconf.com).
 
+Contributor to instructor lesson materials to [Software Carpentry](https://software-carpentry.org).
+
+Editor at Large for [Radian Data](http://radiandata.org/).
+
 Participant/Instructor for [PDX Data Rescue/Open Data Day](https://github.com/daniellecrobinson/Data-Rescue-PDX).
 
 Documentation support for [Science Hack Day PDX 2017](http://portland.sciencehackday.org).
@@ -530,8 +534,6 @@ Reviewer for JAMIA, BMC Bioinformatics, and Neurocomputing, and AMIA Symposium.
 
 My mentees include Jason Li and Eisa Mahyari, both PhD candidates in
 DMICE.
-
-Contributor to instructor lesson materials to [Software Carpentry](https://software-carpentry.org).
 
 **WORK EXPERIENCE**
 
