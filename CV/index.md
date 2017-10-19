@@ -539,6 +539,13 @@ DMICE.
 
 *Assistant Professor*, Department of Medical Informatics and Clinical Epidemiolgy, OHSU, 2017-present.
 *Postdoctoral Researcher*, OHSU Knight Cancer Institute, 2014-2017.
+*Instructor*, Department of Medical Informatics and Clinical Epidemiology. 2015-Present.  
+*NLM Postdoctoral Fellow*, Oregon Health & Science University. 2014-2015.  
+*Visiting Scientist*, Sage Bionetworks, Seattle Washington. 2014-2015.  
+*NLM Predoctoral Fellow*, Medical Informatics and Clinical Epidemiology, Oregon Health & Science University. 2009–2014.  
+*Bioinformatics Developer/Project Manager*, OHSU Knight Cancer Institute, Oregon Health & Science University. 2003-2009.  *Teaching Assistant/Computer Programmer/Server Admin*, Department of Medical Informatics & Clinical Epidemiology, Oregon Health & Science University. 2001-2002.  
+*Research Assistant/Computer Programmer*, Department of Molecular Medicine, Oregon Health & Science University. 1999-2001.
+*Research Assistant/Teaching Assistant*, Department of Chemistry, Reed College. 1998  
 
 *Current Research Support:*
 
@@ -568,13 +575,6 @@ This proposal is designed to establish whether or not a vaccine
 targeting Mucosal Associated Invariant (MAIT) can be used to prevent
 tuberculosis (TB). Role: Computational Biologist
 
-*Instructor*, Department of Medical Informatics and Clinical Epidemiology. 2015-Present.  
-*NLM Postdoctoral Fellow*, Oregon Health & Science University. 2014-2015.  
-*Visiting Scientist*, Sage Bionetworks, Seattle Washington. 2014-2015.  
-*NLM Predoctoral Fellow*, Medical Informatics and Clinical Epidemiology, Oregon Health & Science University. 2009–2014.  
-*Bioinformatics Developer/Project Manager*, OHSU Knight Cancer Institute, Oregon Health & Science University. 2003-2009.  *Teaching Assistant/Computer Programmer/Server Admin*, Department of Medical Informatics & Clinical Epidemiology, Oregon Health & Science University. 2001-2002.  
-*Research Assistant/Computer Programmer*, Department of Molecular Medicine, Oregon Health & Science University. 1999-2001.  
-*Research Assistant/Teaching Assistant*, Department of Chemistry, Reed College. 1998  
 
 **AWARDS**
 
