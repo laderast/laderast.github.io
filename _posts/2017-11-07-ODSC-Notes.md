@@ -9,15 +9,15 @@ Here are some of the highlights from my notes:
 
 ## Workshops
 
-### [scikit-learn intro Workshop](https://github.com/amueller/ml-training-intro) and [Advanced](https://github.com/amueller/ml-training-advanced)
+[scikit-learn intro Workshop](https://github.com/amueller/ml-training-intro) and [Advanced](https://github.com/amueller/ml-training-advanced)
 
 I admit that I am not really a Python person. But I am helping to develop some materials for an introductory workshop and I found this workshop and its materials to be a very beginner-friendly to `scikit-learn` and machine learning concepts, much like `caret` for R. All the slides and workshop materials are available at the above links.
 
-### [SparkylR Workshop](https://github.com/WinVector/ODSCWest2017)
+[SparklyR Workshop](https://github.com/WinVector/ODSCWest2017)
 
 I liked this workshop from John Mount of Win-Vector. It started out with a *dplyr* intro, and introduced us to the basics of Apache Spark, which is a cluster-computing based machine learning framework, which is designed to do very large queries and machine learning. RStudio's Edgar Ruiz managed to get us each an RStudio Pro Instance running on AWS with all the required packages installed so we could test out the SparklyR package, which uses dplyr's commands to run Spark jobs.
 
-### [In-Memory Computing Essentials for Data Scientists](https://drive.google.com/file/d/0B3MFD2S4MhtGd1ltVHZkbFhHX0ZUbGlGZmtNRjllQ2NtQkJN/view?usp=sharing)
+[In-Memory Computing Essentials for Data Scientists](https://drive.google.com/file/d/0B3MFD2S4MhtGd1ltVHZkbFhHX0ZUbGlGZmtNRjllQ2NtQkJN/view?usp=sharing)
 
 This was an introduction to Apache Ignite, which is a distributed, in-memory database that can be leveraged by different languages. The really interesting thing about Ignite is that it will colocate related data on the same cluster node, resulting in rapid queries within each node. I think this technology will become very important as we need more datasets to be openly accessible to compute on.
 
