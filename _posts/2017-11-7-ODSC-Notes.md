@@ -3,7 +3,7 @@ layout: post
 title: "Notes on Open Data Science Conference West 2017"
 ---
 
-I just came back from the Open Data Science Conference (ODSC) in San Francisco and I found it really stimulating and interesting. I learned a ton, met some great people working in very different fields, and overall found it quite worthwhile.
+I just came back from the [Open Data Science Conference](https://odscwest.pathable.com) (ODSC) in San Francisco and I found it really stimulating and interesting. I learned a ton, met some great people working in very different fields, and overall found it quite worthwhile.
 
 Here are some of the highlights from my notes:
 
