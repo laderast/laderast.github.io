@@ -121,6 +121,8 @@ data from raw data to through the final stages of analysis.
 
 **RESEARCH SOFTWARE (Sole Developer unless specified)**
 
+1. *cvdRiskData*. Synthetic dataset for teach fundamentals in data science. Available as an R package at: https://github.com/laderast/cvdRiskData. 
+
 1. *RBootcamp (tidyverse version)*. DataCamp active exercises for learning introductory R using the `tidyverse`. With Jessica Minnier and Chester Ismay. Available for free at: https://www.datacamp.com/courses/rbootcamp <https:://doi.org/10.5281/zenodo.854727>
 
 2.  *flowDashboard*. Visualization framework in R/Shiny and processing
@@ -348,13 +350,13 @@ long-form courses and short-term workshops.
 
 Lectures and Interactive Workshops are linked where possible.
 
-1. [Python Bootcamp For Neuroscientists](https://github.com/dasaderi/python_neurobootcamp). Ted Laderas, Brad Buran, Daniela Sadieri, Charles Heller, Michael Mooney, Lisa Karstens, and Stephen David. 5 day in-person workshop for introductory Python using Neuroscience data.
+1. [*Python Bootcamp For Neuroscientists*](https://github.com/dasaderi/python_neurobootcamp). Ted Laderas, Brad Buran, Daniela Sadieri, Charles Heller, Michael Mooney, Lisa Karstens, and Stephen David. 5 day in-person workshop for introductory Python using Neuroscience data.
 
-2. [Actionable Gene Variants](https://laderast.github.io/BMI523slides/). Guest Lecture for BMI 523 Clinical Research Informatics. November 2017.
+2. [*Actionable Gene Variants*](https://laderast.github.io/BMI523slides/). Guest Lecture for BMI 523 Clinical Research Informatics. November 2017.
 
-3. [Exploratory Data Analysis and Statistics](https://github.com/laderast/DSIExplore). Workshop with Jessica Minnier for OHSU Data Science Institute 2017.
+3. [*Exploratory Data Analysis and Statistics*](https://github.com/laderast/DSIExplore). Workshop with Jessica Minnier for OHSU Data Science Institute 2017.
 
-4. [R-Bootcamp (tidyverse version on DataCamp)](https://www.datacamp.com/courses/rbootcamp). Active exercises for learning introductory R using the tidyverse. Written with Jessica Minnier and Chester Ismay. 2017. Code and teaching material available at https://github.com/laderast/RBootcamp
+4. [*R-Bootcamp (tidyverse version on DataCamp)*](https://www.datacamp.com/courses/rbootcamp). Active exercises for learning introductory R using the tidyverse. Written with Jessica Minnier and Chester Ismay. 2017. Code and teaching material available at https://github.com/laderast/RBootcamp
 
 5. [*A gRadual intRoduction to the `tidyverse`*](https://github.com/Cascadia-R/gRadual-intRoduction-tidyverse). Workshop given with Chester Ismay for [Cascadia-R 2017](https://cascadiarconf.com) introducing visualization and data cleaning using the `tidyverse`.
 
@@ -581,10 +583,11 @@ Tyner (PI)
 
 *Tumor intrinsic and microenvironmental mechanisms driving drug combination efficacy and resistance in AML*. Most patients with acute myeloid leukemia (AML) eventually die when their disease becomes resistant to conventional or even newer treatments. Our proposed studies will shed light on the mechanisms of drug resistance, both within the tumor and in the surrounding environment. This knowledge will help identify more effective therapies — involving combinations of two drugs — that will avoid drug resistance and provide better outcomes for patients with AML. Role: Computational Biologist.
 
-No # assigned	Druker (PI)	5/1/2013-5/31/2018
+No # assigned	
+Druker (PI)	
+5/1/2013-5/31/2018
 The Leukemia & Lymphoma Society
-*Beat AML: Precision Medicine for AML Based on Functional Genomics*. The major goals of this project is to transform our approach to AML treatment through a deeper understanding of the diversity of the underlying molecular causes of disease and to bring targeted therapies to AML patients through 1) understanding the spectrum of genetic lesions and molecular drivers, 2) functionally annotating drug sensitivity, and 3) Initiating clinical trials with combinations of drugs in refractory patients.
-Role: Computational Biologist.
+*Beat AML: Precision Medicine for AML Based on Functional Genomics*. The major goals of this project is to transform our approach to AML treatment through a deeper understanding of the diversity of the underlying molecular causes of disease and to bring targeted therapies to AML patients through 1) understanding the spectrum of genetic lesions and molecular drivers, 2) functionally annotating drug sensitivity, and 3) Initiating clinical trials with combinations of drugs in refractory patients. Role: Computational Biologist.
 
 **Completed Research Support**
 
@@ -601,9 +604,9 @@ Lewinsohn (PI)
 Bill & Melinda Gates Foundation					
 *Targeting MAIT cells for TB vaccines*. This proposal is designed to establish whether or not a vaccine targeting Mucosal Associated Invariant (MAIT) can be used to prevent tuberculosis (TB). Role: Computational Biologist 
 
-BD2K Training Grant
-Dorr, D (Co-PI), Haendel, M (Co-PI), McWeeney, S (Co-PI)
-2015-Present
+BD2K Training Grant 
+Dorr, D (Co-PI), Haendel, M (Co-PI), McWeeney, S (Co-PI) 
+2015-2017 
 *Big Data to Knowledge*. The goal of this project is to develop training materials in data science. Role: educational developer and instructor.
 
 **AWARDS**
