@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.30.2" />
+
+
+<title>Understanding Tidy Evaluation in R - Personal Website for Ted Laderas, PhD</title>
+<meta property="og:title" content="Understanding Tidy Evaluation in R - Personal Website for Ted Laderas, PhD">
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="/cv/">CV</a></li>
+    
+    <li><a href="/teaching/">Teaching</a></li>
+    
+    <li><a href="http://github.com/laderast">GitHub</a></li>
+    
+    <li><a href="https://twitter.com/tladeras">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">7 min read</span>
+    
+
+    <h1 class="article-title">Understanding Tidy Evaluation in R</h1>
+
+    
+    <span class="article-date">2017/12/19</span>
+    
+
+    <div class="article-content">
+      <p>Have you ever had something that no matter how many times someone explained it, you really had no idea what it was for? For me, that was Non Standard Evaluation (NSE) in R, and its newer cousin Tidy Evaluation, or <code>tidyeval</code>. I had a real learning block about it. I really wanted to understand it, but for some reason I just really wasn’t getting the general concepts.</p>
+<p>What is evaluation, really? For the longest time, I was extremely confused about it. When you provide an expression to R such as:</p>
+<pre class="r"><code>library(tidyverse)
+library(rlang)
+this_variable &lt;- 2
+this_variable * 6</code></pre>
+<pre><code>## [1] 12</code></pre>
+<p>You notice that there is an output to <code>this_variable * 6</code>, which is <code>12</code>. Evaluation is really about looking up variable names in an environment and then acting on the results. What is going on here is that R looks for an object that is named <code>this_variable</code> in our global environment, and then returns the value, <code>2</code>, which it then <em>substitutes</em> in the expression. So our original expression:</p>
+<pre class="r"><code>this_variable * 6</code></pre>
+<pre><code>## [1] 12</code></pre>
+<p>Becomes this expression:</p>
+<pre class="r"><code>2 * 6</code></pre>
+<pre><code>## [1] 12</code></pre>
+<p>Which R knows how to calculate, the output of which is <code>12</code>. But sometimes you want to pass an expression or a variable, as is, without evaluating it first. The best case for this is to passing a variable into a function. We can do this by wrapping them up in <code>quosures</code> or <code>enquosures</code>.</p>
+<p>A <code>quosure</code> and an <code>enquosure</code> can be thought of as envelopes around an object. They obscure certain properties of the object until they can be delivered into a function. The envelopes basically are a way to sneak variables and expressions into a function’s environment. When the envelope is in the function, we can open it up and evaluate what’s in the envelope. The trick to NSE and tidyeval is that we can control when the function <em>evaluates</em> the expression, by controlling when we open this envelope. We do this by using the <code>UQ()</code> or <code>!!</code> functions.</p>
+<p>In other words, <code>quosures</code> and <code>enquosures</code> are ways to prevent R from looking up a variable’s value in our current environment (usually the global environment), and delay this lookup until we get them into the environment of interest. This might be one level down (in our function of interest), or several levels down (in a function called by our function).</p>
+<p>The point is, R won’t open the envelope with our variable in it until we tell it to.</p>
+<div id="why-should-i-care" class="section level2">
+<h2>Why Should I Care????</h2>
+<p>The short answer: if you want to write functions that directly work with the <code>tidyverse</code>, you need to understand <code>tidyeval</code>.</p>
+<p>The best way to understand why you need to do this is to write a function that takes a <code>data.frame</code> and a reference to a column within that <code>data.frame</code>. You might notice that we can directly refer to a column in a <code>data.frame</code> for <code>select</code>, for example:</p>
+<pre class="r"><code>mtcars %&gt;% select(cyl) %&gt;% head(10)</code></pre>
+<pre><code>##                   cyl
+## Mazda RX4           6
+## Mazda RX4 Wag       6
+## Datsun 710          4
+## Hornet 4 Drive      6
+## Hornet Sportabout   8
+## Valiant             6
+## Duster 360          8
+## Merc 240D           4
+## Merc 230            4
+## Merc 280            6</code></pre>
+<p>Why does that work? This is the power of NSE and tidy evaluation. Basically, by wrapping up <code>cyl</code> in an envelope, we prevent R from <em>evaluating</em> it right away. We can then pass the envelope into other functions, or environments, and then tell R to remove the envelope and then <em>evaluate</em> it.</p>
+<p>Let’s try and mimic this. We’ll write a function <code>grab_col(x, colname)</code> which returns the values in the column whose name we ask for as an object. If we do this, without tidyeval, this will happen.</p>
+<pre class="r"><code>grab_col &lt;- function(x, colname){
+  x %&gt;%
+    pull(colname)
+}</code></pre>
+<p>Try running <code>grab_col(mtcars, colname=cyl)</code>. You’ll get an error that <code>cyl</code> does not exist as an object. Augh! This is harder than we thought.</p>
+<p>How can we fix this? We can wrap <code>colname</code> up in an <code>enquosure</code> using the <code>enquo()</code> function. Once it’s into <code>pull()</code>, we use <code>UQ()</code> to open the envelope and R knows that it should look in the <code>data.frame</code>’s environment for our <code>colname</code>:</p>
+<pre class="r"><code>library(rlang)
+
+grab_col &lt;- function(x, colname){
+  ##wrap up colname in an enquosure
+  cc &lt;- rlang::enquo(colname)
+
+  ##use UQ to evaluate it within the pull function
+  x %&gt;%
+    pull(
+      ## unquote and evaluate (open the envelope!)
+      UQ(cc)
+      )
+}
+
+grab_col(mtcars, colname=cyl)</code></pre>
+<pre><code>##  [1] 6 6 4 6 8 6 8 4 4 6 6 8 8 8 8 8 8 4 4 4 4 8 8 8 8 4 4 4 8 6 8 4</code></pre>
+<p>Now try <code>grab_col(mtcars, colname=cyl)</code>. Nifty, huh?</p>
+</div>
+<div id="with-quosures-values-can-come-along-for-the-ride" class="section level2">
+<h2>With <code>quosure</code>s, values can come along for the ride</h2>
+<p>Why would we use <code>quosure</code>s at all, instead of <code>enquosure</code>s? Because with <code>quosure</code>s we can actually bring some needed values along for the ride.</p>
+</div>
+<div id="what-about-lots-of-arguments" class="section level2">
+<h2>What about lots of arguments?</h2>
+<p>That’s what <code>quos()</code> is for. Ever notice that you can specify a number of unnamed arguments by specifying a <code>...</code> in your function definition? And did you ever notice that <code>select()</code> can take lots of arguments such as <code>select(mpg, cyl, wt)</code>? That is the power of <code>...</code> combined with <code>quos()</code>!</p>
+<p><code>quos</code> takes a list and makes each element of the list a <code>quosure</code>.</p>
+</div>
+<div id="what-about-expressions" class="section level2">
+<h2>What about expressions?</h2>
+<p>Say we wanted to pass an expression such as <code>cyl &gt; 2</code> into our function. We’ll need to wrap it up in <code>enexpr()</code> instead of <code>enquo()</code>:</p>
+<pre class="r"><code>filter_on_column &lt;- function(x, col_expr){
+  c_e &lt;- rlang::enexpr(col_expr)
+
+  x %&gt;%
+    ## The !! (called a bangbang) is just another way to use UQ()
+    ## I don&#39;t really like it, I&#39;d rather use UQ()
+    filter(!! c_e)
+}
+
+#pass in a simple expression
+mtcars %&gt;% filter_on_column(cyl &gt; 2) %&gt;% head(5)</code></pre>
+<pre><code>##    mpg cyl disp  hp drat    wt  qsec vs am gear carb
+## 1 21.0   6  160 110 3.90 2.620 16.46  0  1    4    4
+## 2 21.0   6  160 110 3.90 2.875 17.02  0  1    4    4
+## 3 22.8   4  108  93 3.85 2.320 18.61  1  1    4    1
+## 4 21.4   6  258 110 3.08 3.215 19.44  1  0    3    1
+## 5 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2</code></pre>
+<pre class="r"><code>#pass in a compound expression
+mtcars %&gt;% filter_on_column(cyl &gt; 2 &amp; qsec &gt; 18) %&gt;% head(5)</code></pre>
+<pre><code>##    mpg cyl  disp  hp drat    wt  qsec vs am gear carb
+## 1 22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1
+## 2 21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1
+## 3 18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1
+## 4 24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2
+## 5 22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2</code></pre>
+</div>
+<div id="be-really-careful-with" class="section level2">
+<h2>Be really careful with <code>!!</code></h2>
+<p>In the above example, we used <code>!!</code>, called a bangbang, to unquote and evaluate our expression. Be really careful with what you put after the <code>!!</code>, since everything after it will be evaluated. If you have elements after the expression you don’t want to unquote, wrap the <code>!!</code> up in a set of parentheses:</p>
+<pre class="r"><code>bang &lt;- function(val2){
+  x &lt;- enquo(val2)
+  return((!! x) + 10)
+}
+
+bang(5)</code></pre>
+</div>
+<div id="other-applications" class="section level2">
+<h2>Other applications</h2>
+<p>One of the coolest applications of NSE is to write code that writes code. You have to be very careful with this, but it’s potentially really useful. On my list of things to do for my <code>flowDashboard</code> package is to write code that generates a standalone app given the data objects you supply it.</p>
+</div>
+<div id="appendix-what-is-a-quosure-really" class="section level2">
+<h2>Appendix: What is a <code>quosure</code>, really?</h2>
+</div>
+<div id="for-more-information" class="section level2">
+<h2>For more information</h2>
+<p>Hopefully this was helpful in understanding NSE and tidyeval. I find that sometimes I have to write things up so I more clearly understand it. So, if anything, writing this was useful for clarifying my thinking.</p>
+<p>I’m indebted to Edwin Thoen’s code examples that helped me finally understand what’s going on with <code>tidyeval</code>: <a href="https://edwinth.github.io/blog/dplyr-recipes/" class="uri">https://edwinth.github.io/blog/dplyr-recipes/</a></p>
+<p>I didn’t really talk about Base-R’s NSE, but I would say that this should at least give you enough background to understand what’s going on there.</p>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+

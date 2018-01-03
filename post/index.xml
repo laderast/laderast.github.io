@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Personal Website for Ted Laderas, PhD</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Personal Website for Ted Laderas, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Understanding Tidy Evaluation in R</title>
+      <link>/2017/12/19/understanding-tidyeval/</link>
+      <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/12/19/understanding-tidyeval/</guid>
+      <description>Have you ever had something that no matter how many times someone explained it, you really had no idea what it was for? For me, that was Non Standard Evaluation (NSE) in R, and its newer cousin Tidy Evaluation, or tidyeval. I had a real learning block about it. I really wanted to understand it, but for some reason I just really wasn’t getting the general concepts.
+What is evaluation, really?</description>
+    </item>
+    
+    <item>
+      <title>Using Synthetic Data for Teaching Data Science</title>
+      <link>/2017/12/14/using-synthetic-data/</link>
+      <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/12/14/using-synthetic-data/</guid>
+      <description>Hi Everyone, our paper called Teaching data science fundamentals through realistic synthetic clinical cardiovascular data is now available to read on Biorxiv.
+In this paper, we talk about a dataset that we synthesized for teaching aspects of clinical data that may be tricky to understand in data science. This dataset is interesting because it&amp;rsquo;s derived from a multivariate distribution based on real patient data, modeled as a Bayesian Network. Even when we knew true marginals for the real data, there was a lot of fine tuning to the Bayesian Network.</description>
+    </item>
+    
+    <item>
+      <title>Notes on Open Data Science Conference West 2017</title>
+      <link>/2017/11/07/odsc-notes/</link>
+      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/11/07/odsc-notes/</guid>
+      <description>I just came back from the Open Data Science Conference (ODSC) in San Francisco and I found it really stimulating and interesting. I learned a ton, met some great people working in very different fields, and overall found it quite worthwhile.
+Here are some of the highlights from my notes:
+Workshops scikit-learn intro Workshop and Advanced
+I admit that I am not really a Python person. But I am helping to develop some materials for an introductory workshop and I found this workshop and its materials to be a very beginner-friendly to scikit-learn and machine learning concepts, much like caret for R.</description>
+    </item>
+    
+    <item>
+      <title>On the Separation of Code and State</title>
+      <link>/2017/08/22/separation-of-code-and-state/</link>
+      <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/08/22/separation-of-code-and-state/</guid>
+      <description>One of the hardest concepts as an analyst that I have struggled with is separating my code from my data. A related issue is making your code reproducible across data instances.</description>
+    </item>
+    
+    <item>
+      <title>Interesting useR 2017 Talks</title>
+      <link>/2017/07/05/interesting-user2017talks/</link>
+      <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/07/05/interesting-user2017talks/</guid>
+      <description>Since I didn&amp;rsquo;t get to go to useR 2017 this year, I&amp;rsquo;m compiling the interesting talks. This is an ongoing list.
+ https://user2017.sched.com/event/AxqM/automatically-archiving-reproducible-studies-with-docker https://user2017.sched.com/event/Axq4/clouds-containers-and-r-towards-a-global-hub-for-reproducible-and-collaborative-data-science https://user2017.sched.com/event/Axq9/scraping-data-with-rvest-and-purrr https://user2017.sched.com/event/Axq1/using-the-alphabetr-package-to-determine-paired-t-cell-receptor-sequences https://user2017.sched.com/event/AxqG/show-me-the-errors-you-didnt-look-for https://user2017.sched.com/event/AxqR/community-based-learning-and-knowledge-sharing https://user2017.sched.com/event/AxqT/r-based-computing-with-big-data-on-disk https://user2017.sched.com/event/AxqA/codebookr-codebooks-in-r https://user2017.sched.com/event/Axor/how-we-built-a-shiny-app-for-700-users Useful concepts: reactiveTrigger to force a rerender. https://user2017.sched.com/event/AxsL/ensemble-packages-with-user-friendly-interface-an-added-value-for-the-r-community  </description>
+    </item>
+    
+    <item>
+      <title>How to Not Be Afraid of Your Data</title>
+      <link>/2017/06/28/howtonotbeafraid/</link>
+      <pubDate>Wed, 28 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/06/28/howtonotbeafraid/</guid>
+      <description>I&amp;rsquo;m going to be giving a talk for the PDX RLang Meetup on July 11 called &amp;ldquo;How to Not Be Afraid of Your Data: Teaching EDA using Shiny&amp;rdquo;. Abstract below.
+Many graduate students in the basic sciences are afraid of data exploration and cleaning, which can greatly impact their downstream analysis results. By using a synthetic dataset, some simple dplyr commands, and a shiny dashboard, we teach graduate students how to explore their data and how to handle issues that can arise (missing values, differences in units).</description>
+    </item>
+    
+    <item>
+      <title>Some Lessons We Learned Running Cascadia-R</title>
+      <link>/2017/06/07/cascadiarnotes/</link>
+      <pubDate>Wed, 07 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/06/07/cascadiarnotes/</guid>
+      <description>Well, the first Cascadia R Conference has come and gone. I have to say that it was super fun, and well attended (over 190 people!). I had a blast meeting and chatting with everyone. Hopefully, we showed newbies that R is learnable and others that there are lots more things to learn about R.
+The following is my attempt to document what we learned from organizing Cascadia-R. It&amp;rsquo;s not complete; I may add and subtract from it as I think of more things to say about the planning process.</description>
+    </item>
+    
+    <item>
+      <title>Building an Open Source Community</title>
+      <link>/2017/04/20/building-an-os-community/</link>
+      <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/04/20/building-an-os-community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Breadth and Depth in Your Academic Career</title>
+      <link>/2017/04/19/breadth-and-depth/</link>
+      <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/04/19/breadth-and-depth/</guid>
+      <description>I was talking with a student and they were complaining that when at conferences, they would try to inject other topics of interest (such as cooking) into discussions with colleagues. Unfortunately, one of the after effects of this was that they were looked at as &amp;ldquo;not a serious scientist&amp;rdquo;. There&amp;rsquo;s an expectation that a scientist must be all depth, only talking and thinking about their sub-field.
+As a cross disciplinarian, I have to say that is hogwash.</description>
+    </item>
+    
+    <item>
+      <title>Fostering a Peer Mentoring Culture</title>
+      <link>/2017/04/17/building-a-peer-mentoring/</link>
+      <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/04/17/building-a-peer-mentoring/</guid>
+      <description>I realize that it has been an embarrasingly long time since I updated this blog. I had all sorts of grandiose plans for it, and I think my problem was that I was thinking too broad, too pie-in-the-sky. I&amp;rsquo;m going to try to focus on short and informative blog posts.
+One of the things that I have been thinking about graduate school is the idea of building a Peer Mentoring culture in our department.</description>
+    </item>
+    
+    <item>
+      <title>Surrogate Oncogene Paper is Published</title>
+      <link>/2015/12/23/surrogate-oncogene-paper/</link>
+      <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/12/23/surrogate-oncogene-paper/</guid>
+      <description>My dissertation paper, A Network-Based Model of Oncogenic Collaboration for Prediction of Drug Sensitivity is now published! Here&amp;rsquo;s a lay summary:
+ One outstanding issue in analyzing genomics in the context of personalized medicine is the incorporation of rare or infrequent genetic alterations (copy number alterations and somatic mutations) that are observed in individual &amp;gt; patients. We hypothesize that these mutations may actually &amp;lsquo;collaborate&amp;rsquo; with known oncogenes in the genesis of tumors through their interactions.</description>
+    </item>
+    
+    <item>
+      <title>Why Short-Order Bioinformatics Doesn&#39;t Work</title>
+      <link>/2015/11/24/short-order-bioinformatics/</link>
+      <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/11/24/short-order-bioinformatics/</guid>
+      <description>Unfortunately, many researchers look at computational biology and bioinformatics as a black-box: you put in data, and you get results out. The bioinformaticians and computational biologists are seen as mostly computer operators who push the button and not as true collaborators. One of my co-workers calls this &amp;ldquo;short-order&amp;rdquo; bioinformatics.
+There is great danger in simply pushing a button to get results. One type of analysis, Gene Set Enrichment Analysis (GSEA) is highly dependent on how mutations are incorporated into a gene set.</description>
+    </item>
+    
+    <item>
+      <title>Interesting interview with the developer of statcheck</title>
+      <link>/2015/11/19/statcheck-package/</link>
+      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/11/19/statcheck-package/</guid>
+      <description>Due to the usual postdoc busy-ness, I haven&amp;rsquo;t had the energy to update this blog as much as I would like, but I thought this interview on Retraction Watch from Michèle B. Nuijten, the developer of the R-package statcheck to be fascinating. Her package essentially automates the checking of p-values given published data in papers, from converting the papers from pdf to text, and sees if the calculated p-values are correct.</description>
+    </item>
+    
+    <item>
+      <title>Somatic Mutations in Skin Paper</title>
+      <link>/2015/05/26/mutational-burden-in-skin/</link>
+      <pubDate>Tue, 26 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/05/26/mutational-burden-in-skin/</guid>
+      <description>This paper, High burden and pervasive positive selection of somatic mutations in normal human skin is fascinating. It suggests that the mutational burden is much higher than we expected in skin cells due to UV exposure. In addition, subclones exist in the skin that are positively selected for oncogenes.
+It also makes me want to stock up on sunscreen.</description>
+    </item>
+    
+    <item>
+      <title>High Impact Factor Journals Have Higher Retraction Rates</title>
+      <link>/2015/05/24/the-rise-of-fraud-in-high-if-journals/</link>
+      <pubDate>Sun, 24 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/05/24/the-rise-of-fraud-in-high-if-journals/</guid>
+      <description>Very interesting New York Times article about the rise of frauds and retractions in High Impact Factor journals. The retraction rates for High IF journals (such as Science, Cell, and Nature) are much higher than lower IF journals.
+From the article:
+ Journals with higher impact factors retract papers more often than those with lower impact factors. It’s not clear why. It could be that these prominent periodicals have more, and more careful, readers, who notice mistakes.</description>
+    </item>
+    
+  </channel>
+</rss>

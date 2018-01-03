@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.30.2" />
+
+
+<title>Using Synthetic Data for Teaching Data Science - Personal Website for Ted Laderas, PhD</title>
+<meta property="og:title" content="Using Synthetic Data for Teaching Data Science - Personal Website for Ted Laderas, PhD">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="/cv/">CV</a></li>
+    
+    <li><a href="/teaching/">Teaching</a></li>
+    
+    <li><a href="http://github.com/laderast">GitHub</a></li>
+    
+    <li><a href="https://twitter.com/tladeras">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">Using Synthetic Data for Teaching Data Science</h1>
+
+    
+    <span class="article-date">2017/12/14</span>
+    
+
+    <div class="article-content">
+      <p>Hi Everyone, our paper called <a href="https://www.biorxiv.org/content/early/2017/12/12/232611"><em>Teaching data science fundamentals through realistic synthetic clinical cardiovascular data</em></a> is now available to read on Biorxiv.</p>
+
+<p>In this paper, we talk about a dataset that we synthesized for teaching aspects of clinical data that may be tricky to understand in data science. This dataset is interesting because it&rsquo;s derived from a multivariate distribution based on real patient data, modeled as a Bayesian Network. Even when we knew true marginals for the real data, there was a lot of fine tuning to the Bayesian Network.</p>
+
+<p>We&rsquo;ve used this dataset for a couple of classes, and we&rsquo;ve found that it helps highlight real issues in predictive modeling of clinical data. One of the largest is that most predictive models are based on a much older patient cohort (50+), which means that we don&rsquo;t know much about how to predict cardiovascular risk in younger patients. Part of the teaching exercise is having the students choose a cohort of interest and then attempt to predict on that patient cohort.</p>
+
+<p>The data is currently available as an R package here, including vignettes about how the data was generated: <a href="https://github.com/laderast/cvdRiskData">https://github.com/laderast/cvdRiskData</a></p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+
