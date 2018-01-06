@@ -117,7 +117,7 @@ git push
 
 <p>Uh oh, I get a <code>remote: error: refusing to update checked out branch: refs/heads/master</code> error! More ugh.</p>
 
-<p>Here&rsquo;s the trick. Since you clone a local repo, you need to set the origin of your current repo (<code>local_repo.git</code>) to the GitHub remote. First we remove the current <code>origin</code>, and then add back our remote.</p>
+<p>Here&rsquo;s the trick. Since you cloned a <em>local</em> repo, you need to set the origin of your current repo (<code>local_repo.git</code>) to the GitHub remote. First we remove the current <code>origin</code>, and then add back our remote.</p>
 
 <pre><code>git remote rm origin
 git remote add origin https://github.com/laderast/remote_repo
