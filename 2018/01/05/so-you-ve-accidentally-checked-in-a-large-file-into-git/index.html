@@ -120,12 +120,19 @@ git push
 <p>Here&rsquo;s the trick. Since you clone a local repo, you need to set the origin of your current repo (<code>local_repo.git</code>) to the GitHub remote. First we remove the current <code>origin</code>, and then add back our remote.</p>
 
 <pre><code>git remote rm origin
-git remote add origin https://github.com/laderast/remote_repo.git
+git remote add origin https://github.com/laderast/remote_repo
 </code></pre>
 
 <p>Finally, after much gnashing of the teeth, we can</p>
 
 <pre><code>git push
+</code></pre>
+
+<p>Don&rsquo;t forget to remove your now <em>dirty</em> <code>local_repo</code>, and the mirrored copy, and then pull a fresh copy down!</p>
+
+<pre><code>rm -rf local_repo
+rm -rf local_repo.git
+git clone https://github.com/laderast/remote_repo
 </code></pre>
 
 <p>This may be obvious to the 10 people in the world who have read all of the git documentation, but I am not one of them. I&rsquo;m stuck with git, unfortunately. I&rsquo;m writing this post to remind me of what to do when I innocently do something like commit a large file to my repo.</p>
