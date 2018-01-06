@@ -18,7 +18,7 @@
       
       <guid>/2018/01/05/so-you-ve-accidentally-checked-in-a-large-file-into-git/</guid>
       <description>Greg Wilson first said it, but I&amp;rsquo;ve come to agree. Git is an aggressively antisocial piece of software. Git is a piece of software that can make developers with any amount of experience feel dumb.
-Recently, I accidently checked a large file (greater than 100M) into my local repo. When I tried to push to GitHub, of course, it refused it (I know about git large file storage, but I don&amp;rsquo;t have any).</description>
+Recently, I accidentally checked a large file (greater than 100M) into my local repo. When I tried to push to GitHub, of course, it refused it (I know about git large file storage, but I don&amp;rsquo;t have any).</description>
     </item>
     
     <item>
