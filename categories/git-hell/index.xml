@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git Hell on Personal Website for Ted Laderas, PhD</title>
+    <link>/categories/git-hell/</link>
+    <description>Recent content in Git Hell on Personal Website for Ted Laderas, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/git-hell/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>So You&#39;ve Accidentally Checked in a Large File Into Git</title>
+      <link>/2018/01/05/so-you-ve-accidentally-checked-in-a-large-file-into-git/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/01/05/so-you-ve-accidentally-checked-in-a-large-file-into-git/</guid>
+      <description>Greg Wilson first said it, but I&amp;rsquo;ve come to agree. Git is an aggressive antisocial piece of software. Git is a piece of software that can make developers with any amount of experience feel dumb.
+Recently, I accidently checked a large file (greater than 100M) into my local repo. When I tried to push to GitHub, of course, it refused it (I know about git large file storage, but I don&amp;rsquo;t have any).</description>
+    </item>
+    
+  </channel>
+</rss>

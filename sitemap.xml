@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2018/01/05/so-you-ve-accidentally-checked-in-a-large-file-into-git/</loc>
+    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2017/12/19/understanding-tidyeval/</loc>
     <lastmod>2017-12-19T00:00:00+00:00</lastmod>
   </url>
@@ -120,6 +125,24 @@
   </url>
   
   <url>
+    <loc>/categories/git/</loc>
+    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/git-hell/</loc>
+    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/git-hell/</loc>
+    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/music/</loc>
     <lastmod>2017-04-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -133,7 +156,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2017-12-19T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -145,7 +168,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2017-12-19T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
