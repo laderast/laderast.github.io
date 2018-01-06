@@ -73,13 +73,17 @@
     
 
     <div class="article-content">
-      <p>Greg Wilson first said it, but I&rsquo;ve come to agree. Git is an aggressively antisocial piece of software. Git is a piece of software that can make developers with any amount of experience feel dumb.</p>
+      <p><em>Note: after posting this, I heard back from Roberto Tyler, the creator of the BFG. I&rsquo;d like to note that the BFG actually does its job really well. I was mostly really frustrated about how Git/GitHub doesn&rsquo;t prevent a user from doing something that&rsquo;s hard to undo. So my frustration is really about that, not really about the BFG. This post has been edited to reflect that.</em></p>
+
+<p>Greg Wilson first said it, but I&rsquo;ve come to agree. Git is an aggressively antisocial piece of software. Git is a piece of software that can make developers with any amount of experience feel dumb.</p>
 
 <p>Recently, I accidentally checked a large file (greater than 100M) into my local repo. When I tried to push to GitHub, of course, it refused it (I know about git large file storage, but I don&rsquo;t have any).</p>
 
 <p>So my local repo was screwed up. Of course, I did what seemed like the rational thing and deleted the file from my repo and recommitted. More than once. This is a mistake I&rsquo;ve done more than once. So you need to scrub your git history with BFG so that GitHub will accept your lowly commits again.</p>
 
-<p>BFG is supposed to make your life easier, but for some reason the directions always specify how to fix a <em>remote</em> repo. I would say that this situation is much less common than the local situation. I usually install it through <code>homebrew</code>, using <code>brew install bfg</code>.</p>
+<p>The BFG documentation specifies how to fix a <em>remote</em> repo. I would say that this situation is much less common than the local situation. So I just decided to share how I got the BFG to work for the local repo situation.</p>
+
+<p>I usually install the BFG through <code>homebrew</code>, using <code>brew install bfg</code>.</p>
 
 <p>Say you&rsquo;ve accidently checked in a large file into your current repo. The first thing to do is to clone your local repo:</p>
 
