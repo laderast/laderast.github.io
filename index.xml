@@ -6,10 +6,20 @@
     <description>Recent content on Personal Website for Ted Laderas, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jan 2018 13:55:55 -0800</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python_resources</title>
+      <link>/python_resources/</link>
+      <pubDate>Fri, 12 Jan 2018 13:55:55 -0800</pubDate>
+      
+      <guid>/python_resources/</guid>
+      <description>A list of python resources at OHSU and beyond for the neuroscience students.
+In Medical Informatics and Clinical Epidemiology (DMICE) Introduction to Programming (no course number)  Instructor: Lisa Karstens, Ph.D. 0.0 credits Course Syllabus Offered: Winter and Summer Quarter  This non-credit, online course will introduce the beginning programmer to programming structure and design, creating a solid foundation for all types of programming. The emphasis will be on procedural programming and control structures, although exercises will be in Python.</description>
+    </item>
     
     <item>
       <title>So You&#39;ve Accidentally Checked in a Large File Into Git</title>
@@ -147,9 +157,9 @@ Over twelve years of bioinformatics experience, I have developed methods for low
       <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
       
       <guid>/teaching/</guid>
-      <description>Current Academic Coursework I teach in the summer hybrid BMI569/669 Data Analytics course at OHSU (Hybrid course co-taught with Kaiser Permanente Data &amp;amp; Information Management Enhancement (DIME) group).
+      <description>Current Academic Coursework at OHSU and PSU I teach in the summer hybrid BMI569/669 Data Analytics course at OHSU (Hybrid course co-taught with Kaiser Permanente Data &amp;amp; Information Management Enhancement (DIME) group).
 I am also a co-instructor for BMI551/651 Bioinformatics and Computational Biology II: Statistical Methods, providing drop-in sessions for R programming and general tutoring.
-We are teaching an introductory bootcamp in python called NEU640 Python Bootcamp for Neuroscientists. Taught with Stephen David and Brad Buran.</description>
+We are teaching an introductory bootcamp in python called NEU640 Python Bootcamp for Neuroscientists.. This is a week-long course meant to introduce neuroscience students to the basics of python with data types familiar to them, including imaging and electrophysiology data.</description>
     </item>
     
     <item>
