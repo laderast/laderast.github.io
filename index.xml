@@ -18,7 +18,9 @@
       
       <guid>/python_resources/</guid>
       <description>A list of python resources at OHSU and beyond for the neuroscience students.
-In Medical Informatics and Clinical Epidemiology (DMICE) Introduction to Programming (no course number)  Instructor: Lisa Karstens, Ph.D. 0.0 credits Course Syllabus Offered: Winter and Summer Quarter  This non-credit, online course will introduce the beginning programmer to programming structure and design, creating a solid foundation for all types of programming. The emphasis will be on procedural programming and control structures, although exercises will be in Python.</description>
+In Neuroscience Python Bootcamp for Neuroscientists (NEUS640) Course Material
+This course is a gentle introduction to the Python programming language using data types familiar to Neuroscience students, including behavioral, electrophysiology, and imaging data. Emphasis will be put on introducing students to concepts of visualization, data manipulation, and analysis using available Python packages (NumPy, Pandas, Matplotlib).
+In Medical Informatics and Clinical Epidemiology (DMICE) Introduction to Programming (no course number)  Instructor: Lisa Karstens, Ph.</description>
     </item>
     
     <item>
