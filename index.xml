@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Personal Website for Ted Laderas, PhD</title>
+    <title>Ted Laderas, PhD on Ted Laderas, PhD</title>
     <link>/</link>
-    <description>Recent content on Personal Website for Ted Laderas, PhD</description>
+    <description>Recent content in Ted Laderas, PhD on Ted Laderas, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Jan 2018 13:55:55 -0800</lastBuildDate>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Python_resources</title>
@@ -17,20 +16,146 @@
       <pubDate>Fri, 12 Jan 2018 13:55:55 -0800</pubDate>
       
       <guid>/python_resources/</guid>
-      <description>A list of python resources at OHSU and beyond for the neuroscience students.
-In Neuroscience Python Bootcamp for Neuroscientists (NEUS640) Course Material
-This course is a gentle introduction to the Python programming language using data types familiar to Neuroscience students, including behavioral, electrophysiology, and imaging data. Emphasis will be put on introducing students to concepts of visualization, data manipulation, and analysis using available Python packages (NumPy, Pandas, Matplotlib).
-In Medical Informatics and Clinical Epidemiology (DMICE) Introduction to Programming (no course number)  Instructor: Lisa Karstens, Ph.</description>
+      <description>
+
+&lt;p&gt;A list of python resources at OHSU and beyond for the neuroscience students.&lt;/p&gt;
+
+&lt;h2 id=&#34;in-neuroscience&#34;&gt;In Neuroscience&lt;/h2&gt;
+
+&lt;h3 id=&#34;python-bootcamp-for-neuroscientists-neus640&#34;&gt;Python Bootcamp for Neuroscientists (NEUS640)&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/dasaderi/python_neurobootcamp&#34; target=&#34;_blank&#34;&gt;Course Material&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This course is a gentle introduction to the Python
+programming language using data types familiar to Neuroscience students, including behavioral, electrophysiology, and imaging data. Emphasis will be put on introducing students to concepts of visualization, data manipulation, and analysis using available Python packages (NumPy, Pandas, Matplotlib).&lt;/p&gt;
+
+&lt;h2 id=&#34;in-medical-informatics-and-clinical-epidemiology-dmice&#34;&gt;In Medical Informatics and Clinical Epidemiology (DMICE)&lt;/h2&gt;
+
+&lt;h3 id=&#34;introduction-to-programming-no-course-number&#34;&gt;Introduction to Programming (no course number)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Instructor: Lisa Karstens, Ph.D.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;0.0 credits&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/IntroductionToProgramming-Syllabus-WI18.pdf&#34; target=&#34;_blank&#34;&gt;Course Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Offered: Winter and Summer Quarter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This non-credit, online course will introduce the beginning programmer to programming structure and design, creating a solid foundation for all types of programming. The emphasis will be on procedural programming and control structures, although exercises will be in Python. The course fulfills the prerequisite for BMI 540 and BMI 565. Tuition fee is $500.&lt;/p&gt;
+
+&lt;p&gt;Students may register during the regular winter and summer term registration periods. Contact Diane Doctor for details at doctord@ohsu.edu.&lt;/p&gt;
+
+&lt;h3 id=&#34;bioinformatics-programming-and-scripting-bmi-565-656&#34;&gt;Bioinformatics Programming and Scripting - BMI 565 / 656&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Instructor: Michael Mooney, Ph.D.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Credits: 3.0&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/BMI-565-Syllabus-FA17.pdf&#34; target=&#34;_blank&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Offered: Fall Quarter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The purpose of this course is to equip research scientists with computational skills necessary to create and automate tools to analyze biological data.  The course is divided into four sub-topics: python programming, scripting in unix, biopython library, bioinformatics workflows.  Python will be used used to solve simple to sophisticated programming problems and to review general computational language paradigms such as problem abstraction, data types, file I/O, iteration, functions, and objects.  There will also be an emphasis on writing unix operating system shell scripts to automate repetitive tasks and connect disparate bioinformatics tools using files and pipes.  In addition, students will learn to access public repositories to perform basic bioinformatics tasks such as annotating gene products, sequence searching, and functional queries. This course is designed to be a first year requirement for students in the Bioinformatics and Computational Biology graduate program in Biomedical Informatics. Open to other students with consent of instructor.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prerequisite&lt;/strong&gt;: Background must include an introductory programming class including concepts such as variables, loops, I/O, methods, and algorithms.&lt;/p&gt;
+
+&lt;h2 id=&#34;computer-science-and-electrical-engineering-cs-ee-python-courses&#34;&gt;Computer Science and Electrical Engineering (CS/EE) Python Courses&lt;/h2&gt;
+
+&lt;h3 id=&#34;data-science-programming-cs-527-627&#34;&gt;Data Science Programming - CS 527 / 627&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://cslu.ohsu.edu/~kain/CS627/&#34; target=&#34;_blank&#34;&gt;Course Website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This course is designed to give you awareness and initial working knowledge of some of the most fundamental computational tools for performing a wide variety of academic research. As such, it will focus on providing breadth instead of depth, which means that for each concept we will talk about motivation, key concepts, and concrete usage scenarios, but without mathematical background or proofs, which can be acquired in more specialized classes. In this class we will: become familiar with the UNIX/LINUX environment, learn how to version control files with git, write programs inpython, perform numeric tasks using numpy and scipy, analyze data using pandas, apply machine learning algorithms using scikit-learn, visualize data using matplotlib and pyqtgraph, use QT/pyside to build graphical user interfaces, and finally we will address performance issues via compilation/profiling/parallelization tools.&lt;/p&gt;
+
+&lt;h3 id=&#34;introduction-to-image-processing-ee-584-684&#34;&gt;Introduction to Image Processing EE 584 / 684&lt;/h3&gt;
+
+&lt;p&gt;This course covers basic image processing principles and techniques with a brief introduction to machine vision. Specific topics include image transform methods, image filtering, image enhancement, image restoration, segmentation, image representation and feature extraction, image recognition and classification, and image compression. Application of these techniques is illustrated in numerous examples. Pre-requisite: probability and statistics or equivalent, calculus, linear algebra and proficiency in at least one high-level programming language.&lt;/p&gt;
+
+&lt;h3 id=&#34;data-visualization-cs-631&#34;&gt;Data Visualization CS 631&lt;/h3&gt;
+
+&lt;p&gt;This course will give students a foundation in the principles of data visualization, particularly as applied to scientific and technical data, as well as provide students with hands-on experience using modern software tools for developing visualizations. Lecture topics will include an overview of visual perception, color theory and practice, different types of graphs and their purposes, visualizations for specialized forms of data including time-series and geospatial data sets, strategies for working with multidimensional data, etc. There will also be lecture content on ethical issues surrounding data visualization. Weekly lab sessions will introduce students to popular data visualization tools such as R&amp;rsquo;s ggplot and Shiny, Tableau, etc.&lt;/p&gt;
+
+&lt;h2 id=&#34;datacamp&#34;&gt;DataCamp&lt;/h2&gt;
+
+&lt;p&gt;NEUS640 Students will have access to DataCamp for the next 6 months.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>So You&#39;ve Accidentally Checked in a Large File Into Git</title>
-      <link>/2018/01/05/so-you-ve-accidentally-checked-in-a-large-file-into-git/</link>
+      <link>/post/so-you-ve-accidentally-checked-in-a-large-file-into-git/</link>
       <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/01/05/so-you-ve-accidentally-checked-in-a-large-file-into-git/</guid>
-      <description>Note: after posting this, I heard back from Roberto Tyley, the creator of the BFG. I&amp;rsquo;d like to note that the BFG actually does its job really well. I was mostly really frustrated about how Git/GitHub doesn&amp;rsquo;t prevent a user from doing something that&amp;rsquo;s hard to undo. So my frustration is really about that, not really about the BFG. This post has been edited to reflect that.
-Greg Wilson first said it, but I&amp;rsquo;ve come to agree.</description>
+      <guid>/post/so-you-ve-accidentally-checked-in-a-large-file-into-git/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Note: after posting this, I heard back from Roberto Tyley, the creator of the BFG. I&amp;rsquo;d like to note that the BFG actually does its job really well. I was mostly really frustrated about how Git/GitHub doesn&amp;rsquo;t prevent a user from doing something that&amp;rsquo;s hard to undo. So my frustration is really about that, not really about the BFG. This post has been edited to reflect that.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Greg Wilson first said it, but I&amp;rsquo;ve come to agree. Git is an aggressively antisocial piece of software. Git is a piece of software that can make developers with any amount of experience feel dumb.&lt;/p&gt;
+
+&lt;p&gt;Recently, I accidentally checked a large file (greater than 100 Megs) into my local repo. When I tried to push to GitHub, of course, it refused it (I know about git large file storage, but I don&amp;rsquo;t have any).&lt;/p&gt;
+
+&lt;p&gt;So my local repo was screwed up. Of course, I did what seemed like the rational thing and deleted the file from my repo and recommitted. More than once. This is a mistake I&amp;rsquo;ve done more than once. So you need to scrub your git history with BFG so that GitHub will accept your lowly commits again.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://rtyley.github.io/bfg-repo-cleaner/&#34; target=&#34;_blank&#34;&gt;The BFG&lt;/a&gt; documentation specifies how to fix a &lt;em&gt;remote&lt;/em&gt; repo. I would say that this situation is much less common than the local situation. So I just decided to share how I got the BFG to work for the local repo situation.&lt;/p&gt;
+
+&lt;p&gt;I usually install the BFG through &lt;code&gt;homebrew&lt;/code&gt;, using &lt;code&gt;brew install bfg&lt;/code&gt;. When you install it this way, you can just run BFG with &lt;code&gt;bfg&lt;/code&gt;. You can download it from the website, but you&amp;rsquo;ll have to call &lt;code&gt;java -jar bfg[VERSION].jar&lt;/code&gt; to run it.&lt;/p&gt;
+
+&lt;p&gt;Say you&amp;rsquo;ve accidently checked in a large file into your current repo. The first thing to do is to clone your local repo:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone --mirror local_repo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will create another folder called &lt;code&gt;local_repo.git&lt;/code&gt; that you will do all the BFG magic on. This &lt;code&gt;local_rep.git&lt;/code&gt; is what is called a &lt;em&gt;bare&lt;/em&gt; repo. I want to remove any files larger than 100 Megs, so I do this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;bfg -b 100M local_repo.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If this doesn&amp;rsquo;t return an error, you can move on. However, I got the dreaded error:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Warning : no large blobs matching criteria found in packfiles - 
+does the repo need to be packed?
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Augh. Ok, some googling later I found that I needed to pack my orignal repo:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd local_repo
+git repack
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Okay, we need to get rid of our cloned repo and redo the last few steps.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rm -rf local_repo.git
+git clone --mirror local_repo
+bfg -b 100M local_repo.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then comes some git commands that no one has bothered to explain to me.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git reflog expire --expire=now --all &amp;amp;&amp;amp; git gc --prune=now --aggressive
+git push
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Uh oh, I get a &lt;code&gt;remote: error: refusing to update checked out branch: refs/heads/master&lt;/code&gt; error! More ugh.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s the trick. Since you cloned a &lt;em&gt;local&lt;/em&gt; repo, you need to set the origin of your current repo (&lt;code&gt;local_repo.git&lt;/code&gt;) to the GitHub remote. First we remove the current &lt;code&gt;origin&lt;/code&gt;, and then add back our remote.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git remote rm origin
+git remote add origin https://github.com/laderast/remote_repo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Finally, after much gnashing of the teeth, we can&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git push
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Don&amp;rsquo;t forget to remove your now &lt;em&gt;dirty&lt;/em&gt; &lt;code&gt;local_repo&lt;/code&gt;, and the mirrored copy, and then pull a fresh copy down!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;##remove both original local repo and altered bare repo
+rm -rf local_repo
+rm -rf local_repo.git
+##clone a fresh copy from GitHub
+git clone https://github.com/laderast/remote_repo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This may be obvious to the 10 people in the world who have read all of the git documentation, but I am not one of them. I&amp;rsquo;m stuck with git, unfortunately. I&amp;rsquo;m writing this post to remind me of what to do when I innocently do something like commit a large file to my repo.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -39,8 +164,127 @@ Greg Wilson first said it, but I&amp;rsquo;ve come to agree.</description>
       <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/12/19/understanding-tidyeval/</guid>
-      <description>Have you ever had something that no matter how many times someone explained it, you really had no idea what it was for? For me, that was Non Standard Evaluation (NSE) in R, and its newer cousin Tidy Evaluation, or tidyeval. I had a real learning block about it. I really wanted to understand it, but for some reason I just really wasn’t getting the general concepts.
-What is evaluation, really?</description>
+      <description>&lt;p&gt;Have you ever had something that no matter how many times someone explained it, you really had no idea what it was for? For me, that was Non Standard Evaluation (NSE) in R, and its newer cousin Tidy Evaluation, or &lt;code&gt;tidyeval&lt;/code&gt;. I had a real learning block about it. I really wanted to understand it, but for some reason I just really wasn’t getting the general concepts.&lt;/p&gt;
+&lt;p&gt;What is evaluation, really? For the longest time, I was extremely confused about it. When you provide an expression to R such as:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(tidyverse)
+library(rlang)
+this_variable &amp;lt;- 2
+this_variable * 6&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 12&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You notice that there is an output to &lt;code&gt;this_variable * 6&lt;/code&gt;, which is &lt;code&gt;12&lt;/code&gt;. Evaluation is really about looking up variable names in an environment and then acting on the results. What is going on here is that R looks for an object that is named &lt;code&gt;this_variable&lt;/code&gt; in our global environment, and then returns the value, &lt;code&gt;2&lt;/code&gt;, which it then &lt;em&gt;substitutes&lt;/em&gt; in the expression. So our original expression:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;this_variable * 6&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 12&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Becomes this expression:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;2 * 6&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 12&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Which R knows how to calculate, the output of which is &lt;code&gt;12&lt;/code&gt;. But sometimes you want to pass an expression or a variable, as is, without evaluating it first. The best case for this is to passing a variable into a function. We can do this by wrapping them up in &lt;code&gt;quosures&lt;/code&gt; or &lt;code&gt;enquosures&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;A &lt;code&gt;quosure&lt;/code&gt; and an &lt;code&gt;enquosure&lt;/code&gt; can be thought of as envelopes around an object. They obscure certain properties of the object until they can be delivered into a function. The envelopes basically are a way to sneak variables and expressions into a function’s environment. When the envelope is in the function, we can open it up and evaluate what’s in the envelope. The trick to NSE and tidyeval is that we can control when the function &lt;em&gt;evaluates&lt;/em&gt; the expression, by controlling when we open this envelope. We do this by using the &lt;code&gt;UQ()&lt;/code&gt; or &lt;code&gt;!!&lt;/code&gt; functions.&lt;/p&gt;
+&lt;p&gt;In other words, &lt;code&gt;quosures&lt;/code&gt; and &lt;code&gt;enquosures&lt;/code&gt; are ways to prevent R from looking up a variable’s value in our current environment (usually the global environment), and delay this lookup until we get them into the environment of interest. This might be one level down (in our function of interest), or several levels down (in a function called by our function).&lt;/p&gt;
+&lt;p&gt;The point is, R won’t open the envelope with our variable in it until we tell it to.&lt;/p&gt;
+&lt;div id=&#34;why-should-i-care&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Why Should I Care????&lt;/h2&gt;
+&lt;p&gt;The short answer: if you want to write functions that directly work with the &lt;code&gt;tidyverse&lt;/code&gt;, you need to understand &lt;code&gt;tidyeval&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The best way to understand why you need to do this is to write a function that takes a &lt;code&gt;data.frame&lt;/code&gt; and a reference to a column within that &lt;code&gt;data.frame&lt;/code&gt;. You might notice that we can directly refer to a column in a &lt;code&gt;data.frame&lt;/code&gt; for &lt;code&gt;select&lt;/code&gt;, for example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mtcars %&amp;gt;% select(cyl) %&amp;gt;% head(10)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##                   cyl
+## Mazda RX4           6
+## Mazda RX4 Wag       6
+## Datsun 710          4
+## Hornet 4 Drive      6
+## Hornet Sportabout   8
+## Valiant             6
+## Duster 360          8
+## Merc 240D           4
+## Merc 230            4
+## Merc 280            6&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Why does that work? This is the power of NSE and tidy evaluation. Basically, by wrapping up &lt;code&gt;cyl&lt;/code&gt; in an envelope, we prevent R from &lt;em&gt;evaluating&lt;/em&gt; it right away. We can then pass the envelope into other functions, or environments, and then tell R to remove the envelope and then &lt;em&gt;evaluate&lt;/em&gt; it.&lt;/p&gt;
+&lt;p&gt;Let’s try and mimic this. We’ll write a function &lt;code&gt;grab_col(x, colname)&lt;/code&gt; which returns the values in the column whose name we ask for as an object. If we do this, without tidyeval, this will happen.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;grab_col &amp;lt;- function(x, colname){
+  x %&amp;gt;%
+    pull(colname)
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Try running &lt;code&gt;grab_col(mtcars, colname=cyl)&lt;/code&gt;. You’ll get an error that &lt;code&gt;cyl&lt;/code&gt; does not exist as an object. Augh! This is harder than we thought.&lt;/p&gt;
+&lt;p&gt;How can we fix this? We can wrap &lt;code&gt;colname&lt;/code&gt; up in an &lt;code&gt;enquosure&lt;/code&gt; using the &lt;code&gt;enquo()&lt;/code&gt; function. Once it’s into &lt;code&gt;pull()&lt;/code&gt;, we use &lt;code&gt;UQ()&lt;/code&gt; to open the envelope and R knows that it should look in the &lt;code&gt;data.frame&lt;/code&gt;’s environment for our &lt;code&gt;colname&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(rlang)
+
+grab_col &amp;lt;- function(x, colname){
+  ##wrap up colname in an enquosure
+  cc &amp;lt;- rlang::enquo(colname)
+
+  ##use UQ to evaluate it within the pull function
+  x %&amp;gt;%
+    pull(
+      ## unquote and evaluate (open the envelope!)
+      UQ(cc)
+      )
+}
+
+grab_col(mtcars, colname=cyl)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##  [1] 6 6 4 6 8 6 8 4 4 6 6 8 8 8 8 8 8 4 4 4 4 8 8 8 8 4 4 4 8 6 8 4&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now try &lt;code&gt;grab_col(mtcars, colname=cyl)&lt;/code&gt;. Nifty, huh?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;with-quosures-values-can-come-along-for-the-ride&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;With &lt;code&gt;quosure&lt;/code&gt;s, values can come along for the ride&lt;/h2&gt;
+&lt;p&gt;Why would we use &lt;code&gt;quosure&lt;/code&gt;s at all, instead of &lt;code&gt;enquosure&lt;/code&gt;s? Because with &lt;code&gt;quosure&lt;/code&gt;s we can actually bring some needed values along for the ride.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;what-about-lots-of-arguments&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;What about lots of arguments?&lt;/h2&gt;
+&lt;p&gt;That’s what &lt;code&gt;quos()&lt;/code&gt; is for. Ever notice that you can specify a number of unnamed arguments by specifying a &lt;code&gt;...&lt;/code&gt; in your function definition? And did you ever notice that &lt;code&gt;select()&lt;/code&gt; can take lots of arguments such as &lt;code&gt;select(mpg, cyl, wt)&lt;/code&gt;? That is the power of &lt;code&gt;...&lt;/code&gt; combined with &lt;code&gt;quos()&lt;/code&gt;!&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;quos&lt;/code&gt; takes a list and makes each element of the list a &lt;code&gt;quosure&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;what-about-expressions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;What about expressions?&lt;/h2&gt;
+&lt;p&gt;Say we wanted to pass an expression such as &lt;code&gt;cyl &amp;gt; 2&lt;/code&gt; into our function. We’ll need to wrap it up in &lt;code&gt;enexpr()&lt;/code&gt; instead of &lt;code&gt;enquo()&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;filter_on_column &amp;lt;- function(x, col_expr){
+  c_e &amp;lt;- rlang::enexpr(col_expr)
+
+  x %&amp;gt;%
+    ## The !! (called a bangbang) is just another way to use UQ()
+    ## I don&amp;#39;t really like it, I&amp;#39;d rather use UQ()
+    filter(!! c_e)
+}
+
+#pass in a simple expression
+mtcars %&amp;gt;% filter_on_column(cyl &amp;gt; 2) %&amp;gt;% head(5)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##    mpg cyl disp  hp drat    wt  qsec vs am gear carb
+## 1 21.0   6  160 110 3.90 2.620 16.46  0  1    4    4
+## 2 21.0   6  160 110 3.90 2.875 17.02  0  1    4    4
+## 3 22.8   4  108  93 3.85 2.320 18.61  1  1    4    1
+## 4 21.4   6  258 110 3.08 3.215 19.44  1  0    3    1
+## 5 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#pass in a compound expression
+mtcars %&amp;gt;% filter_on_column(cyl &amp;gt; 2 &amp;amp; qsec &amp;gt; 18) %&amp;gt;% head(5)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##    mpg cyl  disp  hp drat    wt  qsec vs am gear carb
+## 1 22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1
+## 2 21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1
+## 3 18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1
+## 4 24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2
+## 5 22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;be-really-careful-with&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Be really careful with &lt;code&gt;!!&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;In the above example, we used &lt;code&gt;!!&lt;/code&gt;, called a bangbang, to unquote and evaluate our expression. Be really careful with what you put after the &lt;code&gt;!!&lt;/code&gt;, since everything after it will be evaluated. If you have elements after the expression you don’t want to unquote, wrap the &lt;code&gt;!!&lt;/code&gt; up in a set of parentheses:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;bang &amp;lt;- function(val2){
+  x &amp;lt;- enquo(val2)
+  return((!! x) + 10)
+}
+
+bang(5)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-applications&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other applications&lt;/h2&gt;
+&lt;p&gt;One of the coolest applications of NSE is to write code that writes code. You have to be very careful with this, but it’s potentially really useful. On my list of things to do for my &lt;code&gt;flowDashboard&lt;/code&gt; package is to write code that generates a standalone app given the data objects you supply it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;appendix-what-is-a-quosure-really&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Appendix: What is a &lt;code&gt;quosure&lt;/code&gt;, really?&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;for-more-information&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;For more information&lt;/h2&gt;
+&lt;p&gt;Hopefully this was helpful in understanding NSE and tidyeval. I find that sometimes I have to write things up so I more clearly understand it. So, if anything, writing this was useful for clarifying my thinking.&lt;/p&gt;
+&lt;p&gt;I’m indebted to Edwin Thoen’s code examples that helped me finally understand what’s going on with &lt;code&gt;tidyeval&lt;/code&gt;: &lt;a href=&#34;https://edwinth.github.io/blog/dplyr-recipes/&#34; class=&#34;uri&#34;&gt;https://edwinth.github.io/blog/dplyr-recipes/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I didn’t really talk about Base-R’s NSE, but I would say that this should at least give you enough background to understand what’s going on there.&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -49,8 +293,14 @@ What is evaluation, really?</description>
       <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/12/14/using-synthetic-data/</guid>
-      <description>Hi Everyone, our paper called Teaching data science fundamentals through realistic synthetic clinical cardiovascular data is now available to read on Biorxiv.
-In this paper, we talk about a dataset that we synthesized for teaching aspects of clinical data that may be tricky to understand in data science. This dataset is interesting because it&amp;rsquo;s derived from a multivariate distribution based on real patient data, modeled as a Bayesian Network. Even when we knew true marginals for the real data, there was a lot of fine tuning to the Bayesian Network.</description>
+      <description>&lt;p&gt;Hi Everyone, our paper called &lt;a href=&#34;https://www.biorxiv.org/content/early/2017/12/12/232611&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Teaching data science fundamentals through realistic synthetic clinical cardiovascular data&lt;/em&gt;&lt;/a&gt; is now available to read on Biorxiv.&lt;/p&gt;
+
+&lt;p&gt;In this paper, we talk about a dataset that we synthesized for teaching aspects of clinical data that may be tricky to understand in data science. This dataset is interesting because it&amp;rsquo;s derived from a multivariate distribution based on real patient data, modeled as a Bayesian Network. Even when we knew true marginals for the real data, there was a lot of fine tuning to the Bayesian Network.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;ve used this dataset for a couple of classes, and we&amp;rsquo;ve found that it helps highlight real issues in predictive modeling of clinical data. One of the largest is that most predictive models are based on a much older patient cohort (50+), which means that we don&amp;rsquo;t know much about how to predict cardiovascular risk in younger patients. Part of the teaching exercise is having the students choose a cohort of interest and then attempt to predict on that patient cohort.&lt;/p&gt;
+
+&lt;p&gt;The data is currently available as an R package here, including vignettes about how the data was generated: &lt;a href=&#34;https://github.com/laderast/cvdRiskData&#34; target=&#34;_blank&#34;&gt;https://github.com/laderast/cvdRiskData&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -59,10 +309,47 @@ In this paper, we talk about a dataset that we synthesized for teaching aspects 
       <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/11/07/odsc-notes/</guid>
-      <description>I just came back from the Open Data Science Conference (ODSC) in San Francisco and I found it really stimulating and interesting. I learned a ton, met some great people working in very different fields, and overall found it quite worthwhile.
-Here are some of the highlights from my notes:
-Workshops scikit-learn intro Workshop and Advanced
-I admit that I am not really a Python person. But I am helping to develop some materials for an introductory workshop and I found this workshop and its materials to be a very beginner-friendly to scikit-learn and machine learning concepts, much like caret for R.</description>
+      <description>
+
+&lt;p&gt;I just came back from the &lt;a href=&#34;https://odscwest.pathable.com&#34; target=&#34;_blank&#34;&gt;Open Data Science Conference&lt;/a&gt; (ODSC) in San Francisco and I found it really stimulating and interesting. I learned a ton, met some great people working in very different fields, and overall found it quite worthwhile.&lt;/p&gt;
+
+&lt;p&gt;Here are some of the highlights from my notes:&lt;/p&gt;
+
+&lt;h2 id=&#34;workshops&#34;&gt;Workshops&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/amueller/ml-training-intro&#34; target=&#34;_blank&#34;&gt;scikit-learn intro Workshop&lt;/a&gt; and &lt;a href=&#34;https://github.com/amueller/ml-training-advanced&#34; target=&#34;_blank&#34;&gt;Advanced&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I admit that I am not really a Python person. But I am helping to develop some materials for an introductory workshop and I found this workshop and its materials to be a very beginner-friendly to &lt;code&gt;scikit-learn&lt;/code&gt; and machine learning concepts, much like &lt;code&gt;caret&lt;/code&gt; for R. All the slides and workshop materials are available at the above links.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/WinVector/ODSCWest2017&#34; target=&#34;_blank&#34;&gt;SparklyR Workshop&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I liked this workshop from John Mount of Win-Vector. It started out with a &lt;em&gt;dplyr&lt;/em&gt; intro, and introduced us to the basics of Apache Spark, which is a cluster-computing based machine learning framework, which is designed to do very large queries and machine learning. RStudio&amp;rsquo;s Edgar Ruiz managed to get us each an RStudio Pro Instance running on AWS with all the required packages installed so we could test out the SparklyR package, which uses dplyr&amp;rsquo;s commands to run Spark jobs.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B3MFD2S4MhtGd1ltVHZkbFhHX0ZUbGlGZmtNRjllQ2NtQkJN/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;In-Memory Computing Essentials for Data Scientists&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This was an introduction to Apache Ignite, which is a distributed, in-memory database that can be leveraged by different languages. The really interesting thing about Ignite is that it will colocate related data on the same cluster node, resulting in rapid queries within each node. I think this technology will become very important as we need more datasets to be openly accessible to compute on.&lt;/p&gt;
+
+&lt;h2 id=&#34;talks&#34;&gt;Talks&lt;/h2&gt;
+
+&lt;p&gt;These were the most interesting talks that I attended.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mfviz.com/odsc-2017/#/&#34; target=&#34;_blank&#34;&gt;Visually Explaining Statistical and Machine Learning Concepts&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This was a great talk by Mike Freedman about his process of how he put together D3.js based visualizations to explain some statistical concepts. I thought the explanation of his process (isolate specific ideas, identify data structures, leverage visualization algorithms). Check out the slides above. They&amp;rsquo;re very cool.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://odscwest.pathable.com/meetings/596522&#34; target=&#34;_blank&#34;&gt;The Wonder Twins: Data Science and Human Centered Design&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This was a really interesting talk about the interplay between data science and design in helping encourage a mobile money system in Tanzania. It was inspiring to see how they had both designers and data scientists embedded and looking at how the mobile payment system worked. One interesting example was doing network analysis of the Mobile Money Agents, who distribute cash. They targeted a highly influential group of these agents based on this analysis. Very cool.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://odscwest.pathable.com/meetings/601861&#34; target=&#34;_blank&#34;&gt;The People&amp;rsquo;s Data&lt;/a&gt;
+and &lt;a href=&#34;https://odscwest.pathable.com/meetings/604496&#34; target=&#34;_blank&#34;&gt;The Deontology of Data Science&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I thought these were really interesting sides about the human side of data science. DJ Patil, who was chief data scientist under the Obama administration, talked about citizen-driven data projects and how it enabled a number of advances. The most interesting case was basically a parent built an online community of people who had a very rare disease condition so he could help his son with the condition.&lt;/p&gt;
+
+&lt;p&gt;Igor Perisic (of LinkedIn) followed this with a talk about ethical issues in data science. In particular, he identified three different areas to concentrate on: 1) The Ethics of Data, 2) The Ethics of Algorithms, and 3) The Ethics of practice. He concentrated on the recent New York Times article about using &lt;a href=&#34;https://www.nytimes.com/2017/05/01/us/politics/sent-to-prison-by-a-software-programs-secret-algorithms.html&#34; target=&#34;_blank&#34;&gt;machine learning to identify potential re-offenders in the prison system&lt;/a&gt;. The lack of transparency in how the algorithm identifies potential reoffenders is a huge ethical problem.&lt;/p&gt;
+
+&lt;p&gt;In all, I had an interesting time and I met lots of people in industry, which was a nice contrast to the academic side of things.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -71,7 +358,8 @@ I admit that I am not really a Python person. But I am helping to develop some m
       <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/08/22/separation-of-code-and-state/</guid>
-      <description>One of the hardest concepts as an analyst that I have struggled with is separating my code from my data. A related issue is making your code reproducible across data instances.</description>
+      <description>&lt;p&gt;One of the hardest concepts as an analyst that I have struggled with is separating my code from my data. A related issue is making your code reproducible across data instances.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -80,8 +368,21 @@ I admit that I am not really a Python person. But I am helping to develop some m
       <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/07/05/interesting-user2017talks/</guid>
-      <description>Since I didn&amp;rsquo;t get to go to useR 2017 this year, I&amp;rsquo;m compiling the interesting talks. This is an ongoing list.
- https://user2017.sched.com/event/AxqM/automatically-archiving-reproducible-studies-with-docker https://user2017.sched.com/event/Axq4/clouds-containers-and-r-towards-a-global-hub-for-reproducible-and-collaborative-data-science https://user2017.sched.com/event/Axq9/scraping-data-with-rvest-and-purrr https://user2017.sched.com/event/Axq1/using-the-alphabetr-package-to-determine-paired-t-cell-receptor-sequences https://user2017.sched.com/event/AxqG/show-me-the-errors-you-didnt-look-for https://user2017.sched.com/event/AxqR/community-based-learning-and-knowledge-sharing https://user2017.sched.com/event/AxqT/r-based-computing-with-big-data-on-disk https://user2017.sched.com/event/AxqA/codebookr-codebooks-in-r https://user2017.sched.com/event/Axor/how-we-built-a-shiny-app-for-700-users Useful concepts: reactiveTrigger to force a rerender. https://user2017.sched.com/event/AxsL/ensemble-packages-with-user-friendly-interface-an-added-value-for-the-r-community  </description>
+      <description>&lt;p&gt;Since I didn&amp;rsquo;t get to go to useR 2017 this year, I&amp;rsquo;m compiling the interesting talks. This is an ongoing list.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqM/automatically-archiving-reproducible-studies-with-docker&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqM/automatically-archiving-reproducible-studies-with-docker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/Axq4/clouds-containers-and-r-towards-a-global-hub-for-reproducible-and-collaborative-data-science&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/Axq4/clouds-containers-and-r-towards-a-global-hub-for-reproducible-and-collaborative-data-science&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/Axq9/scraping-data-with-rvest-and-purrr&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/Axq9/scraping-data-with-rvest-and-purrr&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/Axq1/using-the-alphabetr-package-to-determine-paired-t-cell-receptor-sequences&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/Axq1/using-the-alphabetr-package-to-determine-paired-t-cell-receptor-sequences&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqG/show-me-the-errors-you-didnt-look-for&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqG/show-me-the-errors-you-didnt-look-for&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqR/community-based-learning-and-knowledge-sharing&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqR/community-based-learning-and-knowledge-sharing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqT/r-based-computing-with-big-data-on-disk&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqT/r-based-computing-with-big-data-on-disk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqA/codebookr-codebooks-in-r&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqA/codebookr-codebooks-in-r&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/Axor/how-we-built-a-shiny-app-for-700-users&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/Axor/how-we-built-a-shiny-app-for-700-users&lt;/a&gt; Useful concepts: reactiveTrigger to force a rerender.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxsL/ensemble-packages-with-user-friendly-interface-an-added-value-for-the-r-community&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxsL/ensemble-packages-with-user-friendly-interface-an-added-value-for-the-r-community&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -90,8 +391,10 @@ I admit that I am not really a Python person. But I am helping to develop some m
       <pubDate>Wed, 28 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/06/28/howtonotbeafraid/</guid>
-      <description>I&amp;rsquo;m going to be giving a talk for the PDX RLang Meetup on July 11 called &amp;ldquo;How to Not Be Afraid of Your Data: Teaching EDA using Shiny&amp;rdquo;. Abstract below.
-Many graduate students in the basic sciences are afraid of data exploration and cleaning, which can greatly impact their downstream analysis results. By using a synthetic dataset, some simple dplyr commands, and a shiny dashboard, we teach graduate students how to explore their data and how to handle issues that can arise (missing values, differences in units).</description>
+      <description>&lt;p&gt;I&amp;rsquo;m going to be giving a talk for the PDX RLang Meetup on July 11 called &amp;ldquo;&lt;a href=&#34;https://www.meetup.com/portland-r-user-group/events/240846589/&#34; target=&#34;_blank&#34;&gt;How to Not Be Afraid of Your Data: Teaching EDA using Shiny&lt;/a&gt;&amp;rdquo;. Abstract below.&lt;/p&gt;
+
+&lt;p&gt;Many graduate students in the basic sciences are afraid of data exploration and cleaning, which can greatly impact their downstream analysis results. By using a synthetic dataset, some simple &lt;code&gt;dplyr&lt;/code&gt; commands, and a &lt;code&gt;shiny&lt;/code&gt; dashboard, we teach graduate students how to explore their data and how to handle issues that can arise (missing values, differences in units). For this talk, we&amp;rsquo;ll run through a simple EDA example (combining two weight loss datasets) with a general data explorer in &lt;code&gt;shiny&lt;/code&gt; that can be easily customized to teach specific EDA concepts.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -100,8 +403,38 @@ Many graduate students in the basic sciences are afraid of data exploration and 
       <pubDate>Wed, 07 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/06/07/cascadiarnotes/</guid>
-      <description>Well, the first Cascadia R Conference has come and gone. I have to say that it was super fun, and well attended (over 190 people!). I had a blast meeting and chatting with everyone. Hopefully, we showed newbies that R is learnable and others that there are lots more things to learn about R.
-The following is my attempt to document what we learned from organizing Cascadia-R. It&amp;rsquo;s not complete; I may add and subtract from it as I think of more things to say about the planning process.</description>
+      <description>&lt;p&gt;Well, the first &lt;a href=&#34;http://cascadiarconf.com&#34; target=&#34;_blank&#34;&gt;Cascadia R Conference&lt;/a&gt; has come and gone. I have to say that it was super fun, and well attended (over 190 people!). I had a blast meeting and chatting with everyone. Hopefully, we showed newbies that R is learnable and others that there are lots more things to learn about R.&lt;/p&gt;
+
+&lt;p&gt;The following is my attempt to document what we learned from organizing Cascadia-R. It&amp;rsquo;s not complete; I may add and subtract from it as I think of more things to say about the planning process.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Decide the tone&lt;/strong&gt;. Our goals with Cascadia-R were modest. We wanted to get a diverse group of R users together in a safe and encouraging environment. We wanted our workshops to be accessible to even beginners, and encourage them in the use of R.&lt;/p&gt;
+
+&lt;p&gt;Part of meeting these goals of this is setting the tone. We really wanted to encourage all levels of R users to attend. All of our flyers, emails and promotional tweets encouraged beginners to come. We got help with making a &lt;a href=&#34;https://cascadiarconf.com/coc/&#34; target=&#34;_blank&#34;&gt;Code of Conduct&lt;/a&gt; for the conference. Part of creating a supportive environment is encouraging diversity in both speakers and attendees. We did our best to reach out to current groups that encourage diversity, such as &lt;a href=&#34;http://wisportland.weebly.com&#34; target=&#34;_blank&#34;&gt;Women in Science Portland&lt;/a&gt;, and &lt;a href=&#34;https://rladies.org&#34; target=&#34;_blank&#34;&gt;R-Ladies Global&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We also offered diversity scholarships to encourage people from diverse backgrounds to attend, and made diversity part of our criteria for selecting talks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Start planning early&lt;/strong&gt;. As junior faculty at OHSU, I&amp;rsquo;m lucky enough to be able to book facilities here, including the large learning studios where we held the conference. Having the venue secured early on made the remaining logistics of the conference much easier.&lt;/p&gt;
+
+&lt;p&gt;Much like wedding planning, there are plenty of conference planning services out there who would be happy to take over aspects of your conference, for a fee. You can spend however much you want to on these things. However, I believe that such a approach is not financially responsible. I also feel that taking a more DIY/bespoke approach can make a conference most engaging (see &lt;a href=&#34;https://csvconf.com&#34; target=&#34;_blank&#34;&gt;csvconf&lt;/a&gt;). We tried to do most things ourselves (including design, promotion, talk submission, workshops, and registration/logistics).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Iterate your budget&lt;/strong&gt;. Think of a conference as a project with lots of linked dependencies. Your first plan is probably not going to be your final plan. Start a plan, iterate, realize that things are going to shift, have a backup plan. What if registration is not going to pay for the venue rental fee? Talking to simpatico sponsors can take much of the financial stress. In our case, the &lt;a href=&#34;https://www.rstudio.com&#34; target=&#34;_blank&#34;&gt;Rstudio&lt;/a&gt; foundation and &lt;a href=&#34;https://ropensci.org&#34; target=&#34;_blank&#34;&gt;ROpenSci&lt;/a&gt; stepped up to contribute some money as a cushion.&lt;/p&gt;
+
+&lt;p&gt;Remember, there are &lt;em&gt;fixed costs&lt;/em&gt; (such as venue rental, and recording/streaming costs) and &lt;em&gt;variable costs&lt;/em&gt; that scale with the number of attendees (food, badges, alcohol). Separate these out. When possible, pay off the fixed costs first, so that it&amp;rsquo;s easier to manage the variable costs.&lt;/p&gt;
+
+&lt;p&gt;Again, who is your desired audience and can they afford your conference? We decided to make our conference as affordable as possible to encourage as many different kinds of people to attend. We initially wanted to make attendance free for students. The problem with free is that literally it&amp;rsquo;s free. It has no value in the mind of a person who accepts free admission. So we decided to charge students a small fee just to emphasize that the conference has value.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Talk with others who have done it&lt;/strong&gt;. We were very clueless about much of the logistics side at OHSU. I managed to get through by talking with a number of people here (including Robin Champieux and Shannon McWeeney) who have done conferences here at OHSU. Thank you so much for your invaluable advice.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Encourage each other and delegate&lt;/strong&gt;. No one of us could have done all of the conference planning alone. Each of us took on various aspects of conference organization and brought in the others as support as needed. Some of us selected talks, some of us did design, and we all pitched in to get registration working as efficiently and quickly as possible.&lt;/p&gt;
+
+&lt;p&gt;Our slack channel on &lt;a href=&#34;https://pdxdata.slack.com&#34; target=&#34;_blank&#34;&gt;pdxdata.slack.com&lt;/a&gt; is full of our decisions. Slack was so useful as a planning mechanism that we only met online via Google Hangouts a few times, and only had two in-person planning sessions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Be Willing to Make Mistakes&lt;/strong&gt;. Lord knows I made a bunch of mistakes when I made announcements and hosted the lightning sessions. However, I owned up to these mistakes, shrugged, and moved on. Improvising in the moment can be just as important as planning.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Think about the future&lt;/strong&gt;. What should the next Cascadia-R look like? I know it just happened, but we&amp;rsquo;re trying to envision what it would look like. Based on the feedback we&amp;rsquo;ve gotten so far, people really want more workshops!&lt;/p&gt;
+
+&lt;p&gt;In a following post, I&amp;rsquo;m also going to talk about lessons I learned when Chester and I put on our tidyverse workshop.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -110,8 +443,16 @@ The following is my attempt to document what we learned from organizing Cascadia
       <pubDate>Mon, 29 May 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/05/29/objects-what-are-they-for/</guid>
-      <description>One area of programming that we do a really bad job teaching is Object-Oriented Programming (OOP). I was talking with one of my colleagues and he admitted that we don&amp;rsquo;t have enough time in our programming course (which is not CS) to show students what OOP is, much less what it&amp;rsquo;s for!
-I usually find the examples that we teach in OOP to be rather useless to actually understanding what they&amp;rsquo;re for.</description>
+      <description>&lt;p&gt;One area of programming that we do a really bad job teaching is Object-Oriented Programming (OOP). I was talking with one of my colleagues and he admitted that we don&amp;rsquo;t have enough time in our programming course (which is not CS) to show students what OOP is, much less what it&amp;rsquo;s for!&lt;/p&gt;
+
+&lt;p&gt;I usually find the examples that we teach in OOP to be rather useless to actually understanding what they&amp;rsquo;re for.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m going to talk about one reason to use Object Oriented Programming: to ensure data integrity in a Shiny App. Hopefully once you understand how I&amp;rsquo;ve applied the concepts here, you will start to think of other ways to apply them in your programming.&lt;/p&gt;
+
+&lt;p&gt;As most of you know, a Shiny App consists of two pieces: a User Interface piece, and a Server-side piece.&lt;/p&gt;
+
+&lt;p&gt;I finally understood why we encapsulate data in objects.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -129,8 +470,32 @@ I usually find the examples that we teach in OOP to be rather useless to actuall
       <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/04/19/breadth-and-depth/</guid>
-      <description>I was talking with a student and they were complaining that when at conferences, they would try to inject other topics of interest (such as cooking) into discussions with colleagues. Unfortunately, one of the after effects of this was that they were looked at as &amp;ldquo;not a serious scientist&amp;rdquo;. There&amp;rsquo;s an expectation that a scientist must be all depth, only talking and thinking about their sub-field.
-As a cross disciplinarian, I have to say that is hogwash.</description>
+      <description>
+
+&lt;p&gt;I was talking with a student and they were complaining that when at conferences, they would try to inject other topics of interest (such as cooking) into discussions with colleagues. Unfortunately, one of the after effects of this was that they were looked at as &amp;ldquo;not a serious scientist&amp;rdquo;. There&amp;rsquo;s an expectation that a scientist must be all depth, only talking and thinking about their sub-field.&lt;/p&gt;
+
+&lt;p&gt;As a cross disciplinarian, I have to say that is hogwash. The genesis of so many creative ideas in science has happened because of cross-pollination across disciplines. For example, &lt;a href=&#34;https://blogs.scientificamerican.com/guest-blog/lindau-nobel-meeting-the-cross-pollination-of-ideas/&#34; target=&#34;_blank&#34;&gt;microwave technology&lt;/a&gt; might never have been invented without the intersection of disciplines. We know that the &lt;a href=&#34;https://www.researchgate.net/profile/Kendell_Pawelec/publication/247857346_Arts_Foster_Scientific_Success_Avocations_of_Nobel_National_Academy_Royal_Society_and_Sigma_Xi_Members/links/00b4953c00f875f191000000.pdf&#34; target=&#34;_blank&#34;&gt;Arts Foster Scientific Success&lt;/a&gt; - a large number of Nobel and National Academy members do art in some form or other. Bernstein et al theorize that&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“there exist functional connections between scientific talent and arts,
+crafts, and communications talents so that inheriting or developing one
+fosters the other.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Having breadth and depth enables you to make connections that no one else has. It is the hallmark of a curious and creative person. These kinds of people are desparately needed to push science in new directions.&lt;/p&gt;
+
+&lt;p&gt;I have a parallel career in &lt;a href=&#34;http://15people.net&#34; target=&#34;_blank&#34;&gt;performance and improvisational music&lt;/a&gt;. Music, for me, is endlessly inspiring and has forced me out of my introverted shell. One of the reasons I took up cello is that I can play many roles; accompanist, rhythm, solo. This flexibility in playing music has translated to my flexibility in collaboration. Being able to adjust to new circumstances and improvise new ideas to explore is a critical component of being a responsible scientist. My background improvisation has helped me pivot ideas. I have become less attached to dogmatic ideas. Many of my good ideas come from idle wondering about data that has captured my imagination. This is part of the reason why I teach students &lt;a href=&#34;https://github.com/laderast/shinyEDA&#34; target=&#34;_blank&#34;&gt;how to explore their data&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So, the next time another scientist looks down at you for being a polymath, pity them. Their world and their ideas are not as rich as yours.&lt;/p&gt;
+
+&lt;h3 id=&#34;further-reading&#34;&gt;Further Reading&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://priceonomics.com/the-correlation-between-arts-and-crafts-and-a/&#34; target=&#34;_blank&#34;&gt;The Correlation Between Arts and Crafts and a Nobel  Prize&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/profile/Kendell_Pawelec/publication/247857346_Arts_Foster_Scientific_Success_Avocations_of_Nobel_National_Academy_Royal_Society_and_Sigma_Xi_Members/links/00b4953c00f875f191000000.pdf&#34; target=&#34;_blank&#34;&gt;Arts Foster Scientific Success&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ecologyandsociety.org/vol20/iss2/art3/&#34; target=&#34;_blank&#34;&gt;Dual Thinking for Scientists&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -139,29 +504,201 @@ As a cross disciplinarian, I have to say that is hogwash.</description>
       <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/04/17/building-a-peer-mentoring/</guid>
-      <description>I realize that it has been an embarrasingly long time since I updated this blog. I had all sorts of grandiose plans for it, and I think my problem was that I was thinking too broad, too pie-in-the-sky. I&amp;rsquo;m going to try to focus on short and informative blog posts.
-One of the things that I have been thinking about graduate school is the idea of building a Peer Mentoring culture in our department.</description>
+      <description>&lt;p&gt;I realize that it has been an embarrasingly long time since I updated this blog. I had all sorts of grandiose plans for it, and I think my problem was that I was thinking too broad, too pie-in-the-sky. I&amp;rsquo;m going to try to focus on short and informative blog posts.&lt;/p&gt;
+
+&lt;p&gt;One of the things that I have been thinking about graduate school is the idea of building a Peer Mentoring culture in our department. I believe that students should help and support each other, and we need to provide a forum to do that. Not just assign mentors, but provide a time and a place to do that.&lt;/p&gt;
+
+&lt;p&gt;We try to foster a mentoring culture within our student group, &lt;a href=&#34;https://biodata-club.github.io&#34; target=&#34;_blank&#34;&gt;BioData-Club&lt;/a&gt;. Students are free to talk about issues that concern them, especially about datasets, and are encouraged to share their experiences of software that they&amp;rsquo;ve used. I believe that we try to give students a psychologically safe place to talk about their issues with data. We try to make people feel like they&amp;rsquo;re not alone, and coach beginners so they can get over the hump.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;re now embarking on an experiment to reach even more people at OHSU, because we know there are lots of students who struggle with practical skills in data analysis. Our group is growing, and that&amp;rsquo;s exciting.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m going to try and get everyone in our group to write a paper about Peer Mentoring Culture and how to encourage it in other schools.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      <title>Academic: the website designer for Hugo</title>
+      <link>/post/getting-started/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>/about/</guid>
-      <description>I am an Assistant Professor in the Bioinformatics and Computational Biology track in the OHSU Department of Medical Informatics and Clinical Epidemiology (BCB/DMICE) and a member of the OHSU Knight Cancer Institute. My research focus is on the Systems Biology of Complex Diseases. I use integrative modeling approaches across OMICs types to achieve this.
-Over twelve years of bioinformatics experience, I have developed methods for low-level preprocessing and high-level analysis of many OMICs types, including expression (especially alternative splicing), phosphoproteomics, proteomics, and genomics.</description>
-    </item>
+      <guid>/post/getting-started/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Academic&lt;/strong&gt; is a framework to help you create a beautiful website quickly. Perfect for personal sites, blogs, or business/project sites. &lt;a href=&#34;https://themes.gohugo.io/theme/academic/&#34; target=&#34;_blank&#34;&gt;Check out the latest demo&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes. Then head on over to the &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Quick Start guide&lt;/a&gt; or take a look at the &lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34; target=&#34;_blank&#34;&gt;Release Notes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; alt=&#34;Screenshot&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Key features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Easily manage various content including homepage, blog posts, publications, talks, and projects&lt;/li&gt;
+&lt;li&gt;Extensible via &lt;strong&gt;color themes&lt;/strong&gt; and &lt;strong&gt;widgets/plugins&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Write in &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; for easy formatting and code highlighting, with &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt; for mathematical expressions&lt;/li&gt;
+&lt;li&gt;Social/academic network linking, &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, and &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt; comments&lt;/li&gt;
+&lt;li&gt;Responsive and mobile friendly&lt;/li&gt;
+&lt;li&gt;Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;Multilingual and easy to customize&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;color-themes&#34;&gt;Color Themes&lt;/h2&gt;
+
+&lt;p&gt;Academic is available in different color themes and font themes.&lt;/p&gt;
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+  
+  
+  
+  
     
-    <item>
-      <title>Teaching and Mentoring Interests</title>
-      <link>/teaching/</link>
-      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
-      
-      <guid>/teaching/</guid>
-      <description>Current Academic Coursework at OHSU and PSU I teach in the summer hybrid BMI569/669 Data Analytics course at OHSU (Hybrid course co-taught with Kaiser Permanente Data &amp;amp; Information Management Enhancement (DIME) group).
-I am also a co-instructor for BMI551/651 Bioinformatics and Computational Biology II: Statistical Methods, providing drop-in sessions for R programming and general tutoring.
-We are teaching an introductory bootcamp in python called NEU640 Python Bootcamp for Neuroscientists.. This is a week-long course meant to introduce neuroscience students to the basics of python with data types familiar to them, including imaging and electrophysiology data.</description>
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Default&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-default.png&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-default.png&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Ocean&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-ocean.png&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-ocean.png&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Dark&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-dark.png&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-dark.png&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Default&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-forest.png&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-forest.png&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Coffee theme with Playfair font&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-coffee-playfair.png&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-coffee-playfair.png&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;1950s&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-1950s.png&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-1950s.png&#34;&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+
+&lt;p&gt;You can choose from one of the following four methods to install:
+* one-click install using your web browser (recommended)
+* install on your computer using Git with the Command Prompt/Terminal app
+* install on your computer by downloading the ZIP files
+* install on your computer with RStudio&lt;/p&gt;
+
+&lt;h3 id=&#34;quick-install-using-your-web-browser&#34;&gt;Quick install using your web browser&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-kickstart&#34; target=&#34;_blank&#34;&gt;Install Academic with Netlify&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Netlify will provide you with a customizable URL to access your new site&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;On GitHub, go to your newly created &lt;code&gt;academic-kickstart&lt;/code&gt; repository and edit &lt;code&gt;config.toml&lt;/code&gt; to personalize your site. Shortly after saving the file, your site will automatically update&lt;/li&gt;
+&lt;li&gt;Read the &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Quick Start Guide&lt;/a&gt; to learn how to add Markdown content. For inspiration, refer to the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34; target=&#34;_blank&#34;&gt;Markdown content&lt;/a&gt; which powers the &lt;a href=&#34;https://themes.gohugo.io/theme/academic/&#34; target=&#34;_blank&#34;&gt;Demo&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;install-with-git&#34;&gt;Install with Git&lt;/h3&gt;
+
+&lt;p&gt;Prerequisites:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://git-scm.com/downloads&#34; target=&#34;_blank&#34;&gt;Download and install Git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/getting-started/installing/#quick-install&#34; target=&#34;_blank&#34;&gt;Download and install Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart#fork-destination-box&#34; target=&#34;_blank&#34;&gt;Fork&lt;/a&gt; the &lt;em&gt;Academic Kickstart&lt;/em&gt; repository and clone your fork with Git:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/sourcethemes/academic-kickstart.git My_Website
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;Note that if you forked Academic Kickstart, the above command should be edited to clone your fork, i.e. replace &lt;code&gt;sourcethemes&lt;/code&gt; with your GitHub username.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Initialize the theme:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd My_Website
+git submodule update --init --recursive
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;install-with-zip&#34;&gt;Install with ZIP&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart/archive/master.zip&#34; target=&#34;_blank&#34;&gt;Download&lt;/a&gt; and extract &lt;em&gt;Academic Kickstart&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academic/archive/master.zip&#34; target=&#34;_blank&#34;&gt;Download&lt;/a&gt; and extract the &lt;em&gt;Academic theme&lt;/em&gt; to the &lt;code&gt;themes/academic/&lt;/code&gt; folder from the above step&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;install-with-rstudio&#34;&gt;Install with RStudio&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34;&gt;View the guide to installing Academic with RStudio&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;quick-start&#34;&gt;Quick start&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;If you installed on your computer, view your new website by running the following command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo server
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now visit &lt;a href=&#34;http://localhost:1313&#34; target=&#34;_blank&#34;&gt;localhost:1313&lt;/a&gt; and your new Academic powered website will appear. Otherwise, if using Netlify, they will provide you with your URL.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Read the &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Quick Start Guide&lt;/a&gt; to learn how to add Markdown content, customize your site, and deploy it. For inspiration, refer to the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34; target=&#34;_blank&#34;&gt;Markdown content&lt;/a&gt; which powers the &lt;a href=&#34;https://themes.gohugo.io/theme/academic/&#34; target=&#34;_blank&#34;&gt;Demo&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Build your site by running the &lt;code&gt;hugo&lt;/code&gt; command. Then &lt;a href=&#34;https://georgecushen.com/create-your-website-with-hugo/&#34; target=&#34;_blank&#34;&gt;host it for free using Github Pages&lt;/a&gt; or Netlify (refer to the first installation method). Alternatively, copy the generated &lt;code&gt;public/&lt;/code&gt; directory (by FTP, Rsync, etc.) to your production web server (such as a university&amp;rsquo;s hosting service).&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
+
+&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on &lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt; to help keep track of updates and check out the &lt;a href=&#34;https://sourcethemes.com/academic/tags/updates&#34; target=&#34;_blank&#34;&gt;release notes&lt;/a&gt; prior to updating your site.&lt;/p&gt;
+
+&lt;p&gt;Before updating the framework, it is recommended to make a backup of your entire website directory (or at least your &lt;code&gt;themes/academic&lt;/code&gt; directory) and record your current version number.&lt;/p&gt;
+
+&lt;p&gt;By default, Academic is installed as a Git submodule which can be updated by running the following command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git submodule update --remote --merge
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34;&gt;Check out the update guide&lt;/a&gt; for full instructions and alternative methods.&lt;/p&gt;
+
+&lt;h2 id=&#34;feedback-contributing&#34;&gt;Feedback &amp;amp; Contributing&lt;/h2&gt;
+
+&lt;p&gt;Please use the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34;&gt;issue tracker&lt;/a&gt; to let me know about any bugs or feature requests, or alternatively make a pull request.&lt;/p&gt;
+
+&lt;p&gt;For support, head over to the &lt;a href=&#34;http://discuss.gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo discussion forum&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -170,83 +707,25 @@ We are teaching an introductory bootcamp in python called NEU640 Python Bootcamp
       <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>/2015/12/23/surrogate-oncogene-paper/</guid>
-      <description>My dissertation paper, A Network-Based Model of Oncogenic Collaboration for Prediction of Drug Sensitivity is now published! Here&amp;rsquo;s a lay summary:
- One outstanding issue in analyzing genomics in the context of personalized medicine is the incorporation of rare or infrequent genetic alterations (copy number alterations and somatic mutations) that are observed in individual &amp;gt; patients. We hypothesize that these mutations may actually &amp;lsquo;collaborate&amp;rsquo; with known oncogenes in the genesis of tumors through their interactions.</description>
-    </item>
-    
-    <item>
-      <title>Why Short-Order Bioinformatics Doesn&#39;t Work</title>
-      <link>/2015/11/24/short-order-bioinformatics/</link>
-      <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/2015/11/24/short-order-bioinformatics/</guid>
-      <description>Unfortunately, many researchers look at computational biology and bioinformatics as a black-box: you put in data, and you get results out. The bioinformaticians and computational biologists are seen as mostly computer operators who push the button and not as true collaborators. One of my co-workers calls this &amp;ldquo;short-order&amp;rdquo; bioinformatics.
-There is great danger in simply pushing a button to get results. One type of analysis, Gene Set Enrichment Analysis (GSEA) is highly dependent on how mutations are incorporated into a gene set.</description>
-    </item>
-    
-    <item>
-      <title>Interesting interview with the developer of statcheck</title>
-      <link>/2015/11/19/statcheck-package/</link>
-      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/2015/11/19/statcheck-package/</guid>
-      <description>Due to the usual postdoc busy-ness, I haven&amp;rsquo;t had the energy to update this blog as much as I would like, but I thought this interview on Retraction Watch from Michèle B. Nuijten, the developer of the R-package statcheck to be fascinating. Her package essentially automates the checking of p-values given published data in papers, from converting the papers from pdf to text, and sees if the calculated p-values are correct.</description>
-    </item>
-    
-    <item>
-      <title>Somatic Mutations in Skin Paper</title>
-      <link>/2015/05/26/mutational-burden-in-skin/</link>
-      <pubDate>Tue, 26 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/2015/05/26/mutational-burden-in-skin/</guid>
-      <description>This paper, High burden and pervasive positive selection of somatic mutations in normal human skin is fascinating. It suggests that the mutational burden is much higher than we expected in skin cells due to UV exposure. In addition, subclones exist in the skin that are positively selected for oncogenes.
-It also makes me want to stock up on sunscreen.</description>
-    </item>
-    
-    <item>
-      <title>High Impact Factor Journals Have Higher Retraction Rates</title>
-      <link>/2015/05/24/the-rise-of-fraud-in-high-if-journals/</link>
-      <pubDate>Sun, 24 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/2015/05/24/the-rise-of-fraud-in-high-if-journals/</guid>
-      <description>Very interesting New York Times article about the rise of frauds and retractions in High Impact Factor journals. The retraction rates for High IF journals (such as Science, Cell, and Nature) are much higher than lower IF journals.
-From the article:
- Journals with higher impact factors retract papers more often than those with lower impact factors. It’s not clear why. It could be that these prominent periodicals have more, and more careful, readers, who notice mistakes.</description>
-    </item>
-    
-    <item>
-      <title>Cascadia-R Videos</title>
-      <link>/cascadia-r-videos/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/cascadia-r-videos/</guid>
-      <description>Keynote: Vinay Prasad 
-1:25-1:40 Meike Niederhausen - Visualizing wearable activity tracker data and cardiometabolic risk factors with ggplot 
-Mikhail Popov - Open knowledge in R with Wikimedia APIs 
-1:40-1:55 Jonathan Callahan - Best Practices for Error Handling and Logging 
-Myfanwy Hopkins - Building ensemble machine learning algorithms in R 
-1:55-2:10 Jonathan Adler Nolis - Using R in consulting: how to get results while the clock is ticking</description>
-    </item>
-    
-    <item>
-      <title>Ted Laderas, PhD</title>
-      <link>/cvitae/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/cvitae/</guid>
-      <description>Assistant Professor, Division of Bioinformatics and Computational Biology, Department of Medical Informatics and Clinical Epidemiology
-Researcher, OHSU Knight Cancer Institute
-Oregon Health &amp;amp; Science University
-3181 SW Sam Jackson Park Road CR145
-Portland, OR 97239
-(503) 481-8470
-laderast@ohsu.edu
-EDUCATION
-B.A., Chemistry, Reed College, Portland, OR 1998.
-M.S. Biomedical Informatics, Oregon Health &amp;amp; Science University, 2004.
-PhD, Biomedical Informatics, Oregon Health &amp;amp; Science University, 2014.
-RESEARCH STATEMENT
-My research interests are complex diseases, precision medicine, applications of systems science (including network analysis and modeling), and applying data integration to difficult and high-impact translational research questions.</description>
+      <description>&lt;p&gt;My dissertation paper, &lt;a href=&#34;http://journal.frontiersin.org/article/10.3389/fgene.2015.00341/abstract&#34; target=&#34;_blank&#34;&gt;A Network-Based Model of Oncogenic Collaboration for Prediction of Drug Sensitivity&lt;/a&gt; is now published! Here&amp;rsquo;s a lay summary:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;One outstanding issue in analyzing genomics in the context of personalized medicine is the incorporation of rare
+or infrequent genetic alterations (copy number alterations and somatic mutations) that are observed in individual &amp;gt; patients. We hypothesize that these mutations may actually &amp;lsquo;collaborate&amp;rsquo; with known oncogenes in the genesis of
+tumors through their interactions. In order to show this effect, we assess whether these interacting rare
+mutations cluster around known oncogenes and assess these mutational clusters, which we term &lt;em&gt;surrogate
+oncogenes&lt;/em&gt;. We assess their statistical significance using a simple model of mutation. We show that surrogate
+oncogenes are predictive of drug sensitivity in breast cancer cell lines. Additionally, they are prevalent in
+three different cancer cohorts (Breast, Glioblastoma, and Bladder Cancer) from The Cancer Genome Atlas. Within
+the Breast Cancer and Bladder Cancer populations, surrogate oncogenes are predictive of overall patient
+survival. The chief strength of the surrogate oncogene approach is that it can be run at a single-patient
+level in comparison to other methods of assessing mutational significance.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you&amp;rsquo;re interested in learning more, you can check out the &lt;a href=&#34;https://tladeras.shinyapps.io/surrogateShiny/&#34; target=&#34;_blank&#34;&gt;Surrogate Oncogene Explorer&lt;/a&gt; in order to understand the nature of surrogate oncogenes, and my &lt;a href=&#34;https://github.com/laderast/surrogateMutation&#34; target=&#34;_blank&#34;&gt;R/Bioconductor Package on GitHub&lt;/a&gt; if you&amp;rsquo;d like to try out the analysis.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s a follow-up paper that I&amp;rsquo;m working on that I&amp;rsquo;m very excited about. More news soon.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

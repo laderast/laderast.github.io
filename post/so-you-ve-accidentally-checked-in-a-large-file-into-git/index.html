@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.30.2" />
+  <meta name="author" content="Ted Laderas">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Note: after posting this, I heard back from Roberto Tyley, the creator of the BFG. I&rsquo;d like to note that the BFG actually does its job really well. I was mostly really frustrated about how Git/GitHub doesn&rsquo;t prevent a user from doing something that&rsquo;s hard to undo. So my frustration is really about that, not really about the BFG. This post has been edited to reflect that.
+Greg Wilson first said it, but I&rsquo;ve come to agree.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/so-you-ve-accidentally-checked-in-a-large-file-into-git/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#4caf50">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-111883274-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Ted Laderas, PhD">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Ted Laderas, PhD">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/so-you-ve-accidentally-checked-in-a-large-file-into-git/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@tladeras">
+  <meta property="twitter:creator" content="@tladeras">
+  
+  <meta property="og:site_name" content="Ted Laderas, PhD">
+  <meta property="og:url" content="/post/so-you-ve-accidentally-checked-in-a-large-file-into-git/">
+  <meta property="og:title" content="So You&#39;ve Accidentally Checked in a Large File Into Git | Ted Laderas, PhD">
+  <meta property="og:description" content="Note: after posting this, I heard back from Roberto Tyley, the creator of the BFG. I&rsquo;d like to note that the BFG actually does its job really well. I was mostly really frustrated about how Git/GitHub doesn&rsquo;t prevent a user from doing something that&rsquo;s hard to undo. So my frustration is really about that, not really about the BFG. This post has been edited to reflect that.
+Greg Wilson first said it, but I&rsquo;ve come to agree.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-01-05T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2018-01-05T00:00:00&#43;00:00">
+  
+
+  
+
+  <title>So You&#39;ve Accidentally Checked in a Large File Into Git | Ted Laderas, PhD</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Ted Laderas, PhD</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#software">
+            
+            <span>Software</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications_selected">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Blog</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/cvitae/">
+            
+            <span>CV</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+            
+          
+        
+
+        <li class="nav-item">
+          <a href="http://github.com/laderast" target="_blank" rel="noopener">
+            
+            <span>GitHub</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+            
+          
+        
+
+        <li class="nav-item">
+          <a href="https://twitter.com/tladeras" target="_blank" rel="noopener">
+            
+            <span>Twitter</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <div class="article-inner">
+      <h1 itemprop="name">So You&#39;ve Accidentally Checked in a Large File Into Git</h1>
+
+      
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2018-01-05 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      Jan 5, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Ted Laderas">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fa fa-folder"></i>
+    
+    <a href="/categories/git">git</a
+    >, 
+    
+    <a href="/categories/git-hell">git hell</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=So%20You%27ve%20Accidentally%20Checked%20in%20a%20Large%20File%20Into%20Git&amp;url=%2fpost%2fso-you-ve-accidentally-checked-in-a-large-file-into-git%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpost%2fso-you-ve-accidentally-checked-in-a-large-file-into-git%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fso-you-ve-accidentally-checked-in-a-large-file-into-git%2f&amp;title=So%20You%27ve%20Accidentally%20Checked%20in%20a%20Large%20File%20Into%20Git"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2fso-you-ve-accidentally-checked-in-a-large-file-into-git%2f&amp;title=So%20You%27ve%20Accidentally%20Checked%20in%20a%20Large%20File%20Into%20Git"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=So%20You%27ve%20Accidentally%20Checked%20in%20a%20Large%20File%20Into%20Git&amp;body=%2fpost%2fso-you-ve-accidentally-checked-in-a-large-file-into-git%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+      <div class="article-style" itemprop="articleBody">
+        <p><em>Note: after posting this, I heard back from Roberto Tyley, the creator of the BFG. I&rsquo;d like to note that the BFG actually does its job really well. I was mostly really frustrated about how Git/GitHub doesn&rsquo;t prevent a user from doing something that&rsquo;s hard to undo. So my frustration is really about that, not really about the BFG. This post has been edited to reflect that.</em></p>
+
+<p>Greg Wilson first said it, but I&rsquo;ve come to agree. Git is an aggressively antisocial piece of software. Git is a piece of software that can make developers with any amount of experience feel dumb.</p>
+
+<p>Recently, I accidentally checked a large file (greater than 100 Megs) into my local repo. When I tried to push to GitHub, of course, it refused it (I know about git large file storage, but I don&rsquo;t have any).</p>
+
+<p>So my local repo was screwed up. Of course, I did what seemed like the rational thing and deleted the file from my repo and recommitted. More than once. This is a mistake I&rsquo;ve done more than once. So you need to scrub your git history with BFG so that GitHub will accept your lowly commits again.</p>
+
+<p><a href="https://rtyley.github.io/bfg-repo-cleaner/" target="_blank">The BFG</a> documentation specifies how to fix a <em>remote</em> repo. I would say that this situation is much less common than the local situation. So I just decided to share how I got the BFG to work for the local repo situation.</p>
+
+<p>I usually install the BFG through <code>homebrew</code>, using <code>brew install bfg</code>. When you install it this way, you can just run BFG with <code>bfg</code>. You can download it from the website, but you&rsquo;ll have to call <code>java -jar bfg[VERSION].jar</code> to run it.</p>
+
+<p>Say you&rsquo;ve accidently checked in a large file into your current repo. The first thing to do is to clone your local repo:</p>
+
+<pre><code>git clone --mirror local_repo
+</code></pre>
+
+<p>This will create another folder called <code>local_repo.git</code> that you will do all the BFG magic on. This <code>local_rep.git</code> is what is called a <em>bare</em> repo. I want to remove any files larger than 100 Megs, so I do this:</p>
+
+<pre><code>bfg -b 100M local_repo.git
+</code></pre>
+
+<p>If this doesn&rsquo;t return an error, you can move on. However, I got the dreaded error:</p>
+
+<pre><code>Warning : no large blobs matching criteria found in packfiles - 
+does the repo need to be packed?
+</code></pre>
+
+<p>Augh. Ok, some googling later I found that I needed to pack my orignal repo:</p>
+
+<pre><code>cd local_repo
+git repack
+</code></pre>
+
+<p>Okay, we need to get rid of our cloned repo and redo the last few steps.</p>
+
+<pre><code>rm -rf local_repo.git
+git clone --mirror local_repo
+bfg -b 100M local_repo.git
+</code></pre>
+
+<p>Then comes some git commands that no one has bothered to explain to me.</p>
+
+<pre><code>git reflog expire --expire=now --all &amp;&amp; git gc --prune=now --aggressive
+git push
+</code></pre>
+
+<p>Uh oh, I get a <code>remote: error: refusing to update checked out branch: refs/heads/master</code> error! More ugh.</p>
+
+<p>Here&rsquo;s the trick. Since you cloned a <em>local</em> repo, you need to set the origin of your current repo (<code>local_repo.git</code>) to the GitHub remote. First we remove the current <code>origin</code>, and then add back our remote.</p>
+
+<pre><code>git remote rm origin
+git remote add origin https://github.com/laderast/remote_repo
+</code></pre>
+
+<p>Finally, after much gnashing of the teeth, we can</p>
+
+<pre><code>git push
+</code></pre>
+
+<p>Don&rsquo;t forget to remove your now <em>dirty</em> <code>local_repo</code>, and the mirrored copy, and then pull a fresh copy down!</p>
+
+<pre><code>##remove both original local repo and altered bare repo
+rm -rf local_repo
+rm -rf local_repo.git
+##clone a fresh copy from GitHub
+git clone https://github.com/laderast/remote_repo
+</code></pre>
+
+<p>This may be obvious to the 10 people in the world who have read all of the git documentation, but I am not one of them. I&rsquo;m stuck with git, unfortunately. I&rsquo;m writing this post to remind me of what to do when I innocently do something like commit a large file to my repo.</p>
+
+      </div>
+
+      
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/git-hell">git hell</a>
+  
+</div>
+
+
+
+    </div>
+  </div>
+
+</article>
+
+
+
+
+
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+
