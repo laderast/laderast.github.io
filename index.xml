@@ -11,6 +11,68 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>What I learned teaching Python to Neuroscience Students</title>
+      <link>/2018/01/13/what-i-learned-teaching-python-to-neuroscience-students/</link>
+      <pubDate>Sat, 13 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/01/13/what-i-learned-teaching-python-to-neuroscience-students/</guid>
+      <description>
+
+&lt;p&gt;Well, the week of teaching our &lt;a href=&#34;https://github.com/dasaderi/python_neurobootcamp&#34; target=&#34;_blank&#34;&gt;Python Bootcamp for Neuroscientists&lt;/a&gt; is over. I had the pleasure of working with a great group of students, professors and instructors in developing the material, and had a great time teaching complete beginners to programming and Python.&lt;/p&gt;
+
+&lt;p&gt;We had the overall goal of introducting 21 &lt;a href=&#34;http://www.ohsu.edu/xd/education/schools/school-of-medicine/academic-programs/neuroscience-graduate-program/&#34; target=&#34;_blank&#34;&gt;Neuroscience Graduate Program&lt;/a&gt; students at OHSU to the basics of programming in Python using data that they were interested in: electrophysiology data, and confocal microscopy data. The course was designed to be a 1 credit course to encourage students to persist and finish it.&lt;/p&gt;
+
+&lt;p&gt;The format of the class was spread over 5 days (2.5 hours a day) and had the following schedule:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Introduction to basic data types in Python&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Introduction to for loops and Pandas DataFrames&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Using Pandas to analyse electrophysiology data&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Using NumPy to analyse confocal microscopy data&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Evaluation of students; installing Python/Juypter; wrap-up with questions.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I&amp;rsquo;ll just write up some random thoughts about our experiences about the course.&lt;/p&gt;
+
+&lt;h3 id=&#34;things-that-really-worked-well&#34;&gt;Things that really worked well&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Avoid the first day blues of installing Python by using &lt;a href=&#34;https://github.com/jupyterhub/jupyterhub&#34; target=&#34;_blank&#34;&gt;JupyterHub&lt;/a&gt;&lt;/em&gt;. I think one of the major pain points for beginners is installing software before they can even learn. Instead of making them install Python the first day, we had them sign into an AWS server that had JuypterHub deployed. &lt;a href=&#34;https://github.com/jupyterhub/jupyterhub&#34; target=&#34;_blank&#34;&gt;JupyterHub is a multi-user server for Juypter Notebooks&lt;/a&gt; which had the right version of Python and our need the dependencies installed. So our students just needed a laptop and a web browser to access our lessons. We could update the notebooks&lt;/p&gt;
+
+&lt;p&gt;Stephen David, my fellow instructor, figured this out. He has put together some &lt;a href=&#34;https://github.com/dasaderi/python_neurobootcamp/blob/master/server_setup/hubInstall.md&#34; target=&#34;_blank&#34;&gt;handy instructions about deploying JuypterHub to AWS&lt;/a&gt; and keeping the accounts updated via a GitHub repo in case other people are interested in using our bootcamp materials.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Make the atmosphere welcoming to beginners&lt;/em&gt;. In order to do so, we used many great tips from Software/Data Carpentry: modeling resilience by using live coding (and making mistakes along the way), using post-it notes for students to signal when they need help or are finished, and having plenty of TAs per student (at least 4 students/TA or instructor). We tried to emphasize that learning programming is an ongoing process, and that even we still have to Google errors on Stack Overflow. Showing that you can make mistakes and still recover is a big part of that.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Plan some early wins and make the exercises as interactive as possible.&lt;/em&gt; For the most part, we tried to avoid lecturing too long and break up the session with interactive exercises. I also really don&amp;rsquo;t like workshops where the trainer/teacher moves on no matter whether people understand the material or not. By using the post-its to signal when they were done, we were able to more appropriately pace the workshop. We also planned on stopping points if we couldn&amp;rsquo;t get through the day&amp;rsquo;s materials.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Emphasize working together and building a community.&lt;/em&gt; From the beginning, we emphasized that everyone needed to work together. I always emphasize the chain of help: 1) First your programming partner, 2) then the TA help. Discussing and working on issues together fosters a sense of community. I think there will be a group of students who will really want to learn more because of this.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Getting feedback along the way&lt;/em&gt;. I still feel like being a teacher is about 75% preparation and 25% improvisation. You need to be flexible enough to come up with examples on the fly, and you need to evaluate whether students are getting the material along the way. The exercises we tried to sprinkle throughout the notebooks helped us understand where people were stumbling.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Planning follow-up sessions&lt;/em&gt;. Through BioData Club, we&amp;rsquo;re planning some follow-up sessions. Through DataCamp in the Classroom, I also got our students premium access. We also pointed students out to &lt;a href=&#34;/python_resources/&#34;&gt;other Python-based courses at OHSU&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;some-things-we-could-improve-on&#34;&gt;Some things we could improve on&lt;/h3&gt;
+
+&lt;p&gt;I believe that given our time frame, we couldn&amp;rsquo;t really have anticipated many of these issues. We did our best to deal with them in the moment, however.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Describing the difference between Jupyter Notebooks and Python&lt;/em&gt;. At the beginning, we glossed over what a Jupyter Notebook was and really didn&amp;rsquo;t describe its relation to Python. I think next time we will open with describing the relationship between Jupyter and Python with a diagram, and revisit it on the last day.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Anticipate the JupyterHub server requirements better&lt;/em&gt;. On Day 3, we had a large dataset that basically hosed the server because 21 students were trying to open it up at once. We managed to recover by getting another AWS server and dividing the students among the two, but we could have stress tested that day a little more. Lesson learned.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Going slowly enough&lt;/em&gt;. I am a very excitable teacher, to the point of which sometimes I go a little too fast. I have to confess that I may have sped through some of the material a little too fast. As a result, some of the students didn&amp;rsquo;t quite get what functions like &lt;code&gt;enumerate()&lt;/code&gt; were for and the concept of &lt;em&gt;unpacking&lt;/em&gt; a list. Luckily, Brad covered these on Day 4 and the students felt comfortable enough to finish the programming test on the final day.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Setting student expectations&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;would-we-do-it-again&#34;&gt;Would we do it again?&lt;/h3&gt;
+
+&lt;p&gt;I would definitely say yes! We had to waitlist some students who really wanted to take it, and our overall feedback about the course was really positive. I hope that we can have more TAs, and have the future data workshops be more student driven.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Python_resources</title>
       <link>/python_resources/</link>
       <pubDate>Fri, 12 Jan 2018 13:55:55 -0800</pubDate>
@@ -698,33 +760,6 @@ git submodule update --init --recursive
 &lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Surrogate Oncogene Paper is Published</title>
-      <link>/2015/12/23/surrogate-oncogene-paper/</link>
-      <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/2015/12/23/surrogate-oncogene-paper/</guid>
-      <description>&lt;p&gt;My dissertation paper, &lt;a href=&#34;http://journal.frontiersin.org/article/10.3389/fgene.2015.00341/abstract&#34; target=&#34;_blank&#34;&gt;A Network-Based Model of Oncogenic Collaboration for Prediction of Drug Sensitivity&lt;/a&gt; is now published! Here&amp;rsquo;s a lay summary:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;One outstanding issue in analyzing genomics in the context of personalized medicine is the incorporation of rare
-or infrequent genetic alterations (copy number alterations and somatic mutations) that are observed in individual &amp;gt; patients. We hypothesize that these mutations may actually &amp;lsquo;collaborate&amp;rsquo; with known oncogenes in the genesis of
-tumors through their interactions. In order to show this effect, we assess whether these interacting rare
-mutations cluster around known oncogenes and assess these mutational clusters, which we term &lt;em&gt;surrogate
-oncogenes&lt;/em&gt;. We assess their statistical significance using a simple model of mutation. We show that surrogate
-oncogenes are predictive of drug sensitivity in breast cancer cell lines. Additionally, they are prevalent in
-three different cancer cohorts (Breast, Glioblastoma, and Bladder Cancer) from The Cancer Genome Atlas. Within
-the Breast Cancer and Bladder Cancer populations, surrogate oncogenes are predictive of overall patient
-survival. The chief strength of the surrogate oncogene approach is that it can be run at a single-patient
-level in comparison to other methods of assessing mutational significance.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;If you&amp;rsquo;re interested in learning more, you can check out the &lt;a href=&#34;https://tladeras.shinyapps.io/surrogateShiny/&#34; target=&#34;_blank&#34;&gt;Surrogate Oncogene Explorer&lt;/a&gt; in order to understand the nature of surrogate oncogenes, and my &lt;a href=&#34;https://github.com/laderast/surrogateMutation&#34; target=&#34;_blank&#34;&gt;R/Bioconductor Package on GitHub&lt;/a&gt; if you&amp;rsquo;d like to try out the analysis.&lt;/p&gt;
-
-&lt;p&gt;There&amp;rsquo;s a follow-up paper that I&amp;rsquo;m working on that I&amp;rsquo;m very excited about. More news soon.&lt;/p&gt;
 </description>
     </item>
     

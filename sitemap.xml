@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/2018/01/13/what-i-learned-teaching-python-to-neuroscience-students/</loc>
+      <lastmod>2018-01-13T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/python_resources/</loc>
       <lastmod>2018-01-12T13:55:55-08:00</lastmod>
     </url>
@@ -205,6 +214,16 @@
     
     <url>
     
+      <loc>/tags/beginners/</loc>
+      <lastmod>2018-01-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/bioinformatics/</loc>
       <lastmod>2015-11-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -321,6 +340,16 @@
     
     <url>
     
+      <loc>/tags/python/</loc>
+      <lastmod>2018-01-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/rstats/</loc>
       <lastmod>2015-11-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -403,6 +432,16 @@
     
       <loc>/tags/</loc>
       <lastmod>2018-01-13T00:00:00-08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/teaching/</loc>
+      <lastmod>2018-01-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
