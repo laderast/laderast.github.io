@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/2018/01/15/if-you-want-to-talk-with-me-for-an-informational-interview/</loc>
+      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2018/01/13/what-i-learned-teaching-python-to-neuroscience-students/</loc>
       <lastmod>2018-01-13T00:00:00+00:00</lastmod>
     </url>
@@ -251,6 +260,16 @@
     
     <url>
     
+      <loc>/tags/data-science/</loc>
+      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/data-science-odsc/</loc>
       <lastmod>2017-11-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -283,6 +302,16 @@
     
       <loc>/tags/git-hell/</loc>
       <lastmod>2018-01-05T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/informational-interview/</loc>
+      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -432,6 +461,26 @@
     
       <loc>/tags/</loc>
       <lastmod>2018-01-13T00:00:00-08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/talking/</loc>
+      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/talking/</loc>
+      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

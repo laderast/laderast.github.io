@@ -11,6 +11,30 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>If you want to talk with me for an informational interview</title>
+      <link>/2018/01/15/if-you-want-to-talk-with-me-for-an-informational-interview/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/01/15/if-you-want-to-talk-with-me-for-an-informational-interview/</guid>
+      <description>&lt;p&gt;I have had many people who have asked me for informational interviews. They saying they are interested in Data Science and want to hear about what I do on a day to day basis. To be honest, I&amp;rsquo;ve begun to dread these kinds of interviews. Inevitably, I spend a &lt;em&gt;lot&lt;/em&gt; of energy explaining what I do to someone who rarely follows up and I don&amp;rsquo;t find these interviews rewarding at all. So I&amp;rsquo;ve written this post so that I have a better time doing these kinds of interviews.&lt;/p&gt;
+
+&lt;p&gt;1) &lt;em&gt;Do your homework&lt;/em&gt;. Please don&amp;rsquo;t expect me to give the five minute spiel about my research, hoping to look for an &amp;ldquo;in&amp;rdquo;. Please do some research and try to ask &lt;em&gt;interesting&lt;/em&gt; questions about my work. I&amp;rsquo;ve given you plenty of resources on this website to know more about me. Ask me about my software, ask me about teaching, ask me carefully thought questions about my research.&lt;/p&gt;
+
+&lt;p&gt;2) &lt;em&gt;Don&amp;rsquo;t offer to buy me coffee&lt;/em&gt;. If I talk with you for 30 minutes, know that my time is worth far more than a cup of coffee. Instead, offer to pay it forwards. Volunteer with a group that does scientific communication or education; I don&amp;rsquo;t work with people who aren&amp;rsquo;t willing to teach others. I don&amp;rsquo;t work or talk with selfish people, having been burned many times by such people.&lt;/p&gt;
+
+&lt;p&gt;3) &lt;em&gt;Be specific in your ask&lt;/em&gt;. Asking about what next steps to take in learning data science and where to get a job is not specific enough. Again, do your research. What kinds of Data Science are you interested in? Are you interested in predictive analytics in healthcare? Or are you interested in systems modeling of disease? Be specific, and if you ask for something, make sure I can &lt;a href=&#34;https://www.samuelthomasdavies.com/the-five-minute-favour/&#34; target=&#34;_blank&#34;&gt;achieve it in five minutes or less&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;4) &lt;em&gt;Don&amp;rsquo;t ask for a job, ask for connections&lt;/em&gt;. I know a decent number of people around Oregon and OHSU, so if you want me to introduce you to one of my connections, I&amp;rsquo;m happy to. If I know someone, I&amp;rsquo;m happy to do this, since it&amp;rsquo;s usually a five-minute ask.&lt;/p&gt;
+
+&lt;p&gt;5) &lt;em&gt;Follow up, and be willing to return the favor&lt;/em&gt;. Even a nice thank-you email is good. I&amp;rsquo;m happy to make you a Linkedin connection, if it means I can help someone else further down the line. If I expend energy on you, I&amp;rsquo;d like to see it&amp;rsquo;s impact. If my efforts meant that you managed to find a job, please let me know!&lt;/p&gt;
+
+&lt;p&gt;6) &lt;em&gt;Read &lt;a href=&#34;http://www.adamgrant.net&#34; target=&#34;_blank&#34;&gt;Give and Take&lt;/a&gt;&lt;/em&gt;. This book by Adam Grant really struck me as the way to actually network. In short, I learned that if I want a return on my energy expenditure, I have to spend my energy on Givers, or poeple who help others. I am a Giver, but I now tend only to give informational interviewers to other Givers. The rest are too draining for me.&lt;/p&gt;
+
+&lt;p&gt;I have given so many of these interviews and have gotten nothing from them. Not even a follow-up, which really is bad practice. So, if I&amp;rsquo;m considered difficult to approach about these, know it is because your previous askers have really been an energy drain and have been Takers. Make it interesting for me. I&amp;rsquo;m much more likely to help you.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>What I learned teaching Python to Neuroscience Students</title>
       <link>/2018/01/13/what-i-learned-teaching-python-to-neuroscience-students/</link>
       <pubDate>Sat, 13 Jan 2018 00:00:00 +0000</pubDate>
@@ -700,33 +724,6 @@ level in comparison to other methods of assessing mutational significance.&lt;/p
 &lt;p&gt;If you&amp;rsquo;re interested in learning more, you can check out the &lt;a href=&#34;https://tladeras.shinyapps.io/surrogateShiny/&#34; target=&#34;_blank&#34;&gt;Surrogate Oncogene Explorer&lt;/a&gt; in order to understand the nature of surrogate oncogenes, and my &lt;a href=&#34;https://github.com/laderast/surrogateMutation&#34; target=&#34;_blank&#34;&gt;R/Bioconductor Package on GitHub&lt;/a&gt; if you&amp;rsquo;d like to try out the analysis.&lt;/p&gt;
 
 &lt;p&gt;There&amp;rsquo;s a follow-up paper that I&amp;rsquo;m working on that I&amp;rsquo;m very excited about. More news soon.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Why Short-Order Bioinformatics Doesn&#39;t Work</title>
-      <link>/2015/11/24/short-order-bioinformatics/</link>
-      <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/2015/11/24/short-order-bioinformatics/</guid>
-      <description>&lt;p&gt;Unfortunately, many researchers look at computational biology and bioinformatics as a black-box: you put in data, and you get results out. The bioinformaticians and computational biologists are seen as mostly computer operators who push the button and not as true collaborators. One of my co-workers calls this &amp;ldquo;short-order&amp;rdquo; bioinformatics.&lt;/p&gt;
-
-&lt;p&gt;There is great danger in simply pushing a button to get results. One type of analysis, Gene Set Enrichment Analysis (GSEA) is highly dependent on how mutations are incorporated into a gene set. If done carelessly, the results can be spurious. One paper dependent on GSEA analysis was Dixson, et al. This paper, &lt;em&gt;Identification of gene ontologies linked to prefrontal–hippocampal functional coupling in the human brain&lt;/em&gt; was retracted. A single SNP was assigned to 8 genes and was thus over counted. Their GSEA result of &amp;ldquo;synapse organization and biogenesis&amp;rdquo; was spurious due to this assignment.&lt;/p&gt;
-
-&lt;p&gt;There is a lot of impatience from collaborators when results are not immediate. Understandably, much of this work is done to support a grant and there are always looming deadlines. However, there is a lot of work between a request and well-executed computational results. Potential collaborators need to be aware of these steps.&lt;/p&gt;
-
-&lt;p&gt;A well-executed workflow is thus essential for the computational results to be valid. This may include the following steps.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Mapping of identifiers for entities for each platform to the appropriate gene construct.&lt;/em&gt; In the case of the SNP paper, it was appropriate assignment of SNPs to genes. However, with Systems Biology that integrate multiple OMICs types, this can include mapping protein isoforms to the mRNA transcripts if one is interested in the impact of alternative splicing. A clear strategy must be decided on and then executed.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Data Management&lt;/em&gt; Oftentimes, we need to work with the experimentalists who are executing the research in order to understand and identify potential confounders in the data. We do this by collected and integrating metadata into our analysis, that is, data about how the experiments were executed. We need to identify technical issues such as batch effects, and scheduling time with the experimentalists is our best way of identifying these potential issues.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Flagging of potentially spurious samples.&lt;/em&gt; This part of the process requires exploratory data analysis on gross measurements used in the high-throughput platforms. For example, we may visualize boxplots of mean expression for each sample to see if the expression levels can be compared.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Selection of the appropriate statistical protocol given the experimental design.&lt;/em&gt; This may require a couple of back and forths between the computational biologist and the researcher. A good computational biologist never assumes anything about the data or design.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Without a well-mapped strategy of data cleaning, the results from any bioinformatics analysis may be suspect. A good bioinformatics collaborator will ask these questions and will not take no for an answer. Any information that you withhold from your collaborator will affect their analysis.&lt;/p&gt;
-
-&lt;p&gt;In short, treating computational biology as a black-box is done at the researcher&amp;rsquo;s peril. Instead, a collaboration should be fostered. The best level of collaboration with computational biologists is to include them from the beginning, as part of the experimental design. This is obviously a greater level of commitment and time than simply considering them as a service core. However, the benefits and rewards are much greater at this level of collaboration.&lt;/p&gt;
 </description>
     </item>
     
