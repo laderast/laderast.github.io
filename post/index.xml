@@ -11,39 +11,11 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>If you want to talk with me for an informational interview</title>
-      <link>/2018/01/15/if-you-want-to-talk-with-me-for-an-informational-interview/</link>
-      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      <title>What We learned teaching Python to Neuroscience Students</title>
+      <link>/2018/01/17/what-i-learned-teaching-python-to-neuroscience-students/</link>
+      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/01/15/if-you-want-to-talk-with-me-for-an-informational-interview/</guid>
-      <description>&lt;p&gt;I have had many people who have asked me for informational interviews. They tell me that they are interested in Data Science and want to hear about what I do on a day to day basis. To be honest, I&amp;rsquo;ve begun to dread these kinds of interviews.&lt;/p&gt;
-
-&lt;p&gt;Inevitably, I spend a &lt;em&gt;lot&lt;/em&gt; of energy explaining what I do to someone who rarely follows up. Consequently, I don&amp;rsquo;t find these interviews rewarding at all. So I&amp;rsquo;ve written this post so that I have a better time doing these kinds of interviews.&lt;/p&gt;
-
-&lt;p&gt;I reserve the right to refuse interviews from people who do not read this.&lt;/p&gt;
-
-&lt;p&gt;1) &lt;em&gt;Do your homework&lt;/em&gt;. Please don&amp;rsquo;t expect me to give the five minute spiel about my research, hoping to look for an &amp;ldquo;in&amp;rdquo;. Please do some research and try to ask &lt;em&gt;interesting&lt;/em&gt; questions about my work. I&amp;rsquo;ve given you plenty of resources on this website to know more about me. Ask me about my software, ask me about teaching, ask me carefully thought questions about my research.&lt;/p&gt;
-
-&lt;p&gt;2) &lt;em&gt;Don&amp;rsquo;t offer to buy me coffee&lt;/em&gt;. If I talk with you for 30 minutes, know that my time is worth far more than a cup of coffee. Instead, offer to pay it forwards. Volunteer with a group that does scientific communication or education; I don&amp;rsquo;t work with people who aren&amp;rsquo;t willing to teach others. I don&amp;rsquo;t work or talk with selfish people, having been burned many times by such people.&lt;/p&gt;
-
-&lt;p&gt;3) &lt;em&gt;Be specific in your ask&lt;/em&gt;. Asking about what next steps to take in learning data science and where to get a job is not specific enough. Again, do your research. What kinds of Data Science are you interested in? Are you interested in predictive analytics in healthcare? Or are you interested in systems modeling of disease? Be specific, and if you ask for something, make sure I can &lt;a href=&#34;https://www.samuelthomasdavies.com/the-five-minute-favour/&#34; target=&#34;_blank&#34;&gt;achieve it in five minutes or less&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;4) &lt;em&gt;Don&amp;rsquo;t ask for a job, ask for connections&lt;/em&gt;. I know a decent number of people around Oregon and OHSU, so if you want me to introduce you to one of my connections, I&amp;rsquo;m happy to. If I know someone, I&amp;rsquo;m happy to do this, since it&amp;rsquo;s usually a five-minute ask.&lt;/p&gt;
-
-&lt;p&gt;5) &lt;em&gt;Follow up, and be willing to return the favor&lt;/em&gt;. Even a nice thank-you email is good. I&amp;rsquo;m happy to make you a Linkedin connection, if it means I can help someone else further down the line. If I expend energy on you, I&amp;rsquo;d like to see it&amp;rsquo;s impact. If my efforts meant that you managed to find a job, please let me know!&lt;/p&gt;
-
-&lt;p&gt;6) &lt;em&gt;Read &lt;a href=&#34;http://www.adamgrant.net&#34; target=&#34;_blank&#34;&gt;Give and Take&lt;/a&gt;&lt;/em&gt;. This book by Adam Grant really struck me as the way to actually network. In short, I learned that if I want a return on my energy expenditure, I have to spend my energy on Givers, or people who help others. I am a Giver, but I now tend only to give informational interviewers to other Givers. The rest are too draining for me.&lt;/p&gt;
-
-&lt;p&gt;I have given so many of these interviews and have gotten nothing from them. Not even a follow-up, which really is bad practice. So, if I&amp;rsquo;m considered difficult to approach about these, know it is because your previous askers have really been an energy drain and have been Takers. Make it interesting for me. I&amp;rsquo;m much more likely to help you.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>What I learned teaching Python to Neuroscience Students</title>
-      <link>/2018/01/13/what-i-learned-teaching-python-to-neuroscience-students/</link>
-      <pubDate>Sat, 13 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/01/13/what-i-learned-teaching-python-to-neuroscience-students/</guid>
+      <guid>/2018/01/17/what-i-learned-teaching-python-to-neuroscience-students/</guid>
       <description>
 
 &lt;p&gt;Well, the week of teaching our &lt;a href=&#34;https://github.com/dasaderi/python_neurobootcamp&#34; target=&#34;_blank&#34;&gt;Python Bootcamp for Neuroscientists&lt;/a&gt; is over. I had the pleasure of working with a great group of students, professors and instructors in developing the material, and had a great time teaching complete beginners to programming and Python.&lt;/p&gt;
@@ -64,7 +36,7 @@
 &lt;li&gt;&lt;p&gt;Evaluation of students; installing Python/Juypter; wrap-up with questions.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;I&amp;rsquo;ll just write up some random thoughts about our experiences about the course.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll just write up some random thoughts about our experiences about the course. We are definitely planning to give the course again next year, given the enthusiastic reception.&lt;/p&gt;
 
 &lt;h3 id=&#34;things-that-really-worked-well&#34;&gt;Things that really worked well&lt;/h3&gt;
 
@@ -97,6 +69,34 @@
 &lt;h3 id=&#34;would-we-do-it-again&#34;&gt;Would we do it again?&lt;/h3&gt;
 
 &lt;p&gt;I would definitely say yes! We had to waitlist some students who really wanted to take it, and our overall feedback about the course was really positive. I hope that we can have more TAs, and have the future data workshops be more student driven.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>If you want to talk with me for an informational interview</title>
+      <link>/2018/01/15/if-you-want-to-talk-with-me-for-an-informational-interview/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/01/15/if-you-want-to-talk-with-me-for-an-informational-interview/</guid>
+      <description>&lt;p&gt;I have had many people who have asked me for informational interviews. They tell me that they are interested in Data Science and want to hear about what I do on a day to day basis. To be honest, I&amp;rsquo;ve begun to dread these kinds of interviews.&lt;/p&gt;
+
+&lt;p&gt;Inevitably, I spend a &lt;em&gt;lot&lt;/em&gt; of energy explaining what I do to someone who rarely follows up. Consequently, I don&amp;rsquo;t find these interviews rewarding at all. So I&amp;rsquo;ve written this post so that I have a better time doing these kinds of interviews.&lt;/p&gt;
+
+&lt;p&gt;I reserve the right to refuse interviews from people who do not read this.&lt;/p&gt;
+
+&lt;p&gt;1) &lt;em&gt;Do your homework&lt;/em&gt;. Please don&amp;rsquo;t expect me to give the five minute spiel about my research, hoping to look for an &amp;ldquo;in&amp;rdquo;. Please do some research and try to ask &lt;em&gt;interesting&lt;/em&gt; questions about my work. I&amp;rsquo;ve given you plenty of resources on this website to know more about me. Ask me about my software, ask me about teaching, ask me carefully thought questions about my research.&lt;/p&gt;
+
+&lt;p&gt;2) &lt;em&gt;Don&amp;rsquo;t offer to buy me coffee&lt;/em&gt;. If I talk with you for 30 minutes, know that my time is worth far more than a cup of coffee. Instead, offer to pay it forwards. Volunteer with a group that does scientific communication or education; I don&amp;rsquo;t work with people who aren&amp;rsquo;t willing to teach others. I don&amp;rsquo;t work or talk with selfish people, having been burned many times by such people.&lt;/p&gt;
+
+&lt;p&gt;3) &lt;em&gt;Be specific in your ask&lt;/em&gt;. Asking about what next steps to take in learning data science and where to get a job is not specific enough. Again, do your research. What kinds of Data Science are you interested in? Are you interested in predictive analytics in healthcare? Or are you interested in systems modeling of disease? Be specific, and if you ask for something, make sure I can &lt;a href=&#34;https://www.samuelthomasdavies.com/the-five-minute-favour/&#34; target=&#34;_blank&#34;&gt;achieve it in five minutes or less&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;4) &lt;em&gt;Don&amp;rsquo;t ask for a job, ask for connections&lt;/em&gt;. I know a decent number of people around Oregon and OHSU, so if you want me to introduce you to one of my connections, I&amp;rsquo;m happy to. If I know someone, I&amp;rsquo;m happy to do this, since it&amp;rsquo;s usually a five-minute ask.&lt;/p&gt;
+
+&lt;p&gt;5) &lt;em&gt;Follow up, and be willing to return the favor&lt;/em&gt;. Even a nice thank-you email is good. I&amp;rsquo;m happy to make you a Linkedin connection, if it means I can help someone else further down the line. If I expend energy on you, I&amp;rsquo;d like to see it&amp;rsquo;s impact. If my efforts meant that you managed to find a job, please let me know!&lt;/p&gt;
+
+&lt;p&gt;6) &lt;em&gt;Read &lt;a href=&#34;http://www.adamgrant.net&#34; target=&#34;_blank&#34;&gt;Give and Take&lt;/a&gt;&lt;/em&gt;. This book by Adam Grant really struck me as the way to actually network. In short, I learned that if I want a return on my energy expenditure, I have to spend my energy on Givers, or people who help others. I am a Giver, but I now tend only to give informational interviewers to other Givers. The rest are too draining for me.&lt;/p&gt;
+
+&lt;p&gt;I have given so many of these interviews and have gotten nothing from them. Not even a follow-up, which really is bad practice. So, if I&amp;rsquo;m considered difficult to approach about these, know it is because your previous askers have really been an energy drain and have been inconsiderate Takers. Make it interesting for me. I&amp;rsquo;m much more likely to help you.&lt;/p&gt;
 </description>
     </item>
     
