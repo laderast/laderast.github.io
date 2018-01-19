@@ -62,13 +62,38 @@
 
 &lt;p&gt;&lt;em&gt;Anticipate the JupyterHub server requirements better&lt;/em&gt;. On Day 3, we had a large dataset that basically hosed the server because 21 students were trying to open it up at once. We managed to recover by getting another AWS server and dividing the students among the two, but we could have stress tested that day a little more. Lesson learned.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Going slowly enough&lt;/em&gt;. I am a very excitable teacher, to the point of which sometimes I go a little too fast. I have to confess that I may have sped through some of the material a little too fast. As a result, some of the students didn&amp;rsquo;t quite get what functions like &lt;code&gt;enumerate()&lt;/code&gt; were for and the concept of &lt;em&gt;unpacking&lt;/em&gt; a list. Luckily, Brad covered these on Day 4 and the students felt comfortable enough to finish the programming test on the final day.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Going slowly enough&lt;/em&gt;. I am a very excitable teacher, to the point of which sometimes I go a little too fast. I have to confess that I may have sped through some of the material a little too fast. As a result, some of the students didn&amp;rsquo;t quite get what functions like &lt;code&gt;enumerate()&lt;/code&gt; were for and the concept of &lt;em&gt;unpacking&lt;/em&gt; a list. Luckily, Brad Buran covered these on Day 4 and the students felt comfortable enough to finish the programming test on the final day.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Setting student expectations&lt;/em&gt;. It&amp;rsquo;s vital to show the students that they can learn programming, but also what&amp;rsquo;s possible if they do. One of the days was a big leap from the previous day, but we did mention that it&amp;rsquo;s really to show them what&amp;rsquo;s possible if they continued to learn about programming.&lt;/p&gt;
 
 &lt;h3 id=&#34;would-we-do-it-again&#34;&gt;Would we do it again?&lt;/h3&gt;
 
 &lt;p&gt;I would definitely say yes! We had to waitlist some students who really wanted to take it, and our overall feedback about the course was really positive. I hope that we can have more TAs, and have the future data workshops be more student driven.&lt;/p&gt;
+
+&lt;h3 id=&#34;acknowlegements&#34;&gt;Acknowlegements&lt;/h3&gt;
+
+&lt;p&gt;This was a collaboration between the Neuroscience Graduate Program (NGP) and the Department of Medical Informatics and Clinical Epidemiology (DMICE).&lt;/p&gt;
+
+&lt;p&gt;The NGP students involved in designing and testing the material were&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Daniela Sadieri&lt;/li&gt;
+&lt;li&gt;Lucille Moore&lt;/li&gt;
+&lt;li&gt;Charles Heller&lt;/li&gt;
+&lt;li&gt;Zack Schwartz&lt;/li&gt;
+&lt;li&gt;Brad Buran.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Faculty involved were:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Stephen David (NGP Assistant Professor)&lt;/li&gt;
+&lt;li&gt;Lisa Karstens (DMICE Assistant Professor)&lt;/li&gt;
+&lt;li&gt;Michael Mooney (DMICE Assistant Professor)&lt;/li&gt;
+&lt;li&gt;Ted Laderas (DMICE Assistant Professor)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks very much to Gary Westbrook (Director of the NGP program) and Bill Hersh (Head of DMICE).&lt;/p&gt;
 </description>
     </item>
     
