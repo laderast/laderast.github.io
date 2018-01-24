@@ -11,6 +11,30 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>A gRadual Introduction to Shiny</title>
+      <link>/2018/01/23/gradual-introduction-to-shiny/</link>
+      <pubDate>Tue, 23 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/01/23/gradual-introduction-to-shiny/</guid>
+      <description>&lt;p&gt;I just gave a workshop teaching the basics of &lt;a href=&#34;https://shiny.rstudio.com&#34; target=&#34;_blank&#34;&gt;Shiny&lt;/a&gt; (the interactive web visualization framework) for a group of PDX R users. We had 10 people attend, and most of the attendees managed to get through the material and had lots of good questions. I really enjoyed talking with everyone and I hope everyone learned something. We&amp;rsquo;re planning to give the workshop again to the larger PDX R user community, and some of the attendees last night have volunteered to be TAs.&lt;/p&gt;
+
+&lt;p&gt;The workshop materials consist of a &lt;a href=&#34;https://github.com/laderast/shiny_workshop_pdxrlang&#34; target=&#34;_blank&#34;&gt;GitHub repo&lt;/a&gt; and a &lt;a href=&#34;https://laderast.github.io/shiny_workshop_pdxrlang/&#34; target=&#34;_blank&#34;&gt;Markdown document&lt;/a&gt; that can be done either in person or independently. The materials are freely available under an Apache 2.0 License.&lt;/p&gt;
+
+&lt;p&gt;In the workshop, we build a flexible &lt;code&gt;csv&lt;/code&gt; explorer that can load in csv (comma separated value) data files with adaptive controls and tooltips.&lt;/p&gt;
+
+&lt;p&gt;In terms of packages, the workshop uses the &lt;code&gt;tidyverse&lt;/code&gt; (mostly &lt;code&gt;dplyr&lt;/code&gt; and &lt;code&gt;ggplot2&lt;/code&gt;), and &lt;code&gt;plotly&lt;/code&gt; to show some basic programming patterns in &lt;code&gt;shiny&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;1) Connecting controls to &lt;code&gt;ggplot2&lt;/code&gt; aesthetics
+2) Filtering data using &lt;code&gt;reactive&lt;/code&gt;s
+3) The &lt;code&gt;observe&lt;/code&gt;/&lt;code&gt;update_&lt;/code&gt; pattern
+4) Tooltips (the hard way/the plotly way)
+5) The final product&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;d love for more people to take a look at the workshop and would &lt;a href=&#34;https://github.com/laderast/shiny_workshop_pdxrlang/issues/2&#34; target=&#34;_blank&#34;&gt;love any suggestions&lt;/a&gt; for making it better!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>What We learned teaching Python to Neuroscience Students</title>
       <link>/2018/01/17/what-we-learned-teaching-python-to-neuroscience-students/</link>
       <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
@@ -726,33 +750,6 @@ git submodule update --init --recursive
 &lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Surrogate Oncogene Paper is Published</title>
-      <link>/2015/12/23/surrogate-oncogene-paper/</link>
-      <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/2015/12/23/surrogate-oncogene-paper/</guid>
-      <description>&lt;p&gt;My dissertation paper, &lt;a href=&#34;http://journal.frontiersin.org/article/10.3389/fgene.2015.00341/abstract&#34; target=&#34;_blank&#34;&gt;A Network-Based Model of Oncogenic Collaboration for Prediction of Drug Sensitivity&lt;/a&gt; is now published! Here&amp;rsquo;s a lay summary:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;One outstanding issue in analyzing genomics in the context of personalized medicine is the incorporation of rare
-or infrequent genetic alterations (copy number alterations and somatic mutations) that are observed in individual &amp;gt; patients. We hypothesize that these mutations may actually &amp;lsquo;collaborate&amp;rsquo; with known oncogenes in the genesis of
-tumors through their interactions. In order to show this effect, we assess whether these interacting rare
-mutations cluster around known oncogenes and assess these mutational clusters, which we term &lt;em&gt;surrogate
-oncogenes&lt;/em&gt;. We assess their statistical significance using a simple model of mutation. We show that surrogate
-oncogenes are predictive of drug sensitivity in breast cancer cell lines. Additionally, they are prevalent in
-three different cancer cohorts (Breast, Glioblastoma, and Bladder Cancer) from The Cancer Genome Atlas. Within
-the Breast Cancer and Bladder Cancer populations, surrogate oncogenes are predictive of overall patient
-survival. The chief strength of the surrogate oncogene approach is that it can be run at a single-patient
-level in comparison to other methods of assessing mutational significance.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;If you&amp;rsquo;re interested in learning more, you can check out the &lt;a href=&#34;https://tladeras.shinyapps.io/surrogateShiny/&#34; target=&#34;_blank&#34;&gt;Surrogate Oncogene Explorer&lt;/a&gt; in order to understand the nature of surrogate oncogenes, and my &lt;a href=&#34;https://github.com/laderast/surrogateMutation&#34; target=&#34;_blank&#34;&gt;R/Bioconductor Package on GitHub&lt;/a&gt; if you&amp;rsquo;d like to try out the analysis.&lt;/p&gt;
-
-&lt;p&gt;There&amp;rsquo;s a follow-up paper that I&amp;rsquo;m working on that I&amp;rsquo;m very excited about. More news soon.&lt;/p&gt;
 </description>
     </item>
     
