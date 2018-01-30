@@ -11,39 +11,6 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>How To Be A Good Collaborator</title>
-      <link>/2018/01/26/how-to-be-a-good-collaborator/</link>
-      <pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/01/26/how-to-be-a-good-collaborator/</guid>
-      <description>&lt;p&gt;More than knowledge, what I attempt to help students with is how to be a good collaborator. Of all the skills I have, the two most vital are 1) being able to collaborate effectively, and 2) project management.&lt;/p&gt;
-
-&lt;p&gt;Over 16 years in the collaboration business, I&amp;rsquo;ve compiled the following guidelines for myself. Maybe they&amp;rsquo;re helpful to someone else.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;em&gt;Be willing to learn&lt;/em&gt;. One of the best pieces of advice that I&amp;rsquo;ve received is to not just be a calculating drone. I have to be willing to take a deep dive into understanding the domain. If my collaborators can&amp;rsquo;t communicate what they&amp;rsquo;re looking for in the data, I probably can&amp;rsquo;t find it.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Be willing to teach others&lt;/em&gt;. This is the flip-side of 1.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Ask questions&lt;/em&gt;. &lt;em&gt;Don&amp;rsquo;t be afraid to show ignorance about the domain&lt;/em&gt;. Showing ignorance, but an openness to learn is one of the fastest ways to learn. We don&amp;rsquo;t value people who say &amp;ldquo;I don&amp;rsquo;t know&amp;rdquo; enough.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Understand your collaborator&amp;rsquo;s motivations&lt;/em&gt;. Understanding their point of view is of vital importance.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Be flexible&lt;/em&gt;. &lt;em&gt;Be uncomfortable&lt;/em&gt;. &lt;em&gt;Be vulnerable&lt;/em&gt;. Don&amp;rsquo;t let ego get in the way of your collaboration. Get to an honest place with your collaborators.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Establish ground rules for a safe collaborative environment&lt;/em&gt;. These are important for establishing boundaries. I&amp;rsquo;ve had some collaborators who expect me to do work on weekends.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Be professional&lt;/em&gt;. I know that we value supposed &amp;ldquo;mavericks&amp;rdquo; like Steve Jobs and Elon Musk. But this kind of attitude when working with a collaborator.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Communicate frequently enough&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Listen, and then attempt to clarify&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Never think a project or a field is &amp;ldquo;below you&amp;rdquo;, or a &amp;ldquo;waste of your time&amp;rdquo;&lt;/em&gt;. Some of my best ideas have come from working in the trenches and wrangling the data, and especially in participating in generating the data. This point of view is really invaluable.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Don&amp;rsquo;t work with assholes, no matter how prestigious they are&lt;/em&gt;. Seriously, read the [&lt;em&gt;No Asshole Rule&lt;/em&gt;](). And read it again. Strive not to be an asshole.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Don&amp;rsquo;t ever assume something about the data&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Have fun&lt;/em&gt;. The best collaborators are the ones I look forward to working with. I try to maximize my time for these collaborations.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Value everyone&amp;rsquo;s contributions&lt;/em&gt;. Everyone in your project is ideally working as hard as they can. Motivation, productivity, and creativity come from feeling psychologically safe and feeling like your work is being valued.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Read Give and Take&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Know when to walk away&lt;/em&gt;. More than anyone, I&amp;rsquo;m guilty of the [sunken cost fallacy]() when working with collaborators.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I suppose this is really presumptive of me, but I&amp;rsquo;m surprised at how many people (not just students) do not practice even a third of these.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>A gRadual Introduction to Shiny</title>
       <link>/2018/01/24/gradual-introduction-to-shiny/</link>
       <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
@@ -600,6 +567,33 @@ fosters the other.”&lt;/p&gt;
 &lt;p&gt;We&amp;rsquo;re now embarking on an experiment to reach even more people at OHSU, because we know there are lots of students who struggle with practical skills in data analysis. Our group is growing, and that&amp;rsquo;s exciting.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;m going to try and get everyone in our group to write a paper about Peer Mentoring Culture and how to encourage it in other schools.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Surrogate Oncogene Paper is Published</title>
+      <link>/2015/12/23/surrogate-oncogene-paper/</link>
+      <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/12/23/surrogate-oncogene-paper/</guid>
+      <description>&lt;p&gt;My dissertation paper, &lt;a href=&#34;http://journal.frontiersin.org/article/10.3389/fgene.2015.00341/abstract&#34; target=&#34;_blank&#34;&gt;A Network-Based Model of Oncogenic Collaboration for Prediction of Drug Sensitivity&lt;/a&gt; is now published! Here&amp;rsquo;s a lay summary:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;One outstanding issue in analyzing genomics in the context of personalized medicine is the incorporation of rare
+or infrequent genetic alterations (copy number alterations and somatic mutations) that are observed in individual &amp;gt; patients. We hypothesize that these mutations may actually &amp;lsquo;collaborate&amp;rsquo; with known oncogenes in the genesis of
+tumors through their interactions. In order to show this effect, we assess whether these interacting rare
+mutations cluster around known oncogenes and assess these mutational clusters, which we term &lt;em&gt;surrogate
+oncogenes&lt;/em&gt;. We assess their statistical significance using a simple model of mutation. We show that surrogate
+oncogenes are predictive of drug sensitivity in breast cancer cell lines. Additionally, they are prevalent in
+three different cancer cohorts (Breast, Glioblastoma, and Bladder Cancer) from The Cancer Genome Atlas. Within
+the Breast Cancer and Bladder Cancer populations, surrogate oncogenes are predictive of overall patient
+survival. The chief strength of the surrogate oncogene approach is that it can be run at a single-patient
+level in comparison to other methods of assessing mutational significance.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you&amp;rsquo;re interested in learning more, you can check out the &lt;a href=&#34;https://tladeras.shinyapps.io/surrogateShiny/&#34; target=&#34;_blank&#34;&gt;Surrogate Oncogene Explorer&lt;/a&gt; in order to understand the nature of surrogate oncogenes, and my &lt;a href=&#34;https://github.com/laderast/surrogateMutation&#34; target=&#34;_blank&#34;&gt;R/Bioconductor Package on GitHub&lt;/a&gt; if you&amp;rsquo;d like to try out the analysis.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s a follow-up paper that I&amp;rsquo;m working on that I&amp;rsquo;m very excited about. More news soon.&lt;/p&gt;
 </description>
     </item>
     
