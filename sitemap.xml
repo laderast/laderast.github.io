@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/2018/01/26/how-to-be-a-good-collaborator/</loc>
+      <lastmod>2018-01-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2018/01/24/gradual-introduction-to-shiny/</loc>
       <lastmod>2018-01-24T00:00:00+00:00</lastmod>
     </url>
@@ -158,15 +167,6 @@
     
     <url>
     
-      <loc>/2016/04/20/academic-the-website-designer-for-hugo/</loc>
-      <lastmod>2018-01-13T00:00:00-08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/2015/12/23/surrogate-oncogene-paper/</loc>
       <lastmod>2015-12-23T00:00:00+00:00</lastmod>
     </url>
@@ -205,16 +205,6 @@
     
       <loc>/2015/05/24/the-rise-of-fraud-in-high-if-journals/</loc>
       <lastmod>2015-05-24T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/academic/</loc>
-      <lastmod>2018-01-13T00:00:00-08:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
@@ -299,7 +289,7 @@
     
     <url>
     
-      <loc>/categories/git-hell/</loc>
+      <loc>/tags/git-hell/</loc>
       <lastmod>2018-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -309,7 +299,7 @@
     
     <url>
     
-      <loc>/tags/git-hell/</loc>
+      <loc>/categories/git-hell/</loc>
       <lastmod>2018-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -398,7 +388,7 @@
     
     <url>
     
-      <loc>/categories/r/</loc>
+      <loc>/tags/r/</loc>
       <lastmod>2018-01-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -408,7 +398,7 @@
     
     <url>
     
-      <loc>/tags/r/</loc>
+      <loc>/categories/r/</loc>
       <lastmod>2018-01-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -499,17 +489,7 @@
     <url>
     
       <loc>/tags/</loc>
-      <lastmod>2018-01-13T00:00:00-08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/talking/</loc>
-      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+      <lastmod>2017-04-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -519,6 +499,16 @@
     <url>
     
       <loc>/tags/talking/</loc>
+      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/talking/</loc>
       <lastmod>2018-01-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -566,7 +556,7 @@
     
     <url>
     
-      <loc>/categories/visualization/</loc>
+      <loc>/tags/visualization/</loc>
       <lastmod>2018-01-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -576,7 +566,7 @@
     
     <url>
     
-      <loc>/tags/visualization/</loc>
+      <loc>/categories/visualization/</loc>
       <lastmod>2018-01-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>

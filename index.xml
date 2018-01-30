@@ -11,6 +11,39 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>How To Be A Good Collaborator</title>
+      <link>/2018/01/26/how-to-be-a-good-collaborator/</link>
+      <pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/01/26/how-to-be-a-good-collaborator/</guid>
+      <description>&lt;p&gt;More than knowledge, what I attempt to help students with is how to be a good collaborator. Of all the skills I have, the two most vital are 1) being able to collaborate effectively, and 2) project management.&lt;/p&gt;
+
+&lt;p&gt;Over 16 years in the collaboration business, I&amp;rsquo;ve compiled the following guidelines for myself. Maybe they&amp;rsquo;re helpful to someone else.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;Be willing to learn&lt;/em&gt;. One of the best pieces of advice that I&amp;rsquo;ve received is to not just be a calculating drone. I have to be willing to take a deep dive into understanding the domain. If my collaborators can&amp;rsquo;t communicate what they&amp;rsquo;re looking for in the data, I probably can&amp;rsquo;t find it.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Be willing to teach others&lt;/em&gt;. This is the flip-side of 1.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Ask questions&lt;/em&gt;. &lt;em&gt;Don&amp;rsquo;t be afraid to show ignorance about the domain&lt;/em&gt;. Showing ignorance, but an openness to learn is one of the fastest ways to learn. We don&amp;rsquo;t value people who say &amp;ldquo;I don&amp;rsquo;t know&amp;rdquo; enough.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Understand your collaborator&amp;rsquo;s motivations&lt;/em&gt;. Understanding their point of view is of vital importance.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Be flexible&lt;/em&gt;. &lt;em&gt;Be uncomfortable&lt;/em&gt;. &lt;em&gt;Be vulnerable&lt;/em&gt;. Don&amp;rsquo;t let ego get in the way of your collaboration. Get to an honest place with your collaborators.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Establish ground rules for a safe collaborative environment&lt;/em&gt;. These are important for establishing boundaries. I&amp;rsquo;ve had some collaborators who expect me to do work on weekends.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Be professional&lt;/em&gt;. I know that we value supposed &amp;ldquo;mavericks&amp;rdquo; like Steve Jobs and Elon Musk. But this kind of attitude when working with a collaborator.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Communicate frequently enough&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Listen, and then attempt to clarify&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Never think a project or a field is &amp;ldquo;below you&amp;rdquo;, or a &amp;ldquo;waste of your time&amp;rdquo;&lt;/em&gt;. Some of my best ideas have come from working in the trenches and wrangling the data, and especially in participating in generating the data. This point of view is really invaluable.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Don&amp;rsquo;t work with assholes, no matter how prestigious they are&lt;/em&gt;. Seriously, read the [&lt;em&gt;No Asshole Rule&lt;/em&gt;](). And read it again. Strive not to be an asshole.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Don&amp;rsquo;t ever assume something about the data&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Have fun&lt;/em&gt;. The best collaborators are the ones I look forward to working with. I try to maximize my time for these collaborations.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Value everyone&amp;rsquo;s contributions&lt;/em&gt;. Everyone in your project is ideally working as hard as they can. Motivation, productivity, and creativity come from feeling psychologically safe and feeling like your work is being valued.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Read Give and Take&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Know when to walk away&lt;/em&gt;. More than anyone, I&amp;rsquo;m guilty of the [sunken cost fallacy]() when working with collaborators.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I suppose this is really presumptive of me, but I&amp;rsquo;m surprised at how many people (not just students) do not practice even a third of these.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A gRadual Introduction to Shiny</title>
       <link>/2018/01/24/gradual-introduction-to-shiny/</link>
       <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
@@ -103,7 +136,7 @@
 &lt;p&gt;The NGP students involved in designing and testing the material were&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Daniela Sadieri&lt;/li&gt;
+&lt;li&gt;Daniela Saderi&lt;/li&gt;
 &lt;li&gt;Lucille Moore&lt;/li&gt;
 &lt;li&gt;Charles Heller&lt;/li&gt;
 &lt;li&gt;Zack Schwartz&lt;/li&gt;
@@ -603,40 +636,6 @@ and &lt;a href=&#34;https://odscwest.pathable.com/meetings/604496&#34; target=&#
       
       <guid>/2017/04/20/building-an-os-community/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>On Breadth and Depth in Your Academic Career</title>
-      <link>/2017/04/19/breadth-and-depth/</link>
-      <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/04/19/breadth-and-depth/</guid>
-      <description>
-
-&lt;p&gt;I was talking with a student and they were complaining that when at conferences, they would try to inject other topics of interest (such as cooking) into discussions with colleagues. Unfortunately, one of the after effects of this was that they were looked at as &amp;ldquo;not a serious scientist&amp;rdquo;. There&amp;rsquo;s an expectation that a scientist must be all depth, only talking and thinking about their sub-field.&lt;/p&gt;
-
-&lt;p&gt;As a cross disciplinarian, I have to say that is hogwash. The genesis of so many creative ideas in science has happened because of cross-pollination across disciplines. For example, &lt;a href=&#34;https://blogs.scientificamerican.com/guest-blog/lindau-nobel-meeting-the-cross-pollination-of-ideas/&#34; target=&#34;_blank&#34;&gt;microwave technology&lt;/a&gt; might never have been invented without the intersection of disciplines. We know that the &lt;a href=&#34;https://www.researchgate.net/profile/Kendell_Pawelec/publication/247857346_Arts_Foster_Scientific_Success_Avocations_of_Nobel_National_Academy_Royal_Society_and_Sigma_Xi_Members/links/00b4953c00f875f191000000.pdf&#34; target=&#34;_blank&#34;&gt;Arts Foster Scientific Success&lt;/a&gt; - a large number of Nobel and National Academy members do art in some form or other. Bernstein et al theorize that&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“there exist functional connections between scientific talent and arts,
-crafts, and communications talents so that inheriting or developing one
-fosters the other.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Having breadth and depth enables you to make connections that no one else has. It is the hallmark of a curious and creative person. These kinds of people are desparately needed to push science in new directions.&lt;/p&gt;
-
-&lt;p&gt;I have a parallel career in &lt;a href=&#34;http://15people.net&#34; target=&#34;_blank&#34;&gt;performance and improvisational music&lt;/a&gt;. Music, for me, is endlessly inspiring and has forced me out of my introverted shell. One of the reasons I took up cello is that I can play many roles; accompanist, rhythm, solo. This flexibility in playing music has translated to my flexibility in collaboration. Being able to adjust to new circumstances and improvise new ideas to explore is a critical component of being a responsible scientist. My background improvisation has helped me pivot ideas. I have become less attached to dogmatic ideas. Many of my good ideas come from idle wondering about data that has captured my imagination. This is part of the reason why I teach students &lt;a href=&#34;https://github.com/laderast/shinyEDA&#34; target=&#34;_blank&#34;&gt;how to explore their data&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;So, the next time another scientist looks down at you for being a polymath, pity them. Their world and their ideas are not as rich as yours.&lt;/p&gt;
-
-&lt;h3 id=&#34;further-reading&#34;&gt;Further Reading&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://priceonomics.com/the-correlation-between-arts-and-crafts-and-a/&#34; target=&#34;_blank&#34;&gt;The Correlation Between Arts and Crafts and a Nobel  Prize&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/profile/Kendell_Pawelec/publication/247857346_Arts_Foster_Scientific_Success_Avocations_of_Nobel_National_Academy_Royal_Society_and_Sigma_Xi_Members/links/00b4953c00f875f191000000.pdf&#34; target=&#34;_blank&#34;&gt;Arts Foster Scientific Success&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ecologyandsociety.org/vol20/iss2/art3/&#34; target=&#34;_blank&#34;&gt;Dual Thinking for Scientists&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
     </item>
     
   </channel>
