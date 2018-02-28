@@ -30,7 +30,7 @@
       <guid>/2018/01/24/gradual-introduction-to-shiny/</guid>
       <description>&lt;p&gt;I just gave a workshop teaching the basics of &lt;a href=&#34;https://shiny.rstudio.com&#34; target=&#34;_blank&#34;&gt;Shiny&lt;/a&gt; (the interactive web visualization framework) for a group of PDX R users. We had 10 people attend, and most of the attendees managed to get through the material and had lots of good questions. I really enjoyed talking with everyone and I hope everyone learned something. We&amp;rsquo;re planning to give the workshop again to the larger PDX R user community, and some of the attendees last night have volunteered to be TAs.&lt;/p&gt;
 
-&lt;p&gt;The workshop materials consist of a &lt;a href=&#34;https://github.com/laderast/shiny_workshop_pdxrlang&#34; target=&#34;_blank&#34;&gt;GitHub repo&lt;/a&gt; and a &lt;a href=&#34;https://laderast.github.io/shiny_workshop_pdxrlang/&#34; target=&#34;_blank&#34;&gt;Markdown document&lt;/a&gt; that can be done either in person or independently. The materials are freely available under an Apache 2.0 License.&lt;/p&gt;
+&lt;p&gt;The workshop materials consist of a &lt;a href=&#34;https://github.com/laderast/gradual_shiny&#34; target=&#34;_blank&#34;&gt;GitHub repo&lt;/a&gt; and a &lt;a href=&#34;https://laderast.github.io/gradual_shiny/&#34; target=&#34;_blank&#34;&gt;Markdown document&lt;/a&gt; that can be done either in person or independently. The materials are freely available under an Apache 2.0 License.&lt;/p&gt;
 
 &lt;p&gt;In the workshop, we build a flexible &lt;code&gt;csv&lt;/code&gt; (comma separated value) explorer that can load in &lt;code&gt;csv&lt;/code&gt; data files with adaptive controls and tooltips.&lt;/p&gt;
 
@@ -44,7 +44,7 @@
 &lt;li&gt;The final product&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;I&amp;rsquo;d love for more people to take a look at the workshop and would &lt;a href=&#34;https://github.com/laderast/shiny_workshop_pdxrlang/issues/2&#34; target=&#34;_blank&#34;&gt;love any suggestions&lt;/a&gt; for making it better!&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;d love for more people to take a look at the workshop and would &lt;a href=&#34;https://github.com/laderast/gradual_shiny/issues/2&#34; target=&#34;_blank&#34;&gt;love any suggestions&lt;/a&gt; for making it better!&lt;/p&gt;
 </description>
     </item>
     
