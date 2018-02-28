@@ -5,7 +5,16 @@
     
     <url>
     
-      <loc>/how-to-be-a-good-collaborator/</loc>
+      <loc>/2018/02/28/data-science-and-systems-science/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/2018/01/26/how-to-be-a-good-collaborator/</loc>
       <lastmod>2018-01-26T00:00:00+00:00</lastmod>
     </url>
     
@@ -279,6 +288,16 @@
     
     <url>
     
+      <loc>/categories/data-science-systems/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/categories/git/</loc>
       <lastmod>2018-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -480,6 +499,16 @@
     
       <loc>/tags/synthetic-data-data-science/</loc>
       <lastmod>2017-12-14T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/systems-science/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

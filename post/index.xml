@@ -11,6 +11,64 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Data Science and Systems Science</title>
+      <link>/2018/02/28/data-science-and-systems-science/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/28/data-science-and-systems-science/</guid>
+      <description>&lt;p&gt;I gave a talk for the Portland State University Systems Science seminar called &lt;em&gt;[How are Data Science and Systems Science Connected?](&lt;a href=&#34;https://laderast.github.io/sysc_data_sci/&#34; target=&#34;_blank&#34;&gt;https://laderast.github.io/sysc_data_sci/&lt;/a&gt;&lt;/em&gt;. In this talk, I was highlighting current blind spots in Data Science that I think Systems Science approaches can address, especially that of interactions between features. If you&amp;rsquo;re interested in listening to the recording, the playback is available here: &lt;a href=&#34;https://us.bbcollab.com/recording/059acf5cfed64f9abbf7cf432fdfb566&#34; target=&#34;_blank&#34;&gt;https://us.bbcollab.com/recording/059acf5cfed64f9abbf7cf432fdfb566&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How To Be A Good Collaborator</title>
+      <link>/2018/01/26/how-to-be-a-good-collaborator/</link>
+      <pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/01/26/how-to-be-a-good-collaborator/</guid>
+      <description>&lt;p&gt;I try to teach my students more than just knowledge. What I have been trying to help students with is learn how to be a good collaborator. I would say of my skills, the two most vital are 1) being able to collaborate and communicate effectively, and 2) project management.&lt;/p&gt;
+
+&lt;p&gt;Over 16 years in the collaboration business, I&amp;rsquo;ve compiled the following guidelines for myself. Maybe they&amp;rsquo;re helpful to someone else.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Be willing to learn&lt;/em&gt;. One of the best pieces of advice that I&amp;rsquo;ve received is to not just be a calculating drone. I&amp;rsquo;m not just there to blindly put the data into a machine learning algorithm and spit out the results. I have to be willing to take a deep dive into understanding the domain. If my collaborators can&amp;rsquo;t communicate what they&amp;rsquo;re looking for in the data, I probably can&amp;rsquo;t find it.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Be willing to teach others&lt;/em&gt;. This is the flip-side of 1.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Ask questions&lt;/em&gt;. &lt;em&gt;Don&amp;rsquo;t be afraid to show ignorance about the domain&lt;/em&gt;. Showing ignorance, but with an openness to learn is one of the fastest ways to learn. We don&amp;rsquo;t value people who say &amp;ldquo;I don&amp;rsquo;t know&amp;rdquo; enough. If you&amp;rsquo;re unwilling to say &amp;ldquo;I don&amp;rsquo;t know&amp;rdquo;, you&amp;rsquo;re probably not going to learn enough to make the project a success.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Understand your collaborator&amp;rsquo;s motivations&lt;/em&gt;. Understanding their point of view is of vital importance. One example is that one of my collaborators asked for a heatmap of their data, but in talking with them we found a way more appropriate visualization to show differences.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Be flexible&lt;/em&gt;. &lt;em&gt;Be uncomfortable&lt;/em&gt;. &lt;em&gt;Be vulnerable&lt;/em&gt;. Don&amp;rsquo;t let ego get in the way of your collaboration. Get to an honest place with your collaborators. If you can&amp;rsquo;t find a way to trust them, then rethink this collaboration.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Establish ground rules for a safe collaborative environment&lt;/em&gt;. These are important for establishing boundaries. I&amp;rsquo;ve had some collaborators who expect me to do work on weekends. I&amp;rsquo;ve had to gently say now, and model the behavior that I want. (&amp;ldquo;I can&amp;rsquo;t work on it this weekend. I will do this first thing on Monday.&amp;rdquo;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Be professional&lt;/em&gt;. I know that we value supposed &amp;ldquo;mavericks&amp;rdquo; like Steve Jobs and Elon Musk. But this kind of attitude when working with a collaborator is really offputting.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Communicate frequently enough&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Listen, and then attempt to clarify&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Never think a project or a field is &amp;ldquo;below you&amp;rdquo;, or a &amp;ldquo;waste of your time&amp;rdquo;&lt;/em&gt;. Some of my best ideas have come from working in the trenches and wrangling the data, and especially in participating in generating the data. This point of view is really invaluable. It enables you to wonder and notice strange things about the dataset.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Don&amp;rsquo;t work with assholes, no matter how prestigious they are&lt;/em&gt;. Seriously, read the [&lt;em&gt;No Asshole Rule&lt;/em&gt;](). And read it again. Strive not to be an asshole.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Don&amp;rsquo;t ever assume something about the data&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Have fun&lt;/em&gt;. The best collaborators are the ones I look forward to working with. I try to maximize my time for these collaborations, and minimize from the ones that drain my energy.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Value everyones&amp;rsquo; contributions&lt;/em&gt;. Everyone in your project is ideally working as hard as they can. Motivation, productivity, and creativity come from feeling psychologically safe and feeling like your work is being valued.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Read Give and Take&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Know when to walk away&lt;/em&gt;. More than anyone, I&amp;rsquo;m guilty of the [sunken cost fallacy]() when working with collaborators.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I suppose this is really presumptive of me, but I&amp;rsquo;m surprised at how many people (not just students) do not practice even a third of these.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A gRadual Introduction to Shiny</title>
       <link>/2018/01/24/gradual-introduction-to-shiny/</link>
       <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
@@ -549,51 +607,6 @@ fosters the other.”&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/profile/Kendell_Pawelec/publication/247857346_Arts_Foster_Scientific_Success_Avocations_of_Nobel_National_Academy_Royal_Society_and_Sigma_Xi_Members/links/00b4953c00f875f191000000.pdf&#34; target=&#34;_blank&#34;&gt;Arts Foster Scientific Success&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.ecologyandsociety.org/vol20/iss2/art3/&#34; target=&#34;_blank&#34;&gt;Dual Thinking for Scientists&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Fostering a Peer Mentoring Culture</title>
-      <link>/2017/04/17/building-a-peer-mentoring/</link>
-      <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/04/17/building-a-peer-mentoring/</guid>
-      <description>&lt;p&gt;I realize that it has been an embarrasingly long time since I updated this blog. I had all sorts of grandiose plans for it, and I think my problem was that I was thinking too broad, too pie-in-the-sky. I&amp;rsquo;m going to try to focus on short and informative blog posts.&lt;/p&gt;
-
-&lt;p&gt;One of the things that I have been thinking about graduate school is the idea of building a Peer Mentoring culture in our department. I believe that students should help and support each other, and we need to provide a forum to do that. Not just assign mentors, but provide a time and a place to do that.&lt;/p&gt;
-
-&lt;p&gt;We try to foster a mentoring culture within our student group, &lt;a href=&#34;https://biodata-club.github.io&#34; target=&#34;_blank&#34;&gt;BioData-Club&lt;/a&gt;. Students are free to talk about issues that concern them, especially about datasets, and are encouraged to share their experiences of software that they&amp;rsquo;ve used. I believe that we try to give students a psychologically safe place to talk about their issues with data. We try to make people feel like they&amp;rsquo;re not alone, and coach beginners so they can get over the hump.&lt;/p&gt;
-
-&lt;p&gt;We&amp;rsquo;re now embarking on an experiment to reach even more people at OHSU, because we know there are lots of students who struggle with practical skills in data analysis. Our group is growing, and that&amp;rsquo;s exciting.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m going to try and get everyone in our group to write a paper about Peer Mentoring Culture and how to encourage it in other schools.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Surrogate Oncogene Paper is Published</title>
-      <link>/2015/12/23/surrogate-oncogene-paper/</link>
-      <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/2015/12/23/surrogate-oncogene-paper/</guid>
-      <description>&lt;p&gt;My dissertation paper, &lt;a href=&#34;http://journal.frontiersin.org/article/10.3389/fgene.2015.00341/abstract&#34; target=&#34;_blank&#34;&gt;A Network-Based Model of Oncogenic Collaboration for Prediction of Drug Sensitivity&lt;/a&gt; is now published! Here&amp;rsquo;s a lay summary:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;One outstanding issue in analyzing genomics in the context of personalized medicine is the incorporation of rare
-or infrequent genetic alterations (copy number alterations and somatic mutations) that are observed in individual &amp;gt; patients. We hypothesize that these mutations may actually &amp;lsquo;collaborate&amp;rsquo; with known oncogenes in the genesis of
-tumors through their interactions. In order to show this effect, we assess whether these interacting rare
-mutations cluster around known oncogenes and assess these mutational clusters, which we term &lt;em&gt;surrogate
-oncogenes&lt;/em&gt;. We assess their statistical significance using a simple model of mutation. We show that surrogate
-oncogenes are predictive of drug sensitivity in breast cancer cell lines. Additionally, they are prevalent in
-three different cancer cohorts (Breast, Glioblastoma, and Bladder Cancer) from The Cancer Genome Atlas. Within
-the Breast Cancer and Bladder Cancer populations, surrogate oncogenes are predictive of overall patient
-survival. The chief strength of the surrogate oncogene approach is that it can be run at a single-patient
-level in comparison to other methods of assessing mutational significance.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;If you&amp;rsquo;re interested in learning more, you can check out the &lt;a href=&#34;https://tladeras.shinyapps.io/surrogateShiny/&#34; target=&#34;_blank&#34;&gt;Surrogate Oncogene Explorer&lt;/a&gt; in order to understand the nature of surrogate oncogenes, and my &lt;a href=&#34;https://github.com/laderast/surrogateMutation&#34; target=&#34;_blank&#34;&gt;R/Bioconductor Package on GitHub&lt;/a&gt; if you&amp;rsquo;d like to try out the analysis.&lt;/p&gt;
-
-&lt;p&gt;There&amp;rsquo;s a follow-up paper that I&amp;rsquo;m working on that I&amp;rsquo;m very excited about. More news soon.&lt;/p&gt;
 </description>
     </item>
     
