@@ -11,6 +11,32 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Some Notes from the Evidence to Scholarship Conference</title>
+      <link>/2018/03/19/some-notes-from-the-evidence-to-scholarship-conference/</link>
+      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/03/19/some-notes-from-the-evidence-to-scholarship-conference/</guid>
+      <description>&lt;p&gt;Last week I had the good fortune to attend the &lt;a href=&#34;http://www.reed.edu/e2s/conference/index.html&#34; target=&#34;_blank&#34;&gt;From Evidence to Scholarship Conference&lt;/a&gt; at my alma mater, Reed College. The focus of the conference was improving the research process for undergraduates using digital scholarship. I came away from it excited about the work other people are doing in this realm and thinking about ways we could adapt these approaches.&lt;/p&gt;
+
+&lt;p&gt;Nicole Vasilevsky and I (both former Reedies) each gave talks, about our [experience developing materials for Data Science]() and giving workshops to undergraduates.&lt;/p&gt;
+
+&lt;p&gt;I found the conference to be very exciting and friendly overall. Laurie Allen kicked off the conference with a plenary session talking about the role digital scholarship librarians can have in the community surrounding them, talking about her work with &lt;a href=&#34;http://monumentlab.com&#34; target=&#34;_blank&#34;&gt;Monument Lab&lt;/a&gt; and &lt;a href=&#34;https://www.datarefuge.org&#34; target=&#34;_blank&#34;&gt;Data Refuge&lt;/a&gt;. Key takeaway point: it&amp;rsquo;s ok to do something badly if it gets the conversation started with the community.&lt;/p&gt;
+
+&lt;p&gt;One of the key takeaway points from the conference is the role that digital scholarship librarians have in revamping current curricula at the liberal arts colleges. They often do short-form training (in digital scholarship tools, such as webpage building and network analysis), which when integrated into a current course, can revitalize the course. &lt;a href=&#34;https://fromevidencetoscholarshipco2018.sched.com/event/DfDC/two-sessions-undergraduate-mvps-the-modernist-versions-project-digital-humanities-open-education-resources-connecting-text-and-data-a-collaborative-teaching-approach-to-a-literary-network-analysis-project-for-undergraduates&#34; target=&#34;_blank&#34;&gt;Laura O&amp;rsquo;Brien and Hélène Bilis&lt;/a&gt; talked about integrating digital scholarship tools into a french literature course, talking about modeling the social networks of characters and how they evolved over time.&lt;/p&gt;
+
+&lt;p&gt;An exciting talk was about the &lt;a href=&#34;http://iliads.org&#34; target=&#34;_blank&#34;&gt;ILiADS&lt;/a&gt; program, which is a multi-disciplinary digital scholarship program. It&amp;rsquo;s run as a summer institute which starts as teams of students, faculty and staff. The projects are student driven and they try to incorporate both students with the technical skills and those who are non-technical. I really liked this idea of teaming up students from different fields and having faculty to advise them as needed. I&amp;rsquo;d like to try something similar at OHSU.&lt;/p&gt;
+
+&lt;p&gt;Collaboration with allied departments led to enhanced interdisciplinary courses. Jon Caris&amp;rsquo; talk about his &lt;a href=&#34;http://www.science.smith.edu/sal/&#34; target=&#34;_blank&#34;&gt;Spatial Analysis Lab&lt;/a&gt; at Smith College and the unexpected collaborations they had was a really great one, talking about using spatial analysis to analyze painting styles in the Painting III course, and using GIS to map out invasive species at a pond at Smith College for an intro Biology class. One of the best quotes from his talk was talking about emerging technology: &amp;ldquo;Emerging technology means that you&amp;rsquo;re in a perpetual state of incompetence. And that&amp;rsquo;s a fun place to be.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;d be remiss if I didn&amp;rsquo;t mention Parveneh Abbaspour and Jeremy McWilliams&amp;rsquo; talk about &lt;a href=&#34;http://lcphysx.lclark.edu&#34; target=&#34;_blank&#34;&gt;LCPhysX&lt;/a&gt;, which is an online video archive showcasing student projects in the physics department. The videos are really great, especially the one about the &lt;a href=&#34;http://lcphysx.lclark.edu/project/golf-robot/&#34; target=&#34;_blank&#34;&gt;Golf Robot&lt;/a&gt;. The engagement of the students actually seems to have had an effect on admissions; a few of the new physics students actually noted that the LCPhysX site made them decide to go to Lewis and Clark.&lt;/p&gt;
+
+&lt;p&gt;Finally, I really enjoyed Andrew Bray&amp;rsquo;s talk about his collaborative course, &amp;ldquo;&lt;a href=&#34;https://github.com/ds-elections&#34; target=&#34;_blank&#34;&gt;Case Studies in Data Science: Elections&lt;/a&gt;&amp;rdquo;, where he solicited political scientists about important problems in voting for the students to tackle. By giving them some basic analyses in R, the students managed to complete a number of projects, including a package for &lt;a href=&#34;https://github.com/ds-elections/rcv&#34; target=&#34;_blank&#34;&gt;visualizing ranked choice voting&lt;/a&gt;, which is actually being utilized for visualizing these results.&lt;/p&gt;
+
+&lt;p&gt;I emerged from this conference excited about the passion that undergraduates have and excited about how digital scholarship librarians can change curricula for the better.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Data Science and Systems Science</title>
       <link>/2018/02/28/data-science-and-systems-science/</link>
       <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
@@ -561,24 +587,6 @@ fosters the other.”&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/profile/Kendell_Pawelec/publication/247857346_Arts_Foster_Scientific_Success_Avocations_of_Nobel_National_Academy_Royal_Society_and_Sigma_Xi_Members/links/00b4953c00f875f191000000.pdf&#34; target=&#34;_blank&#34;&gt;Arts Foster Scientific Success&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.ecologyandsociety.org/vol20/iss2/art3/&#34; target=&#34;_blank&#34;&gt;Dual Thinking for Scientists&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Fostering a Peer Mentoring Culture</title>
-      <link>/2017/04/17/building-a-peer-mentoring/</link>
-      <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/04/17/building-a-peer-mentoring/</guid>
-      <description>&lt;p&gt;I realize that it has been an embarrasingly long time since I updated this blog. I had all sorts of grandiose plans for it, and I think my problem was that I was thinking too broad, too pie-in-the-sky. I&amp;rsquo;m going to try to focus on short and informative blog posts.&lt;/p&gt;
-
-&lt;p&gt;One of the things that I have been thinking about graduate school is the idea of building a Peer Mentoring culture in our department. I believe that students should help and support each other, and we need to provide a forum to do that. Not just assign mentors, but provide a time and a place to do that.&lt;/p&gt;
-
-&lt;p&gt;We try to foster a mentoring culture within our student group, &lt;a href=&#34;https://biodata-club.github.io&#34; target=&#34;_blank&#34;&gt;BioData-Club&lt;/a&gt;. Students are free to talk about issues that concern them, especially about datasets, and are encouraged to share their experiences of software that they&amp;rsquo;ve used. I believe that we try to give students a psychologically safe place to talk about their issues with data. We try to make people feel like they&amp;rsquo;re not alone, and coach beginners so they can get over the hump.&lt;/p&gt;
-
-&lt;p&gt;We&amp;rsquo;re now embarking on an experiment to reach even more people at OHSU, because we know there are lots of students who struggle with practical skills in data analysis. Our group is growing, and that&amp;rsquo;s exciting.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m going to try and get everyone in our group to write a paper about Peer Mentoring Culture and how to encourage it in other schools.&lt;/p&gt;
 </description>
     </item>
     
