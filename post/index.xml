@@ -11,6 +11,16 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Why I Still have Impostor Syndrome after 15 years of experience</title>
+      <link>/2018/03/29/why-i-still-have-impostor-syndrome-after-15-years-experience/</link>
+      <pubDate>Thu, 29 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/03/29/why-i-still-have-impostor-syndrome-after-15-years-experience/</guid>
+      <description>&lt;p&gt;I believe in modeling good behavior. I also believe in transparency of process.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Some Notes from the Evidence to Scholarship Conference</title>
       <link>/2018/03/19/some-notes-from-the-evidence-to-scholarship-conference/</link>
       <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
@@ -18,7 +28,7 @@
       <guid>/2018/03/19/some-notes-from-the-evidence-to-scholarship-conference/</guid>
       <description>&lt;p&gt;Last week I had the good fortune to attend the &lt;a href=&#34;http://www.reed.edu/e2s/conference/index.html&#34; target=&#34;_blank&#34;&gt;From Evidence to Scholarship Conference&lt;/a&gt; at my alma mater, Reed College. The focus of the conference was improving the research process for undergraduates using digital scholarship. I came away from it excited about the work other people are doing in this realm and thinking about ways we could adapt these approaches.&lt;/p&gt;
 
-&lt;p&gt;Nicole Vasilevsky and I (both former Reedies) each gave talks, about our &lt;a href=&#34;http://laderast.github.io/data-sci-resources/&#34; target=&#34;_blank&#34;&gt;experience developing materials for Data Science&lt;/a&gt; and giving workshops to undergraduates.&lt;/p&gt;
+&lt;p&gt;Nicole Vasilevsky and I (both former Reedies) each gave talks, about our &lt;a href=&#34;http://laderast.github.io/data-sci-resources/&#34; target=&#34;_blank&#34;&gt;experience developing materials for Data Science&lt;/a&gt; and &lt;a href=&#34;https://www.slideshare.net/NicoleVasilevsky/teaching-data-science-to-undergraduate-students&#34; target=&#34;_blank&#34;&gt;giving data science workshops to undergraduates&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I found the conference to be very exciting and friendly overall. Laurie Allen kicked off the conference with a plenary session talking about the role digital scholarship librarians can have in the community surrounding them, talking about her work with &lt;a href=&#34;http://monumentlab.com&#34; target=&#34;_blank&#34;&gt;Monument Lab&lt;/a&gt; and &lt;a href=&#34;https://www.datarefuge.org&#34; target=&#34;_blank&#34;&gt;Data Refuge&lt;/a&gt;. Key takeaway point: it&amp;rsquo;s ok to do something badly if it gets the conversation started with the community.&lt;/p&gt;
 
@@ -554,40 +564,6 @@ and &lt;a href=&#34;https://odscwest.pathable.com/meetings/604496&#34; target=&#
       
       <guid>/2017/04/20/building-an-os-community/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>On Breadth and Depth in Your Academic Career</title>
-      <link>/2017/04/19/breadth-and-depth/</link>
-      <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/04/19/breadth-and-depth/</guid>
-      <description>
-
-&lt;p&gt;I was talking with a student and they were complaining that when at conferences, they would try to inject other topics of interest (such as cooking) into discussions with colleagues. Unfortunately, one of the after effects of this was that they were looked at as &amp;ldquo;not a serious scientist&amp;rdquo;. There&amp;rsquo;s an expectation that a scientist must be all depth, only talking and thinking about their sub-field.&lt;/p&gt;
-
-&lt;p&gt;As a cross disciplinarian, I have to say that is hogwash. The genesis of so many creative ideas in science has happened because of cross-pollination across disciplines. For example, &lt;a href=&#34;https://blogs.scientificamerican.com/guest-blog/lindau-nobel-meeting-the-cross-pollination-of-ideas/&#34; target=&#34;_blank&#34;&gt;microwave technology&lt;/a&gt; might never have been invented without the intersection of disciplines. We know that the &lt;a href=&#34;https://www.researchgate.net/profile/Kendell_Pawelec/publication/247857346_Arts_Foster_Scientific_Success_Avocations_of_Nobel_National_Academy_Royal_Society_and_Sigma_Xi_Members/links/00b4953c00f875f191000000.pdf&#34; target=&#34;_blank&#34;&gt;Arts Foster Scientific Success&lt;/a&gt; - a large number of Nobel and National Academy members do art in some form or other. Bernstein et al theorize that&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“there exist functional connections between scientific talent and arts,
-crafts, and communications talents so that inheriting or developing one
-fosters the other.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Having breadth and depth enables you to make connections that no one else has. It is the hallmark of a curious and creative person. These kinds of people are desparately needed to push science in new directions.&lt;/p&gt;
-
-&lt;p&gt;I have a parallel career in &lt;a href=&#34;http://15people.net&#34; target=&#34;_blank&#34;&gt;performance and improvisational music&lt;/a&gt;. Music, for me, is endlessly inspiring and has forced me out of my introverted shell. One of the reasons I took up cello is that I can play many roles; accompanist, rhythm, solo. This flexibility in playing music has translated to my flexibility in collaboration. Being able to adjust to new circumstances and improvise new ideas to explore is a critical component of being a responsible scientist. My background improvisation has helped me pivot ideas. I have become less attached to dogmatic ideas. Many of my good ideas come from idle wondering about data that has captured my imagination. This is part of the reason why I teach students &lt;a href=&#34;https://github.com/laderast/shinyEDA&#34; target=&#34;_blank&#34;&gt;how to explore their data&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;So, the next time another scientist looks down at you for being a polymath, pity them. Their world and their ideas are not as rich as yours.&lt;/p&gt;
-
-&lt;h3 id=&#34;further-reading&#34;&gt;Further Reading&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://priceonomics.com/the-correlation-between-arts-and-crafts-and-a/&#34; target=&#34;_blank&#34;&gt;The Correlation Between Arts and Crafts and a Nobel  Prize&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/profile/Kendell_Pawelec/publication/247857346_Arts_Foster_Scientific_Success_Avocations_of_Nobel_National_Academy_Royal_Society_and_Sigma_Xi_Members/links/00b4953c00f875f191000000.pdf&#34; target=&#34;_blank&#34;&gt;Arts Foster Scientific Success&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ecologyandsociety.org/vol20/iss2/art3/&#34; target=&#34;_blank&#34;&gt;Dual Thinking for Scientists&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
     </item>
     
   </channel>

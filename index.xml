@@ -11,6 +11,16 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Why I Still have Impostor Syndrome after 15 years of experience</title>
+      <link>/2018/03/29/why-i-still-have-impostor-syndrome-after-15-years-experience/</link>
+      <pubDate>Thu, 29 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/03/29/why-i-still-have-impostor-syndrome-after-15-years-experience/</guid>
+      <description>&lt;p&gt;I believe in modeling good behavior. I also believe in transparency of process.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Some Notes from the Evidence to Scholarship Conference</title>
       <link>/2018/03/19/some-notes-from-the-evidence-to-scholarship-conference/</link>
       <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
@@ -18,7 +28,7 @@
       <guid>/2018/03/19/some-notes-from-the-evidence-to-scholarship-conference/</guid>
       <description>&lt;p&gt;Last week I had the good fortune to attend the &lt;a href=&#34;http://www.reed.edu/e2s/conference/index.html&#34; target=&#34;_blank&#34;&gt;From Evidence to Scholarship Conference&lt;/a&gt; at my alma mater, Reed College. The focus of the conference was improving the research process for undergraduates using digital scholarship. I came away from it excited about the work other people are doing in this realm and thinking about ways we could adapt these approaches.&lt;/p&gt;
 
-&lt;p&gt;Nicole Vasilevsky and I (both former Reedies) each gave talks, about our &lt;a href=&#34;http://laderast.github.io/data-sci-resources/&#34; target=&#34;_blank&#34;&gt;experience developing materials for Data Science&lt;/a&gt; and giving workshops to undergraduates.&lt;/p&gt;
+&lt;p&gt;Nicole Vasilevsky and I (both former Reedies) each gave talks, about our &lt;a href=&#34;http://laderast.github.io/data-sci-resources/&#34; target=&#34;_blank&#34;&gt;experience developing materials for Data Science&lt;/a&gt; and &lt;a href=&#34;https://www.slideshare.net/NicoleVasilevsky/teaching-data-science-to-undergraduate-students&#34; target=&#34;_blank&#34;&gt;giving data science workshops to undergraduates&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I found the conference to be very exciting and friendly overall. Laurie Allen kicked off the conference with a plenary session talking about the role digital scholarship librarians can have in the community surrounding them, talking about her work with &lt;a href=&#34;http://monumentlab.com&#34; target=&#34;_blank&#34;&gt;Monument Lab&lt;/a&gt; and &lt;a href=&#34;https://www.datarefuge.org&#34; target=&#34;_blank&#34;&gt;Data Refuge&lt;/a&gt;. Key takeaway point: it&amp;rsquo;s ok to do something badly if it gets the conversation started with the community.&lt;/p&gt;
 
@@ -45,6 +55,54 @@
       <description>&lt;p&gt;I gave a talk for the Portland State University Systems Science seminar called &lt;em&gt;&lt;a href=&#34;https://laderast.github.io/sysc_data_sci/&#34; target=&#34;_blank&#34;&gt;How are Data Science and Systems Science Connected?&lt;/a&gt;&lt;/em&gt;. In this talk, I was highlighting current blind spots in Data Science that I think Systems Science approaches can address, especially that of interactions between features. I talked a little about my dissertation research (surrogate oncogenes), and the problem of &lt;em&gt;black-box interpretability&lt;/em&gt; of predictive models.&lt;/p&gt;
 
 &lt;p&gt;If you&amp;rsquo;re interested in listening to the recording, the playback is available here: &lt;a href=&#34;https://us.bbcollab.com/recording/059acf5cfed64f9abbf7cf432fdfb566&#34; target=&#34;_blank&#34;&gt;https://us.bbcollab.com/recording/059acf5cfed64f9abbf7cf432fdfb566&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How To Be A Good Collaborator</title>
+      <link>/how-to-be-a-good-collaborator/</link>
+      <pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/how-to-be-a-good-collaborator/</guid>
+      <description>&lt;p&gt;I try to teach my students more than just knowledge. What I have been trying to help students with is learn how to be a good collaborator. I would say of my skills, the two most vital are 1) being able to collaborate and communicate effectively, and 2) project management.&lt;/p&gt;
+
+&lt;p&gt;Over 16 years in the collaboration business, I&amp;rsquo;ve compiled the following guidelines for myself. Maybe they&amp;rsquo;re helpful to someone else.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Be willing to learn&lt;/em&gt;. One of the best pieces of advice that I&amp;rsquo;ve received is to not just be a calculating drone. I&amp;rsquo;m not just there to blindly put the data into a machine learning algorithm and spit out the results. I have to be willing to take a deep dive into understanding the domain. If my collaborators can&amp;rsquo;t communicate what they&amp;rsquo;re looking for in the data, I probably can&amp;rsquo;t find it.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Be willing to teach others&lt;/em&gt;. This is the flip-side of 1.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Ask questions&lt;/em&gt;. &lt;em&gt;Don&amp;rsquo;t be afraid to show ignorance about the domain&lt;/em&gt;. Showing ignorance, but with an openness to learn is one of the fastest ways to learn. We don&amp;rsquo;t value people who say &amp;ldquo;I don&amp;rsquo;t know&amp;rdquo; enough. If you&amp;rsquo;re unwilling to say &amp;ldquo;I don&amp;rsquo;t know&amp;rdquo;, you&amp;rsquo;re probably not going to learn enough to make the project a success.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Understand your collaborator&amp;rsquo;s motivations&lt;/em&gt;. Understanding their point of view is of vital importance. One example is that one of my collaborators asked for a heatmap of their data, but in talking with them we found a way more appropriate visualization to show differences.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Be flexible&lt;/em&gt;. &lt;em&gt;Be uncomfortable&lt;/em&gt;. &lt;em&gt;Be vulnerable&lt;/em&gt;. Don&amp;rsquo;t let ego get in the way of your collaboration. Get to an honest place with your collaborators. If you can&amp;rsquo;t find a way to trust them, then rethink this collaboration.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Establish ground rules for a safe collaborative environment&lt;/em&gt;. These are important for establishing boundaries. I&amp;rsquo;ve had some collaborators who expect me to do work on weekends. I&amp;rsquo;ve had to gently say now, and model the behavior that I want. (&amp;ldquo;I can&amp;rsquo;t work on it this weekend. I will do this first thing on Monday.&amp;rdquo;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Be professional&lt;/em&gt;. I know that we value supposed &amp;ldquo;mavericks&amp;rdquo; like Steve Jobs and Elon Musk. But this kind of attitude when working with a collaborator is really offputting.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Communicate frequently enough&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Listen, and then attempt to clarify&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Never think a project or a field is &amp;ldquo;below you&amp;rdquo;, or a &amp;ldquo;waste of your time&amp;rdquo;&lt;/em&gt;. Some of my best ideas have come from working in the trenches and wrangling the data, and especially in participating in generating the data. This point of view is really invaluable. It enables you to wonder and notice strange things about the dataset.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Don&amp;rsquo;t work with assholes, no matter how prestigious they are&lt;/em&gt;. Seriously, read the [&lt;em&gt;No Asshole Rule&lt;/em&gt;](). And read it again. Strive not to be an asshole.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Don&amp;rsquo;t ever assume something about the data&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Have fun&lt;/em&gt;. The best collaborators are the ones I look forward to working with. I try to maximize my time for these collaborations, and minimize from the ones that drain my energy.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Value everyones&amp;rsquo; contributions&lt;/em&gt;. Everyone in your project is ideally working as hard as they can. Motivation, productivity, and creativity come from feeling psychologically safe and feeling like your work is being valued.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Read Give and Take&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Know when to walk away&lt;/em&gt;. More than anyone, I&amp;rsquo;m guilty of the [sunken cost fallacy]() when working with collaborators.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I suppose this is really presumptive of me, but I&amp;rsquo;m surprised at how many people (not just students) do not practice even a third of these.&lt;/p&gt;
 </description>
     </item>
     
@@ -573,64 +631,6 @@ and &lt;a href=&#34;https://odscwest.pathable.com/meetings/604496&#34; target=&#
       <description>&lt;p&gt;I&amp;rsquo;m going to be giving a talk for the PDX RLang Meetup on July 11 called &amp;ldquo;&lt;a href=&#34;https://www.meetup.com/portland-r-user-group/events/240846589/&#34; target=&#34;_blank&#34;&gt;How to Not Be Afraid of Your Data: Teaching EDA using Shiny&lt;/a&gt;&amp;rdquo;. Abstract below.&lt;/p&gt;
 
 &lt;p&gt;Many graduate students in the basic sciences are afraid of data exploration and cleaning, which can greatly impact their downstream analysis results. By using a synthetic dataset, some simple &lt;code&gt;dplyr&lt;/code&gt; commands, and a &lt;code&gt;shiny&lt;/code&gt; dashboard, we teach graduate students how to explore their data and how to handle issues that can arise (missing values, differences in units). For this talk, we&amp;rsquo;ll run through a simple EDA example (combining two weight loss datasets) with a general data explorer in &lt;code&gt;shiny&lt;/code&gt; that can be easily customized to teach specific EDA concepts.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Some Lessons We Learned Running Cascadia-R</title>
-      <link>/2017/06/07/cascadiarnotes/</link>
-      <pubDate>Wed, 07 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/06/07/cascadiarnotes/</guid>
-      <description>&lt;p&gt;Well, the first &lt;a href=&#34;http://cascadiarconf.com&#34; target=&#34;_blank&#34;&gt;Cascadia R Conference&lt;/a&gt; has come and gone. I have to say that it was super fun, and well attended (over 190 people!). I had a blast meeting and chatting with everyone. Hopefully, we showed newbies that R is learnable and others that there are lots more things to learn about R.&lt;/p&gt;
-
-&lt;p&gt;The following is my attempt to document what we learned from organizing Cascadia-R. It&amp;rsquo;s not complete; I may add and subtract from it as I think of more things to say about the planning process.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Decide the tone&lt;/strong&gt;. Our goals with Cascadia-R were modest. We wanted to get a diverse group of R users together in a safe and encouraging environment. We wanted our workshops to be accessible to even beginners, and encourage them in the use of R.&lt;/p&gt;
-
-&lt;p&gt;Part of meeting these goals of this is setting the tone. We really wanted to encourage all levels of R users to attend. All of our flyers, emails and promotional tweets encouraged beginners to come. We got help with making a &lt;a href=&#34;https://cascadiarconf.com/coc/&#34; target=&#34;_blank&#34;&gt;Code of Conduct&lt;/a&gt; for the conference. Part of creating a supportive environment is encouraging diversity in both speakers and attendees. We did our best to reach out to current groups that encourage diversity, such as &lt;a href=&#34;http://wisportland.weebly.com&#34; target=&#34;_blank&#34;&gt;Women in Science Portland&lt;/a&gt;, and &lt;a href=&#34;https://rladies.org&#34; target=&#34;_blank&#34;&gt;R-Ladies Global&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;We also offered diversity scholarships to encourage people from diverse backgrounds to attend, and made diversity part of our criteria for selecting talks.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Start planning early&lt;/strong&gt;. As junior faculty at OHSU, I&amp;rsquo;m lucky enough to be able to book facilities here, including the large learning studios where we held the conference. Having the venue secured early on made the remaining logistics of the conference much easier.&lt;/p&gt;
-
-&lt;p&gt;Much like wedding planning, there are plenty of conference planning services out there who would be happy to take over aspects of your conference, for a fee. You can spend however much you want to on these things. However, I believe that such a approach is not financially responsible. I also feel that taking a more DIY/bespoke approach can make a conference most engaging (see &lt;a href=&#34;https://csvconf.com&#34; target=&#34;_blank&#34;&gt;csvconf&lt;/a&gt;). We tried to do most things ourselves (including design, promotion, talk submission, workshops, and registration/logistics).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Iterate your budget&lt;/strong&gt;. Think of a conference as a project with lots of linked dependencies. Your first plan is probably not going to be your final plan. Start a plan, iterate, realize that things are going to shift, have a backup plan. What if registration is not going to pay for the venue rental fee? Talking to simpatico sponsors can take much of the financial stress. In our case, the &lt;a href=&#34;https://www.rstudio.com&#34; target=&#34;_blank&#34;&gt;Rstudio&lt;/a&gt; foundation and &lt;a href=&#34;https://ropensci.org&#34; target=&#34;_blank&#34;&gt;ROpenSci&lt;/a&gt; stepped up to contribute some money as a cushion.&lt;/p&gt;
-
-&lt;p&gt;Remember, there are &lt;em&gt;fixed costs&lt;/em&gt; (such as venue rental, and recording/streaming costs) and &lt;em&gt;variable costs&lt;/em&gt; that scale with the number of attendees (food, badges, alcohol). Separate these out. When possible, pay off the fixed costs first, so that it&amp;rsquo;s easier to manage the variable costs.&lt;/p&gt;
-
-&lt;p&gt;Again, who is your desired audience and can they afford your conference? We decided to make our conference as affordable as possible to encourage as many different kinds of people to attend. We initially wanted to make attendance free for students. The problem with free is that literally it&amp;rsquo;s free. It has no value in the mind of a person who accepts free admission. So we decided to charge students a small fee just to emphasize that the conference has value.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Talk with others who have done it&lt;/strong&gt;. We were very clueless about much of the logistics side at OHSU. I managed to get through by talking with a number of people here (including Robin Champieux and Shannon McWeeney) who have done conferences here at OHSU. Thank you so much for your invaluable advice.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Encourage each other and delegate&lt;/strong&gt;. No one of us could have done all of the conference planning alone. Each of us took on various aspects of conference organization and brought in the others as support as needed. Some of us selected talks, some of us did design, and we all pitched in to get registration working as efficiently and quickly as possible.&lt;/p&gt;
-
-&lt;p&gt;Our slack channel on &lt;a href=&#34;https://pdxdata.slack.com&#34; target=&#34;_blank&#34;&gt;pdxdata.slack.com&lt;/a&gt; is full of our decisions. Slack was so useful as a planning mechanism that we only met online via Google Hangouts a few times, and only had two in-person planning sessions.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Be Willing to Make Mistakes&lt;/strong&gt;. Lord knows I made a bunch of mistakes when I made announcements and hosted the lightning sessions. However, I owned up to these mistakes, shrugged, and moved on. Improvising in the moment can be just as important as planning.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Think about the future&lt;/strong&gt;. What should the next Cascadia-R look like? I know it just happened, but we&amp;rsquo;re trying to envision what it would look like. Based on the feedback we&amp;rsquo;ve gotten so far, people really want more workshops!&lt;/p&gt;
-
-&lt;p&gt;In a following post, I&amp;rsquo;m also going to talk about lessons I learned when Chester and I put on our tidyverse workshop.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Objects: What are they for?</title>
-      <link>/2017/05/29/objects-what-are-they-for/</link>
-      <pubDate>Mon, 29 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/05/29/objects-what-are-they-for/</guid>
-      <description>&lt;p&gt;One area of programming that we do a really bad job teaching is Object-Oriented Programming (OOP). I was talking with one of my colleagues and he admitted that we don&amp;rsquo;t have enough time in our programming course (which is not CS) to show students what OOP is, much less what it&amp;rsquo;s for!&lt;/p&gt;
-
-&lt;p&gt;I usually find the examples that we teach in OOP to be rather useless to actually understanding what they&amp;rsquo;re for.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m going to talk about one reason to use Object Oriented Programming: to ensure data integrity in a Shiny App. Hopefully once you understand how I&amp;rsquo;ve applied the concepts here, you will start to think of other ways to apply them in your programming.&lt;/p&gt;
-
-&lt;p&gt;As most of you know, a Shiny App consists of two pieces: a User Interface piece, and a Server-side piece.&lt;/p&gt;
-
-&lt;p&gt;I finally understood why we encapsulate data in objects.&lt;/p&gt;
 </description>
     </item>
     
