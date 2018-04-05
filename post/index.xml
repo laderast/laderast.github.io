@@ -11,12 +11,16 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Why I Still have Impostor Syndrome after 15 years of experience</title>
-      <link>/2018/03/29/why-i-still-have-impostor-syndrome-after-15-years-experience/</link>
-      <pubDate>Thu, 29 Mar 2018 00:00:00 +0000</pubDate>
+      <title>A Simple Intro to Genome Wide Association</title>
+      <link>/2018/04/04/a-simple-intro-to-genome-wide-association/</link>
+      <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/03/29/why-i-still-have-impostor-syndrome-after-15-years-experience/</guid>
-      <description>&lt;p&gt;I believe in modeling good behavior. I also believe in transparency of process.&lt;/p&gt;
+      <guid>/2018/04/04/a-simple-intro-to-genome-wide-association/</guid>
+      <description>&lt;p&gt;This term, I&amp;rsquo;m co-teaching an undergraduate course for the PSU/OHSU School of Public Health called &lt;a href=&#34;https://ohsu-psu-sph.org/highlighted-sph-courses/&#34; target=&#34;_blank&#34;&gt;Health Informatics&lt;/a&gt; with a number of my collegues in my department, including Bill Hersh, Eilis Boudreau, Karen Eden, and Virginia Lankes. We&amp;rsquo;re trying to give students a feel for what informatics is about in an accessible way.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m trying to make the lectures as understandable as I can. This week we tackled Genome Wide Association Studies and discussed the strength of evidence behind SNP variants associated with phenotypes. We ended with an activity where they queried the GWAS catalog for information on particular SNP variants.&lt;/p&gt;
+
+&lt;p&gt;The repo for my lectures is here and will be updated as the course goes along: &lt;a href=&#34;https://github.com/laderast/HSMP410&#34; target=&#34;_blank&#34;&gt;https://github.com/laderast/HSMP410&lt;/a&gt; The lecture is here: &lt;a href=&#34;http://laderast.github.io/HSMP410/week1.2/&#34; target=&#34;_blank&#34;&gt;An Introduction to Bioinformatics: Genome Wide Association&lt;/a&gt; and the activity is here: &lt;a href=&#34;http://bit.ly/hsmp410snp&#34; target=&#34;_blank&#34;&gt;SNP In class assignment&lt;/a&gt;. All my material is free to use and released under Apache 2.0, so if this is interesting to you, please feel free to fork it and remix it!&lt;/p&gt;
 </description>
     </item>
     

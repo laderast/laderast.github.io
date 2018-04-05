@@ -5,7 +5,16 @@
     
     <url>
     
-      <loc>/2018/03/29/why-i-still-have-impostor-syndrome-after-15-years-experience/</loc>
+      <loc>/2018/04/04/a-simple-intro-to-genome-wide-association/</loc>
+      <lastmod>2018-04-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/why-i-still-have-impostor-syndrome-after-15-years-experience/</loc>
       <lastmod>2018-03-29T00:00:00+00:00</lastmod>
     </url>
     
@@ -239,6 +248,14 @@
     
     <url>
     
+      <loc>/teaching_cv/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/arts-music-plasticity-cross-discipline/</loc>
       <lastmod>2017-04-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -358,6 +375,16 @@
     
       <loc>/categories/git-hell/</loc>
       <lastmod>2018-01-05T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/gwas-active-learning/</loc>
+      <lastmod>2018-04-04T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -605,6 +632,16 @@
     
     <url>
     
+      <loc>/categories/teaching/</loc>
+      <lastmod>2018-04-04T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -616,14 +653,6 @@
     <url>
     
       <loc>/cvitae/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/teaching_cv/</loc>
     </url>
     
   
