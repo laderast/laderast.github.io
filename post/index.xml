@@ -11,6 +11,20 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Health Informatics Course Materials</title>
+      <link>/2018/04/25/health-informatics-course-materials/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/04/25/health-informatics-course-materials/</guid>
+      <description>&lt;p&gt;Sorry for the lack of posts. I have been busy with co-teaching our Health Informatics course (HSMP410) for the OHSU/PSU School of Public Health.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m trying to make most of my lectures activity-driven for my students, who range from Community Health Education and Nursing majors. I believe that you can teach mathematical concepts visually, so I am experimenting with using &lt;code&gt;LearnR&lt;/code&gt;/&lt;code&gt;Shiny&lt;/code&gt; to &lt;a href=&#34;https://tladeras.shinyapps.io/dataLiteracy/&#34; target=&#34;_blank&#34;&gt;teach the basics of data literacy&lt;/a&gt;. I&amp;rsquo;m also using &lt;code&gt;datacamp-light&lt;/code&gt; to show my students &lt;a href=&#34;http://laderast.github.io/HSMP410/week4.2/&#34; target=&#34;_blank&#34;&gt;a simple intro to data science&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;More information here: &lt;a href=&#34;https://laderast.github.io/HSMP410/&#34; target=&#34;_blank&#34;&gt;HMSP410 Health Informatics&lt;/a&gt; and the &lt;a href=&#34;https://github.com/laderast/HSMP410/&#34; target=&#34;_blank&#34;&gt;HMSP410 repository&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A Simple Intro to Genome Wide Association</title>
       <link>/2018/04/04/a-simple-intro-to-genome-wide-association/</link>
       <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
@@ -559,15 +573,6 @@ and &lt;a href=&#34;https://odscwest.pathable.com/meetings/604496&#34; target=&#
 
 &lt;p&gt;In a following post, I&amp;rsquo;m also going to talk about lessons I learned when Chester and I put on our tidyverse workshop.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Building an Open Source Community</title>
-      <link>/2017/04/20/building-an-os-community/</link>
-      <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/04/20/building-an-os-community/</guid>
-      <description></description>
     </item>
     
   </channel>

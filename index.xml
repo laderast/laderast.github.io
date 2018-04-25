@@ -11,6 +11,20 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Health Informatics Course Materials</title>
+      <link>/2018/04/25/health-informatics-course-materials/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/04/25/health-informatics-course-materials/</guid>
+      <description>&lt;p&gt;Sorry for the lack of posts. I have been busy with co-teaching our Health Informatics course (HSMP410) for the OHSU/PSU School of Public Health.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m trying to make most of my lectures activity-driven for my students, who range from Community Health Education and Nursing majors. I believe that you can teach mathematical concepts visually, so I am experimenting with using &lt;code&gt;LearnR&lt;/code&gt;/&lt;code&gt;Shiny&lt;/code&gt; to &lt;a href=&#34;https://tladeras.shinyapps.io/dataLiteracy/&#34; target=&#34;_blank&#34;&gt;teach the basics of data literacy&lt;/a&gt;. I&amp;rsquo;m also using &lt;code&gt;datacamp-light&lt;/code&gt; to show my students &lt;a href=&#34;http://laderast.github.io/HSMP410/week4.2/&#34; target=&#34;_blank&#34;&gt;a simple intro to data science&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;More information here: &lt;a href=&#34;https://laderast.github.io/HSMP410/&#34; target=&#34;_blank&#34;&gt;HMSP410 Health Informatics&lt;/a&gt; and the &lt;a href=&#34;https://github.com/laderast/HSMP410/&#34; target=&#34;_blank&#34;&gt;HMSP410 repository&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A Simple Intro to Genome Wide Association</title>
       <link>/2018/04/04/a-simple-intro-to-genome-wide-association/</link>
       <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
@@ -21,16 +35,6 @@
 &lt;p&gt;I&amp;rsquo;m trying to make the lectures as understandable as I can. This week we tackled Genome Wide Association Studies and discussed the strength of evidence behind SNP variants associated with phenotypes. We ended with an activity where they queried the GWAS catalog for information on particular SNP variants.&lt;/p&gt;
 
 &lt;p&gt;The repo for my lectures is here and will be updated as the course goes along: &lt;a href=&#34;https://github.com/laderast/HSMP410&#34; target=&#34;_blank&#34;&gt;https://github.com/laderast/HSMP410&lt;/a&gt; The lecture is here: &lt;a href=&#34;http://laderast.github.io/HSMP410/week1.2/&#34; target=&#34;_blank&#34;&gt;An Introduction to Bioinformatics: Genome Wide Association&lt;/a&gt; and the activity is here: &lt;a href=&#34;http://bit.ly/hsmp410snp&#34; target=&#34;_blank&#34;&gt;SNP In class assignment&lt;/a&gt;. All my material is free to use and released under Apache 2.0, so if this is interesting to you, please feel free to fork it and remix it!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Why I Still have Impostor Syndrome after 15 years of experience</title>
-      <link>/why-i-still-have-impostor-syndrome-after-15-years-experience/</link>
-      <pubDate>Thu, 29 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/why-i-still-have-impostor-syndrome-after-15-years-experience/</guid>
-      <description>&lt;p&gt;I believe in modeling good behavior. I also believe in transparency of process.&lt;/p&gt;
 </description>
     </item>
     
@@ -69,54 +73,6 @@
       <description>&lt;p&gt;I gave a talk for the Portland State University Systems Science seminar called &lt;em&gt;&lt;a href=&#34;https://laderast.github.io/sysc_data_sci/&#34; target=&#34;_blank&#34;&gt;How are Data Science and Systems Science Connected?&lt;/a&gt;&lt;/em&gt;. In this talk, I was highlighting current blind spots in Data Science that I think Systems Science approaches can address, especially that of interactions between features. I talked a little about my dissertation research (surrogate oncogenes), and the problem of &lt;em&gt;black-box interpretability&lt;/em&gt; of predictive models.&lt;/p&gt;
 
 &lt;p&gt;If you&amp;rsquo;re interested in listening to the recording, the playback is available here: &lt;a href=&#34;https://us.bbcollab.com/recording/059acf5cfed64f9abbf7cf432fdfb566&#34; target=&#34;_blank&#34;&gt;https://us.bbcollab.com/recording/059acf5cfed64f9abbf7cf432fdfb566&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How To Be A Good Collaborator</title>
-      <link>/how-to-be-a-good-collaborator/</link>
-      <pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/how-to-be-a-good-collaborator/</guid>
-      <description>&lt;p&gt;I try to teach my students more than just knowledge. What I have been trying to help students with is learn how to be a good collaborator. I would say of my skills, the two most vital are 1) being able to collaborate and communicate effectively, and 2) project management.&lt;/p&gt;
-
-&lt;p&gt;Over 16 years in the collaboration business, I&amp;rsquo;ve compiled the following guidelines for myself. Maybe they&amp;rsquo;re helpful to someone else.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Be willing to learn&lt;/em&gt;. One of the best pieces of advice that I&amp;rsquo;ve received is to not just be a calculating drone. I&amp;rsquo;m not just there to blindly put the data into a machine learning algorithm and spit out the results. I have to be willing to take a deep dive into understanding the domain. If my collaborators can&amp;rsquo;t communicate what they&amp;rsquo;re looking for in the data, I probably can&amp;rsquo;t find it.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Be willing to teach others&lt;/em&gt;. This is the flip-side of 1.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Ask questions&lt;/em&gt;. &lt;em&gt;Don&amp;rsquo;t be afraid to show ignorance about the domain&lt;/em&gt;. Showing ignorance, but with an openness to learn is one of the fastest ways to learn. We don&amp;rsquo;t value people who say &amp;ldquo;I don&amp;rsquo;t know&amp;rdquo; enough. If you&amp;rsquo;re unwilling to say &amp;ldquo;I don&amp;rsquo;t know&amp;rdquo;, you&amp;rsquo;re probably not going to learn enough to make the project a success.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Understand your collaborator&amp;rsquo;s motivations&lt;/em&gt;. Understanding their point of view is of vital importance. One example is that one of my collaborators asked for a heatmap of their data, but in talking with them we found a way more appropriate visualization to show differences.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Be flexible&lt;/em&gt;. &lt;em&gt;Be uncomfortable&lt;/em&gt;. &lt;em&gt;Be vulnerable&lt;/em&gt;. Don&amp;rsquo;t let ego get in the way of your collaboration. Get to an honest place with your collaborators. If you can&amp;rsquo;t find a way to trust them, then rethink this collaboration.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Establish ground rules for a safe collaborative environment&lt;/em&gt;. These are important for establishing boundaries. I&amp;rsquo;ve had some collaborators who expect me to do work on weekends. I&amp;rsquo;ve had to gently say now, and model the behavior that I want. (&amp;ldquo;I can&amp;rsquo;t work on it this weekend. I will do this first thing on Monday.&amp;rdquo;)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Be professional&lt;/em&gt;. I know that we value supposed &amp;ldquo;mavericks&amp;rdquo; like Steve Jobs and Elon Musk. But this kind of attitude when working with a collaborator is really offputting.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Communicate frequently enough&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Listen, and then attempt to clarify&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Never think a project or a field is &amp;ldquo;below you&amp;rdquo;, or a &amp;ldquo;waste of your time&amp;rdquo;&lt;/em&gt;. Some of my best ideas have come from working in the trenches and wrangling the data, and especially in participating in generating the data. This point of view is really invaluable. It enables you to wonder and notice strange things about the dataset.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Don&amp;rsquo;t work with assholes, no matter how prestigious they are&lt;/em&gt;. Seriously, read the [&lt;em&gt;No Asshole Rule&lt;/em&gt;](). And read it again. Strive not to be an asshole.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Don&amp;rsquo;t ever assume something about the data&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Have fun&lt;/em&gt;. The best collaborators are the ones I look forward to working with. I try to maximize my time for these collaborations, and minimize from the ones that drain my energy.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Value everyones&amp;rsquo; contributions&lt;/em&gt;. Everyone in your project is ideally working as hard as they can. Motivation, productivity, and creativity come from feeling psychologically safe and feeling like your work is being valued.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Read Give and Take&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Know when to walk away&lt;/em&gt;. More than anyone, I&amp;rsquo;m guilty of the [sunken cost fallacy]() when working with collaborators.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I suppose this is really presumptive of me, but I&amp;rsquo;m surprised at how many people (not just students) do not practice even a third of these.&lt;/p&gt;
 </description>
     </item>
     
@@ -633,6 +589,18 @@ and &lt;a href=&#34;https://odscwest.pathable.com/meetings/604496&#34; target=&#
 &lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/Axor/how-we-built-a-shiny-app-for-700-users&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/Axor/how-we-built-a-shiny-app-for-700-users&lt;/a&gt; Useful concepts: reactiveTrigger to force a rerender.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxsL/ensemble-packages-with-user-friendly-interface-an-added-value-for-the-r-community&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxsL/ensemble-packages-with-user-friendly-interface-an-added-value-for-the-r-community&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to Not Be Afraid of Your Data</title>
+      <link>/2017/06/28/howtonotbeafraid/</link>
+      <pubDate>Wed, 28 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/06/28/howtonotbeafraid/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m going to be giving a talk for the PDX RLang Meetup on July 11 called &amp;ldquo;&lt;a href=&#34;https://www.meetup.com/portland-r-user-group/events/240846589/&#34; target=&#34;_blank&#34;&gt;How to Not Be Afraid of Your Data: Teaching EDA using Shiny&lt;/a&gt;&amp;rdquo;. Abstract below.&lt;/p&gt;
+
+&lt;p&gt;Many graduate students in the basic sciences are afraid of data exploration and cleaning, which can greatly impact their downstream analysis results. By using a synthetic dataset, some simple &lt;code&gt;dplyr&lt;/code&gt; commands, and a &lt;code&gt;shiny&lt;/code&gt; dashboard, we teach graduate students how to explore their data and how to handle issues that can arise (missing values, differences in units). For this talk, we&amp;rsquo;ll run through a simple EDA example (combining two weight loss datasets) with a general data explorer in &lt;code&gt;shiny&lt;/code&gt; that can be easily customized to teach specific EDA concepts.&lt;/p&gt;
 </description>
     </item>
     
