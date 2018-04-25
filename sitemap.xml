@@ -344,7 +344,7 @@
     
     <url>
     
-      <loc>/categories/git-hell/</loc>
+      <loc>/tags/git-hell/</loc>
       <lastmod>2018-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -354,7 +354,7 @@
     
     <url>
     
-      <loc>/tags/git-hell/</loc>
+      <loc>/categories/git-hell/</loc>
       <lastmod>2018-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -483,7 +483,7 @@
     
     <url>
     
-      <loc>/categories/r/</loc>
+      <loc>/tags/r/</loc>
       <lastmod>2018-01-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -493,7 +493,7 @@
     
     <url>
     
-      <loc>/tags/r/</loc>
+      <loc>/categories/r/</loc>
       <lastmod>2018-01-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -603,16 +603,6 @@
     
     <url>
     
-      <loc>/categories/talking/</loc>
-      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/tags/talking/</loc>
       <lastmod>2018-01-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -623,8 +613,8 @@
     
     <url>
     
-      <loc>/categories/teaching/</loc>
-      <lastmod>2018-04-04T00:00:00+00:00</lastmod>
+      <loc>/categories/talking/</loc>
+      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -635,6 +625,16 @@
     
       <loc>/tags/teaching/</loc>
       <lastmod>2018-01-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/teaching/</loc>
+      <lastmod>2018-04-04T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -671,7 +671,7 @@
     
     <url>
     
-      <loc>/categories/visualization/</loc>
+      <loc>/tags/visualization/</loc>
       <lastmod>2018-01-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -681,7 +681,7 @@
     
     <url>
     
-      <loc>/tags/visualization/</loc>
+      <loc>/categories/visualization/</loc>
       <lastmod>2018-01-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
