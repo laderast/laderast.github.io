@@ -11,6 +11,86 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>group_by/summarize: Not just for numeric values!</title>
+      <link>/2018/05/24/group-by-summarize-not-just-for-numeric-values/</link>
+      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/24/group-by-summarize-not-just-for-numeric-values/</guid>
+      <description>&lt;p&gt;Even though I’ve been using the &lt;code&gt;tidyverse&lt;/code&gt; for a couple of years, there’s always a couple new applications of &lt;code&gt;tidyverse&lt;/code&gt; verbs.&lt;/p&gt;
+&lt;p&gt;This one, in retrospect, is pretty simple. I had a one to many table that I wanted to collapse, tidy-style. Let’s look at the &lt;code&gt;diamonds&lt;/code&gt; dataset:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;diamonds %&amp;gt;% select(color, cut)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 53,940 x 2
+##    color cut      
+##    &amp;lt;ord&amp;gt; &amp;lt;ord&amp;gt;    
+##  1 E     Ideal    
+##  2 E     Premium  
+##  3 E     Good     
+##  4 I     Premium  
+##  5 J     Good     
+##  6 J     Very Good
+##  7 I     Very Good
+##  8 H     Very Good
+##  9 E     Fair     
+## 10 H     Very Good
+## # ... with 53,930 more rows&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;What if we wanted to collapse all the entries for each color into a single line? There’s 7 different colors, so we can use a combination of &lt;code&gt;group_by&lt;/code&gt; on &lt;code&gt;color&lt;/code&gt; and use the &lt;code&gt;paste()&lt;/code&gt; function within &lt;code&gt;summarize()&lt;/code&gt; to get what we want, which I’ve called &lt;code&gt;all_colors&lt;/code&gt; here. By specifying the &lt;code&gt;collapse&lt;/code&gt; argument, we can specify the delimiter within that column:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;diamonds %&amp;gt;% select(color, cut) %&amp;gt;% 
+  group_by(color) %&amp;gt;% 
+  summarize(all_colors=
+              paste(cut, collapse=&amp;quot;;&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 7 x 2
+##   color all_colors                                                        
+##   &amp;lt;ord&amp;gt; &amp;lt;chr&amp;gt;                                                             
+## 1 D     Very Good;Very Good;Very Good;Good;Good;Premium;Premium;Ideal;Ide…
+## 2 E     Ideal;Premium;Good;Fair;Premium;Premium;Very Good;Very Good;Very …
+## 3 F     Premium;Very Good;Very Good;Very Good;Good;Premium;Very Good;Very…
+## 4 G     Very Good;Ideal;Ideal;Very Good;Premium;Premium;Ideal;Very Good;I…
+## 5 H     Very Good;Very Good;Very Good;Good;Good;Very Good;Good;Very Good;…
+## 6 I     Premium;Very Good;Ideal;Good;Premium;Ideal;Ideal;Ideal;Ideal;Very…
+## 7 J     Good;Very Good;Good;Ideal;Ideal;Good;Good;Very Good;Very Good;Ver…&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Thanks to Ken Butler, who pointed out that the &lt;code&gt;tidyverse&lt;/code&gt; way (via &lt;code&gt;stringr&lt;/code&gt;) is to use &lt;code&gt;str_c&lt;/code&gt; instead:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;diamonds %&amp;gt;% select(color, cut) %&amp;gt;% 
+  group_by(color) %&amp;gt;% 
+  summarize(all_colors=
+              stringr::str_c(cut, collapse=&amp;quot;;&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 7 x 2
+##   color all_colors                                                        
+##   &amp;lt;ord&amp;gt; &amp;lt;chr&amp;gt;                                                             
+## 1 D     Very Good;Very Good;Very Good;Good;Good;Premium;Premium;Ideal;Ide…
+## 2 E     Ideal;Premium;Good;Fair;Premium;Premium;Very Good;Very Good;Very …
+## 3 F     Premium;Very Good;Very Good;Very Good;Good;Premium;Very Good;Very…
+## 4 G     Very Good;Ideal;Ideal;Very Good;Premium;Premium;Ideal;Very Good;I…
+## 5 H     Very Good;Very Good;Very Good;Good;Good;Very Good;Good;Very Good;…
+## 6 I     Premium;Very Good;Ideal;Good;Premium;Ideal;Ideal;Ideal;Ideal;Very…
+## 7 J     Good;Very Good;Good;Ideal;Ideal;Good;Good;Very Good;Very Good;Ver…&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Finally, if we wanted to just get the unique values of the cuts in a single line, we can use &lt;code&gt;unique&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;diamonds %&amp;gt;% select(color, cut) %&amp;gt;% 
+  group_by(color) %&amp;gt;% 
+  summarize(all_colors=
+              paste(unique(cut), collapse=&amp;quot;;&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 7 x 2
+##   color all_colors                       
+##   &amp;lt;ord&amp;gt; &amp;lt;chr&amp;gt;                            
+## 1 D     Very Good;Good;Premium;Ideal;Fair
+## 2 E     Ideal;Premium;Good;Fair;Very Good
+## 3 F     Premium;Very Good;Good;Fair;Ideal
+## 4 G     Very Good;Ideal;Premium;Good;Fair
+## 5 H     Very Good;Good;Premium;Fair;Ideal
+## 6 I     Premium;Very Good;Ideal;Good;Fair
+## 7 J     Good;Very Good;Ideal;Premium;Fair&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>group_by/summarize: Not just for numeric values!</title>
+      <link>/2018/05/24/group-by-summarize-not-just-for-numeric-values/</link>
+      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/24/group-by-summarize-not-just-for-numeric-values/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Introvert&#39;s Survival Guide to Conferences</title>
       <link>/2018/05/17/a-introvert-s-survival-guide-to-conferences/</link>
       <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
@@ -562,41 +642,6 @@ and &lt;a href=&#34;https://odscwest.pathable.com/meetings/604496&#34; target=&#
       
       <guid>/2017/08/22/separation-of-code-and-state/</guid>
       <description>&lt;p&gt;One of the hardest concepts as an analyst that I have struggled with is separating my code from my data. A related issue is making your code reproducible across data instances.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Interesting useR 2017 Talks</title>
-      <link>/2017/07/05/interesting-user2017talks/</link>
-      <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/07/05/interesting-user2017talks/</guid>
-      <description>&lt;p&gt;Since I didn&amp;rsquo;t get to go to useR 2017 this year, I&amp;rsquo;m compiling the interesting talks. This is an ongoing list.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqM/automatically-archiving-reproducible-studies-with-docker&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqM/automatically-archiving-reproducible-studies-with-docker&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/Axq4/clouds-containers-and-r-towards-a-global-hub-for-reproducible-and-collaborative-data-science&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/Axq4/clouds-containers-and-r-towards-a-global-hub-for-reproducible-and-collaborative-data-science&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/Axq9/scraping-data-with-rvest-and-purrr&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/Axq9/scraping-data-with-rvest-and-purrr&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/Axq1/using-the-alphabetr-package-to-determine-paired-t-cell-receptor-sequences&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/Axq1/using-the-alphabetr-package-to-determine-paired-t-cell-receptor-sequences&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqG/show-me-the-errors-you-didnt-look-for&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqG/show-me-the-errors-you-didnt-look-for&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqR/community-based-learning-and-knowledge-sharing&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqR/community-based-learning-and-knowledge-sharing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqT/r-based-computing-with-big-data-on-disk&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqT/r-based-computing-with-big-data-on-disk&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqA/codebookr-codebooks-in-r&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqA/codebookr-codebooks-in-r&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/Axor/how-we-built-a-shiny-app-for-700-users&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/Axor/how-we-built-a-shiny-app-for-700-users&lt;/a&gt; Useful concepts: reactiveTrigger to force a rerender.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxsL/ensemble-packages-with-user-friendly-interface-an-added-value-for-the-r-community&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxsL/ensemble-packages-with-user-friendly-interface-an-added-value-for-the-r-community&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How to Not Be Afraid of Your Data</title>
-      <link>/2017/06/28/howtonotbeafraid/</link>
-      <pubDate>Wed, 28 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/06/28/howtonotbeafraid/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m going to be giving a talk for the PDX RLang Meetup on July 11 called &amp;ldquo;&lt;a href=&#34;https://www.meetup.com/portland-r-user-group/events/240846589/&#34; target=&#34;_blank&#34;&gt;How to Not Be Afraid of Your Data: Teaching EDA using Shiny&lt;/a&gt;&amp;rdquo;. Abstract below.&lt;/p&gt;
-
-&lt;p&gt;Many graduate students in the basic sciences are afraid of data exploration and cleaning, which can greatly impact their downstream analysis results. By using a synthetic dataset, some simple &lt;code&gt;dplyr&lt;/code&gt; commands, and a &lt;code&gt;shiny&lt;/code&gt; dashboard, we teach graduate students how to explore their data and how to handle issues that can arise (missing values, differences in units). For this talk, we&amp;rsquo;ll run through a simple EDA example (combining two weight loss datasets) with a general data explorer in &lt;code&gt;shiny&lt;/code&gt; that can be easily customized to teach specific EDA concepts.&lt;/p&gt;
 </description>
     </item>
     

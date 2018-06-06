@@ -11,6 +11,129 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>My Time at the rOpenSci Unconf</title>
+      <link>/my-time-at-the-ropensci-unconf/</link>
+      <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/my-time-at-the-ropensci-unconf/</guid>
+      <description>&lt;p&gt;I thought I&amp;rsquo;d summarize my time at the rOpenSci unconf. Overall, I had a really great time and I commend the rOpenSci crew for putting together an event that was really welcoming.&lt;/p&gt;
+
+&lt;p&gt;I proposed building a Synthetic Data Generation framework, based on some previous work I&amp;rsquo;ve done with Bayesian Networks. In retrospect, I think I should have had a more clear plan for showing people how it worked - maybe we could have just installed the current package and had team members generate small datasets. I only had a vague idea of how to perhaps parametrize the network, which seemed to lose people even further.&lt;/p&gt;
+
+&lt;p&gt;At this point, I think I had a bit of a brain meltdown and I decided to bow out of this framework and help the flow cytometry crew (&lt;a href=&#34;https://github.com/seaaan&#34; target=&#34;_blank&#34;&gt;Sean Hughes&lt;/a&gt;, &lt;a href=&#34;https://github.com/juyeongkim&#34; target=&#34;_blank&#34;&gt;Ju Yeong Kim&lt;/a&gt;, &lt;a href=&#34;https://github.com/malisas&#34; target=&#34;_blank&#34;&gt;Malisa Smith&lt;/a&gt;, and &lt;a href=&#34;https://github.com/angela-li&#34; target=&#34;_blank&#34;&gt;Angela Li&lt;/a&gt;) with the &lt;code&gt;umapr&lt;/code&gt; package.&lt;/p&gt;
+
+&lt;p&gt;What did I learn?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You cannot meet everyone, no matter how hard you try.&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s probably better to&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>group_by/summarize: Not just for numeric values!</title>
+      <link>/2018/05/24/group-by-summarize-not-just-for-numeric-values/</link>
+      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/24/group-by-summarize-not-just-for-numeric-values/</guid>
+      <description>&lt;p&gt;Even though I’ve been using the &lt;code&gt;tidyverse&lt;/code&gt; for a couple of years, there’s always a couple new applications of &lt;code&gt;tidyverse&lt;/code&gt; verbs.&lt;/p&gt;
+&lt;p&gt;This one, in retrospect, is pretty simple. I had a one to many table that I wanted to collapse, tidy-style. Let’s look at the &lt;code&gt;diamonds&lt;/code&gt; dataset:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;diamonds %&amp;gt;% select(color, cut)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 53,940 x 2
+##    color cut      
+##    &amp;lt;ord&amp;gt; &amp;lt;ord&amp;gt;    
+##  1 E     Ideal    
+##  2 E     Premium  
+##  3 E     Good     
+##  4 I     Premium  
+##  5 J     Good     
+##  6 J     Very Good
+##  7 I     Very Good
+##  8 H     Very Good
+##  9 E     Fair     
+## 10 H     Very Good
+## # ... with 53,930 more rows&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;What if we wanted to collapse all the entries for each color into a single line? There’s 7 different colors, so we can use a combination of &lt;code&gt;group_by&lt;/code&gt; on &lt;code&gt;color&lt;/code&gt; and use the &lt;code&gt;paste()&lt;/code&gt; function within &lt;code&gt;summarize()&lt;/code&gt; to get what we want, which I’ve called &lt;code&gt;all_colors&lt;/code&gt; here. By specifying the &lt;code&gt;collapse&lt;/code&gt; argument, we can specify the delimiter within that column:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;diamonds %&amp;gt;% select(color, cut) %&amp;gt;% 
+  group_by(color) %&amp;gt;% 
+  summarize(all_colors=
+              paste(cut, collapse=&amp;quot;;&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 7 x 2
+##   color all_colors                                                        
+##   &amp;lt;ord&amp;gt; &amp;lt;chr&amp;gt;                                                             
+## 1 D     Very Good;Very Good;Very Good;Good;Good;Premium;Premium;Ideal;Ide…
+## 2 E     Ideal;Premium;Good;Fair;Premium;Premium;Very Good;Very Good;Very …
+## 3 F     Premium;Very Good;Very Good;Very Good;Good;Premium;Very Good;Very…
+## 4 G     Very Good;Ideal;Ideal;Very Good;Premium;Premium;Ideal;Very Good;I…
+## 5 H     Very Good;Very Good;Very Good;Good;Good;Very Good;Good;Very Good;…
+## 6 I     Premium;Very Good;Ideal;Good;Premium;Ideal;Ideal;Ideal;Ideal;Very…
+## 7 J     Good;Very Good;Good;Ideal;Ideal;Good;Good;Very Good;Very Good;Ver…&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Thanks to Ken Butler, who pointed out that the &lt;code&gt;tidyverse&lt;/code&gt; way (via &lt;code&gt;stringr&lt;/code&gt;) is to use &lt;code&gt;str_c&lt;/code&gt; instead:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;diamonds %&amp;gt;% select(color, cut) %&amp;gt;% 
+  group_by(color) %&amp;gt;% 
+  summarize(all_colors=
+              stringr::str_c(cut, collapse=&amp;quot;;&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 7 x 2
+##   color all_colors                                                        
+##   &amp;lt;ord&amp;gt; &amp;lt;chr&amp;gt;                                                             
+## 1 D     Very Good;Very Good;Very Good;Good;Good;Premium;Premium;Ideal;Ide…
+## 2 E     Ideal;Premium;Good;Fair;Premium;Premium;Very Good;Very Good;Very …
+## 3 F     Premium;Very Good;Very Good;Very Good;Good;Premium;Very Good;Very…
+## 4 G     Very Good;Ideal;Ideal;Very Good;Premium;Premium;Ideal;Very Good;I…
+## 5 H     Very Good;Very Good;Very Good;Good;Good;Very Good;Good;Very Good;…
+## 6 I     Premium;Very Good;Ideal;Good;Premium;Ideal;Ideal;Ideal;Ideal;Very…
+## 7 J     Good;Very Good;Good;Ideal;Ideal;Good;Good;Very Good;Very Good;Ver…&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Finally, if we wanted to just get the unique values of the cuts in a single line, we can use &lt;code&gt;unique&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;diamonds %&amp;gt;% select(color, cut) %&amp;gt;% 
+  group_by(color) %&amp;gt;% 
+  summarize(all_colors=
+              paste(unique(cut), collapse=&amp;quot;;&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 7 x 2
+##   color all_colors                       
+##   &amp;lt;ord&amp;gt; &amp;lt;chr&amp;gt;                            
+## 1 D     Very Good;Good;Premium;Ideal;Fair
+## 2 E     Ideal;Premium;Good;Fair;Very Good
+## 3 F     Premium;Very Good;Good;Fair;Ideal
+## 4 G     Very Good;Ideal;Premium;Good;Fair
+## 5 H     Very Good;Good;Premium;Fair;Ideal
+## 6 I     Premium;Very Good;Ideal;Good;Fair
+## 7 J     Good;Very Good;Ideal;Premium;Fair&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>group_by/summarize: Not just for numeric values!</title>
+      <link>/2018/05/24/group-by-summarize-not-just-for-numeric-values/</link>
+      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/24/group-by-summarize-not-just-for-numeric-values/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improvisation and Collaboration</title>
+      <link>/improvisation-and-collaboration/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/improvisation-and-collaboration/</guid>
+      <description>&lt;p&gt;Way back in high school and college, I used to be a fairly avid jazz musician. I always loved the group aspect of Jazz - in a good group, there is this sense of support for each other&amp;rsquo;s creativity where everyone is backing each other up and giving each other musical space to express themselves.&lt;/p&gt;
+
+&lt;p&gt;My background in improvisation has served me well, in that it has enabled a lot of my musical collaborations. My music is different in that I play improvisational cello, though on a very slow scale. But you can drop me into a lot of situations and I can come up with something that will work with someone else&amp;rsquo;s musical style.&lt;/p&gt;
+
+&lt;p&gt;I now realize that I use a lot of the rules of improvisation when I collaborate with others in Open Science.&lt;/p&gt;
+
+&lt;p&gt;1) Being respectful and listening.
+1) Saying &amp;ldquo;Yes, and&amp;rdquo;. This is an old comedy improv rule. It means that you don&amp;rsquo;t shut other people&amp;rsquo;s performances down. You try to build on theirs and enhance it. I like to build on people&amp;rsquo;s ideas.
+1) Being flexible. See previous two rules.
+1) Don&amp;rsquo;t hog the spotlight.
+1) Most things are a process and rely on previous experience. No one became an expert improviser overnight.
+1) Trust the process when you can.
+1) Help each other.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A Introvert&#39;s Survival Guide to Conferences</title>
       <link>/2018/05/17/a-introvert-s-survival-guide-to-conferences/</link>
       <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
@@ -556,104 +679,6 @@ bang(5)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;I’m indebted to Edwin Thoen’s code examples that helped me finally understand what’s going on with &lt;code&gt;tidyeval&lt;/code&gt;: &lt;a href=&#34;https://edwinth.github.io/blog/dplyr-recipes/&#34; class=&#34;uri&#34;&gt;https://edwinth.github.io/blog/dplyr-recipes/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I didn’t really talk about Base-R’s NSE, but I would say that this should at least give you enough background to understand what’s going on there.&lt;/p&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Using Synthetic Data for Teaching Data Science</title>
-      <link>/2017/12/14/using-synthetic-data/</link>
-      <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/12/14/using-synthetic-data/</guid>
-      <description>&lt;p&gt;Hi Everyone, our paper called &lt;a href=&#34;https://www.biorxiv.org/content/early/2017/12/12/232611&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Teaching data science fundamentals through realistic synthetic clinical cardiovascular data&lt;/em&gt;&lt;/a&gt; is now available to read on Biorxiv.&lt;/p&gt;
-
-&lt;p&gt;In this paper, we talk about a dataset that we synthesized for teaching aspects of clinical data that may be tricky to understand in data science. This dataset is interesting because it&amp;rsquo;s derived from a multivariate distribution based on real patient data, modeled as a Bayesian Network. Even when we knew true marginals for the real data, there was a lot of fine tuning to the Bayesian Network.&lt;/p&gt;
-
-&lt;p&gt;We&amp;rsquo;ve used this dataset for a couple of classes, and we&amp;rsquo;ve found that it helps highlight real issues in predictive modeling of clinical data. One of the largest is that most predictive models are based on a much older patient cohort (50+), which means that we don&amp;rsquo;t know much about how to predict cardiovascular risk in younger patients. Part of the teaching exercise is having the students choose a cohort of interest and then attempt to predict on that patient cohort.&lt;/p&gt;
-
-&lt;p&gt;The data is currently available as an R package here, including vignettes about how the data was generated: &lt;a href=&#34;https://github.com/laderast/cvdRiskData&#34; target=&#34;_blank&#34;&gt;https://github.com/laderast/cvdRiskData&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Notes on Open Data Science Conference West 2017</title>
-      <link>/2017/11/07/odsc-notes/</link>
-      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/11/07/odsc-notes/</guid>
-      <description>
-
-&lt;p&gt;I just came back from the &lt;a href=&#34;https://odscwest.pathable.com&#34; target=&#34;_blank&#34;&gt;Open Data Science Conference&lt;/a&gt; (ODSC) in San Francisco and I found it really stimulating and interesting. I learned a ton, met some great people working in very different fields, and overall found it quite worthwhile.&lt;/p&gt;
-
-&lt;p&gt;Here are some of the highlights from my notes:&lt;/p&gt;
-
-&lt;h2 id=&#34;workshops&#34;&gt;Workshops&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/amueller/ml-training-intro&#34; target=&#34;_blank&#34;&gt;scikit-learn intro Workshop&lt;/a&gt; and &lt;a href=&#34;https://github.com/amueller/ml-training-advanced&#34; target=&#34;_blank&#34;&gt;Advanced&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I admit that I am not really a Python person. But I am helping to develop some materials for an introductory workshop and I found this workshop and its materials to be a very beginner-friendly to &lt;code&gt;scikit-learn&lt;/code&gt; and machine learning concepts, much like &lt;code&gt;caret&lt;/code&gt; for R. All the slides and workshop materials are available at the above links.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/WinVector/ODSCWest2017&#34; target=&#34;_blank&#34;&gt;SparklyR Workshop&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I liked this workshop from John Mount of Win-Vector. It started out with a &lt;em&gt;dplyr&lt;/em&gt; intro, and introduced us to the basics of Apache Spark, which is a cluster-computing based machine learning framework, which is designed to do very large queries and machine learning. RStudio&amp;rsquo;s Edgar Ruiz managed to get us each an RStudio Pro Instance running on AWS with all the required packages installed so we could test out the SparklyR package, which uses dplyr&amp;rsquo;s commands to run Spark jobs.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B3MFD2S4MhtGd1ltVHZkbFhHX0ZUbGlGZmtNRjllQ2NtQkJN/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;In-Memory Computing Essentials for Data Scientists&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This was an introduction to Apache Ignite, which is a distributed, in-memory database that can be leveraged by different languages. The really interesting thing about Ignite is that it will colocate related data on the same cluster node, resulting in rapid queries within each node. I think this technology will become very important as we need more datasets to be openly accessible to compute on.&lt;/p&gt;
-
-&lt;h2 id=&#34;talks&#34;&gt;Talks&lt;/h2&gt;
-
-&lt;p&gt;These were the most interesting talks that I attended.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://mfviz.com/odsc-2017/#/&#34; target=&#34;_blank&#34;&gt;Visually Explaining Statistical and Machine Learning Concepts&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This was a great talk by Mike Freedman about his process of how he put together D3.js based visualizations to explain some statistical concepts. I thought the explanation of his process (isolate specific ideas, identify data structures, leverage visualization algorithms). Check out the slides above. They&amp;rsquo;re very cool.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://odscwest.pathable.com/meetings/596522&#34; target=&#34;_blank&#34;&gt;The Wonder Twins: Data Science and Human Centered Design&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This was a really interesting talk about the interplay between data science and design in helping encourage a mobile money system in Tanzania. It was inspiring to see how they had both designers and data scientists embedded and looking at how the mobile payment system worked. One interesting example was doing network analysis of the Mobile Money Agents, who distribute cash. They targeted a highly influential group of these agents based on this analysis. Very cool.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://odscwest.pathable.com/meetings/601861&#34; target=&#34;_blank&#34;&gt;The People&amp;rsquo;s Data&lt;/a&gt;
-and &lt;a href=&#34;https://odscwest.pathable.com/meetings/604496&#34; target=&#34;_blank&#34;&gt;The Deontology of Data Science&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I thought these were really interesting sides about the human side of data science. DJ Patil, who was chief data scientist under the Obama administration, talked about citizen-driven data projects and how it enabled a number of advances. The most interesting case was basically a parent built an online community of people who had a very rare disease condition so he could help his son with the condition.&lt;/p&gt;
-
-&lt;p&gt;Igor Perisic (of LinkedIn) followed this with a talk about ethical issues in data science. In particular, he identified three different areas to concentrate on: 1) The Ethics of Data, 2) The Ethics of Algorithms, and 3) The Ethics of practice. He concentrated on the recent New York Times article about using &lt;a href=&#34;https://www.nytimes.com/2017/05/01/us/politics/sent-to-prison-by-a-software-programs-secret-algorithms.html&#34; target=&#34;_blank&#34;&gt;machine learning to identify potential re-offenders in the prison system&lt;/a&gt;. The lack of transparency in how the algorithm identifies potential reoffenders is a huge ethical problem.&lt;/p&gt;
-
-&lt;p&gt;In all, I had an interesting time and I met lots of people in industry, which was a nice contrast to the academic side of things.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>On the Separation of Code and State</title>
-      <link>/2017/08/22/separation-of-code-and-state/</link>
-      <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/08/22/separation-of-code-and-state/</guid>
-      <description>&lt;p&gt;One of the hardest concepts as an analyst that I have struggled with is separating my code from my data. A related issue is making your code reproducible across data instances.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Interesting useR 2017 Talks</title>
-      <link>/2017/07/05/interesting-user2017talks/</link>
-      <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/07/05/interesting-user2017talks/</guid>
-      <description>&lt;p&gt;Since I didn&amp;rsquo;t get to go to useR 2017 this year, I&amp;rsquo;m compiling the interesting talks. This is an ongoing list.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqM/automatically-archiving-reproducible-studies-with-docker&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqM/automatically-archiving-reproducible-studies-with-docker&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/Axq4/clouds-containers-and-r-towards-a-global-hub-for-reproducible-and-collaborative-data-science&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/Axq4/clouds-containers-and-r-towards-a-global-hub-for-reproducible-and-collaborative-data-science&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/Axq9/scraping-data-with-rvest-and-purrr&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/Axq9/scraping-data-with-rvest-and-purrr&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/Axq1/using-the-alphabetr-package-to-determine-paired-t-cell-receptor-sequences&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/Axq1/using-the-alphabetr-package-to-determine-paired-t-cell-receptor-sequences&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqG/show-me-the-errors-you-didnt-look-for&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqG/show-me-the-errors-you-didnt-look-for&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqR/community-based-learning-and-knowledge-sharing&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqR/community-based-learning-and-knowledge-sharing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqT/r-based-computing-with-big-data-on-disk&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqT/r-based-computing-with-big-data-on-disk&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqA/codebookr-codebooks-in-r&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqA/codebookr-codebooks-in-r&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/Axor/how-we-built-a-shiny-app-for-700-users&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/Axor/how-we-built-a-shiny-app-for-700-users&lt;/a&gt; Useful concepts: reactiveTrigger to force a rerender.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxsL/ensemble-packages-with-user-friendly-interface-an-added-value-for-the-r-community&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxsL/ensemble-packages-with-user-friendly-interface-an-added-value-for-the-r-community&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
