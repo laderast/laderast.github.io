@@ -82,15 +82,6 @@
     </item>
     
     <item>
-      <title>group_by/summarize: Not just for numeric values!</title>
-      <link>/2018/05/24/group-by-summarize-not-just-for-numeric-values/</link>
-      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/05/24/group-by-summarize-not-just-for-numeric-values/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>A Introvert&#39;s Survival Guide to Conferences</title>
       <link>/2018/05/17/a-introvert-s-survival-guide-to-conferences/</link>
       <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
@@ -642,6 +633,29 @@ and &lt;a href=&#34;https://odscwest.pathable.com/meetings/604496&#34; target=&#
       
       <guid>/2017/08/22/separation-of-code-and-state/</guid>
       <description>&lt;p&gt;One of the hardest concepts as an analyst that I have struggled with is separating my code from my data. A related issue is making your code reproducible across data instances.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Interesting useR 2017 Talks</title>
+      <link>/2017/07/05/interesting-user2017talks/</link>
+      <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/07/05/interesting-user2017talks/</guid>
+      <description>&lt;p&gt;Since I didn&amp;rsquo;t get to go to useR 2017 this year, I&amp;rsquo;m compiling the interesting talks. This is an ongoing list.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqM/automatically-archiving-reproducible-studies-with-docker&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqM/automatically-archiving-reproducible-studies-with-docker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/Axq4/clouds-containers-and-r-towards-a-global-hub-for-reproducible-and-collaborative-data-science&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/Axq4/clouds-containers-and-r-towards-a-global-hub-for-reproducible-and-collaborative-data-science&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/Axq9/scraping-data-with-rvest-and-purrr&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/Axq9/scraping-data-with-rvest-and-purrr&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/Axq1/using-the-alphabetr-package-to-determine-paired-t-cell-receptor-sequences&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/Axq1/using-the-alphabetr-package-to-determine-paired-t-cell-receptor-sequences&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqG/show-me-the-errors-you-didnt-look-for&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqG/show-me-the-errors-you-didnt-look-for&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqR/community-based-learning-and-knowledge-sharing&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqR/community-based-learning-and-knowledge-sharing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqT/r-based-computing-with-big-data-on-disk&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqT/r-based-computing-with-big-data-on-disk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqA/codebookr-codebooks-in-r&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqA/codebookr-codebooks-in-r&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/Axor/how-we-built-a-shiny-app-for-700-users&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/Axor/how-we-built-a-shiny-app-for-700-users&lt;/a&gt; Useful concepts: reactiveTrigger to force a rerender.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxsL/ensemble-packages-with-user-friendly-interface-an-added-value-for-the-r-community&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxsL/ensemble-packages-with-user-friendly-interface-an-added-value-for-the-r-community&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

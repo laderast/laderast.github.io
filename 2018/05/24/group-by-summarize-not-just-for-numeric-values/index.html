@@ -17,7 +17,9 @@
       
     
   
-  <meta name="description" content="">
+  <meta name="description" content="Even though I’ve been using the tidyverse for a couple of years, there’s always a couple new applications of tidyverse verbs.
+This one, in retrospect, is pretty simple. I had a one to many table that I wanted to collapse, tidy-style. Let’s look at the diamonds dataset:
+diamonds %&gt;% select(color, cut) ## # A tibble: 53,940 x 2 ## color cut ## &lt;ord&gt; &lt;ord&gt; ## 1 E Ideal ## 2 E Premium ## 3 E Good ## 4 I Premium ## 5 J Good ## 6 J Very Good ## 7 I Very Good ## 8 H Very Good ## 9 E Fair ## 10 H Very Good ## # .">
 
   
   <link rel="alternate" hreflang="en-us" href="/2018/05/24/group-by-summarize-not-just-for-numeric-values/">
@@ -92,7 +94,9 @@
   <meta property="og:site_name" content="Ted Laderas, PhD">
   <meta property="og:url" content="/2018/05/24/group-by-summarize-not-just-for-numeric-values/">
   <meta property="og:title" content="group_by/summarize: Not just for numeric values! | Ted Laderas, PhD">
-  <meta property="og:description" content="">
+  <meta property="og:description" content="Even though I’ve been using the tidyverse for a couple of years, there’s always a couple new applications of tidyverse verbs.
+This one, in retrospect, is pretty simple. I had a one to many table that I wanted to collapse, tidy-style. Let’s look at the diamonds dataset:
+diamonds %&gt;% select(color, cut) ## # A tibble: 53,940 x 2 ## color cut ## &lt;ord&gt; &lt;ord&gt; ## 1 E Ideal ## 2 E Premium ## 3 E Good ## 4 I Premium ## 5 J Good ## 6 J Very Good ## 7 I Very Good ## 8 H Very Good ## 9 E Fair ## 10 H Very Good ## # .">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-05-24T00:00:00&#43;00:00">
@@ -300,7 +304,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    0 min read
+    2 min read
   </span>
   
 
@@ -360,121 +364,41 @@
 
 
       <div class="article-style" itemprop="articleBody">
-        
-      </div>
-
-      
-
-
-
-
-    </div>
-  </div>
-
-</article>
-
-
-
-
-
-
-<div class="article-container">
-  
-
-</div>
-
-<footer class="site-footer">
-  <div class="container">
-    <p class="powered-by">
-
-      &copy; 2018 &middot; 
-
-      Powered by the
-      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
-      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
-
-      <span class="pull-right" aria-hidden="true">
-        <a href="#" id="back_to_top">
-          <span class="button_icon">
-            <i class="fa fa-chevron-up fa-2x"></i>
-          </span>
-        </a>
-      </span>
-
-    </p>
-  </div>
-</footer>
-
-
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Cite</h4>
-      </div>
-      <div>
-        <pre><code class="modal-body tex"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
-          <i class="fa fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
-          <i class="fa fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-    
-
-    
-    
-
-    
-
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
-    
-    
-    <script src="/js/hugo-academic.js"></script>
-    
-
-    
-    
-      
-      
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
-      
-
-      
-
-      
-
-      <script>hljs.initHighlightingOnLoad();</script>
-    
-
-    
-    
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
-    </script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
-    
-    
-
-  </body>
-</html>
-
-(color) %&gt;% 
+        <p>Even though I’ve been using the <code>tidyverse</code> for a couple of years, there’s always a couple new applications of <code>tidyverse</code> verbs.</p>
+<p>This one, in retrospect, is pretty simple. I had a one to many table that I wanted to collapse, tidy-style. Let’s look at the <code>diamonds</code> dataset:</p>
+<pre class="r"><code>diamonds %&gt;% select(color, cut)</code></pre>
+<pre><code>## # A tibble: 53,940 x 2
+##    color cut      
+##    &lt;ord&gt; &lt;ord&gt;    
+##  1 E     Ideal    
+##  2 E     Premium  
+##  3 E     Good     
+##  4 I     Premium  
+##  5 J     Good     
+##  6 J     Very Good
+##  7 I     Very Good
+##  8 H     Very Good
+##  9 E     Fair     
+## 10 H     Very Good
+## # ... with 53,930 more rows</code></pre>
+<p>What if we wanted to collapse all the entries for each color into a single line? There’s 7 different colors, so we can use a combination of <code>group_by</code> on <code>color</code> and use the <code>paste()</code> function within <code>summarize()</code> to get what we want, which I’ve called <code>all_colors</code> here. By specifying the <code>collapse</code> argument, we can specify the delimiter within that column:</p>
+<pre class="r"><code>diamonds %&gt;% select(color, cut) %&gt;% 
+  group_by(color) %&gt;% 
+  summarize(all_colors=
+              paste(cut, collapse=&quot;;&quot;))</code></pre>
+<pre><code>## # A tibble: 7 x 2
+##   color all_colors                                                        
+##   &lt;ord&gt; &lt;chr&gt;                                                             
+## 1 D     Very Good;Very Good;Very Good;Good;Good;Premium;Premium;Ideal;Ide…
+## 2 E     Ideal;Premium;Good;Fair;Premium;Premium;Very Good;Very Good;Very …
+## 3 F     Premium;Very Good;Very Good;Very Good;Good;Premium;Very Good;Very…
+## 4 G     Very Good;Ideal;Ideal;Very Good;Premium;Premium;Ideal;Very Good;I…
+## 5 H     Very Good;Very Good;Very Good;Good;Good;Very Good;Good;Very Good;…
+## 6 I     Premium;Very Good;Ideal;Good;Premium;Ideal;Ideal;Ideal;Ideal;Very…
+## 7 J     Good;Very Good;Good;Ideal;Ideal;Good;Good;Very Good;Very Good;Ver…</code></pre>
+<p>Thanks to Ken Butler, who pointed out that the <code>tidyverse</code> way (via <code>stringr</code>) is to use <code>str_c</code> instead:</p>
+<pre class="r"><code>diamonds %&gt;% select(color, cut) %&gt;% 
+  group_by(color) %&gt;% 
   summarize(all_colors=
               stringr::str_c(cut, collapse=&quot;;&quot;))</code></pre>
 <pre><code>## # A tibble: 7 x 2

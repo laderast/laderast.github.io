@@ -103,15 +103,6 @@
     </item>
     
     <item>
-      <title>group_by/summarize: Not just for numeric values!</title>
-      <link>/2018/05/24/group-by-summarize-not-just-for-numeric-values/</link>
-      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/05/24/group-by-summarize-not-just-for-numeric-values/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Improvisation and Collaboration</title>
       <link>/improvisation-and-collaboration/</link>
       <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
@@ -679,6 +670,22 @@ bang(5)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;I’m indebted to Edwin Thoen’s code examples that helped me finally understand what’s going on with &lt;code&gt;tidyeval&lt;/code&gt;: &lt;a href=&#34;https://edwinth.github.io/blog/dplyr-recipes/&#34; class=&#34;uri&#34;&gt;https://edwinth.github.io/blog/dplyr-recipes/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I didn’t really talk about Base-R’s NSE, but I would say that this should at least give you enough background to understand what’s going on there.&lt;/p&gt;
 &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Synthetic Data for Teaching Data Science</title>
+      <link>/2017/12/14/using-synthetic-data/</link>
+      <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/12/14/using-synthetic-data/</guid>
+      <description>&lt;p&gt;Hi Everyone, our paper called &lt;a href=&#34;https://www.biorxiv.org/content/early/2017/12/12/232611&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Teaching data science fundamentals through realistic synthetic clinical cardiovascular data&lt;/em&gt;&lt;/a&gt; is now available to read on Biorxiv.&lt;/p&gt;
+
+&lt;p&gt;In this paper, we talk about a dataset that we synthesized for teaching aspects of clinical data that may be tricky to understand in data science. This dataset is interesting because it&amp;rsquo;s derived from a multivariate distribution based on real patient data, modeled as a Bayesian Network. Even when we knew true marginals for the real data, there was a lot of fine tuning to the Bayesian Network.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;ve used this dataset for a couple of classes, and we&amp;rsquo;ve found that it helps highlight real issues in predictive modeling of clinical data. One of the largest is that most predictive models are based on a much older patient cohort (50+), which means that we don&amp;rsquo;t know much about how to predict cardiovascular risk in younger patients. Part of the teaching exercise is having the students choose a cohort of interest and then attempt to predict on that patient cohort.&lt;/p&gt;
+
+&lt;p&gt;The data is currently available as an R package here, including vignettes about how the data was generated: &lt;a href=&#34;https://github.com/laderast/cvdRiskData&#34; target=&#34;_blank&#34;&gt;https://github.com/laderast/cvdRiskData&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
