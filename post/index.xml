@@ -11,6 +11,34 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Self Care and Self Compassion in Academia</title>
+      <link>/2018/06/05/self-care-and-self-compassion-in-academia/</link>
+      <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/05/self-care-and-self-compassion-in-academia/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Note: I am not writing the following to complain, or excuse any past behavior. I am writing this just to be honest and transparent about my current struggles in academia. I hope it helps someone, or encourages other to seek help.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I have to confess that I haven&amp;rsquo;t really been feeling all that well the past few months. Right now I am plagued with feelings that I am doing my work as an Assistant Professor wrong. I struggle with this persistent voice in my head that even when I am working at full tilt and beyond, that it&amp;rsquo;s not enough.&lt;/p&gt;
+
+&lt;p&gt;For most of my life, I have had chronic depression. I am a high functioning depressive; I have managed to get things done when I am depressed. However, this effort comes at the cost of self-care. I really think that some past posts have really come from a place of high stress and high anxiety. I apologize for &lt;a href=&#34;http://laderast.github.io/2018/01/15/if-you-want-to-talk-with-me-for-an-informational-interview/&#34; target=&#34;_blank&#34;&gt;the harsh tone of this post&lt;/a&gt;. I am also struggling with burnout at this point. I am beginning to feel like a lot of my efforts to encourage interdisciplinary collaborations are not feeling very productive. Part of this has to do with internal politics.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t think my depression is an excuse for my past behavior. The lack of self-care, however, is a major cause. When I don&amp;rsquo;t take care of myself, I reach a place of high stress and high anxiety and I can&amp;rsquo;t think straight. If I have been hurtful or bullying to others in any way because of this, I apologize.&lt;/p&gt;
+
+&lt;p&gt;I still struggle with impostor syndrome. I do think that in many ways, this struggle has helped me become more compassionate as a teacher, remembering what concepts I struggled with. I have been trying my best to keep up with the added responsibilities of a faculty member: mentoring students, writing new course material, doing outreach, and also trying to keep the lights on by doing research (I won&amp;rsquo;t get into grant writing here; that&amp;rsquo;s another major depressive kettle of fish). I feel like I&amp;rsquo;ve currently been a disappointment as a faculty member so far.&lt;/p&gt;
+
+&lt;p&gt;I am currently in therapy, which has been very helpful in understanding what problems I can address and what problems that are currently endemic to the academic system. I don&amp;rsquo;t know of any other field where one can accomplish a lot yet still feel like a failure.&lt;/p&gt;
+
+&lt;p&gt;The hardest thing for me is saying no, especially to students. But I realize that I can&amp;rsquo;t really be my best for students without taking care of myself. That balance between being considerate of others and also being considerate of my self is something that I am struggling with as a faculty member.&lt;/p&gt;
+
+&lt;p&gt;I guess my point being is that I need to reframe saying no as being protective of myself and my current students rather than registering the disappointment when I say no. I&amp;rsquo;d like to help people, but I can help people better when I&amp;rsquo;m feeling well and better. Part of this may be coming to grips that academia may not be my place in the world if it demands that I sacrifice my mental health just to stay where I am.&lt;/p&gt;
+
+&lt;p&gt;So for the time being, I&amp;rsquo;d like to focus on getting better and feeling better. For your sake and mine. I will try to welcome newcomers to data science the best I can - just realize that what I may be able to do for you is a little limited right now.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>group_by/summarize: Not just for numeric values!</title>
       <link>/2018/05/24/group-by-summarize-not-just-for-numeric-values/</link>
       <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
@@ -633,29 +661,6 @@ and &lt;a href=&#34;https://odscwest.pathable.com/meetings/604496&#34; target=&#
       
       <guid>/2017/08/22/separation-of-code-and-state/</guid>
       <description>&lt;p&gt;One of the hardest concepts as an analyst that I have struggled with is separating my code from my data. A related issue is making your code reproducible across data instances.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Interesting useR 2017 Talks</title>
-      <link>/2017/07/05/interesting-user2017talks/</link>
-      <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/07/05/interesting-user2017talks/</guid>
-      <description>&lt;p&gt;Since I didn&amp;rsquo;t get to go to useR 2017 this year, I&amp;rsquo;m compiling the interesting talks. This is an ongoing list.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqM/automatically-archiving-reproducible-studies-with-docker&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqM/automatically-archiving-reproducible-studies-with-docker&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/Axq4/clouds-containers-and-r-towards-a-global-hub-for-reproducible-and-collaborative-data-science&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/Axq4/clouds-containers-and-r-towards-a-global-hub-for-reproducible-and-collaborative-data-science&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/Axq9/scraping-data-with-rvest-and-purrr&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/Axq9/scraping-data-with-rvest-and-purrr&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/Axq1/using-the-alphabetr-package-to-determine-paired-t-cell-receptor-sequences&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/Axq1/using-the-alphabetr-package-to-determine-paired-t-cell-receptor-sequences&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqG/show-me-the-errors-you-didnt-look-for&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqG/show-me-the-errors-you-didnt-look-for&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqR/community-based-learning-and-knowledge-sharing&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqR/community-based-learning-and-knowledge-sharing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqT/r-based-computing-with-big-data-on-disk&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqT/r-based-computing-with-big-data-on-disk&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxqA/codebookr-codebooks-in-r&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxqA/codebookr-codebooks-in-r&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/Axor/how-we-built-a-shiny-app-for-700-users&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/Axor/how-we-built-a-shiny-app-for-700-users&lt;/a&gt; Useful concepts: reactiveTrigger to force a rerender.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://user2017.sched.com/event/AxsL/ensemble-packages-with-user-friendly-interface-an-added-value-for-the-r-community&#34; target=&#34;_blank&#34;&gt;https://user2017.sched.com/event/AxsL/ensemble-packages-with-user-friendly-interface-an-added-value-for-the-r-community&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
