@@ -11,6 +11,31 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Cascadia-R 2018: How we planned it and the reasons why</title>
+      <link>/2018/06/09/cascadia-r-2018-how-we-planned-it/</link>
+      <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/09/cascadia-r-2018-how-we-planned-it/</guid>
+      <description>&lt;p&gt;Well, &lt;a href=&#34;http://cascadiarconf.com&#34;&gt;Cascadia-R 2018&lt;/a&gt; has come and gone. This year we tried our best to make it as inclusive, welcoming, and friendly as we could. Considering we had 224 participants this time around, I’d say it was a success.&lt;/p&gt;
+&lt;p&gt;I just thought I would do a little write up of some of the things we did and why we did them in our conference. I’m hoping it will be useful for other conference planners to create a welcoming environment.&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;We created a pull plan based on what we learned last year.&lt;/strong&gt; Because last year was pretty chaotic in terms of planning, we decided to try to make a pull plan this year. Pull planning is a project management technique in which you work backwards from absolute deadlines (from the day of the conference). I’ve made our &lt;a href=&#34;https://trello.com/b/lphkRbnU/cascadia-r-pull-plan&#34;&gt;pull plan public&lt;/a&gt; so other conference planners can see what we did and the timing it took to organize the conference.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Find sponsorship money.&lt;/strong&gt; We ran last year on a shoestring, using only about $3500. We realized that to make the conference more inclusive this year, we had to get sponsorship money. Childcare and diversity scholarships cost money. We wanted sponsors who had values that aligned with our inclusion goals. Lilly Winfree was especially great at finding sponsors who were in tune with what we wanted to accomplish with our conference. Sponsorship also allowed us to pay for lunch for everyone, which we couldn’t last year.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Provide childcare.&lt;/strong&gt; We wanted parents to be able to attend, so we got DivCare to provide childcare for them in our building. DivCare provided childcare for 8 children.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Diversity Committee&lt;/strong&gt;. We did this last year, but we had more money this year for diversity scholarships for those who might not be able to attend. I think next year we might think about reaching out to more STEM groups, but I think the real challenge is finding how to get those diverse students who might not even know about data science in and how to properly host and support them.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Get rid of longer form talks. Keynotes and Lightning talks only.&lt;/strong&gt; This is probably the most controversial choice that we made. However, we realized that the 10-15 minute talks we had in 2017 were mostly academic ones. Honestly, there are already too many academic conferences out there. We wanted a format that was more accessible and encouraged discussion afterwards, so we stayed with the lightning talks.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Have keynote speakers show newcomers how to join the R Community.&lt;/strong&gt; We chose Kara Woo and Alison Hill as our keynote speakers for a very specific reason: we wanted to encourage people new to R that they could learn things. Alison gave a &lt;a href=&#34;https://speakerdeck.com/apreshill/big-magic-with-r-creative-learning-beyond-fear&#34;&gt;wonderful talk about ways to approach learning R&lt;/a&gt;; Kara gave a great talk talking about &lt;a href=&#34;https://github.com/karawoo/2018-06-02-cascadiarconf&#34;&gt;how to contribute to various R-projects on GitHub&lt;/a&gt;, especially the &lt;code&gt;tidyverse&lt;/code&gt; suite of packages. What I really liked about both their talks was that they emphasized learning by doing.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Moar workshops.&lt;/strong&gt; We wanted beginners and intermediate people feel like they were learning something, and in a safe learning environment. One piece of feedback from last year was that people wanted more workshops. We created a beginner track and an intermediate track for workshops. I would just like to say that none of the workshop people got paid for their work, and I do wish that some of the attendees realized that before they provided feedback such as “BORING” (seriously? please realize that there are people who develop these, and constructive feedback is always better). All of these workshops were done for free as labors of love, unlike conferences like OSDC.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Organize Volunteers&lt;/strong&gt;. We had lots of volunteers this year and we finally were able to figure out roles for everyone to do (registration, nametags, TAs, etc).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Do a visualization fest that wasn’t competitive&lt;/strong&gt;. I know that everyone loves bake-offs like the &lt;em&gt;DREAM Challenges&lt;/em&gt; and &lt;em&gt;Kaggle&lt;/em&gt;, but we felt that having a competition was in conflict with the community building we wanted to do with the conference.That, and Tidy Tuesday, were the inspirations for the &lt;em&gt;cRaggy&lt;/em&gt;. We wanted people to share ideas with each other and to be constructive with each other. We had &lt;a href=&#34;https://github.com/lopierra/biketown&#34;&gt;three&lt;/a&gt; &lt;a href=&#34;https://github.com/cwickham/cRaggyhttps://github.com/cwickham/cRaggy&#34;&gt;great&lt;/a&gt; &lt;a href=&#34;https://github.com/WatanabeSmith/BIKETOWN_CascadiaR&#34;&gt;short&lt;/a&gt; talks talking about their approach to the visualization and we shared the data with Tidy Tuesday.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Talk honestly about impostor syndrome&lt;/strong&gt;. We had a panel with three people (the wonderful Paige Bailey, Kevin Watanabe-Smith and Lilly Winfree) and they all talked about how they deal with impostor syndrome. Some of the lessons are: you feel like less of an impostor the more you do and the more you participate.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Have more downtime&lt;/strong&gt;. We had feedback last year that there wasn’t enough social time. We built more breaks into the schedule and had a third room (the hack room) dedicated to the “hallway track”: often the best times we’ve had conferences is when we play hooky from conference activities. Some people suggested this year that there maybe was too much downtime. I would say to that, there’s always more opportunity to meet people.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So that’s why Cascadia R was the way it was this year. In another blog post, I’ll talk more about the fun things that happened this year and our hopes for the next year.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Self Care and Self Compassion in Academia</title>
       <link>/2018/06/05/self-care-and-self-compassion-in-academia/</link>
       <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
@@ -651,16 +676,6 @@ and &lt;a href=&#34;https://odscwest.pathable.com/meetings/604496&#34; target=&#
 &lt;p&gt;Igor Perisic (of LinkedIn) followed this with a talk about ethical issues in data science. In particular, he identified three different areas to concentrate on: 1) The Ethics of Data, 2) The Ethics of Algorithms, and 3) The Ethics of practice. He concentrated on the recent New York Times article about using &lt;a href=&#34;https://www.nytimes.com/2017/05/01/us/politics/sent-to-prison-by-a-software-programs-secret-algorithms.html&#34; target=&#34;_blank&#34;&gt;machine learning to identify potential re-offenders in the prison system&lt;/a&gt;. The lack of transparency in how the algorithm identifies potential reoffenders is a huge ethical problem.&lt;/p&gt;
 
 &lt;p&gt;In all, I had an interesting time and I met lots of people in industry, which was a nice contrast to the academic side of things.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>On the Separation of Code and State</title>
-      <link>/2017/08/22/separation-of-code-and-state/</link>
-      <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/08/22/separation-of-code-and-state/</guid>
-      <description>&lt;p&gt;One of the hardest concepts as an analyst that I have struggled with is separating my code from my data. A related issue is making your code reproducible across data instances.&lt;/p&gt;
 </description>
     </item>
     
