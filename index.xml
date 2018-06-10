@@ -19,9 +19,9 @@
       <description>&lt;p&gt;Well, &lt;a href=&#34;http://cascadiarconf.com&#34;&gt;Cascadia-R 2018&lt;/a&gt; has come and gone. This year we tried our best to make it as inclusive, welcoming, and friendly as we could. Considering we had 224 participants this time around, I’d say it was a success.&lt;/p&gt;
 &lt;p&gt;I just thought I would do a little write up of some of the things we did and why we did them in our conference. I’m hoping it will be useful for other conference planners to create a welcoming environment.&lt;/p&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;We created a pull plan based on what we learned last year.&lt;/strong&gt; Because last year was pretty chaotic in terms of planning, we decided to try to make a pull plan this year. Pull planning is a project management technique in which you work backwards from absolute deadlines (from the day of the conference). I’ve made our &lt;a href=&#34;https://trello.com/b/lphkRbnU/cascadia-r-pull-plan&#34;&gt;pull plan public&lt;/a&gt; so other conference planners can see what we did and the timing it took to organize the conference.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;We created a pull plan based on what we learned last year.&lt;/strong&gt; Because last year was pretty chaotic in terms of planning, we decided to try to make a pull plan this year. &lt;a href=&#34;https://esub.com/pull-planning-how-lean-construction-practices-can-improve-project-efficiency/&#34;&gt;Pull planning is a project management technique&lt;/a&gt; in which you work backwards from absolute deadlines (from the day of the conference). Doing so spaces out a lot of the work and makes things potentially more dividable across a group. I’ve made our &lt;a href=&#34;https://trello.com/b/lphkRbnU/cascadia-r-pull-plan&#34;&gt;pull plan public&lt;/a&gt; so other conference planners can see what we did and the timing it took to organize the conference.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Find sponsorship money.&lt;/strong&gt; We ran last year on a shoestring, using only about $3500. We realized that to make the conference more inclusive this year, we had to get sponsorship money. Childcare and diversity scholarships cost money. We wanted sponsors who had values that aligned with our inclusion goals. Lilly Winfree was especially great at finding sponsors who were in tune with what we wanted to accomplish with our conference. Sponsorship also allowed us to pay for lunch for everyone, which we couldn’t last year.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Provide childcare.&lt;/strong&gt; We wanted parents to be able to attend, so we got DivCare to provide childcare for them in our building. DivCare provided childcare for 8 children.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Provide childcare.&lt;/strong&gt; We wanted parents to be able to attend, so we got &lt;a href=&#34;http://www.divcarepdx.com&#34;&gt;DivCare&lt;/a&gt; to provide childcare for them in our building. DivCare provided childcare for 8 children, and we had some grateful parents who were happy they could attend.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Diversity Committee&lt;/strong&gt;. We did this last year, but we had more money this year for diversity scholarships for those who might not be able to attend. I think next year we might think about reaching out to more STEM groups, but I think the real challenge is finding how to get those diverse students who might not even know about data science in and how to properly host and support them.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Get rid of longer form talks. Keynotes and Lightning talks only.&lt;/strong&gt; This is probably the most controversial choice that we made. However, we realized that the 10-15 minute talks we had in 2017 were mostly academic ones. Honestly, there are already too many academic conferences out there. We wanted a format that was more accessible and encouraged discussion afterwards, so we stayed with the lightning talks.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Have keynote speakers show newcomers how to join the R Community.&lt;/strong&gt; We chose Kara Woo and Alison Hill as our keynote speakers for a very specific reason: we wanted to encourage people new to R that they could learn things. Alison gave a &lt;a href=&#34;https://speakerdeck.com/apreshill/big-magic-with-r-creative-learning-beyond-fear&#34;&gt;wonderful talk about ways to approach learning R&lt;/a&gt;; Kara gave a great talk talking about &lt;a href=&#34;https://github.com/karawoo/2018-06-02-cascadiarconf&#34;&gt;how to contribute to various R-projects on GitHub&lt;/a&gt;, especially the &lt;code&gt;tidyverse&lt;/code&gt; suite of packages. What I really liked about both their talks was that they emphasized learning by doing.&lt;/p&gt;&lt;/li&gt;
@@ -262,16 +262,6 @@
     </item>
     
     <item>
-      <title>Why I Still have Impostor Syndrome after 15 years of experience</title>
-      <link>/why-i-still-have-impostor-syndrome-after-15-years-experience/</link>
-      <pubDate>Thu, 29 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/why-i-still-have-impostor-syndrome-after-15-years-experience/</guid>
-      <description>&lt;p&gt;I believe in modeling good behavior. I also believe in transparency of process.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Some Notes from the Evidence to Scholarship Conference</title>
       <link>/2018/03/19/some-notes-from-the-evidence-to-scholarship-conference/</link>
       <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
@@ -306,54 +296,6 @@
       <description>&lt;p&gt;I gave a talk for the Portland State University Systems Science seminar called &lt;em&gt;&lt;a href=&#34;https://laderast.github.io/sysc_data_sci/&#34; target=&#34;_blank&#34;&gt;How are Data Science and Systems Science Connected?&lt;/a&gt;&lt;/em&gt;. In this talk, I was highlighting current blind spots in Data Science that I think Systems Science approaches can address, especially that of interactions between features. I talked a little about my dissertation research (surrogate oncogenes), and the problem of &lt;em&gt;black-box interpretability&lt;/em&gt; of predictive models.&lt;/p&gt;
 
 &lt;p&gt;If you&amp;rsquo;re interested in listening to the recording, the playback is available here: &lt;a href=&#34;https://us.bbcollab.com/recording/059acf5cfed64f9abbf7cf432fdfb566&#34; target=&#34;_blank&#34;&gt;https://us.bbcollab.com/recording/059acf5cfed64f9abbf7cf432fdfb566&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How To Be A Good Collaborator</title>
-      <link>/how-to-be-a-good-collaborator/</link>
-      <pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/how-to-be-a-good-collaborator/</guid>
-      <description>&lt;p&gt;I try to teach my students more than just knowledge. What I have been trying to help students with is learn how to be a good collaborator. I would say of my skills, the two most vital are 1) being able to collaborate and communicate effectively, and 2) project management.&lt;/p&gt;
-
-&lt;p&gt;Over 16 years in the collaboration business, I&amp;rsquo;ve compiled the following guidelines for myself. Maybe they&amp;rsquo;re helpful to someone else.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Be willing to learn&lt;/em&gt;. One of the best pieces of advice that I&amp;rsquo;ve received is to not just be a calculating drone. I&amp;rsquo;m not just there to blindly put the data into a machine learning algorithm and spit out the results. I have to be willing to take a deep dive into understanding the domain. If my collaborators can&amp;rsquo;t communicate what they&amp;rsquo;re looking for in the data, I probably can&amp;rsquo;t find it.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Be willing to teach others&lt;/em&gt;. This is the flip-side of 1.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Ask questions&lt;/em&gt;. &lt;em&gt;Don&amp;rsquo;t be afraid to show ignorance about the domain&lt;/em&gt;. Showing ignorance, but with an openness to learn is one of the fastest ways to learn. We don&amp;rsquo;t value people who say &amp;ldquo;I don&amp;rsquo;t know&amp;rdquo; enough. If you&amp;rsquo;re unwilling to say &amp;ldquo;I don&amp;rsquo;t know&amp;rdquo;, you&amp;rsquo;re probably not going to learn enough to make the project a success.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Understand your collaborator&amp;rsquo;s motivations&lt;/em&gt;. Understanding their point of view is of vital importance. One example is that one of my collaborators asked for a heatmap of their data, but in talking with them we found a way more appropriate visualization to show differences.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Be flexible&lt;/em&gt;. &lt;em&gt;Be uncomfortable&lt;/em&gt;. &lt;em&gt;Be vulnerable&lt;/em&gt;. Don&amp;rsquo;t let ego get in the way of your collaboration. Get to an honest place with your collaborators. If you can&amp;rsquo;t find a way to trust them, then rethink this collaboration.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Establish ground rules for a safe collaborative environment&lt;/em&gt;. These are important for establishing boundaries. I&amp;rsquo;ve had some collaborators who expect me to do work on weekends. I&amp;rsquo;ve had to gently say now, and model the behavior that I want. (&amp;ldquo;I can&amp;rsquo;t work on it this weekend. I will do this first thing on Monday.&amp;rdquo;)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Be professional&lt;/em&gt;. I know that we value supposed &amp;ldquo;mavericks&amp;rdquo; like Steve Jobs and Elon Musk. But this kind of attitude when working with a collaborator is really offputting.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Communicate frequently enough&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Listen, and then attempt to clarify&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Never think a project or a field is &amp;ldquo;below you&amp;rdquo;, or a &amp;ldquo;waste of your time&amp;rdquo;&lt;/em&gt;. Some of my best ideas have come from working in the trenches and wrangling the data, and especially in participating in generating the data. This point of view is really invaluable. It enables you to wonder and notice strange things about the dataset.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Don&amp;rsquo;t work with assholes, no matter how prestigious they are&lt;/em&gt;. Seriously, read the [&lt;em&gt;No Asshole Rule&lt;/em&gt;](). And read it again. Strive not to be an asshole.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Don&amp;rsquo;t ever assume something about the data&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Have fun&lt;/em&gt;. The best collaborators are the ones I look forward to working with. I try to maximize my time for these collaborations, and minimize from the ones that drain my energy.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Value everyones&amp;rsquo; contributions&lt;/em&gt;. Everyone in your project is ideally working as hard as they can. Motivation, productivity, and creativity come from feeling psychologically safe and feeling like your work is being valued.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Read Give and Take&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Know when to walk away&lt;/em&gt;. More than anyone, I&amp;rsquo;m guilty of the [sunken cost fallacy]() when working with collaborators.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I suppose this is really presumptive of me, but I&amp;rsquo;m surprised at how many people (not just students) do not practice even a third of these.&lt;/p&gt;
 </description>
     </item>
     
@@ -504,6 +446,154 @@ mistakes, I&amp;rsquo;ll leave this up here.&lt;/p&gt;
 &lt;p&gt;6) &lt;em&gt;Read &lt;a href=&#34;http://www.adamgrant.net&#34; target=&#34;_blank&#34;&gt;Give and Take&lt;/a&gt;&lt;/em&gt;. This book by Adam Grant really struck me as the way to actually network. In short, I learned that if I want a return on my energy expenditure, I have to spend my energy on Givers, or people who help others. I am a Giver, but I now tend only to give informational interviewers to other Givers. The rest are too draining for me.&lt;/p&gt;
 
 &lt;p&gt;I have given so many of these interviews and have gotten nothing from them. Not even a follow-up, which really is bad practice. So, if I&amp;rsquo;m considered difficult to approach about these, know it is because your previous askers have really been an energy drain and have been inconsiderate Takers. Make it interesting for me and be considerate. I&amp;rsquo;m much more likely to help you.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Python_resources</title>
+      <link>/python_resources/</link>
+      <pubDate>Fri, 12 Jan 2018 13:55:55 -0800</pubDate>
+      
+      <guid>/python_resources/</guid>
+      <description>
+
+&lt;p&gt;A list of python resources at OHSU and beyond for the neuroscience students.&lt;/p&gt;
+
+&lt;h2 id=&#34;in-neuroscience&#34;&gt;In Neuroscience&lt;/h2&gt;
+
+&lt;h3 id=&#34;python-bootcamp-for-neuroscientists-neus640&#34;&gt;Python Bootcamp for Neuroscientists (NEUS640)&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/dasaderi/python_neurobootcamp&#34; target=&#34;_blank&#34;&gt;Course Material&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This course is a gentle introduction to the Python
+programming language using data types familiar to Neuroscience students, including behavioral, electrophysiology, and imaging data. Emphasis will be put on introducing students to concepts of visualization, data manipulation, and analysis using available Python packages (NumPy, Pandas, Matplotlib).&lt;/p&gt;
+
+&lt;h2 id=&#34;in-medical-informatics-and-clinical-epidemiology-dmice&#34;&gt;In Medical Informatics and Clinical Epidemiology (DMICE)&lt;/h2&gt;
+
+&lt;h3 id=&#34;introduction-to-programming-no-course-number&#34;&gt;Introduction to Programming (no course number)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Instructor: Lisa Karstens, Ph.D.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;0.0 credits&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/IntroductionToProgramming-Syllabus-WI18.pdf&#34; target=&#34;_blank&#34;&gt;Course Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Offered: Winter and Summer Quarter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This non-credit, online course will introduce the beginning programmer to programming structure and design, creating a solid foundation for all types of programming. The emphasis will be on procedural programming and control structures, although exercises will be in Python. The course fulfills the prerequisite for BMI 540 and BMI 565. Tuition fee is $500.&lt;/p&gt;
+
+&lt;p&gt;Students may register during the regular winter and summer term registration periods. Contact Diane Doctor for details at doctord@ohsu.edu.&lt;/p&gt;
+
+&lt;h3 id=&#34;bioinformatics-programming-and-scripting-bmi-565-656&#34;&gt;Bioinformatics Programming and Scripting - BMI 565 / 656&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Instructor: Michael Mooney, Ph.D.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Credits: 3.0&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/BMI-565-Syllabus-FA17.pdf&#34; target=&#34;_blank&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Offered: Fall Quarter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The purpose of this course is to equip research scientists with computational skills necessary to create and automate tools to analyze biological data.  The course is divided into four sub-topics: python programming, scripting in unix, biopython library, bioinformatics workflows.  Python will be used used to solve simple to sophisticated programming problems and to review general computational language paradigms such as problem abstraction, data types, file I/O, iteration, functions, and objects.  There will also be an emphasis on writing unix operating system shell scripts to automate repetitive tasks and connect disparate bioinformatics tools using files and pipes.  In addition, students will learn to access public repositories to perform basic bioinformatics tasks such as annotating gene products, sequence searching, and functional queries. This course is designed to be a first year requirement for students in the Bioinformatics and Computational Biology graduate program in Biomedical Informatics. Open to other students with consent of instructor.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prerequisite&lt;/strong&gt;: Background must include an introductory programming class including concepts such as variables, loops, I/O, methods, and algorithms.&lt;/p&gt;
+
+&lt;h2 id=&#34;computer-science-and-electrical-engineering-cs-ee-python-courses&#34;&gt;Computer Science and Electrical Engineering (CS/EE) Python Courses&lt;/h2&gt;
+
+&lt;h3 id=&#34;data-science-programming-cs-527-627&#34;&gt;Data Science Programming - CS 527 / 627&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://cslu.ohsu.edu/~kain/CS627/&#34; target=&#34;_blank&#34;&gt;Course Website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This course is designed to give you awareness and initial working knowledge of some of the most fundamental computational tools for performing a wide variety of academic research. As such, it will focus on providing breadth instead of depth, which means that for each concept we will talk about motivation, key concepts, and concrete usage scenarios, but without mathematical background or proofs, which can be acquired in more specialized classes. In this class we will: become familiar with the UNIX/LINUX environment, learn how to version control files with git, write programs inpython, perform numeric tasks using numpy and scipy, analyze data using pandas, apply machine learning algorithms using scikit-learn, visualize data using matplotlib and pyqtgraph, use QT/pyside to build graphical user interfaces, and finally we will address performance issues via compilation/profiling/parallelization tools.&lt;/p&gt;
+
+&lt;h3 id=&#34;introduction-to-image-processing-ee-584-684&#34;&gt;Introduction to Image Processing EE 584 / 684&lt;/h3&gt;
+
+&lt;p&gt;This course covers basic image processing principles and techniques with a brief introduction to machine vision. Specific topics include image transform methods, image filtering, image enhancement, image restoration, segmentation, image representation and feature extraction, image recognition and classification, and image compression. Application of these techniques is illustrated in numerous examples. Pre-requisite: probability and statistics or equivalent, calculus, linear algebra and proficiency in at least one high-level programming language.&lt;/p&gt;
+
+&lt;h3 id=&#34;data-visualization-cs-631&#34;&gt;Data Visualization CS 631&lt;/h3&gt;
+
+&lt;p&gt;This course will give students a foundation in the principles of data visualization, particularly as applied to scientific and technical data, as well as provide students with hands-on experience using modern software tools for developing visualizations. Lecture topics will include an overview of visual perception, color theory and practice, different types of graphs and their purposes, visualizations for specialized forms of data including time-series and geospatial data sets, strategies for working with multidimensional data, etc. There will also be lecture content on ethical issues surrounding data visualization. Weekly lab sessions will introduce students to popular data visualization tools such as R&amp;rsquo;s ggplot and Shiny, Tableau, etc.&lt;/p&gt;
+
+&lt;h2 id=&#34;datacamp&#34;&gt;DataCamp&lt;/h2&gt;
+
+&lt;p&gt;NEUS640 Students will have access to DataCamp for the next 6 months.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>So You&#39;ve Accidentally Checked in a Large File Into Git</title>
+      <link>/2018/01/05/so-you-ve-accidentally-checked-in-a-large-file-into-git/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/01/05/so-you-ve-accidentally-checked-in-a-large-file-into-git/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Note: after posting this, I heard back from Roberto Tyley, the creator of the BFG. I&amp;rsquo;d like to note that the BFG actually does its job really well. I was mostly really frustrated about how Git/GitHub doesn&amp;rsquo;t prevent a user from doing something that&amp;rsquo;s hard to undo. So my frustration is really about that, not really about the BFG. This post has been edited to reflect that.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Greg Wilson first said it, but I&amp;rsquo;ve come to agree. Git is an aggressively antisocial piece of software. Git is a piece of software that can make developers with any amount of experience feel dumb.&lt;/p&gt;
+
+&lt;p&gt;Recently, I accidentally checked a large file (greater than 100 Megs) into my local repo. When I tried to push to GitHub, of course, it refused it (I know about git large file storage, but I don&amp;rsquo;t have any).&lt;/p&gt;
+
+&lt;p&gt;So my local repo was screwed up. Of course, I did what seemed like the rational thing and deleted the file from my repo and recommitted. More than once. This is a mistake I&amp;rsquo;ve done more than once. So you need to scrub your git history with BFG so that GitHub will accept your lowly commits again.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://rtyley.github.io/bfg-repo-cleaner/&#34; target=&#34;_blank&#34;&gt;The BFG&lt;/a&gt; documentation specifies how to fix a &lt;em&gt;remote&lt;/em&gt; repo. I would say that this situation is much less common than the local situation. So I just decided to share how I got the BFG to work for the local repo situation.&lt;/p&gt;
+
+&lt;p&gt;I usually install the BFG through &lt;code&gt;homebrew&lt;/code&gt;, using &lt;code&gt;brew install bfg&lt;/code&gt;. When you install it this way, you can just run BFG with &lt;code&gt;bfg&lt;/code&gt;. You can download it from the website, but you&amp;rsquo;ll have to call &lt;code&gt;java -jar bfg[VERSION].jar&lt;/code&gt; to run it.&lt;/p&gt;
+
+&lt;p&gt;Say you&amp;rsquo;ve accidently checked in a large file into your current repo. The first thing to do is to clone your local repo:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone --mirror local_repo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will create another folder called &lt;code&gt;local_repo.git&lt;/code&gt; that you will do all the BFG magic on. This &lt;code&gt;local_rep.git&lt;/code&gt; is what is called a &lt;em&gt;bare&lt;/em&gt; repo. I want to remove any files larger than 100 Megs, so I do this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;bfg -b 100M local_repo.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If this doesn&amp;rsquo;t return an error, you can move on. However, I got the dreaded error:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Warning : no large blobs matching criteria found in packfiles - 
+does the repo need to be packed?
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Augh. Ok, some googling later I found that I needed to pack my orignal repo:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd local_repo
+git repack
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Okay, we need to get rid of our cloned repo and redo the last few steps.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rm -rf local_repo.git
+git clone --mirror local_repo
+bfg -b 100M local_repo.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then comes some git commands that no one has bothered to explain to me.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git reflog expire --expire=now --all &amp;amp;&amp;amp; git gc --prune=now --aggressive
+git push
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Uh oh, I get a &lt;code&gt;remote: error: refusing to update checked out branch: refs/heads/master&lt;/code&gt; error! More ugh.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s the trick. Since you cloned a &lt;em&gt;local&lt;/em&gt; repo, you need to set the origin of your current repo (&lt;code&gt;local_repo.git&lt;/code&gt;) to the GitHub remote. First we remove the current &lt;code&gt;origin&lt;/code&gt;, and then add back our remote.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git remote rm origin
+git remote add origin https://github.com/laderast/remote_repo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Finally, after much gnashing of the teeth, we can&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git push
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Don&amp;rsquo;t forget to remove your now &lt;em&gt;dirty&lt;/em&gt; &lt;code&gt;local_repo&lt;/code&gt;, and the mirrored copy, and then pull a fresh copy down!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;##remove both original local repo and altered bare repo
+rm -rf local_repo
+rm -rf local_repo.git
+##clone a fresh copy from GitHub
+git clone https://github.com/laderast/remote_repo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This may be obvious to the 10 people in the world who have read all of the git documentation, but I am not one of them. I&amp;rsquo;m stuck with git, unfortunately. I&amp;rsquo;m writing this post to remind me of what to do when I innocently do something like commit a large file to my repo.&lt;/p&gt;
 </description>
     </item>
     
