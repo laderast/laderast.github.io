@@ -7,8 +7,56 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Working on the `umapr` package</title>
+      <link>/2018/06/15/working-on-the-umapr-package/</link>
+      <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/15/working-on-the-umapr-package/</guid>
+      <description>
+
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+
+&lt;p&gt;A few weeks ago, as part of the [rOpenSci Unconference](), a group of us (Sean Hughes, Malisa Smith, Angela Li, Ju Kim and me) decided to work on making the UMAP algorithm accessible within R. UMAP (Uniform Manifold Approximation and Projection) is a [dimensionality reduction technique]() that allows the user to reduce high dimensional data (multiple columns) into a smaller number of columns for visualization purposes (Usually two). It is related to both Priniciple Components Analysis (PCA) and t-SNE, which are techniques often used in the single-cell omics world to visualize high dimensional data.&lt;/p&gt;
+
+&lt;p&gt;We decided to start working on the &lt;code&gt;umapr&lt;/code&gt; package to make this technique accessible within R. As with most rOpenSci Unconf projects, this started with an issue entry in the rOpenSci unconf repo from Sean:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I recently read about a new non-linear dimensionality reduction algorithm called UMAP, which is much faster than t-SNE, while producing two-dimensional visualizations that share many characteristics with t-SNE. I initially found out about it in the context of use on high-dimensional single-cell data in this paper.&lt;/p&gt;
+
+&lt;p&gt;&amp;hellip;.&lt;/p&gt;
+
+&lt;p&gt;My thought is that the ideal would be a package focused on UMAP specifically, implemented in R or Rcpp. Unfortunately I am not at all an expert in this topic or familiar with the mathematics involved, so the best I would be able to do is try to translate the Python implementation into R.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We all met at the unconference the first day and decided that this was a project worth working on. Since TSNE is so used in the single cell and flow-cytometry community, we thought that having an alternative that was just as good, but faster to run would be helpful.&lt;/p&gt;
+
+&lt;h2 id=&#34;making-a-development-plan&#34;&gt;Making a Development Plan&lt;/h2&gt;
+
+&lt;p&gt;Rather than recreate the UMAP code completely from scratch in R, we decided to use the &lt;code&gt;reticulate&lt;/code&gt; package to call the implementation in Python from R. There were&lt;/p&gt;
+
+&lt;p&gt;In the future, we plan to implement the UMAP algorithm in C++ in order to make it accessible to more languages.&lt;/p&gt;
+
+&lt;h2 id=&#34;learning-about-testing-and-documentation&#34;&gt;Learning about Testing and Documentation&lt;/h2&gt;
+
+&lt;p&gt;Although our package only really has one main function, we felt it was important to have good documentation, unit tests.&lt;/p&gt;
+
+&lt;h2 id=&#34;learning-about-package-building-and-documentation&#34;&gt;Learning about Package Building and Documentation&lt;/h2&gt;
+
+&lt;h2 id=&#34;exploring-the-results-with-shiny&#34;&gt;Exploring the Results with Shiny&lt;/h2&gt;
+
+&lt;p&gt;We built a small Shiny app that lets people explore their mapping vectors and how they separate the data into different populations.&lt;/p&gt;
+
+&lt;h2 id=&#34;profiling-umapr-using-different-datasets&#34;&gt;Profiling &lt;code&gt;umapr&lt;/code&gt; using different datasets&lt;/h2&gt;
+
+&lt;h2 id=&#34;final-results-get-umapr&#34;&gt;Final Results: Get &lt;code&gt;umapr&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;As a group, we learned a lot by building the &lt;code&gt;umapr&lt;/code&gt; package, including specifics of package building, documentation using roxygen, and building unit tests using &lt;code&gt;testthat&lt;/code&gt; and automating testing using Appveyor and Travis-CI.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Cascadia-R 2018: How we planned it and the reasons why</title>
@@ -627,55 +675,6 @@ bang(5)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;We&amp;rsquo;ve used this dataset for a couple of classes, and we&amp;rsquo;ve found that it helps highlight real issues in predictive modeling of clinical data. One of the largest is that most predictive models are based on a much older patient cohort (50+), which means that we don&amp;rsquo;t know much about how to predict cardiovascular risk in younger patients. Part of the teaching exercise is having the students choose a cohort of interest and then attempt to predict on that patient cohort.&lt;/p&gt;
 
 &lt;p&gt;The data is currently available as an R package here, including vignettes about how the data was generated: &lt;a href=&#34;https://github.com/laderast/cvdRiskData&#34; target=&#34;_blank&#34;&gt;https://github.com/laderast/cvdRiskData&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Notes on Open Data Science Conference West 2017</title>
-      <link>/2017/11/07/odsc-notes/</link>
-      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/11/07/odsc-notes/</guid>
-      <description>
-
-&lt;p&gt;I just came back from the &lt;a href=&#34;https://odscwest.pathable.com&#34; target=&#34;_blank&#34;&gt;Open Data Science Conference&lt;/a&gt; (ODSC) in San Francisco and I found it really stimulating and interesting. I learned a ton, met some great people working in very different fields, and overall found it quite worthwhile.&lt;/p&gt;
-
-&lt;p&gt;Here are some of the highlights from my notes:&lt;/p&gt;
-
-&lt;h2 id=&#34;workshops&#34;&gt;Workshops&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/amueller/ml-training-intro&#34; target=&#34;_blank&#34;&gt;scikit-learn intro Workshop&lt;/a&gt; and &lt;a href=&#34;https://github.com/amueller/ml-training-advanced&#34; target=&#34;_blank&#34;&gt;Advanced&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I admit that I am not really a Python person. But I am helping to develop some materials for an introductory workshop and I found this workshop and its materials to be a very beginner-friendly to &lt;code&gt;scikit-learn&lt;/code&gt; and machine learning concepts, much like &lt;code&gt;caret&lt;/code&gt; for R. All the slides and workshop materials are available at the above links.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/WinVector/ODSCWest2017&#34; target=&#34;_blank&#34;&gt;SparklyR Workshop&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I liked this workshop from John Mount of Win-Vector. It started out with a &lt;em&gt;dplyr&lt;/em&gt; intro, and introduced us to the basics of Apache Spark, which is a cluster-computing based machine learning framework, which is designed to do very large queries and machine learning. RStudio&amp;rsquo;s Edgar Ruiz managed to get us each an RStudio Pro Instance running on AWS with all the required packages installed so we could test out the SparklyR package, which uses dplyr&amp;rsquo;s commands to run Spark jobs.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B3MFD2S4MhtGd1ltVHZkbFhHX0ZUbGlGZmtNRjllQ2NtQkJN/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;In-Memory Computing Essentials for Data Scientists&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This was an introduction to Apache Ignite, which is a distributed, in-memory database that can be leveraged by different languages. The really interesting thing about Ignite is that it will colocate related data on the same cluster node, resulting in rapid queries within each node. I think this technology will become very important as we need more datasets to be openly accessible to compute on.&lt;/p&gt;
-
-&lt;h2 id=&#34;talks&#34;&gt;Talks&lt;/h2&gt;
-
-&lt;p&gt;These were the most interesting talks that I attended.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://mfviz.com/odsc-2017/#/&#34; target=&#34;_blank&#34;&gt;Visually Explaining Statistical and Machine Learning Concepts&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This was a great talk by Mike Freedman about his process of how he put together D3.js based visualizations to explain some statistical concepts. I thought the explanation of his process (isolate specific ideas, identify data structures, leverage visualization algorithms). Check out the slides above. They&amp;rsquo;re very cool.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://odscwest.pathable.com/meetings/596522&#34; target=&#34;_blank&#34;&gt;The Wonder Twins: Data Science and Human Centered Design&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This was a really interesting talk about the interplay between data science and design in helping encourage a mobile money system in Tanzania. It was inspiring to see how they had both designers and data scientists embedded and looking at how the mobile payment system worked. One interesting example was doing network analysis of the Mobile Money Agents, who distribute cash. They targeted a highly influential group of these agents based on this analysis. Very cool.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://odscwest.pathable.com/meetings/601861&#34; target=&#34;_blank&#34;&gt;The People&amp;rsquo;s Data&lt;/a&gt;
-and &lt;a href=&#34;https://odscwest.pathable.com/meetings/604496&#34; target=&#34;_blank&#34;&gt;The Deontology of Data Science&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I thought these were really interesting sides about the human side of data science. DJ Patil, who was chief data scientist under the Obama administration, talked about citizen-driven data projects and how it enabled a number of advances. The most interesting case was basically a parent built an online community of people who had a very rare disease condition so he could help his son with the condition.&lt;/p&gt;
-
-&lt;p&gt;Igor Perisic (of LinkedIn) followed this with a talk about ethical issues in data science. In particular, he identified three different areas to concentrate on: 1) The Ethics of Data, 2) The Ethics of Algorithms, and 3) The Ethics of practice. He concentrated on the recent New York Times article about using &lt;a href=&#34;https://www.nytimes.com/2017/05/01/us/politics/sent-to-prison-by-a-software-programs-secret-algorithms.html&#34; target=&#34;_blank&#34;&gt;machine learning to identify potential re-offenders in the prison system&lt;/a&gt;. The lack of transparency in how the algorithm identifies potential reoffenders is a huge ethical problem.&lt;/p&gt;
-
-&lt;p&gt;In all, I had an interesting time and I met lots of people in industry, which was a nice contrast to the academic side of things.&lt;/p&gt;
 </description>
     </item>
     
