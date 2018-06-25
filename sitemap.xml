@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/2018/06/25/asking-for-help-to-get-better/</loc>
+      <lastmod>2018-06-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2018/06/15/working-on-the-umapr-package/</loc>
       <lastmod>2018-06-15T00:00:00+00:00</lastmod>
     </url>
@@ -249,7 +258,7 @@
     <url>
     
       <loc>/post/</loc>
-      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
+      <lastmod>2017-01-01T00:00:00-08:00</lastmod>
     </url>
     
   
@@ -303,6 +312,16 @@
     <url>
     
       <loc>/teaching_cv/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/academia/</loc>
+      <lastmod>2018-06-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -399,6 +418,16 @@
     
       <loc>/categories/data-science-systems/</loc>
       <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/depression/</loc>
+      <lastmod>2018-06-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -757,7 +786,7 @@
     <url>
     
       <loc>/tags/</loc>
-      <lastmod>2017-04-19T00:00:00+00:00</lastmod>
+      <lastmod>2018-06-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

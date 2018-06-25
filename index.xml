@@ -11,6 +11,28 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Asking for help to get better</title>
+      <link>/2018/06/25/asking-for-help-to-get-better/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/25/asking-for-help-to-get-better/</guid>
+      <description>&lt;p&gt;I want to thank everyone who has reached out to me after I wrote &lt;a href=&#34;http://laderast.github.io/2018/06/05/self-care-and-self-compassion-in-academia/&#34; target=&#34;_blank&#34;&gt;my post on struggling with my depression and self-care&lt;/a&gt;. I am incredibly grateful for everyone’s concern about me. I wrote that at a low point in my life because I had to. I was suffering too long in silence, and I needed to do something. Writing that post was incredibly scary. I am still worried that it may be used against me somehow down the line when I am reviewed for tenure. But the truth is that I&amp;rsquo;m not a productivity machine; I can be extremely dependable in very uncertain situations, but to do that I need support.&lt;/p&gt;
+
+&lt;p&gt;I wanted to start the conversation because mental health is not something we talk about much in academia. There is still a lot of bias and stigma against those with mental illness, that they are &amp;ldquo;weak&amp;rdquo;, or that they should &amp;ldquo;get out of academia&amp;rdquo;. This stigma prevents a lot of students and postdocs from seeking the treatment they need.  I just want to say this to everyone who is struggles with mental illness: &lt;strong&gt;you aren&amp;rsquo;t weak, and you aren&amp;rsquo;t alone&lt;/strong&gt;. As far as I am concerned, each of you that manages to get through your day despite of your illness should be considered a hero. Because I know how hard it can be to even get out of bed some days. And I would like for PIs to consider that your overall neglect and/or bad advising can contribute to your student&amp;rsquo;s decline in mental health.&lt;/p&gt;
+
+&lt;p&gt;Thank you to all my students, my colleagues, alumni, and everyone in my department (including my department head and division head) who are supporting me. Your kindness and sharing your stories about your struggles really has meant a lot to me. I’ve come to realize that I have an amazing support network and that I just need to ask for help. I am slowly figuring out what that help is. I’m going to 0.8 time for a while to give me more breathing room. I’m exhausted and I just need some time to replenish my energy and reflect where I want to go next.&lt;/p&gt;
+
+&lt;p&gt;I have come to realize that saying yes when I shouldn&amp;rsquo;t comes at a cost to myself and my mental health. Everything I do comes at a cost; I need to have a better gauge of when that cost is worth it, and how much mental reserve I have in my tanks. When my collaborators don&amp;rsquo;t understand the amount of work I do cleaning their data, when they don&amp;rsquo;t respect the work I have done managing their data and reconciling the issues with data collection, that&amp;rsquo;s when I feel like working in research is not worth it.&lt;/p&gt;
+
+&lt;p&gt;One of my industry collaborations was like that, and it pretty much drained nearly all of my energy. I don&amp;rsquo;t like working with people who expect me to give them an answer and aren&amp;rsquo;t willing to educate me about what I&amp;rsquo;m supposed to be looking for. I also don&amp;rsquo;t like working with people who take advantage of my work in open science to further their own work agenda. I need less of these kind of collaborations, and I need the gumption to walk away from them.&lt;/p&gt;
+
+&lt;p&gt;I just want to say this: I am not a rock. I am not strong. But I am a good advocate for others, especially those I feel who have been dealt an unfair hand. I realize that I need to advocate for myself right now. Thank you to other academics such as Dr. Emily Hencken Ritter, who wrote about &lt;a href=&#34;http://duckofminerva.com/2017/04/building-safe-space-for-depression-in-academia.html&#34; target=&#34;_blank&#34;&gt;her struggles with depression and what help she asked for&lt;/a&gt;. I&amp;rsquo;m going to highlight posts about this using the hashtag #DepressionInAcademia on Twitter.&lt;/p&gt;
+
+&lt;p&gt;In short: I&amp;rsquo;m not going to get better overnight, but I&amp;rsquo;m trying to take steps to get better. I&amp;rsquo;ll be taking a little time off this summer as well to recharge and figure out what&amp;rsquo;s next. I&amp;rsquo;ll try to chronicle what works for me and to highlight other people&amp;rsquo;s writings about this.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Working on the `umapr` package</title>
       <link>/2018/06/15/working-on-the-umapr-package/</link>
       <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
@@ -494,75 +516,6 @@ mistakes, I&amp;rsquo;ll leave this up here.&lt;/p&gt;
 &lt;p&gt;6) &lt;em&gt;Read &lt;a href=&#34;http://www.adamgrant.net&#34; target=&#34;_blank&#34;&gt;Give and Take&lt;/a&gt;&lt;/em&gt;. This book by Adam Grant really struck me as the way to actually network. In short, I learned that if I want a return on my energy expenditure, I have to spend my energy on Givers, or people who help others. I am a Giver, but I now tend only to give informational interviewers to other Givers. The rest are too draining for me.&lt;/p&gt;
 
 &lt;p&gt;I have given so many of these interviews and have gotten nothing from them. Not even a follow-up, which really is bad practice. So, if I&amp;rsquo;m considered difficult to approach about these, know it is because your previous askers have really been an energy drain and have been inconsiderate Takers. Make it interesting for me and be considerate. I&amp;rsquo;m much more likely to help you.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Python_resources</title>
-      <link>/python_resources/</link>
-      <pubDate>Fri, 12 Jan 2018 13:55:55 -0800</pubDate>
-      
-      <guid>/python_resources/</guid>
-      <description>
-
-&lt;p&gt;A list of python resources at OHSU and beyond for the neuroscience students.&lt;/p&gt;
-
-&lt;h2 id=&#34;in-neuroscience&#34;&gt;In Neuroscience&lt;/h2&gt;
-
-&lt;h3 id=&#34;python-bootcamp-for-neuroscientists-neus640&#34;&gt;Python Bootcamp for Neuroscientists (NEUS640)&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/dasaderi/python_neurobootcamp&#34; target=&#34;_blank&#34;&gt;Course Material&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This course is a gentle introduction to the Python
-programming language using data types familiar to Neuroscience students, including behavioral, electrophysiology, and imaging data. Emphasis will be put on introducing students to concepts of visualization, data manipulation, and analysis using available Python packages (NumPy, Pandas, Matplotlib).&lt;/p&gt;
-
-&lt;h2 id=&#34;in-medical-informatics-and-clinical-epidemiology-dmice&#34;&gt;In Medical Informatics and Clinical Epidemiology (DMICE)&lt;/h2&gt;
-
-&lt;h3 id=&#34;introduction-to-programming-no-course-number&#34;&gt;Introduction to Programming (no course number)&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Instructor: Lisa Karstens, Ph.D.&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;0.0 credits&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/IntroductionToProgramming-Syllabus-WI18.pdf&#34; target=&#34;_blank&#34;&gt;Course Syllabus&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Offered: Winter and Summer Quarter&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This non-credit, online course will introduce the beginning programmer to programming structure and design, creating a solid foundation for all types of programming. The emphasis will be on procedural programming and control structures, although exercises will be in Python. The course fulfills the prerequisite for BMI 540 and BMI 565. Tuition fee is $500.&lt;/p&gt;
-
-&lt;p&gt;Students may register during the regular winter and summer term registration periods. Contact Diane Doctor for details at doctord@ohsu.edu.&lt;/p&gt;
-
-&lt;h3 id=&#34;bioinformatics-programming-and-scripting-bmi-565-656&#34;&gt;Bioinformatics Programming and Scripting - BMI 565 / 656&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Instructor: Michael Mooney, Ph.D.&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Credits: 3.0&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/BMI-565-Syllabus-FA17.pdf&#34; target=&#34;_blank&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Offered: Fall Quarter&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The purpose of this course is to equip research scientists with computational skills necessary to create and automate tools to analyze biological data.  The course is divided into four sub-topics: python programming, scripting in unix, biopython library, bioinformatics workflows.  Python will be used used to solve simple to sophisticated programming problems and to review general computational language paradigms such as problem abstraction, data types, file I/O, iteration, functions, and objects.  There will also be an emphasis on writing unix operating system shell scripts to automate repetitive tasks and connect disparate bioinformatics tools using files and pipes.  In addition, students will learn to access public repositories to perform basic bioinformatics tasks such as annotating gene products, sequence searching, and functional queries. This course is designed to be a first year requirement for students in the Bioinformatics and Computational Biology graduate program in Biomedical Informatics. Open to other students with consent of instructor.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Prerequisite&lt;/strong&gt;: Background must include an introductory programming class including concepts such as variables, loops, I/O, methods, and algorithms.&lt;/p&gt;
-
-&lt;h2 id=&#34;computer-science-and-electrical-engineering-cs-ee-python-courses&#34;&gt;Computer Science and Electrical Engineering (CS/EE) Python Courses&lt;/h2&gt;
-
-&lt;h3 id=&#34;data-science-programming-cs-527-627&#34;&gt;Data Science Programming - CS 527 / 627&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://cslu.ohsu.edu/~kain/CS627/&#34; target=&#34;_blank&#34;&gt;Course Website&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This course is designed to give you awareness and initial working knowledge of some of the most fundamental computational tools for performing a wide variety of academic research. As such, it will focus on providing breadth instead of depth, which means that for each concept we will talk about motivation, key concepts, and concrete usage scenarios, but without mathematical background or proofs, which can be acquired in more specialized classes. In this class we will: become familiar with the UNIX/LINUX environment, learn how to version control files with git, write programs inpython, perform numeric tasks using numpy and scipy, analyze data using pandas, apply machine learning algorithms using scikit-learn, visualize data using matplotlib and pyqtgraph, use QT/pyside to build graphical user interfaces, and finally we will address performance issues via compilation/profiling/parallelization tools.&lt;/p&gt;
-
-&lt;h3 id=&#34;introduction-to-image-processing-ee-584-684&#34;&gt;Introduction to Image Processing EE 584 / 684&lt;/h3&gt;
-
-&lt;p&gt;This course covers basic image processing principles and techniques with a brief introduction to machine vision. Specific topics include image transform methods, image filtering, image enhancement, image restoration, segmentation, image representation and feature extraction, image recognition and classification, and image compression. Application of these techniques is illustrated in numerous examples. Pre-requisite: probability and statistics or equivalent, calculus, linear algebra and proficiency in at least one high-level programming language.&lt;/p&gt;
-
-&lt;h3 id=&#34;data-visualization-cs-631&#34;&gt;Data Visualization CS 631&lt;/h3&gt;
-
-&lt;p&gt;This course will give students a foundation in the principles of data visualization, particularly as applied to scientific and technical data, as well as provide students with hands-on experience using modern software tools for developing visualizations. Lecture topics will include an overview of visual perception, color theory and practice, different types of graphs and their purposes, visualizations for specialized forms of data including time-series and geospatial data sets, strategies for working with multidimensional data, etc. There will also be lecture content on ethical issues surrounding data visualization. Weekly lab sessions will introduce students to popular data visualization tools such as R&amp;rsquo;s ggplot and Shiny, Tableau, etc.&lt;/p&gt;
-
-&lt;h2 id=&#34;datacamp&#34;&gt;DataCamp&lt;/h2&gt;
-
-&lt;p&gt;NEUS640 Students will have access to DataCamp for the next 6 months.&lt;/p&gt;
 </description>
     </item>
     

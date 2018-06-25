@@ -17,10 +17,10 @@
       
     
   
-  <meta name="description" content="Motivation A few weeks ago, as part of the [rOpenSci Unconference](), a group of us (Sean Hughes, Malisa Smith, Angela Li, Ju Kim and me) decided to work on making the UMAP algorithm accessible within R. UMAP (Uniform Manifold Approximation and Projection) is a [dimensionality reduction technique]() that allows the user to reduce high dimensional data (multiple columns) into a smaller number of columns for visualization purposes (Usually two). It is related to both Priniciple Components Analysis (PCA) and t-SNE, which are techniques often used in the single-cell omics world to visualize high dimensional data.">
+  <meta name="description" content="I want to thank everyone who has reached out to me after I wrote my post on struggling with my depression and self-care. I am incredibly grateful for everyone’s concern about me. I wrote that at a low point in my life because I had to. I was suffering too long in silence, and I needed to do something. Writing that post was incredibly scary. I am still worried that it may be used against me somehow down the line when I am reviewed for tenure.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/2018/06/15/working-on-the-umapr-package/">
+  <link rel="alternate" hreflang="en-us" href="/2018/06/25/asking-for-help-to-get-better/">
 
   
 
@@ -82,7 +82,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/2018/06/15/working-on-the-umapr-package/">
+  <link rel="canonical" href="/2018/06/25/asking-for-help-to-get-better/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -90,19 +90,19 @@
   <meta property="twitter:creator" content="@tladeras">
   
   <meta property="og:site_name" content="Ted Laderas, PhD">
-  <meta property="og:url" content="/2018/06/15/working-on-the-umapr-package/">
-  <meta property="og:title" content="Working on the `umapr` package | Ted Laderas, PhD">
-  <meta property="og:description" content="Motivation A few weeks ago, as part of the [rOpenSci Unconference](), a group of us (Sean Hughes, Malisa Smith, Angela Li, Ju Kim and me) decided to work on making the UMAP algorithm accessible within R. UMAP (Uniform Manifold Approximation and Projection) is a [dimensionality reduction technique]() that allows the user to reduce high dimensional data (multiple columns) into a smaller number of columns for visualization purposes (Usually two). It is related to both Priniciple Components Analysis (PCA) and t-SNE, which are techniques often used in the single-cell omics world to visualize high dimensional data."><meta property="og:image" content="/img/multiple_algorithms_cancer.png">
+  <meta property="og:url" content="/2018/06/25/asking-for-help-to-get-better/">
+  <meta property="og:title" content="Asking for help to get better | Ted Laderas, PhD">
+  <meta property="og:description" content="I want to thank everyone who has reached out to me after I wrote my post on struggling with my depression and self-care. I am incredibly grateful for everyone’s concern about me. I wrote that at a low point in my life because I had to. I was suffering too long in silence, and I needed to do something. Writing that post was incredibly scary. I am still worried that it may be used against me somehow down the line when I am reviewed for tenure.">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-06-15T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2018-06-25T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2018-06-15T00:00:00&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2018-06-25T00:00:00&#43;00:00">
   
 
-  <title>Working on the `umapr` package | Ted Laderas, PhD</title>
+  
+
+  <title>Asking for help to get better | Ted Laderas, PhD</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -277,16 +277,11 @@
 <article class="article" itemscope itemtype="http://schema.org/Article">
 
   
-<div class="article-header">
-  <img src="/img/multiple_algorithms_cancer.png" class="article-banner" itemprop="image">
-  <span class="article-header-caption">UMAP compared to other dimensionality reduction algorithms</span>
-</div>
-
 
 
   <div class="article-container">
     <div class="article-inner">
-      <h1 itemprop="name">Working on the `umapr` package</h1>
+      <h1 itemprop="name">Asking for help to get better</h1>
 
       
 
@@ -294,8 +289,8 @@
 
   <span class="article-date">
     
-    <time datetime="2018-06-15 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
-      Jun 15, 2018
+    <time datetime="2018-06-25 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      Jun 25, 2018
     </time>
   </span>
   <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
@@ -305,7 +300,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    3 min read
+    4 min read
   </span>
   
 
@@ -323,35 +318,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Working%20on%20the%20%60umapr%60%20package&amp;url=%2f2018%2f06%2f15%2fworking-on-the-umapr-package%2f"
+         href="https://twitter.com/intent/tweet?text=Asking%20for%20help%20to%20get%20better&amp;url=%2f2018%2f06%2f25%2fasking-for-help-to-get-better%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2f2018%2f06%2f15%2fworking-on-the-umapr-package%2f"
+         href="https://www.facebook.com/sharer.php?u=%2f2018%2f06%2f25%2fasking-for-help-to-get-better%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2f2018%2f06%2f15%2fworking-on-the-umapr-package%2f&amp;title=Working%20on%20the%20%60umapr%60%20package"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2f2018%2f06%2f25%2fasking-for-help-to-get-better%2f&amp;title=Asking%20for%20help%20to%20get%20better"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2f2018%2f06%2f15%2fworking-on-the-umapr-package%2f&amp;title=Working%20on%20the%20%60umapr%60%20package"
+         href="http://service.weibo.com/share/share.php?url=%2f2018%2f06%2f25%2fasking-for-help-to-get-better%2f&amp;title=Asking%20for%20help%20to%20get%20better"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Working%20on%20the%20%60umapr%60%20package&amp;body=%2f2018%2f06%2f15%2fworking-on-the-umapr-package%2f">
+         href="mailto:?subject=Asking%20for%20help%20to%20get%20better&amp;body=%2f2018%2f06%2f25%2fasking-for-help-to-get-better%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -365,50 +360,32 @@
 
 
       <div class="article-style" itemprop="articleBody">
-        
+        <p>I want to thank everyone who has reached out to me after I wrote <a href="http://laderast.github.io/2018/06/05/self-care-and-self-compassion-in-academia/" target="_blank">my post on struggling with my depression and self-care</a>. I am incredibly grateful for everyone’s concern about me. I wrote that at a low point in my life because I had to. I was suffering too long in silence, and I needed to do something. Writing that post was incredibly scary. I am still worried that it may be used against me somehow down the line when I am reviewed for tenure. But the truth is that I&rsquo;m not a productivity machine; I can be extremely dependable in very uncertain situations, but to do that I need support.</p>
 
-<h2 id="motivation">Motivation</h2>
+<p>I wanted to start the conversation because mental health is not something we talk about much in academia. There is still a lot of bias and stigma against those with mental illness, that they are &ldquo;weak&rdquo;, or that they should &ldquo;get out of academia&rdquo;. This stigma prevents a lot of students and postdocs from seeking the treatment they need.  I just want to say this to everyone who is struggles with mental illness: <strong>you aren&rsquo;t weak, and you aren&rsquo;t alone</strong>. As far as I am concerned, each of you that manages to get through your day despite of your illness should be considered a hero. Because I know how hard it can be to even get out of bed some days. And I would like for PIs to consider that your overall neglect and/or bad advising can contribute to your student&rsquo;s decline in mental health.</p>
 
-<p>A few weeks ago, as part of the [rOpenSci Unconference](), a group of us (Sean Hughes, Malisa Smith, Angela Li, Ju Kim and me) decided to work on making the UMAP algorithm accessible within R. UMAP (Uniform Manifold Approximation and Projection) is a [dimensionality reduction technique]() that allows the user to reduce high dimensional data (multiple columns) into a smaller number of columns for visualization purposes (Usually two). It is related to both Priniciple Components Analysis (PCA) and t-SNE, which are techniques often used in the single-cell omics world to visualize high dimensional data.</p>
+<p>Thank you to all my students, my colleagues, alumni, and everyone in my department (including my department head and division head) who are supporting me. Your kindness and sharing your stories about your struggles really has meant a lot to me. I’ve come to realize that I have an amazing support network and that I just need to ask for help. I am slowly figuring out what that help is. I’m going to 0.8 time for a while to give me more breathing room. I’m exhausted and I just need some time to replenish my energy and reflect where I want to go next.</p>
 
-<p>We decided to start working on the <code>umapr</code> package to make this technique accessible within R. As with most rOpenSci Unconf projects, this started with an issue entry in the rOpenSci unconf repo from Sean:</p>
+<p>I have come to realize that saying yes when I shouldn&rsquo;t comes at a cost to myself and my mental health. Everything I do comes at a cost; I need to have a better gauge of when that cost is worth it, and how much mental reserve I have in my tanks. When my collaborators don&rsquo;t understand the amount of work I do cleaning their data, when they don&rsquo;t respect the work I have done managing their data and reconciling the issues with data collection, that&rsquo;s when I feel like working in research is not worth it.</p>
 
-<blockquote>
-<p>I recently read about a new non-linear dimensionality reduction algorithm called UMAP, which is much faster than t-SNE, while producing two-dimensional visualizations that share many characteristics with t-SNE. I initially found out about it in the context of use on high-dimensional single-cell data in this paper.</p>
+<p>One of my industry collaborations was like that, and it pretty much drained nearly all of my energy. I don&rsquo;t like working with people who expect me to give them an answer and aren&rsquo;t willing to educate me about what I&rsquo;m supposed to be looking for. I also don&rsquo;t like working with people who take advantage of my work in open science to further their own work agenda. I need less of these kind of collaborations, and I need the gumption to walk away from them.</p>
 
-<p>&hellip;.</p>
+<p>I just want to say this: I am not a rock. I am not strong. But I am a good advocate for others, especially those I feel who have been dealt an unfair hand. I realize that I need to advocate for myself right now. Thank you to other academics such as Dr. Emily Hencken Ritter, who wrote about <a href="http://duckofminerva.com/2017/04/building-safe-space-for-depression-in-academia.html" target="_blank">her struggles with depression and what help she asked for</a>. I&rsquo;m going to highlight posts about this using the hashtag #DepressionInAcademia on Twitter.</p>
 
-<p>My thought is that the ideal would be a package focused on UMAP specifically, implemented in R or Rcpp. Unfortunately I am not at all an expert in this topic or familiar with the mathematics involved, so the best I would be able to do is try to translate the Python implementation into R.</p>
-</blockquote>
-
-<p>We all met at the unconference the first day and decided that this was a project worth working on. Since TSNE is so used in the single cell and flow-cytometry community, we thought that having an alternative that was just as good, but faster to run would be helpful.</p>
-
-<h2 id="making-a-development-plan">Making a Development Plan</h2>
-
-<p>Rather than recreate the UMAP code completely from scratch in R, we decided to use the <code>reticulate</code> package to call the implementation in Python from R. There were</p>
-
-<p>In the future, we plan to implement the UMAP algorithm in C++ in order to make it accessible to more languages.</p>
-
-<h2 id="learning-about-testing-and-documentation">Learning about Testing and Documentation</h2>
-
-<p>Although our package only really has one main function, we felt it was important to have good documentation, unit tests.</p>
-
-<h2 id="learning-about-package-building-and-documentation">Learning about Package Building and Documentation</h2>
-
-<h2 id="exploring-the-results-with-shiny">Exploring the Results with Shiny</h2>
-
-<p>We built a small Shiny app that lets people explore their mapping vectors and how they separate the data into different populations.</p>
-
-<h2 id="profiling-umapr-using-different-datasets">Profiling <code>umapr</code> using different datasets</h2>
-
-<h2 id="final-results-get-umapr">Final Results: Get <code>umapr</code></h2>
-
-<p>As a group, we learned a lot by building the <code>umapr</code> package, including specifics of package building, documentation using roxygen, and building unit tests using <code>testthat</code> and automating testing using Appveyor and Travis-CI.</p>
+<p>In short: I&rsquo;m not going to get better overnight, but I&rsquo;m trying to take steps to get better. I&rsquo;ll be taking a little time off this summer as well to recharge and figure out what&rsquo;s next. I&rsquo;ll try to chronicle what works for me and to highlight other people&rsquo;s writings about this.</p>
 
       </div>
 
       
 
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/depression">depression</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/academia">academia</a>
+  
+</div>
 
 
 
