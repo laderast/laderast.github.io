@@ -93,7 +93,7 @@ Using sym() in a Shiny App One fairly simple Shiny Application might be selectin
   
   <meta property="og:site_name" content="Ted Laderas, PhD">
   <meta property="og:url" content="/2018/08/07/shiny-and-tidyeval/">
-  <meta property="og:title" content="Shiny and Tidyeval | Ted Laderas, PhD">
+  <meta property="og:title" content="Shiny and Tidyeval Part 1 | Ted Laderas, PhD">
   <meta property="og:description" content="Note: sometimes I write these posts to teach myself a better way to do things in R.
  I have been avoiding tidyeval somewhat, because I seem to have a bit of a learning block about it. I’m going to try to write some posts that help me understand what’s going on with Tidy Evaluation.
 Using sym() in a Shiny App One fairly simple Shiny Application might be selecting a column of the dataset and then doing something with it, such as using it in a select() or filter() statement.">
@@ -106,7 +106,7 @@ Using sym() in a Shiny App One fairly simple Shiny Application might be selectin
 
   
 
-  <title>Shiny and Tidyeval | Ted Laderas, PhD</title>
+  <title>Shiny and Tidyeval Part 1 | Ted Laderas, PhD</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -285,7 +285,7 @@ Using sym() in a Shiny App One fairly simple Shiny Application might be selectin
 
   <div class="article-container">
     <div class="article-inner">
-      <h1 itemprop="name">Shiny and Tidyeval</h1>
+      <h1 itemprop="name">Shiny and Tidyeval Part 1</h1>
 
       
 
@@ -331,7 +331,7 @@ Using sym() in a Shiny App One fairly simple Shiny Application might be selectin
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Shiny%20and%20Tidyeval&amp;url=%2f2018%2f08%2f07%2fshiny-and-tidyeval%2f"
+         href="https://twitter.com/intent/tweet?text=Shiny%20and%20Tidyeval%20Part%201&amp;url=%2f2018%2f08%2f07%2fshiny-and-tidyeval%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
@@ -345,21 +345,21 @@ Using sym() in a Shiny App One fairly simple Shiny Application might be selectin
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2f2018%2f08%2f07%2fshiny-and-tidyeval%2f&amp;title=Shiny%20and%20Tidyeval"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2f2018%2f08%2f07%2fshiny-and-tidyeval%2f&amp;title=Shiny%20and%20Tidyeval%20Part%201"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2f2018%2f08%2f07%2fshiny-and-tidyeval%2f&amp;title=Shiny%20and%20Tidyeval"
+         href="http://service.weibo.com/share/share.php?url=%2f2018%2f08%2f07%2fshiny-and-tidyeval%2f&amp;title=Shiny%20and%20Tidyeval%20Part%201"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Shiny%20and%20Tidyeval&amp;body=%2f2018%2f08%2f07%2fshiny-and-tidyeval%2f">
+         href="mailto:?subject=Shiny%20and%20Tidyeval%20Part%201&amp;body=%2f2018%2f08%2f07%2fshiny-and-tidyeval%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -380,7 +380,7 @@ Using sym() in a Shiny App One fairly simple Shiny Application might be selectin
 <div id="using-sym-in-a-shiny-app" class="section level2">
 <h2>Using <code>sym()</code> in a Shiny App</h2>
 <p>One fairly simple Shiny Application might be selecting a column of the dataset and then doing something with it, such as using it in a <code>select()</code> or <code>filter()</code> statement. Say we had a simple app to produce histograms, and we wanted to change the column that is being displayed on the histogram.</p>
-<p>Try this app out:</p>
+<p>Try this app out by running the following command. The <a href="https://gist.github.com/laderast/a5205554324306e642b2df9f80ed6409">code is here</a></p>
 <pre class="r"><code>runGist(&quot;https://gist.github.com/laderast/a5205554324306e642b2df9f80ed6409&quot;, display.mode=&quot;showcase&quot;)</code></pre>
 <p>Our input is a select input called <code>numeric_var</code>, which returns a single column name as a <code>character</code> In our server logic, we’ve built a reactive called <code>selected_data</code>, which returns the selected column as a vector using <code>pull()</code>.</p>
 <pre class="r"><code>  selected_data &lt;- reactive({
@@ -405,7 +405,7 @@ Using sym() in a Shiny App One fairly simple Shiny Application might be selectin
     ## Now we evaluate it with !!!
     out_col &lt;- iris %&gt;% select(!!!var_list)
   })</code></pre>
-<p>Try this app out here:</p>
+<p>Try this app out. The <a href="https://gist.github.com/laderast/952120ac46d1f27c2d2dba5bd1ab5d10">Code is here</a>.</p>
 <pre class="r"><code>runGist(&quot;https://gist.github.com/laderast/952120ac46d1f27c2d2dba5bd1ab5d10&quot;, display.mode=&quot;showcase&quot;)</code></pre>
 </div>
 
