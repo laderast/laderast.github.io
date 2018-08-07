@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/2018/08/07/shiny-and-tidyeval/</loc>
+      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2018/08/02/turning-down-the-noise/</loc>
       <lastmod>2018-08-02T00:00:00+00:00</lastmod>
     </url>
@@ -329,6 +338,16 @@
     
     <url>
     
+      <loc>/tags/apps/</loc>
+      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/arts-music-plasticity-cross-discipline/</loc>
       <lastmod>2017-04-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -508,6 +527,16 @@
     
       <loc>/tags/informational-interview/</loc>
       <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/inputs/</loc>
+      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -716,7 +745,17 @@
     <url>
     
       <loc>/tags/shiny/</loc>
-      <lastmod>2018-01-24T00:00:00+00:00</lastmod>
+      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/shiny/</loc>
+      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -846,6 +885,16 @@
     <url>
     
       <loc>/cvitae/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/tidyeval/</loc>
+      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
