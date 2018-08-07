@@ -23,7 +23,7 @@
 &lt;div id=&#34;using-sym-in-a-shiny-app&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Using &lt;code&gt;sym()&lt;/code&gt; in a Shiny App&lt;/h2&gt;
 &lt;p&gt;One fairly simple Shiny Application might be selecting a column of the dataset and then doing something with it, such as using it in a &lt;code&gt;select()&lt;/code&gt; or &lt;code&gt;filter()&lt;/code&gt; statement. Say we had a simple app to produce histograms, and we wanted to change the column that is being displayed on the histogram.&lt;/p&gt;
-&lt;p&gt;Try this app out by running the following command. The &lt;a href=&#34;https://gist.github.com/laderast/a5205554324306e642b2df9f80ed6409&#34;&gt;code is here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Try this app out by running the following command. The &lt;a href=&#34;https://gist.github.com/laderast/a5205554324306e642b2df9f80ed6409&#34;&gt;code is here&lt;/a&gt;.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;runGist(&amp;quot;https://gist.github.com/laderast/a5205554324306e642b2df9f80ed6409&amp;quot;, display.mode=&amp;quot;showcase&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Our input is a select input called &lt;code&gt;numeric_var&lt;/code&gt;, which returns a single column name as a &lt;code&gt;character&lt;/code&gt; In our server logic, we’ve built a reactive called &lt;code&gt;selected_data&lt;/code&gt;, which returns the selected column as a vector using &lt;code&gt;pull()&lt;/code&gt;.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;  selected_data &amp;lt;- reactive({
