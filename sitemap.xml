@@ -23,8 +23,26 @@
     
     <url>
     
+      <loc>/2018/07/09/creativity-and-science/</loc>
+      <lastmod>2018-07-09T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2018/06/25/asking-for-help-to-get-better/</loc>
       <lastmod>2018-06-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/2018/06/15/working-on-the-umapr-package/</loc>
+      <lastmod>2018-06-15T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -104,6 +122,15 @@
     
     <url>
     
+      <loc>/why-i-still-have-impostor-syndrome-after-15-years-experience/</loc>
+      <lastmod>2018-03-29T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2018/03/19/some-notes-from-the-evidence-to-scholarship-conference/</loc>
       <lastmod>2018-03-19T00:00:00+00:00</lastmod>
     </url>
@@ -115,6 +142,15 @@
     
       <loc>/2018/02/28/data-science-and-systems-science/</loc>
       <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/how-to-be-a-good-collaborator/</loc>
+      <lastmod>2018-01-26T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -386,14 +422,6 @@
     
     <url>
     
-      <loc>/cvitae/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/cascadia-r-videos/</loc>
     </url>
     
@@ -423,6 +451,16 @@
     
       <loc>/tags/conferences/</loc>
       <lastmod>2018-05-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/creativity-science/</loc>
+      <lastmod>2018-07-09T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -482,6 +520,16 @@
     
       <loc>/tags/digital-scholarship/</loc>
       <lastmod>2018-03-19T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/fomo/</loc>
+      <lastmod>2018-03-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
