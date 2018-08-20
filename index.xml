@@ -112,6 +112,36 @@
     </item>
     
     <item>
+      <title>Creativity and Science</title>
+      <link>/2018/07/09/creativity-and-science/</link>
+      <pubDate>Mon, 09 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/07/09/creativity-and-science/</guid>
+      <description>
+
+&lt;p&gt;I decided to write this post in celebration of my newest album, [&lt;em&gt;Tiny Fugues&lt;/em&gt;, being released](). I consider myself a scientist and I am a musician in almost equal parts. There has been a lot of talking about the role of creativity in science. Honestly, I rarely try to cross the streams of science and music, mostly because it really hasn&amp;rsquo;t been encouraged in my career.&lt;/p&gt;
+
+&lt;p&gt;I do think that I do use the same problem solving skills that I do in science that I also use in composition. The essential skill in both fields is understanding transitions and &lt;em&gt;how to get from here to there&lt;/em&gt;. In science, that transition is logical, leading from one fact to the other, whereas in music, that transition can often be experimental. In other words, I do a lot of project management when I work on something scientific or musical.&lt;/p&gt;
+
+&lt;p&gt;Working in science today requires a lot of &lt;em&gt;in the box&lt;/em&gt; and &lt;em&gt;across-box&lt;/em&gt; thinking. In the box thinking in the sense that we must deal with constraints: funding is the most obvious one, but also prior scientific knowledge, which we must leverage to gain a foothold. What are the experimental constraints of the data type? What conditions are required for an assay to be informative, and statitically, how many times must we run the experiment for our results to be meaningful? Most importantly, how do we interpret our results in the context of previous knowledge and experiments?&lt;/p&gt;
+
+&lt;p&gt;Problem solving within these constraints is a creative act and is part of my day to day work. It requires ingenuity that is often not recognized by funding agencies. In many ways, integrative analysis and modeling is a puzzle solving effort.&lt;/p&gt;
+
+&lt;p&gt;I think about the cleverness of the early biological experiments such as determining the structure of DNA, the weight of the ribosomal protein. These experiments used clever experimental design to infer truths about unseeable concepts such as genes and proteins. The concept of statistical power was invented to disprove the effectiveness of a bad surgical technique, that of radical masectomy.&lt;/p&gt;
+
+&lt;h2 id=&#34;across-box-thinking&#34;&gt;Across-Box Thinking&lt;/h2&gt;
+
+&lt;p&gt;Bioinformatics increasingly enables interdisciplinary collaboration, at the confluence of biology, chemistry, and computer science. I currently am building an analysis pipeline for cyTOF data as part of my postdoc work. CyTOF combines concepts from immunology, proteomics, mass spectrometry, and flow cytometry into a single datatype. That takes incredible teamwork and creativity to put together.&lt;/p&gt;
+
+&lt;p&gt;Imaging as well requires multiple fields of expertise as well, from straight physics (imaging dyes, fluorophores, and other techniques such as quantum dots), immunology again (antibodies to specifically target proteins), image analysis, and mathematical modeling.&lt;/p&gt;
+
+&lt;p&gt;Science is full of rediscoveries. A well known example is the&lt;/p&gt;
+
+&lt;h2 id=&#34;misadventures-in-collaboration&#34;&gt;Misadventures in Collaboration&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Asking for help to get better</title>
       <link>/2018/06/25/asking-for-help-to-get-better/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
@@ -130,6 +160,62 @@
 &lt;p&gt;I just want to say this: I am not a rock. I am not strong. But I am a good advocate for others, especially those I feel who have been dealt an unfair hand. I realize that I need to advocate for myself right now. Thank you to other academics such as Dr. Emily Hencken Ritter, who wrote about &lt;a href=&#34;http://duckofminerva.com/2017/04/building-safe-space-for-depression-in-academia.html&#34; target=&#34;_blank&#34;&gt;her struggles with depression and what help she asked for&lt;/a&gt;. I&amp;rsquo;m going to highlight posts about this using the hashtag #DepressionInAcademia on Twitter.&lt;/p&gt;
 
 &lt;p&gt;In short: I&amp;rsquo;m not going to get better overnight, but I&amp;rsquo;m trying to take steps to get better. I&amp;rsquo;ll be taking a little time off this summer as well to recharge and figure out what&amp;rsquo;s next. I&amp;rsquo;ll try to chronicle what works for me and to highlight other people&amp;rsquo;s writings about this.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Working on the `umapr` package</title>
+      <link>/2018/06/15/working-on-the-umapr-package/</link>
+      <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/15/working-on-the-umapr-package/</guid>
+      <description>
+
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+
+&lt;p&gt;A few weeks ago, as part of the [rOpenSci Unconference](), a group of us (Sean Hughes, Malisa Smith, Angela Li, Ju Kim and me) decided to work on making the UMAP algorithm accessible within R. UMAP (Uniform Manifold Approximation and Projection) is a [dimensionality reduction technique]() that allows the user to reduce high dimensional data (multiple columns) into a smaller number of columns for visualization purposes (Usually two). It is related to both Priniciple Components Analysis (PCA) and t-SNE, which are techniques often used in the single-cell omics world to visualize high dimensional data.&lt;/p&gt;
+
+&lt;p&gt;We decided to start working on the &lt;code&gt;umapr&lt;/code&gt; package to make this technique accessible within R. As with most rOpenSci Unconf projects, this started with an issue entry in the rOpenSci unconf repo from Sean:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I recently read about a new non-linear dimensionality reduction algorithm called UMAP, which is much faster than t-SNE, while producing two-dimensional visualizations that share many characteristics with t-SNE. I initially found out about it in the context of use on high-dimensional single-cell data in this paper.&lt;/p&gt;
+
+&lt;p&gt;&amp;hellip;.&lt;/p&gt;
+
+&lt;p&gt;My thought is that the ideal would be a package focused on UMAP specifically, implemented in R or Rcpp. Unfortunately I am not at all an expert in this topic or familiar with the mathematics involved, so the best I would be able to do is try to translate the Python implementation into R.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We all met at the unconference the first day and decided that this was a project worth working on. Since TSNE is so used in the single cell and flow-cytometry community, we thought that having an alternative that was just as good, but faster to run would be helpful.&lt;/p&gt;
+
+&lt;h2 id=&#34;making-a-development-plan&#34;&gt;Making a Development Plan&lt;/h2&gt;
+
+&lt;p&gt;Rather than recreate the UMAP code completely from scratch in R, we decided to use the &lt;code&gt;reticulate&lt;/code&gt; package to call the implementation in Python from R. It is tempting to just wrap the function&amp;rsquo;s arguments with &lt;code&gt;...&lt;/code&gt; and let the user refer to the python documentation. However, we didn&amp;rsquo;t really think that was in the spirit of the unconf. We wanted to make UMAP much more accessible.&lt;/p&gt;
+
+&lt;p&gt;In the future, we plan to implement the UMAP algorithm in C++ in order to make it accessible to more languages.&lt;/p&gt;
+
+&lt;h2 id=&#34;learning-about-package-building-testing-and-documentation&#34;&gt;Learning about Package Building, Testing, and Documentation&lt;/h2&gt;
+
+&lt;p&gt;Although our package only really has one main function, we felt it was important to have good documentation and unit tests. We spent some time learning about &lt;code&gt;roxygen&lt;/code&gt; for function documentation and &lt;code&gt;testthat&lt;/code&gt; for unit testing, and setting up our package with Travis-CI for continuous integration testing. This included unit tests on each argument and including examples varying the essential parameters.&lt;/p&gt;
+
+&lt;p&gt;We used a lot of time learning more about the specifics of package building and vignette building in R. We were definitely excited by all of the available tools and built a vignette profiling the performance of the UMAP algorithm versus other dimensionality reduction techniques, such as TSNE.&lt;/p&gt;
+
+&lt;h2 id=&#34;profiling-umapr-using-different-datasets&#34;&gt;Profiling &lt;code&gt;umapr&lt;/code&gt; using different datasets&lt;/h2&gt;
+
+&lt;p&gt;Part of the appeal of UMAP is that it is faster than tSNE. So we profiled the performance of UMAP on a number of different datasets: &lt;code&gt;iris&lt;/code&gt; (of course!),&lt;/p&gt;
+
+&lt;h2 id=&#34;exploring-the-results-with-shiny&#34;&gt;Exploring the Results with Shiny&lt;/h2&gt;
+
+&lt;p&gt;We built a small Shiny app that lets people explore their embedding vectors (the reduced vectors) and how they separate the data into different populations. The app is simple, but allows users to immediate assess the results of the UMAP algorithm in differentiating the different populations in the data.&lt;/p&gt;
+
+&lt;h2 id=&#34;final-results-get-umapr&#34;&gt;Final Results: Get &lt;code&gt;umapr&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;umapr&lt;/code&gt; is in the &lt;code&gt;ropenscilabs&lt;/code&gt; organization, and can be installed with the following commands, &lt;a href=&#34;https://github.com/lmcinnes/umap#installing&#34; target=&#34;_blank&#34;&gt;after the python modules are installed&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r eval=FALSE&#34;&gt;install.packages(&amp;quot;devtools&amp;quot;)
+devtools::install_github(&amp;quot;ropenscilabs/umapr&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As a group, we learned a lot by building the &lt;code&gt;umapr&lt;/code&gt; package, including specifics of package building, documentation using roxygen, and building unit tests using &lt;code&gt;testthat&lt;/code&gt; and automating testing using Appveyor and Travis-CI.&lt;/p&gt;
 </description>
     </item>
     
@@ -385,6 +471,16 @@
     </item>
     
     <item>
+      <title>Why I Still have Impostor Syndrome after 15 years of experience</title>
+      <link>/why-i-still-have-impostor-syndrome-after-15-years-experience/</link>
+      <pubDate>Thu, 29 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/why-i-still-have-impostor-syndrome-after-15-years-experience/</guid>
+      <description>&lt;p&gt;I believe in modeling good behavior. I also believe in transparency of process.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Some Notes from the Evidence to Scholarship Conference</title>
       <link>/2018/03/19/some-notes-from-the-evidence-to-scholarship-conference/</link>
       <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
@@ -407,131 +503,6 @@
 &lt;p&gt;Finally, I really enjoyed Andrew Bray&amp;rsquo;s talk about his collaborative course, &amp;ldquo;&lt;a href=&#34;https://github.com/ds-elections&#34; target=&#34;_blank&#34;&gt;Case Studies in Data Science: Elections&lt;/a&gt;&amp;rdquo;, where he solicited political scientists about important problems in voting for the students to tackle. By giving them some basic analyses in R, the students managed to complete a number of projects, including a package for &lt;a href=&#34;https://github.com/ds-elections/rcv&#34; target=&#34;_blank&#34;&gt;visualizing ranked choice voting&lt;/a&gt;, which is actually being utilized for visualizing these results.&lt;/p&gt;
 
 &lt;p&gt;I emerged from this conference excited about the passion that undergraduates have and excited about how digital scholarship librarians can change curricula for the better.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Data Science and Systems Science</title>
-      <link>/2018/02/28/data-science-and-systems-science/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/02/28/data-science-and-systems-science/</guid>
-      <description>&lt;p&gt;I gave a talk for the Portland State University Systems Science seminar called &lt;em&gt;&lt;a href=&#34;https://laderast.github.io/sysc_data_sci/&#34; target=&#34;_blank&#34;&gt;How are Data Science and Systems Science Connected?&lt;/a&gt;&lt;/em&gt;. In this talk, I was highlighting current blind spots in Data Science that I think Systems Science approaches can address, especially that of interactions between features. I talked a little about my dissertation research (surrogate oncogenes), and the problem of &lt;em&gt;black-box interpretability&lt;/em&gt; of predictive models.&lt;/p&gt;
-
-&lt;p&gt;If you&amp;rsquo;re interested in listening to the recording, the playback is available here: &lt;a href=&#34;https://us.bbcollab.com/recording/059acf5cfed64f9abbf7cf432fdfb566&#34; target=&#34;_blank&#34;&gt;https://us.bbcollab.com/recording/059acf5cfed64f9abbf7cf432fdfb566&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A gRadual Introduction to Shiny</title>
-      <link>/2018/01/24/gradual-introduction-to-shiny/</link>
-      <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/01/24/gradual-introduction-to-shiny/</guid>
-      <description>&lt;p&gt;I just gave a workshop teaching the basics of &lt;a href=&#34;https://shiny.rstudio.com&#34; target=&#34;_blank&#34;&gt;Shiny&lt;/a&gt; (the interactive web visualization framework) for a group of PDX R users. We had 10 people attend, and most of the attendees managed to get through the material and had lots of good questions. I really enjoyed talking with everyone and I hope everyone learned something. We&amp;rsquo;re planning to give the workshop again to the larger PDX R user community, and some of the attendees last night have volunteered to be TAs.&lt;/p&gt;
-
-&lt;p&gt;The workshop materials consist of a &lt;a href=&#34;https://github.com/laderast/gradual_shiny&#34; target=&#34;_blank&#34;&gt;GitHub repo&lt;/a&gt; and a &lt;a href=&#34;https://laderast.github.io/gradual_shiny/&#34; target=&#34;_blank&#34;&gt;Markdown document&lt;/a&gt; that can be done either in person or independently. The materials are freely available under an Apache 2.0 License.&lt;/p&gt;
-
-&lt;p&gt;In the workshop, we build a flexible &lt;code&gt;csv&lt;/code&gt; (comma separated value) explorer that can load in &lt;code&gt;csv&lt;/code&gt; data files with adaptive controls and tooltips.&lt;/p&gt;
-
-&lt;p&gt;In terms of packages, the workshop uses the &lt;code&gt;tidyverse&lt;/code&gt; (mostly &lt;code&gt;dplyr&lt;/code&gt; and &lt;code&gt;ggplot2&lt;/code&gt;), and &lt;code&gt;plotly&lt;/code&gt; to show some basic programming patterns in &lt;code&gt;shiny&lt;/code&gt;:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Connecting controls to &lt;code&gt;ggplot2&lt;/code&gt; aesthetics&lt;/li&gt;
-&lt;li&gt;Filtering data using &lt;code&gt;reactive&lt;/code&gt;s&lt;/li&gt;
-&lt;li&gt;The &lt;code&gt;observe&lt;/code&gt;/&lt;code&gt;update_&lt;/code&gt; pattern&lt;/li&gt;
-&lt;li&gt;Tooltips (the hard way/the plotly way)&lt;/li&gt;
-&lt;li&gt;The final product&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I&amp;rsquo;d love for more people to take a look at the workshop and would &lt;a href=&#34;https://github.com/laderast/gradual_shiny/issues/2&#34; target=&#34;_blank&#34;&gt;love any suggestions&lt;/a&gt; for making it better!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>What We learned teaching Python to Neuroscience Students</title>
-      <link>/2018/01/17/what-we-learned-teaching-python-to-neuroscience-students/</link>
-      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/01/17/what-we-learned-teaching-python-to-neuroscience-students/</guid>
-      <description>
-
-&lt;p&gt;Well, the week of teaching our &lt;a href=&#34;https://github.com/dasaderi/python_neurobootcamp&#34; target=&#34;_blank&#34;&gt;Python Bootcamp for Neuroscientists&lt;/a&gt; is over. I had the pleasure of working with a great group of students, professors and instructors in developing the material, and had a great time teaching complete beginners to programming and Python.&lt;/p&gt;
-
-&lt;p&gt;We had the overall goal of introducting 21 &lt;a href=&#34;http://www.ohsu.edu/xd/education/schools/school-of-medicine/academic-programs/neuroscience-graduate-program/&#34; target=&#34;_blank&#34;&gt;Neuroscience Graduate Program&lt;/a&gt; students at OHSU to the basics of programming in Python using data that they were interested in: electrophysiology data, and confocal microscopy data. The course was designed to be a 1 credit course to encourage students to persist and finish it.&lt;/p&gt;
-
-&lt;p&gt;The format of the class was spread over 5 days (2.5 hours a day) and had the following schedule:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Introduction to basic data types in Python&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Introduction to for loops and Pandas DataFrames&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Using Pandas to analyse electrophysiology data&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Using NumPy to analyse confocal microscopy data&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Evaluation of students; installing Python/Juypter; wrap-up with questions.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I&amp;rsquo;ll just write up some random thoughts about our experiences about the course. We are definitely planning to give the course again next year, given the enthusiastic reception.&lt;/p&gt;
-
-&lt;h3 id=&#34;things-that-really-worked-well&#34;&gt;Things that really worked well&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Avoid the first day blues of installing Python by using &lt;a href=&#34;https://github.com/jupyterhub/jupyterhub&#34; target=&#34;_blank&#34;&gt;JupyterHub&lt;/a&gt;&lt;/strong&gt;. I think one of the major pain points for beginners is installing software before they can even learn. Instead of making them install Python the first day, we had them sign into an AWS server that had JuypterHub deployed. &lt;a href=&#34;https://github.com/jupyterhub/jupyterhub&#34; target=&#34;_blank&#34;&gt;JupyterHub is a multi-user server for Juypter Notebooks&lt;/a&gt; which had the right version of Python and our need the dependencies installed. So our students just needed a laptop and a web browser to access our lessons. We could update the notebooks by pulling changes from our course repo.&lt;/p&gt;
-
-&lt;p&gt;Stephen David, my fellow instructor, figured a lot of the difficult deployment details out. He has put together some &lt;a href=&#34;https://github.com/dasaderi/python_neurobootcamp/blob/master/server_setup/hubInstall.md&#34; target=&#34;_blank&#34;&gt;handy instructions about deploying JuypterHub to AWS&lt;/a&gt; and keeping the accounts updated via a GitHub repo in case other people are interested in using our bootcamp materials.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Make the atmosphere welcoming to beginners&lt;/strong&gt;. In order to do so, we used many great tips from Software/Data Carpentry: modeling resilience by using live coding (and making mistakes along the way), using post-it notes for students to signal when they need help or are finished, and having plenty of TAs per student (at least 4 students/TA or instructor). We tried to emphasize that learning programming is an ongoing process, and that even we still have to Google errors on Stack Overflow. Showing that you can make mistakes and still recover is a big part of that.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Plan some early wins and make the exercises as interactive as possible.&lt;/strong&gt; For the most part, we tried to avoid lecturing too long and break up the session with interactive exercises. I also really don&amp;rsquo;t like workshops where the trainer/teacher moves on no matter whether people understand the material or not. By using the post-its to signal when they were done, we were able to more appropriately pace the workshop. We also planned on stopping points if we couldn&amp;rsquo;t get through the day&amp;rsquo;s materials.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Emphasize working together and building a community.&lt;/strong&gt; From the beginning, we emphasized that everyone needed to work together. I always emphasize the chain of help: 1) First your programming partner, 2) then the TA help. Discussing and working on issues together fosters a sense of community. I think there will be a group of students who will really want to learn more because of this.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Getting feedback along the way&lt;/strong&gt;. I still feel like being a teacher is about 75% preparation and 25% improvisation. You need to be flexible enough to come up with examples on the fly, and you need to evaluate whether students are getting the material along the way. The exercises we tried to sprinkle throughout the notebooks helped us understand where people were stumbling.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Planning follow-up sessions&lt;/strong&gt;. Through BioData Club, we&amp;rsquo;re planning some follow-up sessions. Through DataCamp in the Classroom, I also got our students premium access. We also pointed students out to &lt;a href=&#34;/python_resources/&#34;&gt;other Python-based courses at OHSU&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;some-things-we-could-improve-on&#34;&gt;Some things we could improve on&lt;/h3&gt;
-
-&lt;p&gt;I believe that given our time frame, we couldn&amp;rsquo;t really have anticipated many of these issues. We did our best to deal with them in the moment, however.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Describing the difference between Jupyter Notebooks and Python&lt;/strong&gt;. At the beginning, we glossed over what a Jupyter Notebook was and really didn&amp;rsquo;t describe its relation to Python. I think next time we will open with describing the relationship between Jupyter and Python with a diagram, and revisit it on the last day.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Anticipate the JupyterHub server requirements better&lt;/strong&gt;. On Day 3, we had a large dataset that basically hosed the server because 21 students were trying to open it up at once. We managed to recover by getting another AWS server and dividing the students among the two, but we could have stress tested that day a little more. Lesson learned.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Going slowly enough&lt;/strong&gt;. I am a very excitable teacher, to the point of which sometimes I go a little too fast. I have to confess that I may have sped through some of the material a little too fast. As a result, some of the students didn&amp;rsquo;t quite get what functions like &lt;code&gt;enumerate()&lt;/code&gt; were for and the concept of &lt;em&gt;unpacking&lt;/em&gt; a list. Luckily, Brad Buran covered these on Day 4 and the students felt comfortable enough to finish the programming test on the final day.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Setting student expectations&lt;/strong&gt;. It&amp;rsquo;s vital to show the students that they can learn programming, but also what&amp;rsquo;s possible if they do. One of the days was a big leap from the previous day, but we did mention that it&amp;rsquo;s really to show them what&amp;rsquo;s possible if they continued to learn about programming.&lt;/p&gt;
-
-&lt;h3 id=&#34;would-we-do-it-again&#34;&gt;Would we do it again?&lt;/h3&gt;
-
-&lt;p&gt;I would definitely say yes! We had to waitlist some students who really wanted to take it, and our overall feedback about the course was really positive. I hope that we can have more TAs, and have the future data workshops be more student driven.&lt;/p&gt;
-
-&lt;h3 id=&#34;acknowlegements&#34;&gt;Acknowlegements&lt;/h3&gt;
-
-&lt;p&gt;This was a collaboration between the Neuroscience Graduate Program (NGP) and the Department of Medical Informatics and Clinical Epidemiology (DMICE).&lt;/p&gt;
-
-&lt;p&gt;The NGP students involved in designing and testing the material were&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Daniela Saderi&lt;/li&gt;
-&lt;li&gt;Lucille Moore&lt;/li&gt;
-&lt;li&gt;Charles Heller&lt;/li&gt;
-&lt;li&gt;Zack Schwartz&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Faculty/Instructors involved were:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Brad Buran  (Research Instructor)&lt;/li&gt;
-&lt;li&gt;Stephen David (NGP Assistant Professor)&lt;/li&gt;
-&lt;li&gt;Lisa Karstens (DMICE Assistant Professor)&lt;/li&gt;
-&lt;li&gt;Michael Mooney (DMICE Assistant Professor)&lt;/li&gt;
-&lt;li&gt;Ted Laderas (DMICE Assistant Professor)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Thanks very much to Gary Westbrook (Director of the NGP program), Shannon McWeeney (Head of the Division of Bioinformatics and Computational Biology within DMICE), and Bill Hersh (Head of DMICE).&lt;/p&gt;
 </description>
     </item>
     
