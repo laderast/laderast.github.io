@@ -112,36 +112,6 @@
     </item>
     
     <item>
-      <title>Creativity and Science</title>
-      <link>/2018/07/09/creativity-and-science/</link>
-      <pubDate>Mon, 09 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/07/09/creativity-and-science/</guid>
-      <description>
-
-&lt;p&gt;I decided to write this post in celebration of my newest album, [&lt;em&gt;Tiny Fugues&lt;/em&gt;, being released](). I consider myself a scientist and I am a musician in almost equal parts. There has been a lot of talking about the role of creativity in science. Honestly, I rarely try to cross the streams of science and music, mostly because it really hasn&amp;rsquo;t been encouraged in my career.&lt;/p&gt;
-
-&lt;p&gt;I do think that I do use the same problem solving skills that I do in science that I also use in composition. The essential skill in both fields is understanding transitions and &lt;em&gt;how to get from here to there&lt;/em&gt;. In science, that transition is logical, leading from one fact to the other, whereas in music, that transition can often be experimental. In other words, I do a lot of project management when I work on something scientific or musical.&lt;/p&gt;
-
-&lt;p&gt;Working in science today requires a lot of &lt;em&gt;in the box&lt;/em&gt; and &lt;em&gt;across-box&lt;/em&gt; thinking. In the box thinking in the sense that we must deal with constraints: funding is the most obvious one, but also prior scientific knowledge, which we must leverage to gain a foothold. What are the experimental constraints of the data type? What conditions are required for an assay to be informative, and statitically, how many times must we run the experiment for our results to be meaningful? Most importantly, how do we interpret our results in the context of previous knowledge and experiments?&lt;/p&gt;
-
-&lt;p&gt;Problem solving within these constraints is a creative act and is part of my day to day work. It requires ingenuity that is often not recognized by funding agencies. In many ways, integrative analysis and modeling is a puzzle solving effort.&lt;/p&gt;
-
-&lt;p&gt;I think about the cleverness of the early biological experiments such as determining the structure of DNA, the weight of the ribosomal protein. These experiments used clever experimental design to infer truths about unseeable concepts such as genes and proteins. The concept of statistical power was invented to disprove the effectiveness of a bad surgical technique, that of radical masectomy.&lt;/p&gt;
-
-&lt;h2 id=&#34;across-box-thinking&#34;&gt;Across-Box Thinking&lt;/h2&gt;
-
-&lt;p&gt;Bioinformatics increasingly enables interdisciplinary collaboration, at the confluence of biology, chemistry, and computer science. I currently am building an analysis pipeline for cyTOF data as part of my postdoc work. CyTOF combines concepts from immunology, proteomics, mass spectrometry, and flow cytometry into a single datatype. That takes incredible teamwork and creativity to put together.&lt;/p&gt;
-
-&lt;p&gt;Imaging as well requires multiple fields of expertise as well, from straight physics (imaging dyes, fluorophores, and other techniques such as quantum dots), immunology again (antibodies to specifically target proteins), image analysis, and mathematical modeling.&lt;/p&gt;
-
-&lt;p&gt;Science is full of rediscoveries. A well known example is the&lt;/p&gt;
-
-&lt;h2 id=&#34;misadventures-in-collaboration&#34;&gt;Misadventures in Collaboration&lt;/h2&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Asking for help to get better</title>
       <link>/2018/06/25/asking-for-help-to-get-better/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
@@ -160,62 +130,6 @@
 &lt;p&gt;I just want to say this: I am not a rock. I am not strong. But I am a good advocate for others, especially those I feel who have been dealt an unfair hand. I realize that I need to advocate for myself right now. Thank you to other academics such as Dr. Emily Hencken Ritter, who wrote about &lt;a href=&#34;http://duckofminerva.com/2017/04/building-safe-space-for-depression-in-academia.html&#34; target=&#34;_blank&#34;&gt;her struggles with depression and what help she asked for&lt;/a&gt;. I&amp;rsquo;m going to highlight posts about this using the hashtag #DepressionInAcademia on Twitter.&lt;/p&gt;
 
 &lt;p&gt;In short: I&amp;rsquo;m not going to get better overnight, but I&amp;rsquo;m trying to take steps to get better. I&amp;rsquo;ll be taking a little time off this summer as well to recharge and figure out what&amp;rsquo;s next. I&amp;rsquo;ll try to chronicle what works for me and to highlight other people&amp;rsquo;s writings about this.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Working on the `umapr` package</title>
-      <link>/2018/06/15/working-on-the-umapr-package/</link>
-      <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/06/15/working-on-the-umapr-package/</guid>
-      <description>
-
-&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
-
-&lt;p&gt;A few weeks ago, as part of the [rOpenSci Unconference](), a group of us (Sean Hughes, Malisa Smith, Angela Li, Ju Kim and me) decided to work on making the UMAP algorithm accessible within R. UMAP (Uniform Manifold Approximation and Projection) is a [dimensionality reduction technique]() that allows the user to reduce high dimensional data (multiple columns) into a smaller number of columns for visualization purposes (Usually two). It is related to both Priniciple Components Analysis (PCA) and t-SNE, which are techniques often used in the single-cell omics world to visualize high dimensional data.&lt;/p&gt;
-
-&lt;p&gt;We decided to start working on the &lt;code&gt;umapr&lt;/code&gt; package to make this technique accessible within R. As with most rOpenSci Unconf projects, this started with an issue entry in the rOpenSci unconf repo from Sean:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;I recently read about a new non-linear dimensionality reduction algorithm called UMAP, which is much faster than t-SNE, while producing two-dimensional visualizations that share many characteristics with t-SNE. I initially found out about it in the context of use on high-dimensional single-cell data in this paper.&lt;/p&gt;
-
-&lt;p&gt;&amp;hellip;.&lt;/p&gt;
-
-&lt;p&gt;My thought is that the ideal would be a package focused on UMAP specifically, implemented in R or Rcpp. Unfortunately I am not at all an expert in this topic or familiar with the mathematics involved, so the best I would be able to do is try to translate the Python implementation into R.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;We all met at the unconference the first day and decided that this was a project worth working on. Since TSNE is so used in the single cell and flow-cytometry community, we thought that having an alternative that was just as good, but faster to run would be helpful.&lt;/p&gt;
-
-&lt;h2 id=&#34;making-a-development-plan&#34;&gt;Making a Development Plan&lt;/h2&gt;
-
-&lt;p&gt;Rather than recreate the UMAP code completely from scratch in R, we decided to use the &lt;code&gt;reticulate&lt;/code&gt; package to call the implementation in Python from R. It is tempting to just wrap the function&amp;rsquo;s arguments with &lt;code&gt;...&lt;/code&gt; and let the user refer to the python documentation. However, we didn&amp;rsquo;t really think that was in the spirit of the unconf. We wanted to make UMAP much more accessible.&lt;/p&gt;
-
-&lt;p&gt;In the future, we plan to implement the UMAP algorithm in C++ in order to make it accessible to more languages.&lt;/p&gt;
-
-&lt;h2 id=&#34;learning-about-package-building-testing-and-documentation&#34;&gt;Learning about Package Building, Testing, and Documentation&lt;/h2&gt;
-
-&lt;p&gt;Although our package only really has one main function, we felt it was important to have good documentation and unit tests. We spent some time learning about &lt;code&gt;roxygen&lt;/code&gt; for function documentation and &lt;code&gt;testthat&lt;/code&gt; for unit testing, and setting up our package with Travis-CI for continuous integration testing. This included unit tests on each argument and including examples varying the essential parameters.&lt;/p&gt;
-
-&lt;p&gt;We used a lot of time learning more about the specifics of package building and vignette building in R. We were definitely excited by all of the available tools and built a vignette profiling the performance of the UMAP algorithm versus other dimensionality reduction techniques, such as TSNE.&lt;/p&gt;
-
-&lt;h2 id=&#34;profiling-umapr-using-different-datasets&#34;&gt;Profiling &lt;code&gt;umapr&lt;/code&gt; using different datasets&lt;/h2&gt;
-
-&lt;p&gt;Part of the appeal of UMAP is that it is faster than tSNE. So we profiled the performance of UMAP on a number of different datasets: &lt;code&gt;iris&lt;/code&gt; (of course!),&lt;/p&gt;
-
-&lt;h2 id=&#34;exploring-the-results-with-shiny&#34;&gt;Exploring the Results with Shiny&lt;/h2&gt;
-
-&lt;p&gt;We built a small Shiny app that lets people explore their embedding vectors (the reduced vectors) and how they separate the data into different populations. The app is simple, but allows users to immediate assess the results of the UMAP algorithm in differentiating the different populations in the data.&lt;/p&gt;
-
-&lt;h2 id=&#34;final-results-get-umapr&#34;&gt;Final Results: Get &lt;code&gt;umapr&lt;/code&gt;&lt;/h2&gt;
-
-&lt;p&gt;&lt;code&gt;umapr&lt;/code&gt; is in the &lt;code&gt;ropenscilabs&lt;/code&gt; organization, and can be installed with the following commands, &lt;a href=&#34;https://github.com/lmcinnes/umap#installing&#34; target=&#34;_blank&#34;&gt;after the python modules are installed&lt;/a&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-r eval=FALSE&#34;&gt;install.packages(&amp;quot;devtools&amp;quot;)
-devtools::install_github(&amp;quot;ropenscilabs/umapr&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;As a group, we learned a lot by building the &lt;code&gt;umapr&lt;/code&gt; package, including specifics of package building, documentation using roxygen, and building unit tests using &lt;code&gt;testthat&lt;/code&gt; and automating testing using Appveyor and Travis-CI.&lt;/p&gt;
 </description>
     </item>
     
@@ -575,6 +489,122 @@ devtools::install_github(&amp;quot;ropenscilabs/umapr&amp;quot;)
 &lt;/ul&gt;
 
 &lt;p&gt;Thanks very much to Gary Westbrook (Director of the NGP program), Shannon McWeeney (Head of the Division of Bioinformatics and Computational Biology within DMICE), and Bill Hersh (Head of DMICE).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>If you want to talk with me for an informational interview</title>
+      <link>/2018/01/15/if-you-want-to-talk-with-me-for-an-informational-interview/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/01/15/if-you-want-to-talk-with-me-for-an-informational-interview/</guid>
+      <description>&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Note: I have come to believe that this post is way too harsh and unwelcoming to
+people interested in data science. I will post an update to this, and a FAQ
+for those who want informational interviews. But in the spirit of showing my
+mistakes, I&amp;rsquo;ll leave this up here.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I have had many people who have asked me for informational interviews. They tell me that they are interested in Data Science and want to hear about what I do on a day to day basis. To be honest, I&amp;rsquo;ve begun to dread these kinds of interviews.&lt;/p&gt;
+
+&lt;p&gt;Inevitably, I spend a &lt;em&gt;lot&lt;/em&gt; of energy explaining what I do to someone who rarely follows up. Consequently, I don&amp;rsquo;t find these interviews rewarding at all. So I&amp;rsquo;ve written this post so that I have a better time doing these kinds of interviews.&lt;/p&gt;
+
+&lt;p&gt;I reserve the right to refuse interviews from people who do not read this.&lt;/p&gt;
+
+&lt;p&gt;1) &lt;em&gt;Do your homework&lt;/em&gt;. Please don&amp;rsquo;t expect me to give the five minute spiel about my research, hoping to look for an &amp;ldquo;in&amp;rdquo;. Please do some research and try to ask &lt;em&gt;interesting&lt;/em&gt; questions about my work. I&amp;rsquo;ve given you plenty of resources on this website to know more about me. Ask me about my software, ask me about teaching, ask me carefully thought questions about my research.&lt;/p&gt;
+
+&lt;p&gt;2) &lt;em&gt;Don&amp;rsquo;t offer to buy me coffee&lt;/em&gt;. If I talk with you for 30 minutes, know that my time is worth far more than a cup of coffee. Instead, offer to pay it forwards. Volunteer with a group that does scientific communication or education; I don&amp;rsquo;t work with people who aren&amp;rsquo;t willing to teach others. I don&amp;rsquo;t work or talk with selfish people, having been burned many times by such people.&lt;/p&gt;
+
+&lt;p&gt;3) &lt;em&gt;Be specific in your ask&lt;/em&gt;. Asking about what next steps to take in learning data science and where to get a job is not specific enough. Again, do your research. What kinds of Data Science are you interested in? Are you interested in predictive analytics in healthcare? Or are you interested in systems modeling of disease? Be specific, and if you ask for something, make sure I can &lt;a href=&#34;https://www.samuelthomasdavies.com/the-five-minute-favour/&#34; target=&#34;_blank&#34;&gt;achieve it in five minutes or less&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;4) &lt;em&gt;Don&amp;rsquo;t ask for a job, ask for connections&lt;/em&gt;. I know a decent number of people around Oregon and OHSU, so if you want me to introduce you to one of my connections, I&amp;rsquo;m happy to. If I know someone, I&amp;rsquo;m happy to do this, since it&amp;rsquo;s usually a five-minute ask.&lt;/p&gt;
+
+&lt;p&gt;5) &lt;em&gt;Follow up, and be willing to return the favor&lt;/em&gt;. Even a nice thank-you email is good. I&amp;rsquo;m happy to make you a Linkedin connection, if it means I can help someone else further down the line. If I expend energy on you, I&amp;rsquo;d like to see my impact. If my efforts meant that you managed to find a job, please let me know!&lt;/p&gt;
+
+&lt;p&gt;6) &lt;em&gt;Read &lt;a href=&#34;http://www.adamgrant.net&#34; target=&#34;_blank&#34;&gt;Give and Take&lt;/a&gt;&lt;/em&gt;. This book by Adam Grant really struck me as the way to actually network. In short, I learned that if I want a return on my energy expenditure, I have to spend my energy on Givers, or people who help others. I am a Giver, but I now tend only to give informational interviewers to other Givers. The rest are too draining for me.&lt;/p&gt;
+
+&lt;p&gt;I have given so many of these interviews and have gotten nothing from them. Not even a follow-up, which really is bad practice. So, if I&amp;rsquo;m considered difficult to approach about these, know it is because your previous askers have really been an energy drain and have been inconsiderate Takers. Make it interesting for me and be considerate. I&amp;rsquo;m much more likely to help you.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>So You&#39;ve Accidentally Checked in a Large File Into Git</title>
+      <link>/2018/01/05/so-you-ve-accidentally-checked-in-a-large-file-into-git/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/01/05/so-you-ve-accidentally-checked-in-a-large-file-into-git/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Note: after posting this, I heard back from Roberto Tyley, the creator of the BFG. I&amp;rsquo;d like to note that the BFG actually does its job really well. I was mostly really frustrated about how Git/GitHub doesn&amp;rsquo;t prevent a user from doing something that&amp;rsquo;s hard to undo. So my frustration is really about that, not really about the BFG. This post has been edited to reflect that.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Greg Wilson first said it, but I&amp;rsquo;ve come to agree. Git is an aggressively antisocial piece of software. Git is a piece of software that can make developers with any amount of experience feel dumb.&lt;/p&gt;
+
+&lt;p&gt;Recently, I accidentally checked a large file (greater than 100 Megs) into my local repo. When I tried to push to GitHub, of course, it refused it (I know about git large file storage, but I don&amp;rsquo;t have any).&lt;/p&gt;
+
+&lt;p&gt;So my local repo was screwed up. Of course, I did what seemed like the rational thing and deleted the file from my repo and recommitted. More than once. This is a mistake I&amp;rsquo;ve done more than once. So you need to scrub your git history with BFG so that GitHub will accept your lowly commits again.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://rtyley.github.io/bfg-repo-cleaner/&#34; target=&#34;_blank&#34;&gt;The BFG&lt;/a&gt; documentation specifies how to fix a &lt;em&gt;remote&lt;/em&gt; repo. I would say that this situation is much less common than the local situation. So I just decided to share how I got the BFG to work for the local repo situation.&lt;/p&gt;
+
+&lt;p&gt;I usually install the BFG through &lt;code&gt;homebrew&lt;/code&gt;, using &lt;code&gt;brew install bfg&lt;/code&gt;. When you install it this way, you can just run BFG with &lt;code&gt;bfg&lt;/code&gt;. You can download it from the website, but you&amp;rsquo;ll have to call &lt;code&gt;java -jar bfg[VERSION].jar&lt;/code&gt; to run it.&lt;/p&gt;
+
+&lt;p&gt;Say you&amp;rsquo;ve accidently checked in a large file into your current repo. The first thing to do is to clone your local repo:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone --mirror local_repo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will create another folder called &lt;code&gt;local_repo.git&lt;/code&gt; that you will do all the BFG magic on. This &lt;code&gt;local_rep.git&lt;/code&gt; is what is called a &lt;em&gt;bare&lt;/em&gt; repo. I want to remove any files larger than 100 Megs, so I do this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;bfg -b 100M local_repo.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If this doesn&amp;rsquo;t return an error, you can move on. However, I got the dreaded error:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Warning : no large blobs matching criteria found in packfiles - 
+does the repo need to be packed?
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Augh. Ok, some googling later I found that I needed to pack my orignal repo:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd local_repo
+git repack
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Okay, we need to get rid of our cloned repo and redo the last few steps.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rm -rf local_repo.git
+git clone --mirror local_repo
+bfg -b 100M local_repo.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then comes some git commands that no one has bothered to explain to me.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git reflog expire --expire=now --all &amp;amp;&amp;amp; git gc --prune=now --aggressive
+git push
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Uh oh, I get a &lt;code&gt;remote: error: refusing to update checked out branch: refs/heads/master&lt;/code&gt; error! More ugh.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s the trick. Since you cloned a &lt;em&gt;local&lt;/em&gt; repo, you need to set the origin of your current repo (&lt;code&gt;local_repo.git&lt;/code&gt;) to the GitHub remote. First we remove the current &lt;code&gt;origin&lt;/code&gt;, and then add back our remote.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git remote rm origin
+git remote add origin https://github.com/laderast/remote_repo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Finally, after much gnashing of the teeth, we can&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git push
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Don&amp;rsquo;t forget to remove your now &lt;em&gt;dirty&lt;/em&gt; &lt;code&gt;local_repo&lt;/code&gt;, and the mirrored copy, and then pull a fresh copy down!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;##remove both original local repo and altered bare repo
+rm -rf local_repo
+rm -rf local_repo.git
+##clone a fresh copy from GitHub
+git clone https://github.com/laderast/remote_repo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This may be obvious to the 10 people in the world who have read all of the git documentation, but I am not one of them. I&amp;rsquo;m stuck with git, unfortunately. I&amp;rsquo;m writing this post to remind me of what to do when I innocently do something like commit a large file to my repo.&lt;/p&gt;
 </description>
     </item>
     
