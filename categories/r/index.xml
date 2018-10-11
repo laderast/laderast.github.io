@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 24 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Things we learned teaching clinical data wrangling</title>
+      <link>/2018/10/15/clinical-data-wrangling/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/10/15/clinical-data-wrangling/</guid>
+      <description>Well, we just finished our clinical data wrangling workshop. This was a 12 hour workshop (spread over 4 days) where students got to work with a real research dataset (the Sleep Heart Health Study data). This is a workshop that we developed as part of an National Library of Medicine T15 training supplement in Data Science. The following is a short report describing the workshop and its outcomes.
+Intended AudienceWe designed the workshop for our incoming informatics students (both on the clinical and biological majors) in order to introduce them to the difficulties of working with clinical data.</description>
+    </item>
     
     <item>
       <title>A gRadual Introduction to Shiny</title>
