@@ -8,7 +8,84 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/about/</guid>
+      <description>I am an Assistant Professor in the Division of Bioinformatics and Computational Biology in the Department of Medical Informatics and Clinical Epidemiology at OHSU (BCB/DMICE) and a member of the OHSU Knight Cancer Institute. My research focus is on the Systems Biology of Complex Diseases. I use integrative modeling approaches across OMICs types to achieve this.
+With over fourteen years of bioinformatics experience, I have developed methods for low-level preprocessing and high-level analysis of many OMICs types, including expression (especially alternative splicing), phosphoproteomics, proteomics, and genomics.</description>
+    </item>
+    
+    <item>
+      <title>Teaching and Mentoring Interests</title>
+      <link>/home/teaching/</link>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      
+      <guid>/home/teaching/</guid>
+      <description>Current Courses I teach at OHSU and PSU I teach in the summer hybrid BMI569/669 Data Analytics course at OHSU (Hybrid course co-taught with Kaiser Permanente Data &amp;amp; Information Management Enhancement (DIME) group).
+I am also a co-instructor for BMI551/651 Bioinformatics and Computational Biology II: Statistical Methods, providing drop-in sessions for R programming and general tutoring.
+We are teaching an introductory bootcamp in Python called NEU640 Python Bootcamp for Neuroscientists.</description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>/home/software/</link>
+      <pubDate>Sat, 13 Jan 2018 17:28:30 -0800</pubDate>
+      
+      <guid>/home/software/</guid>
+      <description>flowDashboard. Shiny modules for building interactive and comparative dashboards for flow cytometry data. See a demo here: https://tladeras.shinyapps.io/sampleFlowDashboard/  DSIExplore. Interactive learnr package for teaching beginning exploratory data analysis and statistics. Jessica Minnier and Ted Laderas. Role: author. infer. Tidy statistical inference package. Andrew Bray, Chester Ismay, Ben Baumer, Mine Cetinkaya-Rundel, Ted Laderas and Nick Solomon. Role: Contributor. surrogateMutation - a package for detecting oncogenic collaboration in somatic mutation and copy number data.</description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>/home/publications_selected/</guid>
+      <description>A Network Based Model of Oncogenic Collaboration to Predict Drug Sensitivity. Ted Laderas, Kemal Sonmez, and Laura Heiser. Frontiers in Genetics. 2015. Between Networks and Pathways Lies Context. Ted Laderas, Guanming Wu, and Shannon McWeeney. Science Progress. 2015. The Consensus Molecular Subtypes of Colorectal Cancer. Justin Guinney, Rodrigo Dienstmann, Xin Wang, Aurélien de Reyniès, Andreas Schlicker, Charlotte Soneson, Laetitia Marisa, Paul Roepman, Gift Nyamundanda, Paolo Angelino, Brian M. Bot, Jeffrey S.</description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0700</pubDate>
+      
+      <guid>/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Other Interests</title>
+      <link>/home/other-interests/</link>
+      <pubDate>Sat, 13 Jan 2018 18:03:09 -0800</pubDate>
+      
+      <guid>/home/other-interests/</guid>
+      <description>I have a parallel career as a composer and performing musician. I started taking cello lessons when I turned 30. I&amp;rsquo;m a lifelong learner and I love to play with and accompany other musicians. For more information, please see my artist webpage.</description>
+    </item>
     
   </channel>
 </rss>

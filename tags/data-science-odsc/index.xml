@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data-science ODSC on Ted Laderas, PhD</title>
+    <link>/tags/data-science-odsc/</link>
+    <description>Recent content in Data-science ODSC on Ted Laderas, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 07 Nov 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/data-science-odsc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notes on Open Data Science Conference West 2017</title>
+      <link>/2017/11/07/odsc-notes/</link>
+      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/11/07/odsc-notes/</guid>
+      <description>I just came back from the Open Data Science Conference (ODSC) in San Francisco and I found it really stimulating and interesting. I learned a ton, met some great people working in very different fields, and overall found it quite worthwhile.
+Here are some of the highlights from my notes:
+Workshops scikit-learn intro Workshop and Advanced
+I admit that I am not really a Python person. But I am helping to develop some materials for an introductory workshop and I found this workshop and its materials to be a very beginner-friendly to scikit-learn and machine learning concepts, much like caret for R.</description>
+    </item>
+    
+  </channel>
+</rss>

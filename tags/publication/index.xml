@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publication on Ted Laderas, PhD</title>
+    <link>/tags/publication/</link>
+    <description>Recent content in Publication on Ted Laderas, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 23 Dec 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Surrogate Oncogene Paper is Published</title>
+      <link>/2015/12/23/surrogate-oncogene-paper/</link>
+      <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/12/23/surrogate-oncogene-paper/</guid>
+      <description>My dissertation paper, A Network-Based Model of Oncogenic Collaboration for Prediction of Drug Sensitivity is now published! Here&amp;rsquo;s a lay summary:
+ One outstanding issue in analyzing genomics in the context of personalized medicine is the incorporation of rare or infrequent genetic alterations (copy number alterations and somatic mutations) that are observed in individual &amp;gt; patients. We hypothesize that these mutations may actually &amp;lsquo;collaborate&amp;rsquo; with known oncogenes in the genesis of tumors through their interactions.</description>
+    </item>
+    
+  </channel>
+</rss>

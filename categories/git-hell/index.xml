@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Git Hell on Personal Website for Ted Laderas, PhD</title>
+    <title>Git hell on Ted Laderas, PhD</title>
     <link>/categories/git-hell/</link>
-    <description>Recent content in Git Hell on Personal Website for Ted Laderas, PhD</description>
+    <description>Recent content in Git hell on Ted Laderas, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Fri, 05 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/git-hell/index.xml" rel="self" type="application/rss+xml" />

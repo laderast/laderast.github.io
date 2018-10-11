@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rstats on Ted Laderas, PhD</title>
+    <link>/tags/rstats/</link>
+    <description>Recent content in Rstats on Ted Laderas, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 24 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/rstats/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A gRadual Introduction to Shiny</title>
+      <link>/2018/01/24/gradual-introduction-to-shiny/</link>
+      <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/01/24/gradual-introduction-to-shiny/</guid>
+      <description>I just gave a workshop teaching the basics of Shiny (the interactive web visualization framework) for a group of PDX R users. We had 10 people attend, and most of the attendees managed to get through the material and had lots of good questions. I really enjoyed talking with everyone and I hope everyone learned something. We&amp;rsquo;re planning to give the workshop again to the larger PDX R user community, and some of the attendees last night have volunteered to be TAs.</description>
+    </item>
+    
+    <item>
+      <title>Interesting interview with the developer of statcheck</title>
+      <link>/2015/11/19/statcheck-package/</link>
+      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/11/19/statcheck-package/</guid>
+      <description>Due to the usual postdoc busy-ness, I haven&amp;rsquo;t had the energy to update this blog as much as I would like, but I thought this interview on Retraction Watch from Michèle B. Nuijten, the developer of the R-package statcheck to be fascinating. Her package essentially automates the checking of p-values given published data in papers, from converting the papers from pdf to text, and sees if the calculated p-values are correct.</description>
+    </item>
+    
+  </channel>
+</rss>

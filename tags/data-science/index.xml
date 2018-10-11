@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data science on Ted Laderas, PhD</title>
+    <link>/tags/data-science/</link>
+    <description>Recent content in Data science on Ted Laderas, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 15 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>If you want to talk with me for an informational interview</title>
+      <link>/2018/01/15/if-you-want-to-talk-with-me-for-an-informational-interview/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/01/15/if-you-want-to-talk-with-me-for-an-informational-interview/</guid>
+      <description>I have had many people who have asked me for informational interviews. They tell me that they are interested in Data Science and want to hear about what I do on a day to day basis. To be honest, I&amp;rsquo;ve begun to dread these kinds of interviews.
+Inevitably, I spend a lot of energy explaining what I do to someone who rarely follows up. Consequently, I don&amp;rsquo;t find these interviews rewarding at all.</description>
+    </item>
+    
+  </channel>
+</rss>

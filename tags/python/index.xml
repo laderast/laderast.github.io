@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Ted Laderas, PhD</title>
+    <link>/tags/python/</link>
+    <description>Recent content in Python on Ted Laderas, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 17 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What We learned teaching Python to Neuroscience Students</title>
+      <link>/2018/01/17/what-we-learned-teaching-python-to-neuroscience-students/</link>
+      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/01/17/what-we-learned-teaching-python-to-neuroscience-students/</guid>
+      <description>Well, the week of teaching our Python Bootcamp for Neuroscientists is over. I had the pleasure of working with a great group of students, professors and instructors in developing the material, and had a great time teaching complete beginners to programming and Python.
+We had the overall goal of introducting 21 Neuroscience Graduate Program students at OHSU to the basics of programming in Python using data that they were interested in: electrophysiology data, and confocal microscopy data.</description>
+    </item>
+    
+  </channel>
+</rss>

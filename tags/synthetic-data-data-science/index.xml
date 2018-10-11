@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Synthetic-data data-science on Ted Laderas, PhD</title>
+    <link>/tags/synthetic-data-data-science/</link>
+    <description>Recent content in Synthetic-data data-science on Ted Laderas, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Thu, 14 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/synthetic-data-data-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using Synthetic Data for Teaching Data Science</title>
+      <link>/2017/12/14/using-synthetic-data/</link>
+      <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/12/14/using-synthetic-data/</guid>
+      <description>Hi Everyone, our paper called Teaching data science fundamentals through realistic synthetic clinical cardiovascular data is now available to read on Biorxiv.
+In this paper, we talk about a dataset that we synthesized for teaching aspects of clinical data that may be tricky to understand in data science. This dataset is interesting because it&amp;rsquo;s derived from a multivariate distribution based on real patient data, modeled as a Bayesian Network. Even when we knew true marginals for the real data, there was a lot of fine tuning to the Bayesian Network.</description>
+    </item>
+    
+  </channel>
+</rss>

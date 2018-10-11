@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bioinformatics on Ted Laderas, PhD</title>
+    <link>/tags/bioinformatics/</link>
+    <description>Recent content in Bioinformatics on Ted Laderas, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 24 Nov 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why Short-Order Bioinformatics Doesn&#39;t Work</title>
+      <link>/2015/11/24/short-order-bioinformatics/</link>
+      <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/11/24/short-order-bioinformatics/</guid>
+      <description>Unfortunately, many researchers look at computational biology and bioinformatics as a black-box: you put in data, and you get results out. The bioinformaticians and computational biologists are seen as mostly computer operators who push the button and not as true collaborators. One of my co-workers calls this &amp;ldquo;short-order&amp;rdquo; bioinformatics.
+There is great danger in simply pushing a button to get results. One type of analysis, Gene Set Enrichment Analysis (GSEA) is highly dependent on how mutations are incorporated into a gene set.</description>
+    </item>
+    
+  </channel>
+</rss>

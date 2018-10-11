@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Journal retraction on Ted Laderas, PhD</title>
+    <link>/tags/journal-retraction/</link>
+    <description>Recent content in Journal retraction on Ted Laderas, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 24 May 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/journal-retraction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>High Impact Factor Journals Have Higher Retraction Rates</title>
+      <link>/2015/05/24/the-rise-of-fraud-in-high-if-journals/</link>
+      <pubDate>Sun, 24 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/05/24/the-rise-of-fraud-in-high-if-journals/</guid>
+      <description>Very interesting New York Times article about the rise of frauds and retractions in High Impact Factor journals. The retraction rates for High IF journals (such as Science, Cell, and Nature) are much higher than lower IF journals.
+From the article:
+ Journals with higher impact factors retract papers more often than those with lower impact factors. It’s not clear why. It could be that these prominent periodicals have more, and more careful, readers, who notice mistakes.</description>
+    </item>
+    
+  </channel>
+</rss>

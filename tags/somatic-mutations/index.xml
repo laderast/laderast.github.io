@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Somatic mutations on Ted Laderas, PhD</title>
+    <link>/tags/somatic-mutations/</link>
+    <description>Recent content in Somatic mutations on Ted Laderas, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 26 May 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/somatic-mutations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Somatic Mutations in Skin Paper</title>
+      <link>/2015/05/26/mutational-burden-in-skin/</link>
+      <pubDate>Tue, 26 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/05/26/mutational-burden-in-skin/</guid>
+      <description>This paper, High burden and pervasive positive selection of somatic mutations in normal human skin is fascinating. It suggests that the mutational burden is much higher than we expected in skin cells due to UV exposure. In addition, subclones exist in the skin that are positively selected for oncogenes.
+It also makes me want to stock up on sunscreen.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Separating-code on Ted Laderas, PhD</title>
+    <link>/tags/separating-code/</link>
+    <description>Recent content in Separating-code on Ted Laderas, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 22 Aug 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/separating-code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>On the Separation of Code and State</title>
+      <link>/2017/08/22/separation-of-code-and-state/</link>
+      <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/08/22/separation-of-code-and-state/</guid>
+      <description>One of the hardest concepts as an analyst that I have struggled with is separating my code from my data. A related issue is making your code reproducible across data instances.</description>
+    </item>
+    
+  </channel>
+</rss>

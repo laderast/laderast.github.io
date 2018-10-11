@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rstats tidyeval on Ted Laderas, PhD</title>
+    <link>/tags/rstats-tidyeval/</link>
+    <description>Recent content in Rstats tidyeval on Ted Laderas, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 19 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/rstats-tidyeval/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Understanding Tidy Evaluation in R</title>
+      <link>/2017/12/19/understanding-tidyeval/</link>
+      <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/12/19/understanding-tidyeval/</guid>
+      <description>Have you ever had something that no matter how many times someone explained it, you really had no idea what it was for? For me, that was Non Standard Evaluation (NSE) in R, and its newer cousin Tidy Evaluation, or tidyeval. I had a real learning block about it. I really wanted to understand it, but for some reason I just really wasn’t getting the general concepts.
+What is evaluation, really?</description>
+    </item>
+    
+  </channel>
+</rss>
