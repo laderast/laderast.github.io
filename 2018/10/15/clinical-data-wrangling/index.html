@@ -18,7 +18,7 @@
     
   
   <meta name="description" content="Well, we just finished our clinical data wrangling workshop. This was a 12 hour workshop (spread over 4 days) where students got to work with a real research dataset (the Sleep Heart Health Study data). This is a workshop that we developed as part of an National Library of Medicine T15 training supplement in Data Science. The following is a short report describing the workshop and its outcomes.
-Intended AudienceWe designed the workshop for our incoming informatics students (both on the clinical and biological majors) in order to introduce them to the difficulties of working with clinical data.">
+Intended AudienceWe designed the workshop for our incoming informatics students (both clinical and biological majors) in order to introduce them to the difficulties of working with clinical data.">
 
   
   <link rel="alternate" hreflang="en-us" href="/2018/10/15/clinical-data-wrangling/">
@@ -94,7 +94,7 @@ Intended AudienceWe designed the workshop for our incoming informatics students
   <meta property="og:url" content="/2018/10/15/clinical-data-wrangling/">
   <meta property="og:title" content="Things we learned teaching clinical data wrangling | Ted Laderas, PhD">
   <meta property="og:description" content="Well, we just finished our clinical data wrangling workshop. This was a 12 hour workshop (spread over 4 days) where students got to work with a real research dataset (the Sleep Heart Health Study data). This is a workshop that we developed as part of an National Library of Medicine T15 training supplement in Data Science. The following is a short report describing the workshop and its outcomes.
-Intended AudienceWe designed the workshop for our incoming informatics students (both on the clinical and biological majors) in order to introduce them to the difficulties of working with clinical data."><meta property="og:image" content="/img/appview.jpg">
+Intended AudienceWe designed the workshop for our incoming informatics students (both clinical and biological majors) in order to introduce them to the difficulties of working with clinical data."><meta property="og:image" content="/img/appview.jpg">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-10-15T00:00:00&#43;00:00">
@@ -379,10 +379,10 @@ Intended AudienceWe designed the workshop for our incoming informatics students
 
 
       <div class="article-style" itemprop="articleBody">
-        <p>Well, we just finished our clinical data wrangling workshop. This was a 12 hour workshop (spread over 4 days) where students got to work with a real research dataset (the <a href="http://sleepdata.org">Sleep Heart Health Study</a> data). This is a workshop that we developed as part of an National Library of Medicine T15 training supplement in Data Science. The following is a short report describing the workshop and its outcomes.</p>
+        <p>Well, we just finished our <a href="https://github.com/laderast/clinical_data_wrangling">clinical data wrangling workshop</a>. This was a 12 hour workshop (spread over 4 days) where students got to work with a real research dataset (the <a href="http://sleepdata.org">Sleep Heart Health Study</a> data). This is a workshop that we developed as part of an National Library of Medicine T15 training supplement in Data Science. The following is a short report describing the workshop and its outcomes.</p>
 <div id="intended-audience" class="section level2">
 <h2>Intended Audience</h2>
-<p>We designed the workshop for our incoming informatics students (both on the clinical and biological majors) in order to introduce them to the difficulties of working with clinical data.</p>
+<p>We designed the workshop for our incoming informatics students (both clinical and biological majors) in order to introduce them to the difficulties of working with clinical data.</p>
 </div>
 <div id="learning-objectives" class="section level2">
 <h2>Learning Objectives</h2>
@@ -446,13 +446,14 @@ Intended AudienceWe designed the workshop for our incoming informatics students
 <li><p><strong>Our diverse backgrounds helped make the workshop accessible.</strong> Nicole Weiskopf has a background in data quality of clinical data, Eilis Boudreau does sleep study work, and I’m a bit of a mongrel.</p></li>
 <li><p><strong>Securing the cooperation of the data holders made the workshop possible</strong>. The dataset comes from the National Sleep Study Resource. Eilis knows Susan Redline, who heads that group and pitched the idea (over two sessions) to her group. Susan’s group was very enthusiastic and helpful, especially in helping the students get their data use agreements in so they could access the dataset.</p></li>
 <li><p><strong>Group work is learning work</strong>. We assigned each student to a group, and gave each group questions to answer and teach the class about the dataset. By pointing them to specific aspects of the data, we opened the door to discussion.</p></li>
-<li><p><strong>EDA scavenger hunt</strong>. We had the students learn data exploration by giving them a <a href="">scavenger hunt</a> to look at the relationship between variables. Each group was then required to talk about their findings and which visualization helped them discover that relationship. For example, there is a relationship between age and race in our dataset; the “Other” category of race has a lower median age than the other two categories, “White” and “Black”.</p></li>
+<li><p><strong>EDA scavenger hunt</strong>. We had the students learn data exploration by giving them a scavenger hunt to look at the relationship between variables. Each group was then required to talk about their findings and which visualization helped them discover that relationship. For example, there is a relationship between age and race in our dataset; the “Other” category of race has a lower median age than the other two categories, “White” and “Black”.</p></li>
 <li><p><strong>Didactic Teaching is also important</strong>. Nicole and Eilis covered both the biology of sleep apnea and the difficulty of understanding the implications of clinical data. Without this background, students would not be able to make informed decisions about their final model.</p></li>
-<li><p><strong>Guide the Students, but don’t force discussion</strong>. This was important. We think the students need to connect the dots to really understand the issues. The final product (a logistic regression model predicting cardiovascular disease with an R Notebook) had steps and choices. But the choices for each students was different.</p></li>
+<li><p><strong>Guide the Students, but don’t force discussion</strong>. This was important. We think the students need to connect the dots to really understand the issues. The final product (a logistic regression model predicting cardiovascular disease with an R Notebook) had steps and choices. But the choices for each group of students was different.</p></li>
 <li><p><strong>A Code of conduct is necessary and important</strong>. We are big believers in psychological safety. If people don’t feel safe in the classroom environment (and let’s face it, grad school classrooms rarely are), they will be less likely to learn and contribute.</p></li>
 <li><p><strong>Data restrictions made deploying difficult</strong>. The activity materials were deployed as an RStudio project. However, we couldn’t share the data within a GitHub repo. As OHSU’s approved vendor is Box, we setup a box folder containing the material to be shared with students.</p></li>
 </ol>
 <p>We were grateful for the incoming informatics students’ enthusiasm and patience as we got this workshop going. Also thanks to the NLM T15 Supplement in Data Science, without which we would not have gotten the opportunity to conceptualize, put together, and deliver this workshop. Thanks again to Susan Redline and the <a href="http://sleepdata.org">National Sleep Research Resource</a> group, especially Dan Mobley who helped us with the last-minute data use agreements.</p>
+<p>Link to Workshop: <a href="https://github.com/laderast/clinical_data_wrangling" class="uri">https://github.com/laderast/clinical_data_wrangling</a></p>
 </div>
 
       </div>
@@ -576,6 +577,8 @@ Intended AudienceWe designed the workshop for our incoming informatics students
       <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
       
 
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/R.min.js"></script>
       
 
       
