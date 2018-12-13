@@ -11,6 +11,88 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Reframing Impostor Syndrome as Being on the Road to Mastery</title>
+      <link>/2018/12/13/reframing-impostor-syndrome-as-being-on-the-road-to-mastery/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/12/13/reframing-impostor-syndrome-as-being-on-the-road-to-mastery/</guid>
+      <description>
+
+&lt;p&gt;At some point in your life in Data Science, you will probably struggle with &lt;a href=&#34;https://www.apa.org/gradpsych/2013/11/fraud.aspx&#34; target=&#34;_blank&#34;&gt;impostor syndrome&lt;/a&gt;. We all do - in fact, even though I have used R and have done bioinformatics and data science for more than 15 years, I still struggle with this feeling. As a beginner, the mountain you must climb to master skills in data science seems like a long and impossible one.&lt;/p&gt;
+
+&lt;p&gt;Caitlin Hudon, in her post about &lt;a href=&#34;https://caitlinhudon.com/2018/01/19/imposter-syndrome-in-data-science/&#34; target=&#34;_blank&#34;&gt;dealing with impostor syndrome&lt;/a&gt; has this to say about countering impostor syndrome:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The way that I’ve dealt with imposter syndrome is this: I’ve accepted that I will never be able to learn everything there is to know in data science — I will never know every algorithm, every technology, every cool package, or even every language — and that’s okay. The great thing about being in such a diverse field is that nobody will know all of these things (and that’s okay too!).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I think it&amp;rsquo;s important to try and reframe the feelings of impostor syndrome into something more positive. I think having self-compassion about the difficulties of the learning process can help.&lt;/p&gt;
+
+&lt;p&gt;George Leonard&amp;rsquo;s &lt;em&gt;Mastery&lt;/em&gt; is a short book that I think can help provide the antidote to these feelings of fraud and inadequacy. I feel that beginners and learners would feel much better if their instructors would own up to their own personal shortcomings as learners. That is, instead of trying to project the image of the all knowledgable guru, instructors should show themselves as humble, lifelong learners as well.&lt;/p&gt;
+
+&lt;p&gt;In &lt;em&gt;Mastery&lt;/em&gt;, Leonard talks about our unrealistic expectations and how these expectations can get in the way of actually learning and mastering a craft. We are conditioned by ads, movies, and social media that mastering a craft is a never ending set of ever rising climaxes (cue the &lt;a href=&#34;https://www.youtube.com/watch?v=SPFCHuEegsk&#34; target=&#34;_blank&#34;&gt;training montage&lt;/a&gt;), that we can make continuous and steady progress by working hard enough.&lt;/p&gt;
+
+&lt;p&gt;Mastering a craft takes practice, and lots of it. We must learn to be contented to practice when we are on a plateau and are not making visible progress. As Leonard notes,&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Path to Mastery is practice.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Leonard outlines 5 principles that can sustain us in our road to mastery and away from impostor syndrome: &lt;strong&gt;Instruction&lt;/strong&gt;, &lt;strong&gt;Practice&lt;/strong&gt;, &lt;strong&gt;Surrender&lt;/strong&gt;, &lt;strong&gt;Intentionality&lt;/strong&gt;, and &lt;strong&gt;The Edge&lt;/strong&gt;. I&amp;rsquo;m trying to map common feelings of impostor syndrome and show how these principles can counteract these feelings.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instruction&lt;/strong&gt;. Leonard emphasizes the importance in finding good instructors and good mentorship that will help us to grow. Finding good instructors can actually be difficult and finding someone who remembers what it was like to be learning something is important. Avoid those instructors who say things like &amp;ldquo;it should now be obvious&amp;rdquo; or are disparaging when you don&amp;rsquo;t understand something.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;He or she is not necessarily the one that gives the most polished lectures, but rather the &lt;em&gt;one who has discovered how to involve each student actively&lt;/em&gt; in the process of learning.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;What you can do today&lt;/em&gt;: look at twitter and other forums for your community of learners and support those who give good instruction. Realize that not all teachers are good teachers; leave them and seek better ones if necessary.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Practice&lt;/strong&gt;. Practice for practices&amp;rsquo; sake. Deliberate practice where you slowly build up your understanding and perceptions is important to your growth.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Where in our upbringing, our schooling, our career are we taught to value, to enjoy, even to love the plateau, the long stretch of diligent effort with no seeming progress?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;What you can do today&lt;/em&gt;: Join communities of practice such as Tidy Tuesday and share your learning with others. Tidy Tuesday is extremely friendly and encouraging for beginners. Learn together and grow together. These are safe communities to share knowledge.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Intentionality&lt;/strong&gt;. This goes hand in hand with practice. Deliberate practice requires visualizing your process and guiding yourself gently.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Intentionality fuels the master&amp;rsquo;s journey. Every master is a master of vision.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;What you can do today&lt;/em&gt;: find small exercises and projects that help you reinforce what you&amp;rsquo;ve learned so far. Find people&amp;rsquo;s code and vignettes and modify them until you understand what they&amp;rsquo;ve done and how they structured their work.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Surrender&lt;/strong&gt;. At some point, you will have to give up your own social position as an expert to grow as a learner. When this happens, you must be willing to risk that standing to progress further. Leonard talks about a karate master who learning aikido and was not willing to start from scratch, which impeded his learning. For many of us academics, being willing to abandon the comfort of what we have learned is especially difficult. We feel like we are risking our own social standing and reputation.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;For the master, surrender means there are no experts. There are only Learners.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;What you can do today&lt;/em&gt;: be humble when faced with new concepts (for many impostor syndrome sufferers this is not the hard part). Recognize when you need to grow and when you have to leave old concepts behind.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Edge&lt;/strong&gt;. This is where things are undefined and scary. Still, part of the journey to mastery is a willingness to push your thoughts to beyond the horizon of what you thought was possible.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The trick here is not only to test the edges of the envelope, but also to walk the fine line between endless, goalless practice and those alluring roles that appear along the way.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;What you can do today&lt;/em&gt;: Identify some goals that are just beyond your current skillset and be willing to push your learning to that point.&lt;/p&gt;
+
+&lt;p&gt;Leonard maintains that true mastery is not due to innate talent. True mastery is due to tenacity and perserverance in the face of difficult learning. In fact, he suggests that learning things too easily means that you might lack perserverance when the going gets rough and your progress slows. He maintains that someone who perseveres will &amp;ldquo;have learned whatever [they] are practicing to the marrow of [their] bones.&amp;rdquo;&lt;/p&gt;
+
+&lt;h2 id=&#34;encouraging-mastery-as-a-community&#34;&gt;Encouraging Mastery as a Community&lt;/h2&gt;
+
+&lt;p&gt;I think Caitlin&amp;rsquo;s &lt;a href=&#34;https://caitlinhudon.com/2018/01/19/imposter-syndrome-in-data-science/&#34; target=&#34;_blank&#34;&gt;prescriptions for community wide suggestions for reducing impostor syndrome&lt;/a&gt; are wonderful. Especially the advice to &amp;ldquo;Get comfortable with I don&amp;rsquo;t know&amp;rdquo;. Normalizing &amp;ldquo;I don&amp;rsquo;t know&amp;rdquo; within a community is incredibly important to making a psychologically safe learning environment.&lt;/p&gt;
+
+&lt;p&gt;To encourage learners, I think that creating a community of practice and helpfulness is vitally important to give new learners the support they need. When communities take responsibility for the learning of their members, something magic happens. Learning no longer feels lonely and there is no shame when you don&amp;rsquo;t immediately grasp a concept. Patience becomes the norm and people become more confident.&lt;/p&gt;
+
+&lt;p&gt;For me, this is the true value of schools and universities. To get the most out of online learning, you need to participate within a community that encourages you to learn further. Be on the pathway to mastery by participate within learning communities.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Things we learned teaching clinical data wrangling</title>
       <link>/2018/10/15/clinical-data-wrangling/</link>
       <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
@@ -717,24 +799,6 @@ and &lt;a href=&#34;https://odscwest.pathable.com/meetings/604496&#34; target=&#
 &lt;p&gt;&lt;strong&gt;Think about the future&lt;/strong&gt;. What should the next Cascadia-R look like? I know it just happened, but we&amp;rsquo;re trying to envision what it would look like. Based on the feedback we&amp;rsquo;ve gotten so far, people really want more workshops!&lt;/p&gt;
 
 &lt;p&gt;In a following post, I&amp;rsquo;m also going to talk about lessons I learned when Chester and I put on our tidyverse workshop.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Objects: What are they for?</title>
-      <link>/2017/05/29/objects-what-are-they-for/</link>
-      <pubDate>Mon, 29 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/05/29/objects-what-are-they-for/</guid>
-      <description>&lt;p&gt;One area of programming that we do a really bad job teaching is Object-Oriented Programming (OOP). I was talking with one of my colleagues and he admitted that we don&amp;rsquo;t have enough time in our programming course (which is not CS) to show students what OOP is, much less what it&amp;rsquo;s for!&lt;/p&gt;
-
-&lt;p&gt;I usually find the examples that we teach in OOP to be rather useless to actually understanding what they&amp;rsquo;re for.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m going to talk about one reason to use Object Oriented Programming: to ensure data integrity in a Shiny App. Hopefully once you understand how I&amp;rsquo;ve applied the concepts here, you will start to think of other ways to apply them in your programming.&lt;/p&gt;
-
-&lt;p&gt;As most of you know, a Shiny App consists of two pieces: a User Interface piece, and a Server-side piece.&lt;/p&gt;
-
-&lt;p&gt;I finally understood why we encapsulate data in objects.&lt;/p&gt;
 </description>
     </item>
     
