@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Ted Laderas, PhD</title>
+    <link>/project/</link>
+    <description>Recent content in Projects on Ted Laderas, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 22 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Visual Introduction to Clustering Algorithms</title>
+      <link>/project/visual_intro_clustering/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/visual_intro_clustering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flow Dashboard Demo</title>
+      <link>/project/sample_flow_dashboard/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/sample_flow_dashboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to Categorical Data Analysis</title>
+      <link>/project/categorical_data/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/categorical_data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to Data Literacy</title>
+      <link>/project/introduction_to_data_literacy/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/introduction_to_data_literacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to Interactive Visualization</title>
+      <link>/project/introduction_to_interactive_vis/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/introduction_to_interactive_vis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NHANES explorer</title>
+      <link>/project/nhanes_explorer/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/nhanes_explorer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Surrogate Oncogene Explorer</title>
+      <link>/project/surrogate_oncogene_explorer/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/surrogate_oncogene_explorer/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

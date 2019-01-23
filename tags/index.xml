@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 19 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>/tags/academic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/academic/</guid>
+      <description>Here is a list of all the content that has been tagged as academic.</description>
+    </item>
     
     <item>
       <title>Arts music plasticity cross-discipline</title>
@@ -40,6 +49,42 @@
     </item>
     
     <item>
+      <title>Cancer</title>
+      <link>/tags/cancer/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cancer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clustering</title>
+      <link>/tags/clustering/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/clustering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CyTOF</title>
+      <link>/tags/cytof/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cytof/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Exploration</title>
+      <link>/tags/data-exploration/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data-exploration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data science</title>
       <link>/tags/data-science/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
@@ -54,6 +99,24 @@
       <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/data-science-odsc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EDA</title>
+      <link>/tags/eda/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/eda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flow Cytometry</title>
+      <link>/tags/flow-cytometry/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/flow-cytometry/</guid>
       <description></description>
     </item>
     
@@ -90,6 +153,15 @@
       <pubDate>Sun, 24 May 2015 00:00:00 +0000</pubDate>
       
       <guid>/tags/journal-retraction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oncogene</title>
+      <link>/tags/oncogene/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/oncogene/</guid>
       <description></description>
     </item>
     
@@ -139,6 +211,15 @@
     </item>
     
     <item>
+      <title>Research</title>
+      <link>/tags/research/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Rstats</title>
       <link>/tags/rstats/</link>
       <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
@@ -177,7 +258,7 @@
     <item>
       <title>Shiny</title>
       <link>/tags/shiny/</link>
-      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/shiny/</guid>
       <description></description>
@@ -222,7 +303,7 @@
     <item>
       <title>Teaching</title>
       <link>/tags/teaching/</link>
-      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/teaching/</guid>
       <description></description>

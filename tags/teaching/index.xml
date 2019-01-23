@@ -7,10 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 17 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Visual Introduction to Clustering Algorithms</title>
+      <link>/project/visual_intro_clustering/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/visual_intro_clustering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to Categorical Data Analysis</title>
+      <link>/project/categorical_data/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/categorical_data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to Data Literacy</title>
+      <link>/project/introduction_to_data_literacy/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/introduction_to_data_literacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to Interactive Visualization</title>
+      <link>/project/introduction_to_interactive_vis/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/introduction_to_interactive_vis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NHANES explorer</title>
+      <link>/project/nhanes_explorer/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/nhanes_explorer/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>What We learned teaching Python to Neuroscience Students</title>

@@ -48,16 +48,16 @@ I am also course co-director for HSMP/PHE410 Introduction to Health Informatics.
       <pubDate>Sat, 13 Jan 2018 17:28:30 -0800</pubDate>
       
       <guid>/home/software/</guid>
-      <description>flowDashboard. Shiny modules for building interactive and comparative dashboards for flow cytometry data. See a demo here: https://tladeras.shinyapps.io/sampleFlowDashboard/  DSIExplore. Interactive learnr package for teaching beginning exploratory data analysis and statistics. Jessica Minnier and Ted Laderas. Role: author. infer. Tidy statistical inference package. Andrew Bray, Chester Ismay, Ben Baumer, Mine Cetinkaya-Rundel, Ted Laderas and Nick Solomon. Role: Contributor. surrogateMutation - a package for detecting oncogenic collaboration in somatic mutation and copy number data.</description>
+      <description>burro. R Package for building data exploration apps for Data Scavenger hunts. With Jessica Minnier and Gabrielle Choonoo. flowDashboard. Shiny modules for building interactive and comparative dashboards for flow cytometry data. See a demo here: https://tladeras.shinyapps.io/sampleFlowDashboard/  DSIExplore. Interactive learnr package for teaching beginning exploratory data analysis and statistics. Jessica Minnier and Ted Laderas. Role: author. infer. Tidy statistical inference package. Andrew Bray, Chester Ismay, Ben Baumer, Mine Cetinkaya-Rundel, Ted Laderas and Nick Solomon.</description>
     </item>
     
     <item>
-      <title>Selected Publications</title>
-      <link>/home/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      <title>Shiny Apps</title>
+      <link>/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/publications_selected/</guid>
-      <description>A Network Based Model of Oncogenic Collaboration to Predict Drug Sensitivity. Ted Laderas, Kemal Sonmez, and Laura Heiser. Frontiers in Genetics. 2015. Between Networks and Pathways Lies Context. Ted Laderas, Guanming Wu, and Shannon McWeeney. Science Progress. 2015. The Consensus Molecular Subtypes of Colorectal Cancer. Justin Guinney, Rodrigo Dienstmann, Xin Wang, Aurélien de Reyniès, Andreas Schlicker, Charlotte Soneson, Laetitia Marisa, Paul Roepman, Gift Nyamundanda, Paolo Angelino, Brian M. Bot, Jeffrey S.</description>
+      <guid>/home/projects/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -66,6 +66,15 @@ I am also course co-director for HSMP/PHE410 Introduction to Health Informatics.
       <pubDate>Wed, 20 Sep 2017 00:00:00 -0700</pubDate>
       
       <guid>/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>/home/publications/</guid>
       <description></description>
     </item>
     

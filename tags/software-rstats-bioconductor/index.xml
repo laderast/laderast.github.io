@@ -18,7 +18,7 @@
       <pubDate>Sat, 13 Jan 2018 17:28:30 -0800</pubDate>
       
       <guid>/home/software/</guid>
-      <description>flowDashboard. Shiny modules for building interactive and comparative dashboards for flow cytometry data. See a demo here: https://tladeras.shinyapps.io/sampleFlowDashboard/  DSIExplore. Interactive learnr package for teaching beginning exploratory data analysis and statistics. Jessica Minnier and Ted Laderas. Role: author. infer. Tidy statistical inference package. Andrew Bray, Chester Ismay, Ben Baumer, Mine Cetinkaya-Rundel, Ted Laderas and Nick Solomon. Role: Contributor. surrogateMutation - a package for detecting oncogenic collaboration in somatic mutation and copy number data.</description>
+      <description>burro. R Package for building data exploration apps for Data Scavenger hunts. With Jessica Minnier and Gabrielle Choonoo. flowDashboard. Shiny modules for building interactive and comparative dashboards for flow cytometry data. See a demo here: https://tladeras.shinyapps.io/sampleFlowDashboard/  DSIExplore. Interactive learnr package for teaching beginning exploratory data analysis and statistics. Jessica Minnier and Ted Laderas. Role: author. infer. Tidy statistical inference package. Andrew Bray, Chester Ismay, Ben Baumer, Mine Cetinkaya-Rundel, Ted Laderas and Nick Solomon.</description>
     </item>
     
   </channel>
