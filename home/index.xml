@@ -43,21 +43,21 @@ I am also course co-director for HSMP/PHE410 Introduction to Health Informatics.
     </item>
     
     <item>
-      <title>Software</title>
-      <link>/home/software/</link>
-      <pubDate>Sat, 13 Jan 2018 17:28:30 -0800</pubDate>
-      
-      <guid>/home/software/</guid>
-      <description>burro. R Package for building data exploration apps for Data Scavenger hunts. With Jessica Minnier and Gabrielle Choonoo. flowDashboard. Shiny modules for building interactive and comparative dashboards for flow cytometry data. See a demo here: https://tladeras.shinyapps.io/sampleFlowDashboard/  DSIExplore. Interactive learnr package for teaching beginning exploratory data analysis and statistics. Jessica Minnier and Ted Laderas. Role: author. infer. Tidy statistical inference package. Andrew Bray, Chester Ismay, Ben Baumer, Mine Cetinkaya-Rundel, Ted Laderas and Nick Solomon.</description>
-    </item>
-    
-    <item>
       <title>Shiny Apps</title>
       <link>/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/home/projects/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>/home/software/</link>
+      <pubDate>Sat, 13 Jan 2018 17:28:30 -0800</pubDate>
+      
+      <guid>/home/software/</guid>
+      <description>burro. R Package for building data exploration apps for Data Scavenger hunts. With Jessica Minnier and Gabrielle Choonoo. flowDashboard. Shiny modules for building interactive and comparative dashboards for flow cytometry data. See a demo here: https://tladeras.shinyapps.io/sampleFlowDashboard/  DSIExplore. Interactive learnr package for teaching beginning exploratory data analysis and statistics. Jessica Minnier and Ted Laderas. Role: author. infer. Tidy statistical inference package. Andrew Bray, Chester Ismay, Ben Baumer, Mine Cetinkaya-Rundel, Ted Laderas and Nick Solomon.</description>
     </item>
     
     <item>
