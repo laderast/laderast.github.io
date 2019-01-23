@@ -13,56 +13,11 @@
     
     
     <item>
-      <title>A Visual Introduction to Clustering Algorithms</title>
-      <link>/project/visual_intro_clustering/</link>
-      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/project/visual_intro_clustering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Decision Tree Explorer</title>
-      <link>/project/party_explorer/</link>
-      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/project/party_explorer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Flow Dashboard Demo</title>
       <link>/project/sample_flow_dashboard/</link>
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/project/sample_flow_dashboard/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introduction to Categorical Data Analysis</title>
-      <link>/project/categorical_data/</link>
-      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/project/categorical_data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introduction to Data Literacy</title>
-      <link>/project/introduction_to_data_literacy/</link>
-      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/project/introduction_to_data_literacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introduction to Interactive Visualization</title>
-      <link>/project/introduction_to_interactive_vis/</link>
-      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/project/introduction_to_interactive_vis/</guid>
       <description></description>
     </item>
     
@@ -76,9 +31,54 @@
     </item>
     
     <item>
+      <title>Introduction to Interactive Visualization</title>
+      <link>/project/introduction_to_interactive_vis/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/introduction_to_interactive_vis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to Data Literacy</title>
+      <link>/project/introduction_to_data_literacy/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/introduction_to_data_literacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decision Tree Explorer</title>
+      <link>/project/party_explorer/</link>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/party_explorer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to Categorical Data Analysis</title>
+      <link>/project/categorical_data/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/categorical_data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Visual Introduction to Clustering Algorithms</title>
+      <link>/project/visual_intro_clustering/</link>
+      <pubDate>Sun, 22 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/visual_intro_clustering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Surrogate Oncogene Explorer</title>
       <link>/project/surrogate_oncogene_explorer/</link>
-      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>
       
       <guid>/project/surrogate_oncogene_explorer/</guid>
       <description></description>

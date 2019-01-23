@@ -13,15 +13,6 @@
     
     
     <item>
-      <title>A Visual Introduction to Clustering Algorithms</title>
-      <link>/project/visual_intro_clustering/</link>
-      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/project/visual_intro_clustering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Flow Dashboard Demo</title>
       <link>/project/sample_flow_dashboard/</link>
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
@@ -40,9 +31,18 @@
     </item>
     
     <item>
+      <title>A Visual Introduction to Clustering Algorithms</title>
+      <link>/project/visual_intro_clustering/</link>
+      <pubDate>Sun, 22 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/visual_intro_clustering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Surrogate Oncogene Explorer</title>
       <link>/project/surrogate_oncogene_explorer/</link>
-      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>
       
       <guid>/project/surrogate_oncogene_explorer/</guid>
       <description></description>

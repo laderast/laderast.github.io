@@ -13,24 +13,6 @@
     
     
     <item>
-      <title>A Visual Introduction to Clustering Algorithms</title>
-      <link>/project/visual_intro_clustering/</link>
-      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/project/visual_intro_clustering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Decision Tree Explorer</title>
-      <link>/project/party_explorer/</link>
-      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/project/party_explorer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Flow Dashboard Demo</title>
       <link>/project/sample_flow_dashboard/</link>
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
@@ -40,47 +22,11 @@
     </item>
     
     <item>
-      <title>Introduction to Categorical Data Analysis</title>
-      <link>/project/categorical_data/</link>
-      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/project/categorical_data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introduction to Data Literacy</title>
-      <link>/project/introduction_to_data_literacy/</link>
-      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/project/introduction_to_data_literacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introduction to Interactive Visualization</title>
-      <link>/project/introduction_to_interactive_vis/</link>
-      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/project/introduction_to_interactive_vis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>NHANES explorer</title>
       <link>/project/nhanes_explorer/</link>
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/project/nhanes_explorer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Surrogate Oncogene Explorer</title>
-      <link>/project/surrogate_oncogene_explorer/</link>
-      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/project/surrogate_oncogene_explorer/</guid>
       <description></description>
     </item>
     
@@ -95,12 +41,39 @@ Intended AudienceWe designed the workshop for our incoming informatics students
     </item>
     
     <item>
+      <title>Introduction to Interactive Visualization</title>
+      <link>/project/introduction_to_interactive_vis/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/introduction_to_interactive_vis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to Data Literacy</title>
+      <link>/project/introduction_to_data_literacy/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/introduction_to_data_literacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A gRadual Introduction to Shiny</title>
       <link>/2018/01/24/gradual-introduction-to-shiny/</link>
       <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/01/24/gradual-introduction-to-shiny/</guid>
       <description>I just gave a workshop teaching the basics of Shiny (the interactive web visualization framework) for a group of PDX R users. We had 10 people attend, and most of the attendees managed to get through the material and had lots of good questions. I really enjoyed talking with everyone and I hope everyone learned something. We&amp;rsquo;re planning to give the workshop again to the larger PDX R user community, and some of the attendees last night have volunteered to be TAs.</description>
+    </item>
+    
+    <item>
+      <title>Decision Tree Explorer</title>
+      <link>/project/party_explorer/</link>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/party_explorer/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -111,6 +84,33 @@ Intended AudienceWe designed the workshop for our incoming informatics students
       <guid>/2017/06/28/howtonotbeafraid/</guid>
       <description>I&amp;rsquo;m going to be giving a talk for the PDX RLang Meetup on July 11 called &amp;ldquo;How to Not Be Afraid of Your Data: Teaching EDA using Shiny&amp;rdquo;. Abstract below.
 Many graduate students in the basic sciences are afraid of data exploration and cleaning, which can greatly impact their downstream analysis results. By using a synthetic dataset, some simple dplyr commands, and a shiny dashboard, we teach graduate students how to explore their data and how to handle issues that can arise (missing values, differences in units).</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Categorical Data Analysis</title>
+      <link>/project/categorical_data/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/categorical_data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Visual Introduction to Clustering Algorithms</title>
+      <link>/project/visual_intro_clustering/</link>
+      <pubDate>Sun, 22 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/visual_intro_clustering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Surrogate Oncogene Explorer</title>
+      <link>/project/surrogate_oncogene_explorer/</link>
+      <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/project/surrogate_oncogene_explorer/</guid>
+      <description></description>
     </item>
     
   </channel>

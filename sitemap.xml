@@ -5,24 +5,6 @@
     
     <url>
     
-      <loc>/project/visual_intro_clustering/</loc>
-      <lastmod>2019-01-22T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/project/party_explorer/</loc>
-      <lastmod>2019-01-22T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/project/sample_flow_dashboard/</loc>
       <lastmod>2019-01-22T00:00:00+00:00</lastmod>
     </url>
@@ -32,43 +14,7 @@
     
     <url>
     
-      <loc>/project/categorical_data/</loc>
-      <lastmod>2019-01-22T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/project/introduction_to_data_literacy/</loc>
-      <lastmod>2019-01-22T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/project/introduction_to_interactive_vis/</loc>
-      <lastmod>2019-01-22T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/project/nhanes_explorer/</loc>
-      <lastmod>2019-01-22T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/project/surrogate_oncogene_explorer/</loc>
       <lastmod>2019-01-22T00:00:00+00:00</lastmod>
     </url>
     
@@ -95,6 +41,15 @@
     
     <url>
     
+      <loc>/project/introduction_to_interactive_vis/</loc>
+      <lastmod>2018-08-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2018/08/02/turning-down-the-noise/</loc>
       <lastmod>2018-08-02T00:00:00+00:00</lastmod>
     </url>
@@ -104,8 +59,26 @@
     
     <url>
     
+      <loc>/project/introduction_to_data_literacy/</loc>
+      <lastmod>2018-05-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2018/01/24/gradual-introduction-to-shiny/</loc>
       <lastmod>2018-01-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/project/party_explorer/</loc>
+      <lastmod>2018-01-22T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -239,6 +212,15 @@
     
     <url>
     
+      <loc>/project/categorical_data/</loc>
+      <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2017/06/07/cascadiarnotes/</loc>
       <lastmod>2017-06-07T00:00:00+00:00</lastmod>
     </url>
@@ -277,6 +259,15 @@
     
       <loc>/2017/04/17/building-a-peer-mentoring/</loc>
       <lastmod>2017-04-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/project/visual_intro_clustering/</loc>
+      <lastmod>2017-01-22T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -383,15 +374,6 @@
     
     <url>
     
-      <loc>/publication/person-re-identification/</loc>
-      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/2015/05/26/mutational-burden-in-skin/</loc>
       <lastmod>2015-05-26T00:00:00+00:00</lastmod>
     </url>
@@ -446,8 +428,8 @@
     
     <url>
     
-      <loc>/publication/clothing-search/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+      <loc>/project/surrogate_oncogene_explorer/</loc>
+      <lastmod>2014-01-22T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -572,16 +554,6 @@
     
     <url>
     
-      <loc>/publication_types/1/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/publication_types/2/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -623,7 +595,7 @@
     <url>
     
       <loc>/tags/cancer/</loc>
-      <lastmod>2019-01-22T00:00:00+00:00</lastmod>
+      <lastmod>2014-01-22T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -650,7 +622,7 @@
     <url>
     
       <loc>/tags/clustering/</loc>
-      <lastmod>2019-01-22T00:00:00+00:00</lastmod>
+      <lastmod>2017-01-22T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -737,7 +709,7 @@
     
     <url>
     
-      <loc>/categories/git-hell/</loc>
+      <loc>/tags/git-hell/</loc>
       <lastmod>2018-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -747,7 +719,7 @@
     
     <url>
     
-      <loc>/tags/git-hell/</loc>
+      <loc>/categories/git-hell/</loc>
       <lastmod>2018-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -788,7 +760,7 @@
     <url>
     
       <loc>/tags/oncogene/</loc>
-      <lastmod>2019-01-22T00:00:00+00:00</lastmod>
+      <lastmod>2014-01-22T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -838,7 +810,7 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -857,7 +829,7 @@
     
     <url>
     
-      <loc>/categories/r/</loc>
+      <loc>/tags/r/</loc>
       <lastmod>2018-10-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -867,7 +839,7 @@
     
     <url>
     
-      <loc>/tags/r/</loc>
+      <loc>/categories/r/</loc>
       <lastmod>2018-10-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -977,7 +949,7 @@
     
     <url>
     
-      <loc>/categories/talking/</loc>
+      <loc>/tags/talking/</loc>
       <lastmod>2018-01-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -987,7 +959,7 @@
     
     <url>
     
-      <loc>/tags/talking/</loc>
+      <loc>/categories/talking/</loc>
       <lastmod>2018-01-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1035,7 +1007,7 @@
     
     <url>
     
-      <loc>/categories/visualization/</loc>
+      <loc>/tags/visualization/</loc>
       <lastmod>2018-10-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1045,7 +1017,7 @@
     
     <url>
     
-      <loc>/tags/visualization/</loc>
+      <loc>/categories/visualization/</loc>
       <lastmod>2018-10-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
