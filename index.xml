@@ -47,6 +47,15 @@
     </item>
     
     <item>
+      <title>Introduction to Data Literacy</title>
+      <link>/project/party_explorer/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/party_explorer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Introduction to Interactive Visualization</title>
       <link>/project/introduction_to_interactive_vis/</link>
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
@@ -508,85 +517,6 @@ programming language using data types familiar to Neuroscience students, includi
 &lt;h2 id=&#34;datacamp&#34;&gt;DataCamp&lt;/h2&gt;
 
 &lt;p&gt;NEUS640 Students will have access to DataCamp for the next 6 months.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>So You&#39;ve Accidentally Checked in a Large File Into Git</title>
-      <link>/2018/01/05/so-you-ve-accidentally-checked-in-a-large-file-into-git/</link>
-      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/01/05/so-you-ve-accidentally-checked-in-a-large-file-into-git/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Note: after posting this, I heard back from Roberto Tyley, the creator of the BFG. I&amp;rsquo;d like to note that the BFG actually does its job really well. I was mostly really frustrated about how Git/GitHub doesn&amp;rsquo;t prevent a user from doing something that&amp;rsquo;s hard to undo. So my frustration is really about that, not really about the BFG. This post has been edited to reflect that.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Greg Wilson first said it, but I&amp;rsquo;ve come to agree. Git is an aggressively antisocial piece of software. Git is a piece of software that can make developers with any amount of experience feel dumb.&lt;/p&gt;
-
-&lt;p&gt;Recently, I accidentally checked a large file (greater than 100 Megs) into my local repo. When I tried to push to GitHub, of course, it refused it (I know about git large file storage, but I don&amp;rsquo;t have any).&lt;/p&gt;
-
-&lt;p&gt;So my local repo was screwed up. Of course, I did what seemed like the rational thing and deleted the file from my repo and recommitted. More than once. This is a mistake I&amp;rsquo;ve done more than once. So you need to scrub your git history with BFG so that GitHub will accept your lowly commits again.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://rtyley.github.io/bfg-repo-cleaner/&#34; target=&#34;_blank&#34;&gt;The BFG&lt;/a&gt; documentation specifies how to fix a &lt;em&gt;remote&lt;/em&gt; repo. I would say that this situation is much less common than the local situation. So I just decided to share how I got the BFG to work for the local repo situation.&lt;/p&gt;
-
-&lt;p&gt;I usually install the BFG through &lt;code&gt;homebrew&lt;/code&gt;, using &lt;code&gt;brew install bfg&lt;/code&gt;. When you install it this way, you can just run BFG with &lt;code&gt;bfg&lt;/code&gt;. You can download it from the website, but you&amp;rsquo;ll have to call &lt;code&gt;java -jar bfg[VERSION].jar&lt;/code&gt; to run it.&lt;/p&gt;
-
-&lt;p&gt;Say you&amp;rsquo;ve accidently checked in a large file into your current repo. The first thing to do is to clone your local repo:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git clone --mirror local_repo
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This will create another folder called &lt;code&gt;local_repo.git&lt;/code&gt; that you will do all the BFG magic on. This &lt;code&gt;local_rep.git&lt;/code&gt; is what is called a &lt;em&gt;bare&lt;/em&gt; repo. I want to remove any files larger than 100 Megs, so I do this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;bfg -b 100M local_repo.git
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;If this doesn&amp;rsquo;t return an error, you can move on. However, I got the dreaded error:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Warning : no large blobs matching criteria found in packfiles - 
-does the repo need to be packed?
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Augh. Ok, some googling later I found that I needed to pack my orignal repo:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd local_repo
-git repack
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Okay, we need to get rid of our cloned repo and redo the last few steps.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;rm -rf local_repo.git
-git clone --mirror local_repo
-bfg -b 100M local_repo.git
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then comes some git commands that no one has bothered to explain to me.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git reflog expire --expire=now --all &amp;amp;&amp;amp; git gc --prune=now --aggressive
-git push
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Uh oh, I get a &lt;code&gt;remote: error: refusing to update checked out branch: refs/heads/master&lt;/code&gt; error! More ugh.&lt;/p&gt;
-
-&lt;p&gt;Here&amp;rsquo;s the trick. Since you cloned a &lt;em&gt;local&lt;/em&gt; repo, you need to set the origin of your current repo (&lt;code&gt;local_repo.git&lt;/code&gt;) to the GitHub remote. First we remove the current &lt;code&gt;origin&lt;/code&gt;, and then add back our remote.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git remote rm origin
-git remote add origin https://github.com/laderast/remote_repo
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Finally, after much gnashing of the teeth, we can&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git push
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Don&amp;rsquo;t forget to remove your now &lt;em&gt;dirty&lt;/em&gt; &lt;code&gt;local_repo&lt;/code&gt;, and the mirrored copy, and then pull a fresh copy down!&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;##remove both original local repo and altered bare repo
-rm -rf local_repo
-rm -rf local_repo.git
-##clone a fresh copy from GitHub
-git clone https://github.com/laderast/remote_repo
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This may be obvious to the 10 people in the world who have read all of the git documentation, but I am not one of them. I&amp;rsquo;m stuck with git, unfortunately. I&amp;rsquo;m writing this post to remind me of what to do when I innocently do something like commit a large file to my repo.&lt;/p&gt;
 </description>
     </item>
     
