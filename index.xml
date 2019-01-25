@@ -11,6 +11,90 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Rstudio Conf 2019: Education and Organizations</title>
+      <link>/2019/01/24/rstudio-conf-2019-education-and-organizations/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/01/24/rstudio-conf-2019-education-and-organizations/</guid>
+      <description>
+
+&lt;p&gt;Well, RStudio Conf 2019 has come and gone. I attended the main conference, starting with the poster session on wednesday and stayed through the tidyverse developer day on Saturday.&lt;/p&gt;
+
+&lt;p&gt;To say that it was inspiring was an understatement. So many talented people working on such interesting and inspiring packages! It made me excited again about doing data science and teaching data science.&lt;/p&gt;
+
+&lt;p&gt;This post is going to highlight the interesting talks about education and organizational management at the conference. There were lots of thought provoking talks and great resources about education. &lt;a href=&#34;https://github.com/kbroman/RStudioConf2019Slides&#34; target=&#34;_blank&#34;&gt;Here&amp;rsquo;s a link to the other resources, posters, and talks&lt;/a&gt; (thanks, Karl Broman!). There are a lot of new neat whiz bag features in RStudio, which I won&amp;rsquo;t cover, but are covered very well by others at Karl&amp;rsquo;s link above.&lt;/p&gt;
+
+&lt;h2 id=&#34;available-teaching-resources&#34;&gt;Available Teaching Resources&lt;/h2&gt;
+
+&lt;p&gt;There was much sharing of educational resources. I&amp;rsquo;ll talk about a few.&lt;/p&gt;
+
+&lt;p&gt;Carl Howe (Director of Education for RStudio) presented a number of resources that RStudio is providing for educational purposes. &lt;a href=&#34;https://github.com/rstudio/learning-r-survey/blob/master/slides/Next-Million-R-Users.pdf&#34; target=&#34;_blank&#34;&gt;Their goal is to train the next million R users&lt;/a&gt;. Here are some of the RStudio based educational resources that might be useful for everyone.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;RStudio Cloud is now available free for people who teach courses&lt;/em&gt;, &lt;a href=&#34;https://www.rstudio.com/pricing/academic-pricing/&#34; target=&#34;_blank&#34;&gt;who can send them a course syllabus to gain access&lt;/a&gt;. RStudio Cloud includes resources to make coursework publically or privately available, allows instructors to install default packages, and gives students an immediate way to start playing with R/RStudio. We are definitely going to use this in teaching our &lt;a href=&#34;http://laderast.github.io/AnalyticsCourse&#34; target=&#34;_blank&#34;&gt;BMI &lt;sup&gt;569&lt;/sup&gt;&amp;frasl;&lt;sub&gt;669&lt;/sub&gt; Data Analytics&lt;/a&gt; course.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Mine Çetinkaya-Rundel also has a &lt;a href=&#34;http://datasciencebox.org&#34; target=&#34;_blank&#34;&gt;Data Science In a Box&lt;/a&gt; course available that can be forked and used by anyone. There is a great discussion of how to use the course and the &lt;a href=&#34;https://datasciencebox.org/hello/tech-stack/&#34; target=&#34;_blank&#34;&gt;tech stack (RStudio Cloud, GitHub, and Slack)&lt;/a&gt; needed to make the course runnable.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;There are also a number of LearnR Tutorials built into RStudio Cloud called &lt;a href=&#34;https://github.com/rstudio-education/primers&#34; target=&#34;_blank&#34;&gt;RStudio Primers&lt;/a&gt; that cover a lot of basic RStudio operations.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;2019-rstudioconf/poster_laderast.png&#34; alt=&#34;Democratizing Data Science using LearnR and Shiny&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Jessica Minnier and I &lt;a href=&#34;http://bit.ly/equal_viz&#34; target=&#34;_blank&#34;&gt;presented at the poster session&lt;/a&gt; about our LearnR tutorials, &lt;a href=&#34;http://github.com/laderast/DSIExplore&#34; target=&#34;_blank&#34;&gt;DSIExplore&lt;/a&gt; and &lt;a href=&#34;http://github.com/laderast/dataLiteracyTutorial&#34; target=&#34;_blank&#34;&gt;dataLiteracyTutorial&lt;/a&gt; and our &lt;a href=&#34;http://laderast.github.io/burro&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;burro&lt;/code&gt;&lt;/a&gt; package, which lets &lt;a href=&#34;http://tladeras.shinyapps.io/nhanes_explore&#34; target=&#34;_blank&#34;&gt;users explore a new dataset with a simplified Shiny App&lt;/a&gt;. There&amp;rsquo;s even a function that lets you build a shiny app from a dataset that you can publish to a Shiny server such as &lt;code&gt;shinyapps.io&lt;/code&gt; or RStudio Connect for sharing and having a &lt;a href=&#34;https://laderast.github.io/burro/articles/data_scavenger_hunt.html&#34; target=&#34;_blank&#34;&gt;data scavenger hunt&lt;/a&gt; together. Or as Angela Bassa calls it, an EDA Party. Whoo!&lt;/p&gt;
+
+&lt;p&gt;I really loved Irene Stevens&amp;rsquo; talk about &lt;a href=&#34;https://speakerdeck.com/isteves/teaching-data-science-with-puzzles&#34; target=&#34;_blank&#34;&gt;Teaching Data Science Using Puzzles&lt;/a&gt;. Irene and Jenny Bryan put together a simple project-based framework that lets students download simple data wrangling puzzles per week, lets them submit their answer to an answer server and get feedback, and when they solve it, it creates a minimal reproducible example (reprex) to share with their puzzle community.&lt;/p&gt;
+
+&lt;p&gt;Kelly Bodwin gave a presentation of how she used Shiny apps as an intermediate step as part of an approach to &lt;a href=&#34;https://web.calpoly.edu/~kbodwin/RStudio_2019.html#1&#34; target=&#34;_blank&#34;&gt;teaching introductory statistics&lt;/a&gt;. Kelly is of the opinion that coding is good even for non majors, and her Shiny apps provide an intermediate step between a more click-based app and coding, asking the students to input their variables, their hypothesis, and highlights the output that results. I really liked this approach. I also really loved this slide:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;2019-rstudioconf/downloads_folder.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;diversity-and-inclusiveness-make-for-better-data-science&#34;&gt;Diversity and Inclusiveness Make for Better Data Science&lt;/h2&gt;
+
+&lt;p&gt;I really enjoyed Jesse Mostipak&amp;rsquo;s talk about her data science journey starting the &lt;a href=&#34;https://www.rfordatasci.com/&#34; target=&#34;_blank&#34;&gt;R For Data Science (R4DS)&lt;/a&gt; learning community. She especially emphasized that data science was her path out of lower incomes and that she thought it needs to be more accessible to all. She talked about the barriers to going from &amp;ldquo;Using your computer for Netflix&amp;rdquo; to &amp;ldquo;Using your computer for data science&amp;rdquo; as real, and what she learned as a community manager for the R4DS learning community. Finally, she ended with a call for data scientists to share their mistakes, in order to model that making mistakes is ok.&lt;/p&gt;
+
+&lt;p&gt;Speaking of mistakes, Caitlin Hudon gave a talk called &amp;ldquo;Learning from Eight Years of Data Science Mistakes&amp;rdquo;, which was really helpful. One of her messages was that &amp;ldquo;Mistakes count as experience&amp;rdquo;, and learning from past mistakes is extremely helpful for the whole team. However, it must be safe for team members to share their mistakes, and so creating the right culture of respect and teaching is important. This includes documentation, and including pseudocode next to the actual code to talk non-data scientists through is important. Likewise, making sure that you are solving the correct business problem requires communication. I really liked her discussion of the Rhetorical Triangle as a way to frame communications: Speaker, Audience, and Context.&lt;/p&gt;
+
+&lt;p&gt;Tracy Teal from Data Carpentries also talked about their efforts to &lt;a href=&#34;https://docs.google.com/presentation/d/1yZTOcm0hO3sq8nz24luNoxL2Tk4IWfwoeYSXa09-zB8/edit#slide=id.g4d9835a148_0_218&#34; target=&#34;_blank&#34;&gt;Teaching R using inclusive pedagogy&lt;/a&gt;, including fostering a growth mindset. &lt;a href=&#34;https://carpentries.github.io/instructor-training/&#34; target=&#34;_blank&#34;&gt;Their instructor training&lt;/a&gt; is a wonderful 2-day crash course in teaching, and I&amp;rsquo;m going to propose that it be offered to our graduate students to prep them for teaching. (Full disclosure: I&amp;rsquo;ve contributed to these course materials.) I also appreciated how candid she was about how much further they need to go to increase the diversity of participants.&lt;/p&gt;
+
+&lt;p&gt;Diversity and Inclusiveness was also a theme of Angela Bassa&amp;rsquo;s talk about &lt;a href=&#34;https://github.com/angelabassa/rstudioconf-2019&#34; target=&#34;_blank&#34;&gt;Team Data Science&lt;/a&gt;. She pointed out that data science teams need to be diverse to serve audiences who are highly diverse.&lt;/p&gt;
+
+&lt;h2 id=&#34;making-teaching-resources-for-community-college-instructors&#34;&gt;Making Teaching Resources for Community College Instructors&lt;/h2&gt;
+
+&lt;p&gt;A really interesting talk for me was Mary Rudis&amp;rsquo; talk about her work &lt;a href=&#34;https://mrshrbrmstr.github.io/RStudioConf2019/pres/Marys_slides-rev/assets/player/KeynoteDHTMLPlayer.html#0&#34; target=&#34;_blank&#34;&gt;teaching data science at the community college level&lt;/a&gt;. As head of the math department at Penn State Harrisburg, Mary has done a lot of work developing the first data science certification at the community college level. There are a lot more people attending community college than 4 year colleges, and we need to make paths to data science accessible for these students.&lt;/p&gt;
+
+&lt;p&gt;A lot more work needs to be done to make data science accessible at this level. Mary has pointed out a number of efforts that need help, including &lt;a href=&#34;http://statprep.org/the-statprep-team/&#34; target=&#34;_blank&#34;&gt;StatPREP&lt;/a&gt; and the &lt;a href=&#34;https://amatyc.site-ym.com/page/AMATYCAffiliateOrg&#34; target=&#34;_blank&#34;&gt;American Mathematical Association of Two Year Colleges&lt;/a&gt;. She also ended with a call for Shiny Developers to help Community College instructors develop tools they can use to teach data science.&lt;/p&gt;
+
+&lt;h2 id=&#34;organizational-considerations-in-data-science&#34;&gt;Organizational Considerations in Data Science&lt;/h2&gt;
+
+&lt;p&gt;Organizational considerations were also a really interesting part of RStudio Conf for me. Joe Cheng&amp;rsquo;s keynote on &lt;a href=&#34;https://speakerdeck.com/jcheng5/shiny-in-production&#34; target=&#34;_blank&#34;&gt;Shiny in Production&lt;/a&gt; spent some time talking about overcoming resistance to Shiny in your organization, including talking with Data Engineers and IT Security. His point was that oftentimes, resistance comes from the feelings of territorialism and how to overcome them. Tonya Filz also gave a talk about being a Resilient R Champion at your organization, stressing these issues and giving us case studies/examples to show leaders at your organization. (These slides weren&amp;rsquo;t posted yet, I will update this post when they are.)&lt;/p&gt;
+
+&lt;p&gt;Hilary Parker&amp;rsquo;s talk about &lt;a href=&#34;https://www.slideshare.net/hilaryparker/rstudioconf2019l&#34; target=&#34;_blank&#34;&gt;Creativity and Data Science in the Organization&lt;/a&gt;, about applying system design principles to data science. Rather than thinking of ourselves as having a traditional role at the end of the analysis, Hilary suggested that we partipate in all parts of the process, including data collection. Her group suggested a change in an app, which resulted in a brand new data stream for them to analyse.&lt;/p&gt;
+
+&lt;p&gt;Angela Bassa&amp;rsquo;s Talk about &lt;a href=&#34;https://github.com/angelabassa/rstudioconf-2019&#34; target=&#34;_blank&#34;&gt;Team Data Science&lt;/a&gt; talked about the organizational aspects of making a data team, including specializing roles, making sure that knowledge and expertise was distributed, and managing burnout by making sure that no one team member is overloaded. She stressed resilience within a team by making sure that people are taking care of themselves, having redundancy in the team. Process is also important, by making sure data is well documented, by allotting time. She also stressed the importance of young and new data scientists to the team, because they aren&amp;rsquo;t biased with previous knowledge. I also thought she had excellent arguments about the cost of &lt;em&gt;not expanding&lt;/em&gt; your data team - potential users who would be lost.&lt;/p&gt;
+
+&lt;h2 id=&#34;encouraging-a-growth-mindset&#34;&gt;Encouraging a Growth Mindset&lt;/h2&gt;
+
+&lt;p&gt;I really enjoyed the final panel discussion, which was about encouraging a Growth Mindset for Data Scientists in their careers. Karthik Ram, Tracy Teal, Angela Bassa, and Hilary Parker all fielded questions about growing as a data scientist. One of my favorite remarks was from Tracy Teal, who mused about the possibility of a Leadership Carpentry, teaching potential leaders essential skills such as mentoring, faciliation skills, and valuing team contributions. Angela Bassa also had a great quote that &amp;ldquo;leadership is programming people&amp;rdquo;. She also pointed out that the role of Data Scientists is to &amp;ldquo;Question Dogma&amp;rdquo; and pointed out the importance of saying &amp;ldquo;I don&amp;rsquo;t know&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;2019-rstudioconf/public_work.png&#34; alt=&#34;Making your work public&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The growth mindset was also a theme of Dave Robinson&amp;rsquo;s Keynote, which was about making your &lt;a href=&#34;https://bit.ly/drob-rstudio-2019&#34; target=&#34;_blank&#34;&gt;data science work public at a number of levels&lt;/a&gt;. He outlined a number of different types of public contributions, such as short form (tweets, discussions about data), long form (blogs), code contributions, and even writing a book.&lt;/p&gt;
+
+&lt;h2 id=&#34;direct-explicit-instruction-in-education&#34;&gt;Direct Explicit Instruction in Education&lt;/h2&gt;
+
+&lt;p&gt;Felienne Hermans gave a wonderful keynote about teaching computer programming. Part of her point was that programming pedagogy is dominated by the &amp;ldquo;[tyranny of fun]()&amp;ldquo;, rather than focusing on teaching fundamentals. One of the problems with programming education is that we haven&amp;rsquo;t defined what these fundamentals are, compared to the pedagogy of reading, which talks about teaching with fundamentals such as phonics.&lt;/p&gt;
+
+&lt;p&gt;We expect students to explore things without teaching them enough, and that actually hurts their progress. Instead, we should also be teaching fundamentals, such as code reading out loud and rote memorization of programming patterns. By utilizing these fundamentals, she has found improved learning outcomes. As she says, motivation comes from seeing progress, not necessarily from exploration alone. Her results on using direct instruction have showed improved outcomes in terms of motivation.&lt;/p&gt;
+
+&lt;p&gt;I have to admit that this talk really opened my eyes to the blind spots we have in programming education. Looking forward to incorporating these ideas in my coursework.&lt;/p&gt;
+
+&lt;h2 id=&#34;so-many-people-to-teach-so-many-ways-to-teach&#34;&gt;So Many People to Teach, So Many Ways to Teach&lt;/h2&gt;
+
+&lt;p&gt;So that&amp;rsquo;s my summary about the education and organizational talks/posters at RStudio Conf. Hopefully it gives you an idea of what resources, opportunities, and pedagogy is out there.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Flow Dashboard Demo</title>
       <link>/project/sample_flow_dashboard/</link>
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
@@ -578,15 +662,6 @@ git clone https://github.com/laderast/remote_repo
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/publication/2018-csf1r_inhi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Immunogenomic Exploration of the Acute Myeloid Leukemia Microenvironment Identifies Determinants of T-Cell Fitness</title>
-      <link>/publication/2018-immunogeno/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2018-immunogeno/</guid>
       <description></description>
     </item>
     

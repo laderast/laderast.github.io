@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.48" />
+  <meta name="author" content="Ted Laderas">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Well, RStudio Conf 2019 has come and gone. I attended the main conference, starting with the poster session on wednesday and stayed through the tidyverse developer day on Saturday.
+To say that it was inspiring was an understatement. So many talented people working on such interesting and inspiring packages! It made me excited again about doing data science and teaching data science.
+This post is going to highlight the interesting talks about education and organizational management at the conference.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/2019/01/24/rstudio-conf-2019-education-and-organizations/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#4caf50">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-111883274-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Ted Laderas, PhD">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Ted Laderas, PhD">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/2019/01/24/rstudio-conf-2019-education-and-organizations/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@tladeras">
+  <meta property="twitter:creator" content="@tladeras">
+  
+  <meta property="og:site_name" content="Ted Laderas, PhD">
+  <meta property="og:url" content="/2019/01/24/rstudio-conf-2019-education-and-organizations/">
+  <meta property="og:title" content="Rstudio Conf 2019: Education and Organizations | Ted Laderas, PhD">
+  <meta property="og:description" content="Well, RStudio Conf 2019 has come and gone. I attended the main conference, starting with the poster session on wednesday and stayed through the tidyverse developer day on Saturday.
+To say that it was inspiring was an understatement. So many talented people working on such interesting and inspiring packages! It made me excited again about doing data science and teaching data science.
+This post is going to highlight the interesting talks about education and organizational management at the conference."><meta property="og:image" content="/img/2019-rstudioconf/poster_laderast.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-01-24T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2019-01-24T00:00:00&#43;00:00">
+  
+
+  
+
+  <title>Rstudio Conf 2019: Education and Organizations | Ted Laderas, PhD</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Ted Laderas, PhD</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Shiny</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#software">
+            
+            <span>Software</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Blog</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/cvitae/">
+            
+            <span>CV</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+<div class="article-header">
+  <img src="/img/2019-rstudioconf/poster_laderast.png" class="article-banner" itemprop="image">
+  <span class="article-header-caption">Our Poster for RstudioConf 2019</span>
+</div>
+
+
+
+  <div class="article-container">
+    <div class="article-inner">
+      <h1 itemprop="name">Rstudio Conf 2019: Education and Organizations</h1>
+
+      
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2019-01-24 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      Jan 24, 2019
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Ted Laderas">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    8 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fa fa-folder"></i>
+    
+    <a href="/categories/conference">conference</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Rstudio%20Conf%202019%3a%20Education%20and%20Organizations&amp;url=%2f2019%2f01%2f24%2frstudio-conf-2019-education-and-organizations%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2f2019%2f01%2f24%2frstudio-conf-2019-education-and-organizations%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2f2019%2f01%2f24%2frstudio-conf-2019-education-and-organizations%2f&amp;title=Rstudio%20Conf%202019%3a%20Education%20and%20Organizations"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2f2019%2f01%2f24%2frstudio-conf-2019-education-and-organizations%2f&amp;title=Rstudio%20Conf%202019%3a%20Education%20and%20Organizations"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Rstudio%20Conf%202019%3a%20Education%20and%20Organizations&amp;body=%2f2019%2f01%2f24%2frstudio-conf-2019-education-and-organizations%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+      <div class="article-style" itemprop="articleBody">
+        
+
+<p>Well, RStudio Conf 2019 has come and gone. I attended the main conference, starting with the poster session on wednesday and stayed through the tidyverse developer day on Saturday.</p>
+
+<p>To say that it was inspiring was an understatement. So many talented people working on such interesting and inspiring packages! It made me excited again about doing data science and teaching data science.</p>
+
+<p>This post is going to highlight the interesting talks about education and organizational management at the conference. There were lots of thought provoking talks and great resources about education. <a href="https://github.com/kbroman/RStudioConf2019Slides" target="_blank">Here&rsquo;s a link to the other resources, posters, and talks</a> (thanks, Karl Broman!). There are a lot of new neat whiz bag features in RStudio, which I won&rsquo;t cover, but are covered very well by others at Karl&rsquo;s link above.</p>
+
+<h2 id="available-teaching-resources">Available Teaching Resources</h2>
+
+<p>There was much sharing of educational resources. I&rsquo;ll talk about a few.</p>
+
+<p>Carl Howe (Director of Education for RStudio) presented a number of resources that RStudio is providing for educational purposes. <a href="https://github.com/rstudio/learning-r-survey/blob/master/slides/Next-Million-R-Users.pdf" target="_blank">Their goal is to train the next million R users</a>. Here are some of the RStudio based educational resources that might be useful for everyone.</p>
+
+<ol>
+<li><p><em>RStudio Cloud is now available free for people who teach courses</em>, <a href="https://www.rstudio.com/pricing/academic-pricing/" target="_blank">who can send them a course syllabus to gain access</a>. RStudio Cloud includes resources to make coursework publically or privately available, allows instructors to install default packages, and gives students an immediate way to start playing with R/RStudio. We are definitely going to use this in teaching our <a href="http://laderast.github.io/AnalyticsCourse" target="_blank">BMI <sup>569</sup>&frasl;<sub>669</sub> Data Analytics</a> course.</p></li>
+
+<li><p>Mine Çetinkaya-Rundel also has a <a href="http://datasciencebox.org" target="_blank">Data Science In a Box</a> course available that can be forked and used by anyone. There is a great discussion of how to use the course and the <a href="https://datasciencebox.org/hello/tech-stack/" target="_blank">tech stack (RStudio Cloud, GitHub, and Slack)</a> needed to make the course runnable.</p></li>
+
+<li><p>There are also a number of LearnR Tutorials built into RStudio Cloud called <a href="https://github.com/rstudio-education/primers" target="_blank">RStudio Primers</a> that cover a lot of basic RStudio operations.</p></li>
+</ol>
+
+<p><img src="2019-rstudioconf/poster_laderast.png" alt="Democratizing Data Science using LearnR and Shiny" /></p>
+
+<p>Jessica Minnier and I <a href="http://bit.ly/equal_viz" target="_blank">presented at the poster session</a> about our LearnR tutorials, <a href="http://github.com/laderast/DSIExplore" target="_blank">DSIExplore</a> and <a href="http://github.com/laderast/dataLiteracyTutorial" target="_blank">dataLiteracyTutorial</a> and our <a href="http://laderast.github.io/burro" target="_blank"><code>burro</code></a> package, which lets <a href="http://tladeras.shinyapps.io/nhanes_explore" target="_blank">users explore a new dataset with a simplified Shiny App</a>. There&rsquo;s even a function that lets you build a shiny app from a dataset that you can publish to a Shiny server such as <code>shinyapps.io</code> or RStudio Connect for sharing and having a <a href="https://laderast.github.io/burro/articles/data_scavenger_hunt.html" target="_blank">data scavenger hunt</a> together. Or as Angela Bassa calls it, an EDA Party. Whoo!</p>
+
+<p>I really loved Irene Stevens&rsquo; talk about <a href="https://speakerdeck.com/isteves/teaching-data-science-with-puzzles" target="_blank">Teaching Data Science Using Puzzles</a>. Irene and Jenny Bryan put together a simple project-based framework that lets students download simple data wrangling puzzles per week, lets them submit their answer to an answer server and get feedback, and when they solve it, it creates a minimal reproducible example (reprex) to share with their puzzle community.</p>
+
+<p>Kelly Bodwin gave a presentation of how she used Shiny apps as an intermediate step as part of an approach to <a href="https://web.calpoly.edu/~kbodwin/RStudio_2019.html#1" target="_blank">teaching introductory statistics</a>. Kelly is of the opinion that coding is good even for non majors, and her Shiny apps provide an intermediate step between a more click-based app and coding, asking the students to input their variables, their hypothesis, and highlights the output that results. I really liked this approach. I also really loved this slide:</p>
+
+<p><img src="2019-rstudioconf/downloads_folder.png" alt="" /></p>
+
+<h2 id="diversity-and-inclusiveness-make-for-better-data-science">Diversity and Inclusiveness Make for Better Data Science</h2>
+
+<p>I really enjoyed Jesse Mostipak&rsquo;s talk about her data science journey starting the <a href="https://www.rfordatasci.com/" target="_blank">R For Data Science (R4DS)</a> learning community. She especially emphasized that data science was her path out of lower incomes and that she thought it needs to be more accessible to all. She talked about the barriers to going from &ldquo;Using your computer for Netflix&rdquo; to &ldquo;Using your computer for data science&rdquo; as real, and what she learned as a community manager for the R4DS learning community. Finally, she ended with a call for data scientists to share their mistakes, in order to model that making mistakes is ok.</p>
+
+<p>Speaking of mistakes, Caitlin Hudon gave a talk called &ldquo;Learning from Eight Years of Data Science Mistakes&rdquo;, which was really helpful. One of her messages was that &ldquo;Mistakes count as experience&rdquo;, and learning from past mistakes is extremely helpful for the whole team. However, it must be safe for team members to share their mistakes, and so creating the right culture of respect and teaching is important. This includes documentation, and including pseudocode next to the actual code to talk non-data scientists through is important. Likewise, making sure that you are solving the correct business problem requires communication. I really liked her discussion of the Rhetorical Triangle as a way to frame communications: Speaker, Audience, and Context.</p>
+
+<p>Tracy Teal from Data Carpentries also talked about their efforts to <a href="https://docs.google.com/presentation/d/1yZTOcm0hO3sq8nz24luNoxL2Tk4IWfwoeYSXa09-zB8/edit#slide=id.g4d9835a148_0_218" target="_blank">Teaching R using inclusive pedagogy</a>, including fostering a growth mindset. <a href="https://carpentries.github.io/instructor-training/" target="_blank">Their instructor training</a> is a wonderful 2-day crash course in teaching, and I&rsquo;m going to propose that it be offered to our graduate students to prep them for teaching. (Full disclosure: I&rsquo;ve contributed to these course materials.) I also appreciated how candid she was about how much further they need to go to increase the diversity of participants.</p>
+
+<p>Diversity and Inclusiveness was also a theme of Angela Bassa&rsquo;s talk about <a href="https://github.com/angelabassa/rstudioconf-2019" target="_blank">Team Data Science</a>. She pointed out that data science teams need to be diverse to serve audiences who are highly diverse.</p>
+
+<h2 id="making-teaching-resources-for-community-college-instructors">Making Teaching Resources for Community College Instructors</h2>
+
+<p>A really interesting talk for me was Mary Rudis&rsquo; talk about her work <a href="https://mrshrbrmstr.github.io/RStudioConf2019/pres/Marys_slides-rev/assets/player/KeynoteDHTMLPlayer.html#0" target="_blank">teaching data science at the community college level</a>. As head of the math department at Penn State Harrisburg, Mary has done a lot of work developing the first data science certification at the community college level. There are a lot more people attending community college than 4 year colleges, and we need to make paths to data science accessible for these students.</p>
+
+<p>A lot more work needs to be done to make data science accessible at this level. Mary has pointed out a number of efforts that need help, including <a href="http://statprep.org/the-statprep-team/" target="_blank">StatPREP</a> and the <a href="https://amatyc.site-ym.com/page/AMATYCAffiliateOrg" target="_blank">American Mathematical Association of Two Year Colleges</a>. She also ended with a call for Shiny Developers to help Community College instructors develop tools they can use to teach data science.</p>
+
+<h2 id="organizational-considerations-in-data-science">Organizational Considerations in Data Science</h2>
+
+<p>Organizational considerations were also a really interesting part of RStudio Conf for me. Joe Cheng&rsquo;s keynote on <a href="https://speakerdeck.com/jcheng5/shiny-in-production" target="_blank">Shiny in Production</a> spent some time talking about overcoming resistance to Shiny in your organization, including talking with Data Engineers and IT Security. His point was that oftentimes, resistance comes from the feelings of territorialism and how to overcome them. Tonya Filz also gave a talk about being a Resilient R Champion at your organization, stressing these issues and giving us case studies/examples to show leaders at your organization. (These slides weren&rsquo;t posted yet, I will update this post when they are.)</p>
+
+<p>Hilary Parker&rsquo;s talk about <a href="https://www.slideshare.net/hilaryparker/rstudioconf2019l" target="_blank">Creativity and Data Science in the Organization</a>, about applying system design principles to data science. Rather than thinking of ourselves as having a traditional role at the end of the analysis, Hilary suggested that we partipate in all parts of the process, including data collection. Her group suggested a change in an app, which resulted in a brand new data stream for them to analyse.</p>
+
+<p>Angela Bassa&rsquo;s Talk about <a href="https://github.com/angelabassa/rstudioconf-2019" target="_blank">Team Data Science</a> talked about the organizational aspects of making a data team, including specializing roles, making sure that knowledge and expertise was distributed, and managing burnout by making sure that no one team member is overloaded. She stressed resilience within a team by making sure that people are taking care of themselves, having redundancy in the team. Process is also important, by making sure data is well documented, by allotting time. She also stressed the importance of young and new data scientists to the team, because they aren&rsquo;t biased with previous knowledge. I also thought she had excellent arguments about the cost of <em>not expanding</em> your data team - potential users who would be lost.</p>
+
+<h2 id="encouraging-a-growth-mindset">Encouraging a Growth Mindset</h2>
+
+<p>I really enjoyed the final panel discussion, which was about encouraging a Growth Mindset for Data Scientists in their careers. Karthik Ram, Tracy Teal, Angela Bassa, and Hilary Parker all fielded questions about growing as a data scientist. One of my favorite remarks was from Tracy Teal, who mused about the possibility of a Leadership Carpentry, teaching potential leaders essential skills such as mentoring, faciliation skills, and valuing team contributions. Angela Bassa also had a great quote that &ldquo;leadership is programming people&rdquo;. She also pointed out that the role of Data Scientists is to &ldquo;Question Dogma&rdquo; and pointed out the importance of saying &ldquo;I don&rsquo;t know&rdquo;.</p>
+
+<p><img src="2019-rstudioconf/public_work.png" alt="Making your work public" /></p>
+
+<p>The growth mindset was also a theme of Dave Robinson&rsquo;s Keynote, which was about making your <a href="https://bit.ly/drob-rstudio-2019" target="_blank">data science work public at a number of levels</a>. He outlined a number of different types of public contributions, such as short form (tweets, discussions about data), long form (blogs), code contributions, and even writing a book.</p>
+
+<h2 id="direct-explicit-instruction-in-education">Direct Explicit Instruction in Education</h2>
+
+<p>Felienne Hermans gave a wonderful keynote about teaching computer programming. Part of her point was that programming pedagogy is dominated by the &ldquo;[tyranny of fun]()&ldquo;, rather than focusing on teaching fundamentals. One of the problems with programming education is that we haven&rsquo;t defined what these fundamentals are, compared to the pedagogy of reading, which talks about teaching with fundamentals such as phonics.</p>
+
+<p>We expect students to explore things without teaching them enough, and that actually hurts their progress. Instead, we should also be teaching fundamentals, such as code reading out loud and rote memorization of programming patterns. By utilizing these fundamentals, she has found improved learning outcomes. As she says, motivation comes from seeing progress, not necessarily from exploration alone. Her results on using direct instruction have showed improved outcomes in terms of motivation.</p>
+
+<p>I have to admit that this talk really opened my eyes to the blind spots we have in programming education. Looking forward to incorporating these ideas in my coursework.</p>
+
+<h2 id="so-many-people-to-teach-so-many-ways-to-teach">So Many People to Teach, So Many Ways to Teach</h2>
+
+<p>So that&rsquo;s my summary about the education and organizational talks/posters at RStudio Conf. Hopefully it gives you an idea of what resources, opportunities, and pedagogy is out there.</p>
+
+      </div>
+
+      
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/rstudio">rstudio</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/education">education</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/organizations">organizations</a>
+  
+</div>
+
+
+
+    </div>
+  </div>
+
+</article>
+
+
+
+
+
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/R.min.js"></script>
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+

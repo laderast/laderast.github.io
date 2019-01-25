@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Conference</title>
+      <link>/categories/conference/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Git</title>
       <link>/categories/git/</link>
       <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>

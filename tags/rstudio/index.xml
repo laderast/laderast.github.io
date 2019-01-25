@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rstudio on Ted Laderas, PhD</title>
+    <link>/tags/rstudio/</link>
+    <description>Recent content in Rstudio on Ted Laderas, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Thu, 24 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/rstudio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rstudio Conf 2019: Education and Organizations</title>
+      <link>/2019/01/24/rstudio-conf-2019-education-and-organizations/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/01/24/rstudio-conf-2019-education-and-organizations/</guid>
+      <description>Well, RStudio Conf 2019 has come and gone. I attended the main conference, starting with the poster session on wednesday and stayed through the tidyverse developer day on Saturday.
+To say that it was inspiring was an understatement. So many talented people working on such interesting and inspiring packages! It made me excited again about doing data science and teaching data science.
+This post is going to highlight the interesting talks about education and organizational management at the conference.</description>
+    </item>
+    
+  </channel>
+</rss>
