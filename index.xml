@@ -20,7 +20,7 @@
 
 &lt;p&gt;Well, RStudio Conf 2019 has come and gone. I attended the main conference, starting with the poster session on wednesday and stayed through the tidyverse developer day on Saturday.&lt;/p&gt;
 
-&lt;p&gt;To say that it was inspiring was an understatement. So many talented people working on such interesting and inspiring packages! It made me excited again about doing data science and teaching data science.&lt;/p&gt;
+&lt;p&gt;To say that the conference was inspiring was an understatement. So many talented people working on such interesting and inspiring packages! It made me excited again about doing data science and teaching data science.&lt;/p&gt;
 
 &lt;p&gt;This post is going to highlight the interesting talks about education and organizational management at the conference. There were lots of thought provoking talks and great resources about education. &lt;a href=&#34;https://github.com/kbroman/RStudioConf2019Slides&#34; target=&#34;_blank&#34;&gt;Here&amp;rsquo;s a link to the other resources, posters, and talks&lt;/a&gt; (thanks, Karl Broman!). There are a lot of new neat whiz bag features in RStudio, which I won&amp;rsquo;t cover, but are covered very well by others at Karl&amp;rsquo;s link above.&lt;/p&gt;
 
@@ -38,15 +38,13 @@
 &lt;li&gt;&lt;p&gt;There are also a number of LearnR Tutorials built into RStudio Cloud called &lt;a href=&#34;https://github.com/rstudio-education/primers&#34; target=&#34;_blank&#34;&gt;RStudio Primers&lt;/a&gt; that cover a lot of basic RStudio operations.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&#34;2019-rstudioconf/poster_laderast.png&#34; alt=&#34;Democratizing Data Science using LearnR and Shiny&#34; /&gt;&lt;/p&gt;
-
 &lt;p&gt;Jessica Minnier and I &lt;a href=&#34;http://bit.ly/equal_viz&#34; target=&#34;_blank&#34;&gt;presented at the poster session&lt;/a&gt; about our LearnR tutorials, &lt;a href=&#34;http://github.com/laderast/DSIExplore&#34; target=&#34;_blank&#34;&gt;DSIExplore&lt;/a&gt; and &lt;a href=&#34;http://github.com/laderast/dataLiteracyTutorial&#34; target=&#34;_blank&#34;&gt;dataLiteracyTutorial&lt;/a&gt; and our &lt;a href=&#34;http://laderast.github.io/burro&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;burro&lt;/code&gt;&lt;/a&gt; package, which lets &lt;a href=&#34;http://tladeras.shinyapps.io/nhanes_explore&#34; target=&#34;_blank&#34;&gt;users explore a new dataset with a simplified Shiny App&lt;/a&gt;. There&amp;rsquo;s even a function that lets you build a shiny app from a dataset that you can publish to a Shiny server such as &lt;code&gt;shinyapps.io&lt;/code&gt; or RStudio Connect for sharing and having a &lt;a href=&#34;https://laderast.github.io/burro/articles/data_scavenger_hunt.html&#34; target=&#34;_blank&#34;&gt;data scavenger hunt&lt;/a&gt; together. Or as Angela Bassa calls it, an EDA Party. Whoo!&lt;/p&gt;
 
 &lt;p&gt;I really loved Irene Stevens&amp;rsquo; talk about &lt;a href=&#34;https://speakerdeck.com/isteves/teaching-data-science-with-puzzles&#34; target=&#34;_blank&#34;&gt;Teaching Data Science Using Puzzles&lt;/a&gt;. Irene and Jenny Bryan put together a simple project-based framework that lets students download simple data wrangling puzzles per week, lets them submit their answer to an answer server and get feedback, and when they solve it, it creates a minimal reproducible example (reprex) to share with their puzzle community.&lt;/p&gt;
 
 &lt;p&gt;Kelly Bodwin gave a presentation of how she used Shiny apps as an intermediate step as part of an approach to &lt;a href=&#34;https://web.calpoly.edu/~kbodwin/RStudio_2019.html#1&#34; target=&#34;_blank&#34;&gt;teaching introductory statistics&lt;/a&gt;. Kelly is of the opinion that coding is good even for non majors, and her Shiny apps provide an intermediate step between a more click-based app and coding, asking the students to input their variables, their hypothesis, and highlights the output that results. I really liked this approach. I also really loved this slide:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;2019-rstudioconf/downloads_folder.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/2019-rstudioconf/downloads_folder.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;diversity-and-inclusiveness-make-for-better-data-science&#34;&gt;Diversity and Inclusiveness Make for Better Data Science&lt;/h2&gt;
 
@@ -76,7 +74,7 @@
 
 &lt;p&gt;I really enjoyed the final panel discussion, which was about encouraging a Growth Mindset for Data Scientists in their careers. Karthik Ram, Tracy Teal, Angela Bassa, and Hilary Parker all fielded questions about growing as a data scientist. One of my favorite remarks was from Tracy Teal, who mused about the possibility of a Leadership Carpentry, teaching potential leaders essential skills such as mentoring, faciliation skills, and valuing team contributions. Angela Bassa also had a great quote that &amp;ldquo;leadership is programming people&amp;rdquo;. She also pointed out that the role of Data Scientists is to &amp;ldquo;Question Dogma&amp;rdquo; and pointed out the importance of saying &amp;ldquo;I don&amp;rsquo;t know&amp;rdquo;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;2019-rstudioconf/public_work.png&#34; alt=&#34;Making your work public&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/2019-rstudioconf/public_work.png&#34; alt=&#34;Making your work public&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The growth mindset was also a theme of Dave Robinson&amp;rsquo;s Keynote, which was about making your &lt;a href=&#34;https://bit.ly/drob-rstudio-2019&#34; target=&#34;_blank&#34;&gt;data science work public at a number of levels&lt;/a&gt;. He outlined a number of different types of public contributions, such as short form (tweets, discussions about data), long form (blogs), code contributions, and even writing a book.&lt;/p&gt;
 
