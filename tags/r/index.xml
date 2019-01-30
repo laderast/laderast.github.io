@@ -31,5 +31,41 @@ Intended AudienceWe designed the workshop for our incoming informatics students
       <description>I just gave a workshop teaching the basics of Shiny (the interactive web visualization framework) for a group of PDX R users. We had 10 people attend, and most of the attendees managed to get through the material and had lots of good questions. I really enjoyed talking with everyone and I hope everyone learned something. We&amp;rsquo;re planning to give the workshop again to the larger PDX R user community, and some of the attendees last night have volunteered to be TAs.</description>
     </item>
     
+    <item>
+      <title>Clinical Data Wrangling Workshop</title>
+      <link>/teaching/clinical_wrangling/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/clinical_wrangling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Analytics</title>
+      <link>/teaching/data_analytics/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/data_analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to igraph</title>
+      <link>/teaching/igraph_tutorial/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/igraph_tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Bootcamp</title>
+      <link>/teaching/r-bootcamp/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/r-bootcamp/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

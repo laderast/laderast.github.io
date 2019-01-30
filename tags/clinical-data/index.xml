@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clinical-data on Ted Laderas, PhD</title>
+    <link>/tags/clinical-data/</link>
+    <description>Recent content in Clinical-data on Ted Laderas, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Fri, 25 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/clinical-data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data Scavenger Hunt: NHANES</title>
+      <link>/teaching/data_nhanes/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/data_nhanes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cardiovascular Risk Workshop</title>
+      <link>/teaching/cvd_risk/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/cvd_risk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Analytics</title>
+      <link>/teaching/data_analytics/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/data_analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Health Informatics</title>
+      <link>/teaching/health_informatics/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/health_informatics/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

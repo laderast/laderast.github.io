@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teachings on Ted Laderas, PhD</title>
+    <link>/teaching/</link>
+    <description>Recent content in Teachings on Ted Laderas, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Fri, 25 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/teaching/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data Scavenger Hunt: NHANES</title>
+      <link>/teaching/data_nhanes/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/data_nhanes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A gRadual intRoduction to Shiny</title>
+      <link>/teaching/gradual_shiny/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/gradual_shiny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A gRadual intRoduction to the tidyverse</title>
+      <link>/teaching/gradual_tidyverse/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/gradual_tidyverse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cardiovascular Risk Workshop</title>
+      <link>/teaching/cvd_risk/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/cvd_risk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clinical Data Wrangling Workshop</title>
+      <link>/teaching/clinical_wrangling/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/clinical_wrangling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Analytics</title>
+      <link>/teaching/data_analytics/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/data_analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exacloud Tutorial</title>
+      <link>/teaching/exacloud_tutorial/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/exacloud_tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Health Informatics</title>
+      <link>/teaching/health_informatics/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/health_informatics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to Categorical Data Analysis</title>
+      <link>/teaching/categorical_data/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/categorical_data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to Github Pages</title>
+      <link>/teaching/github_pages/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/github_pages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to igraph</title>
+      <link>/teaching/igraph_tutorial/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/igraph_tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python Bootcamp for Neuroscientists</title>
+      <link>/teaching/python_neuro/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/python_neuro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Bootcamp</title>
+      <link>/teaching/r-bootcamp/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/r-bootcamp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Magic of Markdown</title>
+      <link>/teaching/magic_of_markdown/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/magic_of_markdown/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

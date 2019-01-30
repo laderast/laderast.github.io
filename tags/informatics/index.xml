@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Informatics on Ted Laderas, PhD</title>
+    <link>/tags/informatics/</link>
+    <description>Recent content in Informatics on Ted Laderas, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/informatics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Health Informatics</title>
+      <link>/teaching/health_informatics/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/health_informatics/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

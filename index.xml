@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Data Scavenger Hunt: NHANES</title>
+      <link>/teaching/data_nhanes/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/data_nhanes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Rstudio Conf 2019: Education and Organizations</title>
       <link>/2019/01/24/rstudio-conf-2019-education-and-organizations/</link>
       <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
@@ -652,15 +661,6 @@ git clone https://github.com/laderast/remote_repo
 
 &lt;p&gt;This may be obvious to the 10 people in the world who have read all of the git documentation, but I am not one of them. I&amp;rsquo;m stuck with git, unfortunately. I&amp;rsquo;m writing this post to remind me of what to do when I innocently do something like commit a large file to my repo.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>CSF1R inhibitors exhibit anti-tumor activity in acute myeloid leukemia by blocking paracrine signals from support cells</title>
-      <link>/publication/2018-csf1r_inhi/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2018-csf1r_inhi/</guid>
-      <description></description>
     </item>
     
   </channel>

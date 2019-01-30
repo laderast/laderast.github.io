@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Analytics</title>
+      <link>/tags/analytics/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Arts music plasticity cross-discipline</title>
       <link>/tags/arts-music-plasticity-cross-discipline/</link>
       <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
@@ -40,6 +49,15 @@
     </item>
     
     <item>
+      <title>Biodata-club</title>
+      <link>/tags/biodata-club/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/biodata-club/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Bioinformatics</title>
       <link>/tags/bioinformatics/</link>
       <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
@@ -54,6 +72,33 @@
       <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>
       
       <guid>/tags/cancer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clinical data</title>
+      <link>/tags/clinical-data/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/clinical-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clinical-data</title>
+      <link>/tags/clinical-data/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/clinical-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cluster-computing</title>
+      <link>/tags/cluster-computing/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cluster-computing/</guid>
       <description></description>
     </item>
     
@@ -139,6 +184,24 @@
     </item>
     
     <item>
+      <title>Github pages</title>
+      <link>/tags/github-pages/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/github-pages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Informatics</title>
+      <link>/tags/informatics/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/informatics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Informational interview</title>
       <link>/tags/informational-interview/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
@@ -162,6 +225,69 @@
       <pubDate>Sun, 24 May 2015 00:00:00 +0000</pubDate>
       
       <guid>/tags/journal-retraction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jupyter</title>
+      <link>/tags/jupyter/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/jupyter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine-learning</title>
+      <link>/tags/machine-learning/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>/tags/markdown/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>/tags/network/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neuroscience</title>
+      <link>/tags/neuroscience/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/neuroscience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nhanes</title>
+      <link>/tags/nhanes/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/nhanes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NlmT15</title>
+      <link>/tags/nlmt15/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/nlmt15/</guid>
       <description></description>
     </item>
     
@@ -216,6 +342,15 @@
       <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     
@@ -285,7 +420,7 @@
     <item>
       <title>Shiny</title>
       <link>/tags/shiny/</link>
-      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/shiny/</guid>
       <description></description>
@@ -333,6 +468,15 @@
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/teaching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tidyverse</title>
+      <link>/tags/tidyverse/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tidyverse/</guid>
       <description></description>
     </item>
     
