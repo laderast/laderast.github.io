@@ -11,6 +11,187 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Package Building: How `DESCRIPTION`, `NAMESPACE`, `roxygen`, and `devtools::document` work together</title>
+      <link>/2019/02/12/package-building-description-namespace/</link>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/02/12/package-building-description-namespace/</guid>
+      <description>
+
+&lt;p&gt;As part of my new year&amp;rsquo;s resolution to learn new things about R, I&amp;rsquo;m trying to plug some holes in my R knowledge by writing more vignettes to explain them to myself this year.&lt;/p&gt;
+
+&lt;p&gt;This week I finally think I understand more about namespaces in R and why you should use them in your R package.&lt;/p&gt;
+
+&lt;h2 id=&#34;namespaces-why-bother&#34;&gt;Namespaces: Why Bother?&lt;/h2&gt;
+
+&lt;p&gt;In short, we need namespaces because of the &lt;em&gt;ambiguity&lt;/em&gt; of function names. Think of how many packages have a &lt;code&gt;filter()&lt;/code&gt; function! How does R know which function from which package you’re talking about? One nightmare case is the Bioconductor &lt;code&gt;exprs()&lt;/code&gt; method and the &lt;code&gt;rlang&lt;/code&gt; &lt;code&gt;exprs()&lt;/code&gt; function. These functions do very, very different things (one of them extracts an expression matrix from a Bioconductor &lt;code&gt;ExpressionSet&lt;/code&gt;, and the other one is used for quoting multiple expressions).&lt;/p&gt;
+
+&lt;p&gt;What happens when you call &lt;code&gt;library&lt;/code&gt; on both of these packages? The worst case scenario is that you mean to call one package function and R executes the other one. This is called a namespace collision, and unfortunately it can break your code.&lt;/p&gt;
+
+&lt;p&gt;Enter the namespace, which allows us to be package and function specific. If I want to use the function &lt;code&gt;filter&lt;/code&gt; from &lt;code&gt;dplyr&lt;/code&gt;, I write it as &lt;code&gt;dplyr::filter&lt;/code&gt;. The &lt;code&gt;dplyr::&lt;/code&gt; part is the namespace of the &lt;code&gt;dplyr&lt;/code&gt; package.&lt;/p&gt;
+
+&lt;h2 id=&#34;description-the-gatekeeper-for-calling-packages&#34;&gt;&lt;code&gt;DESCRIPTION&lt;/code&gt;: The gatekeeper for calling packages&lt;/h2&gt;
+
+&lt;p&gt;The &lt;code&gt;DESCRIPTION&lt;/code&gt; file is one of the gatekeepers in your package. Ever wonder how &lt;code&gt;install.package&lt;/code&gt; knows how to install the packages your package depends on? It’s actually because of a field in the &lt;code&gt;DESCRIPTION&lt;/code&gt; file. Here&amp;rsquo;s the &lt;code&gt;DESCRIPTION&lt;/code&gt; file for my &lt;code&gt;burro&lt;/code&gt; package:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Package: burro
+Type: Package
+Title: Shiny App Package for setting up a data exploration session (&amp;quot;burro&amp;quot;w into the data)
+Version: 0.1.0
+Authors@R: as.person(c(
+    &amp;quot;Ted Laderas &amp;lt;tedladeras@gmail.com&amp;gt; [aut, cre]&amp;quot;,
+    &amp;quot;Jessica Minnier &amp;lt;minnier@ohsu.edu&amp;gt; [ctb]&amp;quot;,
+    &amp;quot;Gabrielle Choonoo &amp;lt;choonoo@ohsu.edu&amp;gt; [ctb]&amp;quot;
+  ))
+Maintainer: Ted Laderas &amp;lt;ted.laderas@gmail.com&amp;gt;
+Description: Allows the teacher to deploy a simple data exploration app for exploring a dataset (mostly for teaching purposes).
+License: MIT LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    shinydashboard,
+    ggplot2,
+    visdat,
+    skimr,
+    naniar,
+    data.table,
+    magrittr,
+    glue,
+    usethis,
+    here,
+    viridis,
+    DT
+Depends:
+    shiny
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.0
+Suggests:
+    testthat
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Look at the &lt;code&gt;Imports:&lt;/code&gt; field. You can see a list of all of the packages that &lt;code&gt;burro&lt;/code&gt; utilizes. In ye olde days of R, we used the &lt;code&gt;Depends:&lt;/code&gt; field. Nowadays we use the &lt;code&gt;Imports:&lt;/code&gt; fields. &lt;a href=&#34;https://stackoverflow.com/questions/8637993/better-explanation-of-when-to-use-imports-depends&#34; target=&#34;_blank&#34;&gt;Here&amp;rsquo;s a Stack Overflow post explaining why&lt;/a&gt;. The main reason is that &lt;code&gt;Imports:&lt;/code&gt; requires the package to have a namespace.&lt;/p&gt;
+
+&lt;p&gt;Modifying the &lt;code&gt;DESCRIPTION&lt;/code&gt; file by hand is possible, but I don’t recommend it. Instead, you can use the &lt;code&gt;usethis&lt;/code&gt; package to modify it. For example, if I want to use &lt;code&gt;dplyr&lt;/code&gt; in my package I can do this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;usethis::use_package(&amp;quot;dplyr&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will add &lt;code&gt;dplyr&lt;/code&gt; to the &lt;code&gt;Imports:&lt;/code&gt; field of your &lt;code&gt;DESCRIPTION&lt;/code&gt; file.&lt;/p&gt;
+
+&lt;h2 id=&#34;using-namespaces-to-call-functions-from-other-packages&#34;&gt;Using namespaces to call functions from other packages&lt;/h2&gt;
+
+&lt;p&gt;Now that we have specified the package in our DESCRIPTION file, we can now call any function in &lt;code&gt;dplyr&lt;/code&gt; by adding a &lt;code&gt;dplyr::&lt;/code&gt; before the function. So if we wanted to call &lt;code&gt;mutate()&lt;/code&gt; in our package function we can do this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mutate_iris &amp;lt;- function(iris){
+    dplyr::mutate(iris, sepal_sum = Sepal.Length + Sepal.Width)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In many cases, calling a function by specifying its namespace is good practice. For one, there are many functions called &lt;code&gt;filter()&lt;/code&gt;: I can think of at least the ones that are in &lt;code&gt;base&lt;/code&gt; and &lt;code&gt;dplyr&lt;/code&gt;. Using the namespace makes it &lt;em&gt;unambiguous&lt;/em&gt; to both R and other developers which &lt;code&gt;filter()&lt;/code&gt; function you&amp;rsquo;re talking about.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-do-i-call-functions-from-other-packages-using-roxygen-docstrings&#34;&gt;How do I call functions from other packages? Using &lt;code&gt;roxygen&lt;/code&gt; docstrings&lt;/h2&gt;
+
+&lt;p&gt;Ugh, I&amp;rsquo;ve already written a bunch of code and I don&amp;rsquo;t want to add the namespaces before all of the functions from other packages! How can I avoid this?&lt;/p&gt;
+
+&lt;p&gt;This is where &lt;code&gt;roxygen&lt;/code&gt; and &lt;code&gt;devtools::document()&lt;/code&gt; come in.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;roxygen&lt;/code&gt; docstrings are responsible for at least three things in your package: 1) producing the documentation (&lt;code&gt;.Rd&lt;/code&gt;) files, but also: 2) specifying what package namespaces you want to utilize, or import in your function, and 3) whether you want to export that function (i.e., make it accessible publicly).&lt;/p&gt;
+
+&lt;p&gt;How do they accomplish 2)? When you call &lt;code&gt;devtools::document()&lt;/code&gt; to build the documentation, they scan for multiple fields, such as &lt;code&gt;@import&lt;/code&gt; and &lt;code&gt;@importFrom&lt;/code&gt; in the &lt;code&gt;roxygen&lt;/code&gt; doc strings. Then &lt;code&gt;devtools::document()&lt;/code&gt; actually modifies the &lt;code&gt;NAMESPACE&lt;/code&gt; file in your package.&lt;/p&gt;
+
+&lt;h2 id=&#34;using-importfrom-when-you-only-need-one-function&#34;&gt;Using &lt;code&gt;@importFrom&lt;/code&gt;: When you only need one function&lt;/h2&gt;
+
+&lt;p&gt;Say you just wanted to use &lt;code&gt;filter&lt;/code&gt; from &lt;code&gt;dplyr&lt;/code&gt;, but didn&amp;rsquo;t want to write &lt;code&gt;dplyr::filter&lt;/code&gt; before all of your functions. You can just import the &lt;code&gt;filter()&lt;/code&gt; function by including the following docstring:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#&#39; @importFrom dplyr filter
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And then you can just use &lt;code&gt;filter()&lt;/code&gt; like normal in your code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#&#39; @importFrom dplyr filter
+use_filter &amp;lt;- function(df, cutoff=0.5) {
+
+  filter(df, value &amp;lt; cutoff)
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;using-import-when-you-need-a-lot-of-functions-from-a-package&#34;&gt;Using &lt;code&gt;@import&lt;/code&gt;: When you need a lot of functions from a package&lt;/h2&gt;
+
+&lt;p&gt;What if you had a lot of functions from one package, such as &lt;code&gt;shiny&lt;/code&gt;, that you want to use? Do you need to add an &lt;code&gt;@importFrom&lt;/code&gt; for each of these functions? Nope. You can just use one &lt;code&gt;@import&lt;/code&gt; field for the whole package:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#` @import shiny
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And then code like usual:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#` @import shiny
+shinyUI &amp;lt;- function() {
+    selectInput(&amp;quot;&amp;quot;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;be-careful-about-importing-multiple-packages&#34;&gt;Be careful about importing multiple packages&lt;/h2&gt;
+
+&lt;p&gt;Just a note to be careful about importing multiple package namespaces. Make sure there aren’t any possible collisions in function names between the packages. If that’s the case, import one package and use @iimportsFrom or namespaces to refer to functions in the other one.&lt;/p&gt;
+
+&lt;h2 id=&#34;remember-to-run-devtools-document&#34;&gt;Remember to run &lt;code&gt;devtools::document()&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;Once you&amp;rsquo;ve written code and want to test it in your package, remember to run &lt;code&gt;devtools::document()&lt;/code&gt; before you reinstall your package. Otherwise, the &lt;code&gt;NAMESPACE&lt;/code&gt; file won&amp;rsquo;t be modified, and your code won&amp;rsquo;t work.&lt;/p&gt;
+
+&lt;h2 id=&#34;exported-versus-internal-functions&#34;&gt;Exported versus Internal functions&lt;/h2&gt;
+
+&lt;p&gt;Remember I mentioned ‘@export’ above? Specifying in a docstring for your function &lt;em&gt;exports&lt;/em&gt; it. Specifying it means that ‘devtools::document()’ will add an &lt;code&gt;Export&lt;/code&gt; directive for the function in the NAMESPACE file. That means you can access it using ‘::’. Going back to our &lt;code&gt;use_filter&lt;/code&gt; example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#&#39; @export
+#&#39; @importFrom dplyr filter
+use_filter &amp;lt;- function(df, cutoff=0.5) {
+
+  filter(df, value &amp;lt; cutoff)
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If our package name is &lt;code&gt;mypackage&lt;/code&gt;, then this function will be accessible if we use &lt;code&gt;library(mypackage)&lt;/code&gt; or &lt;code&gt;mypackage::use_filter()&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Why is this important? You may write some &lt;em&gt;internal&lt;/em&gt; functions that are useful in your package, but they aren’t necessarily ones you want your users to use in their daily use. &lt;code&gt;@export&lt;/code&gt; allows you to control which functions you make publicly accessible in your package.&lt;/p&gt;
+
+&lt;p&gt;For example, try typing &lt;code&gt;dplyr::&lt;/code&gt; in RStudio and hit the tab key. You’ll see the usual &lt;code&gt;dplyr&lt;/code&gt; verbs pop up. But these are only the exported functions. Now try &lt;code&gt;dplyr:::&lt;/code&gt; and hit the tab key. You’ll see a list of functions that pop up that’s much longer - these are all the functions, including the internal functions.&lt;/p&gt;
+
+&lt;p&gt;So, if there’s a cool bit of internal code you want to use in a package, you can use ‘:::’ to specify it. Just be aware that oftentimes, internal functions may change a lot as code gets refactored, so code that utilizes them may be refactored.&lt;/p&gt;
+
+&lt;h2 id=&#34;go-forth-and-package&#34;&gt;Go forth and Package!&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/imports-workflow.png&#34; alt=&#34;Using a function from another package&#34; width = 500&gt;&lt;/p&gt;
+
+&lt;p&gt;TL;DR:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Use &lt;code&gt;usethis::use_package()&lt;/code&gt; to edit your DESCRIPTION file.&lt;/li&gt;
+&lt;li&gt;Use namespaces (such as &lt;code&gt;mypackage::usefilter()&lt;/code&gt;) to refer to external functions where possible to avoid collisions in function names when you are writing code.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;@imports&lt;/code&gt; and &lt;code&gt;@importsFrom&lt;/code&gt; judiciously in your &lt;code&gt;roxygen&lt;/code&gt; documentation if you need to use many functions in a package. Remember to run &lt;code&gt;devtools::document()&lt;/code&gt; after you modify/add these fields to the roxygen documentation. Be careful about using more than one @imports statement in a function.&lt;/li&gt;
+&lt;li&gt;Expose functions you want to be made public using &lt;code&gt;@export&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I hope this helps you to understand exactly the relationships between all of the components that are responsible for accessing namespaces in your package. I was confused about this for years, so writing this has helped me understand these relationships.&lt;/p&gt;
+
+&lt;h2 id=&#34;further-reading&#34;&gt;Further Reading&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If you want to know how R searches for a function across its environments and why namespaces are a good thing, this is an excellent writeup: &lt;a href=&#34;http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/&#34; target=&#34;_blank&#34;&gt;http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;More about the &lt;code&gt;DESCRIPTION&lt;/code&gt; file: &lt;a href=&#34;http://r-pkgs.had.co.nz/description.html&#34; target=&#34;_blank&#34;&gt;http://r-pkgs.had.co.nz/description.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;More about namespaces: &lt;a href=&#34;http://r-pkgs.had.co.nz/namespace.html&#34; target=&#34;_blank&#34;&gt;http://r-pkgs.had.co.nz/namespace.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;More about roxygen: &lt;a href=&#34;http://r-pkgs.had.co.nz/man.html#roxygen-comments&#34; target=&#34;_blank&#34;&gt;http://r-pkgs.had.co.nz/man.html#roxygen-comments&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+
+&lt;p&gt;I want this to be clear and correct. Please &lt;a href=&#34;mailto:laderast@ohsu.edu&#34; target=&#34;_blank&#34;&gt;email me&lt;/a&gt; if there are any mistakes I&amp;rsquo;ve made.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Data Scavenger Hunt: NHANES</title>
       <link>/teaching/data_nhanes/</link>
       <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
@@ -613,85 +794,6 @@ programming language using data types familiar to Neuroscience students, includi
 &lt;h2 id=&#34;datacamp&#34;&gt;DataCamp&lt;/h2&gt;
 
 &lt;p&gt;NEUS640 Students will have access to DataCamp for the next 6 months.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>So You&#39;ve Accidentally Checked in a Large File Into Git</title>
-      <link>/2018/01/05/so-you-ve-accidentally-checked-in-a-large-file-into-git/</link>
-      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/01/05/so-you-ve-accidentally-checked-in-a-large-file-into-git/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Note: after posting this, I heard back from Roberto Tyley, the creator of the BFG. I&amp;rsquo;d like to note that the BFG actually does its job really well. I was mostly really frustrated about how Git/GitHub doesn&amp;rsquo;t prevent a user from doing something that&amp;rsquo;s hard to undo. So my frustration is really about that, not really about the BFG. This post has been edited to reflect that.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Greg Wilson first said it, but I&amp;rsquo;ve come to agree. Git is an aggressively antisocial piece of software. Git is a piece of software that can make developers with any amount of experience feel dumb.&lt;/p&gt;
-
-&lt;p&gt;Recently, I accidentally checked a large file (greater than 100 Megs) into my local repo. When I tried to push to GitHub, of course, it refused it (I know about git large file storage, but I don&amp;rsquo;t have any).&lt;/p&gt;
-
-&lt;p&gt;So my local repo was screwed up. Of course, I did what seemed like the rational thing and deleted the file from my repo and recommitted. More than once. This is a mistake I&amp;rsquo;ve done more than once. So you need to scrub your git history with BFG so that GitHub will accept your lowly commits again.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://rtyley.github.io/bfg-repo-cleaner/&#34; target=&#34;_blank&#34;&gt;The BFG&lt;/a&gt; documentation specifies how to fix a &lt;em&gt;remote&lt;/em&gt; repo. I would say that this situation is much less common than the local situation. So I just decided to share how I got the BFG to work for the local repo situation.&lt;/p&gt;
-
-&lt;p&gt;I usually install the BFG through &lt;code&gt;homebrew&lt;/code&gt;, using &lt;code&gt;brew install bfg&lt;/code&gt;. When you install it this way, you can just run BFG with &lt;code&gt;bfg&lt;/code&gt;. You can download it from the website, but you&amp;rsquo;ll have to call &lt;code&gt;java -jar bfg[VERSION].jar&lt;/code&gt; to run it.&lt;/p&gt;
-
-&lt;p&gt;Say you&amp;rsquo;ve accidently checked in a large file into your current repo. The first thing to do is to clone your local repo:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git clone --mirror local_repo
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This will create another folder called &lt;code&gt;local_repo.git&lt;/code&gt; that you will do all the BFG magic on. This &lt;code&gt;local_rep.git&lt;/code&gt; is what is called a &lt;em&gt;bare&lt;/em&gt; repo. I want to remove any files larger than 100 Megs, so I do this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;bfg -b 100M local_repo.git
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;If this doesn&amp;rsquo;t return an error, you can move on. However, I got the dreaded error:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Warning : no large blobs matching criteria found in packfiles - 
-does the repo need to be packed?
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Augh. Ok, some googling later I found that I needed to pack my orignal repo:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd local_repo
-git repack
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Okay, we need to get rid of our cloned repo and redo the last few steps.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;rm -rf local_repo.git
-git clone --mirror local_repo
-bfg -b 100M local_repo.git
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then comes some git commands that no one has bothered to explain to me.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git reflog expire --expire=now --all &amp;amp;&amp;amp; git gc --prune=now --aggressive
-git push
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Uh oh, I get a &lt;code&gt;remote: error: refusing to update checked out branch: refs/heads/master&lt;/code&gt; error! More ugh.&lt;/p&gt;
-
-&lt;p&gt;Here&amp;rsquo;s the trick. Since you cloned a &lt;em&gt;local&lt;/em&gt; repo, you need to set the origin of your current repo (&lt;code&gt;local_repo.git&lt;/code&gt;) to the GitHub remote. First we remove the current &lt;code&gt;origin&lt;/code&gt;, and then add back our remote.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git remote rm origin
-git remote add origin https://github.com/laderast/remote_repo
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Finally, after much gnashing of the teeth, we can&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git push
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Don&amp;rsquo;t forget to remove your now &lt;em&gt;dirty&lt;/em&gt; &lt;code&gt;local_repo&lt;/code&gt;, and the mirrored copy, and then pull a fresh copy down!&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;##remove both original local repo and altered bare repo
-rm -rf local_repo
-rm -rf local_repo.git
-##clone a fresh copy from GitHub
-git clone https://github.com/laderast/remote_repo
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This may be obvious to the 10 people in the world who have read all of the git documentation, but I am not one of them. I&amp;rsquo;m stuck with git, unfortunately. I&amp;rsquo;m writing this post to remind me of what to do when I innocently do something like commit a large file to my repo.&lt;/p&gt;
 </description>
     </item>
     

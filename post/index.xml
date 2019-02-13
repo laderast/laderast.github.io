@@ -13,6 +13,17 @@
     
     
     <item>
+      <title>Package Building: How `DESCRIPTION`, `NAMESPACE`, `roxygen`, and `devtools::document` work together</title>
+      <link>/2019/02/12/package-building-description-namespace/</link>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/02/12/package-building-description-namespace/</guid>
+      <description>As part of my new year&amp;rsquo;s resolution to learn new things about R, I&amp;rsquo;m trying to plug some holes in my R knowledge by writing more vignettes to explain them to myself this year.
+This week I finally think I understand more about namespaces in R and why you should use them in your R package.
+Namespaces: Why Bother? In short, we need namespaces because of the ambiguity of function names.</description>
+    </item>
+    
+    <item>
       <title>Rstudio Conf 2019: Education and Organizations</title>
       <link>/2019/01/24/rstudio-conf-2019-education-and-organizations/</link>
       <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>

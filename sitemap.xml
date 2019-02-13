@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/2019/02/12/package-building-description-namespace/</loc>
+      <lastmod>2019-02-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/teaching/data_nhanes/</loc>
       <lastmod>2019-01-25T00:00:00+00:00</lastmod>
     </url>
@@ -874,6 +883,26 @@
     
     <url>
     
+      <loc>/tags/development/</loc>
+      <lastmod>2019-02-12T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/devtools/</loc>
+      <lastmod>2019-02-12T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/eda/</loc>
       <lastmod>2019-01-22T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -1084,6 +1113,16 @@
     
     <url>
     
+      <loc>/tags/package/</loc>
+      <lastmod>2019-02-12T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/peer-mentoring-community-university/</loc>
       <lastmod>2017-04-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -1135,7 +1174,7 @@
     <url>
     
       <loc>/categories/r/</loc>
-      <lastmod>2018-10-15T00:00:00+00:00</lastmod>
+      <lastmod>2019-02-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1145,7 +1184,7 @@
     <url>
     
       <loc>/tags/r/</loc>
-      <lastmod>2018-10-15T00:00:00+00:00</lastmod>
+      <lastmod>2019-02-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1155,7 +1194,7 @@
     <url>
     
       <loc>/tags/r/</loc>
-      <lastmod>2018-10-15T00:00:00+00:00</lastmod>
+      <lastmod>2019-02-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

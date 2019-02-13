@@ -148,6 +148,24 @@
     </item>
     
     <item>
+      <title>Development</title>
+      <link>/tags/development/</link>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Devtools</title>
+      <link>/tags/devtools/</link>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/devtools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>EDA</title>
       <link>/tags/eda/</link>
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
@@ -319,6 +337,15 @@
     </item>
     
     <item>
+      <title>Package</title>
+      <link>/tags/package/</link>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/package/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Peer-mentoring community university</title>
       <link>/tags/peer-mentoring-community-university/</link>
       <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
@@ -348,7 +375,7 @@
     <item>
       <title>R</title>
       <link>/tags/r/</link>
-      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/r/</guid>
       <description></description>
@@ -357,7 +384,7 @@
     <item>
       <title>R</title>
       <link>/tags/r/</link>
-      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/r/</guid>
       <description></description>

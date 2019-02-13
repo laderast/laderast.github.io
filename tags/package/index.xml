@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Package on Ted Laderas, PhD</title>
+    <link>/tags/package/</link>
+    <description>Recent content in Package on Ted Laderas, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 12 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/package/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Package Building: How `DESCRIPTION`, `NAMESPACE`, `roxygen`, and `devtools::document` work together</title>
+      <link>/2019/02/12/package-building-description-namespace/</link>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/02/12/package-building-description-namespace/</guid>
+      <description>As part of my new year&amp;rsquo;s resolution to learn new things about R, I&amp;rsquo;m trying to plug some holes in my R knowledge by writing more vignettes to explain them to myself this year.
+This week I finally think I understand more about namespaces in R and why you should use them in your R package.
+Namespaces: Why Bother? In short, we need namespaces because of the ambiguity of function names.</description>
+    </item>
+    
+  </channel>
+</rss>
