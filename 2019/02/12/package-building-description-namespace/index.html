@@ -455,6 +455,13 @@ Suggests:
 
 <p>This will add <code>dplyr</code> to the <code>Imports:</code> field of your <code>DESCRIPTION</code> file.</p>
 
+<p><strong>Addition (Thanks Hao Ye, for the suggestion)</strong>: If the function is in a development version (i.e., hosted on GitHub), you can use <code>usethis::use_dev_package()</code> to add it to your <code>DESCRIPTION</code> file. It will add an additional field called <code>Remotes:</code> to your package:</p>
+
+<pre><code class="language-r">usethis::use_dev_package(&quot;tidyverse/dplyr&quot;)
+</code></pre>
+
+<p>For more info about using remotes, check out the vignette: <a href="https://remotes.r-lib.org/articles/dependencies.html" target="_blank">https://remotes.r-lib.org/articles/dependencies.html</a></p>
+
 <h2 id="using-namespaces-to-call-functions-from-other-packages">Using namespaces to call functions from other packages</h2>
 
 <p>Now that we have specified the package in our DESCRIPTION file, we can now call any function in <code>dplyr</code> by adding a <code>dplyr::</code> before the function. So if we wanted to call <code>mutate()</code> in our package function we can do this:</p>
@@ -556,6 +563,7 @@ use_filter &lt;- function(df, cutoff=0.5) {
 
 <ul>
 <li>If you want to know how R searches for a function across its environments and why namespaces are a good thing, this is an excellent writeup: <a href="http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/" target="_blank">http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/</a></li>
+<li>More about the <code>usethis</code> workflow: <a href="https://www.hvitfeldt.me/blog/usethis-workflow-for-package-development/" target="_blank">https://www.hvitfeldt.me/blog/usethis-workflow-for-package-development/</a></li>
 <li>More about the <code>DESCRIPTION</code> file: <a href="http://r-pkgs.had.co.nz/description.html" target="_blank">http://r-pkgs.had.co.nz/description.html</a></li>
 <li>More about namespaces: <a href="http://r-pkgs.had.co.nz/namespace.html" target="_blank">http://r-pkgs.had.co.nz/namespace.html</a></li>
 <li>More about roxygen: <a href="http://r-pkgs.had.co.nz/man.html#roxygen-comments" target="_blank">http://r-pkgs.had.co.nz/man.html#roxygen-comments</a></li>
@@ -600,11 +608,11 @@ use_filter &lt;- function(df, cutoff=0.5) {
     
     <li><a href="/2018/01/24/gradual-introduction-to-shiny/">A gRadual Introduction to Shiny</a></li>
     
-    <li><a href="/teaching/r-bootcamp/">R Bootcamp</a></li>
-    
     <li><a href="/teaching/data_analytics/">Data Analytics</a></li>
     
-    <li><a href="/teaching/clinical_wrangling/">Clinical Data Wrangling Workshop</a></li>
+    <li><a href="/teaching/r-bootcamp/">R Bootcamp</a></li>
+    
+    <li><a href="/teaching/igraph_tutorial/">Introduction to igraph</a></li>
     
   </ul>
 </div>

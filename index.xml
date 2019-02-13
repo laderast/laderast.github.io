@@ -79,6 +79,13 @@ Suggests:
 
 &lt;p&gt;This will add &lt;code&gt;dplyr&lt;/code&gt; to the &lt;code&gt;Imports:&lt;/code&gt; field of your &lt;code&gt;DESCRIPTION&lt;/code&gt; file.&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;Addition (Thanks Hao Ye, for the suggestion)&lt;/strong&gt;: If the function is in a development version (i.e., hosted on GitHub), you can use &lt;code&gt;usethis::use_dev_package()&lt;/code&gt; to add it to your &lt;code&gt;DESCRIPTION&lt;/code&gt; file. It will add an additional field called &lt;code&gt;Remotes:&lt;/code&gt; to your package:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;usethis::use_dev_package(&amp;quot;tidyverse/dplyr&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For more info about using remotes, check out the vignette: &lt;a href=&#34;https://remotes.r-lib.org/articles/dependencies.html&#34; target=&#34;_blank&#34;&gt;https://remotes.r-lib.org/articles/dependencies.html&lt;/a&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;using-namespaces-to-call-functions-from-other-packages&#34;&gt;Using namespaces to call functions from other packages&lt;/h2&gt;
 
 &lt;p&gt;Now that we have specified the package in our DESCRIPTION file, we can now call any function in &lt;code&gt;dplyr&lt;/code&gt; by adding a &lt;code&gt;dplyr::&lt;/code&gt; before the function. So if we wanted to call &lt;code&gt;mutate()&lt;/code&gt; in our package function we can do this:&lt;/p&gt;
@@ -180,6 +187,7 @@ use_filter &amp;lt;- function(df, cutoff=0.5) {
 
 &lt;ul&gt;
 &lt;li&gt;If you want to know how R searches for a function across its environments and why namespaces are a good thing, this is an excellent writeup: &lt;a href=&#34;http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/&#34; target=&#34;_blank&#34;&gt;http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;More about the &lt;code&gt;usethis&lt;/code&gt; workflow: &lt;a href=&#34;https://www.hvitfeldt.me/blog/usethis-workflow-for-package-development/&#34; target=&#34;_blank&#34;&gt;https://www.hvitfeldt.me/blog/usethis-workflow-for-package-development/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;More about the &lt;code&gt;DESCRIPTION&lt;/code&gt; file: &lt;a href=&#34;http://r-pkgs.had.co.nz/description.html&#34; target=&#34;_blank&#34;&gt;http://r-pkgs.had.co.nz/description.html&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;More about namespaces: &lt;a href=&#34;http://r-pkgs.had.co.nz/namespace.html&#34; target=&#34;_blank&#34;&gt;http://r-pkgs.had.co.nz/namespace.html&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;More about roxygen: &lt;a href=&#34;http://r-pkgs.had.co.nz/man.html#roxygen-comments&#34; target=&#34;_blank&#34;&gt;http://r-pkgs.had.co.nz/man.html#roxygen-comments&lt;/a&gt;&lt;/li&gt;
