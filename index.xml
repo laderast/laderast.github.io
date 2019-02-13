@@ -32,7 +32,7 @@
 
 &lt;h2 id=&#34;description-the-gatekeeper-for-calling-packages&#34;&gt;&lt;code&gt;DESCRIPTION&lt;/code&gt;: The gatekeeper for calling packages&lt;/h2&gt;
 
-&lt;p&gt;The &lt;code&gt;DESCRIPTION&lt;/code&gt; file is one of the gatekeepers in your package. Ever wonder how &lt;code&gt;install.package&lt;/code&gt; knows how to install the packages your package depends on? It’s actually because of a field in the &lt;code&gt;DESCRIPTION&lt;/code&gt; file. Here&amp;rsquo;s the &lt;code&gt;DESCRIPTION&lt;/code&gt; file for my &lt;code&gt;burro&lt;/code&gt; package:&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;DESCRIPTION&lt;/code&gt; file is one of the gatekeepers in your package. Ever wonder how &lt;code&gt;install.packages&lt;/code&gt; knows how to install the packages your package depends on? It’s actually because of a field in the &lt;code&gt;DESCRIPTION&lt;/code&gt; file. Here&amp;rsquo;s the &lt;code&gt;DESCRIPTION&lt;/code&gt; file for my &lt;code&gt;burro&lt;/code&gt; package:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Package: burro
 Type: Package
