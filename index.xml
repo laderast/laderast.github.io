@@ -139,9 +139,9 @@ shinyUI &amp;lt;- function() {
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;be-careful-about-importing-multiple-packages&#34;&gt;Be careful about importing multiple packages&lt;/h2&gt;
+&lt;h2 id=&#34;importing-multiple-packages-just-don-t-do-it-updated&#34;&gt;Importing multiple packages: just don&amp;rsquo;t do it (UPDATED).&lt;/h2&gt;
 
-&lt;p&gt;Just a note to be careful about importing multiple package namespaces. Make sure there aren’t any possible collisions in function names between the packages. If that’s the case, import one package and use @iimportsFrom or namespaces to refer to functions in the other one.&lt;/p&gt;
+&lt;p&gt;Just a note to not import multiple packages using &lt;code&gt;@imports&lt;/code&gt;. As Hadley Wickham has noted, you have no control over the development of the packages you import. Just because there are no function collisions right now between the packages doesn&amp;rsquo;t mean that one of the developers may add a function down the line that might collide. So, if you need to use multiple packages, &lt;code&gt;@import&lt;/code&gt; one package and use &lt;code&gt;@importsFrom&lt;/code&gt; or namespaces to refer to functions in the other packages.&lt;/p&gt;
 
 &lt;h2 id=&#34;remember-to-run-devtools-document&#34;&gt;Remember to run &lt;code&gt;devtools::document()&lt;/code&gt;&lt;/h2&gt;
 
@@ -177,7 +177,7 @@ use_filter &amp;lt;- function(df, cutoff=0.5) {
 &lt;ol&gt;
 &lt;li&gt;Use &lt;code&gt;usethis::use_package()&lt;/code&gt; to edit your DESCRIPTION file.&lt;/li&gt;
 &lt;li&gt;Use namespaces (such as &lt;code&gt;mypackage::usefilter()&lt;/code&gt;) to refer to external functions where possible to avoid collisions in function names when you are writing code.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Use &lt;code&gt;@imports&lt;/code&gt; and &lt;code&gt;@importsFrom&lt;/code&gt; judiciously in your &lt;code&gt;roxygen&lt;/code&gt; documentation if you need to use many functions in a package. Remember to run &lt;code&gt;devtools::document()&lt;/code&gt; after you modify/add these fields to the roxygen documentation. Be careful about using more than one @imports statement in a function.&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;@imports&lt;/code&gt; and &lt;code&gt;@importsFrom&lt;/code&gt; judiciously in your &lt;code&gt;roxygen&lt;/code&gt; documentation if you need to use many functions in a package. Remember to run &lt;code&gt;devtools::document()&lt;/code&gt; after you modify/add these fields to the roxygen documentation. Use only 1 &lt;code&gt;@import&lt;/code&gt; statement in a function, use namespaces/&lt;code&gt;@importsFrom&lt;/code&gt; for the other packages.&lt;/li&gt;
 &lt;li&gt;Expose functions you want to be made public using &lt;code&gt;@export&lt;/code&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -191,7 +191,12 @@ use_filter &amp;lt;- function(df, cutoff=0.5) {
 &lt;li&gt;More about the &lt;code&gt;DESCRIPTION&lt;/code&gt; file: &lt;a href=&#34;http://r-pkgs.had.co.nz/description.html&#34; target=&#34;_blank&#34;&gt;http://r-pkgs.had.co.nz/description.html&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;More about namespaces: &lt;a href=&#34;http://r-pkgs.had.co.nz/namespace.html&#34; target=&#34;_blank&#34;&gt;http://r-pkgs.had.co.nz/namespace.html&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;More about roxygen: &lt;a href=&#34;http://r-pkgs.had.co.nz/man.html#roxygen-comments&#34; target=&#34;_blank&#34;&gt;http://r-pkgs.had.co.nz/man.html#roxygen-comments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;An alternative workflow to modify the &lt;code&gt;DESCRIPTION&lt;/code&gt; file: You can use &lt;code&gt;attachment::att_to_description()&lt;/code&gt; to scan code and add packages to the file after coding (thanks,  Sébastien!).&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h2&gt;
+
+&lt;p&gt;Thanks to Hao Ye, Sébastien Rochette, Michael Chirico, and Hadley Wickham for their comments. I&amp;rsquo;ve incorporated your suggestions.&lt;/p&gt;
 
 &lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
 

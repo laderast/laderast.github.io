@@ -323,7 +323,7 @@ Namespaces: Why Bother? In short, we need namespaces because of the ambiguity of
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    7 min read
+    8 min read
   </span>
   
 
@@ -515,9 +515,9 @@ shinyUI &lt;- function() {
 }
 </code></pre>
 
-<h2 id="be-careful-about-importing-multiple-packages">Be careful about importing multiple packages</h2>
+<h2 id="importing-multiple-packages-just-don-t-do-it-updated">Importing multiple packages: just don&rsquo;t do it (UPDATED).</h2>
 
-<p>Just a note to be careful about importing multiple package namespaces. Make sure there aren’t any possible collisions in function names between the packages. If that’s the case, import one package and use @iimportsFrom or namespaces to refer to functions in the other one.</p>
+<p>Just a note to not import multiple packages using <code>@imports</code>. As Hadley Wickham has noted, you have no control over the development of the packages you import. Just because there are no function collisions right now between the packages doesn&rsquo;t mean that one of the developers may add a function down the line that might collide. So, if you need to use multiple packages, <code>@import</code> one package and use <code>@importsFrom</code> or namespaces to refer to functions in the other packages.</p>
 
 <h2 id="remember-to-run-devtools-document">Remember to run <code>devtools::document()</code></h2>
 
@@ -553,7 +553,7 @@ use_filter &lt;- function(df, cutoff=0.5) {
 <ol>
 <li>Use <code>usethis::use_package()</code> to edit your DESCRIPTION file.</li>
 <li>Use namespaces (such as <code>mypackage::usefilter()</code>) to refer to external functions where possible to avoid collisions in function names when you are writing code.<br /></li>
-<li>Use <code>@imports</code> and <code>@importsFrom</code> judiciously in your <code>roxygen</code> documentation if you need to use many functions in a package. Remember to run <code>devtools::document()</code> after you modify/add these fields to the roxygen documentation. Be careful about using more than one @imports statement in a function.</li>
+<li>Use <code>@imports</code> and <code>@importsFrom</code> judiciously in your <code>roxygen</code> documentation if you need to use many functions in a package. Remember to run <code>devtools::document()</code> after you modify/add these fields to the roxygen documentation. Use only 1 <code>@import</code> statement in a function, use namespaces/<code>@importsFrom</code> for the other packages.</li>
 <li>Expose functions you want to be made public using <code>@export</code>.</li>
 </ol>
 
@@ -567,7 +567,12 @@ use_filter &lt;- function(df, cutoff=0.5) {
 <li>More about the <code>DESCRIPTION</code> file: <a href="http://r-pkgs.had.co.nz/description.html" target="_blank">http://r-pkgs.had.co.nz/description.html</a></li>
 <li>More about namespaces: <a href="http://r-pkgs.had.co.nz/namespace.html" target="_blank">http://r-pkgs.had.co.nz/namespace.html</a></li>
 <li>More about roxygen: <a href="http://r-pkgs.had.co.nz/man.html#roxygen-comments" target="_blank">http://r-pkgs.had.co.nz/man.html#roxygen-comments</a></li>
+<li>An alternative workflow to modify the <code>DESCRIPTION</code> file: You can use <code>attachment::att_to_description()</code> to scan code and add packages to the file after coding (thanks,  Sébastien!).</li>
 </ul>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<p>Thanks to Hao Ye, Sébastien Rochette, Michael Chirico, and Hadley Wickham for their comments. I&rsquo;ve incorporated your suggestions.</p>
 
 <h2 id="note">Note</h2>
 
