@@ -448,7 +448,7 @@ Suggests:
 
 <p>Look at the <code>Imports:</code> field. You can see a list of all of the packages that <code>burro</code> utilizes. In ye olde days of R, we used the <code>Depends:</code> field. Nowadays we use the <code>Imports:</code> fields. <a href="https://stackoverflow.com/questions/8637993/better-explanation-of-when-to-use-imports-depends" target="_blank">Here&rsquo;s a Stack Overflow post explaining why</a>. The main reason is that <code>Imports:</code> requires the package to have a namespace.</p>
 
-<p>Modifying the <code>DESCRIPTION</code> file by hand is possible, but I don’t recommend it. Instead, you can use the <code>usethis</code> package to modify it. For example, if I want to use <code>dplyr</code> in my package I can do this:</p>
+<p>Modifying the <code>DESCRIPTION</code> file by hand is possible, but I don’t recommend it. Instead, you can use the <code>usethis</code> package to modify it. For example, if I want to use <code>dplyr</code> in my package I can do this in the console, while I am building it.</p>
 
 <pre><code>usethis::use_package(&quot;dplyr&quot;)
 </code></pre>
@@ -492,7 +492,7 @@ Suggests:
 
 <p>And then you can just use <code>filter()</code> like normal in your code:</p>
 
-<pre><code>#' @importFrom dplyr filter
+<pre><code>#' @importFrom dplyr filter               #This is where you add the @importFrom
 use_filter &lt;- function(df, cutoff=0.5) {
 
   filter(df, value &lt; cutoff)
@@ -509,7 +509,7 @@ use_filter &lt;- function(df, cutoff=0.5) {
 
 <p>And then code like usual:</p>
 
-<pre><code>#` @import shiny
+<pre><code>#` @import shiny            # This is where you add the @import
 shinyUI &lt;- function() {
     selectInput(&quot;&quot;)
 }
@@ -517,17 +517,13 @@ shinyUI &lt;- function() {
 
 <h2 id="importing-multiple-packages-just-don-t-do-it-updated">Importing multiple packages: just don&rsquo;t do it (UPDATED).</h2>
 
-<p>Just a note to not import multiple packages using <code>@imports</code>. As Hadley Wickham has noted, you have no control over the development of the packages you import. Just because there are no function collisions right now between the packages doesn&rsquo;t mean that one of the developers may add a function down the line that might collide. So, if you need to use multiple packages, <code>@import</code> one package and use <code>@importsFrom</code> or namespaces to refer to functions in the other packages.</p>
-
-<h2 id="remember-to-run-devtools-document">Remember to run <code>devtools::document()</code></h2>
-
-<p>Once you&rsquo;ve written code and want to test it in your package, remember to run <code>devtools::document()</code> before you reinstall your package. Otherwise, the <code>NAMESPACE</code> file won&rsquo;t be modified, and your code won&rsquo;t work.</p>
+<p>Just a note to not import multiple packages using <code>@import</code>. As Hadley Wickham has noted, you have no control over the development of the packages you import. Just because there are no function collisions right now between the packages doesn&rsquo;t mean that one of the developers may add a function down the line that might collide. So, if you need to use multiple packages, <code>@import</code> one package and use <code>@importsFrom</code> or namespaces to refer to functions in the other packages.</p>
 
 <h2 id="exported-versus-internal-functions">Exported versus Internal functions</h2>
 
 <p>Remember I mentioned ‘@export’ above? Specifying in a docstring for your function <em>exports</em> it. Specifying it means that ‘devtools::document()’ will add an <code>Export</code> directive for the function in the NAMESPACE file. That means you can access it using ‘::’. Going back to our <code>use_filter</code> example:</p>
 
-<pre><code>#' @export
+<pre><code>#' @export                              #This is where you add the @export
 #' @importFrom dplyr filter
 use_filter &lt;- function(df, cutoff=0.5) {
 
@@ -544,6 +540,12 @@ use_filter &lt;- function(df, cutoff=0.5) {
 
 <p>So, if there’s a cool bit of internal code you want to use in a package, you can use ‘:::’ to specify it. Just be aware that oftentimes, internal functions may change a lot as code gets refactored, so code that utilizes them may be refactored.</p>
 
+<h2 id="remember-to-run-devtools-document">Remember to run <code>devtools::document()</code></h2>
+
+<p>Once you&rsquo;ve written code and want to test it in your package, remember to run <code>devtools::document()</code> before you reinstall your package for testing. Otherwise, the <code>NAMESPACE</code> file won&rsquo;t be modified, and your code won&rsquo;t work.</p>
+
+<p>You can also modify your Project Options for your package and check the <strong>Tools &gt;&gt; Project Options &gt;&gt; Build Tools &gt;&gt; Generate Documentation with Roxygen</strong> box. Next to it, there is also a <code>Configure</code> button that lets you select the option to run <code>devtools::document()</code> whenever you build a package for testing.</p>
+
 <h2 id="go-forth-and-package">Go forth and Package!</h2>
 
 <p><img src="/img/imports-workflow.png" alt="Using a function from another package" width = 500></p>
@@ -551,10 +553,11 @@ use_filter &lt;- function(df, cutoff=0.5) {
 <p>TL;DR:</p>
 
 <ol>
-<li>Use <code>usethis::use_package()</code> to edit your DESCRIPTION file.</li>
+<li>Use <code>usethis::use_package()</code> to add packages to your <code>DESCRIPTION</code> file (while in the console) after you&rsquo;ve created your package skeleton using <code>use_package()</code>.</li>
 <li>Use namespaces (such as <code>mypackage::usefilter()</code>) to refer to external functions where possible to avoid collisions in function names when you are writing code.<br /></li>
-<li>Use <code>@imports</code> and <code>@importsFrom</code> judiciously in your <code>roxygen</code> documentation if you need to use many functions in a package. Remember to run <code>devtools::document()</code> after you modify/add these fields to the roxygen documentation. Use only 1 <code>@import</code> statement in a function, use namespaces/<code>@importsFrom</code> for the other packages.</li>
-<li>Expose functions you want to be made public using <code>@export</code>.</li>
+<li>Use <code>@imports</code> and <code>@importsFrom</code> judiciously in your <code>roxygen</code> documentation for a function if you need to use many extenral package functions within a function.  Use only 1 <code>@import</code> statement in a function, use namespaces/<code>@importsFrom</code> for the other packages.</li>
+<li>Expose functions you want to be made public using <code>@export</code> in your <code>roxygen</code> documentation.</li>
+<li>Remember to run <code>devtools::document()</code> in the console after you modify/add these fields to the roxygen documentation when you build for testing, or set it up in <strong>Tools &gt;&gt; Project Options</strong>.</li>
 </ol>
 
 <p>I hope this helps you to understand exactly the relationships between all of the components that are responsible for accessing namespaces in your package. I was confused about this for years, so writing this has helped me understand these relationships.</p>
@@ -572,7 +575,7 @@ use_filter &lt;- function(df, cutoff=0.5) {
 
 <h2 id="acknowledgements">Acknowledgements</h2>
 
-<p>Thanks to Hao Ye, Sébastien Rochette, Michael Chirico, and Hadley Wickham for their comments. I&rsquo;ve incorporated your suggestions.</p>
+<p>Thanks to Hao Ye, Sébastien Rochette, Michael Chirico, Tim Hesterberg, and Hadley Wickham for their comments and questions. I&rsquo;ve incorporated your suggestions.</p>
 
 <h2 id="note">Note</h2>
 
@@ -613,11 +616,11 @@ use_filter &lt;- function(df, cutoff=0.5) {
     
     <li><a href="/2018/01/24/gradual-introduction-to-shiny/">A gRadual Introduction to Shiny</a></li>
     
-    <li><a href="/teaching/data_analytics/">Data Analytics</a></li>
+    <li><a href="/teaching/igraph_tutorial/">Introduction to igraph</a></li>
+    
+    <li><a href="/teaching/clinical_wrangling/">Clinical Data Wrangling Workshop</a></li>
     
     <li><a href="/teaching/r-bootcamp/">R Bootcamp</a></li>
-    
-    <li><a href="/teaching/igraph_tutorial/">Introduction to igraph</a></li>
     
   </ul>
 </div>

@@ -72,7 +72,7 @@ Suggests:
 
 &lt;p&gt;Look at the &lt;code&gt;Imports:&lt;/code&gt; field. You can see a list of all of the packages that &lt;code&gt;burro&lt;/code&gt; utilizes. In ye olde days of R, we used the &lt;code&gt;Depends:&lt;/code&gt; field. Nowadays we use the &lt;code&gt;Imports:&lt;/code&gt; fields. &lt;a href=&#34;https://stackoverflow.com/questions/8637993/better-explanation-of-when-to-use-imports-depends&#34; target=&#34;_blank&#34;&gt;Here&amp;rsquo;s a Stack Overflow post explaining why&lt;/a&gt;. The main reason is that &lt;code&gt;Imports:&lt;/code&gt; requires the package to have a namespace.&lt;/p&gt;
 
-&lt;p&gt;Modifying the &lt;code&gt;DESCRIPTION&lt;/code&gt; file by hand is possible, but I don’t recommend it. Instead, you can use the &lt;code&gt;usethis&lt;/code&gt; package to modify it. For example, if I want to use &lt;code&gt;dplyr&lt;/code&gt; in my package I can do this:&lt;/p&gt;
+&lt;p&gt;Modifying the &lt;code&gt;DESCRIPTION&lt;/code&gt; file by hand is possible, but I don’t recommend it. Instead, you can use the &lt;code&gt;usethis&lt;/code&gt; package to modify it. For example, if I want to use &lt;code&gt;dplyr&lt;/code&gt; in my package I can do this in the console, while I am building it.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;usethis::use_package(&amp;quot;dplyr&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
@@ -116,7 +116,7 @@ Suggests:
 
 &lt;p&gt;And then you can just use &lt;code&gt;filter()&lt;/code&gt; like normal in your code:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;#&#39; @importFrom dplyr filter
+&lt;pre&gt;&lt;code&gt;#&#39; @importFrom dplyr filter               #This is where you add the @importFrom
 use_filter &amp;lt;- function(df, cutoff=0.5) {
 
   filter(df, value &amp;lt; cutoff)
@@ -133,7 +133,7 @@ use_filter &amp;lt;- function(df, cutoff=0.5) {
 
 &lt;p&gt;And then code like usual:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;#` @import shiny
+&lt;pre&gt;&lt;code&gt;#` @import shiny            # This is where you add the @import
 shinyUI &amp;lt;- function() {
     selectInput(&amp;quot;&amp;quot;)
 }
@@ -141,17 +141,13 @@ shinyUI &amp;lt;- function() {
 
 &lt;h2 id=&#34;importing-multiple-packages-just-don-t-do-it-updated&#34;&gt;Importing multiple packages: just don&amp;rsquo;t do it (UPDATED).&lt;/h2&gt;
 
-&lt;p&gt;Just a note to not import multiple packages using &lt;code&gt;@imports&lt;/code&gt;. As Hadley Wickham has noted, you have no control over the development of the packages you import. Just because there are no function collisions right now between the packages doesn&amp;rsquo;t mean that one of the developers may add a function down the line that might collide. So, if you need to use multiple packages, &lt;code&gt;@import&lt;/code&gt; one package and use &lt;code&gt;@importsFrom&lt;/code&gt; or namespaces to refer to functions in the other packages.&lt;/p&gt;
-
-&lt;h2 id=&#34;remember-to-run-devtools-document&#34;&gt;Remember to run &lt;code&gt;devtools::document()&lt;/code&gt;&lt;/h2&gt;
-
-&lt;p&gt;Once you&amp;rsquo;ve written code and want to test it in your package, remember to run &lt;code&gt;devtools::document()&lt;/code&gt; before you reinstall your package. Otherwise, the &lt;code&gt;NAMESPACE&lt;/code&gt; file won&amp;rsquo;t be modified, and your code won&amp;rsquo;t work.&lt;/p&gt;
+&lt;p&gt;Just a note to not import multiple packages using &lt;code&gt;@import&lt;/code&gt;. As Hadley Wickham has noted, you have no control over the development of the packages you import. Just because there are no function collisions right now between the packages doesn&amp;rsquo;t mean that one of the developers may add a function down the line that might collide. So, if you need to use multiple packages, &lt;code&gt;@import&lt;/code&gt; one package and use &lt;code&gt;@importsFrom&lt;/code&gt; or namespaces to refer to functions in the other packages.&lt;/p&gt;
 
 &lt;h2 id=&#34;exported-versus-internal-functions&#34;&gt;Exported versus Internal functions&lt;/h2&gt;
 
 &lt;p&gt;Remember I mentioned ‘@export’ above? Specifying in a docstring for your function &lt;em&gt;exports&lt;/em&gt; it. Specifying it means that ‘devtools::document()’ will add an &lt;code&gt;Export&lt;/code&gt; directive for the function in the NAMESPACE file. That means you can access it using ‘::’. Going back to our &lt;code&gt;use_filter&lt;/code&gt; example:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;#&#39; @export
+&lt;pre&gt;&lt;code&gt;#&#39; @export                              #This is where you add the @export
 #&#39; @importFrom dplyr filter
 use_filter &amp;lt;- function(df, cutoff=0.5) {
 
@@ -168,6 +164,12 @@ use_filter &amp;lt;- function(df, cutoff=0.5) {
 
 &lt;p&gt;So, if there’s a cool bit of internal code you want to use in a package, you can use ‘:::’ to specify it. Just be aware that oftentimes, internal functions may change a lot as code gets refactored, so code that utilizes them may be refactored.&lt;/p&gt;
 
+&lt;h2 id=&#34;remember-to-run-devtools-document&#34;&gt;Remember to run &lt;code&gt;devtools::document()&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;Once you&amp;rsquo;ve written code and want to test it in your package, remember to run &lt;code&gt;devtools::document()&lt;/code&gt; before you reinstall your package for testing. Otherwise, the &lt;code&gt;NAMESPACE&lt;/code&gt; file won&amp;rsquo;t be modified, and your code won&amp;rsquo;t work.&lt;/p&gt;
+
+&lt;p&gt;You can also modify your Project Options for your package and check the &lt;strong&gt;Tools &amp;gt;&amp;gt; Project Options &amp;gt;&amp;gt; Build Tools &amp;gt;&amp;gt; Generate Documentation with Roxygen&lt;/strong&gt; box. Next to it, there is also a &lt;code&gt;Configure&lt;/code&gt; button that lets you select the option to run &lt;code&gt;devtools::document()&lt;/code&gt; whenever you build a package for testing.&lt;/p&gt;
+
 &lt;h2 id=&#34;go-forth-and-package&#34;&gt;Go forth and Package!&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;/img/imports-workflow.png&#34; alt=&#34;Using a function from another package&#34; width = 500&gt;&lt;/p&gt;
@@ -175,10 +177,11 @@ use_filter &amp;lt;- function(df, cutoff=0.5) {
 &lt;p&gt;TL;DR:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Use &lt;code&gt;usethis::use_package()&lt;/code&gt; to edit your DESCRIPTION file.&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;usethis::use_package()&lt;/code&gt; to add packages to your &lt;code&gt;DESCRIPTION&lt;/code&gt; file (while in the console) after you&amp;rsquo;ve created your package skeleton using &lt;code&gt;use_package()&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Use namespaces (such as &lt;code&gt;mypackage::usefilter()&lt;/code&gt;) to refer to external functions where possible to avoid collisions in function names when you are writing code.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Use &lt;code&gt;@imports&lt;/code&gt; and &lt;code&gt;@importsFrom&lt;/code&gt; judiciously in your &lt;code&gt;roxygen&lt;/code&gt; documentation if you need to use many functions in a package. Remember to run &lt;code&gt;devtools::document()&lt;/code&gt; after you modify/add these fields to the roxygen documentation. Use only 1 &lt;code&gt;@import&lt;/code&gt; statement in a function, use namespaces/&lt;code&gt;@importsFrom&lt;/code&gt; for the other packages.&lt;/li&gt;
-&lt;li&gt;Expose functions you want to be made public using &lt;code&gt;@export&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;@imports&lt;/code&gt; and &lt;code&gt;@importsFrom&lt;/code&gt; judiciously in your &lt;code&gt;roxygen&lt;/code&gt; documentation for a function if you need to use many extenral package functions within a function.  Use only 1 &lt;code&gt;@import&lt;/code&gt; statement in a function, use namespaces/&lt;code&gt;@importsFrom&lt;/code&gt; for the other packages.&lt;/li&gt;
+&lt;li&gt;Expose functions you want to be made public using &lt;code&gt;@export&lt;/code&gt; in your &lt;code&gt;roxygen&lt;/code&gt; documentation.&lt;/li&gt;
+&lt;li&gt;Remember to run &lt;code&gt;devtools::document()&lt;/code&gt; in the console after you modify/add these fields to the roxygen documentation when you build for testing, or set it up in &lt;strong&gt;Tools &amp;gt;&amp;gt; Project Options&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;I hope this helps you to understand exactly the relationships between all of the components that are responsible for accessing namespaces in your package. I was confused about this for years, so writing this has helped me understand these relationships.&lt;/p&gt;
@@ -196,7 +199,7 @@ use_filter &amp;lt;- function(df, cutoff=0.5) {
 
 &lt;h2 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h2&gt;
 
-&lt;p&gt;Thanks to Hao Ye, Sébastien Rochette, Michael Chirico, and Hadley Wickham for their comments. I&amp;rsquo;ve incorporated your suggestions.&lt;/p&gt;
+&lt;p&gt;Thanks to Hao Ye, Sébastien Rochette, Michael Chirico, Tim Hesterberg, and Hadley Wickham for their comments and questions. I&amp;rsquo;ve incorporated your suggestions.&lt;/p&gt;
 
 &lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
 

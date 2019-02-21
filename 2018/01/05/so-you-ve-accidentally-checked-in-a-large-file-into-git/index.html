@@ -321,7 +321,7 @@ Greg Wilson first said it, but I&rsquo;ve come to agree.">
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    3 min read
+    4 min read
   </span>
   
 
@@ -434,15 +434,16 @@ git clone --mirror local_repo
 bfg -b 100M local_repo.git
 </code></pre>
 
-<p>Then comes some git commands that no one has bothered to explain to me.</p>
+<p>Then comes some git commands that no one has bothered to explain to me (UPDATE: I forgot to add changing directories into <code>local_repo.git</code> - sorry about that!).</p>
 
-<pre><code>git reflog expire --expire=now --all &amp;&amp; git gc --prune=now --aggressive
+<pre><code>cd local_repo.git
+git reflog expire --expire=now --all &amp;&amp; git gc --prune=now --aggressive
 git push
 </code></pre>
 
 <p>Uh oh, I get a <code>remote: error: refusing to update checked out branch: refs/heads/master</code> error! More ugh.</p>
 
-<p>Here&rsquo;s the trick. Since you cloned a <em>local</em> repo, you need to set the origin of your current repo (<code>local_repo.git</code>) to the GitHub remote. First we remove the current <code>origin</code>, and then add back our remote.</p>
+<p>Here&rsquo;s the trick. Since you cloned a <em>local</em> repo, you need to set the origin of your current repo (<code>local_repo.git</code>) to the GitHub remote. Still in our <code>local_repo.git</code> directory, first we remove the current <code>origin</code>, and then add back our remote.</p>
 
 <pre><code>git remote rm origin
 git remote add origin https://github.com/laderast/remote_repo
