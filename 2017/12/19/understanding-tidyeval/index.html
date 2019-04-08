@@ -380,13 +380,9 @@ What is evaluation, really?">
       <div class="article-style" itemprop="articleBody">
         <p>Have you ever had something that no matter how many times someone explained it, you really had no idea what it was for? For me, that was Non Standard Evaluation (NSE) in R, and its newer cousin Tidy Evaluation, or <code>tidyeval</code>. I had a real learning block about it. I really wanted to understand it, but for some reason I just really wasn’t getting the general concepts.</p>
 <p>What is evaluation, really? For the longest time, I was extremely confused about it. When you provide an expression to R such as:</p>
-<pre class="r"><code>library(tidyverse)</code></pre>
-<pre><code>## Warning: package &#39;ggplot2&#39; was built under R version 3.5.2</code></pre>
-<pre><code>## Warning: package &#39;purrr&#39; was built under R version 3.5.2</code></pre>
-<pre><code>## Warning: package &#39;dplyr&#39; was built under R version 3.5.2</code></pre>
-<pre class="r"><code>library(rlang)</code></pre>
-<pre><code>## Warning: package &#39;rlang&#39; was built under R version 3.5.2</code></pre>
-<pre class="r"><code>this_variable &lt;- 2
+<pre class="r"><code>library(tidyverse)
+library(rlang)
+this_variable &lt;- 2
 this_variable * 6</code></pre>
 <pre><code>## [1] 12</code></pre>
 <p>You notice that there is an output to <code>this_variable * 6</code>, which is <code>12</code>. Evaluation is really about looking up variable names in an environment and then acting on the results. What is going on here is that R looks for an object that is named <code>this_variable</code> in our global environment, and then returns the value, <code>2</code>, which it then <em>substitutes</em> in the expression. So our original expression:</p>
