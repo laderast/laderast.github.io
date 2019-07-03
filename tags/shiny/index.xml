@@ -59,6 +59,17 @@ Intended AudienceWe designed the workshop for our incoming informatics students
     </item>
     
     <item>
+      <title>Shiny and Tidyeval Part 1</title>
+      <link>/2018/08/07/shiny-and-tidyeval/</link>
+      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/08/07/shiny-and-tidyeval/</guid>
+      <description>Note: sometimes I write these posts to teach myself a better way to do things in R.
+I have been avoiding tidyeval somewhat, because I seem to have a bit of a learning block about it. I’m going to try to write some posts that help me understand what’s going on with Tidy Evaluation.
+Using sym() in a Shiny AppOne fairly simple Shiny Application might be selecting a column of the dataset and then doing something with it, such as using it in a select() or filter() statement.</description>
+    </item>
+    
+    <item>
       <title>Introduction to Data Literacy</title>
       <link>/project/introduction_to_data_literacy/</link>
       <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>

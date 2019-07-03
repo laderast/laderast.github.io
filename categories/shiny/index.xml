@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shiny on Ted Laderas, PhD</title>
+    <link>/categories/shiny/</link>
+    <description>Recent content in Shiny on Ted Laderas, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 07 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/shiny/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Shiny and Tidyeval Part 1</title>
+      <link>/2018/08/07/shiny-and-tidyeval/</link>
+      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/08/07/shiny-and-tidyeval/</guid>
+      <description>Note: sometimes I write these posts to teach myself a better way to do things in R.
+I have been avoiding tidyeval somewhat, because I seem to have a bit of a learning block about it. I’m going to try to write some posts that help me understand what’s going on with Tidy Evaluation.
+Using sym() in a Shiny AppOne fairly simple Shiny Application might be selecting a column of the dataset and then doing something with it, such as using it in a select() or filter() statement.</description>
+    </item>
+    
+  </channel>
+</rss>

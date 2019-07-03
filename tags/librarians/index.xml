@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Librarians on Ted Laderas, PhD</title>
+    <link>/tags/librarians/</link>
+    <description>Recent content in Librarians on Ted Laderas, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 19 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/librarians/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Some Notes from the Evidence to Scholarship Conference</title>
+      <link>/2018/03/19/some-notes-from-the-evidence-to-scholarship-conference/</link>
+      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/03/19/some-notes-from-the-evidence-to-scholarship-conference/</guid>
+      <description>Last week I had the good fortune to attend the From Evidence to Scholarship Conference at my alma mater, Reed College. The focus of the conference was improving the research process for undergraduates using digital scholarship. I came away from it excited about the work other people are doing in this realm and thinking about ways we could adapt these approaches.
+Nicole Vasilevsky and I (both former Reedies) each gave talks, about our experience developing materials for Data Science and giving data science workshops to undergraduates.</description>
+    </item>
+    
+  </channel>
+</rss>

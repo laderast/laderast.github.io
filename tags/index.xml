@@ -22,11 +22,29 @@
     </item>
     
     <item>
+      <title>Academia</title>
+      <link>/tags/academia/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/academia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Analytics</title>
       <link>/tags/analytics/</link>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apps</title>
+      <link>/tags/apps/</link>
+      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/apps/</guid>
       <description></description>
     </item>
     
@@ -121,6 +139,15 @@
     </item>
     
     <item>
+      <title>Conferences</title>
+      <link>/tags/conferences/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/conferences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>CyTOF</title>
       <link>/tags/cytof/</link>
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
@@ -184,6 +211,15 @@
     </item>
     
     <item>
+      <title>Digital-scholarship</title>
+      <link>/tags/digital-scholarship/</link>
+      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/digital-scholarship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>EDA</title>
       <link>/tags/eda/</link>
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
@@ -229,9 +265,27 @@
     </item>
     
     <item>
+      <title>Gwas active-learning open-education oer</title>
+      <link>/tags/gwas-active-learning-open-education-oer/</link>
+      <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gwas-active-learning-open-education-oer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improvisation</title>
+      <link>/tags/improvisation/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/improvisation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Informatics</title>
       <link>/tags/informatics/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/informatics/</guid>
       <description></description>
@@ -247,11 +301,29 @@
     </item>
     
     <item>
+      <title>Inputs</title>
+      <link>/tags/inputs/</link>
+      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/inputs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Interactive visualization</title>
       <link>/tags/interactive-visualization/</link>
       <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/interactive-visualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introverts</title>
+      <link>/tags/introverts/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/introverts/</guid>
       <description></description>
     </item>
     
@@ -274,6 +346,15 @@
     </item>
     
     <item>
+      <title>Librarians</title>
+      <link>/tags/librarians/</link>
+      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/librarians/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Machine-learning</title>
       <link>/tags/machine-learning/</link>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
@@ -288,6 +369,15 @@
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Music</title>
+      <link>/tags/music/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/music/</guid>
       <description></description>
     </item>
     
@@ -454,6 +544,15 @@
     </item>
     
     <item>
+      <title>Self-care self-compassion</title>
+      <link>/tags/self-care-self-compassion/</link>
+      <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/self-care-self-compassion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Separating-code</title>
       <link>/tags/separating-code/</link>
       <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
@@ -490,11 +589,29 @@
     </item>
     
     <item>
+      <title>Survival</title>
+      <link>/tags/survival/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/survival/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Synthetic-data data-science</title>
       <link>/tags/synthetic-data-data-science/</link>
       <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/synthetic-data-data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Systems science</title>
+      <link>/tags/systems-science/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/systems-science/</guid>
       <description></description>
     </item>
     
@@ -513,6 +630,24 @@
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/teaching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>This</title>
+      <link>/tags/this/</link>
+      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/this/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tidyeval</title>
+      <link>/tags/tidyeval/</link>
+      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tidyeval/</guid>
       <description></description>
     </item>
     

@@ -65,6 +65,17 @@ Intended AudienceWe designed the workshop for our incoming informatics students
     </item>
     
     <item>
+      <title>Shiny and Tidyeval Part 1</title>
+      <link>/2018/08/07/shiny-and-tidyeval/</link>
+      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/08/07/shiny-and-tidyeval/</guid>
+      <description>Note: sometimes I write these posts to teach myself a better way to do things in R.
+I have been avoiding tidyeval somewhat, because I seem to have a bit of a learning block about it. I’m going to try to write some posts that help me understand what’s going on with Tidy Evaluation.
+Using sym() in a Shiny AppOne fairly simple Shiny Application might be selecting a column of the dataset and then doing something with it, such as using it in a select() or filter() statement.</description>
+    </item>
+    
+    <item>
       <title>Turning down the noise</title>
       <link>/2018/08/02/turning-down-the-noise/</link>
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
@@ -72,6 +83,96 @@ Intended AudienceWe designed the workshop for our incoming informatics students
       <guid>/2018/08/02/turning-down-the-noise/</guid>
       <description>I&amp;rsquo;m still in the process of recovering from my current bout of depression and anxiety. I&amp;rsquo;d like to talk about what is currently helping me moderate my anxiety. I have been practicing mindfulness and meditation for the past three years and I&amp;rsquo;m beginning to realize how necessary it is in our information dense age. Many of my symptoms of anxiety are really from an information overglut.
 I&amp;rsquo;m currently on way too many projects and am teaching as well.</description>
+    </item>
+    
+    <item>
+      <title>Asking for help to get better</title>
+      <link>/2018/06/25/asking-for-help-to-get-better/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/25/asking-for-help-to-get-better/</guid>
+      <description>I want to thank everyone who has reached out to me after I wrote my post on struggling with my depression and self-care. I am incredibly grateful for everyone’s concern about me. I wrote that at a low point in my life because I had to. I was suffering too long in silence, and I needed to do something. Writing that post was incredibly scary. I am still worried that it may be used against me somehow down the line when I am reviewed for tenure.</description>
+    </item>
+    
+    <item>
+      <title>Cascadia-R 2018: How we planned it and the reasons why</title>
+      <link>/2018/06/09/cascadia-r-2018-how-we-planned-it/</link>
+      <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/09/cascadia-r-2018-how-we-planned-it/</guid>
+      <description>Well, Cascadia-R 2018 has come and gone. This year we tried our best to make it as inclusive, welcoming, and friendly as we could. Considering we had 224 participants this time around, I’d say it was a success.
+I just thought I would do a little write up of some of the things we did and why we did them in our conference. I’m hoping it will be useful for other conference planners to create a welcoming environment.</description>
+    </item>
+    
+    <item>
+      <title>Self Care and Self Compassion in Academia</title>
+      <link>/2018/06/05/self-care-and-self-compassion-in-academia/</link>
+      <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/05/self-care-and-self-compassion-in-academia/</guid>
+      <description>Note: I am not writing the following to complain, or excuse any past behavior. I am writing this just to be honest and transparent about my current struggles in academia. I hope it helps someone, or encourages other to seek help.
+ I have to confess that I haven&amp;rsquo;t really been feeling all that well the past few months. Right now I am plagued with feelings that I am doing my work as an Assistant Professor wrong.</description>
+    </item>
+    
+    <item>
+      <title>group_by/summarize: Not just for numeric values!</title>
+      <link>/2018/05/24/group-by-summarize-not-just-for-numeric-values/</link>
+      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/24/group-by-summarize-not-just-for-numeric-values/</guid>
+      <description>Even though I’ve been using the tidyverse for a couple of years, there’s always a couple new applications of tidyverse verbs.
+This one, in retrospect, is pretty simple. I had a one to many table that I wanted to collapse, tidy-style. Let’s look at the diamonds dataset:
+diamonds %&amp;gt;% select(color, cut)## # A tibble: 53,940 x 2## color cut ## &amp;lt;ord&amp;gt; &amp;lt;ord&amp;gt; ## 1 E Ideal ## 2 E Premium ## 3 E Good ## 4 I Premium ## 5 J Good ## 6 J Very Good## 7 I Very Good## 8 H Very Good## 9 E Fair ## 10 H Very Good## # .</description>
+    </item>
+    
+    <item>
+      <title>A Introvert&#39;s Survival Guide to Conferences</title>
+      <link>/2018/05/17/a-introvert-s-survival-guide-to-conferences/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/17/a-introvert-s-survival-guide-to-conferences/</guid>
+      <description>In academia, it’s inevitable to have to travel and present at conferences and meetings. As an introvert, I&amp;rsquo;ve been trying to compile a few tips that have helped me navigate large conferences so I don’t feel overwhelmed.
+It is unfortunate that though the academic community has many introverts, conference and meeting structure is heavily biased towards extroverts. (No offense to extroverts, but some of you can sometimes seem like blowhards to us introverts.</description>
+    </item>
+    
+    <item>
+      <title>Health Informatics Course Materials</title>
+      <link>/2018/04/25/health-informatics-course-materials/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/04/25/health-informatics-course-materials/</guid>
+      <description>Sorry for the lack of posts. I have been busy with co-teaching our Health Informatics course (HSMP410) for the OHSU/PSU School of Public Health.
+I&amp;rsquo;m trying to make most of my lectures activity-driven for my students, who are Community Health Education and Nursing majors. I believe that you can teach mathematical concepts visually, so I am experimenting with using LearnR/Shiny to teach the basics of data literacy. I&amp;rsquo;m also using datacamp-light to show my students a simple intro to data science.</description>
+    </item>
+    
+    <item>
+      <title>A Simple Intro to Genome Wide Association</title>
+      <link>/2018/04/04/a-simple-intro-to-genome-wide-association/</link>
+      <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/04/04/a-simple-intro-to-genome-wide-association/</guid>
+      <description>This term, I&amp;rsquo;m co-teaching an undergraduate course for the PSU/OHSU School of Public Health called Health Informatics with a number of my collegues in my department, including Bill Hersh, Eilis Boudreau, Karen Eden, and Virginia Lankes. We&amp;rsquo;re trying to give students a feel for what informatics is about in an accessible way.
+I&amp;rsquo;m trying to make the lectures as understandable as I can. This week we tackled Genome Wide Association Studies and discussed the strength of evidence behind SNP variants associated with phenotypes.</description>
+    </item>
+    
+    <item>
+      <title>Some Notes from the Evidence to Scholarship Conference</title>
+      <link>/2018/03/19/some-notes-from-the-evidence-to-scholarship-conference/</link>
+      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/03/19/some-notes-from-the-evidence-to-scholarship-conference/</guid>
+      <description>Last week I had the good fortune to attend the From Evidence to Scholarship Conference at my alma mater, Reed College. The focus of the conference was improving the research process for undergraduates using digital scholarship. I came away from it excited about the work other people are doing in this realm and thinking about ways we could adapt these approaches.
+Nicole Vasilevsky and I (both former Reedies) each gave talks, about our experience developing materials for Data Science and giving data science workshops to undergraduates.</description>
+    </item>
+    
+    <item>
+      <title>Data Science and Systems Science</title>
+      <link>/2018/02/28/data-science-and-systems-science/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/28/data-science-and-systems-science/</guid>
+      <description>I gave a talk for the Portland State University Systems Science seminar called How are Data Science and Systems Science Connected?. In this talk, I was highlighting current blind spots in Data Science that I think Systems Science approaches can address, especially that of interactions between features. I talked a little about my dissertation research (surrogate oncogenes), and the problem of black-box interpretability of predictive models.
+If you&amp;rsquo;re interested in listening to the recording, the playback is available here: https://us.</description>
     </item>
     
     <item>
@@ -99,8 +200,8 @@ We had the overall goal of introducting 21 Neuroscience Graduate Program student
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/01/15/if-you-want-to-talk-with-me-for-an-informational-interview/</guid>
-      <description>I have had many people who have asked me for informational interviews. They tell me that they are interested in Data Science and want to hear about what I do on a day to day basis. To be honest, I&amp;rsquo;ve begun to dread these kinds of interviews.
-Inevitably, I spend a lot of energy explaining what I do to someone who rarely follows up. Consequently, I don&amp;rsquo;t find these interviews rewarding at all.</description>
+      <description>Note: I have come to believe that this post is way too harsh and unwelcoming to people interested in data science. I will post an update to this, and a FAQ for those who want informational interviews. But in the spirit of showing my mistakes, I&amp;rsquo;ll leave this up here.
+  I have had many people who have asked me for informational interviews. They tell me that they are interested in Data Science and want to hear about what I do on a day to day basis.</description>
     </item>
     
     <item>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oer open-education informatics on Ted Laderas, PhD</title>
+    <link>/categories/oer-open-education-informatics/</link>
+    <description>Recent content in Oer open-education informatics on Ted Laderas, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 25 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/oer-open-education-informatics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Health Informatics Course Materials</title>
+      <link>/2018/04/25/health-informatics-course-materials/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/04/25/health-informatics-course-materials/</guid>
+      <description>Sorry for the lack of posts. I have been busy with co-teaching our Health Informatics course (HSMP410) for the OHSU/PSU School of Public Health.
+I&amp;rsquo;m trying to make most of my lectures activity-driven for my students, who are Community Health Education and Nursing majors. I believe that you can teach mathematical concepts visually, so I am experimenting with using LearnR/Shiny to teach the basics of data literacy. I&amp;rsquo;m also using datacamp-light to show my students a simple intro to data science.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -86,6 +86,15 @@
     
     <url>
     
+      <loc>/2018/08/07/shiny-and-tidyeval/</loc>
+      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2018/08/02/turning-down-the-noise/</loc>
       <lastmod>2018-08-02T00:00:00+00:00</lastmod>
     </url>
@@ -95,8 +104,98 @@
     
     <url>
     
+      <loc>/2018/06/25/asking-for-help-to-get-better/</loc>
+      <lastmod>2018-06-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/2018/06/09/cascadia-r-2018-how-we-planned-it/</loc>
+      <lastmod>2018-06-09T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/2018/06/05/self-care-and-self-compassion-in-academia/</loc>
+      <lastmod>2018-06-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/2018/05/24/group-by-summarize-not-just-for-numeric-values/</loc>
+      <lastmod>2018-05-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/improvisation-and-collaboration/</loc>
+      <lastmod>2018-05-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/project/introduction_to_data_literacy/</loc>
       <lastmod>2018-05-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/2018/05/17/a-introvert-s-survival-guide-to-conferences/</loc>
+      <lastmod>2018-05-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/2018/04/25/health-informatics-course-materials/</loc>
+      <lastmod>2018-04-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/2018/04/04/a-simple-intro-to-genome-wide-association/</loc>
+      <lastmod>2018-04-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/2018/03/19/some-notes-from-the-evidence-to-scholarship-conference/</loc>
+      <lastmod>2018-03-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/2018/02/28/data-science-and-systems-science/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -717,8 +816,28 @@
     
     <url>
     
+      <loc>/tags/academia/</loc>
+      <lastmod>2018-06-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/analytics/</loc>
       <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/apps/</loc>
+      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -854,6 +973,16 @@
     
     <url>
     
+      <loc>/tags/conferences/</loc>
+      <lastmod>2018-05-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication/2014-connecting/</loc>
     </url>
     
@@ -902,6 +1031,16 @@
     
     <url>
     
+      <loc>/categories/data-science-systems/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/depression/</loc>
       <lastmod>2019-07-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -924,6 +1063,16 @@
     
       <loc>/tags/devtools/</loc>
       <lastmod>2019-02-12T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/digital-scholarship/</loc>
+      <lastmod>2018-03-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1002,8 +1151,28 @@
     
     <url>
     
+      <loc>/tags/gwas-active-learning-open-education-oer/</loc>
+      <lastmod>2018-04-04T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/improvisation/</loc>
+      <lastmod>2018-05-22T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/informatics/</loc>
-      <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+      <lastmod>2018-04-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1022,8 +1191,28 @@
     
     <url>
     
+      <loc>/tags/inputs/</loc>
+      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/interactive-visualization/</loc>
       <lastmod>2018-10-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/introverts/</loc>
+      <lastmod>2018-05-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1052,6 +1241,26 @@
     
     <url>
     
+      <loc>/tags/librarians/</loc>
+      <lastmod>2018-03-19T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/list/</loc>
+      <lastmod>2018-05-22T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/machine-learning/</loc>
       <lastmod>2017-06-22T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -1072,8 +1281,28 @@
     
     <url>
     
+      <loc>/tags/music/</loc>
+      <lastmod>2018-05-22T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/network/</loc>
       <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/networking/</loc>
+      <lastmod>2018-05-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1104,6 +1333,16 @@
     
       <loc>/tags/nlmt15/</loc>
       <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/oer-open-education-informatics/</loc>
+      <lastmod>2018-04-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1282,6 +1521,16 @@
     
     <url>
     
+      <loc>/tags/self-care-self-compassion/</loc>
+      <lastmod>2018-06-05T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/separating-code/</loc>
       <lastmod>2017-08-22T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -1294,6 +1543,26 @@
     
       <loc>/tags/shiny/</loc>
       <lastmod>2019-01-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/shiny/</loc>
+      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/social/</loc>
+      <lastmod>2018-05-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1322,8 +1591,28 @@
     
     <url>
     
+      <loc>/tags/survival/</loc>
+      <lastmod>2018-05-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/synthetic-data-data-science/</loc>
       <lastmod>2017-12-14T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/systems-science/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1372,6 +1661,16 @@
     
     <url>
     
+      <loc>/categories/teaching/</loc>
+      <lastmod>2018-04-04T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/teaching/</loc>
       <lastmod>2019-01-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -1393,6 +1692,26 @@
     <url>
     
       <loc>/cvitae/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/this/</loc>
+      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/tidyeval/</loc>
+      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   

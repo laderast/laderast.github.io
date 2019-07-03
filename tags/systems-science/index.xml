@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Systems science on Ted Laderas, PhD</title>
+    <link>/tags/systems-science/</link>
+    <description>Recent content in Systems science on Ted Laderas, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 28 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/systems-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data Science and Systems Science</title>
+      <link>/2018/02/28/data-science-and-systems-science/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/28/data-science-and-systems-science/</guid>
+      <description>I gave a talk for the Portland State University Systems Science seminar called How are Data Science and Systems Science Connected?. In this talk, I was highlighting current blind spots in Data Science that I think Systems Science approaches can address, especially that of interactions between features. I talked a little about my dissertation research (surrogate oncogenes), and the problem of black-box interpretability of predictive models.
+If you&amp;rsquo;re interested in listening to the recording, the playback is available here: https://us.</description>
+    </item>
+    
+  </channel>
+</rss>

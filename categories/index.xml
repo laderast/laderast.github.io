@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Data-science systems</title>
+      <link>/categories/data-science-systems/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/data-science-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Git</title>
       <link>/categories/git/</link>
       <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
@@ -39,6 +48,33 @@
     </item>
     
     <item>
+      <title>List</title>
+      <link>/categories/list/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/list/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Networking</title>
+      <link>/categories/networking/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/networking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oer open-education informatics</title>
+      <link>/categories/oer-open-education-informatics/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/oer-open-education-informatics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R</title>
       <link>/categories/r/</link>
       <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
@@ -48,11 +84,38 @@
     </item>
     
     <item>
+      <title>Shiny</title>
+      <link>/categories/shiny/</link>
+      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/shiny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social</title>
+      <link>/categories/social/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/social/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Talking</title>
       <link>/categories/talking/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/talking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>/categories/teaching/</link>
+      <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/teaching/</guid>
       <description></description>
     </item>
     
