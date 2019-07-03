@@ -11,6 +11,62 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Burning Out and Recovering (slowly)</title>
+      <link>/2019/07/03/burning-out-and-recovering-slowly/</link>
+      <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/07/03/burning-out-and-recovering-slowly/</guid>
+      <description>
+
+&lt;p&gt;Late last year, I had a meltdown, which is a symptom of burnout. I&amp;rsquo;d like to explain a little bit about my burnout in the hopes that other people can avoid it.&lt;/p&gt;
+
+&lt;p&gt;I want to help people, and I’m a people pleaser. I’m a giver, and sometimes I give too much, to the point I have nothing left. I have to be aware when people exploit this. One collaboration, unfortunately took advantage of my giving nature.&lt;/p&gt;
+
+&lt;p&gt;I was on a contracted project where I used some of the time to build an open source project to enable our research. With our collaborators, I showed them my work and they seemed excited. Unfortunately, this “excitement” turned into unreasonable demands. I was literally trying to do a full time development position while balancing the demands of other projects, including teaching. I started feeling like a machine, where each of my collaborators just wanted me to output figures and analyses.&lt;/p&gt;
+
+&lt;p&gt;The worst I’ve ever felt is when I have been busting my ass for things I don’t believe in, or have been stretched across too many projects. Unlike a lot of faculty at OHSU, I don’t have my own R01. I am a collaborator, and I work hard at it.&lt;/p&gt;
+
+&lt;p&gt;The wake-up call for me was persistent thoughts of suicide. I realized that I didn&amp;rsquo;t care that much about anything and I knew that things had to change.&lt;/p&gt;
+
+&lt;h2 id=&#34;regaining-balance&#34;&gt;Regaining Balance&lt;/h2&gt;
+
+&lt;p&gt;The past year has been about finding my way back. I’ve been trying to do the following to regain my balance:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Working 4 days/week instead of the usual 5&lt;/em&gt;. On my “day off”, I try my best to contribute to open source projects, work on music, and do other things that recharge me. This has enabled me to say no more often.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Understanding my values and restructuring my work to fit it&lt;/em&gt;. I’m much more focused on education, outreach, and mentoring these days. If a project comes up, I have to ask myself whether it is in line with my values. I&amp;rsquo;d like my research to include educational and data exploration components, such as Shiny.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Not putting all my eggs in the work basket&lt;/em&gt;. I&amp;rsquo;m an artist in addition to being a data scientist. I play the cello, compose, and do photography. I make more time for these.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Realizing that excellence does not require self sacrifice&lt;/em&gt;. I try to stop working on things obsessively, and only within the time I&amp;rsquo;m paid.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Mindfulness work&lt;/em&gt;. I’ve been using the Calm app to help me reorient me and not immediately react to adversities I encounter.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Giving up on perfection&lt;/em&gt;. I&amp;rsquo;m learning to slowly abandon perfection on projects I don&amp;rsquo;t care that much about (more on this later), and instead turn my alerts off, or only respond to them within sane business hours.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;am-i-recovered&#34;&gt;Am I Recovered?&lt;/h2&gt;
+
+&lt;p&gt;I’d like to say I’m fully recovered, but I’m not. I&amp;rsquo;m not sure I&amp;rsquo;ll ever be 100% recovered, if recovered means the insane productivity levels I was showing before. I have been slowly asking myself whether projects expect insane levels of work for the amount of time I can dedicate to them.&lt;/p&gt;
+
+&lt;p&gt;Thankfully, I have had really great support from my department and from the university overall throughout. I have had support from the communities I help manage (BioData Club and Portland R User Group), and all the great people involved in open science that I have met (rOpenSci, Mozilla, The Carpentries).&lt;/p&gt;
+
+&lt;p&gt;I would say that this support has been wonderful, and I feel like the journey back from research burnout has been ongoing. I wish there was a magic bullet for burnout, but working one&amp;rsquo;s way out of mental and emotional exhaustion ultimately takes a lot of time.&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;p&gt;If you are burned out, please seek &lt;a href=&#34;https://www.nami.org/Find-Support/NAMI-HelpLine&#34; target=&#34;_blank&#34;&gt;mental health assistance&lt;/a&gt; if you need help.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.psychologytoday.com/us/blog/high-octane-women/201311/the-tell-tale-signs-burnout-do-you-have-them&#34; target=&#34;_blank&#34;&gt;The Telltale Signs of Burnout&lt;/a&gt; - How to recognize when you&amp;rsquo;re burned out.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642&#34; target=&#34;_blank&#34;&gt;Mayo Clinic on Burnout&lt;/a&gt; - More information on Burnout.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.workplacestrategiesformentalhealth.com/managing-workplace-issues/burnout-response&#34; target=&#34;_blank&#34;&gt;Responding to Burnout&lt;/a&gt;. How can we recognize burnout in others?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Package Building: How `DESCRIPTION`, `NAMESPACE`, `roxygen`, and `devtools::document` work together</title>
       <link>/2019/02/12/package-building-description-namespace/</link>
       <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
@@ -741,75 +797,6 @@ use_filter &amp;lt;- function(df, cutoff=0.5) {
 &lt;p&gt;6) &lt;em&gt;Read &lt;a href=&#34;http://www.adamgrant.net&#34; target=&#34;_blank&#34;&gt;Give and Take&lt;/a&gt;&lt;/em&gt;. This book by Adam Grant really struck me as the way to actually network. In short, I learned that if I want a return on my energy expenditure, I have to spend my energy on Givers, or people who help others. I am a Giver, but I now tend only to give informational interviewers to other Givers. The rest are too draining for me.&lt;/p&gt;
 
 &lt;p&gt;I have given so many of these interviews and have gotten nothing from them. Not even a follow-up, which really is bad practice. So, if I&amp;rsquo;m considered difficult to approach about these, know it is because your previous askers have really been an energy drain and have been inconsiderate Takers. Make it interesting for me and be considerate. I&amp;rsquo;m much more likely to help you.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Python_resources</title>
-      <link>/python_resources/</link>
-      <pubDate>Fri, 12 Jan 2018 13:55:55 -0800</pubDate>
-      
-      <guid>/python_resources/</guid>
-      <description>
-
-&lt;p&gt;A list of python resources at OHSU and beyond for the neuroscience students.&lt;/p&gt;
-
-&lt;h2 id=&#34;in-neuroscience&#34;&gt;In Neuroscience&lt;/h2&gt;
-
-&lt;h3 id=&#34;python-bootcamp-for-neuroscientists-neus640&#34;&gt;Python Bootcamp for Neuroscientists (NEUS640)&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/dasaderi/python_neurobootcamp&#34; target=&#34;_blank&#34;&gt;Course Material&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This course is a gentle introduction to the Python
-programming language using data types familiar to Neuroscience students, including behavioral, electrophysiology, and imaging data. Emphasis will be put on introducing students to concepts of visualization, data manipulation, and analysis using available Python packages (NumPy, Pandas, Matplotlib).&lt;/p&gt;
-
-&lt;h2 id=&#34;in-medical-informatics-and-clinical-epidemiology-dmice&#34;&gt;In Medical Informatics and Clinical Epidemiology (DMICE)&lt;/h2&gt;
-
-&lt;h3 id=&#34;introduction-to-programming-no-course-number&#34;&gt;Introduction to Programming (no course number)&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Instructor: Lisa Karstens, Ph.D.&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;0.0 credits&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/IntroductionToProgramming-Syllabus-WI18.pdf&#34; target=&#34;_blank&#34;&gt;Course Syllabus&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Offered: Winter and Summer Quarter&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This non-credit, online course will introduce the beginning programmer to programming structure and design, creating a solid foundation for all types of programming. The emphasis will be on procedural programming and control structures, although exercises will be in Python. The course fulfills the prerequisite for BMI 540 and BMI 565. Tuition fee is $500.&lt;/p&gt;
-
-&lt;p&gt;Students may register during the regular winter and summer term registration periods. Contact Diane Doctor for details at doctord@ohsu.edu.&lt;/p&gt;
-
-&lt;h3 id=&#34;bioinformatics-programming-and-scripting-bmi-565-656&#34;&gt;Bioinformatics Programming and Scripting - BMI 565 / 656&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Instructor: Michael Mooney, Ph.D.&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Credits: 3.0&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/BMI-565-Syllabus-FA17.pdf&#34; target=&#34;_blank&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Offered: Fall Quarter&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The purpose of this course is to equip research scientists with computational skills necessary to create and automate tools to analyze biological data.  The course is divided into four sub-topics: python programming, scripting in unix, biopython library, bioinformatics workflows.  Python will be used used to solve simple to sophisticated programming problems and to review general computational language paradigms such as problem abstraction, data types, file I/O, iteration, functions, and objects.  There will also be an emphasis on writing unix operating system shell scripts to automate repetitive tasks and connect disparate bioinformatics tools using files and pipes.  In addition, students will learn to access public repositories to perform basic bioinformatics tasks such as annotating gene products, sequence searching, and functional queries. This course is designed to be a first year requirement for students in the Bioinformatics and Computational Biology graduate program in Biomedical Informatics. Open to other students with consent of instructor.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Prerequisite&lt;/strong&gt;: Background must include an introductory programming class including concepts such as variables, loops, I/O, methods, and algorithms.&lt;/p&gt;
-
-&lt;h2 id=&#34;computer-science-and-electrical-engineering-cs-ee-python-courses&#34;&gt;Computer Science and Electrical Engineering (CS/EE) Python Courses&lt;/h2&gt;
-
-&lt;h3 id=&#34;data-science-programming-cs-527-627&#34;&gt;Data Science Programming - CS 527 / 627&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://cslu.ohsu.edu/~kain/CS627/&#34; target=&#34;_blank&#34;&gt;Course Website&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This course is designed to give you awareness and initial working knowledge of some of the most fundamental computational tools for performing a wide variety of academic research. As such, it will focus on providing breadth instead of depth, which means that for each concept we will talk about motivation, key concepts, and concrete usage scenarios, but without mathematical background or proofs, which can be acquired in more specialized classes. In this class we will: become familiar with the UNIX/LINUX environment, learn how to version control files with git, write programs inpython, perform numeric tasks using numpy and scipy, analyze data using pandas, apply machine learning algorithms using scikit-learn, visualize data using matplotlib and pyqtgraph, use QT/pyside to build graphical user interfaces, and finally we will address performance issues via compilation/profiling/parallelization tools.&lt;/p&gt;
-
-&lt;h3 id=&#34;introduction-to-image-processing-ee-584-684&#34;&gt;Introduction to Image Processing EE 584 / 684&lt;/h3&gt;
-
-&lt;p&gt;This course covers basic image processing principles and techniques with a brief introduction to machine vision. Specific topics include image transform methods, image filtering, image enhancement, image restoration, segmentation, image representation and feature extraction, image recognition and classification, and image compression. Application of these techniques is illustrated in numerous examples. Pre-requisite: probability and statistics or equivalent, calculus, linear algebra and proficiency in at least one high-level programming language.&lt;/p&gt;
-
-&lt;h3 id=&#34;data-visualization-cs-631&#34;&gt;Data Visualization CS 631&lt;/h3&gt;
-
-&lt;p&gt;This course will give students a foundation in the principles of data visualization, particularly as applied to scientific and technical data, as well as provide students with hands-on experience using modern software tools for developing visualizations. Lecture topics will include an overview of visual perception, color theory and practice, different types of graphs and their purposes, visualizations for specialized forms of data including time-series and geospatial data sets, strategies for working with multidimensional data, etc. There will also be lecture content on ethical issues surrounding data visualization. Weekly lab sessions will introduce students to popular data visualization tools such as R&amp;rsquo;s ggplot and Shiny, Tableau, etc.&lt;/p&gt;
-
-&lt;h2 id=&#34;datacamp&#34;&gt;DataCamp&lt;/h2&gt;
-
-&lt;p&gt;NEUS640 Students will have access to DataCamp for the next 6 months.&lt;/p&gt;
 </description>
     </item>
     
