@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/tidyverse/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>R Bootcamp</title>
+      <link>/teaching/r-bootcamp/</link>
+      <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/r-bootcamp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A gRadual intRoduction to the tidyverse</title>
@@ -18,15 +27,6 @@
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/teaching/gradual_tidyverse/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R Bootcamp</title>
-      <link>/teaching/r-bootcamp/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/teaching/r-bootcamp/</guid>
       <description></description>
     </item>
     

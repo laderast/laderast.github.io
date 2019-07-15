@@ -14,6 +14,15 @@
     
     <url>
     
+      <loc>/teaching/r-bootcamp/</loc>
+      <lastmod>2019-06-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2019/02/12/package-building-description-namespace/</loc>
       <lastmod>2019-02-12T00:00:00+00:00</lastmod>
     </url>
@@ -447,15 +456,6 @@
     <url>
     
       <loc>/teaching/python_neuro/</loc>
-      <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/teaching/r-bootcamp/</loc>
       <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     </url>
     
@@ -1442,7 +1442,7 @@
     <url>
     
       <loc>/tags/r/</loc>
-      <lastmod>2019-02-12T00:00:00+00:00</lastmod>
+      <lastmod>2019-06-22T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1452,7 +1452,7 @@
     <url>
     
       <loc>/tags/r/</loc>
-      <lastmod>2019-02-12T00:00:00+00:00</lastmod>
+      <lastmod>2019-06-22T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1672,7 +1672,7 @@
     <url>
     
       <loc>/teaching/</loc>
-      <lastmod>2019-01-25T00:00:00+00:00</lastmod>
+      <lastmod>2019-06-22T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1720,7 +1720,7 @@
     <url>
     
       <loc>/tags/tidyverse/</loc>
-      <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+      <lastmod>2019-06-22T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

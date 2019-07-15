@@ -68,6 +68,15 @@
     </item>
     
     <item>
+      <title>R Bootcamp</title>
+      <link>/teaching/r-bootcamp/</link>
+      <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/r-bootcamp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Package Building: How `DESCRIPTION`, `NAMESPACE`, `roxygen`, and `devtools::document` work together</title>
       <link>/2019/02/12/package-building-description-namespace/</link>
       <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
@@ -758,77 +767,6 @@ use_filter &amp;lt;- function(df, cutoff=0.5) {
 &lt;p&gt;I guess my point being is that I need to reframe saying no as being protective of myself and my current students rather than registering the disappointment when I say no. I&amp;rsquo;d like to help people, but I can help people better when I&amp;rsquo;m feeling well and better. Part of this may be coming to grips that academia may not be my place in the world if it demands that I sacrifice my mental health just to stay where I am.&lt;/p&gt;
 
 &lt;p&gt;So for the time being, I&amp;rsquo;d like to focus on getting better and feeling better. For your sake and mine. I will try to welcome newcomers to data science the best I can - just realize that what I may be able to do for you is a little limited right now.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>group_by/summarize: Not just for numeric values!</title>
-      <link>/2018/05/24/group-by-summarize-not-just-for-numeric-values/</link>
-      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/05/24/group-by-summarize-not-just-for-numeric-values/</guid>
-      <description>&lt;p&gt;Even though I’ve been using the &lt;code&gt;tidyverse&lt;/code&gt; for a couple of years, there’s always a couple new applications of &lt;code&gt;tidyverse&lt;/code&gt; verbs.&lt;/p&gt;
-&lt;p&gt;This one, in retrospect, is pretty simple. I had a one to many table that I wanted to collapse, tidy-style. Let’s look at the &lt;code&gt;diamonds&lt;/code&gt; dataset:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;diamonds %&amp;gt;% select(color, cut)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## # A tibble: 53,940 x 2
-##    color cut      
-##    &amp;lt;ord&amp;gt; &amp;lt;ord&amp;gt;    
-##  1 E     Ideal    
-##  2 E     Premium  
-##  3 E     Good     
-##  4 I     Premium  
-##  5 J     Good     
-##  6 J     Very Good
-##  7 I     Very Good
-##  8 H     Very Good
-##  9 E     Fair     
-## 10 H     Very Good
-## # ... with 53,930 more rows&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;What if we wanted to collapse all the entries for each color into a single line? There’s 7 different colors, so we can use a combination of &lt;code&gt;group_by&lt;/code&gt; on &lt;code&gt;color&lt;/code&gt; and use the &lt;code&gt;paste()&lt;/code&gt; function within &lt;code&gt;summarize()&lt;/code&gt; to get what we want, which I’ve called &lt;code&gt;all_colors&lt;/code&gt; here. By specifying the &lt;code&gt;collapse&lt;/code&gt; argument, we can specify the delimiter within that column:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;diamonds %&amp;gt;% select(color, cut) %&amp;gt;% 
-  group_by(color) %&amp;gt;% 
-  summarize(all_colors=
-              paste(cut, collapse=&amp;quot;;&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## # A tibble: 7 x 2
-##   color all_colors                                                         
-##   &amp;lt;ord&amp;gt; &amp;lt;chr&amp;gt;                                                              
-## 1 D     Very Good;Very Good;Very Good;Good;Good;Premium;Premium;Ideal;Idea~
-## 2 E     Ideal;Premium;Good;Fair;Premium;Premium;Very Good;Very Good;Very G~
-## 3 F     Premium;Very Good;Very Good;Very Good;Good;Premium;Very Good;Very ~
-## 4 G     Very Good;Ideal;Ideal;Very Good;Premium;Premium;Ideal;Very Good;Id~
-## 5 H     Very Good;Very Good;Very Good;Good;Good;Very Good;Good;Very Good;V~
-## 6 I     Premium;Very Good;Ideal;Good;Premium;Ideal;Ideal;Ideal;Ideal;Very ~
-## 7 J     Good;Very Good;Good;Ideal;Ideal;Good;Good;Very Good;Very Good;Very~&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Thanks to Ken Butler, who pointed out that the &lt;code&gt;tidyverse&lt;/code&gt; way (via &lt;code&gt;stringr&lt;/code&gt;) is to use &lt;code&gt;str_c&lt;/code&gt; instead:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;diamonds %&amp;gt;% select(color, cut) %&amp;gt;% 
-  group_by(color) %&amp;gt;% 
-  summarize(all_colors=
-              stringr::str_c(cut, collapse=&amp;quot;;&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## # A tibble: 7 x 2
-##   color all_colors                                                         
-##   &amp;lt;ord&amp;gt; &amp;lt;chr&amp;gt;                                                              
-## 1 D     Very Good;Very Good;Very Good;Good;Good;Premium;Premium;Ideal;Idea~
-## 2 E     Ideal;Premium;Good;Fair;Premium;Premium;Very Good;Very Good;Very G~
-## 3 F     Premium;Very Good;Very Good;Very Good;Good;Premium;Very Good;Very ~
-## 4 G     Very Good;Ideal;Ideal;Very Good;Premium;Premium;Ideal;Very Good;Id~
-## 5 H     Very Good;Very Good;Very Good;Good;Good;Very Good;Good;Very Good;V~
-## 6 I     Premium;Very Good;Ideal;Good;Premium;Ideal;Ideal;Ideal;Ideal;Very ~
-## 7 J     Good;Very Good;Good;Ideal;Ideal;Good;Good;Very Good;Very Good;Very~&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Finally, if we wanted to just get the unique values of the cuts in a single line, we can use &lt;code&gt;unique&lt;/code&gt;:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;diamonds %&amp;gt;% select(color, cut) %&amp;gt;% 
-  group_by(color) %&amp;gt;% 
-  summarize(all_colors=
-              paste(unique(cut), collapse=&amp;quot;;&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## # A tibble: 7 x 2
-##   color all_colors                       
-##   &amp;lt;ord&amp;gt; &amp;lt;chr&amp;gt;                            
-## 1 D     Very Good;Good;Premium;Ideal;Fair
-## 2 E     Ideal;Premium;Good;Fair;Very Good
-## 3 F     Premium;Very Good;Good;Fair;Ideal
-## 4 G     Very Good;Ideal;Premium;Good;Fair
-## 5 H     Very Good;Good;Premium;Fair;Ideal
-## 6 I     Premium;Very Good;Ideal;Good;Fair
-## 7 J     Good;Very Good;Ideal;Premium;Fair&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
