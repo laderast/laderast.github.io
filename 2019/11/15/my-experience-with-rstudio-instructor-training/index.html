@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.48" />
+  <meta name="author" content="Ted Laderas">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Full Disclosure: my department paid for the training and two of the certification exams. I did the Shiny exam for free with the stipulation that I would provide feedback on the exam itself.
+ I recently became a certified RStudio Instructor in both Shiny and the Tidyverse. I thought I would write a little about the experience. I haven’t really had any formal pedagogical training, and having some of the state of the art and evidence-based practices were really helpful in extending my approaches to teaching.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/2019/11/15/my-experience-with-rstudio-instructor-training/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#4caf50">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-111883274-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Ted Laderas, PhD">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Ted Laderas, PhD">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/2019/11/15/my-experience-with-rstudio-instructor-training/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@tladeras">
+  <meta property="twitter:creator" content="@tladeras">
+  
+  <meta property="og:site_name" content="Ted Laderas, PhD">
+  <meta property="og:url" content="/2019/11/15/my-experience-with-rstudio-instructor-training/">
+  <meta property="og:title" content="Notes on the RStudio Instructor Training Experience | Ted Laderas, PhD">
+  <meta property="og:description" content="Full Disclosure: my department paid for the training and two of the certification exams. I did the Shiny exam for free with the stipulation that I would provide feedback on the exam itself.
+ I recently became a certified RStudio Instructor in both Shiny and the Tidyverse. I thought I would write a little about the experience. I haven’t really had any formal pedagogical training, and having some of the state of the art and evidence-based practices were really helpful in extending my approaches to teaching.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-11-15T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2019-11-15T00:00:00&#43;00:00">
+  
+
+  
+
+  <title>Notes on the RStudio Instructor Training Experience | Ted Laderas, PhD</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Ted Laderas, PhD</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Shiny</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#software">
+            
+            <span>Software</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Blog</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/cvitae/">
+            
+            <span>CV</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <div class="article-inner">
+      <h1 itemprop="name">Notes on the RStudio Instructor Training Experience</h1>
+
+      
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2019-11-15 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      Nov 15, 2019
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Ted Laderas">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    7 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Notes%20on%20the%20RStudio%20Instructor%20Training%20Experience&amp;url=%2f2019%2f11%2f15%2fmy-experience-with-rstudio-instructor-training%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2f2019%2f11%2f15%2fmy-experience-with-rstudio-instructor-training%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2f2019%2f11%2f15%2fmy-experience-with-rstudio-instructor-training%2f&amp;title=Notes%20on%20the%20RStudio%20Instructor%20Training%20Experience"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2f2019%2f11%2f15%2fmy-experience-with-rstudio-instructor-training%2f&amp;title=Notes%20on%20the%20RStudio%20Instructor%20Training%20Experience"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Notes%20on%20the%20RStudio%20Instructor%20Training%20Experience&amp;body=%2f2019%2f11%2f15%2fmy-experience-with-rstudio-instructor-training%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+      <div class="article-style" itemprop="articleBody">
+        
+
+<blockquote>
+<p>Full Disclosure: my department paid for the training and two of the certification exams. I did the Shiny exam for free with the stipulation that I would provide feedback on the exam itself.</p>
+</blockquote>
+
+<p>I recently became a <a href="https://education.rstudio.com/trainers/" target="_blank">certified RStudio Instructor in both Shiny and the Tidyverse</a>. I thought I would write a little about the experience. I haven’t really had any formal pedagogical training, and having some of the state of the art and evidence-based practices were really helpful in extending my approaches to teaching.</p>
+
+<h2 id="instructor-training">Instructor Training</h2>
+
+<p>The instructor training is online, but delivered via Zoom. The session themselves are 4 hours apiece and at set times, with a small cohort overall (I think mine was about 14). Greg delivered a short set of slides for each activity, and depending on the activity, we were sent out into smaller groups to discuss the topic. I liked how the course was paced - I felt like having activities almost every half hour definitely kept me awake.</p>
+
+<p>The training for me (I am on PST) was from 8 AM to 12 PM two days in a row, and my cohort was from all over the US/Canada.</p>
+
+<p>Here are the parts of the instructor training that I found especially useful. Note that since Greg also helped develop the Carpentries instructor training, there is some overlap between the two training programs (in fact, if you’ve taught a Carpentries course and done the Carpentries training, you can waive the instructor training altogether).</p>
+
+<p><strong>Building concept maps</strong>. If you can, you should map out the concepts you want to teach, along with how these concepts are related. This concept map is important in helping your students build the mental models that will guide them towards mastery.  I did a concept map of Tidy data for my example. Concept maps themselves are a bit tricky to build, but I think they help clarify your understanding of what you are teaching, and thus your lessons will be more understandable.</p>
+
+<p><strong>Thinking about cognitive overload.</strong> This was a call to think about limiting the number of concepts and connections covered per unit. Humans have a short term memory of about 5 +/- 2 things at a time. This is an extremely helpful guideline to consider when developing training units, as your course objectives and training should keep these in mind. Also, there are different kinds of cognitive overload, and some of them (like extraneous details), you can remove to help with the other kinds. There are lots of ways to teach coding, such as Parsons Problems (where students have to put lines of code in order), or faded examples (fill in the blank style coding assignments), that can focus on particular aspects of coding. (As an unrelated topic, I have been thinking about reading code as being an essential skill and I try to teach students to learn how to read code.)</p>
+
+<p><strong>Teaching needs to be dynamic.</strong> As instructors, part of our value lies in tailoring our training for our students and their previous knowledge. Unlike YouTube videos, we can assess what our students already know, and focus on the concepts that they don’t. In order to do this, though, we need to have ways of assessing what our students know. Formative assessments (assessments during a lesson) are essential in figuring out whether you can proceed, or whether you need to spend more time.</p>
+
+<p><strong>Providing feedback.</strong> We were to teach each other a short lesson of our choosing, which was pretty fun. After a test run with a larger group, my partner and I got to teach each other - she taught me about making jam (and the food safety issues) and I taught her about making cornbread. (It was close to lunchtime when we did this, I think we were both hungry.) The exercise was super useful in helping us to not be afraid of giving feedback and to be aware of what kinds of feedback to give.</p>
+
+<p><strong>What demotivates students.</strong> This was an important section, and a bit emotionally difficult. I have been guilty of some of the teaching behavior that demotivates students, such as taking over their keyboard, instead of letting them fix it. If we are to be inclusive and welcoming to everyone, we need to be aware of these (sometimes subtle) behaviors that can discourage and demotivate all of our students.</p>
+
+<p><strong>Other tips from other instructors</strong>. I really enjoyed hearing other instructor’s experiences and I had a lot of respect for my cohort. There were lots of little tips we shared with each other that were super helpful, such as the types of mics to use. I also thought that it was helpful when we shared our struggles with each other. It made me feel much more as part of a group of instructors, which was very helpful for me.</p>
+
+<h2 id="instructor-certification-exam">Instructor Certification Exam</h2>
+
+<p>The instructor certification covered the pedagogical techniques we discussed in the instructor training. This exam, like the others, was open book, open note, open internet, but not open person (no lifeline, no talking with others).</p>
+
+<p>As part of the exam, we were required to develop and deliver a lesson. I ended up reworking one of my SQL lessons in my Analytics course. I found it a really useful exercise in rethinking my examples discussing left and inner joins, especially in my table examples. You can see my lesson here: <a href="https://rstudio.cloud/project/413048" target="_blank">SQL Joins in R</a>.</p>
+
+<p>This part of the exam is only about 10 minutes long, but you should be prepared, especially in figuring out how you will assess the learning of the students.</p>
+
+<h2 id="tidyverse-certification-exam">Tidyverse Certification Exam</h2>
+
+<p>After I had done my instructor certification, I had to do the technical qualifications. This was also done online, with Greg delivering the exam over Zoom. Most of the exam had to be done via RStudio on my computer.  This exam, like the others, was open book, open note, open internet, but not open person (no lifeline, no talking with others).</p>
+
+<p>What did the exam cover? Roughly, it covered almost all of <a href="https://r4ds.had.co.nz" target="_blank">R for Data Science</a> and was very task-focused. There was a focus on debugging, data transformation, markdown and visualization. The tasks were mostly problem driven, on the order of recreating a figure, or parametrizing a workflow. It was emphasized that we should solve the problems the way we  usually work and talk out our problems aloud. For one of the problems, I actually had to search and teach myself on the fly. This was actually a good way to confirm that my conceptual models of the tidyverse were helpful.</p>
+
+<p>One tip: 90 minutes is a long amount of time for an exam, especially where you are actively thinking and talking out loud. You should have something to eat by your side so you can replenish your blood glucose. It is also slightly unnerving to have someone watch you actively solve problems and program. If you get flustered, take a breath. There’s not usually a single way to solve the problems.</p>
+
+<h2 id="shiny-certification-exam">Shiny Certification Exam</h2>
+
+<p>A few weeks later, I took the Shiny certification. In terms of coverage, there is not currently a good text to study for the Shiny Certification exam ( <a href="https://mastering-shiny.org" target="_blank">Mastering Shiny</a> is probably going to be the reference to study when it is finished).  In order to prepare, I went over the <a href="https://shiny.rstudio.com" target="_blank">RStudio articles about Shiny</a>, and looked over the <a href="https://shiny.rstudio.com/gallery/" target="_blank">RStudio Shiny Gallery</a> to bone up on the different programming techniques used in Shiny, such as UI elements, reactives, the observe/update pattern, and modules.</p>
+
+<p>Again, the exam covered debugging, including fixing applications, understanding control logic between ui and server, and building an app from scratch. I would say much of the exam covers how well established your own mental model of Shiny progamming is.</p>
+
+<p>One thing to remember: as the technology and code changes,  the certification exams will change and you may have to get re-certified. So my experience of these exams may be different than your experience.</p>
+
+<h2 id="overall-experience">Overall Experience</h2>
+
+<p>Would I recommend the training? I thought it was extremely useful, especially in terms of learning more about evidence based methods in effective education. As someone who is thinking about starting a consulting group focusing on training, having the certifications are extremely valuable to me and my future career. I look forward to teaching and training more people in R.</p>
+
+<h2 id="for-more-info">For More Info</h2>
+
+<p>Please consult the <a href="https://education.rstudio.com/trainers/" target="_blank">RStudio Trainer Website</a></p>
+
+      </div>
+
+      
+
+
+
+
+    </div>
+  </div>
+
+</article>
+
+
+
+
+
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/R.min.js"></script>
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+

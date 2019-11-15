@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>Notes on the RStudio Instructor Training Experience</title>
+      <link>/2019/11/15/my-experience-with-rstudio-instructor-training/</link>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/11/15/my-experience-with-rstudio-instructor-training/</guid>
+      <description>Full Disclosure: my department paid for the training and two of the certification exams. I did the Shiny exam for free with the stipulation that I would provide feedback on the exam itself.
+ I recently became a certified RStudio Instructor in both Shiny and the Tidyverse. I thought I would write a little about the experience. I haven’t really had any formal pedagogical training, and having some of the state of the art and evidence-based practices were really helpful in extending my approaches to teaching.</description>
+    </item>
+    
+    <item>
       <title>Kindness at the Cost of Yourself</title>
       <link>/2019/09/23/kindness-at-the-cost-of-yourself/</link>
       <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>

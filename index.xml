@@ -11,6 +11,74 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Notes on the RStudio Instructor Training Experience</title>
+      <link>/2019/11/15/my-experience-with-rstudio-instructor-training/</link>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/11/15/my-experience-with-rstudio-instructor-training/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;Full Disclosure: my department paid for the training and two of the certification exams. I did the Shiny exam for free with the stipulation that I would provide feedback on the exam itself.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I recently became a &lt;a href=&#34;https://education.rstudio.com/trainers/&#34; target=&#34;_blank&#34;&gt;certified RStudio Instructor in both Shiny and the Tidyverse&lt;/a&gt;. I thought I would write a little about the experience. I haven’t really had any formal pedagogical training, and having some of the state of the art and evidence-based practices were really helpful in extending my approaches to teaching.&lt;/p&gt;
+
+&lt;h2 id=&#34;instructor-training&#34;&gt;Instructor Training&lt;/h2&gt;
+
+&lt;p&gt;The instructor training is online, but delivered via Zoom. The session themselves are 4 hours apiece and at set times, with a small cohort overall (I think mine was about 14). Greg delivered a short set of slides for each activity, and depending on the activity, we were sent out into smaller groups to discuss the topic. I liked how the course was paced - I felt like having activities almost every half hour definitely kept me awake.&lt;/p&gt;
+
+&lt;p&gt;The training for me (I am on PST) was from 8 AM to 12 PM two days in a row, and my cohort was from all over the US/Canada.&lt;/p&gt;
+
+&lt;p&gt;Here are the parts of the instructor training that I found especially useful. Note that since Greg also helped develop the Carpentries instructor training, there is some overlap between the two training programs (in fact, if you’ve taught a Carpentries course and done the Carpentries training, you can waive the instructor training altogether).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Building concept maps&lt;/strong&gt;. If you can, you should map out the concepts you want to teach, along with how these concepts are related. This concept map is important in helping your students build the mental models that will guide them towards mastery.  I did a concept map of Tidy data for my example. Concept maps themselves are a bit tricky to build, but I think they help clarify your understanding of what you are teaching, and thus your lessons will be more understandable.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thinking about cognitive overload.&lt;/strong&gt; This was a call to think about limiting the number of concepts and connections covered per unit. Humans have a short term memory of about 5 +/- 2 things at a time. This is an extremely helpful guideline to consider when developing training units, as your course objectives and training should keep these in mind. Also, there are different kinds of cognitive overload, and some of them (like extraneous details), you can remove to help with the other kinds. There are lots of ways to teach coding, such as Parsons Problems (where students have to put lines of code in order), or faded examples (fill in the blank style coding assignments), that can focus on particular aspects of coding. (As an unrelated topic, I have been thinking about reading code as being an essential skill and I try to teach students to learn how to read code.)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Teaching needs to be dynamic.&lt;/strong&gt; As instructors, part of our value lies in tailoring our training for our students and their previous knowledge. Unlike YouTube videos, we can assess what our students already know, and focus on the concepts that they don’t. In order to do this, though, we need to have ways of assessing what our students know. Formative assessments (assessments during a lesson) are essential in figuring out whether you can proceed, or whether you need to spend more time.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Providing feedback.&lt;/strong&gt; We were to teach each other a short lesson of our choosing, which was pretty fun. After a test run with a larger group, my partner and I got to teach each other - she taught me about making jam (and the food safety issues) and I taught her about making cornbread. (It was close to lunchtime when we did this, I think we were both hungry.) The exercise was super useful in helping us to not be afraid of giving feedback and to be aware of what kinds of feedback to give.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What demotivates students.&lt;/strong&gt; This was an important section, and a bit emotionally difficult. I have been guilty of some of the teaching behavior that demotivates students, such as taking over their keyboard, instead of letting them fix it. If we are to be inclusive and welcoming to everyone, we need to be aware of these (sometimes subtle) behaviors that can discourage and demotivate all of our students.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Other tips from other instructors&lt;/strong&gt;. I really enjoyed hearing other instructor’s experiences and I had a lot of respect for my cohort. There were lots of little tips we shared with each other that were super helpful, such as the types of mics to use. I also thought that it was helpful when we shared our struggles with each other. It made me feel much more as part of a group of instructors, which was very helpful for me.&lt;/p&gt;
+
+&lt;h2 id=&#34;instructor-certification-exam&#34;&gt;Instructor Certification Exam&lt;/h2&gt;
+
+&lt;p&gt;The instructor certification covered the pedagogical techniques we discussed in the instructor training. This exam, like the others, was open book, open note, open internet, but not open person (no lifeline, no talking with others).&lt;/p&gt;
+
+&lt;p&gt;As part of the exam, we were required to develop and deliver a lesson. I ended up reworking one of my SQL lessons in my Analytics course. I found it a really useful exercise in rethinking my examples discussing left and inner joins, especially in my table examples. You can see my lesson here: &lt;a href=&#34;https://rstudio.cloud/project/413048&#34; target=&#34;_blank&#34;&gt;SQL Joins in R&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This part of the exam is only about 10 minutes long, but you should be prepared, especially in figuring out how you will assess the learning of the students.&lt;/p&gt;
+
+&lt;h2 id=&#34;tidyverse-certification-exam&#34;&gt;Tidyverse Certification Exam&lt;/h2&gt;
+
+&lt;p&gt;After I had done my instructor certification, I had to do the technical qualifications. This was also done online, with Greg delivering the exam over Zoom. Most of the exam had to be done via RStudio on my computer.  This exam, like the others, was open book, open note, open internet, but not open person (no lifeline, no talking with others).&lt;/p&gt;
+
+&lt;p&gt;What did the exam cover? Roughly, it covered almost all of &lt;a href=&#34;https://r4ds.had.co.nz&#34; target=&#34;_blank&#34;&gt;R for Data Science&lt;/a&gt; and was very task-focused. There was a focus on debugging, data transformation, markdown and visualization. The tasks were mostly problem driven, on the order of recreating a figure, or parametrizing a workflow. It was emphasized that we should solve the problems the way we  usually work and talk out our problems aloud. For one of the problems, I actually had to search and teach myself on the fly. This was actually a good way to confirm that my conceptual models of the tidyverse were helpful.&lt;/p&gt;
+
+&lt;p&gt;One tip: 90 minutes is a long amount of time for an exam, especially where you are actively thinking and talking out loud. You should have something to eat by your side so you can replenish your blood glucose. It is also slightly unnerving to have someone watch you actively solve problems and program. If you get flustered, take a breath. There’s not usually a single way to solve the problems.&lt;/p&gt;
+
+&lt;h2 id=&#34;shiny-certification-exam&#34;&gt;Shiny Certification Exam&lt;/h2&gt;
+
+&lt;p&gt;A few weeks later, I took the Shiny certification. In terms of coverage, there is not currently a good text to study for the Shiny Certification exam ( &lt;a href=&#34;https://mastering-shiny.org&#34; target=&#34;_blank&#34;&gt;Mastering Shiny&lt;/a&gt; is probably going to be the reference to study when it is finished).  In order to prepare, I went over the &lt;a href=&#34;https://shiny.rstudio.com&#34; target=&#34;_blank&#34;&gt;RStudio articles about Shiny&lt;/a&gt;, and looked over the &lt;a href=&#34;https://shiny.rstudio.com/gallery/&#34; target=&#34;_blank&#34;&gt;RStudio Shiny Gallery&lt;/a&gt; to bone up on the different programming techniques used in Shiny, such as UI elements, reactives, the observe/update pattern, and modules.&lt;/p&gt;
+
+&lt;p&gt;Again, the exam covered debugging, including fixing applications, understanding control logic between ui and server, and building an app from scratch. I would say much of the exam covers how well established your own mental model of Shiny progamming is.&lt;/p&gt;
+
+&lt;p&gt;One thing to remember: as the technology and code changes,  the certification exams will change and you may have to get re-certified. So my experience of these exams may be different than your experience.&lt;/p&gt;
+
+&lt;h2 id=&#34;overall-experience&#34;&gt;Overall Experience&lt;/h2&gt;
+
+&lt;p&gt;Would I recommend the training? I thought it was extremely useful, especially in terms of learning more about evidence based methods in effective education. As someone who is thinking about starting a consulting group focusing on training, having the certifications are extremely valuable to me and my future career. I look forward to teaching and training more people in R.&lt;/p&gt;
+
+&lt;h2 id=&#34;for-more-info&#34;&gt;For More Info&lt;/h2&gt;
+
+&lt;p&gt;Please consult the &lt;a href=&#34;https://education.rstudio.com/trainers/&#34; target=&#34;_blank&#34;&gt;RStudio Trainer Website&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Kindness at the Cost of Yourself</title>
       <link>/2019/09/23/kindness-at-the-cost-of-yourself/</link>
       <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
@@ -760,31 +828,6 @@ use_filter &amp;lt;- function(df, cutoff=0.5) {
 &lt;p&gt;I just want to say this: I am not a rock. I am not strong. But I am a good advocate for others, especially those I feel who have been dealt an unfair hand. I realize that I need to advocate for myself right now. Thank you to other academics such as Dr. Emily Hencken Ritter, who wrote about &lt;a href=&#34;http://duckofminerva.com/2017/04/building-safe-space-for-depression-in-academia.html&#34; target=&#34;_blank&#34;&gt;her struggles with depression and what help she asked for&lt;/a&gt;. I&amp;rsquo;m going to highlight posts about this using the hashtag #DepressionInAcademia on Twitter.&lt;/p&gt;
 
 &lt;p&gt;In short: I&amp;rsquo;m not going to get better overnight, but I&amp;rsquo;m trying to take steps to get better. I&amp;rsquo;ll be taking a little time off this summer as well to recharge and figure out what&amp;rsquo;s next. I&amp;rsquo;ll try to chronicle what works for me and to highlight other people&amp;rsquo;s writings about this.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cascadia-R 2018: How we planned it and the reasons why</title>
-      <link>/2018/06/09/cascadia-r-2018-how-we-planned-it/</link>
-      <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/06/09/cascadia-r-2018-how-we-planned-it/</guid>
-      <description>&lt;p&gt;Well, &lt;a href=&#34;http://cascadiarconf.com&#34;&gt;Cascadia-R 2018&lt;/a&gt; has come and gone. This year we tried our best to make it as inclusive, welcoming, and friendly as we could. Considering we had 224 participants this time around, I’d say it was a success.&lt;/p&gt;
-&lt;p&gt;I just thought I would do a little write up of some of the things we did and why we did them in our conference. I’m hoping it will be useful for other conference planners to create a welcoming environment.&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;We created a pull plan based on what we learned last year.&lt;/strong&gt; Because last year was pretty chaotic in terms of planning, we decided to try to make a pull plan this year. &lt;a href=&#34;https://esub.com/pull-planning-how-lean-construction-practices-can-improve-project-efficiency/&#34;&gt;Pull planning is a project management technique&lt;/a&gt; in which you work backwards from absolute deadlines (from the day of the conference). Doing so spaces out a lot of the work and makes things potentially more dividable across a group. I’ve made our &lt;a href=&#34;https://trello.com/b/lphkRbnU/cascadia-r-pull-plan&#34;&gt;pull plan public&lt;/a&gt; so other conference planners can see what we did and the timing it took to organize the conference.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Find sponsorship money.&lt;/strong&gt; We ran last year on a shoestring, using only about $3500. We realized that to make the conference more inclusive this year, we had to get sponsorship money. Childcare and diversity scholarships cost money. We wanted sponsors who had values that aligned with our inclusion goals. Lilly Winfree was especially great at finding sponsors who were in tune with what we wanted to accomplish with our conference. Sponsorship also allowed us to pay for lunch for everyone, which we couldn’t last year.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Provide childcare.&lt;/strong&gt; We wanted parents to be able to attend, so we got &lt;a href=&#34;http://www.divcarepdx.com&#34;&gt;DivCare&lt;/a&gt; to provide childcare for them in our building. DivCare provided childcare for 8 children, and we had some grateful parents who were happy they could attend.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Diversity Committee&lt;/strong&gt;. We did this last year, but we had more money this year for diversity scholarships for those who might not be able to attend. I think next year we might think about reaching out to more STEM groups, but I think the real challenge is finding how to get those diverse students who might not even know about data science in and how to properly host and support them.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Get rid of longer form talks. Keynotes and Lightning talks only.&lt;/strong&gt; This is probably the most controversial choice that we made. However, we realized that the 10-15 minute talks we had in 2017 were mostly academic ones. Honestly, there are already too many academic conferences out there. We wanted a format that was more accessible and encouraged discussion afterwards, so we stayed with the lightning talks.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Have keynote speakers show newcomers how to join the R Community.&lt;/strong&gt; We chose Kara Woo and Alison Hill as our keynote speakers for a very specific reason: we wanted to encourage people new to R that they could learn things. Alison gave a &lt;a href=&#34;https://speakerdeck.com/apreshill/big-magic-with-r-creative-learning-beyond-fear&#34;&gt;wonderful talk about ways to approach learning R&lt;/a&gt;; Kara gave a great talk talking about &lt;a href=&#34;https://github.com/karawoo/2018-06-02-cascadiarconf&#34;&gt;how to contribute to various R-projects on GitHub&lt;/a&gt;, especially the &lt;code&gt;tidyverse&lt;/code&gt; suite of packages. What I really liked about both their talks was that they emphasized learning by doing.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Moar workshops.&lt;/strong&gt; We wanted beginners and intermediate people feel like they were learning something, and in a safe learning environment. One piece of feedback from last year was that people wanted more workshops. We created a beginner track and an intermediate track for workshops. I would just like to say that none of the workshop people got paid for their work, and I do wish that some of the attendees realized that before they provided feedback such as “BORING” (seriously? please realize that there are people who develop these, and constructive feedback is always better). All of these workshops were done for free as labors of love, unlike conferences like ODSC.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Organize Volunteers&lt;/strong&gt;. We had lots of volunteers this year and we finally were able to figure out roles for everyone to do (registration, nametags, TAs, etc).&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Do a visualization fest that wasn’t competitive&lt;/strong&gt;. I know that everyone loves bake-offs like the &lt;em&gt;DREAM Challenges&lt;/em&gt; and &lt;em&gt;Kaggle&lt;/em&gt;, but we felt that having a competition was in conflict with the community building we wanted to do with the conference.That, and Tidy Tuesday, were the inspirations for the &lt;em&gt;cRaggy&lt;/em&gt;. We wanted people to share ideas with each other and to be constructive with each other. We had &lt;a href=&#34;https://github.com/lopierra/biketown&#34;&gt;three&lt;/a&gt; &lt;a href=&#34;https://github.com/cwickham/cRaggyhttps://github.com/cwickham/cRaggy&#34;&gt;great&lt;/a&gt; &lt;a href=&#34;https://github.com/WatanabeSmith/BIKETOWN_CascadiaR&#34;&gt;short&lt;/a&gt; talks talking about their approach to the visualization and we shared the data with Tidy Tuesday.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Talk honestly about impostor syndrome&lt;/strong&gt;. We had a panel with three people (the wonderful Paige Bailey, Kevin Watanabe-Smith and Lilly Winfree) and they all talked about how they deal with impostor syndrome. Some of the lessons are: you feel like less of an impostor the more you do and the more you participate.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Have more downtime&lt;/strong&gt;. We had feedback last year that there wasn’t enough social time. We built more breaks into the schedule and had a third room (the hack room) dedicated to the “hallway track”: often the best times we’ve had conferences is when we play hooky from conference activities. Some people suggested this year that there maybe was too much downtime. I would say to that, there’s always more opportunity to meet people.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;So that’s why Cascadia R was the way it was this year. In another blog post, I’ll talk more about the fun things that happened this year and our hopes for the next year.&lt;/p&gt;
 </description>
     </item>
     
