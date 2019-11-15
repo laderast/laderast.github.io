@@ -26,7 +26,7 @@
 
 &lt;h2 id=&#34;instructor-training&#34;&gt;Instructor Training&lt;/h2&gt;
 
-&lt;p&gt;The instructor training is online, but delivered via Zoom. The session themselves are 4 hours apiece and at set times, with a small cohort overall (I think mine was about 14). Greg delivered a short set of slides for each activity, and depending on the activity, we were sent out into smaller groups to discuss the topic. I liked how the course was paced - I felt like having activities almost every half hour definitely kept me awake.&lt;/p&gt;
+&lt;p&gt;The instructor training is online, but delivered via Zoom. The session themselves are 4 hours apiece and at set times, with a small cohort overall (I think mine was about 14). Greg Wilson delivered a short set of slides for each activity, and depending on the activity, we were sent out into smaller groups to discuss the topic. I liked how the course was paced - I felt like having activities almost every half hour definitely kept me awake.&lt;/p&gt;
 
 &lt;p&gt;The training for me (I am on PST) was from 8 AM to 12 PM two days in a row, and my cohort was from all over the US/Canada.&lt;/p&gt;
 
@@ -62,7 +62,7 @@
 
 &lt;h2 id=&#34;shiny-certification-exam&#34;&gt;Shiny Certification Exam&lt;/h2&gt;
 
-&lt;p&gt;A few weeks later, I took the Shiny certification. In terms of coverage, there is not currently a good text to study for the Shiny Certification exam ( &lt;a href=&#34;https://mastering-shiny.org&#34; target=&#34;_blank&#34;&gt;Mastering Shiny&lt;/a&gt; is probably going to be the reference to study when it is finished).  In order to prepare, I went over the &lt;a href=&#34;https://shiny.rstudio.com&#34; target=&#34;_blank&#34;&gt;RStudio articles about Shiny&lt;/a&gt;, and looked over the &lt;a href=&#34;https://shiny.rstudio.com/gallery/&#34; target=&#34;_blank&#34;&gt;RStudio Shiny Gallery&lt;/a&gt; to bone up on the different programming techniques used in Shiny, such as UI elements, reactives, the observe/update pattern, and modules.&lt;/p&gt;
+&lt;p&gt;A few weeks later, I took the Shiny certification. In terms of coverage, there is not currently a good text to study for the Shiny Certification exam (&lt;a href=&#34;https://mastering-shiny.org&#34; target=&#34;_blank&#34;&gt;Mastering Shiny&lt;/a&gt; is probably going to be the reference to study when it is finished).  In order to prepare, I went over the &lt;a href=&#34;https://shiny.rstudio.com&#34; target=&#34;_blank&#34;&gt;RStudio articles about Shiny&lt;/a&gt;, and looked over the &lt;a href=&#34;https://shiny.rstudio.com/gallery/&#34; target=&#34;_blank&#34;&gt;RStudio Shiny Gallery&lt;/a&gt; to bone up on the different programming techniques used in Shiny, such as UI elements, reactives, the observe/update pattern, and modules.&lt;/p&gt;
 
 &lt;p&gt;Again, the exam covered debugging, including fixing applications, understanding control logic between ui and server, and building an app from scratch. I would say much of the exam covers how well established your own mental model of Shiny progamming is.&lt;/p&gt;
 
@@ -74,7 +74,7 @@
 
 &lt;h2 id=&#34;for-more-info&#34;&gt;For More Info&lt;/h2&gt;
 
-&lt;p&gt;Please consult the &lt;a href=&#34;https://education.rstudio.com/trainers/&#34; target=&#34;_blank&#34;&gt;RStudio Trainer Website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please consult the &lt;a href=&#34;https://education.rstudio.com/trainers/&#34; target=&#34;_blank&#34;&gt;RStudio Trainer Website&lt;/a&gt; for info on how to register for the instructor training.&lt;/p&gt;
 </description>
     </item>
     
