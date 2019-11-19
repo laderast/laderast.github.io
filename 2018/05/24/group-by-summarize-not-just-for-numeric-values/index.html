@@ -406,30 +406,30 @@ diamonds %&gt;% select(color, cut)## # A tibble: 53,940 x 2## color cut ## &lt
   summarize(all_colors=
               paste(cut, collapse=&quot;;&quot;))</code></pre>
 <pre><code>## # A tibble: 7 x 2
-##   color all_colors                                                         
-##   &lt;ord&gt; &lt;chr&gt;                                                              
-## 1 D     Very Good;Very Good;Very Good;Good;Good;Premium;Premium;Ideal;Idea~
-## 2 E     Ideal;Premium;Good;Fair;Premium;Premium;Very Good;Very Good;Very G~
-## 3 F     Premium;Very Good;Very Good;Very Good;Good;Premium;Very Good;Very ~
-## 4 G     Very Good;Ideal;Ideal;Very Good;Premium;Premium;Ideal;Very Good;Id~
-## 5 H     Very Good;Very Good;Very Good;Good;Good;Very Good;Good;Very Good;V~
-## 6 I     Premium;Very Good;Ideal;Good;Premium;Ideal;Ideal;Ideal;Ideal;Very ~
-## 7 J     Good;Very Good;Good;Ideal;Ideal;Good;Good;Very Good;Very Good;Very~</code></pre>
+##   color all_colors                                                              
+##   &lt;ord&gt; &lt;chr&gt;                                                                   
+## 1 D     Very Good;Very Good;Very Good;Good;Good;Premium;Premium;Ideal;Ideal;Ver~
+## 2 E     Ideal;Premium;Good;Fair;Premium;Premium;Very Good;Very Good;Very Good;G~
+## 3 F     Premium;Very Good;Very Good;Very Good;Good;Premium;Very Good;Very Good;~
+## 4 G     Very Good;Ideal;Ideal;Very Good;Premium;Premium;Ideal;Very Good;Ideal;P~
+## 5 H     Very Good;Very Good;Very Good;Good;Good;Very Good;Good;Very Good;Very G~
+## 6 I     Premium;Very Good;Ideal;Good;Premium;Ideal;Ideal;Ideal;Ideal;Very Good;~
+## 7 J     Good;Very Good;Good;Ideal;Ideal;Good;Good;Very Good;Very Good;Very Good~</code></pre>
 <p>Thanks to Ken Butler, who pointed out that the <code>tidyverse</code> way (via <code>stringr</code>) is to use <code>str_c</code> instead:</p>
 <pre class="r"><code>diamonds %&gt;% select(color, cut) %&gt;% 
   group_by(color) %&gt;% 
   summarize(all_colors=
               stringr::str_c(cut, collapse=&quot;;&quot;))</code></pre>
 <pre><code>## # A tibble: 7 x 2
-##   color all_colors                                                         
-##   &lt;ord&gt; &lt;chr&gt;                                                              
-## 1 D     Very Good;Very Good;Very Good;Good;Good;Premium;Premium;Ideal;Idea~
-## 2 E     Ideal;Premium;Good;Fair;Premium;Premium;Very Good;Very Good;Very G~
-## 3 F     Premium;Very Good;Very Good;Very Good;Good;Premium;Very Good;Very ~
-## 4 G     Very Good;Ideal;Ideal;Very Good;Premium;Premium;Ideal;Very Good;Id~
-## 5 H     Very Good;Very Good;Very Good;Good;Good;Very Good;Good;Very Good;V~
-## 6 I     Premium;Very Good;Ideal;Good;Premium;Ideal;Ideal;Ideal;Ideal;Very ~
-## 7 J     Good;Very Good;Good;Ideal;Ideal;Good;Good;Very Good;Very Good;Very~</code></pre>
+##   color all_colors                                                              
+##   &lt;ord&gt; &lt;chr&gt;                                                                   
+## 1 D     Very Good;Very Good;Very Good;Good;Good;Premium;Premium;Ideal;Ideal;Ver~
+## 2 E     Ideal;Premium;Good;Fair;Premium;Premium;Very Good;Very Good;Very Good;G~
+## 3 F     Premium;Very Good;Very Good;Very Good;Good;Premium;Very Good;Very Good;~
+## 4 G     Very Good;Ideal;Ideal;Very Good;Premium;Premium;Ideal;Very Good;Ideal;P~
+## 5 H     Very Good;Very Good;Very Good;Good;Good;Very Good;Good;Very Good;Very G~
+## 6 I     Premium;Very Good;Ideal;Good;Premium;Ideal;Ideal;Ideal;Ideal;Very Good;~
+## 7 J     Good;Very Good;Good;Ideal;Ideal;Good;Good;Very Good;Very Good;Very Good~</code></pre>
 <p>Finally, if we wanted to just get the unique values of the cuts in a single line, we can use <code>unique</code>:</p>
 <pre class="r"><code>diamonds %&gt;% select(color, cut) %&gt;% 
   group_by(color) %&gt;% 
