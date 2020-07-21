@@ -8,9 +8,7 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>CSF1R inhibitors exhibit anti-tumor activity in acute myeloid leukemia by blocking paracrine signals from support cells</title>
@@ -144,96 +142,6 @@
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
       
       <guid>/publication/2007-consensus_/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The melting of pulmonary surfactant monolayers</title>
-      <link>/publication/2007-the_meltin/</link>
-      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2007-the_meltin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cerebrospinal Fluid (CSF) Proteomics in Children with Acute Lymphoblastic Leukemia (ALL).</title>
-      <link>/publication/2006-cerebrospi/</link>
-      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2006-cerebrospi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Metastability of a supercompressed fluid monolayer (vol 85, pg 3048, 2003)</title>
-      <link>/publication/2005-metastabil/</link>
-      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2005-metastabil/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Developing and validating a tool for microarray cluster analysis</title>
-      <link>/publication/2004-developing/</link>
-      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2004-developing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Persistence of metastability after expansion of a supercompressed fluid monolayer</title>
-      <link>/publication/2004-persistenc/</link>
-      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2004-persistenc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Metastability of a supercompressed fluid monolayer</title>
-      <link>/publication/2003-metastabil/</link>
-      <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2003-metastabil/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Avoiding collapse: Monolayers of fluid phospholipids supercompressed at the air/water interface.</title>
-      <link>/publication/2002-avoiding_c/</link>
-      <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2002-avoiding_c/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Metastable supercompressed fluid monolayers at the air/water interface.</title>
-      <link>/publication/2002-metastable/</link>
-      <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2002-metastable/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Persistent metastability of rapidly compressed monolayers at the air-water interface</title>
-      <link>/publication/2002-persistent/</link>
-      <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2002-persistent/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Connecting Genotypes to Drug Sensitivities in HER2 Positive Cancer Cell Lines: A Dissertation</title>
-      <link>/publication/2014-connecting/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2014-connecting/</guid>
       <description></description>
     </item>
     

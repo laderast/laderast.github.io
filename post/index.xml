@@ -8,9 +8,7 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0800</lastBuildDate>
-    
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Notes on the RStudio Instructor Training Experience</title>
@@ -18,8 +16,66 @@
       <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>/2019/11/15/my-experience-with-rstudio-instructor-training/</guid>
-      <description>Full Disclosure: my department paid for the training and two of the certification exams. I did the Shiny exam for free with the stipulation that I would provide feedback on the exam itself.
- I recently became a certified RStudio Instructor in both Shiny and the Tidyverse. I thought I would write a little about the experience. I haven’t really had any formal pedagogical training, and having some of the state of the art and evidence-based practices were really helpful in extending my approaches to teaching.</description>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;Full Disclosure: my department paid for the training and two of the certification exams. I did the Shiny exam for free with the stipulation that I would provide feedback on the exam itself.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I recently became a &lt;a href=&#34;https://education.rstudio.com/trainers/&#34; target=&#34;_blank&#34;&gt;certified RStudio Instructor in both Shiny and the Tidyverse&lt;/a&gt;. I thought I would write a little about the experience. I haven’t really had any formal pedagogical training, and having some of the state of the art and evidence-based practices were really helpful in extending my approaches to teaching.&lt;/p&gt;
+
+&lt;h2 id=&#34;instructor-training&#34;&gt;Instructor Training&lt;/h2&gt;
+
+&lt;p&gt;The instructor training is online, but delivered via Zoom. The session themselves are 4 hours apiece and at set times, with a small cohort overall (I think mine was about 14). Greg Wilson delivered a short set of slides for each activity, and depending on the activity, we were sent out into smaller groups to discuss the topic. I liked how the course was paced - I felt like having activities almost every half hour definitely kept me awake.&lt;/p&gt;
+
+&lt;p&gt;The training for me (I am on PST) was from 8 AM to 12 PM two days in a row, and my cohort was from all over the US/Canada.&lt;/p&gt;
+
+&lt;p&gt;Here are the parts of the instructor training that I found especially useful. Note that since Greg also helped develop the Carpentries instructor training, there is some overlap between the two training programs (in fact, if you’ve taught a Carpentries course and done the Carpentries training, you can waive the instructor training altogether).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Building concept maps&lt;/strong&gt;. If you can, you should map out the concepts you want to teach, along with how these concepts are related. This concept map is important in helping your students build the mental models that will guide them towards mastery.  I did a concept map of Tidy data for my example. Concept maps themselves are a bit tricky to build, but I think they help clarify your understanding of what you are teaching, and thus your lessons will be more understandable.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thinking about cognitive overload.&lt;/strong&gt; This was a call to think about limiting the number of concepts and connections covered per unit. Humans have a short term memory of about 5 +/- 2 things at a time. This is an extremely helpful guideline to consider when developing training units, as your course objectives and training should keep these in mind. Also, there are different kinds of cognitive overload, and some of them (like extraneous details), you can remove to help with the other kinds. There are lots of ways to teach coding, such as Parsons Problems (where students have to put lines of code in order), or faded examples (fill in the blank style coding assignments), that can focus on particular aspects of coding. (As an unrelated topic, I have been thinking about reading code as being an essential skill and I try to teach students to learn how to read code.)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Teaching needs to be dynamic.&lt;/strong&gt; As instructors, part of our value lies in tailoring our training for our students and their previous knowledge. Unlike YouTube videos, we can assess what our students already know, and focus on the concepts that they don’t. In order to do this, though, we need to have ways of assessing what our students know. Formative assessments (assessments during a lesson) are essential in figuring out whether you can proceed, or whether you need to spend more time.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Providing feedback.&lt;/strong&gt; We were to teach each other a short lesson of our choosing, which was pretty fun. After a test run with a larger group, my partner and I got to teach each other - she taught me about making jam (and the food safety issues) and I taught her about making cornbread. (It was close to lunchtime when we did this, I think we were both hungry.) The exercise was super useful in helping us to not be afraid of giving feedback and to be aware of what kinds of feedback to give.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What demotivates students.&lt;/strong&gt; This was an important section, and a bit emotionally difficult. I have been guilty of some of the teaching behavior that demotivates students, such as taking over their keyboard, instead of letting them fix it. If we are to be inclusive and welcoming to everyone, we need to be aware of these (sometimes subtle) behaviors that can discourage and demotivate all of our students.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Other tips from other instructors&lt;/strong&gt;. I really enjoyed hearing other instructor’s experiences and I had a lot of respect for my cohort. There were lots of little tips we shared with each other that were super helpful, such as the types of mics to use. I also thought that it was helpful when we shared our struggles with each other. It made me feel much more as part of a group of instructors, which was very helpful for me.&lt;/p&gt;
+
+&lt;h2 id=&#34;instructor-certification-exam&#34;&gt;Instructor Certification Exam&lt;/h2&gt;
+
+&lt;p&gt;The instructor certification covered the pedagogical techniques we discussed in the instructor training. This exam, like the others, was open book, open note, open internet, but not open person (no lifeline, no talking with others).&lt;/p&gt;
+
+&lt;p&gt;As part of the exam, we were required to develop and deliver a lesson. I ended up reworking one of my SQL lessons in my Analytics course. I found it a really useful exercise in rethinking my examples discussing left and inner joins, especially in my table examples. You can see my lesson here: &lt;a href=&#34;https://rstudio.cloud/project/413048&#34; target=&#34;_blank&#34;&gt;SQL Joins in R&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This part of the exam is only about 10 minutes long, but you should be prepared, especially in figuring out how you will assess the learning of the students.&lt;/p&gt;
+
+&lt;h2 id=&#34;tidyverse-certification-exam&#34;&gt;Tidyverse Certification Exam&lt;/h2&gt;
+
+&lt;p&gt;After I had done my instructor certification, I had to do the technical qualifications. This was also done online, with Greg delivering the exam over Zoom. Most of the exam had to be done via RStudio on my computer.  This exam, like the others, was open book, open note, open internet, but not open person (no lifeline, no talking with others).&lt;/p&gt;
+
+&lt;p&gt;What did the exam cover? Roughly, it covered almost all of &lt;a href=&#34;https://r4ds.had.co.nz&#34; target=&#34;_blank&#34;&gt;R for Data Science&lt;/a&gt; and was very task-focused. There was a focus on debugging, data transformation, markdown and visualization. The tasks were mostly problem driven, on the order of recreating a figure, or parametrizing a workflow. It was emphasized that we should solve the problems the way we  usually work and talk out our problems aloud. For one of the problems, I actually had to search and teach myself on the fly. This was actually a good way to confirm that my conceptual models of the tidyverse were helpful.&lt;/p&gt;
+
+&lt;p&gt;One tip: 90 minutes is a long amount of time for an exam, especially where you are actively thinking and talking out loud. You should have something to eat by your side so you can replenish your blood glucose. It is also slightly unnerving to have someone watch you actively solve problems and program. If you get flustered, take a breath. There’s not usually a single way to solve the problems.&lt;/p&gt;
+
+&lt;h2 id=&#34;shiny-certification-exam&#34;&gt;Shiny Certification Exam&lt;/h2&gt;
+
+&lt;p&gt;A few weeks later, I took the Shiny certification. In terms of coverage, there is not currently a good text to study for the Shiny Certification exam (&lt;a href=&#34;https://mastering-shiny.org&#34; target=&#34;_blank&#34;&gt;Mastering Shiny&lt;/a&gt; is probably going to be the reference to study when it is finished).  In order to prepare, I went over the &lt;a href=&#34;https://shiny.rstudio.com&#34; target=&#34;_blank&#34;&gt;RStudio articles about Shiny&lt;/a&gt;, and looked over the &lt;a href=&#34;https://shiny.rstudio.com/gallery/&#34; target=&#34;_blank&#34;&gt;RStudio Shiny Gallery&lt;/a&gt; to bone up on the different programming techniques used in Shiny, such as UI elements, reactives, the observe/update pattern, and modules.&lt;/p&gt;
+
+&lt;p&gt;Again, the exam covered debugging, including fixing applications, understanding control logic between ui and server, and building an app from scratch. I would say much of the exam covers how well established your own mental model of Shiny progamming is.&lt;/p&gt;
+
+&lt;p&gt;One thing to remember: as the technology and code changes,  the certification exams will change and you may have to get re-certified. So my experience of these exams may be different than your experience.&lt;/p&gt;
+
+&lt;h2 id=&#34;overall-experience&#34;&gt;Overall Experience&lt;/h2&gt;
+
+&lt;p&gt;Would I recommend the training? I thought it was extremely useful, especially in terms of learning more about evidence based methods in effective education. As someone who is thinking about starting a consulting group focusing on training, having the certifications are extremely valuable to me and my future career. I look forward to teaching and training more people in R.&lt;/p&gt;
+
+&lt;h2 id=&#34;for-more-info&#34;&gt;For More Info&lt;/h2&gt;
+
+&lt;p&gt;Please consult the &lt;a href=&#34;https://education.rstudio.com/trainers/&#34; target=&#34;_blank&#34;&gt;RStudio Trainer Website&lt;/a&gt; for info on how to register for the instructor training.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -28,8 +84,44 @@
       <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>/2019/09/23/kindness-at-the-cost-of-yourself/</guid>
-      <description>In healthy cultures, people rise by elevating others and fall by undermining others. In toxic cultures, people are forced to choose between helping others and achieving success. Choose the workplace where success comes from making others successful. - Adam Grant
- When I read Adam Grant’s Give and Take, it was like a light went off. In this book, Grant gives profiles of highly successful people who are givers - people who have changed their field by making things better for others.</description>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;In healthy cultures, people rise by elevating others and fall by undermining others. In toxic cultures, people are forced to choose between helping others and achieving success. Choose the workplace where success comes from making others successful. - Adam Grant&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;When I read Adam Grant’s &lt;a href=&#34;https://www.adamgrant.net/give-and-take&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Give and Take&lt;/em&gt;&lt;/a&gt;, it was like a light went off. In this book, Grant gives profiles of highly successful people who are givers - people who have changed their field by making things better for others. I immediately connected to this idea of giving. Here was a way to network with people that really worked for me. Giving and connecting people are what I do best. I like to help people achieve their goals if I know someone else who can help them.&lt;/p&gt;
+
+&lt;p&gt;And no doubt, embracing my identity as a giver has helped change my career trajectory - in the last few years, I co-founded &lt;a href=&#34;http://cascadiarconf.com&#34; target=&#34;_blank&#34;&gt;Cascadia R&lt;/a&gt;, produced the &lt;a href=&#34;http://r-bootcamp.netlify.com&#34; target=&#34;_blank&#34;&gt;R-Bootcamp&lt;/a&gt; with Jessica Minnier, and have met so many people in the field of education and open science that I want to work with and who have inspired me.&lt;/p&gt;
+
+&lt;p&gt;However, as I’ve noted before, I tend to be giving to the point of being self sacrificing, which is not good. I’m reminded of the end of Kafka’s &lt;em&gt;Metamorphosis&lt;/em&gt; when (spoilers) as Gregor Samsa dies in his bug form. As he dies, he worries about the agency of his family. Will they be able to support themselves? In the end, the family that he was worried about finds jobs, support themselves and thrive in the end. Without him. One interpretation of this story: &lt;em&gt;no one is so irreplaceable in this world.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This Spring, I probably gave a little too much to my Health Analytics class, to the point of being self-sacrificing. This shouldn’t be a reflection of the class - they were great and really whip smart - I just tend to give a little too much. As a result, I was pretty drained by the time I got to Summer quarter. I’d definitely overdrawn on giving - I was pretty wiped out through the summer. Being overdrawn actually meant I didn’t have enough energy to teach as well as I would have liked - and I felt worse for this.&lt;/p&gt;
+
+&lt;p&gt;The lesson I&amp;rsquo;ve learned this summer: If you find yourself giving to the point of self-sacrifice, you need to ask yourself why you are sacrificing so much of yourself. Excessive self-sacrifice seems to occur when your &lt;a href=&#34;http://www.spsp.org/news-center/press-releases/relationship-sacrifice&#34; target=&#34;_blank&#34;&gt;self-esteem is tied to the perception of yourself by other people&lt;/a&gt;. Meaning, you should question &lt;em&gt;why&lt;/em&gt; you are self-sacrificing. Is it because you feel like you need the approval of others? No one&amp;rsquo;s approval is worth overworking yourself over.&lt;/p&gt;
+
+&lt;p&gt;So, self-sacrifice is ultimately bullshit. Ironically, being self-sacrificing can lead to &lt;a href=&#34;https://greatergood.berkeley.edu/article/item/when_are_you_sacrificing_too_much_in_your_relationship&#34; target=&#34;_blank&#34;&gt;feelings of helplessness and resentment&lt;/a&gt; from the people you are sacrificing yourself for.  Additionally, being &lt;a href=&#34;https://hbr.org/2019/08/when-to-take-initiative-at-work-and-when-not-to?&#34; target=&#34;_blank&#34;&gt;highly proactive and championing change can actually have negative effects&lt;/a&gt; if your actions are perceived as a threat to your organizational culture. There’s a reason why change management is important. No one person can be a revolution - it takes others to do so. It shouldn’t fall to just being on you.&lt;/p&gt;
+
+&lt;p&gt;You need to take care of yourself and protect yourself from the takers. As Faith Harper writes in &lt;a href=&#34;https://microcosmpublishing.com/catalog/books/6860&#34; target=&#34;_blank&#34;&gt;Unf#ck Your Adulting&lt;/a&gt;, “taking care of yourself does the world a favor”. Taking care of yourself means that you can do good in the world sustainably, and continue to do it, rather than burning out.&lt;/p&gt;
+
+&lt;p&gt;Understand that the notion of true giving is not rooted in self-sacrifice. &lt;a href=&#34;https://medium.com/@janfortune/how-to-be-a-giver-not-a-sacrificer-a55bf354fcf7&#34; target=&#34;_blank&#34;&gt;Giving is in the spirit of generosity&lt;/a&gt;; in contrast, self-sacrifice is more akin depleting one’s own resources. As a giver, your generosity should be recognized and not exploited.&lt;/p&gt;
+
+&lt;p&gt;One thing to be aware of as a giver is &lt;a href=&#34;https://www.kqed.org/arts/13857471/artist-passion-exploitation-duke-study&#34; target=&#34;_blank&#34;&gt;passion exploitation&lt;/a&gt;, where people and organizations will take advantage of you because of your passion for a subject as an opportunity to &lt;a href=&#34;https://www.fuqua.duke.edu/duke-fuqua-insights/kay-passion-exploitation&#34; target=&#34;_blank&#34;&gt;pay you much less than you’re worth&lt;/a&gt;.  Such an attitude is prevalent in creative industries, where one is encouraged to work for free or “exposure” (I don’t really do soundtrack work any more because of this). As if being a poor artist or creative was a privilege. Such situations will drain your passion and your energy and burn you out with nothing to show for it. Again, you have to keep something for yourself.&lt;/p&gt;
+
+&lt;p&gt;If you want to continue to do good in the world, you must take care of yourself. This is especially the case in a toxic work culture. You have to build reserves - never give more of yourself than you can. Especially do not do this in a work setting. It is amazing how self-sacrifice can become the status-quo and what is expected of workers. No one is well off because of that. Toxic work cultures encourage this: &lt;a href=&#34;https://kotaku.com/crunch-time-why-game-developers-work-such-insane-hours-1704744577&#34; target=&#34;_blank&#34;&gt;crunch time as the norm at game studios&lt;/a&gt;, &lt;a href=&#34;https://www.vice.com/en_us/article/3b5e7k/the-japanese-are-dying-for-work&#34; target=&#34;_blank&#34;&gt;overwork at Japanese Black Companies&lt;/a&gt;, even in the &lt;a href=&#34;https://bloomerang.co/blog/7-ways-to-prevent-passion-exploitation-at-your-nonprofit/&#34; target=&#34;_blank&#34;&gt;non-profit sector&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In short, I believe in kindness and giving. But the kindness and giving must be sustainable. You must defend yourself from those who would take more than they give, and avoid being exploited by those who see your passion as something exploitable. Identifying these people and organizations and saying no is key to taking care of yourself while making things better for others. Don’t feel guilty about this. Don’t make self-sacrifice part of your identity or job description.&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.adamgrant.net/give-and-take&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Give and Take&lt;/em&gt;&lt;/a&gt; - this is the book that opened my eyes to the power of being a social giver.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://microcosmpublishing.com/catalog/books/6860&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Unfuck Your Adulting&lt;/em&gt;&lt;/a&gt; - this book by Faith Harper is full of good advice about navigating situations, emotions, and taking responsibility for what you can take responsibility for.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@janfortune/how-to-be-a-giver-not-a-sacrificer-a55bf354fcf7&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;How to be a giver, not a self-sacrificer&lt;/em&gt;&lt;/a&gt; - talks about giving in the spirit of generosity, and not self-sacrifice. Again, keep something for yourself.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hbr.org/2019/08/when-to-take-initiative-at-work-and-when-not-to?&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;When to take initiative at work, and when not to&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wonderscounseling.com/burnout/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Avoiding Burnout: Tips for self-care&lt;/em&gt;&lt;/a&gt;  - again, very good tips on taking care of yourself, because no one else will.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -38,8 +130,55 @@
       <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/2019/07/03/burning-out-and-recovering-slowly/</guid>
-      <description>Last year about this time, I had a meltdown, which is a symptom of burnout. I&amp;rsquo;d like to explain a little bit about my burnout in the hopes that other people can avoid it.
-I want to help people, and I’m a people pleaser. I’m a giver, and sometimes I give too much, to the point I have nothing left. I have to be aware when people exploit this. One collaboration, unfortunately took advantage of my giving nature.</description>
+      <description>
+
+&lt;p&gt;Last year about this time, &lt;a href=&#34;https://laderast.github.io/2018/06/05/self-care-and-self-compassion-in-academia/&#34; target=&#34;_blank&#34;&gt;I had a meltdown&lt;/a&gt;, which is a symptom of burnout. I&amp;rsquo;d like to explain a little bit about my burnout in the hopes that other people can avoid it.&lt;/p&gt;
+
+&lt;p&gt;I want to help people, and I’m a people pleaser. I’m a giver, and sometimes I give too much, to the point I have nothing left. I have to be aware when people exploit this. One collaboration, unfortunately took advantage of my giving nature.&lt;/p&gt;
+
+&lt;p&gt;I was on a contracted project where I used some of the time to build an open source project to enable our research. With our collaborators, I showed them my work and they seemed excited. Unfortunately, this “excitement” turned into unreasonable demands. I was literally trying to do a full time development position while balancing the demands of other projects, including teaching. I started feeling like a machine, where each of my collaborators just wanted me to output figures and analyses.&lt;/p&gt;
+
+&lt;p&gt;The worst I’ve ever felt is when I have been busting my ass for things I don’t believe in, or have been stretched across too many projects. Unlike a lot of faculty at OHSU, I don’t have my own R01. I am a collaborator, and I work hard at it.&lt;/p&gt;
+
+&lt;p&gt;The wake-up call for me was persistent thoughts of suicide. I realized that I didn&amp;rsquo;t care that much about anything and I knew that things had to change.&lt;/p&gt;
+
+&lt;h2 id=&#34;regaining-balance&#34;&gt;Regaining Balance&lt;/h2&gt;
+
+&lt;p&gt;The past year has been about finding my way back. I’ve been trying to do the following to regain my balance:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Working 4 days/week instead of the usual 5&lt;/em&gt;. On my “day off”, I try my best to contribute to open source projects, work on music, and do other things that recharge me. This has enabled me to say no more often.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Understanding my values and restructuring my work to fit it&lt;/em&gt;. I’m much more focused on education, outreach, and mentoring these days. If a project comes up, I have to ask myself whether it is in line with my values. I&amp;rsquo;d like my research to include educational and data exploration components, such as Shiny.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Not putting all my eggs in the work basket&lt;/em&gt;. I&amp;rsquo;m an artist in addition to being a data scientist. I play the cello, compose, and do photography. I make more time for these.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Realizing that excellence does not require self sacrifice&lt;/em&gt;. I try to stop working on things obsessively, and only within the time I&amp;rsquo;m paid.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Mindfulness work&lt;/em&gt;. I’ve been using the Calm app to help me reorient me and not immediately react to adversities I encounter.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Giving up on perfection&lt;/em&gt;. I&amp;rsquo;m learning to slowly abandon perfection on projects I don&amp;rsquo;t care that much about (more on this later), and instead turn my alerts off, or only respond to them within sane business hours.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;am-i-recovered&#34;&gt;Am I Recovered?&lt;/h2&gt;
+
+&lt;p&gt;I’d like to say I’m fully recovered, but I’m not. I&amp;rsquo;m not sure I&amp;rsquo;ll ever be 100% recovered, if recovered means the insane productivity levels I was showing before. I have been slowly asking myself whether projects expect insane levels of work for the amount of time I can dedicate to them.&lt;/p&gt;
+
+&lt;p&gt;Thankfully, I have had really great support from my department and from the university overall throughout. I have had support from the communities I help manage (BioData Club and Portland R User Group), and all the great people involved in open science that I have met (rOpenSci, Mozilla, The Carpentries).&lt;/p&gt;
+
+&lt;p&gt;I would say that this support has been wonderful, and I feel like the journey back from research burnout has been ongoing. I wish there was a magic bullet for burnout, but working one&amp;rsquo;s way out of mental and emotional exhaustion ultimately takes a lot of time.&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;p&gt;If you are burned out, please seek &lt;a href=&#34;https://www.nami.org/Find-Support/NAMI-HelpLine&#34; target=&#34;_blank&#34;&gt;mental health assistance&lt;/a&gt; if you need help.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.psychologytoday.com/us/blog/high-octane-women/201311/the-tell-tale-signs-burnout-do-you-have-them&#34; target=&#34;_blank&#34;&gt;The Telltale Signs of Burnout&lt;/a&gt; - How to recognize when you&amp;rsquo;re burned out.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642&#34; target=&#34;_blank&#34;&gt;Mayo Clinic on Burnout&lt;/a&gt; - More information on Burnout.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.workplacestrategiesformentalhealth.com/managing-workplace-issues/burnout-response&#34; target=&#34;_blank&#34;&gt;Responding to Burnout&lt;/a&gt;. How can we recognize burnout in others?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ted.com/podcasts/worklife&#34; target=&#34;_blank&#34;&gt;WorkLife Podcast&lt;/a&gt; - This podcast by Adam Grant (organizational psychologist) has been full of ideas on how to make what I work on more meaningful. Highly recommended.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -48,9 +187,195 @@ I want to help people, and I’m a people pleaser. I’m a giver, and sometimes 
       <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/2019/02/12/package-building-description-namespace/</guid>
-      <description>As part of my new year&amp;rsquo;s resolution to learn new things about R, I&amp;rsquo;m trying to plug some holes in my R knowledge by writing more vignettes to explain them to myself this year.
-This week I finally think I understand more about namespaces in R and why you should use them in your R package.
-Namespaces: Why Bother? In short, we need namespaces because of the ambiguity of function names.</description>
+      <description>
+
+&lt;p&gt;As part of my new year&amp;rsquo;s resolution to learn new things about R, I&amp;rsquo;m trying to plug some holes in my R knowledge by writing more vignettes to explain them to myself this year.&lt;/p&gt;
+
+&lt;p&gt;This week I finally think I understand more about namespaces in R and why you should use them in your R package.&lt;/p&gt;
+
+&lt;h2 id=&#34;namespaces-why-bother&#34;&gt;Namespaces: Why Bother?&lt;/h2&gt;
+
+&lt;p&gt;In short, we need namespaces because of the &lt;em&gt;ambiguity&lt;/em&gt; of function names. Think of how many packages have a &lt;code&gt;filter()&lt;/code&gt; function! How does R know which function from which package you’re talking about? One nightmare case is the Bioconductor &lt;code&gt;exprs()&lt;/code&gt; method and the &lt;code&gt;rlang&lt;/code&gt; &lt;code&gt;exprs()&lt;/code&gt; function. These functions do very, very different things (one of them extracts an expression matrix from a Bioconductor &lt;code&gt;ExpressionSet&lt;/code&gt;, and the other one is used for quoting multiple expressions).&lt;/p&gt;
+
+&lt;p&gt;What happens when you call &lt;code&gt;library&lt;/code&gt; on both of these packages? The worst case scenario is that you mean to call one package function and R executes the other one. This is called a namespace collision, and unfortunately it can break your code.&lt;/p&gt;
+
+&lt;p&gt;Enter the namespace, which allows us to be package and function specific. If I want to use the function &lt;code&gt;filter&lt;/code&gt; from &lt;code&gt;dplyr&lt;/code&gt;, I write it as &lt;code&gt;dplyr::filter&lt;/code&gt;. The &lt;code&gt;dplyr::&lt;/code&gt; part is the namespace of the &lt;code&gt;dplyr&lt;/code&gt; package.&lt;/p&gt;
+
+&lt;h2 id=&#34;description-the-gatekeeper-for-calling-packages&#34;&gt;&lt;code&gt;DESCRIPTION&lt;/code&gt;: The gatekeeper for calling packages&lt;/h2&gt;
+
+&lt;p&gt;The &lt;code&gt;DESCRIPTION&lt;/code&gt; file is one of the gatekeepers in your package. Ever wonder how &lt;code&gt;install.packages&lt;/code&gt; knows how to install the packages your package depends on? It’s actually because of a field in the &lt;code&gt;DESCRIPTION&lt;/code&gt; file. Here&amp;rsquo;s the &lt;code&gt;DESCRIPTION&lt;/code&gt; file for my &lt;code&gt;burro&lt;/code&gt; package:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Package: burro
+Type: Package
+Title: Shiny App Package for setting up a data exploration session (&amp;quot;burro&amp;quot;w into the data)
+Version: 0.1.0
+Authors@R: as.person(c(
+    &amp;quot;Ted Laderas &amp;lt;tedladeras@gmail.com&amp;gt; [aut, cre]&amp;quot;,
+    &amp;quot;Jessica Minnier &amp;lt;minnier@ohsu.edu&amp;gt; [ctb]&amp;quot;,
+    &amp;quot;Gabrielle Choonoo &amp;lt;choonoo@ohsu.edu&amp;gt; [ctb]&amp;quot;
+  ))
+Maintainer: Ted Laderas &amp;lt;ted.laderas@gmail.com&amp;gt;
+Description: Allows the teacher to deploy a simple data exploration app for exploring a dataset (mostly for teaching purposes).
+License: MIT LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    shinydashboard,
+    ggplot2,
+    visdat,
+    skimr,
+    naniar,
+    data.table,
+    magrittr,
+    glue,
+    usethis,
+    here,
+    viridis,
+    DT
+Depends:
+    shiny
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.0
+Suggests:
+    testthat
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Look at the &lt;code&gt;Imports:&lt;/code&gt; field. You can see a list of all of the packages that &lt;code&gt;burro&lt;/code&gt; utilizes. In ye olde days of R, we used the &lt;code&gt;Depends:&lt;/code&gt; field. Nowadays we use the &lt;code&gt;Imports:&lt;/code&gt; fields. &lt;a href=&#34;https://stackoverflow.com/questions/8637993/better-explanation-of-when-to-use-imports-depends&#34; target=&#34;_blank&#34;&gt;Here&amp;rsquo;s a Stack Overflow post explaining why&lt;/a&gt;. The main reason is that &lt;code&gt;Imports:&lt;/code&gt; requires the package to have a namespace.&lt;/p&gt;
+
+&lt;p&gt;Modifying the &lt;code&gt;DESCRIPTION&lt;/code&gt; file by hand is possible, but I don’t recommend it. Instead, you can use the &lt;code&gt;usethis&lt;/code&gt; package to modify it. For example, if I want to use &lt;code&gt;dplyr&lt;/code&gt; in my package I can do this in the console, while I am building it.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;usethis::use_package(&amp;quot;dplyr&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will add &lt;code&gt;dplyr&lt;/code&gt; to the &lt;code&gt;Imports:&lt;/code&gt; field of your &lt;code&gt;DESCRIPTION&lt;/code&gt; file.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Addition (Thanks Hao Ye, for the suggestion)&lt;/strong&gt;: If the function is in a development version (i.e., hosted on GitHub), you can use &lt;code&gt;usethis::use_dev_package()&lt;/code&gt; to add it to your &lt;code&gt;DESCRIPTION&lt;/code&gt; file. It will add an additional field called &lt;code&gt;Remotes:&lt;/code&gt; to your package:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;usethis::use_dev_package(&amp;quot;tidyverse/dplyr&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For more info about using remotes, check out the vignette: &lt;a href=&#34;https://remotes.r-lib.org/articles/dependencies.html&#34; target=&#34;_blank&#34;&gt;https://remotes.r-lib.org/articles/dependencies.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;using-namespaces-to-call-functions-from-other-packages&#34;&gt;Using namespaces to call functions from other packages&lt;/h2&gt;
+
+&lt;p&gt;Now that we have specified the package in our DESCRIPTION file, we can now call any function in &lt;code&gt;dplyr&lt;/code&gt; by adding a &lt;code&gt;dplyr::&lt;/code&gt; before the function. So if we wanted to call &lt;code&gt;mutate()&lt;/code&gt; in our package function we can do this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mutate_iris &amp;lt;- function(iris){
+    dplyr::mutate(iris, sepal_sum = Sepal.Length + Sepal.Width)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In many cases, calling a function by specifying its namespace is good practice. For one, there are many functions called &lt;code&gt;filter()&lt;/code&gt;: I can think of at least the ones that are in &lt;code&gt;base&lt;/code&gt; and &lt;code&gt;dplyr&lt;/code&gt;. Using the namespace makes it &lt;em&gt;unambiguous&lt;/em&gt; to both R and other developers which &lt;code&gt;filter()&lt;/code&gt; function you&amp;rsquo;re talking about.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-do-i-call-functions-from-other-packages-using-roxygen-docstrings&#34;&gt;How do I call functions from other packages? Using &lt;code&gt;roxygen&lt;/code&gt; docstrings&lt;/h2&gt;
+
+&lt;p&gt;Ugh, I&amp;rsquo;ve already written a bunch of code and I don&amp;rsquo;t want to add the namespaces before all of the functions from other packages! How can I avoid this?&lt;/p&gt;
+
+&lt;p&gt;This is where &lt;code&gt;roxygen&lt;/code&gt; and &lt;code&gt;devtools::document()&lt;/code&gt; come in.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;roxygen&lt;/code&gt; docstrings are responsible for at least three things in your package: 1) producing the documentation (&lt;code&gt;.Rd&lt;/code&gt;) files, but also: 2) specifying what package namespaces you want to utilize, or import in your function, and 3) whether you want to export that function (i.e., make it accessible publicly).&lt;/p&gt;
+
+&lt;p&gt;How do they accomplish 2)? When you call &lt;code&gt;devtools::document()&lt;/code&gt; to build the documentation, they scan for multiple fields, such as &lt;code&gt;@import&lt;/code&gt; and &lt;code&gt;@importFrom&lt;/code&gt; in the &lt;code&gt;roxygen&lt;/code&gt; doc strings. Then &lt;code&gt;devtools::document()&lt;/code&gt; actually modifies the &lt;code&gt;NAMESPACE&lt;/code&gt; file in your package.&lt;/p&gt;
+
+&lt;h2 id=&#34;using-importfrom-when-you-only-need-one-function&#34;&gt;Using &lt;code&gt;@importFrom&lt;/code&gt;: When you only need one function&lt;/h2&gt;
+
+&lt;p&gt;Say you just wanted to use &lt;code&gt;filter&lt;/code&gt; from &lt;code&gt;dplyr&lt;/code&gt;, but didn&amp;rsquo;t want to write &lt;code&gt;dplyr::filter&lt;/code&gt; before all of your functions. You can just import the &lt;code&gt;filter()&lt;/code&gt; function by including the following docstring:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#&#39; @importFrom dplyr filter
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And then you can just use &lt;code&gt;filter()&lt;/code&gt; like normal in your code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#&#39; @importFrom dplyr filter               #This is where you add the @importFrom
+use_filter &amp;lt;- function(df, cutoff=0.5) {
+
+  filter(df, value &amp;lt; cutoff)
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;using-import-when-you-need-a-lot-of-functions-from-a-package&#34;&gt;Using &lt;code&gt;@import&lt;/code&gt;: When you need a lot of functions from a package&lt;/h2&gt;
+
+&lt;p&gt;What if you had a lot of functions from one package, such as &lt;code&gt;shiny&lt;/code&gt;, that you want to use? Do you need to add an &lt;code&gt;@importFrom&lt;/code&gt; for each of these functions? Nope. You can just use one &lt;code&gt;@import&lt;/code&gt; field for the whole package:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#` @import shiny
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And then code like usual:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#` @import shiny            # This is where you add the @import
+shinyUI &amp;lt;- function() {
+    selectInput(&amp;quot;&amp;quot;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;importing-multiple-packages-just-don-t-do-it-updated&#34;&gt;Importing multiple packages: just don&amp;rsquo;t do it (UPDATED).&lt;/h2&gt;
+
+&lt;p&gt;Just a note to not import multiple packages using &lt;code&gt;@import&lt;/code&gt;. As Hadley Wickham has noted, you have no control over the development of the packages you import. Just because there are no function collisions right now between the packages doesn&amp;rsquo;t mean that one of the developers may add a function down the line that might collide. So, if you need to use multiple packages, &lt;code&gt;@import&lt;/code&gt; one package and use &lt;code&gt;@importsFrom&lt;/code&gt; or namespaces to refer to functions in the other packages.&lt;/p&gt;
+
+&lt;h2 id=&#34;exported-versus-internal-functions&#34;&gt;Exported versus Internal functions&lt;/h2&gt;
+
+&lt;p&gt;Remember I mentioned ‘@export’ above? Specifying in a docstring for your function &lt;em&gt;exports&lt;/em&gt; it. Specifying it means that ‘devtools::document()’ will add an &lt;code&gt;Export&lt;/code&gt; directive for the function in the NAMESPACE file. That means you can access it using ‘::’. Going back to our &lt;code&gt;use_filter&lt;/code&gt; example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#&#39; @export                              #This is where you add the @export
+#&#39; @importFrom dplyr filter
+use_filter &amp;lt;- function(df, cutoff=0.5) {
+
+  filter(df, value &amp;lt; cutoff)
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If our package name is &lt;code&gt;mypackage&lt;/code&gt;, then this function will be accessible if we use &lt;code&gt;library(mypackage)&lt;/code&gt; or &lt;code&gt;mypackage::use_filter()&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Why is this important? You may write some &lt;em&gt;internal&lt;/em&gt; functions that are useful in your package, but they aren’t necessarily ones you want your users to use in their daily use. &lt;code&gt;@export&lt;/code&gt; allows you to control which functions you make publicly accessible in your package.&lt;/p&gt;
+
+&lt;p&gt;For example, try typing &lt;code&gt;dplyr::&lt;/code&gt; in RStudio and hit the tab key. You’ll see the usual &lt;code&gt;dplyr&lt;/code&gt; verbs pop up. But these are only the exported functions. Now try &lt;code&gt;dplyr:::&lt;/code&gt; and hit the tab key. You’ll see a list of functions that pop up that’s much longer - these are all the functions, including the internal functions.&lt;/p&gt;
+
+&lt;p&gt;So, if there’s a cool bit of internal code you want to use in a package, you can use ‘:::’ to specify it. Just be aware that oftentimes, internal functions may change a lot as code gets refactored, so code that utilizes them may be refactored.&lt;/p&gt;
+
+&lt;h2 id=&#34;remember-to-run-devtools-document&#34;&gt;Remember to run &lt;code&gt;devtools::document()&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;Once you&amp;rsquo;ve written code and want to test it in your package, remember to run &lt;code&gt;devtools::document()&lt;/code&gt; before you reinstall your package for testing. Otherwise, the &lt;code&gt;NAMESPACE&lt;/code&gt; file won&amp;rsquo;t be modified, and your code won&amp;rsquo;t work.&lt;/p&gt;
+
+&lt;p&gt;You can also modify your Project Options for your package and check the &lt;strong&gt;Tools &amp;gt;&amp;gt; Project Options &amp;gt;&amp;gt; Build Tools &amp;gt;&amp;gt; Generate Documentation with Roxygen&lt;/strong&gt; box. Next to it, there is also a &lt;code&gt;Configure&lt;/code&gt; button that lets you select the option to run &lt;code&gt;devtools::document()&lt;/code&gt; whenever you build a package for testing.&lt;/p&gt;
+
+&lt;h2 id=&#34;go-forth-and-package&#34;&gt;Go forth and Package!&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/imports-workflow.png&#34; alt=&#34;Using a function from another package&#34; width = 500&gt;&lt;/p&gt;
+
+&lt;p&gt;TL;DR:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Use &lt;code&gt;usethis::use_package()&lt;/code&gt; to add packages to your &lt;code&gt;DESCRIPTION&lt;/code&gt; file (while in the console) after you&amp;rsquo;ve created your package skeleton using &lt;code&gt;use_package()&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Use namespaces (such as &lt;code&gt;mypackage::usefilter()&lt;/code&gt;) to refer to external functions where possible to avoid collisions in function names when you are writing code.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;@imports&lt;/code&gt; and &lt;code&gt;@importsFrom&lt;/code&gt; judiciously in your &lt;code&gt;roxygen&lt;/code&gt; documentation for a function if you need to use many extenral package functions within a function.  Use only 1 &lt;code&gt;@import&lt;/code&gt; statement in a function, use namespaces/&lt;code&gt;@importsFrom&lt;/code&gt; for the other packages.&lt;/li&gt;
+&lt;li&gt;Expose functions you want to be made public using &lt;code&gt;@export&lt;/code&gt; in your &lt;code&gt;roxygen&lt;/code&gt; documentation.&lt;/li&gt;
+&lt;li&gt;Remember to run &lt;code&gt;devtools::document()&lt;/code&gt; in the console after you modify/add these fields to the roxygen documentation when you build for testing, or set it up in &lt;strong&gt;Tools &amp;gt;&amp;gt; Project Options&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I hope this helps you to understand exactly the relationships between all of the components that are responsible for accessing namespaces in your package. I was confused about this for years, so writing this has helped me understand these relationships.&lt;/p&gt;
+
+&lt;h2 id=&#34;further-reading&#34;&gt;Further Reading&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If you want to know how R searches for a function across its environments and why namespaces are a good thing, this is an excellent writeup: &lt;a href=&#34;http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/&#34; target=&#34;_blank&#34;&gt;http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;More about the &lt;code&gt;usethis&lt;/code&gt; workflow: &lt;a href=&#34;https://www.hvitfeldt.me/blog/usethis-workflow-for-package-development/&#34; target=&#34;_blank&#34;&gt;https://www.hvitfeldt.me/blog/usethis-workflow-for-package-development/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;More about the &lt;code&gt;DESCRIPTION&lt;/code&gt; file: &lt;a href=&#34;http://r-pkgs.had.co.nz/description.html&#34; target=&#34;_blank&#34;&gt;http://r-pkgs.had.co.nz/description.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;More about namespaces: &lt;a href=&#34;http://r-pkgs.had.co.nz/namespace.html&#34; target=&#34;_blank&#34;&gt;http://r-pkgs.had.co.nz/namespace.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;More about roxygen: &lt;a href=&#34;http://r-pkgs.had.co.nz/man.html#roxygen-comments&#34; target=&#34;_blank&#34;&gt;http://r-pkgs.had.co.nz/man.html#roxygen-comments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;An alternative workflow to modify the &lt;code&gt;DESCRIPTION&lt;/code&gt; file: You can use &lt;code&gt;attachment::att_to_description()&lt;/code&gt; to scan code and add packages to the file after coding (thanks,  Sébastien!).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h2&gt;
+
+&lt;p&gt;Thanks to Hao Ye, Sébastien Rochette, Michael Chirico, Tim Hesterberg, and Hadley Wickham for their comments and questions. I&amp;rsquo;ve incorporated your suggestions.&lt;/p&gt;
+
+&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+
+&lt;p&gt;I want this to be clear and correct. Please &lt;a href=&#34;mailto:laderast@ohsu.edu&#34; target=&#34;_blank&#34;&gt;email me&lt;/a&gt; if there are any mistakes I&amp;rsquo;ve made.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -59,9 +384,112 @@ Namespaces: Why Bother? In short, we need namespaces because of the ambiguity of
       <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/2019/01/24/rstudio-conf-2019-education-and-organizations/</guid>
-      <description>Well, RStudio Conf 2019 has come and gone. I attended the main conference, starting with the poster session on wednesday and stayed through the tidyverse developer day on Saturday.
-To say that the conference was inspiring was an understatement. So many talented people working on such interesting and inspiring packages! It made me excited again about doing data science and teaching data science.
-This post is going to highlight the interesting talks about education and organizational management at the conference.</description>
+      <description>
+
+&lt;p&gt;Well, RStudio Conf 2019 has come and gone. I attended the main conference, starting with the poster session on wednesday and stayed through the tidyverse developer day on Saturday.&lt;/p&gt;
+
+&lt;p&gt;To say that the conference was inspiring was an understatement. So many talented people working on such interesting and inspiring packages! It made me excited again about doing data science and teaching data science.&lt;/p&gt;
+
+&lt;p&gt;This post is going to highlight the interesting talks about education and organizational management at the conference. There were lots of thought provoking talks and great resources about education. &lt;a href=&#34;https://github.com/kbroman/RStudioConf2019Slides&#34; target=&#34;_blank&#34;&gt;Here&amp;rsquo;s a link to the other resources, posters, and talks&lt;/a&gt; (thanks, Karl Broman!). There are a lot of new neat whiz bang features in RStudio, which I won&amp;rsquo;t cover, but are covered very well by others at Karl&amp;rsquo;s link above.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: I&amp;rsquo;m adding links to the videos as subheadings that you can click on. I won&amp;rsquo;t embed these directly because there is often related material with the video.&lt;/p&gt;
+
+&lt;h2 id=&#34;available-teaching-resources&#34;&gt;Available Teaching Resources&lt;/h2&gt;
+
+&lt;p&gt;There was much sharing of educational resources. I&amp;rsquo;ll talk about a few.&lt;/p&gt;
+
+&lt;h3 id=&#34;carl-howe-s-talk-the-next-million-r-users-https-resources-rstudio-com-rstudio-conf-2019-the-next-million-r-users&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/the-next-million-r-users&#34; target=&#34;_blank&#34;&gt;Carl Howe&amp;rsquo;s Talk: The Next Million R Users&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&#34;mel-gregory-rstudio-for-education-https-resources-rstudio-com-rstudio-conf-2019-rstudio-cloud-for-education&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/rstudio-cloud-for-education&#34; target=&#34;_blank&#34;&gt;Mel Gregory: RStudio for Education&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Carl Howe (Director of Education for RStudio) presented a number of resources that RStudio is providing for educational purposes. &lt;a href=&#34;https://github.com/rstudio/learning-r-survey/blob/master/slides/Next-Million-R-Users.pdf&#34; target=&#34;_blank&#34;&gt;Their goal is to train the next million R users&lt;/a&gt;. Here are some of the RStudio based educational resources that might be useful for everyone.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;RStudio Cloud is now available free for people who teach courses&lt;/em&gt;, &lt;a href=&#34;https://www.rstudio.com/pricing/academic-pricing/&#34; target=&#34;_blank&#34;&gt;who can send them a course syllabus to gain access&lt;/a&gt;. RStudio Cloud includes resources to make coursework publically or privately available, allows instructors to install default packages, and gives students an immediate way to start playing with R/RStudio. We are definitely going to use this in teaching our &lt;a href=&#34;http://laderast.github.io/AnalyticsCourse&#34; target=&#34;_blank&#34;&gt;BMI &lt;sup&gt;569&lt;/sup&gt;&amp;frasl;&lt;sub&gt;669&lt;/sub&gt; Data Analytics&lt;/a&gt; course. Mel Gregory&amp;rsquo;s talk was about the nuts and bolts of using RStudio Cloud in a classroom situation. Highly recommended to get familiar with the basics.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Mine Çetinkaya-Rundel also has a &lt;a href=&#34;http://datasciencebox.org&#34; target=&#34;_blank&#34;&gt;Data Science In a Box&lt;/a&gt; course available that can be forked and used by anyone. There is a great discussion of how to use the course and the &lt;a href=&#34;https://datasciencebox.org/hello/tech-stack/&#34; target=&#34;_blank&#34;&gt;tech stack (RStudio Cloud, GitHub, and Slack)&lt;/a&gt; needed to make the course runnable.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;There are also a number of LearnR Tutorials built into RStudio Cloud called &lt;a href=&#34;https://github.com/rstudio-education/primers&#34; target=&#34;_blank&#34;&gt;RStudio Primers&lt;/a&gt; that cover a lot of basic RStudio operations for the self-directed learners.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Jessica Minnier and I &lt;a href=&#34;http://bit.ly/equal_viz&#34; target=&#34;_blank&#34;&gt;presented at the poster session&lt;/a&gt; about our LearnR tutorials, &lt;a href=&#34;http://github.com/laderast/DSIExplore&#34; target=&#34;_blank&#34;&gt;DSIExplore&lt;/a&gt; and &lt;a href=&#34;http://github.com/laderast/dataLiteracyTutorial&#34; target=&#34;_blank&#34;&gt;dataLiteracyTutorial&lt;/a&gt; and our &lt;a href=&#34;http://laderast.github.io/burro&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;burro&lt;/code&gt;&lt;/a&gt; package, which lets &lt;a href=&#34;http://tladeras.shinyapps.io/nhanes_explore&#34; target=&#34;_blank&#34;&gt;users explore a new dataset with a simplified Shiny App&lt;/a&gt;. There&amp;rsquo;s even a function that lets you build a shiny app from a dataset that you can publish to a Shiny server such as &lt;code&gt;shinyapps.io&lt;/code&gt; or RStudio Connect for sharing and having a &lt;a href=&#34;https://laderast.github.io/burro/articles/data_scavenger_hunt.html&#34; target=&#34;_blank&#34;&gt;data scavenger hunt&lt;/a&gt; together. Or as Angela Bassa calls it, an EDA Party. Whoo!&lt;/p&gt;
+
+&lt;h3 id=&#34;irene-stevens-talk-teaching-data-science-with-puzzles-https-resources-rstudio-com-rstudio-conf-2019-teaching-data-science-with-puzzles&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/teaching-data-science-with-puzzles&#34; target=&#34;_blank&#34;&gt;Irene Stevens&amp;rsquo; Talk: Teaching Data Science With Puzzles&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;I really loved Irene Stevens&amp;rsquo; talk about &lt;a href=&#34;https://speakerdeck.com/isteves/teaching-data-science-with-puzzles&#34; target=&#34;_blank&#34;&gt;Teaching Data Science Using Puzzles&lt;/a&gt;. Irene and Jenny Bryan put together a simple project-based framework that lets students download simple data wrangling puzzles per week, lets them submit their answer to an answer server and get feedback, and when they solve it, it creates a minimal reproducible example (reprex) to share with their puzzle community. Very Slick!&lt;/p&gt;
+
+&lt;h3 id=&#34;kelly-bodwin-introductory-statistics-with-r-https-resources-rstudio-com-rstudio-conf-2019-introductory-statistics-with-r-easing-the-transition-to-software-for-beginner-students&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/introductory-statistics-with-r-easing-the-transition-to-software-for-beginner-students&#34; target=&#34;_blank&#34;&gt;Kelly Bodwin: Introductory Statistics with R&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Kelly Bodwin gave a presentation of how she used Shiny apps as an intermediate step as part of an approach to &lt;a href=&#34;https://web.calpoly.edu/~kbodwin/RStudio_2019.html#1&#34; target=&#34;_blank&#34;&gt;teaching introductory statistics&lt;/a&gt;. Kelly is of the opinion that coding is good even for non majors, and her Shiny apps provide an intermediate step between a more click-based app and coding, asking the students to input their variables, their hypothesis, and highlights the output that results. I really liked this approach. I also really loved this slide:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/2019-rstudioconf/downloads_folder.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;diversity-and-inclusiveness-make-for-better-data-science&#34;&gt;Diversity and Inclusiveness Make for Better Data Science&lt;/h2&gt;
+
+&lt;h3 id=&#34;jesse-mostipak-r4ds-online-learning-community-improvements-to-self-taught-data-science-the-critical-need-for-diversity-equity-and-inclusion-in-data-science-education-https-resources-rstudio-com-rstudio-conf-2019-r4ds-online-learning-community-improvements-to-self-taught-data-science-amp-the-critical-need-for-diversity-equity-and-inclusion-in-data-science-education&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/r4ds-online-learning-community-improvements-to-self-taught-data-science-amp-the-critical-need-for-diversity-equity-and-inclusion-in-data-science-education&#34; target=&#34;_blank&#34;&gt;Jesse Mostipak: R4DS online learning community: Improvements to self-taught data science &amp;amp; the critical need for diversity, equity, and inclusion in data science education&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;I really enjoyed Jesse Mostipak&amp;rsquo;s talk about her data science journey starting the &lt;a href=&#34;https://www.rfordatasci.com/&#34; target=&#34;_blank&#34;&gt;R For Data Science (R4DS)&lt;/a&gt; learning community. She especially emphasized that data science was her path out of lower incomes and that she thought it needs to be more accessible to all. She talked about the barriers to going from &amp;ldquo;Using your computer for Netflix&amp;rdquo; to &amp;ldquo;Using your computer for data science&amp;rdquo; as real, and what she learned as a community manager for the R4DS learning community. Finally, she ended with a call for data scientists to share their mistakes, in order to model that making mistakes is ok.&lt;/p&gt;
+
+&lt;h3 id=&#34;caitlin-hudon-learning-from-eight-years-of-data-science-mistakes-https-resources-rstudio-com-rstudio-conf-2019-learning-from-eight-years-of-data-science-mistakes&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/learning-from-eight-years-of-data-science-mistakes&#34; target=&#34;_blank&#34;&gt;Caitlin Hudon: Learning from Eight Years of Data Science Mistakes&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Speaking of mistakes, Caitlin Hudon gave a talk called &amp;ldquo;Learning from Eight Years of Data Science Mistakes&amp;rdquo;, which was really helpful. One of her messages was that &amp;ldquo;Mistakes count as experience&amp;rdquo;, and learning from past mistakes is extremely helpful for the whole team. However, it must be safe for team members to share their mistakes, and so creating the right culture of respect and teaching is important. This includes documentation, and including pseudocode next to the actual code to talk non-data scientists through is important. Likewise, making sure that you are solving the correct business problem requires communication. I really liked her discussion of the Rhetorical Triangle as a way to frame communications: Speaker, Audience, and Context.&lt;/p&gt;
+
+&lt;h3 id=&#34;tracy-teal-teaching-r-using-inclusive-pedagogy-practices-and-lessons-learned-from-over-700-carpentries-workshops-https-resources-rstudio-com-rstudio-conf-2019-teaching-r-using-inclusive-pedagogy-practices-and-lessons-learned-from-over-700-carpentries-workshops&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/teaching-r-using-inclusive-pedagogy-practices-and-lessons-learned-from-over-700-carpentries-workshops&#34; target=&#34;_blank&#34;&gt;Tracy Teal: Teaching R using inclusive pedagogy: Practices and lessons learned from over 700 Carpentries workshops&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Tracy Teal from Data Carpentries also talked about their efforts to &lt;a href=&#34;https://docs.google.com/presentation/d/1yZTOcm0hO3sq8nz24luNoxL2Tk4IWfwoeYSXa09-zB8/edit#slide=id.g4d9835a148_0_218&#34; target=&#34;_blank&#34;&gt;Teaching R using inclusive pedagogy&lt;/a&gt;, including fostering a growth mindset. &lt;a href=&#34;https://carpentries.github.io/instructor-training/&#34; target=&#34;_blank&#34;&gt;Their instructor training&lt;/a&gt; is a wonderful 2-day crash course in teaching, and I&amp;rsquo;m going to propose that it be offered to our graduate students to prep them for teaching. (Full disclosure: I&amp;rsquo;ve contributed to these course materials.) I also appreciated how candid she was about how much further they need to go to increase the diversity of participants.&lt;/p&gt;
+
+&lt;p&gt;Diversity and Inclusiveness was also a theme of Angela Bassa&amp;rsquo;s talk about &lt;a href=&#34;https://github.com/angelabassa/rstudioconf-2019&#34; target=&#34;_blank&#34;&gt;Team Data Science&lt;/a&gt;. She pointed out that data science teams need to be diverse to serve audiences who are highly diverse.&lt;/p&gt;
+
+&lt;h2 id=&#34;making-teaching-resources-for-community-college-instructors&#34;&gt;Making Teaching Resources for Community College Instructors&lt;/h2&gt;
+
+&lt;h3 id=&#34;mary-rudis-catching-the-r-wave-how-r-and-rstudio-are-revolutionizing-statistics-education-in-community-colleges-and-beyond-https-resources-rstudio-com-rstudio-conf-2019-catching-the-r-wave-how-r-and-rstudio-are-revolutionizing-statistics-education-in-community-colleges-and-beyond&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/catching-the-r-wave-how-r-and-rstudio-are-revolutionizing-statistics-education-in-community-colleges-and-beyond&#34; target=&#34;_blank&#34;&gt;Mary Rudis: Catching the R wave: How R and RStudio are revolutionizing statistics education in community colleges (and beyond)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;A really interesting talk for me was Mary Rudis&amp;rsquo; talk about her work &lt;a href=&#34;https://mrshrbrmstr.github.io/RStudioConf2019/pres/Marys_slides-rev/assets/player/KeynoteDHTMLPlayer.html#0&#34; target=&#34;_blank&#34;&gt;teaching data science at the community college level&lt;/a&gt;. As head of the math department at Penn State Harrisburg, Mary has done a lot of work developing the first data science certification at the community college level. There are a lot more people attending community college than 4 year colleges, and we need to make paths to data science accessible for these students.&lt;/p&gt;
+
+&lt;p&gt;A lot more work needs to be done to make data science accessible at this level. Mary has pointed out a number of efforts that need help, including &lt;a href=&#34;http://statprep.org/the-statprep-team/&#34; target=&#34;_blank&#34;&gt;StatPREP&lt;/a&gt; and the &lt;a href=&#34;https://amatyc.site-ym.com/page/AMATYCAffiliateOrg&#34; target=&#34;_blank&#34;&gt;American Mathematical Association of Two Year Colleges&lt;/a&gt;. She also ended with a call for Shiny Developers to help Community College instructors develop tools they can use to teach data science.&lt;/p&gt;
+
+&lt;h2 id=&#34;organizational-considerations-in-data-science&#34;&gt;Organizational Considerations in Data Science&lt;/h2&gt;
+
+&lt;h3 id=&#34;joe-cheng-shiny-in-production-https-resources-rstudio-com-rstudio-conf-2019-shiny-in-production-principles-practices-and-tools-joe-cheng&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/shiny-in-production-principles-practices-and-tools-joe-cheng&#34; target=&#34;_blank&#34;&gt;Joe Cheng: Shiny in Production&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&#34;tonya-filz-the-resilient-r-champion-https-resources-rstudio-com-rstudio-conf-2019-the-resilient-r-champion&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/the-resilient-r-champion&#34; target=&#34;_blank&#34;&gt;Tonya Filz: The Resilient R Champion&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Organizational considerations were also a really interesting part of RStudio Conf for me. Joe Cheng&amp;rsquo;s keynote on &lt;a href=&#34;https://speakerdeck.com/jcheng5/shiny-in-production&#34; target=&#34;_blank&#34;&gt;Shiny in Production&lt;/a&gt; spent some time talking about overcoming resistance to Shiny in your organization, including talking with Data Engineers and IT Security. His point was that oftentimes, resistance comes from the feelings of territorialism and how to overcome them. Tonya Filz also gave a talk about being a Resilient R Champion at your organization, stressing these issues and giving us case studies/examples to show leaders at your organization.&lt;/p&gt;
+
+&lt;h3 id=&#34;hilary-parker-cultivating-creativity-in-data-work-https-resources-rstudio-com-rstudio-conf-2019-cultivating-creativity-in-data-work&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/cultivating-creativity-in-data-work&#34; target=&#34;_blank&#34;&gt;Hilary Parker: Cultivating creativity in Data work&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Hilary Parker&amp;rsquo;s talk about &lt;a href=&#34;https://www.slideshare.net/hilaryparker/rstudioconf2019l&#34; target=&#34;_blank&#34;&gt;Creativity and Data Science in the Organization&lt;/a&gt;, about applying system design principles to data science. Rather than thinking of ourselves as having a traditional role at the end of the analysis, Hilary suggested that we partipate in all parts of the process, including data collection. Her group suggested a change in an app, which resulted in a brand new data stream for them to analyse.&lt;/p&gt;
+
+&lt;h3 id=&#34;angela-bassa-data-science-as-a-team-sport-https-resources-rstudio-com-rstudio-conf-2019-data-science-as-a-team-sport&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/data-science-as-a-team-sport&#34; target=&#34;_blank&#34;&gt;Angela Bassa: Data science as a team sport&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Angela Bassa&amp;rsquo;s Talk about &lt;a href=&#34;https://github.com/angelabassa/rstudioconf-2019&#34; target=&#34;_blank&#34;&gt;Team Data Science&lt;/a&gt; talked about the organizational aspects of making a data team, including specializing roles, making sure that knowledge and expertise was distributed, and managing burnout by making sure that no one team member is overloaded. She stressed resilience within a team by making sure that people are taking care of themselves, having redundancy in the team. Process is also important, by making sure data is well documented, by allotting time. She also stressed the importance of young and new data scientists to the team, because they aren&amp;rsquo;t biased with previous knowledge. I also thought she had excellent arguments about the cost of &lt;em&gt;not expanding&lt;/em&gt; your data team - potential users who would be lost.&lt;/p&gt;
+
+&lt;h2 id=&#34;encouraging-a-growth-mindset&#34;&gt;Encouraging a Growth Mindset&lt;/h2&gt;
+
+&lt;h3 id=&#34;panel-growth-change-of-careers-organizations-and-responsibility-in-data-science-https-resources-rstudio-com-rstudio-conf-2019-4pm-panel-day-2&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/4pm-panel-day-2&#34; target=&#34;_blank&#34;&gt;Panel: Growth &amp;amp; change of careers, organizations and responsibility in data science&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;I really enjoyed the final panel discussion, which was about encouraging a Growth Mindset for Data Scientists in their careers. Karthik Ram, Tracy Teal, Angela Bassa, and Hilary Parker all fielded questions about growing as a data scientist. One of my favorite remarks was from Tracy Teal, who mused about the possibility of a Leadership Carpentry, teaching potential leaders essential skills such as mentoring, faciliation skills, and valuing team contributions. Angela Bassa also had a great quote that &amp;ldquo;leadership is programming people&amp;rdquo;. She also pointed out that the role of Data Scientists is to &amp;ldquo;Question Dogma&amp;rdquo; and pointed out the importance of saying &amp;ldquo;I don&amp;rsquo;t know&amp;rdquo;.&lt;/p&gt;
+
+&lt;h3 id=&#34;david-robinson-the-unreasonable-effectiveness-of-public-work-https-resources-rstudio-com-rstudio-conf-2019-the-unreasonable-effectiveness-of-public-work&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/the-unreasonable-effectiveness-of-public-work&#34; target=&#34;_blank&#34;&gt;David Robinson: The Unreasonable Effectiveness of Public Work&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/2019-rstudioconf/public_work.png&#34; alt=&#34;Making your work public&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The growth mindset was also a theme of Dave Robinson&amp;rsquo;s Keynote, which was about making your &lt;a href=&#34;https://bit.ly/drob-rstudio-2019&#34; target=&#34;_blank&#34;&gt;data science work public at a number of levels&lt;/a&gt;. He outlined a number of different types of public contributions, such as short form (tweets, discussions about data), long form (blogs), code contributions, and even writing a book.&lt;/p&gt;
+
+&lt;h2 id=&#34;direct-explicit-instruction-in-education&#34;&gt;Direct Explicit Instruction in Education&lt;/h2&gt;
+
+&lt;h3 id=&#34;felienne-hermans-explicit-direct-instruction-in-education-https-resources-rstudio-com-rstudio-conf-2019-opening-keynote-day2&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/opening-keynote-day2&#34; target=&#34;_blank&#34;&gt;Felienne Hermans: Explicit Direct Instruction in Education&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Felienne Hermans gave a wonderful keynote about teaching computer programming. I won&amp;rsquo;t crib her story, because her telling it was a delightful journey and I encourage you to watch it for yourself at the link above. Part of her point was that programming pedagogy is dominated by the &amp;ldquo;tyranny of fun&amp;rdquo;, rather than focusing on teaching fundamentals. One of the problems with programming education is that we haven&amp;rsquo;t defined what these fundamentals are, compared to the pedagogy of reading, which talks about teaching with fundamentals such as phonics.&lt;/p&gt;
+
+&lt;p&gt;We expect students to explore things without teaching them enough, and that actually hurts their progress. Instead, we should also be teaching fundamentals, such as code reading out loud and rote memorization of programming patterns. By utilizing these fundamentals, she has found improved learning outcomes. As she says, motivation comes from seeing progress, not necessarily from exploration alone. Her results on using direct instruction have showed improved outcomes in terms of motivation.&lt;/p&gt;
+
+&lt;p&gt;I have to admit that this talk really opened my eyes to the blind spots we have in programming education. Looking forward to incorporating these ideas in my coursework.&lt;/p&gt;
+
+&lt;h2 id=&#34;so-many-people-to-teach-so-many-ways-to-teach&#34;&gt;So Many People to Teach, So Many Ways to Teach!&lt;/h2&gt;
+
+&lt;p&gt;So that&amp;rsquo;s my summary about the education and organizational talks/posters at RStudio Conf. Hopefully it gives you an idea of what resources, opportunities, and pedagogy is out there.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -70,8 +498,84 @@ This post is going to highlight the interesting talks about education and organi
       <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/12/13/reframing-impostor-syndrome-as-being-on-the-road-to-mastery/</guid>
-      <description>At some point in your life in Data Science, you will probably struggle with impostor syndrome. We all do - in fact, even though I have used R and have done bioinformatics and data science for more than 15 years, I still struggle with this feeling. As a beginner, the mountain you must climb to master skills in data science seems like a long and impossible one.
-Caitlin Hudon, in her post about dealing with impostor syndrome has this to say about countering impostor syndrome:</description>
+      <description>
+
+&lt;p&gt;At some point in your life in Data Science, you will probably struggle with &lt;a href=&#34;https://www.apa.org/gradpsych/2013/11/fraud.aspx&#34; target=&#34;_blank&#34;&gt;impostor syndrome&lt;/a&gt;. We all do - in fact, even though I have used R and have done bioinformatics and data science for more than 15 years, I still struggle with this feeling. As a beginner, the mountain you must climb to master skills in data science seems like a long and impossible one.&lt;/p&gt;
+
+&lt;p&gt;Caitlin Hudon, in her post about &lt;a href=&#34;https://caitlinhudon.com/2018/01/19/imposter-syndrome-in-data-science/&#34; target=&#34;_blank&#34;&gt;dealing with impostor syndrome&lt;/a&gt; has this to say about countering impostor syndrome:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The way that I’ve dealt with imposter syndrome is this: I’ve accepted that I will never be able to learn everything there is to know in data science — I will never know every algorithm, every technology, every cool package, or even every language — and that’s okay. The great thing about being in such a diverse field is that nobody will know all of these things (and that’s okay too!).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I think it&amp;rsquo;s important to try and reframe the feelings of impostor syndrome into something more positive. I think having self-compassion about the difficulties of the learning process can help.&lt;/p&gt;
+
+&lt;p&gt;George Leonard&amp;rsquo;s &lt;a href=&#34;https://www.goodreads.com/book/show/81940.Mastery&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Mastery&lt;/em&gt;&lt;/a&gt; is a short book that I think can help provide the antidote to these feelings of fraud and inadequacy. I feel that beginners and learners would feel much better if their instructors would own up to their own personal shortcomings as learners. That is, instead of trying to project the image of the all knowledgable guru, instructors should show themselves as humble, lifelong learners as well.&lt;/p&gt;
+
+&lt;p&gt;In &lt;a href=&#34;https://www.goodreads.com/book/show/81940.Mastery&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Mastery&lt;/em&gt;&lt;/a&gt;, Leonard talks about our unrealistic expectations and how these expectations can get in the way of actually learning and mastering a craft. We are conditioned by ads, movies, and social media that mastering a craft is a never ending set of ever rising climaxes (cue the &lt;a href=&#34;https://www.youtube.com/watch?v=SPFCHuEegsk&#34; target=&#34;_blank&#34;&gt;training montage&lt;/a&gt;), that we can make continuous and steady progress by working hard enough.&lt;/p&gt;
+
+&lt;p&gt;Mastering a craft takes practice, and lots of it. We must learn to be contented to practice when we are on a plateau and are not making visible progress. As Leonard notes,&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Path to Mastery is practice.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Leonard outlines 5 principles that can sustain us in our road to mastery and away from impostor syndrome: &lt;strong&gt;Instruction&lt;/strong&gt;, &lt;strong&gt;Practice&lt;/strong&gt;, &lt;strong&gt;Surrender&lt;/strong&gt;, &lt;strong&gt;Intentionality&lt;/strong&gt;, and &lt;strong&gt;The Edge&lt;/strong&gt;. I&amp;rsquo;m trying to map common feelings of impostor syndrome and show how these principles can counteract these feelings.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instruction&lt;/strong&gt;. Leonard emphasizes the importance in finding good instructors and good mentorship that will help us to grow. Finding good instructors can actually be difficult and finding someone who remembers what it was like to be learning something is important. Avoid those instructors who say things like &amp;ldquo;it should now be obvious&amp;rdquo; or are disparaging when you don&amp;rsquo;t understand something.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;He or she is not necessarily the one that gives the most polished lectures, but rather the &lt;em&gt;one who has discovered how to involve each student actively&lt;/em&gt; in the process of learning.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;What you can do today&lt;/em&gt;: look at twitter and other forums for your community of learners and support those who give good instruction. Realize that not all teachers are good teachers; leave them and seek better ones if necessary.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Practice&lt;/strong&gt;. Practice for practices&amp;rsquo; sake. Deliberate practice where you slowly build up your understanding and perceptions is important to your growth.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Where in our upbringing, our schooling, our career are we taught to value, to enjoy, even to love the plateau, the long stretch of diligent effort with no seeming progress?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;What you can do today&lt;/em&gt;: Join communities of practice such as Tidy Tuesday and share your learning with others. Tidy Tuesday is extremely friendly and encouraging for beginners. Learn together and grow together. These are safe communities to share knowledge.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Intentionality&lt;/strong&gt;. This goes hand in hand with practice. Deliberate practice requires visualizing your process and guiding yourself gently.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Intentionality fuels the master&amp;rsquo;s journey. Every master is a master of vision.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;What you can do today&lt;/em&gt;: find small exercises and projects that help you reinforce what you&amp;rsquo;ve learned so far. Find people&amp;rsquo;s code and vignettes and modify them until you understand what they&amp;rsquo;ve done and how they structured their work.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Surrender&lt;/strong&gt;. At some point, you will have to give up your own social position as an expert to grow as a learner. When this happens, you must be willing to risk that standing to progress further. Leonard talks about a karate master learning aikido who was not willing to start from scratch, which impeded his learning. For many of us academics, being willing to abandon the comfort of what we have learned is especially difficult. We feel like we are risking our own social standing and reputation.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;For the master, surrender means there are no experts. There are only Learners.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;What you can do today&lt;/em&gt;: be humble when faced with new concepts (for many impostor syndrome sufferers this is not the hard part). Recognize when you need to grow and when you have to leave old concepts behind.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Edge&lt;/strong&gt;. This is where things are undefined and scary. Still, part of the journey to mastery is a willingness to push your thoughts to beyond the horizon of what you thought was possible.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The trick here is not only to test the edges of the envelope, but also to walk the fine line between endless, goalless practice and those alluring roles that appear along the way.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;What you can do today&lt;/em&gt;: Identify some goals that are just beyond your current skillset and be willing to push your learning to that point.&lt;/p&gt;
+
+&lt;p&gt;Leonard maintains that true mastery is not due to innate talent. True mastery is due to tenacity and perserverance in the face of difficult learning. In fact, he suggests that learning things too easily means that you might lack perserverance when the going gets rough and your progress slows. He maintains that someone who perseveres will &amp;ldquo;have learned whatever [they] are practicing to the marrow of [their] bones.&amp;rdquo;&lt;/p&gt;
+
+&lt;h2 id=&#34;encouraging-mastery-as-a-community&#34;&gt;Encouraging Mastery as a Community&lt;/h2&gt;
+
+&lt;p&gt;I think Caitlin&amp;rsquo;s &lt;a href=&#34;https://caitlinhudon.com/2018/01/19/imposter-syndrome-in-data-science/&#34; target=&#34;_blank&#34;&gt;prescriptions for community wide suggestions for reducing impostor syndrome&lt;/a&gt; are wonderful. Especially the advice to &amp;ldquo;Get comfortable with I don&amp;rsquo;t know&amp;rdquo;. Normalizing &amp;ldquo;I don&amp;rsquo;t know&amp;rdquo; within a community is incredibly important to making a psychologically safe learning environment.&lt;/p&gt;
+
+&lt;p&gt;To encourage learners, I think that creating a community of practice and helpfulness is vitally important to give new learners the support they need. When communities take responsibility for the learning of their members, something magic happens. Learning no longer feels lonely and there is no shame when you don&amp;rsquo;t immediately grasp a concept. Patience becomes the norm and people become more confident.&lt;/p&gt;
+
+&lt;p&gt;For me, this is the true value of schools and universities. To get the most out of online learning, you need to participate within a community that encourages you to learn further. Be on the pathway to mastery by participate within learning communities.&lt;/p&gt;
+
+&lt;h2 id=&#34;further-reading&#34;&gt;Further Reading&lt;/h2&gt;
+
+&lt;p&gt;Mastery: &lt;a href=&#34;https://www.goodreads.com/book/show/81940.Mastery&#34; target=&#34;_blank&#34;&gt;https://www.goodreads.com/book/show/81940.Mastery&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -80,8 +584,83 @@ Caitlin Hudon, in her post about dealing with impostor syndrome has this to say 
       <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/10/15/clinical-data-wrangling/</guid>
-      <description>Well, we just finished our clinical data wrangling workshop. This was a 12 hour workshop (spread over 4 days) where students got to work with a real research dataset (the Sleep Heart Health Study data). This is a workshop that we developed as part of an National Library of Medicine T15 training supplement in Data Science. The following is a short report describing the workshop and its outcomes.
-Intended AudienceWe designed the workshop for our incoming informatics students (both clinical and biological majors) in order to introduce them to the difficulties of working with clinical data.</description>
+      <description>&lt;p&gt;Well, we just finished our &lt;a href=&#34;https://laderast.github.io/clinical_data_wrangling/&#34;&gt;clinical data wrangling workshop&lt;/a&gt;. This was a 12 hour workshop (spread over 4 days) where students got to work with a real research dataset (the &lt;a href=&#34;http://sleepdata.org&#34;&gt;Sleep Heart Health Study&lt;/a&gt; data). This is a workshop that we developed as part of an National Library of Medicine T15 training supplement in Data Science. The following is a short report describing the workshop and its outcomes.&lt;/p&gt;
+&lt;div id=&#34;intended-audience&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Intended Audience&lt;/h2&gt;
+&lt;p&gt;We designed the workshop for our incoming informatics students (both clinical and biological majors) in order to introduce them to the difficulties of working with clinical data.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;learning-objectives&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Learning Objectives&lt;/h2&gt;
+&lt;p&gt;These were our learning objectives for the workshop:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Understand the biology of sleep and sleep apnea and how the biology informs the covariates measured in the Sleep Heart Health Study&lt;/li&gt;
+&lt;li&gt;Understand why clinical data is useful and also why it’s difficult to work with&lt;/li&gt;
+&lt;li&gt;Learn Exploratory Data Analysis techniques and use them to inform model building.&lt;/li&gt;
+&lt;li&gt;Learn to assess logistic regression models using simple diagnostics.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-dataset&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The Dataset&lt;/h2&gt;
+&lt;p&gt;We used the &lt;a href=&#34;https://sleepdata.org/datasets/shhs&#34;&gt;Sleep Heart Health Study&lt;/a&gt; dataset from the &lt;a href=&#34;https://sleepdata.org&#34;&gt;National Sleep Research Resource&lt;/a&gt;. This is a dataset of approximately 5800 patients that have over 3000 covariates. We limited our students to a smaller number of covariates (17), including our outcome of interest, cardiovascular disease.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;workshop-format&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Workshop Format&lt;/h2&gt;
+&lt;p&gt;We designed the workshop to be a mix of didactic lectures and active learning exercises. Where possible, we had students work in groups to answer questions about the data. These activities included a data scavenger hunt using our EDA exploration app, and a logistic modeling exercise.&lt;/p&gt;
+&lt;div id=&#34;day-1-outline&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Day 1 Outline&lt;/h3&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Introduction, logistics, and groups assigned (30 minutes)&lt;/li&gt;
+&lt;li&gt;Biology of Sleep and Cardiovascular Disease (40 minutes, format: in-person lecture)&lt;/li&gt;
+&lt;li&gt;Break Time (15 minutes)&lt;/li&gt;
+&lt;li&gt;The Value of Clinical Data (15 minutes, in-person lecture)&lt;/li&gt;
+&lt;li&gt;Clinical Data Quality (40 minutes, in-person lecture)&lt;/li&gt;
+&lt;li&gt;Lunch (90 minutes, with optional R setup session)&lt;/li&gt;
+&lt;li&gt;Exploring the SHHS Dataset (60 minutes, format: Data Scavenger Hunt w/ Shiny App, each team gets a task and has to show the class how to find the information)&lt;/li&gt;
+&lt;li&gt;Applying the Clinical Wrangling Process: Diabetes (45 minutes, format: in-person lecture)&lt;/li&gt;
+&lt;li&gt;Logistic Regression Model Basics (60 minutes, format: walkthrough of R Notebook)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;day-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Day 2&lt;/h3&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Question/Answer session about Logistic Regression and Modeling (50 minutes)&lt;/li&gt;
+&lt;li&gt;Assignment about &lt;code&gt;race&lt;/code&gt; variable (assigned to groups, take-home assignment)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;day-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Day 3&lt;/h3&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Discussion about &lt;code&gt;race&lt;/code&gt; as a covariate, sharing of findings&lt;/li&gt;
+&lt;li&gt;Overview of hypertension and how it relates to cardiovascular disease and sleep apnea&lt;/li&gt;
+&lt;li&gt;Template/R Notebook given for final presentation in groups (in-class lab time, template is structured as a series of decisions.)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;day-4&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Day 4&lt;/h3&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Group presentations about covariate decisions and resulting model (1 hour, present final version of R notebook). At each decision stage, teams must decide on whether or not to include covariates or not given what they have found from exploring the data and justify their decision using EDA visualizations.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;lessons-learned&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Lessons Learned&lt;/h2&gt;
+&lt;p&gt;Overall, we believe the workshop went well, as it encouraged discussion about data and its appropriateness among the students. Students were engaged overall and asked lots of questions.&lt;/p&gt;
+&lt;p&gt;The final reports for each group were generated from a R Notebook. All three groups showed a thoughtful narrative and justification for each of the covariates included in the model.&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Interactive visualization removes barriers to understanding issues in data&lt;/strong&gt;. Ted developed a Shiny App that allowed the students to visually browse and understand the data. Along with the EDA scavenger hunt (see below), this served as a good introduction for students to get their feet wet with the SHHS dataset.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Our diverse backgrounds helped make the workshop accessible.&lt;/strong&gt; Nicole Weiskopf has a background in data quality of clinical data, Eilis Boudreau does sleep study work, and I’m a bit of a mongrel.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Securing the cooperation of the data holders made the workshop possible&lt;/strong&gt;. The dataset comes from the National Sleep Study Resource. Eilis knows Susan Redline, who heads that group and pitched the idea (over two sessions) to her group. Susan’s group was very enthusiastic and helpful, especially in helping the students get their data use agreements in so they could access the dataset.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Group work is learning work&lt;/strong&gt;. We assigned each student to a group, and gave each group questions to answer and teach the class about the dataset. By pointing them to specific aspects of the data, we opened the door to discussion.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;EDA scavenger hunt&lt;/strong&gt;. We had the students learn data exploration by giving them a scavenger hunt to look at the relationship between variables. Each group was then required to talk about their findings and which visualization helped them discover that relationship. For example, there is a relationship between age and race in our dataset; the “Other” category of race has a lower median age than the other two categories, “White” and “Black”.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Didactic Teaching is also important&lt;/strong&gt;. Nicole and Eilis covered both the biology of sleep apnea and the difficulty of understanding the implications of clinical data. Without this background, students would not be able to make informed decisions about their final model.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Guide the Students, but don’t force discussion&lt;/strong&gt;. This was important. We think the students need to connect the dots to really understand the issues. The final product (a logistic regression model predicting cardiovascular disease with an R Notebook) had steps and choices. But the choices for each group of students was different.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;A Code of conduct is necessary and important&lt;/strong&gt;. We are big believers in psychological safety. If people don’t feel safe in the classroom environment (and let’s face it, grad school classrooms rarely are), they will be less likely to learn and contribute.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Data restrictions made deploying difficult&lt;/strong&gt;. The activity materials were deployed as an RStudio project. However, we couldn’t share the data within a GitHub repo. As OHSU’s approved vendor is Box, we setup a box folder containing the material to be shared with students.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We were grateful for the incoming informatics students’ enthusiasm and patience as we got this workshop going. Also thanks to the NLM T15 Supplement in Data Science, without which we would not have gotten the opportunity to conceptualize, put together, and deliver this workshop. Thanks again to Susan Redline and the &lt;a href=&#34;http://sleepdata.org&#34;&gt;National Sleep Research Resource&lt;/a&gt; group, especially Dan Mobley who helped us with the last-minute data use agreements.&lt;/p&gt;
+&lt;p&gt;Link to Workshop: &lt;a href=&#34;https://github.com/laderast/clinical_data_wrangling&#34; class=&#34;uri&#34;&gt;https://github.com/laderast/clinical_data_wrangling&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -90,9 +669,42 @@ Intended AudienceWe designed the workshop for our incoming informatics students
       <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/08/07/shiny-and-tidyeval/</guid>
-      <description>Note: sometimes I write these posts to teach myself a better way to do things in R.
-I have been avoiding tidyeval somewhat, because I seem to have a bit of a learning block about it. I’m going to try to write some posts that help me understand what’s going on with Tidy Evaluation.
-Using sym() in a Shiny AppOne fairly simple Shiny Application might be selecting a column of the dataset and then doing something with it, such as using it in a select() or filter() statement.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Note: sometimes I write these posts to teach myself a better way to do things in R.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I have been avoiding &lt;code&gt;tidyeval&lt;/code&gt; somewhat, because I seem to have a bit of a learning block about it. I’m going to try to write some posts that help me understand what’s going on with Tidy Evaluation.&lt;/p&gt;
+&lt;div id=&#34;using-sym-in-a-shiny-app&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Using &lt;code&gt;sym()&lt;/code&gt; in a Shiny App&lt;/h2&gt;
+&lt;p&gt;One fairly simple Shiny Application might be selecting a column of the dataset and then doing something with it, such as using it in a &lt;code&gt;select()&lt;/code&gt; or &lt;code&gt;filter()&lt;/code&gt; statement. Say we had a simple app to produce histograms, and we wanted to change the column that is being displayed on the histogram.&lt;/p&gt;
+&lt;p&gt;Try this app out by running the following command. The &lt;a href=&#34;https://gist.github.com/laderast/a5205554324306e642b2df9f80ed6409&#34;&gt;code is here&lt;/a&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;runGist(&amp;quot;https://gist.github.com/laderast/a5205554324306e642b2df9f80ed6409&amp;quot;, display.mode=&amp;quot;showcase&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Our input is a select input called &lt;code&gt;numeric_var&lt;/code&gt;, which returns a single column name as a &lt;code&gt;character&lt;/code&gt; In our server logic, we’ve built a reactive called &lt;code&gt;selected_data&lt;/code&gt;, which returns the selected column as a vector using &lt;code&gt;pull()&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;  selected_data &amp;lt;- reactive({
+    ## input$numeric_var is a character, so we cast it to symbol
+    var_name &amp;lt;- sym(input$numeric_var)
+
+    ## Now we evaluate it with !!
+    out_col &amp;lt;- iris %&amp;gt;% pull(!!var_name)
+  })&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The question is: how do we pass the input value into &lt;code&gt;pull()&lt;/code&gt;? We first have to use &lt;code&gt;rlang::sym()&lt;/code&gt; to pass our character in as a &lt;code&gt;symbol&lt;/code&gt; that we’re calling &lt;code&gt;var_name&lt;/code&gt;. But the issue is that our reactive doesn’t know which environment to look in.&lt;/p&gt;
+&lt;p&gt;We want our reactive to look for the column name within the environment of the &lt;code&gt;iris&lt;/code&gt; &lt;code&gt;tibble&lt;/code&gt;. This is where the &lt;code&gt;!!&lt;/code&gt; (bang-bang) comes in. It says, ‘look for the value’ within the &lt;code&gt;tibble&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;using-syms-in-a-shiny-app&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Using &lt;code&gt;syms()&lt;/code&gt; in a Shiny App&lt;/h2&gt;
+&lt;p&gt;What if wanted to pass in &lt;em&gt;multiple&lt;/em&gt; variables from a select box? We’ll need to wrap our input with &lt;code&gt;syms()&lt;/code&gt;, which takes a list.&lt;/p&gt;
+&lt;p&gt;Let’s do a slightly different version where we’re visualizing a box plot and we want to select multiple columns to display in our dataset from a &lt;code&gt;selectInput&lt;/code&gt; where we’ve specified the &lt;code&gt;multiple=TRUE&lt;/code&gt; argument.&lt;/p&gt;
+&lt;p&gt;Our setup is similar, but different. Because we have multiple values, we have to use &lt;code&gt;syms()&lt;/code&gt; to wrap the input from &lt;code&gt;input$numeric_vars&lt;/code&gt;. Then we can evaluate it with &lt;code&gt;!!!&lt;/code&gt; (the triple bang).&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;  selected_data &amp;lt;- reactive({
+    ## input$numeric_var is a character vector, so we cast it to symbol
+    var_list &amp;lt;- syms(input$numeric_vars)
+
+    ## Now we evaluate it with !!!
+    out_col &amp;lt;- iris %&amp;gt;% select(!!!var_list)
+  })&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Try this app out. The &lt;a href=&#34;https://gist.github.com/laderast/952120ac46d1f27c2d2dba5bd1ab5d10&#34;&gt;Code is here&lt;/a&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;runGist(&amp;quot;https://gist.github.com/laderast/952120ac46d1f27c2d2dba5bd1ab5d10&amp;quot;, display.mode=&amp;quot;showcase&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -101,18 +713,55 @@ Using sym() in a Shiny AppOne fairly simple Shiny Application might be selectin
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/08/02/turning-down-the-noise/</guid>
-      <description>I&amp;rsquo;m still in the process of recovering from my current bout of depression and anxiety. I&amp;rsquo;d like to talk about what is currently helping me moderate my anxiety. I have been practicing mindfulness and meditation for the past three years and I&amp;rsquo;m beginning to realize how necessary it is in our information dense age. Many of my symptoms of anxiety are really from an information overglut.
-I&amp;rsquo;m currently on way too many projects and am teaching as well.</description>
-    </item>
-    
-    <item>
-      <title>Creativity and Science</title>
-      <link>/2018/07/09/creativity-and-science/</link>
-      <pubDate>Mon, 09 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/07/09/creativity-and-science/</guid>
-      <description>I decided to write this post in celebration of my newest album, [Tiny Fugues, being released](). I consider myself a scientist and I am a musician in almost equal parts. There has been a lot of talking about the role of creativity in science. Honestly, I rarely try to cross the streams of science and music, mostly because it really hasn&amp;rsquo;t been encouraged in my career.
-I do think that I do use the same problem solving skills that I do in science that I also use in composition.</description>
+      <description>
+
+&lt;p&gt;I&amp;rsquo;m still in the process of recovering from my current bout of depression and anxiety. I&amp;rsquo;d like to talk about what is currently helping me moderate my anxiety. I have been practicing mindfulness and meditation for the past three years and I&amp;rsquo;m beginning to realize how necessary it is in our information dense age. Many of my symptoms of anxiety are really from an information overglut.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m currently on way too many projects and am teaching as well. Everything wants my attention. We need to decide dates for a visit, etc. Booking travel, grading students, etc. The noise of academic life can be overwhelming and can prevent me from working effectively. A book I&amp;rsquo;m reading, &lt;em&gt;Real Happiness at Work&lt;/em&gt; by Sharon Salzberg, talks about Attention Deficit Trait disorder:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Attention deficit trait (ADT) is workplace-induced attention deficit caused by the constant, relentless input of information, these days usually enabled by our high-tech devices, smartphones, and computers.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is especially prevalent for people like me who are on multiple grants and have many collaborators. I&amp;rsquo;m okay with putting out the occasional fire or dealing with an emergency deadline; if I believe in the project, I can muster the energy. However, the problem is when I have multiple fires to deal with from multiple people. The task switching leads to stress and leads to an inability to prioritize. This is where I&amp;rsquo;ve been the last few months.&lt;/p&gt;
+
+&lt;p&gt;And this is when the voices of doubt begin to fuel my anxiety. On top of the enormous task list, there&amp;rsquo;s the feelings of failure and disappointment because I can&amp;rsquo;t get simple things done. In my head the voices reach a frenzy, a cacophony, a noise. And then I can&amp;rsquo;t think straight, prioritize, work on one thing.&lt;/p&gt;
+
+&lt;p&gt;What is the solution to ADT and the noise of life? Mindfulness and unitasking. As Sharon Salzberg notes:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;hellip; while it’s unrealistic to try to stop the number and variety of incoming demands, in our technologically advanced world it is possible to modulate how much information we’re taking in, and how many tasks we are doing at once. When we slow down and concentrate on doing just what is before us to be done now, &lt;strong&gt;we become the masters of our own environment rather than its frantic slaves.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This idea (being a master of my environment) appeals to me in the midst of my academic anxiety. Practicing mindfulness (through daily meditation) helps me to focus on the here and now. We are wired to ruminated about the past (things we wish we&amp;rsquo;d done better) or the future (oh crap, I need to prepare upcoming stuff). Meditation is all about building that focus and attention on what&amp;rsquo;s before us. If we can&amp;rsquo;t do it all, we can at least work on what&amp;rsquo;s right in front of us.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve also been reading Anne Lamott&amp;rsquo;s &lt;em&gt;Bird by Bird&lt;/em&gt;, a book reflecting on the hows and whys of writing and living your life while doing it. It&amp;rsquo;s a sobering view of why we write and how to keep on in the face of numerous adversities. There&amp;rsquo;s one passage that really resonated with me in the chapter called &amp;ldquo;Shitty First Drafts&amp;rdquo; in dealing with the incessant chatter of life:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Close your eyes and get quiet for a minute, until the chatter starts up. Then isolate one of the voices and imagine the person speaking as a mouse. Pick it up by the tail and drop it into a mason jar. Then isolate another voice, pick it up by the tail, drop it in the jar. And so on. Drop any high maintenance parental units, drop in any contractors, lawyers, colleagues, children, anyone else who is whining in your head. Then put the lid on, and watch all these mouse people clawing at the glass, jabbering away, trying to make you feel like shit because you won&amp;rsquo;t do what they want - won&amp;rsquo;t give them more money, won&amp;rsquo;t be more successful, won&amp;rsquo;t see them more often. Then imagine there is a volume control button on the bottle. Turn it all the way up for a minute, and listen to the stream of angry, neglected, guilt-mongering voices. Then turn it all the way down and watch the frantic mice lunge at the glass, trying to get to you. Leave it down, and get back to your shitty first draft.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is another idea in mindfulness: &lt;em&gt;welcoming and acknowledging our worries and negative voices&lt;/em&gt;. If we ignore or refuse these feelings, they just become stronger and louder in the din and the noise. I have all sorts of these feelings: &lt;em&gt;I don&amp;rsquo;t work hard enough&lt;/em&gt;, &lt;em&gt;I&amp;rsquo;m a failure&lt;/em&gt;, &lt;em&gt;I&amp;rsquo;m letting down people who depend on me&lt;/em&gt;, &lt;em&gt;Everyone is out there working on cooler things than me&lt;/em&gt;. Now I&amp;rsquo;m trying to take an effort to welcome these feelings into my mental space, saying &amp;ldquo;okay, I hear you and acknowledge you, so you don&amp;rsquo;t have to be yelling anymore&amp;rdquo;. And surprisingly, they do quiet down. Acknowledging the feelings of failure, thanking them for their contribution to the discussion and showing them the door is important. As Kelly Boys says in &lt;em&gt;The Blind Spot Effect&lt;/em&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;If you approach life with a willingness to be with what you encounter without getting lost in it, it moves gracefully within your experience.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And that helps lower the volume and free your attention.&lt;/p&gt;
+
+&lt;p&gt;If you are feeling generalized anxiety or attention deficit trait, I encourage you to look into mindfulness as a way of turning down the noise.&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;p&gt;These are some of the resources that I&amp;rsquo;ve used when writing this post.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/gp/product/0692475389/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;The Mindful Geek: Secular Meditation for Smart Skeptics&lt;/em&gt;&lt;/a&gt; by Michael Taft. This is a great book for people who are interested in Mindfulness and the psychological and neuroscience research about why mindfulness works in reducing depression and anxiety. I started here. Michael Taft calls meditation &amp;ldquo;a technology for hacking the human wetware to improve your life&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/Real-Happiness-Work-Meditations-Accomplishment/dp/B0182Q7KAQ/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Real Happiness at Work: Meditations for Accomplishment, Achievement, and Peace&lt;/em&gt;&lt;/a&gt; by Sharon Salzberg. This is a nice followup to &lt;em&gt;Mindful Geek&lt;/em&gt;, talking about how we can regain control in our workplace.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/Blind-Spot-Effect-Missing-Whats-ebook/dp/B07413Q5Y7/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;The Blind Spot Effect: How to Stop Missing What&amp;rsquo;s Right in Front of You&lt;/em&gt;&lt;/a&gt; by Kelly Boys. I am really liking this book so far. It&amp;rsquo;s about how meditation and mindfulness can help us find our cognitive blind spots and move beyond them.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/Bird-Some-Instructions-Writing-Life/dp/0385480016/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Bird by Bird: Some Instructions on Writing and Life&lt;/em&gt;&lt;/a&gt; by Anne Lamott. I recently started reading this on vacation. Writing can be a lonely and solitary life, and I find many of her suggestions about living to apply equally well to research.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -121,16 +770,20 @@ I do think that I do use the same problem solving skills that I do in science th
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/06/25/asking-for-help-to-get-better/</guid>
-      <description>I want to thank everyone who has reached out to me after I wrote my post on struggling with my depression and self-care. I am incredibly grateful for everyone’s concern about me. I wrote that at a low point in my life because I had to. I was suffering too long in silence, and I needed to do something. Writing that post was incredibly scary. I am still worried that it may be used against me somehow down the line when I am reviewed for tenure.</description>
-    </item>
-    
-    <item>
-      <title>Working on the `umapr` package</title>
-      <link>/2018/06/15/working-on-the-umapr-package/</link>
-      <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/06/15/working-on-the-umapr-package/</guid>
-      <description>Motivation A few weeks ago, as part of the [rOpenSci Unconference](), a group of us (Sean Hughes, Malisa Smith, Angela Li, Ju Kim and me) decided to work on making the UMAP algorithm accessible within R. UMAP (Uniform Manifold Approximation and Projection) is a [dimensionality reduction technique]() that allows the user to reduce high dimensional data (multiple columns) into a smaller number of columns for visualization purposes (Usually two). It is related to both Priniciple Components Analysis (PCA) and t-SNE, which are techniques often used in the single-cell omics world to visualize high dimensional data.</description>
+      <description>&lt;p&gt;I want to thank everyone who has reached out to me after I wrote &lt;a href=&#34;http://laderast.github.io/2018/06/05/self-care-and-self-compassion-in-academia/&#34; target=&#34;_blank&#34;&gt;my post on struggling with my depression and self-care&lt;/a&gt;. I am incredibly grateful for everyone’s concern about me. I wrote that at a low point in my life because I had to. I was suffering too long in silence, and I needed to do something. Writing that post was incredibly scary. I am still worried that it may be used against me somehow down the line when I am reviewed for tenure. But the truth is that I&amp;rsquo;m not a productivity machine; I can be extremely dependable in very uncertain situations, but to do that I need support.&lt;/p&gt;
+
+&lt;p&gt;I wanted to start the conversation because mental health is not something we talk about much in academia. There is still a lot of bias and stigma against those with mental illness, that they are &amp;ldquo;weak&amp;rdquo;, or that they should &amp;ldquo;get out of academia&amp;rdquo;. This stigma prevents a lot of students and postdocs from seeking the treatment they need.  I just want to say this to everyone who is struggles with mental illness: &lt;strong&gt;you aren&amp;rsquo;t weak, and you aren&amp;rsquo;t alone&lt;/strong&gt;. As far as I am concerned, each of you that manages to get through your day despite of your illness should be considered a hero. Because I know how hard it can be to even get out of bed some days. And I would like for PIs to consider that your overall neglect and/or bad advising can contribute to your student&amp;rsquo;s decline in mental health.&lt;/p&gt;
+
+&lt;p&gt;Thank you to all my students, my colleagues, alumni, and everyone in my department (including my department head and division head) who are supporting me. Your kindness and sharing your stories about your struggles really has meant a lot to me. I’ve come to realize that I have an amazing support network and that I just need to ask for help. I am slowly figuring out what that help is. I’m going to 0.8 time for a while to give me more breathing room. I’m exhausted and I just need some time to replenish my energy and reflect where I want to go next.&lt;/p&gt;
+
+&lt;p&gt;I have come to realize that saying yes when I shouldn&amp;rsquo;t comes at a cost to myself and my mental health. Everything I do comes at a cost; I need to have a better gauge of when that cost is worth it, and how much mental reserve I have in my tanks. When my collaborators don&amp;rsquo;t understand the amount of work I do cleaning their data, when they don&amp;rsquo;t respect the work I have done managing their data and reconciling the issues with data collection, that&amp;rsquo;s when I feel like working in research is not worth it.&lt;/p&gt;
+
+&lt;p&gt;One of my industry collaborations was like that, and it pretty much drained nearly all of my energy. I don&amp;rsquo;t like working with people who expect me to give them an answer and aren&amp;rsquo;t willing to educate me about what I&amp;rsquo;m supposed to be looking for. I also don&amp;rsquo;t like working with people who take advantage of my work in open science to further their own work agenda. I need less of these kind of collaborations, and I need the gumption to walk away from them.&lt;/p&gt;
+
+&lt;p&gt;I just want to say this: I am not a rock. I am not strong. But I am a good advocate for others, especially those I feel who have been dealt an unfair hand. I realize that I need to advocate for myself right now. Thank you to other academics such as Dr. Emily Hencken Ritter, who wrote about &lt;a href=&#34;http://duckofminerva.com/2017/04/building-safe-space-for-depression-in-academia.html&#34; target=&#34;_blank&#34;&gt;her struggles with depression and what help she asked for&lt;/a&gt;. I&amp;rsquo;m going to highlight posts about this using the hashtag #DepressionInAcademia on Twitter.&lt;/p&gt;
+
+&lt;p&gt;In short: I&amp;rsquo;m not going to get better overnight, but I&amp;rsquo;m trying to take steps to get better. I&amp;rsquo;ll be taking a little time off this summer as well to recharge and figure out what&amp;rsquo;s next. I&amp;rsquo;ll try to chronicle what works for me and to highlight other people&amp;rsquo;s writings about this.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -139,8 +792,23 @@ I do think that I do use the same problem solving skills that I do in science th
       <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/06/09/cascadia-r-2018-how-we-planned-it/</guid>
-      <description>Well, Cascadia-R 2018 has come and gone. This year we tried our best to make it as inclusive, welcoming, and friendly as we could. Considering we had 224 participants this time around, I’d say it was a success.
-I just thought I would do a little write up of some of the things we did and why we did them in our conference. I’m hoping it will be useful for other conference planners to create a welcoming environment.</description>
+      <description>&lt;p&gt;Well, &lt;a href=&#34;http://cascadiarconf.com&#34;&gt;Cascadia-R 2018&lt;/a&gt; has come and gone. This year we tried our best to make it as inclusive, welcoming, and friendly as we could. Considering we had 224 participants this time around, I’d say it was a success.&lt;/p&gt;
+&lt;p&gt;I just thought I would do a little write up of some of the things we did and why we did them in our conference. I’m hoping it will be useful for other conference planners to create a welcoming environment.&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;We created a pull plan based on what we learned last year.&lt;/strong&gt; Because last year was pretty chaotic in terms of planning, we decided to try to make a pull plan this year. &lt;a href=&#34;https://esub.com/pull-planning-how-lean-construction-practices-can-improve-project-efficiency/&#34;&gt;Pull planning is a project management technique&lt;/a&gt; in which you work backwards from absolute deadlines (from the day of the conference). Doing so spaces out a lot of the work and makes things potentially more dividable across a group. I’ve made our &lt;a href=&#34;https://trello.com/b/lphkRbnU/cascadia-r-pull-plan&#34;&gt;pull plan public&lt;/a&gt; so other conference planners can see what we did and the timing it took to organize the conference.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Find sponsorship money.&lt;/strong&gt; We ran last year on a shoestring, using only about $3500. We realized that to make the conference more inclusive this year, we had to get sponsorship money. Childcare and diversity scholarships cost money. We wanted sponsors who had values that aligned with our inclusion goals. Lilly Winfree was especially great at finding sponsors who were in tune with what we wanted to accomplish with our conference. Sponsorship also allowed us to pay for lunch for everyone, which we couldn’t last year.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Provide childcare.&lt;/strong&gt; We wanted parents to be able to attend, so we got &lt;a href=&#34;http://www.divcarepdx.com&#34;&gt;DivCare&lt;/a&gt; to provide childcare for them in our building. DivCare provided childcare for 8 children, and we had some grateful parents who were happy they could attend.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Diversity Committee&lt;/strong&gt;. We did this last year, but we had more money this year for diversity scholarships for those who might not be able to attend. I think next year we might think about reaching out to more STEM groups, but I think the real challenge is finding how to get those diverse students who might not even know about data science in and how to properly host and support them.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Get rid of longer form talks. Keynotes and Lightning talks only.&lt;/strong&gt; This is probably the most controversial choice that we made. However, we realized that the 10-15 minute talks we had in 2017 were mostly academic ones. Honestly, there are already too many academic conferences out there. We wanted a format that was more accessible and encouraged discussion afterwards, so we stayed with the lightning talks.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Have keynote speakers show newcomers how to join the R Community.&lt;/strong&gt; We chose Kara Woo and Alison Hill as our keynote speakers for a very specific reason: we wanted to encourage people new to R that they could learn things. Alison gave a &lt;a href=&#34;https://speakerdeck.com/apreshill/big-magic-with-r-creative-learning-beyond-fear&#34;&gt;wonderful talk about ways to approach learning R&lt;/a&gt;; Kara gave a great talk talking about &lt;a href=&#34;https://github.com/karawoo/2018-06-02-cascadiarconf&#34;&gt;how to contribute to various R-projects on GitHub&lt;/a&gt;, especially the &lt;code&gt;tidyverse&lt;/code&gt; suite of packages. What I really liked about both their talks was that they emphasized learning by doing.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Moar workshops.&lt;/strong&gt; We wanted beginners and intermediate people feel like they were learning something, and in a safe learning environment. One piece of feedback from last year was that people wanted more workshops. We created a beginner track and an intermediate track for workshops. I would just like to say that none of the workshop people got paid for their work, and I do wish that some of the attendees realized that before they provided feedback such as “BORING” (seriously? please realize that there are people who develop these, and constructive feedback is always better). All of these workshops were done for free as labors of love, unlike conferences like ODSC.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Organize Volunteers&lt;/strong&gt;. We had lots of volunteers this year and we finally were able to figure out roles for everyone to do (registration, nametags, TAs, etc).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Do a visualization fest that wasn’t competitive&lt;/strong&gt;. I know that everyone loves bake-offs like the &lt;em&gt;DREAM Challenges&lt;/em&gt; and &lt;em&gt;Kaggle&lt;/em&gt;, but we felt that having a competition was in conflict with the community building we wanted to do with the conference.That, and Tidy Tuesday, were the inspirations for the &lt;em&gt;cRaggy&lt;/em&gt;. We wanted people to share ideas with each other and to be constructive with each other. We had &lt;a href=&#34;https://github.com/lopierra/biketown&#34;&gt;three&lt;/a&gt; &lt;a href=&#34;https://github.com/cwickham/cRaggyhttps://github.com/cwickham/cRaggy&#34;&gt;great&lt;/a&gt; &lt;a href=&#34;https://github.com/WatanabeSmith/BIKETOWN_CascadiaR&#34;&gt;short&lt;/a&gt; talks talking about their approach to the visualization and we shared the data with Tidy Tuesday.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Talk honestly about impostor syndrome&lt;/strong&gt;. We had a panel with three people (the wonderful Paige Bailey, Kevin Watanabe-Smith and Lilly Winfree) and they all talked about how they deal with impostor syndrome. Some of the lessons are: you feel like less of an impostor the more you do and the more you participate.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Have more downtime&lt;/strong&gt;. We had feedback last year that there wasn’t enough social time. We built more breaks into the schedule and had a third room (the hack room) dedicated to the “hallway track”: often the best times we’ve had conferences is when we play hooky from conference activities. Some people suggested this year that there maybe was too much downtime. I would say to that, there’s always more opportunity to meet people.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So that’s why Cascadia R was the way it was this year. In another blog post, I’ll talk more about the fun things that happened this year and our hopes for the next year.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -149,8 +817,26 @@ I just thought I would do a little write up of some of the things we did and why
       <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/06/05/self-care-and-self-compassion-in-academia/</guid>
-      <description>Note: I am not writing the following to complain, or excuse any past behavior. I am writing this just to be honest and transparent about my current struggles in academia. I hope it helps someone, or encourages other to seek help.
- I have to confess that I haven&amp;rsquo;t really been feeling all that well the past few months. Right now I am plagued with feelings that I am doing my work as an Assistant Professor wrong.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Note: I am not writing the following to complain, or excuse any past behavior. I am writing this just to be honest and transparent about my current struggles in academia. I hope it helps someone, or encourages other to seek help.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I have to confess that I haven&amp;rsquo;t really been feeling all that well the past few months. Right now I am plagued with feelings that I am doing my work as an Assistant Professor wrong. I struggle with this persistent voice in my head that even when I am working at full tilt and beyond, that it&amp;rsquo;s not enough.&lt;/p&gt;
+
+&lt;p&gt;For most of my life, I have had chronic depression. I am a high functioning depressive; I have managed to get things done when I am depressed. However, this effort comes at the cost of self-care. I really think that some past posts have really come from a place of high stress and high anxiety. I apologize for &lt;a href=&#34;http://laderast.github.io/2018/01/15/if-you-want-to-talk-with-me-for-an-informational-interview/&#34; target=&#34;_blank&#34;&gt;the harsh tone of this post&lt;/a&gt;. I am also struggling with burnout at this point. I am beginning to feel like a lot of my efforts to encourage interdisciplinary collaborations are not feeling very productive. Part of this has to do with internal politics.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t think my depression is an excuse for my past behavior. The lack of self-care, however, is a major cause. When I don&amp;rsquo;t take care of myself, I reach a place of high stress and high anxiety and I can&amp;rsquo;t think straight. If I have been hurtful or bullying to others in any way because of this, I apologize.&lt;/p&gt;
+
+&lt;p&gt;I still struggle with impostor syndrome. I do think that in many ways, this struggle has helped me become more compassionate as a teacher, remembering what concepts I struggled with. I have been trying my best to keep up with the added responsibilities of a faculty member: mentoring students, writing new course material, doing outreach, and also trying to keep the lights on by doing research (I won&amp;rsquo;t get into grant writing here; that&amp;rsquo;s another major depressive kettle of fish). I feel like I&amp;rsquo;ve currently been a disappointment as a faculty member so far.&lt;/p&gt;
+
+&lt;p&gt;I am currently in therapy, which has been very helpful in understanding what problems I can address and what problems that are currently endemic to the academic system. I don&amp;rsquo;t know of any other field where one can accomplish a lot yet still feel like a failure.&lt;/p&gt;
+
+&lt;p&gt;The hardest thing for me is saying no, especially to students. But I realize that I can&amp;rsquo;t really be my best for students without taking care of myself. That balance between being considerate of others and also being considerate of my self is something that I am struggling with as a faculty member.&lt;/p&gt;
+
+&lt;p&gt;I guess my point being is that I need to reframe saying no as being protective of myself and my current students rather than registering the disappointment when I say no. I&amp;rsquo;d like to help people, but I can help people better when I&amp;rsquo;m feeling well and better. Part of this may be coming to grips that academia may not be my place in the world if it demands that I sacrifice my mental health just to stay where I am.&lt;/p&gt;
+
+&lt;p&gt;So for the time being, I&amp;rsquo;d like to focus on getting better and feeling better. For your sake and mine. I will try to welcome newcomers to data science the best I can - just realize that what I may be able to do for you is a little limited right now.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -159,9 +845,72 @@ I just thought I would do a little write up of some of the things we did and why
       <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/05/24/group-by-summarize-not-just-for-numeric-values/</guid>
-      <description>Even though I’ve been using the tidyverse for a couple of years, there’s always a couple new applications of tidyverse verbs.
-This one, in retrospect, is pretty simple. I had a one to many table that I wanted to collapse, tidy-style. Let’s look at the diamonds dataset:
-diamonds %&amp;gt;% select(color, cut)## # A tibble: 53,940 x 2## color cut ## &amp;lt;ord&amp;gt; &amp;lt;ord&amp;gt; ## 1 E Ideal ## 2 E Premium ## 3 E Good ## 4 I Premium ## 5 J Good ## 6 J Very Good## 7 I Very Good## 8 H Very Good## 9 E Fair ## 10 H Very Good## # .</description>
+      <description>&lt;p&gt;Even though I’ve been using the &lt;code&gt;tidyverse&lt;/code&gt; for a couple of years, there’s always a couple new applications of &lt;code&gt;tidyverse&lt;/code&gt; verbs.&lt;/p&gt;
+&lt;p&gt;This one, in retrospect, is pretty simple. I had a one to many table that I wanted to collapse, tidy-style. Let’s look at the &lt;code&gt;diamonds&lt;/code&gt; dataset:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;diamonds %&amp;gt;% select(color, cut)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 53,940 x 2
+##    color cut      
+##    &amp;lt;ord&amp;gt; &amp;lt;ord&amp;gt;    
+##  1 E     Ideal    
+##  2 E     Premium  
+##  3 E     Good     
+##  4 I     Premium  
+##  5 J     Good     
+##  6 J     Very Good
+##  7 I     Very Good
+##  8 H     Very Good
+##  9 E     Fair     
+## 10 H     Very Good
+## # ... with 53,930 more rows&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;What if we wanted to collapse all the entries for each color into a single line? There’s 7 different colors, so we can use a combination of &lt;code&gt;group_by&lt;/code&gt; on &lt;code&gt;color&lt;/code&gt; and use the &lt;code&gt;paste()&lt;/code&gt; function within &lt;code&gt;summarize()&lt;/code&gt; to get what we want, which I’ve called &lt;code&gt;all_colors&lt;/code&gt; here. By specifying the &lt;code&gt;collapse&lt;/code&gt; argument, we can specify the delimiter within that column:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;diamonds %&amp;gt;% select(color, cut) %&amp;gt;% 
+  group_by(color) %&amp;gt;% 
+  summarize(all_colors=
+              paste(cut, collapse=&amp;quot;;&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `summarise()` ungrouping output (override with `.groups` argument)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 7 x 2
+##   color all_colors                                                              
+##   &amp;lt;ord&amp;gt; &amp;lt;chr&amp;gt;                                                                   
+## 1 D     Very Good;Very Good;Very Good;Good;Good;Premium;Premium;Ideal;Ideal;Ver~
+## 2 E     Ideal;Premium;Good;Fair;Premium;Premium;Very Good;Very Good;Very Good;G~
+## 3 F     Premium;Very Good;Very Good;Very Good;Good;Premium;Very Good;Very Good;~
+## 4 G     Very Good;Ideal;Ideal;Very Good;Premium;Premium;Ideal;Very Good;Ideal;P~
+## 5 H     Very Good;Very Good;Very Good;Good;Good;Very Good;Good;Very Good;Very G~
+## 6 I     Premium;Very Good;Ideal;Good;Premium;Ideal;Ideal;Ideal;Ideal;Very Good;~
+## 7 J     Good;Very Good;Good;Ideal;Ideal;Good;Good;Very Good;Very Good;Very Good~&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Thanks to Ken Butler, who pointed out that the &lt;code&gt;tidyverse&lt;/code&gt; way (via &lt;code&gt;stringr&lt;/code&gt;) is to use &lt;code&gt;str_c&lt;/code&gt; instead:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;diamonds %&amp;gt;% select(color, cut) %&amp;gt;% 
+  group_by(color) %&amp;gt;% 
+  summarize(all_colors=
+              stringr::str_c(cut, collapse=&amp;quot;;&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `summarise()` ungrouping output (override with `.groups` argument)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 7 x 2
+##   color all_colors                                                              
+##   &amp;lt;ord&amp;gt; &amp;lt;chr&amp;gt;                                                                   
+## 1 D     Very Good;Very Good;Very Good;Good;Good;Premium;Premium;Ideal;Ideal;Ver~
+## 2 E     Ideal;Premium;Good;Fair;Premium;Premium;Very Good;Very Good;Very Good;G~
+## 3 F     Premium;Very Good;Very Good;Very Good;Good;Premium;Very Good;Very Good;~
+## 4 G     Very Good;Ideal;Ideal;Very Good;Premium;Premium;Ideal;Very Good;Ideal;P~
+## 5 H     Very Good;Very Good;Very Good;Good;Good;Very Good;Good;Very Good;Very G~
+## 6 I     Premium;Very Good;Ideal;Good;Premium;Ideal;Ideal;Ideal;Ideal;Very Good;~
+## 7 J     Good;Very Good;Good;Ideal;Ideal;Good;Good;Very Good;Very Good;Very Good~&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Finally, if we wanted to just get the unique values of the cuts in a single line, we can use &lt;code&gt;unique&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;diamonds %&amp;gt;% select(color, cut) %&amp;gt;% 
+  group_by(color) %&amp;gt;% 
+  summarize(all_colors=
+              paste(unique(cut), collapse=&amp;quot;;&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `summarise()` ungrouping output (override with `.groups` argument)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 7 x 2
+##   color all_colors                       
+##   &amp;lt;ord&amp;gt; &amp;lt;chr&amp;gt;                            
+## 1 D     Very Good;Good;Premium;Ideal;Fair
+## 2 E     Ideal;Premium;Good;Fair;Very Good
+## 3 F     Premium;Very Good;Good;Fair;Ideal
+## 4 G     Very Good;Ideal;Premium;Good;Fair
+## 5 H     Very Good;Good;Premium;Fair;Ideal
+## 6 I     Premium;Very Good;Ideal;Good;Fair
+## 7 J     Good;Very Good;Ideal;Premium;Fair&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
@@ -170,8 +919,54 @@ diamonds %&amp;gt;% select(color, cut)## # A tibble: 53,940 x 2## color cut ##
       <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/05/17/a-introvert-s-survival-guide-to-conferences/</guid>
-      <description>In academia, it’s inevitable to have to travel and present at conferences and meetings. As an introvert, I&amp;rsquo;ve been trying to compile a few tips that have helped me navigate large conferences so I don’t feel overwhelmed.
-It is unfortunate that though the academic community has many introverts, conference and meeting structure is heavily biased towards extroverts. (No offense to extroverts, but some of you can sometimes seem like blowhards to us introverts.</description>
+      <description>
+
+&lt;p&gt;In academia, it’s inevitable to have to travel and present at conferences and meetings. As an introvert, I&amp;rsquo;ve been trying to compile a few tips that have helped me navigate large conferences so I don’t feel overwhelmed.&lt;/p&gt;
+
+&lt;p&gt;It is unfortunate that though the academic community has many introverts, conference and meeting structure is heavily biased towards extroverts. (No offense to extroverts, but some of you can sometimes seem like blowhards to us introverts.)&lt;/p&gt;
+
+&lt;p&gt;The question for introverts is how to connect with people at meetings while being true to our nature. We value meaningful and deep connections rather than shallow ones.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Set Yourself Up For Success. Be prepared.&lt;/strong&gt; If you can, try to connect with people or identify the people you want to meet before the conference even starts. Bring things that make you comfortable. A sweater, water, candy/energy bars. If there are sessions that look interesting, look at the author’s previous papers and think of questions beforehand. An introvert’s strength is that they are good at preparing for things. Use that preparation to your advantage.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Be Curious, Not Scared.&lt;/strong&gt; You are a curious person. If you weren’t, you wouldn’t be in science. Use that curiosity to connect. Wonder about things. Think about where research could go.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Be the Host, Not the Hosted&lt;/strong&gt;. According to Susan Cain, introverts do very well socially when they have a specific role. I like moderating sessions for this reason. I’m pretty good at being amiable and making other people comfortable in such situations. By being thoughtful and helping people with their problems, you can form connections.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;It’s Totally Ok to Take a Break&lt;/strong&gt;. It’s called self-care. Remember, introverts find social situations draining. Go outside for a few minutes, or find a corner that’s quiet and secluded, look at websites on your laptop. Just don’t withdraw. It’s a break, not a jailbreak.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Accept That You’ll Miss Out. Emphasize quality over quantity.&lt;/strong&gt; As an introvert, I am constantly feeling guilty about not going to every session and meeting people. FOMO can drive me to the point of being overwhelmed. But the truth is, if I can meet two or three people that I can connect with and two or three talks I find inspiring, I consider that a good meeting.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Make Yourself Comfortable at Social Functions&lt;/strong&gt;.  Introverts can do very well socially when the situation is proscribed and the roles are clear, which is why I like poster sessions. There’s a limited set of questions you can ask and be asked. You can also do your homework by looking at the posters before you meet the person. Also: I hate asking public questions in meetings. (This again, is where extroverts can sometimes seem like blowhards to me. Bless their hearts.) I really prefer to go up to the speaker afterwards and try to have a meaningful conversation.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Remember That Most People Are Equally Nervous. Be kind.&lt;/strong&gt; Be compassionate to yourself and to others. This will make you more relatable. When you focus on making others comfortable, you concentrate less on your own nervousness. Kindness goes a long way in these situations. Help someone out who’s struggling.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Ask Questions and Listen&lt;/strong&gt;. Again, other people at conferences want to be heard and connect. You may run into raging egotists who don’t listen to you. It’s ok to politely disengage from the conversation. But there is something always interesting about everyone.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Gauge When You’re Exhausted&lt;/strong&gt;. As an introvert, being with people can be draining. At some point, enough is enough. Take the evening off, grab something to go, and watch tv or read a book in your hotel room alone. It’s ok, no one is keeping score of how many social events you are going to. Again, it’s ok to not go to the big reception (unless you’re giving a poster at that time, of course).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;It’s OK, the Right People Will Like You&lt;/strong&gt;.  You will eventually find people you want to talk to. Nurture these relationships. If someone gives you their card, follow up on it. It’s a sign of wanting to make connections.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Don’t Expect The World of Each Social Interaction&lt;/strong&gt;. I think sometimes we idealize what our perfect interaction would be. We get disappointed when our interactions are less than that. Prepare to be pleasantly surprised, but don’t get bored and wander off. Respect goes a long way, and also serendipity is good. Try to learn more outside your field.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;It’s Totally Okay to be Awkward&lt;/strong&gt;. Just own it. Most scientists are awkward in some way.  (I know that I am, stop denying it people.) Being awkward is a way of being vulnerable - and being vulnerable is a way of connecting. I sometimes consider wearing an “I’m an introvert” button at conferences. At least it would be a good conversation starter. So go ahead, wear something quirky that you like. It can serve as a signal to find like minded people. Remember, own your awkwardness.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Breathe&lt;/strong&gt;.  Conferences can feel like scary and unsafe situations to introverts. If you feel agitated, don’t force it. Take a moment and breathe.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The world of conferences doesn’t really value introverts, but it needs us (at least there are some people thinking about &lt;a href=&#34;https://scientistseessquirrel.wordpress.com/2018/03/15/making-a-conference-introvert-friendly/&#34; target=&#34;_blank&#34;&gt;making conferences more introvert friendly&lt;/a&gt;). We’re thoughtful, slow to react, but we can synthesize and bring deeper understanding. Give us space to think and be ourselves, and we will contribute and add diversity to the conversation.&lt;/p&gt;
+
+&lt;h2 id=&#34;for-more-information&#34;&gt;For more information&lt;/h2&gt;
+
+&lt;p&gt;There are lots of blogs written about this. Here are some of my favorites.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.theconfusedmillennial.com/conference-introvert/&#34; target=&#34;_blank&#34;&gt;How to Make the Most of a Conference as an Introvert&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.lifehack.org/articles/communication/how-to-survive-big-conferences-as-an-introvert.html&#34; target=&#34;_blank&#34;&gt;How to Survive Big Conferences As an Introvert&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hbr.org/2015/10/how-introverts-can-make-the-most-of-conferences&#34; target=&#34;_blank&#34;&gt;How Introverts can Make the Most of Conferences&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -180,227 +975,12 @@ It is unfortunate that though the academic community has many introverts, confer
       <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/04/25/health-informatics-course-materials/</guid>
-      <description>Sorry for the lack of posts. I have been busy with co-teaching our Health Informatics course (HSMP410) for the OHSU/PSU School of Public Health.
-I&amp;rsquo;m trying to make most of my lectures activity-driven for my students, who are Community Health Education and Nursing majors. I believe that you can teach mathematical concepts visually, so I am experimenting with using LearnR/Shiny to teach the basics of data literacy. I&amp;rsquo;m also using datacamp-light to show my students a simple intro to data science.</description>
-    </item>
-    
-    <item>
-      <title>A Simple Intro to Genome Wide Association</title>
-      <link>/2018/04/04/a-simple-intro-to-genome-wide-association/</link>
-      <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/04/04/a-simple-intro-to-genome-wide-association/</guid>
-      <description>This term, I&amp;rsquo;m co-teaching an undergraduate course for the PSU/OHSU School of Public Health called Health Informatics with a number of my collegues in my department, including Bill Hersh, Eilis Boudreau, Karen Eden, and Virginia Lankes. We&amp;rsquo;re trying to give students a feel for what informatics is about in an accessible way.
-I&amp;rsquo;m trying to make the lectures as understandable as I can. This week we tackled Genome Wide Association Studies and discussed the strength of evidence behind SNP variants associated with phenotypes.</description>
-    </item>
-    
-    <item>
-      <title>Some Notes from the Evidence to Scholarship Conference</title>
-      <link>/2018/03/19/some-notes-from-the-evidence-to-scholarship-conference/</link>
-      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/03/19/some-notes-from-the-evidence-to-scholarship-conference/</guid>
-      <description>Last week I had the good fortune to attend the From Evidence to Scholarship Conference at my alma mater, Reed College. The focus of the conference was improving the research process for undergraduates using digital scholarship. I came away from it excited about the work other people are doing in this realm and thinking about ways we could adapt these approaches.
-Nicole Vasilevsky and I (both former Reedies) each gave talks, about our experience developing materials for Data Science and giving data science workshops to undergraduates.</description>
-    </item>
-    
-    <item>
-      <title>Data Science and Systems Science</title>
-      <link>/2018/02/28/data-science-and-systems-science/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/02/28/data-science-and-systems-science/</guid>
-      <description>I gave a talk for the Portland State University Systems Science seminar called How are Data Science and Systems Science Connected?. In this talk, I was highlighting current blind spots in Data Science that I think Systems Science approaches can address, especially that of interactions between features. I talked a little about my dissertation research (surrogate oncogenes), and the problem of black-box interpretability of predictive models.
-If you&amp;rsquo;re interested in listening to the recording, the playback is available here: https://us.</description>
-    </item>
-    
-    <item>
-      <title>A gRadual Introduction to Shiny</title>
-      <link>/2018/01/24/gradual-introduction-to-shiny/</link>
-      <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/01/24/gradual-introduction-to-shiny/</guid>
-      <description>I just gave a workshop teaching the basics of Shiny (the interactive web visualization framework) for a group of PDX R users. We had 10 people attend, and most of the attendees managed to get through the material and had lots of good questions. I really enjoyed talking with everyone and I hope everyone learned something. We&amp;rsquo;re planning to give the workshop again to the larger PDX R user community, and some of the attendees last night have volunteered to be TAs.</description>
-    </item>
-    
-    <item>
-      <title>What We learned teaching Python to Neuroscience Students</title>
-      <link>/2018/01/17/what-we-learned-teaching-python-to-neuroscience-students/</link>
-      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/01/17/what-we-learned-teaching-python-to-neuroscience-students/</guid>
-      <description>Well, the week of teaching our Python Bootcamp for Neuroscientists is over. I had the pleasure of working with a great group of students, professors and instructors in developing the material, and had a great time teaching complete beginners to programming and Python.
-We had the overall goal of introducting 21 Neuroscience Graduate Program students at OHSU to the basics of programming in Python using data that they were interested in: electrophysiology data, and confocal microscopy data.</description>
-    </item>
-    
-    <item>
-      <title>If you want to talk with me for an informational interview</title>
-      <link>/2018/01/15/if-you-want-to-talk-with-me-for-an-informational-interview/</link>
-      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/01/15/if-you-want-to-talk-with-me-for-an-informational-interview/</guid>
-      <description>Note: I have come to believe that this post is way too harsh and unwelcoming to people interested in data science. I will post an update to this, and a FAQ for those who want informational interviews. But in the spirit of showing my mistakes, I&amp;rsquo;ll leave this up here.
-  I have had many people who have asked me for informational interviews. They tell me that they are interested in Data Science and want to hear about what I do on a day to day basis.</description>
-    </item>
-    
-    <item>
-      <title>So You&#39;ve Accidentally Checked in a Large File Into Git</title>
-      <link>/2018/01/05/so-you-ve-accidentally-checked-in-a-large-file-into-git/</link>
-      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/01/05/so-you-ve-accidentally-checked-in-a-large-file-into-git/</guid>
-      <description>Note: after posting this, I heard back from Roberto Tyley, the creator of the BFG. I&amp;rsquo;d like to note that the BFG actually does its job really well. I was mostly really frustrated about how Git/GitHub doesn&amp;rsquo;t prevent a user from doing something that&amp;rsquo;s hard to undo. So my frustration is really about that, not really about the BFG. This post has been edited to reflect that.
-Greg Wilson first said it, but I&amp;rsquo;ve come to agree.</description>
-    </item>
-    
-    <item>
-      <title>Understanding Tidy Evaluation in R</title>
-      <link>/2017/12/19/understanding-tidyeval/</link>
-      <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/12/19/understanding-tidyeval/</guid>
-      <description>Have you ever had something that no matter how many times someone explained it, you really had no idea what it was for? For me, that was Non Standard Evaluation (NSE) in R, and its newer cousin Tidy Evaluation, or tidyeval. I had a real learning block about it. I really wanted to understand it, but for some reason I just really wasn’t getting the general concepts.
-What is evaluation, really?</description>
-    </item>
-    
-    <item>
-      <title>Using Synthetic Data for Teaching Data Science</title>
-      <link>/2017/12/14/using-synthetic-data/</link>
-      <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/12/14/using-synthetic-data/</guid>
-      <description>Hi Everyone, our paper called Teaching data science fundamentals through realistic synthetic clinical cardiovascular data is now available to read on Biorxiv.
-In this paper, we talk about a dataset that we synthesized for teaching aspects of clinical data that may be tricky to understand in data science. This dataset is interesting because it&amp;rsquo;s derived from a multivariate distribution based on real patient data, modeled as a Bayesian Network. Even when we knew true marginals for the real data, there was a lot of fine tuning to the Bayesian Network.</description>
-    </item>
-    
-    <item>
-      <title>Notes on Open Data Science Conference West 2017</title>
-      <link>/2017/11/07/odsc-notes/</link>
-      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/11/07/odsc-notes/</guid>
-      <description>I just came back from the Open Data Science Conference (ODSC) in San Francisco and I found it really stimulating and interesting. I learned a ton, met some great people working in very different fields, and overall found it quite worthwhile.
-Here are some of the highlights from my notes:
-Workshops scikit-learn intro Workshop and Advanced
-I admit that I am not really a Python person. But I am helping to develop some materials for an introductory workshop and I found this workshop and its materials to be a very beginner-friendly to scikit-learn and machine learning concepts, much like caret for R.</description>
-    </item>
-    
-    <item>
-      <title>On the Separation of Code and State</title>
-      <link>/2017/08/22/separation-of-code-and-state/</link>
-      <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/08/22/separation-of-code-and-state/</guid>
-      <description>One of the hardest concepts as an analyst that I have struggled with is separating my code from my data. A related issue is making your code reproducible across data instances.</description>
-    </item>
-    
-    <item>
-      <title>Interesting useR 2017 Talks</title>
-      <link>/2017/07/05/interesting-user2017talks/</link>
-      <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/07/05/interesting-user2017talks/</guid>
-      <description>Since I didn&amp;rsquo;t get to go to useR 2017 this year, I&amp;rsquo;m compiling the interesting talks. This is an ongoing list.
- https://user2017.sched.com/event/AxqM/automatically-archiving-reproducible-studies-with-docker https://user2017.sched.com/event/Axq4/clouds-containers-and-r-towards-a-global-hub-for-reproducible-and-collaborative-data-science https://user2017.sched.com/event/Axq9/scraping-data-with-rvest-and-purrr https://user2017.sched.com/event/Axq1/using-the-alphabetr-package-to-determine-paired-t-cell-receptor-sequences https://user2017.sched.com/event/AxqG/show-me-the-errors-you-didnt-look-for https://user2017.sched.com/event/AxqR/community-based-learning-and-knowledge-sharing https://user2017.sched.com/event/AxqT/r-based-computing-with-big-data-on-disk https://user2017.sched.com/event/AxqA/codebookr-codebooks-in-r https://user2017.sched.com/event/Axor/how-we-built-a-shiny-app-for-700-users Useful concepts: reactiveTrigger to force a rerender. https://user2017.sched.com/event/AxsL/ensemble-packages-with-user-friendly-interface-an-added-value-for-the-r-community  </description>
-    </item>
-    
-    <item>
-      <title>How to Not Be Afraid of Your Data</title>
-      <link>/2017/06/28/howtonotbeafraid/</link>
-      <pubDate>Wed, 28 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/06/28/howtonotbeafraid/</guid>
-      <description>I&amp;rsquo;m going to be giving a talk for the PDX RLang Meetup on July 11 called &amp;ldquo;How to Not Be Afraid of Your Data: Teaching EDA using Shiny&amp;rdquo;. Abstract below.
-Many graduate students in the basic sciences are afraid of data exploration and cleaning, which can greatly impact their downstream analysis results. By using a synthetic dataset, some simple dplyr commands, and a shiny dashboard, we teach graduate students how to explore their data and how to handle issues that can arise (missing values, differences in units).</description>
-    </item>
-    
-    <item>
-      <title>Some Lessons We Learned Running Cascadia-R</title>
-      <link>/2017/06/07/cascadiarnotes/</link>
-      <pubDate>Wed, 07 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/06/07/cascadiarnotes/</guid>
-      <description>Well, the first Cascadia R Conference has come and gone. I have to say that it was super fun, and well attended (over 190 people!). I had a blast meeting and chatting with everyone. Hopefully, we showed newbies that R is learnable and others that there are lots more things to learn about R.
-The following is my attempt to document what we learned from organizing Cascadia-R. It&amp;rsquo;s not complete; I may add and subtract from it as I think of more things to say about the planning process.</description>
-    </item>
-    
-    <item>
-      <title>Building an Open Source Community</title>
-      <link>/2017/04/20/building-an-os-community/</link>
-      <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/04/20/building-an-os-community/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>On Breadth and Depth in Your Academic Career</title>
-      <link>/2017/04/19/breadth-and-depth/</link>
-      <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/04/19/breadth-and-depth/</guid>
-      <description>I was talking with a student and they were complaining that when at conferences, they would try to inject other topics of interest (such as cooking) into discussions with colleagues. Unfortunately, one of the after effects of this was that they were looked at as &amp;ldquo;not a serious scientist&amp;rdquo;. There&amp;rsquo;s an expectation that a scientist must be all depth, only talking and thinking about their sub-field.
-As a cross disciplinarian, I have to say that is hogwash.</description>
-    </item>
-    
-    <item>
-      <title>Fostering a Peer Mentoring Culture</title>
-      <link>/2017/04/17/building-a-peer-mentoring/</link>
-      <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/04/17/building-a-peer-mentoring/</guid>
-      <description>I realize that it has been an embarrasingly long time since I updated this blog. I had all sorts of grandiose plans for it, and I think my problem was that I was thinking too broad, too pie-in-the-sky. I&amp;rsquo;m going to try to focus on short and informative blog posts.
-One of the things that I have been thinking about graduate school is the idea of building a Peer Mentoring culture in our department.</description>
-    </item>
-    
-    <item>
-      <title>Surrogate Oncogene Paper is Published</title>
-      <link>/2015/12/23/surrogate-oncogene-paper/</link>
-      <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/2015/12/23/surrogate-oncogene-paper/</guid>
-      <description>My dissertation paper, A Network-Based Model of Oncogenic Collaboration for Prediction of Drug Sensitivity is now published! Here&amp;rsquo;s a lay summary:
- One outstanding issue in analyzing genomics in the context of personalized medicine is the incorporation of rare or infrequent genetic alterations (copy number alterations and somatic mutations) that are observed in individual &amp;gt; patients. We hypothesize that these mutations may actually &amp;lsquo;collaborate&amp;rsquo; with known oncogenes in the genesis of tumors through their interactions.</description>
-    </item>
-    
-    <item>
-      <title>Why Short-Order Bioinformatics Doesn&#39;t Work</title>
-      <link>/2015/11/24/short-order-bioinformatics/</link>
-      <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/2015/11/24/short-order-bioinformatics/</guid>
-      <description>Unfortunately, many researchers look at computational biology and bioinformatics as a black-box: you put in data, and you get results out. The bioinformaticians and computational biologists are seen as mostly computer operators who push the button and not as true collaborators. One of my co-workers calls this &amp;ldquo;short-order&amp;rdquo; bioinformatics.
-There is great danger in simply pushing a button to get results. One type of analysis, Gene Set Enrichment Analysis (GSEA) is highly dependent on how mutations are incorporated into a gene set.</description>
-    </item>
-    
-    <item>
-      <title>Interesting interview with the developer of statcheck</title>
-      <link>/2015/11/19/statcheck-package/</link>
-      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/2015/11/19/statcheck-package/</guid>
-      <description>Due to the usual postdoc busy-ness, I haven&amp;rsquo;t had the energy to update this blog as much as I would like, but I thought this interview on Retraction Watch from Michèle B. Nuijten, the developer of the R-package statcheck to be fascinating. Her package essentially automates the checking of p-values given published data in papers, from converting the papers from pdf to text, and sees if the calculated p-values are correct.</description>
-    </item>
-    
-    <item>
-      <title>Somatic Mutations in Skin Paper</title>
-      <link>/2015/05/26/mutational-burden-in-skin/</link>
-      <pubDate>Tue, 26 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/2015/05/26/mutational-burden-in-skin/</guid>
-      <description>This paper, High burden and pervasive positive selection of somatic mutations in normal human skin is fascinating. It suggests that the mutational burden is much higher than we expected in skin cells due to UV exposure. In addition, subclones exist in the skin that are positively selected for oncogenes.
-It also makes me want to stock up on sunscreen.</description>
-    </item>
-    
-    <item>
-      <title>High Impact Factor Journals Have Higher Retraction Rates</title>
-      <link>/2015/05/24/the-rise-of-fraud-in-high-if-journals/</link>
-      <pubDate>Sun, 24 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/2015/05/24/the-rise-of-fraud-in-high-if-journals/</guid>
-      <description>Very interesting New York Times article about the rise of frauds and retractions in High Impact Factor journals. The retraction rates for High IF journals (such as Science, Cell, and Nature) are much higher than lower IF journals.
-From the article:
- Journals with higher impact factors retract papers more often than those with lower impact factors. It’s not clear why. It could be that these prominent periodicals have more, and more careful, readers, who notice mistakes.</description>
+      <description>&lt;p&gt;Sorry for the lack of posts. I have been busy with co-teaching our Health Informatics course (HSMP410) for the OHSU/PSU School of Public Health.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m trying to make most of my lectures activity-driven for my students, who are Community Health Education and Nursing majors. I believe that you can teach mathematical concepts visually, so I am experimenting with using &lt;code&gt;LearnR&lt;/code&gt;/&lt;code&gt;Shiny&lt;/code&gt; to &lt;a href=&#34;https://tladeras.shinyapps.io/dataLiteracy/&#34; target=&#34;_blank&#34;&gt;teach the basics of data literacy&lt;/a&gt;. I&amp;rsquo;m also using &lt;code&gt;datacamp-light&lt;/code&gt; to show my students &lt;a href=&#34;http://laderast.github.io/HSMP410/week4.2/&#34; target=&#34;_blank&#34;&gt;a simple intro to data science&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;More information here: &lt;a href=&#34;https://laderast.github.io/HSMP410/&#34; target=&#34;_blank&#34;&gt;HMSP410 Health Informatics&lt;/a&gt; and the &lt;a href=&#34;https://github.com/laderast/HSMP410/&#34; target=&#34;_blank&#34;&gt;HMSP410 repository&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

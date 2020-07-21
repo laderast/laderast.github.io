@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.30" />
   <meta name="author" content="Ted Laderas">
 
   
@@ -323,7 +323,7 @@ diamonds %&gt;% select(color, cut)## # A tibble: 53,940 x 2## color cut ## &lt
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    3 min read
   </span>
   
 
@@ -405,6 +405,7 @@ diamonds %&gt;% select(color, cut)## # A tibble: 53,940 x 2## color cut ## &lt
   group_by(color) %&gt;% 
   summarize(all_colors=
               paste(cut, collapse=&quot;;&quot;))</code></pre>
+<pre><code>## `summarise()` ungrouping output (override with `.groups` argument)</code></pre>
 <pre><code>## # A tibble: 7 x 2
 ##   color all_colors                                                              
 ##   &lt;ord&gt; &lt;chr&gt;                                                                   
@@ -420,6 +421,7 @@ diamonds %&gt;% select(color, cut)## # A tibble: 53,940 x 2## color cut ## &lt
   group_by(color) %&gt;% 
   summarize(all_colors=
               stringr::str_c(cut, collapse=&quot;;&quot;))</code></pre>
+<pre><code>## `summarise()` ungrouping output (override with `.groups` argument)</code></pre>
 <pre><code>## # A tibble: 7 x 2
 ##   color all_colors                                                              
 ##   &lt;ord&gt; &lt;chr&gt;                                                                   
@@ -435,6 +437,7 @@ diamonds %&gt;% select(color, cut)## # A tibble: 53,940 x 2## color cut ## &lt
   group_by(color) %&gt;% 
   summarize(all_colors=
               paste(unique(cut), collapse=&quot;;&quot;))</code></pre>
+<pre><code>## `summarise()` ungrouping output (override with `.groups` argument)</code></pre>
 <pre><code>## # A tibble: 7 x 2
 ##   color all_colors                       
 ##   &lt;ord&gt; &lt;chr&gt;                            
