@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>NlmT15 on Ted Laderas, PhD</title>
+    <title>nlmT15 on Ted Laderas, PhD</title>
     <link>/tags/nlmt15/</link>
-    <description>Recent content in NlmT15 on Ted Laderas, PhD</description>
+    <description>Recent content in nlmT15 on Ted Laderas, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
@@ -18,7 +18,7 @@
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/teaching/exacloud_tutorial/</guid>
-      <description></description>
+      <description>Self paced tutorial for learning about cluster computing using exacloud, the exascale computing cluster at OHSU. Covers simple jobs, batch jobs, and interactive jobs using SLURM.</description>
     </item>
     
   </channel>

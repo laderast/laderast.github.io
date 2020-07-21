@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Ted Laderas, PhD</title>
@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jan 2018 18:03:09 -0800</lastBuildDate>
     
 	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,7 +19,7 @@
       
       <guid>/home/about/</guid>
       <description>I am an Assistant Professor in the Division of Bioinformatics and Computational Biology in the Department of Medical Informatics and Clinical Epidemiology at OHSU (BCB/DMICE) and a member of the OHSU Knight Cancer Institute. My research focus is on the Systems Biology of Complex Diseases. I use integrative modeling approaches across OMICs types to achieve this.
-With over sixteen years of bioinformatics experience, I have developed methods for low-level preprocessing and high-level analysis of many OMICs types, including expression (especially alternative splicing), phosphoproteomics, proteomics, and genomics.</description>
+Collaboration, training and team science are passions of mine. I believe that research should not be a lonely practice, and building communities of practice in science and research that are psychologically safe and inclusive are the key to doing better, more robust science.</description>
     </item>
     
     <item>
@@ -28,7 +28,8 @@ With over sixteen years of bioinformatics experience, I have developed methods f
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/home/teaching/</guid>
-      <description>Current Courses I teach at OHSU and PSU I teach in the summer hybrid BMI569/669 Data Analytics course at OHSU (Hybrid course co-taught with Kaiser Permanente Data &amp;amp; Information Management Enhancement (DIME) group). This is a super fun course for me to teach and it focuses on both organizational behavior and communicating analytic results. It is a great blend of practical soft skills in communication and hard analytic skills.</description>
+      <description>Current Courses I teach at OHSU and PSU I teach in the summer hybrid BMI569/669 Data Analytics course at OHSU (Hybrid course co-taught with Kaiser Permanente Data &amp;amp; Information Management Enhancement (DIME) group). This is a super fun course for me to teach and it focuses on both organizational behavior and communicating analytic results. It is a great blend of practical soft skills in communication and hard analytic skills.
+I am a co-instructor for our Clinical Data Wrangling short course along with Eilis Boudreau and Nicole Weiskopf.</description>
     </item>
     
     <item>
@@ -101,7 +102,7 @@ With over sixteen years of bioinformatics experience, I have developed methods f
       
       <guid>/home/faq/</guid>
       <description>What are your priorities? In order, they are:
- My mental and physical health My students Open Science and creating a positive working environment for myself and others Making and promoting new educational resources Enabling better research practices  What do I need to know about working with you? I am clinically depressed and have anxiety, but I am high-functioning. I do my best to meet deadlines, but sometimes there is a lot on my plate and I need to manage my anxiety and depression.</description>
+ My mental and physical health My students and their mental health Open Science and creating a positive working environment for myself and others Making and promoting new educational resources Enabling better research practices  What do I need to know about working with you? I am clinically depressed and have anxiety, but I am high-functioning. I do my best to meet deadlines, but sometimes there is a lot on my plate and I need to manage my anxiety and depression.</description>
     </item>
     
   </channel>

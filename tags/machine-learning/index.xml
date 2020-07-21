@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Machine-learning on Ted Laderas, PhD</title>
+    <title>machine-learning on Ted Laderas, PhD</title>
     <link>/tags/machine-learning/</link>
-    <description>Recent content in Machine-learning on Ted Laderas, PhD</description>
+    <description>Recent content in machine-learning on Ted Laderas, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
@@ -18,7 +18,7 @@
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/teaching/cvd_risk/</guid>
-      <description></description>
+      <description>A workshop given for Portland State University students exploring the difficulties of predicting cardiovascular risk using &lt;code&gt;shiny&lt;/code&gt; for exploratory data analysis and &lt;code&gt;caret&lt;/code&gt; for machine learning. &lt;a href=&#34;https://github.com/laderast/cvdNight1&#34;&gt;Part 1&lt;/a&gt; and &lt;a href=&#34;https://github.com/laderast/cvdNight2&#34;&gt;Part 2&lt;/a&gt;. With David Dorr</description>
     </item>
     
   </channel>

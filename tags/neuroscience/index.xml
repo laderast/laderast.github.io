@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Neuroscience on Ted Laderas, PhD</title>
+    <title>neuroscience on Ted Laderas, PhD</title>
     <link>/tags/neuroscience/</link>
-    <description>Recent content in Neuroscience on Ted Laderas, PhD</description>
+    <description>Recent content in neuroscience on Ted Laderas, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
@@ -18,7 +18,7 @@
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/teaching/python_neuro/</guid>
-      <description></description>
+      <description>This is a week-long course meant to introduce neuroscience students to the basics of python with data types familiar to them, including imaging and electrophysiology data. Taught with Stephen David, Brad Buran, Daniela Sadieri, Lucille Moore, Charlie Heller, Zack Schwartz.</description>
     </item>
     
   </channel>

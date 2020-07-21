@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Ted Laderas, PhD</title>
@@ -18,7 +18,7 @@
       <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/teaching/r-bootcamp/</guid>
-      <description></description>
+      <description>In this course, we cover the basics of visualization, data munging, and basic statistics using the &lt;a href=&#34;http://tidyverse.org&#34;&gt;tidyverse in R&lt;/a&gt;. It is freely available to everyone and runs off the &lt;a href=&#34;http://mybinder.org&#34;&gt;Binder cloud service&lt;/a&gt;. Written with &lt;a href=&#34;http://jessicaminnier.com/&#34;&gt;Jessica Minnier&lt;/a&gt;.</description>
     </item>
     
     <item>
@@ -52,12 +52,30 @@ Intended AudienceWe designed the workshop for our incoming informatics students
     </item>
     
     <item>
+      <title>A gRadual intRoduction to Shiny</title>
+      <link>/teaching/gradual_shiny/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/gradual_shiny/</guid>
+      <description>A workshop that I&amp;rsquo;ve given on the basics of building Shiny apps. Given multiple times for PDX R User Group.</description>
+    </item>
+    
+    <item>
+      <title>A gRadual intRoduction to the tidyverse</title>
+      <link>/teaching/gradual_tidyverse/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/gradual_tidyverse/</guid>
+      <description>A workshop that &lt;a href=&#34;http://ismayc.github.io&#34;&gt;Chester Ismay&lt;/a&gt; and I gave for &lt;a href=&#34;http://cascadiarconf.com&#34;&gt;Cascadia-R&lt;/a&gt; teaching the basics of the &lt;code&gt;tidyverse&lt;/code&gt;: &lt;code&gt;ggplot2&lt;/code&gt;, &lt;code&gt;dplyr&lt;/code&gt;, and &lt;code&gt;tidyr&lt;/code&gt;.</description>
+    </item>
+    
+    <item>
       <title>Clinical Data Wrangling Workshop</title>
       <link>/teaching/clinical_wrangling/</link>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/teaching/clinical_wrangling/</guid>
-      <description></description>
+      <description>10 hour/multi-day workshop on understanding clinical data quality issues through both didactic lecturing and active data exploration. With Eilis Boudreau and Nicole Weiskopf. &lt;a href=&#34;https://zenodo.org/badge/latestdoi/151426188&#34;&gt;&lt;img src=&#34;https://zenodo.org/badge/151426188.svg&#34; alt=&#34;DOI&#34;&gt;&lt;/a&gt;</description>
     </item>
     
     <item>
@@ -66,7 +84,7 @@ Intended AudienceWe designed the workshop for our incoming informatics students
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/teaching/data_analytics/</guid>
-      <description></description>
+      <description>Practical coursework in R/SQL for our hybrid Data Analytics Course taught with Kaiser Permanente. This course has been taught from 2013 to the present during summer quarter for students in the Biomedical Informatics program at OHSU..</description>
     </item>
     
     <item>
@@ -75,7 +93,7 @@ Intended AudienceWe designed the workshop for our incoming informatics students
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/teaching/igraph_tutorial/</guid>
-      <description></description>
+      <description>Introductory workshop to the igraph package in R</description>
     </item>
     
   </channel>

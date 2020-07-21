@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CyTOF on Ted Laderas, PhD</title>
@@ -18,7 +18,7 @@
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/project/sample_flow_dashboard/</guid>
-      <description></description>
+      <description>A Sample App built with the &lt;a href=&#34;http://github.com/laderast/flowDashboard&#34;&gt;flowDashboard Shiny Modules&lt;/a&gt; package. Meant for visualization of high throughput flow cytometry data. &lt;a href=&#34;http://github.com/laderast/sampleFlowDashboard&#34;&gt;Repo&lt;/a&gt;</description>
     </item>
     
   </channel>

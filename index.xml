@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ted Laderas, PhD on Ted Laderas, PhD</title>
@@ -7,835 +6,916 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 May 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Notes on the RStudio Instructor Training Experience</title>
-      <link>/2019/11/15/my-experience-with-rstudio-instructor-training/</link>
-      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/11/15/my-experience-with-rstudio-instructor-training/</guid>
-      <description>
-
-&lt;blockquote&gt;
-&lt;p&gt;Full Disclosure: my department paid for the training and two of the certification exams. I did the Shiny exam for free with the stipulation that I would provide feedback on the exam itself.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I recently became a &lt;a href=&#34;https://education.rstudio.com/trainers/&#34; target=&#34;_blank&#34;&gt;certified RStudio Instructor in both Shiny and the Tidyverse&lt;/a&gt;. I thought I would write a little about the experience. I haven’t really had any formal pedagogical training, and having some of the state of the art and evidence-based practices were really helpful in extending my approaches to teaching.&lt;/p&gt;
-
-&lt;h2 id=&#34;instructor-training&#34;&gt;Instructor Training&lt;/h2&gt;
-
-&lt;p&gt;The instructor training is online, but delivered via Zoom. The session themselves are 4 hours apiece and at set times, with a small cohort overall (I think mine was about 14). Greg Wilson delivered a short set of slides for each activity, and depending on the activity, we were sent out into smaller groups to discuss the topic. I liked how the course was paced - I felt like having activities almost every half hour definitely kept me awake.&lt;/p&gt;
-
-&lt;p&gt;The training for me (I am on PST) was from 8 AM to 12 PM two days in a row, and my cohort was from all over the US/Canada.&lt;/p&gt;
-
-&lt;p&gt;Here are the parts of the instructor training that I found especially useful. Note that since Greg also helped develop the Carpentries instructor training, there is some overlap between the two training programs (in fact, if you’ve taught a Carpentries course and done the Carpentries training, you can waive the instructor training altogether).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Building concept maps&lt;/strong&gt;. If you can, you should map out the concepts you want to teach, along with how these concepts are related. This concept map is important in helping your students build the mental models that will guide them towards mastery.  I did a concept map of Tidy data for my example. Concept maps themselves are a bit tricky to build, but I think they help clarify your understanding of what you are teaching, and thus your lessons will be more understandable.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Thinking about cognitive overload.&lt;/strong&gt; This was a call to think about limiting the number of concepts and connections covered per unit. Humans have a short term memory of about 5 +/- 2 things at a time. This is an extremely helpful guideline to consider when developing training units, as your course objectives and training should keep these in mind. Also, there are different kinds of cognitive overload, and some of them (like extraneous details), you can remove to help with the other kinds. There are lots of ways to teach coding, such as Parsons Problems (where students have to put lines of code in order), or faded examples (fill in the blank style coding assignments), that can focus on particular aspects of coding. (As an unrelated topic, I have been thinking about reading code as being an essential skill and I try to teach students to learn how to read code.)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Teaching needs to be dynamic.&lt;/strong&gt; As instructors, part of our value lies in tailoring our training for our students and their previous knowledge. Unlike YouTube videos, we can assess what our students already know, and focus on the concepts that they don’t. In order to do this, though, we need to have ways of assessing what our students know. Formative assessments (assessments during a lesson) are essential in figuring out whether you can proceed, or whether you need to spend more time.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Providing feedback.&lt;/strong&gt; We were to teach each other a short lesson of our choosing, which was pretty fun. After a test run with a larger group, my partner and I got to teach each other - she taught me about making jam (and the food safety issues) and I taught her about making cornbread. (It was close to lunchtime when we did this, I think we were both hungry.) The exercise was super useful in helping us to not be afraid of giving feedback and to be aware of what kinds of feedback to give.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What demotivates students.&lt;/strong&gt; This was an important section, and a bit emotionally difficult. I have been guilty of some of the teaching behavior that demotivates students, such as taking over their keyboard, instead of letting them fix it. If we are to be inclusive and welcoming to everyone, we need to be aware of these (sometimes subtle) behaviors that can discourage and demotivate all of our students.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Other tips from other instructors&lt;/strong&gt;. I really enjoyed hearing other instructor’s experiences and I had a lot of respect for my cohort. There were lots of little tips we shared with each other that were super helpful, such as the types of mics to use. I also thought that it was helpful when we shared our struggles with each other. It made me feel much more as part of a group of instructors, which was very helpful for me.&lt;/p&gt;
-
-&lt;h2 id=&#34;instructor-certification-exam&#34;&gt;Instructor Certification Exam&lt;/h2&gt;
-
-&lt;p&gt;The instructor certification covered the pedagogical techniques we discussed in the instructor training. This exam, like the others, was open book, open note, open internet, but not open person (no lifeline, no talking with others).&lt;/p&gt;
-
-&lt;p&gt;As part of the exam, we were required to develop and deliver a lesson. I ended up reworking one of my SQL lessons in my Analytics course. I found it a really useful exercise in rethinking my examples discussing left and inner joins, especially in my table examples. You can see my lesson here: &lt;a href=&#34;https://rstudio.cloud/project/413048&#34; target=&#34;_blank&#34;&gt;SQL Joins in R&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;This part of the exam is only about 10 minutes long, but you should be prepared, especially in figuring out how you will assess the learning of the students.&lt;/p&gt;
-
-&lt;h2 id=&#34;tidyverse-certification-exam&#34;&gt;Tidyverse Certification Exam&lt;/h2&gt;
-
-&lt;p&gt;After I had done my instructor certification, I had to do the technical qualifications. This was also done online, with Greg delivering the exam over Zoom. Most of the exam had to be done via RStudio on my computer.  This exam, like the others, was open book, open note, open internet, but not open person (no lifeline, no talking with others).&lt;/p&gt;
-
-&lt;p&gt;What did the exam cover? Roughly, it covered almost all of &lt;a href=&#34;https://r4ds.had.co.nz&#34; target=&#34;_blank&#34;&gt;R for Data Science&lt;/a&gt; and was very task-focused. There was a focus on debugging, data transformation, markdown and visualization. The tasks were mostly problem driven, on the order of recreating a figure, or parametrizing a workflow. It was emphasized that we should solve the problems the way we  usually work and talk out our problems aloud. For one of the problems, I actually had to search and teach myself on the fly. This was actually a good way to confirm that my conceptual models of the tidyverse were helpful.&lt;/p&gt;
-
-&lt;p&gt;One tip: 90 minutes is a long amount of time for an exam, especially where you are actively thinking and talking out loud. You should have something to eat by your side so you can replenish your blood glucose. It is also slightly unnerving to have someone watch you actively solve problems and program. If you get flustered, take a breath. There’s not usually a single way to solve the problems.&lt;/p&gt;
-
-&lt;h2 id=&#34;shiny-certification-exam&#34;&gt;Shiny Certification Exam&lt;/h2&gt;
-
-&lt;p&gt;A few weeks later, I took the Shiny certification. In terms of coverage, there is not currently a good text to study for the Shiny Certification exam (&lt;a href=&#34;https://mastering-shiny.org&#34; target=&#34;_blank&#34;&gt;Mastering Shiny&lt;/a&gt; is probably going to be the reference to study when it is finished).  In order to prepare, I went over the &lt;a href=&#34;https://shiny.rstudio.com&#34; target=&#34;_blank&#34;&gt;RStudio articles about Shiny&lt;/a&gt;, and looked over the &lt;a href=&#34;https://shiny.rstudio.com/gallery/&#34; target=&#34;_blank&#34;&gt;RStudio Shiny Gallery&lt;/a&gt; to bone up on the different programming techniques used in Shiny, such as UI elements, reactives, the observe/update pattern, and modules.&lt;/p&gt;
-
-&lt;p&gt;Again, the exam covered debugging, including fixing applications, understanding control logic between ui and server, and building an app from scratch. I would say much of the exam covers how well established your own mental model of Shiny progamming is.&lt;/p&gt;
-
-&lt;p&gt;One thing to remember: as the technology and code changes,  the certification exams will change and you may have to get re-certified. So my experience of these exams may be different than your experience.&lt;/p&gt;
-
-&lt;h2 id=&#34;overall-experience&#34;&gt;Overall Experience&lt;/h2&gt;
-
-&lt;p&gt;Would I recommend the training? I thought it was extremely useful, especially in terms of learning more about evidence based methods in effective education. As someone who is thinking about starting a consulting group focusing on training, having the certifications are extremely valuable to me and my future career. I look forward to teaching and training more people in R.&lt;/p&gt;
-
-&lt;h2 id=&#34;for-more-info&#34;&gt;For More Info&lt;/h2&gt;
-
-&lt;p&gt;Please consult the &lt;a href=&#34;https://education.rstudio.com/trainers/&#34; target=&#34;_blank&#34;&gt;RStudio Trainer Website&lt;/a&gt; for info on how to register for the instructor training.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Kindness at the Cost of Yourself</title>
-      <link>/2019/09/23/kindness-at-the-cost-of-yourself/</link>
-      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/09/23/kindness-at-the-cost-of-yourself/</guid>
-      <description>
-
-&lt;blockquote&gt;
-&lt;p&gt;In healthy cultures, people rise by elevating others and fall by undermining others. In toxic cultures, people are forced to choose between helping others and achieving success. Choose the workplace where success comes from making others successful. - Adam Grant&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;When I read Adam Grant’s &lt;a href=&#34;https://www.adamgrant.net/give-and-take&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Give and Take&lt;/em&gt;&lt;/a&gt;, it was like a light went off. In this book, Grant gives profiles of highly successful people who are givers - people who have changed their field by making things better for others. I immediately connected to this idea of giving. Here was a way to network with people that really worked for me. Giving and connecting people are what I do best. I like to help people achieve their goals if I know someone else who can help them.&lt;/p&gt;
-
-&lt;p&gt;And no doubt, embracing my identity as a giver has helped change my career trajectory - in the last few years, I co-founded &lt;a href=&#34;http://cascadiarconf.com&#34; target=&#34;_blank&#34;&gt;Cascadia R&lt;/a&gt;, produced the &lt;a href=&#34;http://r-bootcamp.netlify.com&#34; target=&#34;_blank&#34;&gt;R-Bootcamp&lt;/a&gt; with Jessica Minnier, and have met so many people in the field of education and open science that I want to work with and who have inspired me.&lt;/p&gt;
-
-&lt;p&gt;However, as I’ve noted before, I tend to be giving to the point of being self sacrificing, which is not good. I’m reminded of the end of Kafka’s &lt;em&gt;Metamorphosis&lt;/em&gt; when (spoilers) as Gregor Samsa dies in his bug form. As he dies, he worries about the agency of his family. Will they be able to support themselves? In the end, the family that he was worried about finds jobs, support themselves and thrive in the end. Without him. One interpretation of this story: &lt;em&gt;no one is so irreplaceable in this world.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;This Spring, I probably gave a little too much to my Health Analytics class, to the point of being self-sacrificing. This shouldn’t be a reflection of the class - they were great and really whip smart - I just tend to give a little too much. As a result, I was pretty drained by the time I got to Summer quarter. I’d definitely overdrawn on giving - I was pretty wiped out through the summer. Being overdrawn actually meant I didn’t have enough energy to teach as well as I would have liked - and I felt worse for this.&lt;/p&gt;
-
-&lt;p&gt;The lesson I&amp;rsquo;ve learned this summer: If you find yourself giving to the point of self-sacrifice, you need to ask yourself why you are sacrificing so much of yourself. Excessive self-sacrifice seems to occur when your &lt;a href=&#34;http://www.spsp.org/news-center/press-releases/relationship-sacrifice&#34; target=&#34;_blank&#34;&gt;self-esteem is tied to the perception of yourself by other people&lt;/a&gt;. Meaning, you should question &lt;em&gt;why&lt;/em&gt; you are self-sacrificing. Is it because you feel like you need the approval of others? No one&amp;rsquo;s approval is worth overworking yourself over.&lt;/p&gt;
-
-&lt;p&gt;So, self-sacrifice is ultimately bullshit. Ironically, being self-sacrificing can lead to &lt;a href=&#34;https://greatergood.berkeley.edu/article/item/when_are_you_sacrificing_too_much_in_your_relationship&#34; target=&#34;_blank&#34;&gt;feelings of helplessness and resentment&lt;/a&gt; from the people you are sacrificing yourself for.  Additionally, being &lt;a href=&#34;https://hbr.org/2019/08/when-to-take-initiative-at-work-and-when-not-to?&#34; target=&#34;_blank&#34;&gt;highly proactive and championing change can actually have negative effects&lt;/a&gt; if your actions are perceived as a threat to your organizational culture. There’s a reason why change management is important. No one person can be a revolution - it takes others to do so. It shouldn’t fall to just being on you.&lt;/p&gt;
-
-&lt;p&gt;You need to take care of yourself and protect yourself from the takers. As Faith Harper writes in &lt;a href=&#34;https://microcosmpublishing.com/catalog/books/6860&#34; target=&#34;_blank&#34;&gt;Unf#ck Your Adulting&lt;/a&gt;, “taking care of yourself does the world a favor”. Taking care of yourself means that you can do good in the world sustainably, and continue to do it, rather than burning out.&lt;/p&gt;
-
-&lt;p&gt;Understand that the notion of true giving is not rooted in self-sacrifice. &lt;a href=&#34;https://medium.com/@janfortune/how-to-be-a-giver-not-a-sacrificer-a55bf354fcf7&#34; target=&#34;_blank&#34;&gt;Giving is in the spirit of generosity&lt;/a&gt;; in contrast, self-sacrifice is more akin depleting one’s own resources. As a giver, your generosity should be recognized and not exploited.&lt;/p&gt;
-
-&lt;p&gt;One thing to be aware of as a giver is &lt;a href=&#34;https://www.kqed.org/arts/13857471/artist-passion-exploitation-duke-study&#34; target=&#34;_blank&#34;&gt;passion exploitation&lt;/a&gt;, where people and organizations will take advantage of you because of your passion for a subject as an opportunity to &lt;a href=&#34;https://www.fuqua.duke.edu/duke-fuqua-insights/kay-passion-exploitation&#34; target=&#34;_blank&#34;&gt;pay you much less than you’re worth&lt;/a&gt;.  Such an attitude is prevalent in creative industries, where one is encouraged to work for free or “exposure” (I don’t really do soundtrack work any more because of this). As if being a poor artist or creative was a privilege. Such situations will drain your passion and your energy and burn you out with nothing to show for it. Again, you have to keep something for yourself.&lt;/p&gt;
-
-&lt;p&gt;If you want to continue to do good in the world, you must take care of yourself. This is especially the case in a toxic work culture. You have to build reserves - never give more of yourself than you can. Especially do not do this in a work setting. It is amazing how self-sacrifice can become the status-quo and what is expected of workers. No one is well off because of that. Toxic work cultures encourage this: &lt;a href=&#34;https://kotaku.com/crunch-time-why-game-developers-work-such-insane-hours-1704744577&#34; target=&#34;_blank&#34;&gt;crunch time as the norm at game studios&lt;/a&gt;, &lt;a href=&#34;https://www.vice.com/en_us/article/3b5e7k/the-japanese-are-dying-for-work&#34; target=&#34;_blank&#34;&gt;overwork at Japanese Black Companies&lt;/a&gt;, even in the &lt;a href=&#34;https://bloomerang.co/blog/7-ways-to-prevent-passion-exploitation-at-your-nonprofit/&#34; target=&#34;_blank&#34;&gt;non-profit sector&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;In short, I believe in kindness and giving. But the kindness and giving must be sustainable. You must defend yourself from those who would take more than they give, and avoid being exploited by those who see your passion as something exploitable. Identifying these people and organizations and saying no is key to taking care of yourself while making things better for others. Don’t feel guilty about this. Don’t make self-sacrifice part of your identity or job description.&lt;/p&gt;
-
-&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.adamgrant.net/give-and-take&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Give and Take&lt;/em&gt;&lt;/a&gt; - this is the book that opened my eyes to the power of being a social giver.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://microcosmpublishing.com/catalog/books/6860&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Unfuck Your Adulting&lt;/em&gt;&lt;/a&gt; - this book by Faith Harper is full of good advice about navigating situations, emotions, and taking responsibility for what you can take responsibility for.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://medium.com/@janfortune/how-to-be-a-giver-not-a-sacrificer-a55bf354fcf7&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;How to be a giver, not a self-sacrificer&lt;/em&gt;&lt;/a&gt; - talks about giving in the spirit of generosity, and not self-sacrifice. Again, keep something for yourself.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://hbr.org/2019/08/when-to-take-initiative-at-work-and-when-not-to?&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;When to take initiative at work, and when not to&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://wonderscounseling.com/burnout/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Avoiding Burnout: Tips for self-care&lt;/em&gt;&lt;/a&gt;  - again, very good tips on taking care of yourself, because no one else will.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Burning Out and Recovering (slowly)</title>
-      <link>/2019/07/03/burning-out-and-recovering-slowly/</link>
-      <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/07/03/burning-out-and-recovering-slowly/</guid>
-      <description>
-
-&lt;p&gt;Last year about this time, &lt;a href=&#34;https://laderast.github.io/2018/06/05/self-care-and-self-compassion-in-academia/&#34; target=&#34;_blank&#34;&gt;I had a meltdown&lt;/a&gt;, which is a symptom of burnout. I&amp;rsquo;d like to explain a little bit about my burnout in the hopes that other people can avoid it.&lt;/p&gt;
-
-&lt;p&gt;I want to help people, and I’m a people pleaser. I’m a giver, and sometimes I give too much, to the point I have nothing left. I have to be aware when people exploit this. One collaboration, unfortunately took advantage of my giving nature.&lt;/p&gt;
-
-&lt;p&gt;I was on a contracted project where I used some of the time to build an open source project to enable our research. With our collaborators, I showed them my work and they seemed excited. Unfortunately, this “excitement” turned into unreasonable demands. I was literally trying to do a full time development position while balancing the demands of other projects, including teaching. I started feeling like a machine, where each of my collaborators just wanted me to output figures and analyses.&lt;/p&gt;
-
-&lt;p&gt;The worst I’ve ever felt is when I have been busting my ass for things I don’t believe in, or have been stretched across too many projects. Unlike a lot of faculty at OHSU, I don’t have my own R01. I am a collaborator, and I work hard at it.&lt;/p&gt;
-
-&lt;p&gt;The wake-up call for me was persistent thoughts of suicide. I realized that I didn&amp;rsquo;t care that much about anything and I knew that things had to change.&lt;/p&gt;
-
-&lt;h2 id=&#34;regaining-balance&#34;&gt;Regaining Balance&lt;/h2&gt;
-
-&lt;p&gt;The past year has been about finding my way back. I’ve been trying to do the following to regain my balance:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Working 4 days/week instead of the usual 5&lt;/em&gt;. On my “day off”, I try my best to contribute to open source projects, work on music, and do other things that recharge me. This has enabled me to say no more often.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Understanding my values and restructuring my work to fit it&lt;/em&gt;. I’m much more focused on education, outreach, and mentoring these days. If a project comes up, I have to ask myself whether it is in line with my values. I&amp;rsquo;d like my research to include educational and data exploration components, such as Shiny.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Not putting all my eggs in the work basket&lt;/em&gt;. I&amp;rsquo;m an artist in addition to being a data scientist. I play the cello, compose, and do photography. I make more time for these.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Realizing that excellence does not require self sacrifice&lt;/em&gt;. I try to stop working on things obsessively, and only within the time I&amp;rsquo;m paid.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Mindfulness work&lt;/em&gt;. I’ve been using the Calm app to help me reorient me and not immediately react to adversities I encounter.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Giving up on perfection&lt;/em&gt;. I&amp;rsquo;m learning to slowly abandon perfection on projects I don&amp;rsquo;t care that much about (more on this later), and instead turn my alerts off, or only respond to them within sane business hours.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;am-i-recovered&#34;&gt;Am I Recovered?&lt;/h2&gt;
-
-&lt;p&gt;I’d like to say I’m fully recovered, but I’m not. I&amp;rsquo;m not sure I&amp;rsquo;ll ever be 100% recovered, if recovered means the insane productivity levels I was showing before. I have been slowly asking myself whether projects expect insane levels of work for the amount of time I can dedicate to them.&lt;/p&gt;
-
-&lt;p&gt;Thankfully, I have had really great support from my department and from the university overall throughout. I have had support from the communities I help manage (BioData Club and Portland R User Group), and all the great people involved in open science that I have met (rOpenSci, Mozilla, The Carpentries).&lt;/p&gt;
-
-&lt;p&gt;I would say that this support has been wonderful, and I feel like the journey back from research burnout has been ongoing. I wish there was a magic bullet for burnout, but working one&amp;rsquo;s way out of mental and emotional exhaustion ultimately takes a lot of time.&lt;/p&gt;
-
-&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
-
-&lt;p&gt;If you are burned out, please seek &lt;a href=&#34;https://www.nami.org/Find-Support/NAMI-HelpLine&#34; target=&#34;_blank&#34;&gt;mental health assistance&lt;/a&gt; if you need help.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.psychologytoday.com/us/blog/high-octane-women/201311/the-tell-tale-signs-burnout-do-you-have-them&#34; target=&#34;_blank&#34;&gt;The Telltale Signs of Burnout&lt;/a&gt; - How to recognize when you&amp;rsquo;re burned out.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642&#34; target=&#34;_blank&#34;&gt;Mayo Clinic on Burnout&lt;/a&gt; - More information on Burnout.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.workplacestrategiesformentalhealth.com/managing-workplace-issues/burnout-response&#34; target=&#34;_blank&#34;&gt;Responding to Burnout&lt;/a&gt;. How can we recognize burnout in others?&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ted.com/podcasts/worklife&#34; target=&#34;_blank&#34;&gt;WorkLife Podcast&lt;/a&gt; - This podcast by Adam Grant (organizational psychologist) has been full of ideas on how to make what I work on more meaningful. Highly recommended.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>R Bootcamp</title>
-      <link>/teaching/r-bootcamp/</link>
+      <title>Teachings</title>
+      <link>/teaching/</link>
       <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/r-bootcamp/</guid>
+      <guid>/teaching/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Package Building: How `DESCRIPTION`, `NAMESPACE`, `roxygen`, and `devtools::document` work together</title>
-      <link>/2019/02/12/package-building-description-namespace/</link>
-      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/02/12/package-building-description-namespace/</guid>
-      <description>
-
-&lt;p&gt;As part of my new year&amp;rsquo;s resolution to learn new things about R, I&amp;rsquo;m trying to plug some holes in my R knowledge by writing more vignettes to explain them to myself this year.&lt;/p&gt;
-
-&lt;p&gt;This week I finally think I understand more about namespaces in R and why you should use them in your R package.&lt;/p&gt;
-
-&lt;h2 id=&#34;namespaces-why-bother&#34;&gt;Namespaces: Why Bother?&lt;/h2&gt;
-
-&lt;p&gt;In short, we need namespaces because of the &lt;em&gt;ambiguity&lt;/em&gt; of function names. Think of how many packages have a &lt;code&gt;filter()&lt;/code&gt; function! How does R know which function from which package you’re talking about? One nightmare case is the Bioconductor &lt;code&gt;exprs()&lt;/code&gt; method and the &lt;code&gt;rlang&lt;/code&gt; &lt;code&gt;exprs()&lt;/code&gt; function. These functions do very, very different things (one of them extracts an expression matrix from a Bioconductor &lt;code&gt;ExpressionSet&lt;/code&gt;, and the other one is used for quoting multiple expressions).&lt;/p&gt;
-
-&lt;p&gt;What happens when you call &lt;code&gt;library&lt;/code&gt; on both of these packages? The worst case scenario is that you mean to call one package function and R executes the other one. This is called a namespace collision, and unfortunately it can break your code.&lt;/p&gt;
-
-&lt;p&gt;Enter the namespace, which allows us to be package and function specific. If I want to use the function &lt;code&gt;filter&lt;/code&gt; from &lt;code&gt;dplyr&lt;/code&gt;, I write it as &lt;code&gt;dplyr::filter&lt;/code&gt;. The &lt;code&gt;dplyr::&lt;/code&gt; part is the namespace of the &lt;code&gt;dplyr&lt;/code&gt; package.&lt;/p&gt;
-
-&lt;h2 id=&#34;description-the-gatekeeper-for-calling-packages&#34;&gt;&lt;code&gt;DESCRIPTION&lt;/code&gt;: The gatekeeper for calling packages&lt;/h2&gt;
-
-&lt;p&gt;The &lt;code&gt;DESCRIPTION&lt;/code&gt; file is one of the gatekeepers in your package. Ever wonder how &lt;code&gt;install.packages&lt;/code&gt; knows how to install the packages your package depends on? It’s actually because of a field in the &lt;code&gt;DESCRIPTION&lt;/code&gt; file. Here&amp;rsquo;s the &lt;code&gt;DESCRIPTION&lt;/code&gt; file for my &lt;code&gt;burro&lt;/code&gt; package:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Package: burro
-Type: Package
-Title: Shiny App Package for setting up a data exploration session (&amp;quot;burro&amp;quot;w into the data)
-Version: 0.1.0
-Authors@R: as.person(c(
-    &amp;quot;Ted Laderas &amp;lt;tedladeras@gmail.com&amp;gt; [aut, cre]&amp;quot;,
-    &amp;quot;Jessica Minnier &amp;lt;minnier@ohsu.edu&amp;gt; [ctb]&amp;quot;,
-    &amp;quot;Gabrielle Choonoo &amp;lt;choonoo@ohsu.edu&amp;gt; [ctb]&amp;quot;
-  ))
-Maintainer: Ted Laderas &amp;lt;ted.laderas@gmail.com&amp;gt;
-Description: Allows the teacher to deploy a simple data exploration app for exploring a dataset (mostly for teaching purposes).
-License: MIT LICENSE
-Encoding: UTF-8
-LazyData: true
-Imports:
-    dplyr,
-    shinydashboard,
-    ggplot2,
-    visdat,
-    skimr,
-    naniar,
-    data.table,
-    magrittr,
-    glue,
-    usethis,
-    here,
-    viridis,
-    DT
-Depends:
-    shiny
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 6.1.0
-Suggests:
-    testthat
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Look at the &lt;code&gt;Imports:&lt;/code&gt; field. You can see a list of all of the packages that &lt;code&gt;burro&lt;/code&gt; utilizes. In ye olde days of R, we used the &lt;code&gt;Depends:&lt;/code&gt; field. Nowadays we use the &lt;code&gt;Imports:&lt;/code&gt; fields. &lt;a href=&#34;https://stackoverflow.com/questions/8637993/better-explanation-of-when-to-use-imports-depends&#34; target=&#34;_blank&#34;&gt;Here&amp;rsquo;s a Stack Overflow post explaining why&lt;/a&gt;. The main reason is that &lt;code&gt;Imports:&lt;/code&gt; requires the package to have a namespace.&lt;/p&gt;
-
-&lt;p&gt;Modifying the &lt;code&gt;DESCRIPTION&lt;/code&gt; file by hand is possible, but I don’t recommend it. Instead, you can use the &lt;code&gt;usethis&lt;/code&gt; package to modify it. For example, if I want to use &lt;code&gt;dplyr&lt;/code&gt; in my package I can do this in the console, while I am building it.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;usethis::use_package(&amp;quot;dplyr&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This will add &lt;code&gt;dplyr&lt;/code&gt; to the &lt;code&gt;Imports:&lt;/code&gt; field of your &lt;code&gt;DESCRIPTION&lt;/code&gt; file.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Addition (Thanks Hao Ye, for the suggestion)&lt;/strong&gt;: If the function is in a development version (i.e., hosted on GitHub), you can use &lt;code&gt;usethis::use_dev_package()&lt;/code&gt; to add it to your &lt;code&gt;DESCRIPTION&lt;/code&gt; file. It will add an additional field called &lt;code&gt;Remotes:&lt;/code&gt; to your package:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;usethis::use_dev_package(&amp;quot;tidyverse/dplyr&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;For more info about using remotes, check out the vignette: &lt;a href=&#34;https://remotes.r-lib.org/articles/dependencies.html&#34; target=&#34;_blank&#34;&gt;https://remotes.r-lib.org/articles/dependencies.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;using-namespaces-to-call-functions-from-other-packages&#34;&gt;Using namespaces to call functions from other packages&lt;/h2&gt;
-
-&lt;p&gt;Now that we have specified the package in our DESCRIPTION file, we can now call any function in &lt;code&gt;dplyr&lt;/code&gt; by adding a &lt;code&gt;dplyr::&lt;/code&gt; before the function. So if we wanted to call &lt;code&gt;mutate()&lt;/code&gt; in our package function we can do this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;mutate_iris &amp;lt;- function(iris){
-    dplyr::mutate(iris, sepal_sum = Sepal.Length + Sepal.Width)
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;In many cases, calling a function by specifying its namespace is good practice. For one, there are many functions called &lt;code&gt;filter()&lt;/code&gt;: I can think of at least the ones that are in &lt;code&gt;base&lt;/code&gt; and &lt;code&gt;dplyr&lt;/code&gt;. Using the namespace makes it &lt;em&gt;unambiguous&lt;/em&gt; to both R and other developers which &lt;code&gt;filter()&lt;/code&gt; function you&amp;rsquo;re talking about.&lt;/p&gt;
-
-&lt;h2 id=&#34;how-do-i-call-functions-from-other-packages-using-roxygen-docstrings&#34;&gt;How do I call functions from other packages? Using &lt;code&gt;roxygen&lt;/code&gt; docstrings&lt;/h2&gt;
-
-&lt;p&gt;Ugh, I&amp;rsquo;ve already written a bunch of code and I don&amp;rsquo;t want to add the namespaces before all of the functions from other packages! How can I avoid this?&lt;/p&gt;
-
-&lt;p&gt;This is where &lt;code&gt;roxygen&lt;/code&gt; and &lt;code&gt;devtools::document()&lt;/code&gt; come in.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;roxygen&lt;/code&gt; docstrings are responsible for at least three things in your package: 1) producing the documentation (&lt;code&gt;.Rd&lt;/code&gt;) files, but also: 2) specifying what package namespaces you want to utilize, or import in your function, and 3) whether you want to export that function (i.e., make it accessible publicly).&lt;/p&gt;
-
-&lt;p&gt;How do they accomplish 2)? When you call &lt;code&gt;devtools::document()&lt;/code&gt; to build the documentation, they scan for multiple fields, such as &lt;code&gt;@import&lt;/code&gt; and &lt;code&gt;@importFrom&lt;/code&gt; in the &lt;code&gt;roxygen&lt;/code&gt; doc strings. Then &lt;code&gt;devtools::document()&lt;/code&gt; actually modifies the &lt;code&gt;NAMESPACE&lt;/code&gt; file in your package.&lt;/p&gt;
-
-&lt;h2 id=&#34;using-importfrom-when-you-only-need-one-function&#34;&gt;Using &lt;code&gt;@importFrom&lt;/code&gt;: When you only need one function&lt;/h2&gt;
-
-&lt;p&gt;Say you just wanted to use &lt;code&gt;filter&lt;/code&gt; from &lt;code&gt;dplyr&lt;/code&gt;, but didn&amp;rsquo;t want to write &lt;code&gt;dplyr::filter&lt;/code&gt; before all of your functions. You can just import the &lt;code&gt;filter()&lt;/code&gt; function by including the following docstring:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;#&#39; @importFrom dplyr filter
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;And then you can just use &lt;code&gt;filter()&lt;/code&gt; like normal in your code:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;#&#39; @importFrom dplyr filter               #This is where you add the @importFrom
-use_filter &amp;lt;- function(df, cutoff=0.5) {
-
-  filter(df, value &amp;lt; cutoff)
-
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;using-import-when-you-need-a-lot-of-functions-from-a-package&#34;&gt;Using &lt;code&gt;@import&lt;/code&gt;: When you need a lot of functions from a package&lt;/h2&gt;
-
-&lt;p&gt;What if you had a lot of functions from one package, such as &lt;code&gt;shiny&lt;/code&gt;, that you want to use? Do you need to add an &lt;code&gt;@importFrom&lt;/code&gt; for each of these functions? Nope. You can just use one &lt;code&gt;@import&lt;/code&gt; field for the whole package:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;#` @import shiny
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;And then code like usual:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;#` @import shiny            # This is where you add the @import
-shinyUI &amp;lt;- function() {
-    selectInput(&amp;quot;&amp;quot;)
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;importing-multiple-packages-just-don-t-do-it-updated&#34;&gt;Importing multiple packages: just don&amp;rsquo;t do it (UPDATED).&lt;/h2&gt;
-
-&lt;p&gt;Just a note to not import multiple packages using &lt;code&gt;@import&lt;/code&gt;. As Hadley Wickham has noted, you have no control over the development of the packages you import. Just because there are no function collisions right now between the packages doesn&amp;rsquo;t mean that one of the developers may add a function down the line that might collide. So, if you need to use multiple packages, &lt;code&gt;@import&lt;/code&gt; one package and use &lt;code&gt;@importsFrom&lt;/code&gt; or namespaces to refer to functions in the other packages.&lt;/p&gt;
-
-&lt;h2 id=&#34;exported-versus-internal-functions&#34;&gt;Exported versus Internal functions&lt;/h2&gt;
-
-&lt;p&gt;Remember I mentioned ‘@export’ above? Specifying in a docstring for your function &lt;em&gt;exports&lt;/em&gt; it. Specifying it means that ‘devtools::document()’ will add an &lt;code&gt;Export&lt;/code&gt; directive for the function in the NAMESPACE file. That means you can access it using ‘::’. Going back to our &lt;code&gt;use_filter&lt;/code&gt; example:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;#&#39; @export                              #This is where you add the @export
-#&#39; @importFrom dplyr filter
-use_filter &amp;lt;- function(df, cutoff=0.5) {
-
-  filter(df, value &amp;lt; cutoff)
-
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;If our package name is &lt;code&gt;mypackage&lt;/code&gt;, then this function will be accessible if we use &lt;code&gt;library(mypackage)&lt;/code&gt; or &lt;code&gt;mypackage::use_filter()&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Why is this important? You may write some &lt;em&gt;internal&lt;/em&gt; functions that are useful in your package, but they aren’t necessarily ones you want your users to use in their daily use. &lt;code&gt;@export&lt;/code&gt; allows you to control which functions you make publicly accessible in your package.&lt;/p&gt;
-
-&lt;p&gt;For example, try typing &lt;code&gt;dplyr::&lt;/code&gt; in RStudio and hit the tab key. You’ll see the usual &lt;code&gt;dplyr&lt;/code&gt; verbs pop up. But these are only the exported functions. Now try &lt;code&gt;dplyr:::&lt;/code&gt; and hit the tab key. You’ll see a list of functions that pop up that’s much longer - these are all the functions, including the internal functions.&lt;/p&gt;
-
-&lt;p&gt;So, if there’s a cool bit of internal code you want to use in a package, you can use ‘:::’ to specify it. Just be aware that oftentimes, internal functions may change a lot as code gets refactored, so code that utilizes them may be refactored.&lt;/p&gt;
-
-&lt;h2 id=&#34;remember-to-run-devtools-document&#34;&gt;Remember to run &lt;code&gt;devtools::document()&lt;/code&gt;&lt;/h2&gt;
-
-&lt;p&gt;Once you&amp;rsquo;ve written code and want to test it in your package, remember to run &lt;code&gt;devtools::document()&lt;/code&gt; before you reinstall your package for testing. Otherwise, the &lt;code&gt;NAMESPACE&lt;/code&gt; file won&amp;rsquo;t be modified, and your code won&amp;rsquo;t work.&lt;/p&gt;
-
-&lt;p&gt;You can also modify your Project Options for your package and check the &lt;strong&gt;Tools &amp;gt;&amp;gt; Project Options &amp;gt;&amp;gt; Build Tools &amp;gt;&amp;gt; Generate Documentation with Roxygen&lt;/strong&gt; box. Next to it, there is also a &lt;code&gt;Configure&lt;/code&gt; button that lets you select the option to run &lt;code&gt;devtools::document()&lt;/code&gt; whenever you build a package for testing.&lt;/p&gt;
-
-&lt;h2 id=&#34;go-forth-and-package&#34;&gt;Go forth and Package!&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/imports-workflow.png&#34; alt=&#34;Using a function from another package&#34; width = 500&gt;&lt;/p&gt;
-
-&lt;p&gt;TL;DR:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Use &lt;code&gt;usethis::use_package()&lt;/code&gt; to add packages to your &lt;code&gt;DESCRIPTION&lt;/code&gt; file (while in the console) after you&amp;rsquo;ve created your package skeleton using &lt;code&gt;use_package()&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Use namespaces (such as &lt;code&gt;mypackage::usefilter()&lt;/code&gt;) to refer to external functions where possible to avoid collisions in function names when you are writing code.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Use &lt;code&gt;@imports&lt;/code&gt; and &lt;code&gt;@importsFrom&lt;/code&gt; judiciously in your &lt;code&gt;roxygen&lt;/code&gt; documentation for a function if you need to use many extenral package functions within a function.  Use only 1 &lt;code&gt;@import&lt;/code&gt; statement in a function, use namespaces/&lt;code&gt;@importsFrom&lt;/code&gt; for the other packages.&lt;/li&gt;
-&lt;li&gt;Expose functions you want to be made public using &lt;code&gt;@export&lt;/code&gt; in your &lt;code&gt;roxygen&lt;/code&gt; documentation.&lt;/li&gt;
-&lt;li&gt;Remember to run &lt;code&gt;devtools::document()&lt;/code&gt; in the console after you modify/add these fields to the roxygen documentation when you build for testing, or set it up in &lt;strong&gt;Tools &amp;gt;&amp;gt; Project Options&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I hope this helps you to understand exactly the relationships between all of the components that are responsible for accessing namespaces in your package. I was confused about this for years, so writing this has helped me understand these relationships.&lt;/p&gt;
-
-&lt;h2 id=&#34;further-reading&#34;&gt;Further Reading&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;If you want to know how R searches for a function across its environments and why namespaces are a good thing, this is an excellent writeup: &lt;a href=&#34;http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/&#34; target=&#34;_blank&#34;&gt;http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;More about the &lt;code&gt;usethis&lt;/code&gt; workflow: &lt;a href=&#34;https://www.hvitfeldt.me/blog/usethis-workflow-for-package-development/&#34; target=&#34;_blank&#34;&gt;https://www.hvitfeldt.me/blog/usethis-workflow-for-package-development/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;More about the &lt;code&gt;DESCRIPTION&lt;/code&gt; file: &lt;a href=&#34;http://r-pkgs.had.co.nz/description.html&#34; target=&#34;_blank&#34;&gt;http://r-pkgs.had.co.nz/description.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;More about namespaces: &lt;a href=&#34;http://r-pkgs.had.co.nz/namespace.html&#34; target=&#34;_blank&#34;&gt;http://r-pkgs.had.co.nz/namespace.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;More about roxygen: &lt;a href=&#34;http://r-pkgs.had.co.nz/man.html#roxygen-comments&#34; target=&#34;_blank&#34;&gt;http://r-pkgs.had.co.nz/man.html#roxygen-comments&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;An alternative workflow to modify the &lt;code&gt;DESCRIPTION&lt;/code&gt; file: You can use &lt;code&gt;attachment::att_to_description()&lt;/code&gt; to scan code and add packages to the file after coding (thanks,  Sébastien!).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h2&gt;
-
-&lt;p&gt;Thanks to Hao Ye, Sébastien Rochette, Michael Chirico, Tim Hesterberg, and Hadley Wickham for their comments and questions. I&amp;rsquo;ve incorporated your suggestions.&lt;/p&gt;
-
-&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
-
-&lt;p&gt;I want this to be clear and correct. Please &lt;a href=&#34;mailto:laderast@ohsu.edu&#34; target=&#34;_blank&#34;&gt;email me&lt;/a&gt; if there are any mistakes I&amp;rsquo;ve made.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Data Scavenger Hunt: NHANES</title>
-      <link>/teaching/data_nhanes/</link>
-      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/teaching/data_nhanes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rstudio Conf 2019: Education and Organizations</title>
-      <link>/2019/01/24/rstudio-conf-2019-education-and-organizations/</link>
-      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/01/24/rstudio-conf-2019-education-and-organizations/</guid>
-      <description>
-
-&lt;p&gt;Well, RStudio Conf 2019 has come and gone. I attended the main conference, starting with the poster session on wednesday and stayed through the tidyverse developer day on Saturday.&lt;/p&gt;
-
-&lt;p&gt;To say that the conference was inspiring was an understatement. So many talented people working on such interesting and inspiring packages! It made me excited again about doing data science and teaching data science.&lt;/p&gt;
-
-&lt;p&gt;This post is going to highlight the interesting talks about education and organizational management at the conference. There were lots of thought provoking talks and great resources about education. &lt;a href=&#34;https://github.com/kbroman/RStudioConf2019Slides&#34; target=&#34;_blank&#34;&gt;Here&amp;rsquo;s a link to the other resources, posters, and talks&lt;/a&gt; (thanks, Karl Broman!). There are a lot of new neat whiz bang features in RStudio, which I won&amp;rsquo;t cover, but are covered very well by others at Karl&amp;rsquo;s link above.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: I&amp;rsquo;m adding links to the videos as subheadings that you can click on. I won&amp;rsquo;t embed these directly because there is often related material with the video.&lt;/p&gt;
-
-&lt;h2 id=&#34;available-teaching-resources&#34;&gt;Available Teaching Resources&lt;/h2&gt;
-
-&lt;p&gt;There was much sharing of educational resources. I&amp;rsquo;ll talk about a few.&lt;/p&gt;
-
-&lt;h3 id=&#34;carl-howe-s-talk-the-next-million-r-users-https-resources-rstudio-com-rstudio-conf-2019-the-next-million-r-users&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/the-next-million-r-users&#34; target=&#34;_blank&#34;&gt;Carl Howe&amp;rsquo;s Talk: The Next Million R Users&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h3 id=&#34;mel-gregory-rstudio-for-education-https-resources-rstudio-com-rstudio-conf-2019-rstudio-cloud-for-education&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/rstudio-cloud-for-education&#34; target=&#34;_blank&#34;&gt;Mel Gregory: RStudio for Education&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;Carl Howe (Director of Education for RStudio) presented a number of resources that RStudio is providing for educational purposes. &lt;a href=&#34;https://github.com/rstudio/learning-r-survey/blob/master/slides/Next-Million-R-Users.pdf&#34; target=&#34;_blank&#34;&gt;Their goal is to train the next million R users&lt;/a&gt;. Here are some of the RStudio based educational resources that might be useful for everyone.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;em&gt;RStudio Cloud is now available free for people who teach courses&lt;/em&gt;, &lt;a href=&#34;https://www.rstudio.com/pricing/academic-pricing/&#34; target=&#34;_blank&#34;&gt;who can send them a course syllabus to gain access&lt;/a&gt;. RStudio Cloud includes resources to make coursework publically or privately available, allows instructors to install default packages, and gives students an immediate way to start playing with R/RStudio. We are definitely going to use this in teaching our &lt;a href=&#34;http://laderast.github.io/AnalyticsCourse&#34; target=&#34;_blank&#34;&gt;BMI &lt;sup&gt;569&lt;/sup&gt;&amp;frasl;&lt;sub&gt;669&lt;/sub&gt; Data Analytics&lt;/a&gt; course. Mel Gregory&amp;rsquo;s talk was about the nuts and bolts of using RStudio Cloud in a classroom situation. Highly recommended to get familiar with the basics.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Mine Çetinkaya-Rundel also has a &lt;a href=&#34;http://datasciencebox.org&#34; target=&#34;_blank&#34;&gt;Data Science In a Box&lt;/a&gt; course available that can be forked and used by anyone. There is a great discussion of how to use the course and the &lt;a href=&#34;https://datasciencebox.org/hello/tech-stack/&#34; target=&#34;_blank&#34;&gt;tech stack (RStudio Cloud, GitHub, and Slack)&lt;/a&gt; needed to make the course runnable.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;There are also a number of LearnR Tutorials built into RStudio Cloud called &lt;a href=&#34;https://github.com/rstudio-education/primers&#34; target=&#34;_blank&#34;&gt;RStudio Primers&lt;/a&gt; that cover a lot of basic RStudio operations for the self-directed learners.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Jessica Minnier and I &lt;a href=&#34;http://bit.ly/equal_viz&#34; target=&#34;_blank&#34;&gt;presented at the poster session&lt;/a&gt; about our LearnR tutorials, &lt;a href=&#34;http://github.com/laderast/DSIExplore&#34; target=&#34;_blank&#34;&gt;DSIExplore&lt;/a&gt; and &lt;a href=&#34;http://github.com/laderast/dataLiteracyTutorial&#34; target=&#34;_blank&#34;&gt;dataLiteracyTutorial&lt;/a&gt; and our &lt;a href=&#34;http://laderast.github.io/burro&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;burro&lt;/code&gt;&lt;/a&gt; package, which lets &lt;a href=&#34;http://tladeras.shinyapps.io/nhanes_explore&#34; target=&#34;_blank&#34;&gt;users explore a new dataset with a simplified Shiny App&lt;/a&gt;. There&amp;rsquo;s even a function that lets you build a shiny app from a dataset that you can publish to a Shiny server such as &lt;code&gt;shinyapps.io&lt;/code&gt; or RStudio Connect for sharing and having a &lt;a href=&#34;https://laderast.github.io/burro/articles/data_scavenger_hunt.html&#34; target=&#34;_blank&#34;&gt;data scavenger hunt&lt;/a&gt; together. Or as Angela Bassa calls it, an EDA Party. Whoo!&lt;/p&gt;
-
-&lt;h3 id=&#34;irene-stevens-talk-teaching-data-science-with-puzzles-https-resources-rstudio-com-rstudio-conf-2019-teaching-data-science-with-puzzles&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/teaching-data-science-with-puzzles&#34; target=&#34;_blank&#34;&gt;Irene Stevens&amp;rsquo; Talk: Teaching Data Science With Puzzles&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;I really loved Irene Stevens&amp;rsquo; talk about &lt;a href=&#34;https://speakerdeck.com/isteves/teaching-data-science-with-puzzles&#34; target=&#34;_blank&#34;&gt;Teaching Data Science Using Puzzles&lt;/a&gt;. Irene and Jenny Bryan put together a simple project-based framework that lets students download simple data wrangling puzzles per week, lets them submit their answer to an answer server and get feedback, and when they solve it, it creates a minimal reproducible example (reprex) to share with their puzzle community. Very Slick!&lt;/p&gt;
-
-&lt;h3 id=&#34;kelly-bodwin-introductory-statistics-with-r-https-resources-rstudio-com-rstudio-conf-2019-introductory-statistics-with-r-easing-the-transition-to-software-for-beginner-students&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/introductory-statistics-with-r-easing-the-transition-to-software-for-beginner-students&#34; target=&#34;_blank&#34;&gt;Kelly Bodwin: Introductory Statistics with R&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;Kelly Bodwin gave a presentation of how she used Shiny apps as an intermediate step as part of an approach to &lt;a href=&#34;https://web.calpoly.edu/~kbodwin/RStudio_2019.html#1&#34; target=&#34;_blank&#34;&gt;teaching introductory statistics&lt;/a&gt;. Kelly is of the opinion that coding is good even for non majors, and her Shiny apps provide an intermediate step between a more click-based app and coding, asking the students to input their variables, their hypothesis, and highlights the output that results. I really liked this approach. I also really loved this slide:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/2019-rstudioconf/downloads_folder.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;diversity-and-inclusiveness-make-for-better-data-science&#34;&gt;Diversity and Inclusiveness Make for Better Data Science&lt;/h2&gt;
-
-&lt;h3 id=&#34;jesse-mostipak-r4ds-online-learning-community-improvements-to-self-taught-data-science-the-critical-need-for-diversity-equity-and-inclusion-in-data-science-education-https-resources-rstudio-com-rstudio-conf-2019-r4ds-online-learning-community-improvements-to-self-taught-data-science-amp-the-critical-need-for-diversity-equity-and-inclusion-in-data-science-education&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/r4ds-online-learning-community-improvements-to-self-taught-data-science-amp-the-critical-need-for-diversity-equity-and-inclusion-in-data-science-education&#34; target=&#34;_blank&#34;&gt;Jesse Mostipak: R4DS online learning community: Improvements to self-taught data science &amp;amp; the critical need for diversity, equity, and inclusion in data science education&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;I really enjoyed Jesse Mostipak&amp;rsquo;s talk about her data science journey starting the &lt;a href=&#34;https://www.rfordatasci.com/&#34; target=&#34;_blank&#34;&gt;R For Data Science (R4DS)&lt;/a&gt; learning community. She especially emphasized that data science was her path out of lower incomes and that she thought it needs to be more accessible to all. She talked about the barriers to going from &amp;ldquo;Using your computer for Netflix&amp;rdquo; to &amp;ldquo;Using your computer for data science&amp;rdquo; as real, and what she learned as a community manager for the R4DS learning community. Finally, she ended with a call for data scientists to share their mistakes, in order to model that making mistakes is ok.&lt;/p&gt;
-
-&lt;h3 id=&#34;caitlin-hudon-learning-from-eight-years-of-data-science-mistakes-https-resources-rstudio-com-rstudio-conf-2019-learning-from-eight-years-of-data-science-mistakes&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/learning-from-eight-years-of-data-science-mistakes&#34; target=&#34;_blank&#34;&gt;Caitlin Hudon: Learning from Eight Years of Data Science Mistakes&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;Speaking of mistakes, Caitlin Hudon gave a talk called &amp;ldquo;Learning from Eight Years of Data Science Mistakes&amp;rdquo;, which was really helpful. One of her messages was that &amp;ldquo;Mistakes count as experience&amp;rdquo;, and learning from past mistakes is extremely helpful for the whole team. However, it must be safe for team members to share their mistakes, and so creating the right culture of respect and teaching is important. This includes documentation, and including pseudocode next to the actual code to talk non-data scientists through is important. Likewise, making sure that you are solving the correct business problem requires communication. I really liked her discussion of the Rhetorical Triangle as a way to frame communications: Speaker, Audience, and Context.&lt;/p&gt;
-
-&lt;h3 id=&#34;tracy-teal-teaching-r-using-inclusive-pedagogy-practices-and-lessons-learned-from-over-700-carpentries-workshops-https-resources-rstudio-com-rstudio-conf-2019-teaching-r-using-inclusive-pedagogy-practices-and-lessons-learned-from-over-700-carpentries-workshops&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/teaching-r-using-inclusive-pedagogy-practices-and-lessons-learned-from-over-700-carpentries-workshops&#34; target=&#34;_blank&#34;&gt;Tracy Teal: Teaching R using inclusive pedagogy: Practices and lessons learned from over 700 Carpentries workshops&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;Tracy Teal from Data Carpentries also talked about their efforts to &lt;a href=&#34;https://docs.google.com/presentation/d/1yZTOcm0hO3sq8nz24luNoxL2Tk4IWfwoeYSXa09-zB8/edit#slide=id.g4d9835a148_0_218&#34; target=&#34;_blank&#34;&gt;Teaching R using inclusive pedagogy&lt;/a&gt;, including fostering a growth mindset. &lt;a href=&#34;https://carpentries.github.io/instructor-training/&#34; target=&#34;_blank&#34;&gt;Their instructor training&lt;/a&gt; is a wonderful 2-day crash course in teaching, and I&amp;rsquo;m going to propose that it be offered to our graduate students to prep them for teaching. (Full disclosure: I&amp;rsquo;ve contributed to these course materials.) I also appreciated how candid she was about how much further they need to go to increase the diversity of participants.&lt;/p&gt;
-
-&lt;p&gt;Diversity and Inclusiveness was also a theme of Angela Bassa&amp;rsquo;s talk about &lt;a href=&#34;https://github.com/angelabassa/rstudioconf-2019&#34; target=&#34;_blank&#34;&gt;Team Data Science&lt;/a&gt;. She pointed out that data science teams need to be diverse to serve audiences who are highly diverse.&lt;/p&gt;
-
-&lt;h2 id=&#34;making-teaching-resources-for-community-college-instructors&#34;&gt;Making Teaching Resources for Community College Instructors&lt;/h2&gt;
-
-&lt;h3 id=&#34;mary-rudis-catching-the-r-wave-how-r-and-rstudio-are-revolutionizing-statistics-education-in-community-colleges-and-beyond-https-resources-rstudio-com-rstudio-conf-2019-catching-the-r-wave-how-r-and-rstudio-are-revolutionizing-statistics-education-in-community-colleges-and-beyond&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/catching-the-r-wave-how-r-and-rstudio-are-revolutionizing-statistics-education-in-community-colleges-and-beyond&#34; target=&#34;_blank&#34;&gt;Mary Rudis: Catching the R wave: How R and RStudio are revolutionizing statistics education in community colleges (and beyond)&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;A really interesting talk for me was Mary Rudis&amp;rsquo; talk about her work &lt;a href=&#34;https://mrshrbrmstr.github.io/RStudioConf2019/pres/Marys_slides-rev/assets/player/KeynoteDHTMLPlayer.html#0&#34; target=&#34;_blank&#34;&gt;teaching data science at the community college level&lt;/a&gt;. As head of the math department at Penn State Harrisburg, Mary has done a lot of work developing the first data science certification at the community college level. There are a lot more people attending community college than 4 year colleges, and we need to make paths to data science accessible for these students.&lt;/p&gt;
-
-&lt;p&gt;A lot more work needs to be done to make data science accessible at this level. Mary has pointed out a number of efforts that need help, including &lt;a href=&#34;http://statprep.org/the-statprep-team/&#34; target=&#34;_blank&#34;&gt;StatPREP&lt;/a&gt; and the &lt;a href=&#34;https://amatyc.site-ym.com/page/AMATYCAffiliateOrg&#34; target=&#34;_blank&#34;&gt;American Mathematical Association of Two Year Colleges&lt;/a&gt;. She also ended with a call for Shiny Developers to help Community College instructors develop tools they can use to teach data science.&lt;/p&gt;
-
-&lt;h2 id=&#34;organizational-considerations-in-data-science&#34;&gt;Organizational Considerations in Data Science&lt;/h2&gt;
-
-&lt;h3 id=&#34;joe-cheng-shiny-in-production-https-resources-rstudio-com-rstudio-conf-2019-shiny-in-production-principles-practices-and-tools-joe-cheng&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/shiny-in-production-principles-practices-and-tools-joe-cheng&#34; target=&#34;_blank&#34;&gt;Joe Cheng: Shiny in Production&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h3 id=&#34;tonya-filz-the-resilient-r-champion-https-resources-rstudio-com-rstudio-conf-2019-the-resilient-r-champion&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/the-resilient-r-champion&#34; target=&#34;_blank&#34;&gt;Tonya Filz: The Resilient R Champion&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;Organizational considerations were also a really interesting part of RStudio Conf for me. Joe Cheng&amp;rsquo;s keynote on &lt;a href=&#34;https://speakerdeck.com/jcheng5/shiny-in-production&#34; target=&#34;_blank&#34;&gt;Shiny in Production&lt;/a&gt; spent some time talking about overcoming resistance to Shiny in your organization, including talking with Data Engineers and IT Security. His point was that oftentimes, resistance comes from the feelings of territorialism and how to overcome them. Tonya Filz also gave a talk about being a Resilient R Champion at your organization, stressing these issues and giving us case studies/examples to show leaders at your organization.&lt;/p&gt;
-
-&lt;h3 id=&#34;hilary-parker-cultivating-creativity-in-data-work-https-resources-rstudio-com-rstudio-conf-2019-cultivating-creativity-in-data-work&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/cultivating-creativity-in-data-work&#34; target=&#34;_blank&#34;&gt;Hilary Parker: Cultivating creativity in Data work&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;Hilary Parker&amp;rsquo;s talk about &lt;a href=&#34;https://www.slideshare.net/hilaryparker/rstudioconf2019l&#34; target=&#34;_blank&#34;&gt;Creativity and Data Science in the Organization&lt;/a&gt;, about applying system design principles to data science. Rather than thinking of ourselves as having a traditional role at the end of the analysis, Hilary suggested that we partipate in all parts of the process, including data collection. Her group suggested a change in an app, which resulted in a brand new data stream for them to analyse.&lt;/p&gt;
-
-&lt;h3 id=&#34;angela-bassa-data-science-as-a-team-sport-https-resources-rstudio-com-rstudio-conf-2019-data-science-as-a-team-sport&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/data-science-as-a-team-sport&#34; target=&#34;_blank&#34;&gt;Angela Bassa: Data science as a team sport&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;Angela Bassa&amp;rsquo;s Talk about &lt;a href=&#34;https://github.com/angelabassa/rstudioconf-2019&#34; target=&#34;_blank&#34;&gt;Team Data Science&lt;/a&gt; talked about the organizational aspects of making a data team, including specializing roles, making sure that knowledge and expertise was distributed, and managing burnout by making sure that no one team member is overloaded. She stressed resilience within a team by making sure that people are taking care of themselves, having redundancy in the team. Process is also important, by making sure data is well documented, by allotting time. She also stressed the importance of young and new data scientists to the team, because they aren&amp;rsquo;t biased with previous knowledge. I also thought she had excellent arguments about the cost of &lt;em&gt;not expanding&lt;/em&gt; your data team - potential users who would be lost.&lt;/p&gt;
-
-&lt;h2 id=&#34;encouraging-a-growth-mindset&#34;&gt;Encouraging a Growth Mindset&lt;/h2&gt;
-
-&lt;h3 id=&#34;panel-growth-change-of-careers-organizations-and-responsibility-in-data-science-https-resources-rstudio-com-rstudio-conf-2019-4pm-panel-day-2&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/4pm-panel-day-2&#34; target=&#34;_blank&#34;&gt;Panel: Growth &amp;amp; change of careers, organizations and responsibility in data science&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;I really enjoyed the final panel discussion, which was about encouraging a Growth Mindset for Data Scientists in their careers. Karthik Ram, Tracy Teal, Angela Bassa, and Hilary Parker all fielded questions about growing as a data scientist. One of my favorite remarks was from Tracy Teal, who mused about the possibility of a Leadership Carpentry, teaching potential leaders essential skills such as mentoring, faciliation skills, and valuing team contributions. Angela Bassa also had a great quote that &amp;ldquo;leadership is programming people&amp;rdquo;. She also pointed out that the role of Data Scientists is to &amp;ldquo;Question Dogma&amp;rdquo; and pointed out the importance of saying &amp;ldquo;I don&amp;rsquo;t know&amp;rdquo;.&lt;/p&gt;
-
-&lt;h3 id=&#34;david-robinson-the-unreasonable-effectiveness-of-public-work-https-resources-rstudio-com-rstudio-conf-2019-the-unreasonable-effectiveness-of-public-work&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/the-unreasonable-effectiveness-of-public-work&#34; target=&#34;_blank&#34;&gt;David Robinson: The Unreasonable Effectiveness of Public Work&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/2019-rstudioconf/public_work.png&#34; alt=&#34;Making your work public&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The growth mindset was also a theme of Dave Robinson&amp;rsquo;s Keynote, which was about making your &lt;a href=&#34;https://bit.ly/drob-rstudio-2019&#34; target=&#34;_blank&#34;&gt;data science work public at a number of levels&lt;/a&gt;. He outlined a number of different types of public contributions, such as short form (tweets, discussions about data), long form (blogs), code contributions, and even writing a book.&lt;/p&gt;
-
-&lt;h2 id=&#34;direct-explicit-instruction-in-education&#34;&gt;Direct Explicit Instruction in Education&lt;/h2&gt;
-
-&lt;h3 id=&#34;felienne-hermans-explicit-direct-instruction-in-education-https-resources-rstudio-com-rstudio-conf-2019-opening-keynote-day2&#34;&gt;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/opening-keynote-day2&#34; target=&#34;_blank&#34;&gt;Felienne Hermans: Explicit Direct Instruction in Education&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;Felienne Hermans gave a wonderful keynote about teaching computer programming. I won&amp;rsquo;t crib her story, because her telling it was a delightful journey and I encourage you to watch it for yourself at the link above. Part of her point was that programming pedagogy is dominated by the &amp;ldquo;tyranny of fun&amp;rdquo;, rather than focusing on teaching fundamentals. One of the problems with programming education is that we haven&amp;rsquo;t defined what these fundamentals are, compared to the pedagogy of reading, which talks about teaching with fundamentals such as phonics.&lt;/p&gt;
-
-&lt;p&gt;We expect students to explore things without teaching them enough, and that actually hurts their progress. Instead, we should also be teaching fundamentals, such as code reading out loud and rote memorization of programming patterns. By utilizing these fundamentals, she has found improved learning outcomes. As she says, motivation comes from seeing progress, not necessarily from exploration alone. Her results on using direct instruction have showed improved outcomes in terms of motivation.&lt;/p&gt;
-
-&lt;p&gt;I have to admit that this talk really opened my eyes to the blind spots we have in programming education. Looking forward to incorporating these ideas in my coursework.&lt;/p&gt;
-
-&lt;h2 id=&#34;so-many-people-to-teach-so-many-ways-to-teach&#34;&gt;So Many People to Teach, So Many Ways to Teach!&lt;/h2&gt;
-
-&lt;p&gt;So that&amp;rsquo;s my summary about the education and organizational talks/posters at RStudio Conf. Hopefully it gives you an idea of what resources, opportunities, and pedagogy is out there.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Flow Dashboard Demo</title>
-      <link>/project/sample_flow_dashboard/</link>
+      <title>Projects</title>
+      <link>/project/</link>
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/project/sample_flow_dashboard/</guid>
+      <guid>/project/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>NHANES explorer</title>
-      <link>/project/nhanes_explorer/</link>
-      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      <title>Improvisation and Collaboration</title>
+      <link>/improvisation-and-collaboration/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/project/nhanes_explorer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reframing Impostor Syndrome as the Road to Mastery</title>
-      <link>/2018/12/13/reframing-impostor-syndrome-as-being-on-the-road-to-mastery/</link>
-      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/12/13/reframing-impostor-syndrome-as-being-on-the-road-to-mastery/</guid>
-      <description>
-
-&lt;p&gt;At some point in your life in Data Science, you will probably struggle with &lt;a href=&#34;https://www.apa.org/gradpsych/2013/11/fraud.aspx&#34; target=&#34;_blank&#34;&gt;impostor syndrome&lt;/a&gt;. We all do - in fact, even though I have used R and have done bioinformatics and data science for more than 15 years, I still struggle with this feeling. As a beginner, the mountain you must climb to master skills in data science seems like a long and impossible one.&lt;/p&gt;
-
-&lt;p&gt;Caitlin Hudon, in her post about &lt;a href=&#34;https://caitlinhudon.com/2018/01/19/imposter-syndrome-in-data-science/&#34; target=&#34;_blank&#34;&gt;dealing with impostor syndrome&lt;/a&gt; has this to say about countering impostor syndrome:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The way that I’ve dealt with imposter syndrome is this: I’ve accepted that I will never be able to learn everything there is to know in data science — I will never know every algorithm, every technology, every cool package, or even every language — and that’s okay. The great thing about being in such a diverse field is that nobody will know all of these things (and that’s okay too!).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I think it&amp;rsquo;s important to try and reframe the feelings of impostor syndrome into something more positive. I think having self-compassion about the difficulties of the learning process can help.&lt;/p&gt;
-
-&lt;p&gt;George Leonard&amp;rsquo;s &lt;a href=&#34;https://www.goodreads.com/book/show/81940.Mastery&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Mastery&lt;/em&gt;&lt;/a&gt; is a short book that I think can help provide the antidote to these feelings of fraud and inadequacy. I feel that beginners and learners would feel much better if their instructors would own up to their own personal shortcomings as learners. That is, instead of trying to project the image of the all knowledgable guru, instructors should show themselves as humble, lifelong learners as well.&lt;/p&gt;
-
-&lt;p&gt;In &lt;a href=&#34;https://www.goodreads.com/book/show/81940.Mastery&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Mastery&lt;/em&gt;&lt;/a&gt;, Leonard talks about our unrealistic expectations and how these expectations can get in the way of actually learning and mastering a craft. We are conditioned by ads, movies, and social media that mastering a craft is a never ending set of ever rising climaxes (cue the &lt;a href=&#34;https://www.youtube.com/watch?v=SPFCHuEegsk&#34; target=&#34;_blank&#34;&gt;training montage&lt;/a&gt;), that we can make continuous and steady progress by working hard enough.&lt;/p&gt;
-
-&lt;p&gt;Mastering a craft takes practice, and lots of it. We must learn to be contented to practice when we are on a plateau and are not making visible progress. As Leonard notes,&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The Path to Mastery is practice.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Leonard outlines 5 principles that can sustain us in our road to mastery and away from impostor syndrome: &lt;strong&gt;Instruction&lt;/strong&gt;, &lt;strong&gt;Practice&lt;/strong&gt;, &lt;strong&gt;Surrender&lt;/strong&gt;, &lt;strong&gt;Intentionality&lt;/strong&gt;, and &lt;strong&gt;The Edge&lt;/strong&gt;. I&amp;rsquo;m trying to map common feelings of impostor syndrome and show how these principles can counteract these feelings.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Instruction&lt;/strong&gt;. Leonard emphasizes the importance in finding good instructors and good mentorship that will help us to grow. Finding good instructors can actually be difficult and finding someone who remembers what it was like to be learning something is important. Avoid those instructors who say things like &amp;ldquo;it should now be obvious&amp;rdquo; or are disparaging when you don&amp;rsquo;t understand something.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;He or she is not necessarily the one that gives the most polished lectures, but rather the &lt;em&gt;one who has discovered how to involve each student actively&lt;/em&gt; in the process of learning.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;em&gt;What you can do today&lt;/em&gt;: look at twitter and other forums for your community of learners and support those who give good instruction. Realize that not all teachers are good teachers; leave them and seek better ones if necessary.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Practice&lt;/strong&gt;. Practice for practices&amp;rsquo; sake. Deliberate practice where you slowly build up your understanding and perceptions is important to your growth.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Where in our upbringing, our schooling, our career are we taught to value, to enjoy, even to love the plateau, the long stretch of diligent effort with no seeming progress?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;em&gt;What you can do today&lt;/em&gt;: Join communities of practice such as Tidy Tuesday and share your learning with others. Tidy Tuesday is extremely friendly and encouraging for beginners. Learn together and grow together. These are safe communities to share knowledge.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Intentionality&lt;/strong&gt;. This goes hand in hand with practice. Deliberate practice requires visualizing your process and guiding yourself gently.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Intentionality fuels the master&amp;rsquo;s journey. Every master is a master of vision.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;em&gt;What you can do today&lt;/em&gt;: find small exercises and projects that help you reinforce what you&amp;rsquo;ve learned so far. Find people&amp;rsquo;s code and vignettes and modify them until you understand what they&amp;rsquo;ve done and how they structured their work.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Surrender&lt;/strong&gt;. At some point, you will have to give up your own social position as an expert to grow as a learner. When this happens, you must be willing to risk that standing to progress further. Leonard talks about a karate master learning aikido who was not willing to start from scratch, which impeded his learning. For many of us academics, being willing to abandon the comfort of what we have learned is especially difficult. We feel like we are risking our own social standing and reputation.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;For the master, surrender means there are no experts. There are only Learners.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;em&gt;What you can do today&lt;/em&gt;: be humble when faced with new concepts (for many impostor syndrome sufferers this is not the hard part). Recognize when you need to grow and when you have to leave old concepts behind.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The Edge&lt;/strong&gt;. This is where things are undefined and scary. Still, part of the journey to mastery is a willingness to push your thoughts to beyond the horizon of what you thought was possible.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The trick here is not only to test the edges of the envelope, but also to walk the fine line between endless, goalless practice and those alluring roles that appear along the way.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;em&gt;What you can do today&lt;/em&gt;: Identify some goals that are just beyond your current skillset and be willing to push your learning to that point.&lt;/p&gt;
-
-&lt;p&gt;Leonard maintains that true mastery is not due to innate talent. True mastery is due to tenacity and perserverance in the face of difficult learning. In fact, he suggests that learning things too easily means that you might lack perserverance when the going gets rough and your progress slows. He maintains that someone who perseveres will &amp;ldquo;have learned whatever [they] are practicing to the marrow of [their] bones.&amp;rdquo;&lt;/p&gt;
-
-&lt;h2 id=&#34;encouraging-mastery-as-a-community&#34;&gt;Encouraging Mastery as a Community&lt;/h2&gt;
-
-&lt;p&gt;I think Caitlin&amp;rsquo;s &lt;a href=&#34;https://caitlinhudon.com/2018/01/19/imposter-syndrome-in-data-science/&#34; target=&#34;_blank&#34;&gt;prescriptions for community wide suggestions for reducing impostor syndrome&lt;/a&gt; are wonderful. Especially the advice to &amp;ldquo;Get comfortable with I don&amp;rsquo;t know&amp;rdquo;. Normalizing &amp;ldquo;I don&amp;rsquo;t know&amp;rdquo; within a community is incredibly important to making a psychologically safe learning environment.&lt;/p&gt;
-
-&lt;p&gt;To encourage learners, I think that creating a community of practice and helpfulness is vitally important to give new learners the support they need. When communities take responsibility for the learning of their members, something magic happens. Learning no longer feels lonely and there is no shame when you don&amp;rsquo;t immediately grasp a concept. Patience becomes the norm and people become more confident.&lt;/p&gt;
-
-&lt;p&gt;For me, this is the true value of schools and universities. To get the most out of online learning, you need to participate within a community that encourages you to learn further. Be on the pathway to mastery by participate within learning communities.&lt;/p&gt;
-
-&lt;h2 id=&#34;further-reading&#34;&gt;Further Reading&lt;/h2&gt;
-
-&lt;p&gt;Mastery: &lt;a href=&#34;https://www.goodreads.com/book/show/81940.Mastery&#34; target=&#34;_blank&#34;&gt;https://www.goodreads.com/book/show/81940.Mastery&lt;/a&gt;&lt;/p&gt;
+      <guid>/improvisation-and-collaboration/</guid>
+      <description>&lt;p&gt;Way back in high school and college, I used to be a fairly avid jazz musician. I always loved the group aspect of Jazz - in a good group, there is this sense of support for each other&amp;rsquo;s creativity where everyone is backing each other up and giving each other musical space to express themselves.&lt;/p&gt;
+&lt;p&gt;My background in improvisation has served me well, in that it has enabled a lot of my musical collaborations. My music is different in that I play improvisational cello, though on a very slow scale. But you can drop me into a lot of situations and I can come up with something that will work with someone else&amp;rsquo;s musical style.&lt;/p&gt;
+&lt;p&gt;I now realize that I use a lot of the rules of improvisation when I collaborate with others in Open Science.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Being respectful and listening.&lt;/li&gt;
+&lt;li&gt;Saying &amp;ldquo;Yes, and&amp;rdquo;. This is an old comedy improv rule. It means that you don&amp;rsquo;t shut other people&amp;rsquo;s performances down. You try to build on theirs and enhance it. I like to build on people&amp;rsquo;s ideas.&lt;/li&gt;
+&lt;li&gt;Being flexible. See previous two rules.&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t hog the spotlight.&lt;/li&gt;
+&lt;li&gt;Most things are a process and rely on previous experience. No one became an expert improviser overnight.&lt;/li&gt;
+&lt;li&gt;Trust the process when you can.&lt;/li&gt;
+&lt;li&gt;Help each other.&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
     <item>
-      <title>Things we learned teaching clinical data wrangling</title>
-      <link>/2018/10/15/clinical-data-wrangling/</link>
-      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      <title>Python_resources</title>
+      <link>/python_resources/</link>
+      <pubDate>Fri, 12 Jan 2018 13:55:55 -0800</pubDate>
       
-      <guid>/2018/10/15/clinical-data-wrangling/</guid>
-      <description>&lt;p&gt;Well, we just finished our &lt;a href=&#34;https://laderast.github.io/clinical_data_wrangling/&#34;&gt;clinical data wrangling workshop&lt;/a&gt;. This was a 12 hour workshop (spread over 4 days) where students got to work with a real research dataset (the &lt;a href=&#34;http://sleepdata.org&#34;&gt;Sleep Heart Health Study&lt;/a&gt; data). This is a workshop that we developed as part of an National Library of Medicine T15 training supplement in Data Science. The following is a short report describing the workshop and its outcomes.&lt;/p&gt;
-&lt;div id=&#34;intended-audience&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Intended Audience&lt;/h2&gt;
-&lt;p&gt;We designed the workshop for our incoming informatics students (both clinical and biological majors) in order to introduce them to the difficulties of working with clinical data.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;learning-objectives&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Learning Objectives&lt;/h2&gt;
-&lt;p&gt;These were our learning objectives for the workshop:&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Understand the biology of sleep and sleep apnea and how the biology informs the covariates measured in the Sleep Heart Health Study&lt;/li&gt;
-&lt;li&gt;Understand why clinical data is useful and also why it’s difficult to work with&lt;/li&gt;
-&lt;li&gt;Learn Exploratory Data Analysis techniques and use them to inform model building.&lt;/li&gt;
-&lt;li&gt;Learn to assess logistic regression models using simple diagnostics.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div id=&#34;the-dataset&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;The Dataset&lt;/h2&gt;
-&lt;p&gt;We used the &lt;a href=&#34;https://sleepdata.org/datasets/shhs&#34;&gt;Sleep Heart Health Study&lt;/a&gt; dataset from the &lt;a href=&#34;https://sleepdata.org&#34;&gt;National Sleep Research Resource&lt;/a&gt;. This is a dataset of approximately 5800 patients that have over 3000 covariates. We limited our students to a smaller number of covariates (17), including our outcome of interest, cardiovascular disease.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;workshop-format&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Workshop Format&lt;/h2&gt;
-&lt;p&gt;We designed the workshop to be a mix of didactic lectures and active learning exercises. Where possible, we had students work in groups to answer questions about the data. These activities included a data scavenger hunt using our EDA exploration app, and a logistic modeling exercise.&lt;/p&gt;
-&lt;div id=&#34;day-1-outline&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Day 1 Outline&lt;/h3&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Introduction, logistics, and groups assigned (30 minutes)&lt;/li&gt;
-&lt;li&gt;Biology of Sleep and Cardiovascular Disease (40 minutes, format: in-person lecture)&lt;/li&gt;
-&lt;li&gt;Break Time (15 minutes)&lt;/li&gt;
-&lt;li&gt;The Value of Clinical Data (15 minutes, in-person lecture)&lt;/li&gt;
-&lt;li&gt;Clinical Data Quality (40 minutes, in-person lecture)&lt;/li&gt;
-&lt;li&gt;Lunch (90 minutes, with optional R setup session)&lt;/li&gt;
-&lt;li&gt;Exploring the SHHS Dataset (60 minutes, format: Data Scavenger Hunt w/ Shiny App, each team gets a task and has to show the class how to find the information)&lt;/li&gt;
-&lt;li&gt;Applying the Clinical Wrangling Process: Diabetes (45 minutes, format: in-person lecture)&lt;/li&gt;
-&lt;li&gt;Logistic Regression Model Basics (60 minutes, format: walkthrough of R Notebook)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div id=&#34;day-2&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Day 2&lt;/h3&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Question/Answer session about Logistic Regression and Modeling (50 minutes)&lt;/li&gt;
-&lt;li&gt;Assignment about &lt;code&gt;race&lt;/code&gt; variable (assigned to groups, take-home assignment)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div id=&#34;day-3&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Day 3&lt;/h3&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Discussion about &lt;code&gt;race&lt;/code&gt; as a covariate, sharing of findings&lt;/li&gt;
-&lt;li&gt;Overview of hypertension and how it relates to cardiovascular disease and sleep apnea&lt;/li&gt;
-&lt;li&gt;Template/R Notebook given for final presentation in groups (in-class lab time, template is structured as a series of decisions.)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div id=&#34;day-4&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Day 4&lt;/h3&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Group presentations about covariate decisions and resulting model (1 hour, present final version of R notebook). At each decision stage, teams must decide on whether or not to include covariates or not given what they have found from exploring the data and justify their decision using EDA visualizations.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;lessons-learned&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Lessons Learned&lt;/h2&gt;
-&lt;p&gt;Overall, we believe the workshop went well, as it encouraged discussion about data and its appropriateness among the students. Students were engaged overall and asked lots of questions.&lt;/p&gt;
-&lt;p&gt;The final reports for each group were generated from a R Notebook. All three groups showed a thoughtful narrative and justification for each of the covariates included in the model.&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Interactive visualization removes barriers to understanding issues in data&lt;/strong&gt;. Ted developed a Shiny App that allowed the students to visually browse and understand the data. Along with the EDA scavenger hunt (see below), this served as a good introduction for students to get their feet wet with the SHHS dataset.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Our diverse backgrounds helped make the workshop accessible.&lt;/strong&gt; Nicole Weiskopf has a background in data quality of clinical data, Eilis Boudreau does sleep study work, and I’m a bit of a mongrel.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Securing the cooperation of the data holders made the workshop possible&lt;/strong&gt;. The dataset comes from the National Sleep Study Resource. Eilis knows Susan Redline, who heads that group and pitched the idea (over two sessions) to her group. Susan’s group was very enthusiastic and helpful, especially in helping the students get their data use agreements in so they could access the dataset.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Group work is learning work&lt;/strong&gt;. We assigned each student to a group, and gave each group questions to answer and teach the class about the dataset. By pointing them to specific aspects of the data, we opened the door to discussion.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;EDA scavenger hunt&lt;/strong&gt;. We had the students learn data exploration by giving them a scavenger hunt to look at the relationship between variables. Each group was then required to talk about their findings and which visualization helped them discover that relationship. For example, there is a relationship between age and race in our dataset; the “Other” category of race has a lower median age than the other two categories, “White” and “Black”.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Didactic Teaching is also important&lt;/strong&gt;. Nicole and Eilis covered both the biology of sleep apnea and the difficulty of understanding the implications of clinical data. Without this background, students would not be able to make informed decisions about their final model.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Guide the Students, but don’t force discussion&lt;/strong&gt;. This was important. We think the students need to connect the dots to really understand the issues. The final product (a logistic regression model predicting cardiovascular disease with an R Notebook) had steps and choices. But the choices for each group of students was different.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;A Code of conduct is necessary and important&lt;/strong&gt;. We are big believers in psychological safety. If people don’t feel safe in the classroom environment (and let’s face it, grad school classrooms rarely are), they will be less likely to learn and contribute.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Data restrictions made deploying difficult&lt;/strong&gt;. The activity materials were deployed as an RStudio project. However, we couldn’t share the data within a GitHub repo. As OHSU’s approved vendor is Box, we setup a box folder containing the material to be shared with students.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;We were grateful for the incoming informatics students’ enthusiasm and patience as we got this workshop going. Also thanks to the NLM T15 Supplement in Data Science, without which we would not have gotten the opportunity to conceptualize, put together, and deliver this workshop. Thanks again to Susan Redline and the &lt;a href=&#34;http://sleepdata.org&#34;&gt;National Sleep Research Resource&lt;/a&gt; group, especially Dan Mobley who helped us with the last-minute data use agreements.&lt;/p&gt;
-&lt;p&gt;Link to Workshop: &lt;a href=&#34;https://github.com/laderast/clinical_data_wrangling&#34; class=&#34;uri&#34;&gt;https://github.com/laderast/clinical_data_wrangling&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Introduction to Interactive Visualization</title>
-      <link>/project/introduction_to_interactive_vis/</link>
-      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/project/introduction_to_interactive_vis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shiny and Tidyeval Part 1</title>
-      <link>/2018/08/07/shiny-and-tidyeval/</link>
-      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/08/07/shiny-and-tidyeval/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;Note: sometimes I write these posts to teach myself a better way to do things in R.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I have been avoiding &lt;code&gt;tidyeval&lt;/code&gt; somewhat, because I seem to have a bit of a learning block about it. I’m going to try to write some posts that help me understand what’s going on with Tidy Evaluation.&lt;/p&gt;
-&lt;div id=&#34;using-sym-in-a-shiny-app&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Using &lt;code&gt;sym()&lt;/code&gt; in a Shiny App&lt;/h2&gt;
-&lt;p&gt;One fairly simple Shiny Application might be selecting a column of the dataset and then doing something with it, such as using it in a &lt;code&gt;select()&lt;/code&gt; or &lt;code&gt;filter()&lt;/code&gt; statement. Say we had a simple app to produce histograms, and we wanted to change the column that is being displayed on the histogram.&lt;/p&gt;
-&lt;p&gt;Try this app out by running the following command. The &lt;a href=&#34;https://gist.github.com/laderast/a5205554324306e642b2df9f80ed6409&#34;&gt;code is here&lt;/a&gt;.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;runGist(&amp;quot;https://gist.github.com/laderast/a5205554324306e642b2df9f80ed6409&amp;quot;, display.mode=&amp;quot;showcase&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Our input is a select input called &lt;code&gt;numeric_var&lt;/code&gt;, which returns a single column name as a &lt;code&gt;character&lt;/code&gt; In our server logic, we’ve built a reactive called &lt;code&gt;selected_data&lt;/code&gt;, which returns the selected column as a vector using &lt;code&gt;pull()&lt;/code&gt;.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;  selected_data &amp;lt;- reactive({
-    ## input$numeric_var is a character, so we cast it to symbol
-    var_name &amp;lt;- sym(input$numeric_var)
-
-    ## Now we evaluate it with !!
-    out_col &amp;lt;- iris %&amp;gt;% pull(!!var_name)
-  })&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The question is: how do we pass the input value into &lt;code&gt;pull()&lt;/code&gt;? We first have to use &lt;code&gt;rlang::sym()&lt;/code&gt; to pass our character in as a &lt;code&gt;symbol&lt;/code&gt; that we’re calling &lt;code&gt;var_name&lt;/code&gt;. But the issue is that our reactive doesn’t know which environment to look in.&lt;/p&gt;
-&lt;p&gt;We want our reactive to look for the column name within the environment of the &lt;code&gt;iris&lt;/code&gt; &lt;code&gt;tibble&lt;/code&gt;. This is where the &lt;code&gt;!!&lt;/code&gt; (bang-bang) comes in. It says, ‘look for the value’ within the &lt;code&gt;tibble&lt;/code&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;using-syms-in-a-shiny-app&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Using &lt;code&gt;syms()&lt;/code&gt; in a Shiny App&lt;/h2&gt;
-&lt;p&gt;What if wanted to pass in &lt;em&gt;multiple&lt;/em&gt; variables from a select box? We’ll need to wrap our input with &lt;code&gt;syms()&lt;/code&gt;, which takes a list.&lt;/p&gt;
-&lt;p&gt;Let’s do a slightly different version where we’re visualizing a box plot and we want to select multiple columns to display in our dataset from a &lt;code&gt;selectInput&lt;/code&gt; where we’ve specified the &lt;code&gt;multiple=TRUE&lt;/code&gt; argument.&lt;/p&gt;
-&lt;p&gt;Our setup is similar, but different. Because we have multiple values, we have to use &lt;code&gt;syms()&lt;/code&gt; to wrap the input from &lt;code&gt;input$numeric_vars&lt;/code&gt;. Then we can evaluate it with &lt;code&gt;!!!&lt;/code&gt; (the triple bang).&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;  selected_data &amp;lt;- reactive({
-    ## input$numeric_var is a character vector, so we cast it to symbol
-    var_list &amp;lt;- syms(input$numeric_vars)
-
-    ## Now we evaluate it with !!!
-    out_col &amp;lt;- iris %&amp;gt;% select(!!!var_list)
-  })&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Try this app out. The &lt;a href=&#34;https://gist.github.com/laderast/952120ac46d1f27c2d2dba5bd1ab5d10&#34;&gt;Code is here&lt;/a&gt;.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;runGist(&amp;quot;https://gist.github.com/laderast/952120ac46d1f27c2d2dba5bd1ab5d10&amp;quot;, display.mode=&amp;quot;showcase&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Turning down the noise</title>
-      <link>/2018/08/02/turning-down-the-noise/</link>
-      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/08/02/turning-down-the-noise/</guid>
-      <description>
-
-&lt;p&gt;I&amp;rsquo;m still in the process of recovering from my current bout of depression and anxiety. I&amp;rsquo;d like to talk about what is currently helping me moderate my anxiety. I have been practicing mindfulness and meditation for the past three years and I&amp;rsquo;m beginning to realize how necessary it is in our information dense age. Many of my symptoms of anxiety are really from an information overglut.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m currently on way too many projects and am teaching as well. Everything wants my attention. We need to decide dates for a visit, etc. Booking travel, grading students, etc. The noise of academic life can be overwhelming and can prevent me from working effectively. A book I&amp;rsquo;m reading, &lt;em&gt;Real Happiness at Work&lt;/em&gt; by Sharon Salzberg, talks about Attention Deficit Trait disorder:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Attention deficit trait (ADT) is workplace-induced attention deficit caused by the constant, relentless input of information, these days usually enabled by our high-tech devices, smartphones, and computers.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This is especially prevalent for people like me who are on multiple grants and have many collaborators. I&amp;rsquo;m okay with putting out the occasional fire or dealing with an emergency deadline; if I believe in the project, I can muster the energy. However, the problem is when I have multiple fires to deal with from multiple people. The task switching leads to stress and leads to an inability to prioritize. This is where I&amp;rsquo;ve been the last few months.&lt;/p&gt;
-
-&lt;p&gt;And this is when the voices of doubt begin to fuel my anxiety. On top of the enormous task list, there&amp;rsquo;s the feelings of failure and disappointment because I can&amp;rsquo;t get simple things done. In my head the voices reach a frenzy, a cacophony, a noise. And then I can&amp;rsquo;t think straight, prioritize, work on one thing.&lt;/p&gt;
-
-&lt;p&gt;What is the solution to ADT and the noise of life? Mindfulness and unitasking. As Sharon Salzberg notes:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;hellip; while it’s unrealistic to try to stop the number and variety of incoming demands, in our technologically advanced world it is possible to modulate how much information we’re taking in, and how many tasks we are doing at once. When we slow down and concentrate on doing just what is before us to be done now, &lt;strong&gt;we become the masters of our own environment rather than its frantic slaves.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This idea (being a master of my environment) appeals to me in the midst of my academic anxiety. Practicing mindfulness (through daily meditation) helps me to focus on the here and now. We are wired to ruminated about the past (things we wish we&amp;rsquo;d done better) or the future (oh crap, I need to prepare upcoming stuff). Meditation is all about building that focus and attention on what&amp;rsquo;s before us. If we can&amp;rsquo;t do it all, we can at least work on what&amp;rsquo;s right in front of us.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve also been reading Anne Lamott&amp;rsquo;s &lt;em&gt;Bird by Bird&lt;/em&gt;, a book reflecting on the hows and whys of writing and living your life while doing it. It&amp;rsquo;s a sobering view of why we write and how to keep on in the face of numerous adversities. There&amp;rsquo;s one passage that really resonated with me in the chapter called &amp;ldquo;Shitty First Drafts&amp;rdquo; in dealing with the incessant chatter of life:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Close your eyes and get quiet for a minute, until the chatter starts up. Then isolate one of the voices and imagine the person speaking as a mouse. Pick it up by the tail and drop it into a mason jar. Then isolate another voice, pick it up by the tail, drop it in the jar. And so on. Drop any high maintenance parental units, drop in any contractors, lawyers, colleagues, children, anyone else who is whining in your head. Then put the lid on, and watch all these mouse people clawing at the glass, jabbering away, trying to make you feel like shit because you won&amp;rsquo;t do what they want - won&amp;rsquo;t give them more money, won&amp;rsquo;t be more successful, won&amp;rsquo;t see them more often. Then imagine there is a volume control button on the bottle. Turn it all the way up for a minute, and listen to the stream of angry, neglected, guilt-mongering voices. Then turn it all the way down and watch the frantic mice lunge at the glass, trying to get to you. Leave it down, and get back to your shitty first draft.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This is another idea in mindfulness: &lt;em&gt;welcoming and acknowledging our worries and negative voices&lt;/em&gt;. If we ignore or refuse these feelings, they just become stronger and louder in the din and the noise. I have all sorts of these feelings: &lt;em&gt;I don&amp;rsquo;t work hard enough&lt;/em&gt;, &lt;em&gt;I&amp;rsquo;m a failure&lt;/em&gt;, &lt;em&gt;I&amp;rsquo;m letting down people who depend on me&lt;/em&gt;, &lt;em&gt;Everyone is out there working on cooler things than me&lt;/em&gt;. Now I&amp;rsquo;m trying to take an effort to welcome these feelings into my mental space, saying &amp;ldquo;okay, I hear you and acknowledge you, so you don&amp;rsquo;t have to be yelling anymore&amp;rdquo;. And surprisingly, they do quiet down. Acknowledging the feelings of failure, thanking them for their contribution to the discussion and showing them the door is important. As Kelly Boys says in &lt;em&gt;The Blind Spot Effect&lt;/em&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;If you approach life with a willingness to be with what you encounter without getting lost in it, it moves gracefully within your experience.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;And that helps lower the volume and free your attention.&lt;/p&gt;
-
-&lt;p&gt;If you are feeling generalized anxiety or attention deficit trait, I encourage you to look into mindfulness as a way of turning down the noise.&lt;/p&gt;
-
-&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
-
-&lt;p&gt;These are some of the resources that I&amp;rsquo;ve used when writing this post.&lt;/p&gt;
-
+      <guid>/python_resources/</guid>
+      <description>&lt;p&gt;A list of python resources at OHSU and beyond for the neuroscience students.&lt;/p&gt;
+&lt;h2 id=&#34;in-neuroscience&#34;&gt;In Neuroscience&lt;/h2&gt;
+&lt;h3 id=&#34;python-bootcamp-for-neuroscientists-neus640&#34;&gt;Python Bootcamp for Neuroscientists (NEUS640)&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/dasaderi/python_neurobootcamp&#34;&gt;Course Material&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This course is a gentle introduction to the Python
+programming language using data types familiar to Neuroscience students, including behavioral, electrophysiology, and imaging data. Emphasis will be put on introducing students to concepts of visualization, data manipulation, and analysis using available Python packages (NumPy, Pandas, Matplotlib).&lt;/p&gt;
+&lt;h2 id=&#34;in-medical-informatics-and-clinical-epidemiology-dmice&#34;&gt;In Medical Informatics and Clinical Epidemiology (DMICE)&lt;/h2&gt;
+&lt;h3 id=&#34;introduction-to-programming-no-course-number&#34;&gt;Introduction to Programming (no course number)&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/gp/product/0692475389/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;The Mindful Geek: Secular Meditation for Smart Skeptics&lt;/em&gt;&lt;/a&gt; by Michael Taft. This is a great book for people who are interested in Mindfulness and the psychological and neuroscience research about why mindfulness works in reducing depression and anxiety. I started here. Michael Taft calls meditation &amp;ldquo;a technology for hacking the human wetware to improve your life&amp;rdquo;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/Real-Happiness-Work-Meditations-Accomplishment/dp/B0182Q7KAQ/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Real Happiness at Work: Meditations for Accomplishment, Achievement, and Peace&lt;/em&gt;&lt;/a&gt; by Sharon Salzberg. This is a nice followup to &lt;em&gt;Mindful Geek&lt;/em&gt;, talking about how we can regain control in our workplace.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/Blind-Spot-Effect-Missing-Whats-ebook/dp/B07413Q5Y7/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;The Blind Spot Effect: How to Stop Missing What&amp;rsquo;s Right in Front of You&lt;/em&gt;&lt;/a&gt; by Kelly Boys. I am really liking this book so far. It&amp;rsquo;s about how meditation and mindfulness can help us find our cognitive blind spots and move beyond them.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/Bird-Some-Instructions-Writing-Life/dp/0385480016/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Bird by Bird: Some Instructions on Writing and Life&lt;/em&gt;&lt;/a&gt; by Anne Lamott. I recently started reading this on vacation. Writing can be a lonely and solitary life, and I find many of her suggestions about living to apply equally well to research.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Instructor: Lisa Karstens, Ph.D.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;0.0 credits&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/IntroductionToProgramming-Syllabus-WI18.pdf&#34;&gt;Course Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Offered: Winter and Summer Quarter&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;This non-credit, online course will introduce the beginning programmer to programming structure and design, creating a solid foundation for all types of programming. The emphasis will be on procedural programming and control structures, although exercises will be in Python. The course fulfills the prerequisite for BMI 540 and BMI 565. Tuition fee is $500.&lt;/p&gt;
+&lt;p&gt;Students may register during the regular winter and summer term registration periods. Contact Diane Doctor for details at &lt;a href=&#34;mailto:doctord@ohsu.edu&#34;&gt;doctord@ohsu.edu&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;bioinformatics-programming-and-scripting---bmi-565--656&#34;&gt;Bioinformatics Programming and Scripting - BMI 565 / 656&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Instructor: Michael Mooney, Ph.D.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Credits: 3.0&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/BMI-565-Syllabus-FA17.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Offered: Fall Quarter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The purpose of this course is to equip research scientists with computational skills necessary to create and automate tools to analyze biological data.  The course is divided into four sub-topics: python programming, scripting in unix, biopython library, bioinformatics workflows.  Python will be used used to solve simple to sophisticated programming problems and to review general computational language paradigms such as problem abstraction, data types, file I/O, iteration, functions, and objects.  There will also be an emphasis on writing unix operating system shell scripts to automate repetitive tasks and connect disparate bioinformatics tools using files and pipes.  In addition, students will learn to access public repositories to perform basic bioinformatics tasks such as annotating gene products, sequence searching, and functional queries. This course is designed to be a first year requirement for students in the Bioinformatics and Computational Biology graduate program in Biomedical Informatics. Open to other students with consent of instructor.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Prerequisite&lt;/strong&gt;: Background must include an introductory programming class including concepts such as variables, loops, I/O, methods, and algorithms.&lt;/p&gt;
+&lt;h2 id=&#34;computer-science-and-electrical-engineering-csee-python-courses&#34;&gt;Computer Science and Electrical Engineering (CS/EE) Python Courses&lt;/h2&gt;
+&lt;h3 id=&#34;data-science-programming---cs-527--627&#34;&gt;Data Science Programming - CS 527 / 627&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;http://cslu.ohsu.edu/~kain/CS627/&#34;&gt;Course Website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This course is designed to give you awareness and initial working knowledge of some of the most fundamental computational tools for performing a wide variety of academic research. As such, it will focus on providing breadth instead of depth, which means that for each concept we will talk about motivation, key concepts, and concrete usage scenarios, but without mathematical background or proofs, which can be acquired in more specialized classes. In this class we will: become familiar with the UNIX/LINUX environment, learn how to version control files with git, write programs inpython, perform numeric tasks using numpy and scipy, analyze data using pandas, apply machine learning algorithms using scikit-learn, visualize data using matplotlib and pyqtgraph, use QT/pyside to build graphical user interfaces, and finally we will address performance issues via compilation/profiling/parallelization tools.&lt;/p&gt;
+&lt;h3 id=&#34;introduction-to-image-processing-ee-584--684&#34;&gt;Introduction to Image Processing EE 584 / 684&lt;/h3&gt;
+&lt;p&gt;This course covers basic image processing principles and techniques with a brief introduction to machine vision. Specific topics include image transform methods, image filtering, image enhancement, image restoration, segmentation, image representation and feature extraction, image recognition and classification, and image compression. Application of these techniques is illustrated in numerous examples. Pre-requisite: probability and statistics or equivalent, calculus, linear algebra and proficiency in at least one high-level programming language.&lt;/p&gt;
+&lt;h3 id=&#34;data-visualization-cs-631&#34;&gt;Data Visualization CS 631&lt;/h3&gt;
+&lt;p&gt;This course will give students a foundation in the principles of data visualization, particularly as applied to scientific and technical data, as well as provide students with hands-on experience using modern software tools for developing visualizations. Lecture topics will include an overview of visual perception, color theory and practice, different types of graphs and their purposes, visualizations for specialized forms of data including time-series and geospatial data sets, strategies for working with multidimensional data, etc. There will also be lecture content on ethical issues surrounding data visualization. Weekly lab sessions will introduce students to popular data visualization tools such as R&amp;rsquo;s ggplot and Shiny, Tableau, etc.&lt;/p&gt;
+&lt;h2 id=&#34;datacamp&#34;&gt;DataCamp&lt;/h2&gt;
+&lt;p&gt;NEUS640 Students will have access to DataCamp for the next 6 months.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Creativity and Science</title>
-      <link>/2018/07/09/creativity-and-science/</link>
-      <pubDate>Mon, 09 Jul 2018 00:00:00 +0000</pubDate>
+      <title>Objects: What are they for?</title>
+      <link>/2017/05/29/objects-what-are-they-for/</link>
+      <pubDate>Mon, 29 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2018/07/09/creativity-and-science/</guid>
-      <description>
-
-&lt;p&gt;I decided to write this post in celebration of my newest album, [&lt;em&gt;Tiny Fugues&lt;/em&gt;, being released](). I consider myself a scientist and I am a musician in almost equal parts. There has been a lot of talking about the role of creativity in science. Honestly, I rarely try to cross the streams of science and music, mostly because it really hasn&amp;rsquo;t been encouraged in my career.&lt;/p&gt;
-
-&lt;p&gt;I do think that I do use the same problem solving skills that I do in science that I also use in composition. The essential skill in both fields is understanding transitions and &lt;em&gt;how to get from here to there&lt;/em&gt;. In science, that transition is logical, leading from one fact to the other, whereas in music, that transition can often be experimental. In other words, I do a lot of project management when I work on something scientific or musical.&lt;/p&gt;
-
-&lt;p&gt;Working in science today requires a lot of &lt;em&gt;in the box&lt;/em&gt; and &lt;em&gt;across-box&lt;/em&gt; thinking. In the box thinking in the sense that we must deal with constraints: funding is the most obvious one, but also prior scientific knowledge, which we must leverage to gain a foothold. What are the experimental constraints of the data type? What conditions are required for an assay to be informative, and statitically, how many times must we run the experiment for our results to be meaningful? Most importantly, how do we interpret our results in the context of previous knowledge and experiments?&lt;/p&gt;
-
-&lt;p&gt;Problem solving within these constraints is a creative act and is part of my day to day work. It requires ingenuity that is often not recognized by funding agencies. In many ways, integrative analysis and modeling is a puzzle solving effort.&lt;/p&gt;
-
-&lt;p&gt;I think about the cleverness of the early biological experiments such as determining the structure of DNA, the weight of the ribosomal protein. These experiments used clever experimental design to infer truths about unseeable concepts such as genes and proteins. The concept of statistical power was invented to disprove the effectiveness of a bad surgical technique, that of radical masectomy.&lt;/p&gt;
-
-&lt;h2 id=&#34;across-box-thinking&#34;&gt;Across-Box Thinking&lt;/h2&gt;
-
-&lt;p&gt;Bioinformatics increasingly enables interdisciplinary collaboration, at the confluence of biology, chemistry, and computer science. I currently am building an analysis pipeline for cyTOF data as part of my postdoc work. CyTOF combines concepts from immunology, proteomics, mass spectrometry, and flow cytometry into a single datatype. That takes incredible teamwork and creativity to put together.&lt;/p&gt;
-
-&lt;p&gt;Imaging as well requires multiple fields of expertise as well, from straight physics (imaging dyes, fluorophores, and other techniques such as quantum dots), immunology again (antibodies to specifically target proteins), image analysis, and mathematical modeling.&lt;/p&gt;
-
-&lt;p&gt;Science is full of rediscoveries. A well known example is the&lt;/p&gt;
-
-&lt;h2 id=&#34;misadventures-in-collaboration&#34;&gt;Misadventures in Collaboration&lt;/h2&gt;
+      <guid>/2017/05/29/objects-what-are-they-for/</guid>
+      <description>&lt;p&gt;One area of programming that we do a really bad job teaching is Object-Oriented Programming (OOP). I was talking with one of my colleagues and he admitted that we don&amp;rsquo;t have enough time in our programming course (which is not CS) to show students what OOP is, much less what it&amp;rsquo;s for!&lt;/p&gt;
+&lt;p&gt;I usually find the examples that we teach in OOP to be rather useless to actually understanding what they&amp;rsquo;re for.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m going to talk about one reason to use Object Oriented Programming: to ensure data integrity in a Shiny App. Hopefully once you understand how I&amp;rsquo;ve applied the concepts here, you will start to think of other ways to apply them in your programming.&lt;/p&gt;
+&lt;p&gt;As most of you know, a Shiny App consists of two pieces: a User Interface piece, and a Server-side piece.&lt;/p&gt;
+&lt;p&gt;I finally understood why we encapsulate data in objects.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>/post/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0800</pubDate>
+      
+      <guid>/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>/publication/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>/talk/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cascadia-R Videos</title>
+      <link>/cascadia-r-videos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/cascadia-r-videos/</guid>
+      <description>&lt;p&gt;Keynote: Vinay Prasad&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;125-140&#34;&gt;1:25-1:40&lt;/h2&gt;
+&lt;p&gt;Meike Niederhausen  - Visualizing wearable activity tracker data and cardiometabolic risk factors with ggplot&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Mikhail Popov - Open knowledge in R with Wikimedia APIs&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;140-155&#34;&gt;1:40-1:55&lt;/h2&gt;
+&lt;p&gt;Jonathan Callahan - Best Practices for Error Handling and Logging&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Myfanwy Hopkins - Building ensemble machine learning algorithms in R&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;155-210&#34;&gt;1:55-2:10&lt;/h2&gt;
+&lt;p&gt;Jonathan Adler Nolis - Using R in consulting: how to get results while the clock is ticking&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Oliver Keyes  - Playing with a Full Deque&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;210-225&#34;&gt;2:10-2:25&lt;/h2&gt;
+&lt;p&gt;Hana Ševčíková - World Population Projections in R&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;225-240&#34;&gt;2:25-2:40&lt;/h2&gt;
+&lt;p&gt;Mark Dane - Datasets that elucidate the role of the microenvironment in modulating cellular phenotypes&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;240-255&#34;&gt;2:40-2:55&lt;/h2&gt;
+&lt;p&gt;Dror Berel - Prototype meta-analysis demonstration for ImmuneSpaceR, using designated S4 objects&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;255-310&#34;&gt;2:55-3:10&lt;/h2&gt;
+&lt;p&gt;Amelia Abreu - Improving the Developer Experience&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;310-325&#34;&gt;3:10-3:25&lt;/h2&gt;
+&lt;p&gt;Shawn O&amp;rsquo;Neil - Teaching and Using R - A CS Perspective
+Unavailable
+John Smith - Uncovering the data science landscape in Portland&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;keynote-gabriela-de-quieroz&#34;&gt;Keynote: Gabriela de Quieroz&lt;/h2&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ted Laderas, PhD</title>
+      <link>/cvitae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/cvitae/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Assistant Professor&lt;/em&gt;, 
+Division of Bioinformatics and Computational Biology, 
+Department of Medical Informatics and Clinical Epidemiology&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Researcher&lt;/em&gt;, OHSU Knight Cancer Institute&lt;br&gt;
+Oregon Health &amp;amp; Science University&lt;br&gt;
+3181 SW Sam Jackson Park Road CR145&lt;br&gt;
+Portland, OR 97239&lt;br&gt;
+(503) 481-8470&lt;br&gt;
+&lt;a href=&#34;mailto:laderast@ohsu.edu&#34;&gt;laderast@ohsu.edu&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+&lt;p&gt;B.A., Chemistry, Reed College, Portland, OR 1998.&lt;br&gt;
+M.S. Biomedical Informatics, Oregon Health &amp;amp; Science University, 2004.&lt;br&gt;
+PhD, Biomedical Informatics, Oregon Health &amp;amp; Science University, 2014.&lt;/p&gt;
+&lt;h1 id=&#34;teaching-statement&#34;&gt;Teaching Statement&lt;/h1&gt;
+&lt;p&gt;Effective communication, hands-on learning, and mentoring are core to my
+teaching philosophy. I am a strong believer in enabling students in
+self-directed learning through hands-on workshops including both
+practical skills in bioinformatics (software development, design, and
+data analysis and visualization) and social skills essential to
+collaboration (interpretation and communication). In terms of practical
+skills, I have developed and contributed to a number of courses
+(Analytics, RBootcamp, Network Analysis, and BD2K skills courses) and
+workshops in a large variety of software development and communication
+topics. These topics include software design, interactive visualization,
+exploratory data analysis, and presentation of results. In terms of
+fostering social and collaborative skills in students, I am a founder
+and co-leader of &lt;a href=&#34;https://biodata-club.github.io&#34;&gt;BioData-Club&lt;/a&gt;, a collaborative
+forum for students and postdocs to share and
+teach each other practical skills for success in a research environment.
+Through BioDSP, I have informally mentored a number of students through
+feedback and collaboration on workshops and presentations. I believe
+that by &amp;ldquo;training the trainers&amp;rdquo;, we can more effectively educate
+students in these skills in Data Science and Analytics. In order to
+accomplish this training of trainers, my course materials are openly
+available for use and modification by other teachers. Because of my
+dedication to teaching and incorporation of student feedback, I have
+consistently high ratings from students in terms of teaching both
+long-form courses and short-term workshops.&lt;/p&gt;
+&lt;h2 id=&#34;teaching-academic-courses&#34;&gt;Teaching: Academic Courses&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;BMI569/669 Data Analytics&lt;/em&gt;, co-taught with Kaiser Permanente (Brian Sikora and Delilah Moore). Summer Quarter, 2015-Present.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;NEU640: Python Bootcamp for Neuroscientists.&lt;/em&gt; Taught with Stephen David and Brad Buran. Winter Quarter, 2018.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;BMI551/561: BCBII Statistical Methods in Computational Biology&lt;/em&gt;. Co-instructor. Winter Quarter, 2014-Present.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;HSMP410/PHE427: Introduction to Health Informatics.&lt;/em&gt; Course Co-Director. Spring Quarter, 2018-2019.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;BMI535/635 Management and Processing of Large Scale Data.&lt;/em&gt; Course co-instructor. Winter Quarter, 2020.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;NEUS543 Stats for Neuroscientists&lt;/em&gt;. Course director. Spring Quarter 2020.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;teaching-short-workshopslectures&#34;&gt;Teaching: Short Workshops/Lectures&lt;/h2&gt;
+&lt;p&gt;Lectures and Interactive Workshops are linked where possible.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/laderast/BMI535slides&#34;&gt;*Introduction to Relational Databases&lt;/a&gt;. Juypter notebooks introducing relational database concepts (SQL, design, and normalization).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/laderast/igraphTutorial&#34;&gt;&lt;em&gt;iGraph Tutorial in R&lt;/em&gt;&lt;/a&gt;. Interactive binder notebook introducing students to network analysis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://biodata-club.github.io/talks/repro_paper.pdf&#34;&gt;&lt;em&gt;A Practical Guide to Reproducible Papers&lt;/em&gt;&lt;/a&gt;. BioData Club Workshop given with Aurora Blucher focusing on making research reproducible. January 2020.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/laderast/data_storytelling_bdc&#34;&gt;&lt;em&gt;Data Storytelling&lt;/em&gt;&lt;/a&gt;. BioData Club workshop focusing on making effective visualizations. November 2019.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://laderast.github.io/gradual_shiny&#34;&gt;&lt;em&gt;A Gradual Introduction to Shiny&lt;/em&gt;&lt;/a&gt;. Workshop on interactive visualization. Given for PDX R User Group (2018), WNAR 2019, and used at both Reed College and Smith College (2018-2020).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://github.com/laderast/oop_talk&#34;&gt;&lt;em&gt;Objected Oriented Programming in R&lt;/em&gt;&lt;/a&gt;. Scott Chamberlain and Ted Laderas. Talk/Workshop for PDX R User group, April 2019.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://laderast.github.io/nhanes_explore&#34;&gt;&lt;em&gt;Data Scavenger Hunt: NHANES&lt;/em&gt;&lt;/a&gt;. Workshop on Exploratory Data Analysis given for BioData Club. January 2019.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/dasaderi/python_neurobootcamp&#34;&gt;&lt;em&gt;Python Bootcamp For Neuroscientists&lt;/em&gt;&lt;/a&gt;. Ted Laderas, Brad Buran, Daniela Sadieri, Charles Heller, Michael Mooney, Lisa Karstens, and Stephen David. 5 day in-person workshop for introductory Python using Neuroscience data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://laderast.github.io/BMI523slides/&#34;&gt;&lt;em&gt;Actionable Gene Variants&lt;/em&gt;&lt;/a&gt;. Guest Lecture for BMI 523 Clinical Research Informatics. November 2017 and 2018.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/laderast/DSIExplore&#34;&gt;&lt;em&gt;Exploratory Data Analysis and Statistics&lt;/em&gt;&lt;/a&gt;. Workshop with Jessica Minnier for OHSU Data Science Institute 2017.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.datacamp.com/courses/rbootcamp&#34;&gt;&lt;em&gt;R-Bootcamp (tidyverse version on DataCamp)&lt;/em&gt;&lt;/a&gt;. Active exercises for learning introductory R using the tidyverse. Written with Jessica Minnier and Chester Ismay. 2017. Code and teaching material available at &lt;a href=&#34;https://github.com/laderast/RBootcamp&#34;&gt;https://github.com/laderast/RBootcamp&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Cascadia-R/gRadual-intRoduction-tidyverse&#34;&gt;&lt;em&gt;A gRadual intRoduction to the &lt;code&gt;tidyverse&lt;/code&gt;&lt;/em&gt;&lt;/a&gt;. Workshop given with Chester Ismay for &lt;a href=&#34;https://cascadiarconf.com&#34;&gt;Cascadia-R 2017&lt;/a&gt; introducing visualization and data cleaning using the &lt;code&gt;tidyverse&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/laderast/cvdNight1&#34;&gt;&lt;em&gt;Assessing Cardiovascular Risk&lt;/em&gt;&lt;/a&gt;. 2 night Workshop for Portland State University Students teaching &lt;a href=&#34;https://github.com/laderast/cvdNight1&#34;&gt;Exploratory Data Analysis&lt;/a&gt; and &lt;a href=&#34;https://github.com/laderast/cvdNight2&#34;&gt;Machine Learning&lt;/a&gt; on a synthetic patient cohort. With David Dorr. May 2017.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/biodata-club/githubPagesTutorial&#34;&gt;&lt;em&gt;An Intro to GitHub Pages&lt;/em&gt;&lt;/a&gt;.
+Workshop given with Robin Champieux and Eric Leung on setting up a personal
+GitHub webpage. April 2017.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/erictleung/tutorial-tidyverse&#34;&gt;&lt;em&gt;An Intro To Data Carpentry&lt;/em&gt;&lt;/a&gt;.
+Lecture given with Eric Leung about the tidyverse suite of packages for data
+wrangling and visualization. March 2017.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/laderast/magic-of-markdown&#34;&gt;&lt;em&gt;The Magic of Markdown&lt;/em&gt;&lt;/a&gt;.
+Updated for 2017, including examples of using Zotero as citation manager. March 2017. &lt;a href=&#34;https://doi.org/10.5281/zenodo.495614&#34;&gt;doi:10.5281/zenodo.495614&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/laderast/CSE631Shiny&#34;&gt;&lt;em&gt;Shiny Tutorial for CSE631&lt;/em&gt;&lt;/a&gt;. Workshop on
+developing interactive visualizations using Shiny for CSE631 Data
+Visualization course. November 2016. &lt;a href=&#34;https://doi.org/10.5281/zenodo.495621&#34;&gt;DOI: 10.5281/zenodo.495621&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/laderast/DreamEDAShiny&#34;&gt;&lt;em&gt;Exploring the DREAM Viral Respiratory Dataset using
+Shiny&lt;/em&gt;&lt;/a&gt;. Tutorial in
+Exploratory Data Analysis (EDA) using &lt;em&gt;data.table&lt;/em&gt; and &lt;em&gt;Shiny&lt;/em&gt;.
+July 2016.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/laderast/shinyEDA&#34;&gt;&lt;em&gt;Introduction to Exploratory Data Analysis using
+Shiny&lt;/em&gt;&lt;/a&gt; - Interactive workshop
+in using a Shiny Dashboard to conduct EDA on a dataset for BD2K
+Advanced Skills Course. May 2016. &lt;a href=&#34;https://doi.org/10.5281/zenodo.495618&#34;&gt;doi:10.5281/zenodo.495618&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/laderast/MLtutorial&#34;&gt;&lt;em&gt;Introduction to Machine Learning using
+Markdown&lt;/em&gt;&lt;/a&gt; - Interactive
+workshop using Markdown to explore machine learning algorithms for
+BD2K Advanced Skills Course. May 2016.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Clustering Algorithms&lt;/em&gt;. Lecture given for Statistical
+Methods class. February 2016.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/laderast/igraphTutorial&#34;&gt;&lt;em&gt;iGraph Tutorial&lt;/em&gt;&lt;/a&gt;.
+Introductory lecture for the igraph package in R for
+network analysis. November 2015. &lt;a href=&#34;https://doi.org/10.5281/zenodo.495616&#34;&gt;doi:10.5281/zenodo.495616&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/laderast/magic-of-markdown&#34;&gt;&lt;em&gt;The Magic of
+Markdown&lt;/em&gt;&lt;/a&gt;.
+Introduction to Markdown in both R, GitHub pages, and Pandoc. BioDSP
+October 2015. &lt;a href=&#34;https://doi.org/10.5281/zenodo.495614&#34;&gt;doi:10.5281/zenodo.495614&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Pharmacogenomics&lt;/em&gt; Lecture for Analytics Course, August 2015.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://church.ohsu.edu:3838/laderast/clusteringLecture/&#34;&gt;&lt;em&gt;Introduction to
+Clustering&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;
+Interactive slides for understanding clustering. &lt;a href=&#34;https://doi.org/10.5281/zenodo.495624&#34;&gt;doi:10.5281/zenodo.495624&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/n0unpdkd5r2tdu7/ggvis-Tutorial.html?dl=0&#34;&gt;&lt;em&gt;Introduction to
+ggvis&lt;/em&gt;&lt;/a&gt;.
+Lecture/Workshop given for OHSU Bioinformatics Discussion for
+Students and Postdocs, April 2015.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/efbwx3jjx89folh/ggplot2Intro.html?dl=0&#34;&gt;&lt;em&gt;Introduction to
+ggplot2&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;
+Lecture/Workshop given for OHSU Bioinformatics Discussion for
+Students and Postdocs, March 2015. &lt;a href=&#34;https://doi.org/10.5281/zenodo.495622&#34;&gt;doi:10.5281/zenodo.495622&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/chg6ciknxonp5el/exacloud-tutorial.pdf&#34;&gt;&lt;em&gt;Exacloud
+Tutorial&lt;/em&gt;&lt;/a&gt; -
+A DIY tutorial to running jobs on Exacloud, OHSU&amp;rsquo;s cluster
+computing environment. November 2015.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/5ceg6wdrustjoae/tutorialApp.zip&#34;&gt;&lt;em&gt;Shiny
+Tutorial&lt;/em&gt;&lt;/a&gt; -
+A do it yourself tutorial to try out Shiny, ggplot2, and dplyr for
+interactive graphics. September 2015.
+&lt;a href=&#34;https://doi.org/10.5281/zenodo.495620&#34;&gt;doi:10.5281/zenodo.495620&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;R-Bootcamp&lt;/em&gt;. Massively Open Online Course available at:
+&lt;a href=&#34;http://dx.doi.org/10.5281/zenodo.13756&#34;&gt;http://dx.doi.org/10.5281/zenodo.13756&lt;/a&gt;. With contributions from
+Eric Leung, Dian Chase, Tracy Edinger, Clint Olson, and
+Gabrielle Chonoo. 2014-Present&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/ddyq88gqh8priv8/insilicotalk-2015.pptx?dl=0&#34;&gt;&lt;em&gt;Your In-silico Lab Notebook: Best Practices
+2015&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;
+Lecture/Workshop given for OHSU BioDSP group, January 2015.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/a4qgwap4jehzs8x/everything-you-wanted-to-know.pptx?dl=0&#34;&gt;&lt;em&gt;Everything you wanted to know about bioinformatics but were afraid
+to
+ask&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;
+Lecture/Workshop given for OHSU PhD/Postdoc Fellows meeting,
+October 2014.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/1my6l8diprnzg4n/lecture_slides_day7_2012-laderas.pptx?dl=0&#34;&gt;&lt;em&gt;List Comprehensions in
+Python&lt;/em&gt;&lt;/a&gt;.
+Lecture given for Bioinformatics Programming and Scripting Course,
+Fall 2012.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/jdgbb07xydmxah5/lecture_slides_day10_1027-laderas.pdf?dl=0&#34;&gt;&lt;em&gt;Introduction to Unit
+Testing&lt;/em&gt;&lt;/a&gt;.
+Lecture given for Bioinformatics Programming and Scripting Course,
+Fall 2012.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Introduction to Numerical Python (NumPy).&lt;/em&gt; Lecture given for
+Bioinformatics Programming and Scripting Course, Fall 2012.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Introduction to SciPy.&lt;/em&gt; Lectures given for Bioinformatics
+Programming and Scripting Course, Fall 2012.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;An Introduction to ODE Models.&lt;/em&gt; Lecture given for Systems Biology
+Class, 2012.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/ksnogpxoh22eit8/IntegratingDataforSystemsBiology.pptx?dl=0&#34;&gt;&lt;em&gt;Integrating Data for Systems
+Biology&lt;/em&gt;&lt;/a&gt;.
+Lecture given for Systems Biology Class, 2012.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Work Smarter, Not Harder: Productivity Tools and You.&lt;/em&gt; Lecture
+given for PhD/Postdoctoral meeting, 2011.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/xab61u1jo9y9io9/bayesnets-new-laderas.pptx?dl=0&#34;&gt;&lt;em&gt;Bayesian
+Networks&lt;/em&gt;&lt;/a&gt;.
+Lecture given for Statistical Methods in Bioinformatics Class, 2011.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/r2j0oi1madn0t1s/GibbsSampler-laderas.pptx?dl=0&#34;&gt;&lt;em&gt;Gibbs
+Samplers&lt;/em&gt;&lt;/a&gt;.
+Lecture given for Statistical Methods in Bioinformatics Class, 2011.
+&lt;a href=&#34;https://doi.org/10.6084/m9.figshare.4829530&#34;&gt;doi:10.6084/m9.figshare.4829530&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Workshop on Strings and Matrices in R&lt;/em&gt;. Workshop given for
+Statistical Methods in Bioinformatics class. 2011.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Introduction to R Workshop.&lt;/em&gt; Workshop given for Statistical Methods
+in Bioinformatics class. 2011.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/yt8dybaap4sn8hy/03-eda-extended-dependency-analysis.pptx?dl=0&#34;&gt;&lt;em&gt;Extended Dependency
+Analysis&lt;/em&gt;&lt;/a&gt;.
+Presentation given for Information Theory Independent Study 2010.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/kkv4yv2vmwwdqfa/02-conant-laws-of-information.pptx?dl=0&#34;&gt;&lt;em&gt;Conant&amp;rsquo;s Laws of Information that Govern
+Systems&lt;/em&gt;&lt;/a&gt;.
+Presentation given for Information Theory Independent Study, 2010.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/jz0gthjbd9cqbrt/01-ashby-conant-variety.pptx?dl=0&#34;&gt;&lt;em&gt;Ashby&amp;rsquo;s Law of Requisite Variety and Conant&amp;rsquo;s Information Transfer
+in
+Regulation&lt;/em&gt;&lt;/a&gt;.
+Presentation given for Information Theory Independent Study, 2010.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Lab: Using Consense-Cluster to explore the Bittner dataset.&lt;/em&gt;
+Laboratory given as part of Microarray Analysis Course, OHSU, 2006.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;research-statement&#34;&gt;Research Statement&lt;/h1&gt;
+&lt;p&gt;My research interests are complex diseases, precision medicine,
+applications of systems science (including network analysis and
+modeling), and applying data integration to difficult and high-impact
+translational research questions. These questions include immune system
+profiling in both infectious disease (tuberculosis) and Acute Myeloid Leukemia, understanding drug sensitivity in the context of multiple cancer types (AML, Colorectal, Breast and Head and Neck Cancer), and quantifying expression differences in alcoholic preference. I have worked with a large number of datatypes (high-throughput immunophenotyping,
+proteomics, expression, genomic, and functional drug screen data) and
+have focused on methods and frameworks integrating these datatypes
+within the biological and clinical context of these translational
+research questions. My training in biomedical informatics as a master’s
+student in Biomedical Informatics, as an NLM Predoctoral Fellow, and as
+a NLM Postdoctoral fellow has enabled me to communicate with a wide
+variety of collaborators by giving me a strong background in Cancer
+Biology, Software Development, and Clinical Systems. Additionally, I am
+a strong advocate for Open Science initiatives, most notably the effort
+for reproducibility in scientific analysis. To this end, I have
+developed multiple novel software pipelines that transparently process
+data from raw data to through the final stages of analysis.&lt;/p&gt;
+&lt;h2 id=&#34;research-publications&#34;&gt;Research: Publications&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Ted Laderas&lt;/strong&gt;, Gwendolyn Swarbrick, David Lewinsohn, Deborah Lewinsohn, Evan Lind and Shannon McWeeney. flowDashboard. status: awaiting submission to Bioinformatics.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Gabrielle Choonoo, Aurora S. Blucher, Samuel Higgins, Mitzi Boardman, Sophia Jeng, Christina Zheng, James Jacobs, Ashley Anderson, Steven Chamberlin,Nathaniel Evans, Myles Vigoda,Benjamin Cordier, Jeffrey W. Tyner, Molly Kulesz-Martin, Shannon K. McWeeney, and &lt;strong&gt;Ted Laderas&lt;/strong&gt;. Illuminating Biological Pathways for Drug Targeting in Head and Neck Squamous Cell Carcinoma. Submitted to PLOS One. 2019.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;David K Edwards, Kevin Watanabe-Smith, Angela Rofelty, Alisa Damnernsawad, &lt;strong&gt;Ted Laderas&lt;/strong&gt;, Adam Lamble, Evan F Lind, Andy Kaempf, Motomi Mori, Mara Rosenberg, Amanda d”Almeida, Nicola Long, Anupriya Agarwal, David Tyler Sweeney, Marc Loriaux, Shannon K McWeeney, Jeffrey W Tyner. CSF1R inhibitors exhibit anti-tumor activity in acute myeloid leukemia by blocking paracrine signals from support cells. Blood, 2018.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lauren K Brady, David Soong, Evan F Lind, Yoko Kosaka, Adam J Lamble, Michael Schaffer, Brendan P Hodkinson, Clare Lefave, &lt;strong&gt;Ted Laderas&lt;/strong&gt;, Shannon K McWeeney, Homer Adams, Yann Abraham, Pegah Safabakhsh, Jeffrey W Tyner, Brian J Druker, Fei Huang. Immunogenomic Exploration of the Acute Myeloid Leukemia Microenvironment Identifies Determinants of T-Cell Fitness. Blood, 2018.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Nicole Vasilevsky, &lt;strong&gt;Ted Laderas&lt;/strong&gt;, Jackie Wirz, Bjorn Pederson, David A Dorr, William Hersh, Shannon McWeeney, Melissa Haendel. Training future biocurators through data science trainings and open educational resources.  F1000Research, 2017.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Adam Lamble, Yoko Kosaka, Fei Huang, Kate Sasser, Cristina Tognon, &lt;strong&gt;Ted Laderas&lt;/strong&gt;, Shannon McWeeney, Marc Loriaux, Brian J Druker, Jeffrey Tyner, Evan Lind. Comprehensive characterization of VISTA expression in patients with acute myeloid leukemia.. Journal of Clinical Oncology, 2016.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Adam Lamble, Yoko Kosaka, Fei Huang, A Kate Sasser, Homer Adams, Cristina E Tognon, &lt;strong&gt;Ted Laderas&lt;/strong&gt;, Shannon K McWeeney, Marc M Loriaux, Jeffrey W Tyner, Brian J Druker, Evan F Lind. Enhanced VISTA expression in a subset of patients with acute myeloid leukemia. Blood, 2016.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Teaching data science fundamentals through realistic synthetic clinical cardiovascular data.&lt;/em&gt; &lt;strong&gt;Ted Laderas&lt;/strong&gt;, Nicole Vasilevsky, Bjorn Pederson, Shannon McWeeney, Melissa Haendel, and David Dorr. Submitted to JAMIA. BioRxiv Link: &lt;a href=&#34;https://www.biorxiv.org/content/early/2017/12/12/232611&#34;&gt;https://www.biorxiv.org/content/early/2017/12/12/232611&lt;/a&gt;. 2017. Contribution: First author: helped conceive study, designed bayesian network, developed course material based on dataset. &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Integrated functional and mass spectrometry-based flow cytometric phenotyping to describe the immune microenvironment in acute myeloid leukemia&lt;/em&gt;. Adam J Lamble, Matt Dietz, &lt;strong&gt;Ted Laderas&lt;/strong&gt;, Shannon McWeeney, Evan F Lind. Journal of Immunological Methods. 2017. Contribution: developed informatics and visualization methodology.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://journal.frontiersin.org/article/10.3389/fgene.2015.00341/abstract&#34;&gt;&lt;em&gt;A Network-Based Model of Oncogenic Collaboration to Predict Drug
+Sensitivity&lt;/em&gt;.&lt;/a&gt;
+&lt;strong&gt;Ted Laderas&lt;/strong&gt;, Laura Heiser and Kemal Sonmez. Featured article in
+Frontiers in Genetics. 2015. Contribution: First author, developer
+of methodology and visualization framework.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.bloodjournal.org/content/128/22/2829?sso-checked=true&#34;&gt;&lt;em&gt;Mass Cytometry As a Modality to Identify Candidates for Immune Checkpoint Inhibitor Therapy within Acute Myeloid Leukemia&lt;/em&gt;&lt;/a&gt;. Adam Lamble, Yoko Kosaka, Fei Huang, A Kate Sasser, Homer Adams III, Cristina E. Tognon, &lt;strong&gt;Ted Laderas&lt;/strong&gt;, Shannon K. McWeeney, Marc M. Loriaux, Jeffrey W. Tyner, Brian J. Druker and Evan F. Lind. Blood, 2016. Contribution: contributed to panel development of CyTOF.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/p92dn5buctlyqpc/nm.3967.pdf?dl=0&#34;&gt;&lt;em&gt;The Consensus Molecular Subtypes of Colorectal
+Cancer&lt;/em&gt;.&lt;/a&gt;
+123 citations, Impact Factor 30.36. Justin Guinney, Rodrigo
+Dienstmann, Xin Wang, Aurélien de Reyniès, Andreas Schlicker,
+Charlotte Soneson, Laetitia Marisa, Paul Roepman, Gift Nyamundanda,
+Paolo Angelino, Brian M. Bot, Jeffrey S. Morris, Iris Simon, Sarah
+Gerster, Evelyn Fessler, Felipe de Sousa e Melo, Edoardo Missiaglia,
+Hena Ramay, David Barras, Krisztian Homicsko, Dipen Maru,
+Ganiraju C. Manyam, Bradley Broom, Valerie Boige, &lt;strong&gt;Ted Laderas&lt;/strong&gt;,
+Ramon Salazar, Joe W. Gray, Douglas Hanahan, Josep Tabernero, Rene
+Bernards, Stephen H. Friend, Pierre Laurent-Puig, Jan P. Medema,
+Anguraj Sadanandam, Lodewyk Wessels, Mauro Delorenzi, Scott Kopetz,
+Louis Vermeulen, and Sabine Tejpar. Nature Medicine. 2015.
+Contribution: mapped and analyzed OMICs data to consensus cancer subtypes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/70z4yp3k36y9bmu/laderast_between_pathways.pdf?dl=0&#34;&gt;&lt;em&gt;Between Pathways and Networks lies
+Context&lt;/em&gt;&lt;/a&gt;.
+Impact Factor: 1.76. &lt;strong&gt;Ted Laderas&lt;/strong&gt;, Guanming Wu, and
+Shannon McWeeney. Science Progress. 2015. Contribution: first
+author, conceptualized and wrote manuscript.
+&lt;a href=&#34;http://dx.doi.org/10.3184/003685015X14368898634462&#34;&gt;doi:10.3184/003685015X14368898634462&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/t9ic1rpirja4xqv/computational-exon-laderas.pdf?dl=0&#34;&gt;&lt;em&gt;Computational detection of alternative exon
+usage&lt;/em&gt;.&lt;/a&gt;
+8 citations, Impact Factor: 3.398. &lt;strong&gt;Ted Laderas&lt;/strong&gt;, Nicole A Walter,
+Michael Mooney, Kristina Vartanian, Priscila Darakjian, Kari Buck,
+Chris Harrington, John Belknap, Robert Hitzemann, and
+Shannon McWeeney. Frontiers in Neurogenomics. 2011. Article 69.
+PMID 21625610. Contribution: First author, developer of methodology.
+&lt;a href=&#34;http://dx.doi.org/10.3389/fnins.2011.00069&#34;&gt;doi:10.3389/fnins.2011.00069&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/2v0h7ufxu1664yt/preponderance-SNPs-walter-laderas.pdf?dl=0&#34;&gt;&lt;em&gt;High throughput sequencing in mice: a platform comparison
+identifies a preponderance of cryptic
+SNPs&lt;/em&gt;.&lt;/a&gt;
+19 Citations, Impact Factor 3.87. Nicole A Walter, Daniel Bottomly,
+&lt;strong&gt;Ted Laderas&lt;/strong&gt;, Michael Mooney, Priscila Darakjian, Robert P
+Searles, Christina Harrington, Shannon K McWeeney, Robert Hitzemann,
+Kari J Buck. BMC Genomics. 2009 Aug 17;10:379. Contribution: helped
+develop methodology of manuscript, conceptualization.
+&lt;a href=&#34;http://dx.doi.org/10.1186/1471-2164-10-379&#34;&gt;doi:10.1186/1471-2164-10-379&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;TandTRAQ: An open-source tool for integrated protein identification
+and quantitation&lt;/em&gt;. 14 citations, Impact Factor 5.766. &lt;strong&gt;Ted
+Laderas&lt;/strong&gt;, Cory Bystrom, Debra McMillen, Guang Fan and
+Shannon McWeeney. Bioinformatics. 2007. Contribution: first author,
+designed software framework.
+&lt;a href=&#34;http://dx.doi.org/10.1093/bioinformatics/btm467&#34;&gt;doi:10.1093/bioinformatics/btm467&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/v56bomf1ijhmds3/Laderas_McWeeney07.pdf?dl=0&#34;&gt;&lt;em&gt;A consensus framework for exploring microarray data using multiple
+clustering
+methods&lt;/em&gt;.&lt;/a&gt;
+16 citations. &lt;strong&gt;Ted Laderas&lt;/strong&gt; and Shannon McWeeney. OMICS: A Journal
+of Integrative Biology. OMICS: A Journal of Integrative Biology. 2007. 116-128. Contribution: first author, developed methodology for comparison analysis.
+&lt;a href=&#34;http://dx.doi.org/10.1089/omi.2006.0008&#34;&gt;doi:10.1089/omi.2006.0008&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;research-software-sole-developer-unless-specified&#34;&gt;Research: Software (Sole Developer unless specified)&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;RBootcamp (free online version)&lt;/em&gt;. Available for free at &lt;a href=&#34;https://r-bootcamp.netlify.com&#34;&gt;https://r-bootcamp.netlify.com&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;burro&lt;/em&gt;. R/Shiny package for teaching exploratory data analysis. &lt;a href=&#34;http://laderast.github.io/burro&#34;&gt;http://laderast.github.io/burro&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;decampr&lt;/em&gt;. R package for converting from DataCamp course format to Binder/Gatsby based framework. &lt;a href=&#34;http://github.com/laderast/decampr&#34;&gt;http://github.com/laderast/decampr&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;cvdRiskData&lt;/em&gt;. Synthetic dataset for teach fundamentals in data science. Available as an R package at: &lt;a href=&#34;https://github.com/laderast/cvdRiskData&#34;&gt;https://github.com/laderast/cvdRiskData&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;RBootcamp (tidyverse version)&lt;/em&gt;. DataCamp active exercises for learning introductory R using the &lt;code&gt;tidyverse&lt;/code&gt;. With Jessica Minnier and Chester Ismay. Available for free at: &lt;a href=&#34;https://www.datacamp.com/courses/rbootcamp&#34;&gt;https://www.datacamp.com/courses/rbootcamp&lt;/a&gt; &lt;a href=&#34;https:://doi.org/10.5281/zenodo.854727&#34;&gt;https:://doi.org/10.5281/zenodo.854727&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;flowDashboard&lt;/em&gt;. Visualization framework in R/Shiny and processing
+pipeline for CyTOF and flow cytometry data. Currently under embargo,
+waiting publication and submission. &lt;a href=&#34;https://doi.org/10.5281/zenodo.260421&#34;&gt;https://doi.org/10.5281/zenodo.260421&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Surrogate Network Explorer for Head and Neck Cancer&lt;/em&gt;. Interactive
+visualization framework for understanding network effects in Head
+and Neck cancer. Awaiting validation, publication, and submission.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;R-Bootcamp: Introduction to R&lt;/em&gt;. Script-based introductory MOOC
+to R. With contributions from Eric Leung, Dian Chase, Tracy Edinger,
+Clint Olson, and Gabrielle Chonoo.
+&lt;a href=&#34;http://dx.doi.org/10.5281/zenodo.13756&#34;&gt;http://dx.doi.org/10.5281/zenodo.13756&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Surrogate Mutation Explorer&lt;/em&gt;. R/Shiny Interactive Application for
+exploring surrogate mutations.
+&lt;a href=&#34;http://dx.doi.org/10.5281/zenodo.13757&#34;&gt;http://dx.doi.org/10.5281/zenodo.13757&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;SurrogateMutation&lt;/em&gt;. R Package for mapping mutations and copy number
+alterations to networks and associated statistics.
+&lt;a href=&#34;http://dx.doi.org/10.5281/zenodo.17303&#34;&gt;http://dx.doi.org/10.5281/zenodo.17303&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Consense-Cluster&lt;/em&gt;. R Package for comparing clustering output
+across algorithms. &lt;a href=&#34;http://dx.doi.org/10.5281/zenodo.17304&#34;&gt;http://dx.doi.org/10.5281/zenodo.17304&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;ExonModelStrain&lt;/em&gt;. RPackage for detecting alternative exon usage
+between two strains of mice.
+&lt;a href=&#34;http://dx.doi.org/10.5281/zenodo.17305&#34;&gt;http://dx.doi.org/10.5281/zenodo.17305&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;TandTRAQ&lt;/em&gt;. Perl Script for mapping iTRAQ protein quantitation to
+X!Tandem peptides.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;research-lectures-invited-lectures-are-indicated&#34;&gt;Research: Lectures (Invited Lectures are Indicated)&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://laderast.github.io/ief_talk_2019/&#34;&gt;Conversations about Sleep: Clinical Data Wrangling&lt;/a&gt;. &lt;strong&gt;Ted Laderas&lt;/strong&gt;, Nicole Weiskopf, and Eilis Boudreau. Talk given for American Medical Informatics Association&amp;rsquo;s Informatics Educator&amp;rsquo;s Conference, June 2019.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Clincal Data Wrangling: Active/Didactic Learning. &lt;strong&gt;Ted Laderas&lt;/strong&gt;, Nicole Weiskopf, and Eilis Boudreau. Talk given for Symposium on Data Science and Statistics. June 2019.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://laderast.github.io/csv_talk/#1&#34;&gt;Data Scavenger Hunts: Learning about datasets together&lt;/a&gt;. Talk given for CSV Conference 2019, May 2019.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://laderast.github.io/osu_talk/#1&#34;&gt;&lt;em&gt;Teaching Bioinformatics Students about Clinical Data&lt;/em&gt;&lt;/a&gt;. Invited talk for OSU Center for Genome Research and Computing Spring Conference, April 2019.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/laderast/oop_talk&#34;&gt;&lt;em&gt;Object Oriented Systems in R&lt;/em&gt;&lt;/a&gt;. Ted Laderas and Scott Chamberlain. Talk given for Portland R User Group. April 2019.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://laderast.github.io/DS4BS/&#34;&gt;&lt;em&gt;Data Science for Basic Scientists&lt;/em&gt;&lt;/a&gt;. Invited talk for OHSU Symposium on Educational Excellence. April 2017. &lt;a href=&#34;https://doi.org/10.6084/m9.figshare.4876811.v3&#34;&gt;doi:10.6084/m9.figshare.4876811.v3&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/ls6agg9uy2b6wp4/big-data-talk_laderas.pdf?dl=0&#34;&gt;&lt;em&gt;Moving From Big Data to Knowledge: Implications for the Health
+Care and Biomedical
+Sciences&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;
+Invited Lecture given for BioCatalyst Advanced Training workshop at
+Oregon Bioscience Association. June 2015.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Surrogate Mutations and Drug Sensitivity in Breast Cancer
+Cell Lines.&lt;/em&gt; Plenary talk at NLM Training Conference, Pittburgh, PA,
+June 2014.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Connecting Genotypes to Drug Sensitivities in HER2 Positive Cancer
+Cell Lines.&lt;/em&gt; Doctoral Defense, OHSU, March 2014.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Understanding Expression Differences in RPPA Data: Implications for
+ODE Models.&lt;/em&gt; Presentation at Integrative Cancer Biology Program
+retreat 2012.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Connecting Genotypes to Drug Sensitivity in HER2+ Breast Cancer
+Cell Lines.&lt;/em&gt; Lecture/Dissertation proposal given for PhD/Postdoc
+Meeting January 2012 and March 2012.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Connecting Genotypes to Drug Sensitivity in Breast Cancer
+Cell Lines.&lt;/em&gt; Invited presentation at Integrative Cancer Biology
+Program retreat, 2011.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/bi14mo1ahr4yod8/symposium-laderas.pptx?dl=0&#34;&gt;&lt;em&gt;What are Models For? Making Sense of Systems
+Biology&lt;/em&gt;&lt;/a&gt;.
+Predoctoral Symposium. 2010.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Two kinds of Robustness.&lt;/em&gt; Presentation given to Bioinformatics
+Development Group, 2010.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Portland Alcohol Research Center Scientific Advisory Board Review:
+Bioinformatics &amp;amp; Statistics.&lt;/em&gt; Presentation given to PARC SAB,
+OHSU, 2009.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;An introduction to trend analysis and consensus modules for
+systems biology.&lt;/em&gt; Presentation given with Sophia Jeng to
+Mathematical Modeling Core for Systems Virology, OHSU 2009.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;An introduction to Consensus Modules for Systems Biology.&lt;/em&gt; Lecture
+given with Sophia Jeng to Bioinformatics Development Group,
+OHSU, 2008.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;An Introduction to Sloppy Systems Biology.&lt;/em&gt; Lecture given to
+Bioinformatics Development Group, OHSU, 2008.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Simulated and Synthetic Data for Benchmarking Algorithms.&lt;/em&gt; Lecture
+given as part of Bioinformatics Methods class, OHSU, 2007.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Introduction to QPACA Pathway Analysis Software and BioPAX.&lt;/em&gt; Talk
+given at 2006 caBIG Annual Meeting, Washington DC.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Consense: A software package for utilizing multiple clustering
+methods on Microarray Data.&lt;/em&gt; Talk given at OHSU Student Research
+Forum, 2005.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;research-posters-and-abstracts&#34;&gt;Research: Posters and Abstracts&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://bit.ly/equal_vis&#34;&gt;Democratizing Data Science using LearnR and Shiny&lt;/a&gt;. &lt;strong&gt;Ted Laderas&lt;/strong&gt; and Jessica Minnier. RStudio Conference, January 2019.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://f1000research.com/posters/7-1045&#34;&gt;flowDashboard: An interactive dashboard for comparative flow analysis&lt;/a&gt;. &lt;strong&gt;Ted Laderas&lt;/strong&gt;, Gwendolyn Swarbrick, Deborah Lewinsohn, David Lewinsohn, Evan Lind, BOSC (Bioinformatics Open Source Conference), July 2018.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.causeweb.org/cause/ecots/ecots18/posters/3-03&#34;&gt;Mixing Active Learning and Lecturing: Using Interactive Visualization as a Teaching Tool&lt;/a&gt;. ECOTS (Electronic Conference on Teaching Statistics) e-poster session, June 2018.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Getting your hands dirty with data&lt;/em&gt;. &lt;strong&gt;Ted Laderas&lt;/strong&gt;, Melissa
+Haendel, Bjorn Pederson, Jackie Wirz, William Hersh, David A. Dorr,
+Shannon McWeeney. Big Data to Knowledge (BD2K) All Hands meeting,
+November 2016. &lt;a href=&#34;https://doi.org/10.6084/m9.figshare.4235594.v1&#34;&gt;doi:10.6084/m9.figshare.4235594.v1&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Get Real: A synthetic dataset illustrating clinical and
+genetic covariates.&lt;/em&gt; &lt;strong&gt;Ted Laderas&lt;/strong&gt;, Nicole Vasilevsky, Melissa
+Haendel, Shannon McWeeney and David A. Dorr. BD2K All Hands meeting,
+November 2016. &lt;a href=&#34;https://doi.org/10.6084/m9.figshare.4239959.v1&#34;&gt;doi:10.6084/m9.figshare.4239959.v1&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Mass Cytometry as a Modality to Identify Candidates for Immune
+Checkpoint Inhibitor Therapy within Acute Myeloid Leukemia.&lt;/em&gt; Adam
+Lamble, Fei Huang, Kate Sasser, Homer Adams III, Cristina E. Tognon,
+&lt;strong&gt;Ted Laderas&lt;/strong&gt;, Shannon McWeeney, Marc Loriaux, Jeffery W. Tyner,
+Brian J. Druker, and Evan F. Lind. American Society for Hematology,
+December 2016.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Enhanced VISTA Expression in a Subset of Patients with Acute
+Myeloid Leukemia&lt;/em&gt;. Adam Lamble, Yoko Kosaka, Fei Huang, Kate Sasser,
+Homer Adams III, Cristina E. Tognon, &lt;strong&gt;Ted Laderas&lt;/strong&gt;, Shannon
+McWeeney, Marc Loriaux, Jeffery W. Tyner, Brian J. Druker, and
+Evan F. Lind. American Society for Hematology, December 2016.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Improving Knowledge Discovery Through Development of Big Data to
+Knowledge Skills Courses and Open Educational Resources&lt;/em&gt;. Nicole
+Vasilevsky, Shannon McWeeney, William Hersh, David A. Dorr, &lt;strong&gt;Ted
+Laderas&lt;/strong&gt;, Jackie Wirz, Bjorn Pederson and Melissa Haendel. Poster for
+BICC Building 25th Anniversary.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Consensus molecular subtyping through a community of experts
+advances unsupervised gene expression-based disease classification
+and facilitates clinical translation.&lt;/em&gt; Justin Guinney, Rodrigo
+Dienstmann, Xin Wang, Aurelien de Reynies, Andreas Schlicker,
+Charlotte Soneson, Laetitia Marisa, Paul Roepman, Gift Nyamundanda,
+Paolo Angelino, Brian Bot, Jeffrey S. Morris, Iris Simon, Sarah
+Gerster, Evelyn Fessler, Felipe de Sousa e Melo, Edoardo Missiaglia,
+Hena Ramay, David Barras, Krisztian Homicsko, Dipen Maru, Ganiraju
+Manyam, Bradley Broom, Valerie Boige, &lt;strong&gt;Ted Laderas&lt;/strong&gt;, Ramon
+Salazar, Joe W. Gray, Josep Tabernero, Rene Bernards, Stephen
+Friend, Pierre Laurent-Puig, Jan P. Medema, Anguraj Sadanandam,
+Lodewyk Wessels, Mauro Delorenzi, Scott Kopetz, Louis Vermeulen and
+Sabine Tejpar. American Association for Cancer Research Conference,
+August 2015.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;A Network-Based Model of Oncogenic Collaboration for Prediction of
+Drug Sensitivity.&lt;/em&gt; &lt;strong&gt;Ted Laderas&lt;/strong&gt;. RECOMB/ISCB Conference on
+Regulatory and Systems Genomics, November 2014.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/y3rbkygjn41qsd6/poster-laderas-nlm-2013.pdf?dl=0&#34;&gt;&lt;em&gt;Integrating proteomics and genomic data to illuminate the effects
+of Lapatinib in HER2+
+Cells&lt;/em&gt;&lt;/a&gt;.
+&lt;strong&gt;Ted Laderas&lt;/strong&gt; and Kemal Sonmez. National Library of Medicine
+Training Conference, Utah, 2013. &lt;a href=&#34;https://doi.org/10.6084/m9.figshare.4829749.v1&#34;&gt;doi:10.6084/m9.figshare.4829749.v1&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/s/nhixsztlg1oo4z6/poster-laderas-ismb-2012.pdf?dl=0&#34;&gt;&lt;em&gt;Integrating to Interact: Using Reconstructability Analysis to
+Integrate Genomic and Proteomic Data to Predict Drug
+Sensitivity&lt;/em&gt;&lt;/a&gt;.
+&lt;strong&gt;Ted Laderas&lt;/strong&gt; and Kemal Sonmez. Intelligent Systems in Molecular
+Biology conference, 2012. &lt;a href=&#34;https://doi.org/10.6084/m9.figshare.4830007.v1&#34;&gt;doi:10.6084/m9.figshare.4830007.v1&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Tales from the Cryptic Snp: High Throughput Sequencing of DBA/2J
+and C57BL/6J mouse chromosome 1 reveals an abundance
+of polymorphisms.&lt;/em&gt; Kari J. Buck, Nicole A.R. Walter, Daniel
+Bottomly, &lt;strong&gt;Ted Laderas&lt;/strong&gt;, Michael Mooney, Priscila Darakjian,
+Shannon McWeeney, Robert Hitzemann. Research Society on Alcoholism
+Annual Meeting. 2009.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;A computational framework for the detection of alternative exon
+usage using Affymetrix Exon arrays.&lt;/em&gt; &lt;strong&gt;Ted Laderas&lt;/strong&gt;, Michael
+Mooney, Nikki Walter, Kristina Vartanian, Christina Harrington,
+Priscila Darakijan, John Belknap, Robert Hitzemann, and
+Shannon McWeeney. Intelligent Systems in Molecular Biology
+conference, Toronto, July 2008.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Cerebrospinal fluid (CSF) proteomics in children with acute
+lymphoblastic leukemia (ALL).&lt;/em&gt; Robert C Trueworthy, Linda C Stork,
+Yanping Zhong, Sharon Pine, Yousif Matloub, &lt;strong&gt;Ted Laderas&lt;/strong&gt;, Shannon
+McWeeney, and Guang Fan. Poster 2006.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;A metrics-based low-level preprocessing framework for
+proteomics data.&lt;/em&gt; &lt;strong&gt;Ted Laderas&lt;/strong&gt;, Solange Mongoue-Tchokote, Veena
+Rajaraman, Kimberly Sellers, Cory Bystrom and Shannon McWeeney.
+Bioconductor Developer&amp;rsquo;s Meeting, Seattle, Washington, August 2006.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;A diagnostic test suite for the RProteomics statistical routines.&lt;/em&gt;
+&lt;strong&gt;Ted Laderas&lt;/strong&gt;, Solange Mongoue-Tchokote, Veena Rajaraman, Kimberly
+Sellers and Shannon McWeeney. caBIG annual meeting, Washington DC,
+April 2006.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Consense-Cluster: a framework for comparing and benchmarking
+clustering algorithms.&lt;/em&gt; &lt;strong&gt;Ted Laderas&lt;/strong&gt; and Shannon McWeeney.
+Bioconductor Developer&amp;rsquo;s Meeting, Seattle, Washington, August 2005.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;service-statement&#34;&gt;Service Statement&lt;/h1&gt;
+&lt;p&gt;I am a strong supporter of service at OHSU and beyond. I currently
+participate in the DMICE BCB (Bioinformatics and Computational Biology)
+Faculty Division meeting, the DMICE Mentoring committee, and have
+participated in the BCB Curriculum Retreat in order to plan upcoming
+coursework at DMICE. As a Pacific Islander, I have a unique viewpoint
+about diversity and I hope to enhance equal opportunity by participating
+in OHSU’s Diversity Advisory Council (DAC). Beyond OHSU, I believe that
+we need to increase public engagement of science and increase outreach
+and mentoring of next-generation science students, especially from
+disadvantaged populations will enable these students to succeed in
+STEM-based careers. As a former student of Saturday Academy&amp;rsquo;s scientific
+mentoring program, I want to contribute back to this community and
+engage potential STEM students through student outreach and mentoring. I
+am also involved in outreach through the development of course material
+for the Biocatalyst training program through Oregon Bioscience
+Association, which provides bioscience training for unemployed or
+under-employed professionals.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Service: Accomplishments/Appointments&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Co-organizer (2019-) of the Portland R User Group.&lt;/p&gt;
+&lt;p&gt;Currently serving on DMICE Assessment Planning committee, DMICE BCB Division committee DMICE BMI Curriculum Committee, OHSU Computational Forum planning committee.&lt;/p&gt;
+&lt;p&gt;Co-Founder of &lt;a href=&#34;https://biodata-club.github.io&#34;&gt;BioData Club&lt;/a&gt; group for students, postdocs, and staff at OHSU. Managed speakers, developed free workshops for students, and provided feedback for student presentations. BioData Club is currently at 109 members ranging from OHSU and PSU staff, faculty, students and postdocs, providing a unique opportunity to share information and provide peer mentoring to students across the organizations.&lt;/p&gt;
+&lt;p&gt;Co-organizer for &lt;a href=&#34;https://cascadiarconf.com&#34;&gt;Cascadia R Conference&lt;/a&gt; 2017 and 2018.&lt;/p&gt;
+&lt;p&gt;Contributor to instructor lesson materials to &lt;a href=&#34;https://software-carpentry.org&#34;&gt;Software Carpentry&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Editor at Large for &lt;a href=&#34;http://radiandata.org/&#34;&gt;Radian Data&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Participant/Instructor for &lt;a href=&#34;https://github.com/daniellecrobinson/Data-Rescue-PDX&#34;&gt;PDX Data Rescue/Open Data Day&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Documentation support for &lt;a href=&#34;http://portland.sciencehackday.org&#34;&gt;Science Hack Day PDX 2017&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Developed coursework for unemployed or underemployed IT workers in both biosciences and healthcare for Oregon Bioscience Association.&lt;/p&gt;
+&lt;p&gt;Reviewer for JAMIA, BMC Bioinformatics, and Neurocomputing, and AMIA Symposium.&lt;/p&gt;
+&lt;p&gt;My mentees include Jason Li (summer mentor), Eisa Mahyari (ongoing mentor), Lawrence Hsu (co-advisor), Connor Smith (co-advisor), Gabrielle Choonoo (thesis committee), and Sean Babcock (thesis committee).&lt;/p&gt;
+&lt;h1 id=&#34;employment-experience&#34;&gt;Employment Experience&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Assistant Professor&lt;/em&gt;, Department of Medical Informatics and Clinical Epidemiolgy, OHSU, 2017-present.
+&lt;em&gt;Postdoctoral Researcher&lt;/em&gt;, OHSU Knight Cancer Institute, 2014-2017.
+&lt;em&gt;Instructor&lt;/em&gt;, Department of Medical Informatics and Clinical Epidemiology. 2015-Present.&lt;br&gt;
+&lt;em&gt;NLM Postdoctoral Fellow&lt;/em&gt;, Oregon Health &amp;amp; Science University. 2014-2015.&lt;br&gt;
+&lt;em&gt;Visiting Scientist&lt;/em&gt;, Sage Bionetworks, Seattle Washington. 2014-2015.&lt;br&gt;
+&lt;em&gt;NLM Predoctoral Fellow&lt;/em&gt;, Medical Informatics and Clinical Epidemiology, Oregon Health &amp;amp; Science University. 2009–2014.&lt;br&gt;
+&lt;em&gt;Bioinformatics Developer/Project Manager&lt;/em&gt;, OHSU Knight Cancer Institute, Oregon Health &amp;amp; Science University. 2003-2009.&lt;br&gt;
+&lt;em&gt;Teaching Assistant/Computer Programmer/Server Admin&lt;/em&gt;, Department of Medical Informatics &amp;amp; Clinical Epidemiology, Oregon Health &amp;amp; Science University. 2001-2002.&lt;br&gt;
+&lt;em&gt;Research Assistant/Computer Programmer&lt;/em&gt;, Department of Molecular Medicine, Oregon Health &amp;amp; Science University. 1999-2001.
+&lt;em&gt;Research Assistant/Teaching Assistant&lt;/em&gt;, Department of Chemistry, Reed College. 1998&lt;/p&gt;
+&lt;h1 id=&#34;ongoing-research-support&#34;&gt;Ongoing Research Support**&lt;/h1&gt;
+&lt;p&gt;T15LM009461 (supplement)	
+Hersh (PI)	
+7/01/1992-6/01/2018&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Biomedical Informatics Research Training at Oregon Health &amp;amp; Science University.&lt;/em&gt; Supplement to develop Data Science Materials for T15 training grant. Role: educational developer and instructor.&lt;/p&gt;
+&lt;p&gt;1U24TR002306-01	
+Haendel (PI)	
+9/01/2017-9/01/2019&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;A National Center for Digital Health Informatics Innovation&lt;/em&gt;. We propose to create a national network for enabling digital health research, innovation, and continuous improvement. The goal is to use information science to impact the way that health care functions and the lives of those it serves. Role: education, software development, and data management advocate.&lt;/p&gt;
+&lt;p&gt;1U54CA224019-01	
+Tyner (PI)	
+10/01/2017-10/01/2022&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Tumor intrinsic and microenvironmental mechanisms driving drug combination efficacy and resistance in AML&lt;/em&gt;. Most patients with acute myeloid leukemia (AML) eventually die when their disease becomes resistant to conventional or even newer treatments. Our proposed studies will shed light on the mechanisms of drug resistance, both within the tumor and in the surrounding environment. This knowledge will help identify more effective therapies — involving combinations of two drugs — that will avoid drug resistance and provide better outcomes for patients with AML. Role: Computational Biologist.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Completed Research Support&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;No # assigned	
+Druker (PI)	
+5/1/2013-5/31/2018
+The Leukemia &amp;amp; Lymphoma Society
+&lt;em&gt;Beat AML: Precision Medicine for AML Based on Functional Genomics&lt;/em&gt;. The major goals of this project is to transform our approach to AML treatment through a deeper understanding of the diversity of the underlying molecular causes of disease and to bring targeted therapies to AML patients through 1) understanding the spectrum of genetic lesions and molecular drivers, 2) functionally annotating drug sensitivity, and 3) Initiating clinical trials with combinations of drugs in refractory patients. Role: Computational Biologist.&lt;/p&gt;
+&lt;p&gt;T15LM009461 	
+Hersh (PI)	
+7/01/1992-6/30/2017
+&lt;em&gt;Biomedical Informatics Research Training at Oregon Health &amp;amp; Science University&lt;/em&gt;.
+Predoctoral and postdoctoral training grant in biomedical informatics.
+Role: Predoctoral Fellow (2009-14); Postdoctoral Fellow (2014-2015)&lt;/p&gt;
+&lt;p&gt;OPP1131709 	
+Lewinsohn (PI)	
+10/26/2015-10/31/2017
+Bill &amp;amp; Melinda Gates Foundation					
+&lt;em&gt;Targeting MAIT cells for TB vaccines&lt;/em&gt;. This proposal is designed to establish whether or not a vaccine targeting Mucosal Associated Invariant (MAIT) can be used to prevent tuberculosis (TB). Role: Computational Biologist&lt;/p&gt;
+&lt;p&gt;BD2K Training Grant 
+Dorr, D (Co-PI), Haendel, M (Co-PI), McWeeney, S (Co-PI) 
+2015-2017 
+&lt;em&gt;Big Data to Knowledge&lt;/em&gt;. The goal of this project is to develop training materials in data science. Role: educational developer and instructor.&lt;/p&gt;
+&lt;h1 id=&#34;awards&#34;&gt;Awards&lt;/h1&gt;
+&lt;p&gt;NLM Predoctoral Fellowship. 2009-2013.&lt;br&gt;
+NLM Postdoctoral Fellowship. 2014-2015.&lt;/p&gt;
 </description>
     </item>
     

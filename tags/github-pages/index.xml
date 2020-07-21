@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Github pages on Ted Laderas, PhD</title>
+    <title>github pages on Ted Laderas, PhD</title>
     <link>/tags/github-pages/</link>
-    <description>Recent content in Github pages on Ted Laderas, PhD</description>
+    <description>Recent content in github pages on Ted Laderas, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
@@ -18,7 +18,7 @@
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/teaching/github_pages/</guid>
-      <description></description>
+      <description>A pain free introduction to getting a personal academic website started using GitHub pages. With Robin Champieux, Eric Earl, and Eric Leung.</description>
     </item>
     
   </channel>

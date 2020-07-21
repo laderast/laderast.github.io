@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shiny on Ted Laderas, PhD</title>
+    <title>shiny on Ted Laderas, PhD</title>
     <link>/tags/shiny/</link>
-    <description>Recent content in Shiny on Ted Laderas, PhD</description>
+    <description>Recent content in shiny on Ted Laderas, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
@@ -18,7 +18,7 @@
       <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/teaching/data_nhanes/</guid>
-      <description></description>
+      <description>An introduction to Exploratory Data Analysis using the &lt;a href=&#34;http://laderast.github.io/burro&#34;&gt;burro&lt;/a&gt; app to explore outcomes using the NHANES (National Health and Nutrition Examination Survey) dataset. With Jessica Minnier and Thomas Frohwein.</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/project/sample_flow_dashboard/</guid>
-      <description></description>
+      <description>A Sample App built with the &lt;a href=&#34;http://github.com/laderast/flowDashboard&#34;&gt;flowDashboard Shiny Modules&lt;/a&gt; package. Meant for visualization of high throughput flow cytometry data. &lt;a href=&#34;http://github.com/laderast/sampleFlowDashboard&#34;&gt;Repo&lt;/a&gt;</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/project/nhanes_explorer/</guid>
-      <description></description>
+      <description>A Depression focused shiny app for the NHANES (National Health and Nutrition Examination Survey) dataset. Built with &lt;a href=&#34;http://laderast.github.io/burro&#34;&gt;burro&lt;/a&gt;.</description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@ Intended AudienceWe designed the workshop for our incoming informatics students
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/introduction_to_interactive_vis/</guid>
-      <description></description>
+      <description>RMarkdown/Shiny slides introducion for our &lt;a href=&#34;http://laderast.github.io/AnalyticsCourse&#34;&gt;BMI 569/669 Data Analytics&lt;/a&gt; course to interactive visualizations.</description>
     </item>
     
     <item>
@@ -75,7 +75,7 @@ Using sym() in a Shiny AppOne fairly simple Shiny Application might be selectin
       <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/introduction_to_data_literacy/</guid>
-      <description></description>
+      <description>LearnR Tutorial introducing our &lt;a href=&#34;https://laderast.github.io/HSMP410/&#34;&gt;HSMP Health Informatics Class&lt;/a&gt; to data literacy concepts. Based on a great &lt;a href=&#34;https://github.com/bearloga/wmf-allhands18&#34;&gt;LearnR tutorial from Mikhail Popov&lt;/a&gt;. &lt;a href=&#34;https://github.com/laderast/dataLiteracyTutorial&#34;&gt;Repo&lt;/a&gt;</description>
     </item>
     
     <item>
@@ -93,7 +93,7 @@ Using sym() in a Shiny AppOne fairly simple Shiny Application might be selectin
       <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/party_explorer/</guid>
-      <description></description>
+      <description>Simple Shiny App to explore decision tree building with the &lt;a href=&#34;https://cran.r-project.org/web/packages/party/index.html&#34;&gt;party&lt;/a&gt; paackage. &lt;a href=&#34;http://github.com/laderast/partyExplorer&#34;&gt;Repo&lt;/a&gt;</description>
     </item>
     
     <item>
@@ -102,7 +102,7 @@ Using sym() in a Shiny AppOne fairly simple Shiny Application might be selectin
       <pubDate>Wed, 28 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/06/28/howtonotbeafraid/</guid>
-      <description>I&amp;rsquo;m going to be giving a talk for the PDX RLang Meetup on July 11 called &amp;ldquo;How to Not Be Afraid of Your Data: Teaching EDA using Shiny&amp;rdquo;. Abstract below.
+      <description>I&amp;rsquo;m going to be giving a talk for the PDX RLang Meetup on July 11 called &amp;ldquo;How to Not Be Afraid of Your Data: Teaching EDA using Shiny&amp;quot;. Abstract below.
 Many graduate students in the basic sciences are afraid of data exploration and cleaning, which can greatly impact their downstream analysis results. By using a synthetic dataset, some simple dplyr commands, and a shiny dashboard, we teach graduate students how to explore their data and how to handle issues that can arise (missing values, differences in units).</description>
     </item>
     
@@ -112,7 +112,7 @@ Many graduate students in the basic sciences are afraid of data exploration and 
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/teaching/gradual_shiny/</guid>
-      <description></description>
+      <description>A workshop that I&amp;rsquo;ve given on the basics of building Shiny apps. Given multiple times for PDX R User Group.</description>
     </item>
     
     <item>
@@ -121,7 +121,7 @@ Many graduate students in the basic sciences are afraid of data exploration and 
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/teaching/cvd_risk/</guid>
-      <description></description>
+      <description>A workshop given for Portland State University students exploring the difficulties of predicting cardiovascular risk using &lt;code&gt;shiny&lt;/code&gt; for exploratory data analysis and &lt;code&gt;caret&lt;/code&gt; for machine learning. &lt;a href=&#34;https://github.com/laderast/cvdNight1&#34;&gt;Part 1&lt;/a&gt; and &lt;a href=&#34;https://github.com/laderast/cvdNight2&#34;&gt;Part 2&lt;/a&gt;. With David Dorr</description>
     </item>
     
     <item>
@@ -130,7 +130,7 @@ Many graduate students in the basic sciences are afraid of data exploration and 
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/teaching/clinical_wrangling/</guid>
-      <description></description>
+      <description>10 hour/multi-day workshop on understanding clinical data quality issues through both didactic lecturing and active data exploration. With Eilis Boudreau and Nicole Weiskopf. &lt;a href=&#34;https://zenodo.org/badge/latestdoi/151426188&#34;&gt;&lt;img src=&#34;https://zenodo.org/badge/151426188.svg&#34; alt=&#34;DOI&#34;&gt;&lt;/a&gt;</description>
     </item>
     
     <item>
@@ -139,7 +139,7 @@ Many graduate students in the basic sciences are afraid of data exploration and 
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/project/categorical_data/</guid>
-      <description></description>
+      <description>LearnR tutorial for the &lt;a href=&#34;https://ohsulibrary-datascienceinstitute.github.io/&#34;&gt;OHSU Data Science Institute&lt;/a&gt; introducing students to concepts of categorical data analysis. Part of the &lt;a href=&#34;https://github.com/laderast/DSIExplore&#34;&gt;DSIExplore&lt;/a&gt; package authored with Jessica Minnier.</description>
     </item>
     
     <item>
@@ -148,7 +148,7 @@ Many graduate students in the basic sciences are afraid of data exploration and 
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/teaching/categorical_data/</guid>
-      <description></description>
+      <description>LearnR tutorial for the &lt;a href=&#34;https://ohsulibrary-datascienceinstitute.github.io/&#34;&gt;OHSU Data Science Institute&lt;/a&gt; introducing students to concepts of categorical data analysis. Part of the &lt;a href=&#34;https://github.com/laderast/DSIExplore&#34;&gt;DSIExplore&lt;/a&gt; package authored with Jessica Minnier.</description>
     </item>
     
     <item>
@@ -157,7 +157,7 @@ Many graduate students in the basic sciences are afraid of data exploration and 
       <pubDate>Sun, 22 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>/project/visual_intro_clustering/</guid>
-      <description></description>
+      <description>Interactive slides with apps to explore properties of clustering algorithms. Built with RMarkdown/Shiny</description>
     </item>
     
     <item>
@@ -166,7 +166,7 @@ Many graduate students in the basic sciences are afraid of data exploration and 
       <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>
       
       <guid>/project/surrogate_oncogene_explorer/</guid>
-      <description></description>
+      <description>One of my first shiny apps. Heatmap interface to explore the network effect of gene alterations on &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4688377/&#34;&gt;networked oncogene signatures&lt;/a&gt;. &lt;a href=&#34;https://github.com/laderast/surrogateShiny&#34;&gt;Repo&lt;/a&gt;</description>
     </item>
     
   </channel>

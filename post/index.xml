@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Ted Laderas, PhD</title>
@@ -106,31 +106,12 @@ I&amp;rsquo;m currently on way too many projects and am teaching as well.</descr
     </item>
     
     <item>
-      <title>Creativity and Science</title>
-      <link>/2018/07/09/creativity-and-science/</link>
-      <pubDate>Mon, 09 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/07/09/creativity-and-science/</guid>
-      <description>I decided to write this post in celebration of my newest album, [Tiny Fugues, being released](). I consider myself a scientist and I am a musician in almost equal parts. There has been a lot of talking about the role of creativity in science. Honestly, I rarely try to cross the streams of science and music, mostly because it really hasn&amp;rsquo;t been encouraged in my career.
-I do think that I do use the same problem solving skills that I do in science that I also use in composition.</description>
-    </item>
-    
-    <item>
       <title>Asking for help to get better</title>
       <link>/2018/06/25/asking-for-help-to-get-better/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/06/25/asking-for-help-to-get-better/</guid>
       <description>I want to thank everyone who has reached out to me after I wrote my post on struggling with my depression and self-care. I am incredibly grateful for everyone’s concern about me. I wrote that at a low point in my life because I had to. I was suffering too long in silence, and I needed to do something. Writing that post was incredibly scary. I am still worried that it may be used against me somehow down the line when I am reviewed for tenure.</description>
-    </item>
-    
-    <item>
-      <title>Working on the `umapr` package</title>
-      <link>/2018/06/15/working-on-the-umapr-package/</link>
-      <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/06/15/working-on-the-umapr-package/</guid>
-      <description>Motivation A few weeks ago, as part of the [rOpenSci Unconference](), a group of us (Sean Hughes, Malisa Smith, Angela Li, Ju Kim and me) decided to work on making the UMAP algorithm accessible within R. UMAP (Uniform Manifold Approximation and Projection) is a [dimensionality reduction technique]() that allows the user to reduce high dimensional data (multiple columns) into a smaller number of columns for visualization purposes (Usually two). It is related to both Priniciple Components Analysis (PCA) and t-SNE, which are techniques often used in the single-cell omics world to visualize high dimensional data.</description>
     </item>
     
     <item>
@@ -310,7 +291,7 @@ I admit that I am not really a Python person. But I am helping to develop some m
       <pubDate>Wed, 28 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/06/28/howtonotbeafraid/</guid>
-      <description>I&amp;rsquo;m going to be giving a talk for the PDX RLang Meetup on July 11 called &amp;ldquo;How to Not Be Afraid of Your Data: Teaching EDA using Shiny&amp;rdquo;. Abstract below.
+      <description>I&amp;rsquo;m going to be giving a talk for the PDX RLang Meetup on July 11 called &amp;ldquo;How to Not Be Afraid of Your Data: Teaching EDA using Shiny&amp;quot;. Abstract below.
 Many graduate students in the basic sciences are afraid of data exploration and cleaning, which can greatly impact their downstream analysis results. By using a synthetic dataset, some simple dplyr commands, and a shiny dashboard, we teach graduate students how to explore their data and how to handle issues that can arise (missing values, differences in units).</description>
     </item>
     

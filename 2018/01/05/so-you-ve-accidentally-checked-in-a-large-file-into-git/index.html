@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.68.3" />
   <meta name="author" content="Ted Laderas">
 
   
@@ -394,76 +394,42 @@ Greg Wilson first said it, but I&rsquo;ve come to agree.">
 
       <div class="article-style" itemprop="articleBody">
         <p><em>Note: after posting this, I heard back from Roberto Tyley, the creator of the BFG. I&rsquo;d like to note that the BFG actually does its job really well. I was mostly really frustrated about how Git/GitHub doesn&rsquo;t prevent a user from doing something that&rsquo;s hard to undo. So my frustration is really about that, not really about the BFG. This post has been edited to reflect that.</em></p>
-
 <p>Greg Wilson first said it, but I&rsquo;ve come to agree. Git is an aggressively antisocial piece of software. Git is a piece of software that can make developers with any amount of experience feel dumb.</p>
-
 <p>Recently, I accidentally checked a large file (greater than 100 Megs) into my local repo. When I tried to push to GitHub, of course, it refused it (I know about git large file storage, but I don&rsquo;t have any).</p>
-
 <p>So my local repo was screwed up. Of course, I did what seemed like the rational thing and deleted the file from my repo and recommitted. More than once. This is a mistake I&rsquo;ve done more than once. So you need to scrub your git history with BFG so that GitHub will accept your lowly commits again.</p>
-
-<p><a href="https://rtyley.github.io/bfg-repo-cleaner/" target="_blank">The BFG</a> documentation specifies how to fix a <em>remote</em> repo. I would say that this situation is much less common than the local situation. So I just decided to share how I got the BFG to work for the local repo situation.</p>
-
+<p><a href="https://rtyley.github.io/bfg-repo-cleaner/">The BFG</a> documentation specifies how to fix a <em>remote</em> repo. I would say that this situation is much less common than the local situation. So I just decided to share how I got the BFG to work for the local repo situation.</p>
 <p>I usually install the BFG through <code>homebrew</code>, using <code>brew install bfg</code>. When you install it this way, you can just run BFG with <code>bfg</code>. You can download it from the website, but you&rsquo;ll have to call <code>java -jar bfg[VERSION].jar</code> to run it.</p>
-
 <p>Say you&rsquo;ve accidently checked in a large file into your current repo. The first thing to do is to clone your local repo:</p>
-
 <pre><code>git clone --mirror local_repo
-</code></pre>
-
-<p>This will create another folder called <code>local_repo.git</code> that you will do all the BFG magic on. This <code>local_rep.git</code> is what is called a <em>bare</em> repo. I want to remove any files larger than 100 Megs, so I do this:</p>
-
+</code></pre><p>This will create another folder called <code>local_repo.git</code> that you will do all the BFG magic on. This <code>local_rep.git</code> is what is called a <em>bare</em> repo. I want to remove any files larger than 100 Megs, so I do this:</p>
 <pre><code>bfg -b 100M local_repo.git
-</code></pre>
-
-<p>If this doesn&rsquo;t return an error, you can move on. However, I got the dreaded error:</p>
-
+</code></pre><p>If this doesn&rsquo;t return an error, you can move on. However, I got the dreaded error:</p>
 <pre><code>Warning : no large blobs matching criteria found in packfiles - 
 does the repo need to be packed?
-</code></pre>
-
-<p>Augh. Ok, some googling later I found that I needed to pack my orignal repo:</p>
-
+</code></pre><p>Augh. Ok, some googling later I found that I needed to pack my orignal repo:</p>
 <pre><code>cd local_repo
 git repack
-</code></pre>
-
-<p>Okay, we need to get rid of our cloned repo and redo the last few steps.</p>
-
+</code></pre><p>Okay, we need to get rid of our cloned repo and redo the last few steps.</p>
 <pre><code>rm -rf local_repo.git
 git clone --mirror local_repo
 bfg -b 100M local_repo.git
-</code></pre>
-
-<p>Then comes some git commands that no one has bothered to explain to me (UPDATE: I forgot to add changing directories into <code>local_repo.git</code> - sorry about that!).</p>
-
+</code></pre><p>Then comes some git commands that no one has bothered to explain to me (UPDATE: I forgot to add changing directories into <code>local_repo.git</code> - sorry about that!).</p>
 <pre><code>cd local_repo.git
 git reflog expire --expire=now --all &amp;&amp; git gc --prune=now --aggressive
 git push
-</code></pre>
-
-<p>Uh oh, I get a <code>remote: error: refusing to update checked out branch: refs/heads/master</code> error! More ugh.</p>
-
+</code></pre><p>Uh oh, I get a <code>remote: error: refusing to update checked out branch: refs/heads/master</code> error! More ugh.</p>
 <p>Here&rsquo;s the trick. Since you cloned a <em>local</em> repo, you need to set the origin of your current repo (<code>local_repo.git</code>) to the GitHub remote. Still in our <code>local_repo.git</code> directory, first we remove the current <code>origin</code>, and then add back our remote.</p>
-
 <pre><code>git remote rm origin
 git remote add origin https://github.com/laderast/remote_repo
-</code></pre>
-
-<p>Finally, after much gnashing of the teeth, we can</p>
-
+</code></pre><p>Finally, after much gnashing of the teeth, we can</p>
 <pre><code>git push
-</code></pre>
-
-<p>Don&rsquo;t forget to remove your now <em>dirty</em> <code>local_repo</code>, and the mirrored copy, and then pull a fresh copy down!</p>
-
+</code></pre><p>Don&rsquo;t forget to remove your now <em>dirty</em> <code>local_repo</code>, and the mirrored copy, and then pull a fresh copy down!</p>
 <pre><code>##remove both original local repo and altered bare repo
 rm -rf local_repo
 rm -rf local_repo.git
 ##clone a fresh copy from GitHub
 git clone https://github.com/laderast/remote_repo
-</code></pre>
-
-<p>This may be obvious to the 10 people in the world who have read all of the git documentation, but I am not one of them. I&rsquo;m stuck with git, unfortunately. I&rsquo;m writing this post to remind me of what to do when I innocently do something like commit a large file to my repo.</p>
+</code></pre><p>This may be obvious to the 10 people in the world who have read all of the git documentation, but I am not one of them. I&rsquo;m stuck with git, unfortunately. I&rsquo;m writing this post to remind me of what to do when I innocently do something like commit a large file to my repo.</p>
 
       </div>
 
@@ -497,7 +463,7 @@ git clone https://github.com/laderast/remote_repo
   <div class="container">
     <p class="powered-by">
 
-      &copy; 2018 &middot; 
+      © 2018 &middot; 
 
       Powered by the
       <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

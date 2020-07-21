@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
@@ -14,7 +13,43 @@
     
     <url>
     
+      <loc>/categories/</loc>
+      <lastmod>2019-09-23T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2019/09/23/kindness-at-the-cost-of-yourself/</loc>
+      <lastmod>2019-09-23T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/self-sacrifice/</loc>
+      <lastmod>2019-09-23T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/self-care/</loc>
+      <lastmod>2019-09-23T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/</loc>
       <lastmod>2019-09-23T00:00:00+00:00</lastmod>
     </url>
     
@@ -32,8 +67,80 @@
     
     <url>
     
+      <loc>/tags/burnout/</loc>
+      <lastmod>2019-07-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/depression/</loc>
+      <lastmod>2019-07-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/r/</loc>
+      <lastmod>2019-06-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/teaching/r-bootcamp/</loc>
       <lastmod>2019-06-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/teaching/</loc>
+      <lastmod>2019-06-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/tidyverse/</loc>
+      <lastmod>2019-06-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/development/</loc>
+      <lastmod>2019-02-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/devtools/</loc>
+      <lastmod>2019-02-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/package/</loc>
+      <lastmod>2019-02-12T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -50,6 +157,33 @@
     
     <url>
     
+      <loc>/categories/r/</loc>
+      <lastmod>2019-02-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/biodata-club/</loc>
+      <lastmod>2019-01-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/clinical-data/</loc>
+      <lastmod>2019-01-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/teaching/data_nhanes/</loc>
       <lastmod>2019-01-25T00:00:00+00:00</lastmod>
     </url>
@@ -59,8 +193,107 @@
     
     <url>
     
+      <loc>/tags/nhanes/</loc>
+      <lastmod>2019-01-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/shiny/</loc>
+      <lastmod>2019-01-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/workshop/</loc>
+      <lastmod>2019-01-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/conference/</loc>
+      <lastmod>2019-01-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/education/</loc>
+      <lastmod>2019-01-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/organizations/</loc>
+      <lastmod>2019-01-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/rstudio/</loc>
+      <lastmod>2019-01-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2019/01/24/rstudio-conf-2019-education-and-organizations/</loc>
       <lastmod>2019-01-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/cytof/</loc>
+      <lastmod>2019-01-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/data-exploration/</loc>
+      <lastmod>2019-01-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/eda/</loc>
+      <lastmod>2019-01-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/flow-cytometry/</loc>
+      <lastmod>2019-01-22T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -86,6 +319,33 @@
     
     <url>
     
+      <loc>/project/</loc>
+      <lastmod>2019-01-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/research/</loc>
+      <lastmod>2019-01-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/teaching/</loc>
+      <lastmod>2019-01-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2018/12/13/reframing-impostor-syndrome-as-being-on-the-road-to-mastery/</loc>
       <lastmod>2018-12-13T00:00:00+00:00</lastmod>
     </url>
@@ -95,7 +355,43 @@
     
     <url>
     
+      <loc>/tags/interactive-visualization/</loc>
+      <lastmod>2018-10-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/rstats/</loc>
+      <lastmod>2018-10-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2018/10/15/clinical-data-wrangling/</loc>
+      <lastmod>2018-10-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/visualization/</loc>
+      <lastmod>2018-10-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/visualization/</loc>
       <lastmod>2018-10-15T00:00:00+00:00</lastmod>
     </url>
     
@@ -113,7 +409,52 @@
     
     <url>
     
+      <loc>/tags/apps/</loc>
+      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/inputs/</loc>
+      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/shiny/</loc>
+      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2018/08/07/shiny-and-tidyeval/</loc>
+      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/this/</loc>
+      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/tidyeval/</loc>
       <lastmod>2018-08-07T00:00:00+00:00</lastmod>
     </url>
     
@@ -131,8 +472,8 @@
     
     <url>
     
-      <loc>/2018/07/09/creativity-and-science/</loc>
-      <lastmod>2018-07-09T00:00:00+00:00</lastmod>
+      <loc>/tags/academia/</loc>
+      <lastmod>2018-06-25T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -142,15 +483,6 @@
     
       <loc>/2018/06/25/asking-for-help-to-get-better/</loc>
       <lastmod>2018-06-25T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/2018/06/15/working-on-the-umapr-package/</loc>
-      <lastmod>2018-06-15T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -176,8 +508,26 @@
     
     <url>
     
+      <loc>/tags/self-care-self-compassion/</loc>
+      <lastmod>2018-06-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2018/05/24/group-by-summarize-not-just-for-numeric-values/</loc>
       <lastmod>2018-05-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/improvisation/</loc>
+      <lastmod>2018-05-22T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -203,7 +553,79 @@
     
     <url>
     
+      <loc>/categories/list/</loc>
+      <lastmod>2018-05-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/music/</loc>
+      <lastmod>2018-05-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/</loc>
+      <lastmod>2018-05-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2018/05/17/a-introvert-s-survival-guide-to-conferences/</loc>
+      <lastmod>2018-05-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/conferences/</loc>
+      <lastmod>2018-05-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/introverts/</loc>
+      <lastmod>2018-05-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/networking/</loc>
+      <lastmod>2018-05-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/social/</loc>
+      <lastmod>2018-05-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/survival/</loc>
       <lastmod>2018-05-17T00:00:00+00:00</lastmod>
     </url>
     
@@ -221,8 +643,62 @@
     
     <url>
     
+      <loc>/tags/informatics/</loc>
+      <lastmod>2018-04-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/oer-open-education-informatics/</loc>
+      <lastmod>2018-04-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2018/04/04/a-simple-intro-to-genome-wide-association/</loc>
       <lastmod>2018-04-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/gwas-active-learning-open-education-oer/</loc>
+      <lastmod>2018-04-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/teaching/</loc>
+      <lastmod>2018-04-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/digital-scholarship/</loc>
+      <lastmod>2018-03-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/librarians/</loc>
+      <lastmod>2018-03-19T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -248,8 +724,17 @@
     
     <url>
     
-      <loc>/how-to-be-a-good-collaborator/</loc>
-      <lastmod>2018-01-26T00:00:00+00:00</lastmod>
+      <loc>/categories/data-science-systems/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/systems-science/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -275,8 +760,35 @@
     
     <url>
     
+      <loc>/tags/beginners/</loc>
+      <lastmod>2018-01-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/python/</loc>
+      <lastmod>2018-01-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2018/01/17/what-we-learned-teaching-python-to-neuroscience-students/</loc>
       <lastmod>2018-01-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/data-science/</loc>
+      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -293,6 +805,42 @@
     
     <url>
     
+      <loc>/tags/informational-interview/</loc>
+      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/talking/</loc>
+      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/talking/</loc>
+      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/software-rstats-bioconductor/</loc>
+      <lastmod>2018-01-13T17:28:30-08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/python_resources/</loc>
       <lastmod>2018-01-12T13:55:55-08:00</lastmod>
     </url>
@@ -302,8 +850,44 @@
     
     <url>
     
+      <loc>/categories/git/</loc>
+      <lastmod>2018-01-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/git-hell/</loc>
+      <lastmod>2018-01-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/git-hell/</loc>
+      <lastmod>2018-01-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2018/01/05/so-you-ve-accidentally-checked-in-a-large-file-into-git/</loc>
       <lastmod>2018-01-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication_types/2/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -338,8 +922,26 @@
     
     <url>
     
+      <loc>/publication_types/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication/2018-teaching_d/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/rstats-tidyeval/</loc>
+      <lastmod>2017-12-19T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -356,8 +958,26 @@
     
     <url>
     
+      <loc>/tags/synthetic-data-data-science/</loc>
+      <lastmod>2017-12-14T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2017/12/14/using-synthetic-data/</loc>
       <lastmod>2017-12-14T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/data-science-odsc/</loc>
+      <lastmod>2017-11-07T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -383,7 +1003,25 @@
     
     <url>
     
+      <loc>/tags/separating-code/</loc>
+      <lastmod>2017-08-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2017/07/05/interesting-user2017talks/</loc>
+      <lastmod>2017-07-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/user/</loc>
       <lastmod>2017-07-05T00:00:00+00:00</lastmod>
     </url>
     
@@ -419,6 +1057,15 @@
     
     <url>
     
+      <loc>/tags/analytics/</loc>
+      <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/teaching/cvd_risk/</loc>
       <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     </url>
@@ -437,6 +1084,15 @@
     
     <url>
     
+      <loc>/tags/cluster-computing/</loc>
+      <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/teaching/data_analytics/</loc>
       <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     </url>
@@ -447,6 +1103,15 @@
     <url>
     
       <loc>/teaching/exacloud_tutorial/</loc>
+      <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/github-pages/</loc>
       <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     </url>
     
@@ -500,6 +1165,60 @@
     
     <url>
     
+      <loc>/tags/jupyter/</loc>
+      <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/machine-learning/</loc>
+      <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/markdown/</loc>
+      <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/network/</loc>
+      <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/neuroscience/</loc>
+      <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/nlmt15/</loc>
+      <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/teaching/python_neuro/</loc>
       <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     </url>
@@ -511,6 +1230,15 @@
     
       <loc>/teaching/magic_of_markdown/</loc>
       <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/rstats-cascadia-r/</loc>
+      <lastmod>2017-06-07T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -545,6 +1273,24 @@
     
     <url>
     
+      <loc>/tags/open-source/</loc>
+      <lastmod>2017-04-20T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/arts-music-plasticity-cross-discipline/</loc>
+      <lastmod>2017-04-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2017/04/19/breadth-and-depth/</loc>
       <lastmod>2017-04-19T00:00:00+00:00</lastmod>
     </url>
@@ -563,7 +1309,25 @@
     
     <url>
     
+      <loc>/tags/peer-mentoring-community-university/</loc>
+      <lastmod>2017-04-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/project/visual_intro_clustering/</loc>
+      <lastmod>2017-01-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/clustering/</loc>
       <lastmod>2017-01-22T00:00:00+00:00</lastmod>
     </url>
     
@@ -644,8 +1408,26 @@
     
     <url>
     
+      <loc>/tags/publication/</loc>
+      <lastmod>2015-12-23T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2015/12/23/surrogate-oncogene-paper/</loc>
       <lastmod>2015-12-23T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/bioinformatics/</loc>
+      <lastmod>2015-11-24T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -671,6 +1453,15 @@
     
     <url>
     
+      <loc>/tags/somatic-mutations/</loc>
+      <lastmod>2015-05-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2015/05/26/mutational-burden-in-skin/</loc>
       <lastmod>2015-05-26T00:00:00+00:00</lastmod>
     </url>
@@ -681,6 +1472,15 @@
     <url>
     
       <loc>/2015/05/24/the-rise-of-fraud-in-high-if-journals/</loc>
+      <lastmod>2015-05-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/journal-retraction/</loc>
       <lastmod>2015-05-24T00:00:00+00:00</lastmod>
     </url>
     
@@ -718,6 +1518,24 @@
     
       <loc>/publication/2015-the_consen/</loc>
       <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/cancer/</loc>
+      <lastmod>2014-01-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/oncogene/</loc>
+      <lastmod>2014-01-22T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -851,176 +1669,7 @@
     
     <url>
     
-      <loc>/publication_types/2/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/academia/</loc>
-      <lastmod>2018-06-25T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/analytics/</loc>
-      <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/apps/</loc>
-      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/arts-music-plasticity-cross-discipline/</loc>
-      <lastmod>2017-04-19T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/beginners/</loc>
-      <lastmod>2018-01-17T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/biodata-club/</loc>
-      <lastmod>2019-01-25T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/bioinformatics/</loc>
-      <lastmod>2015-11-24T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/burnout/</loc>
-      <lastmod>2019-07-03T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/cancer/</loc>
-      <lastmod>2014-01-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/cascadia-r-videos/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/clinical-data/</loc>
-      <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/clinical-data/</loc>
-      <lastmod>2019-01-25T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/cluster-computing/</loc>
-      <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/clustering/</loc>
-      <lastmod>2017-01-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/conference/</loc>
-      <lastmod>2019-01-24T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/conferences/</loc>
-      <lastmod>2018-05-17T00:00:00+00:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
@@ -1036,807 +1685,7 @@
     
     <url>
     
-      <loc>/categories/creativity-science/</loc>
-      <lastmod>2018-07-09T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/cytof/</loc>
-      <lastmod>2019-01-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/data-exploration/</loc>
-      <lastmod>2019-01-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/data-science/</loc>
-      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/data-science-odsc/</loc>
-      <lastmod>2017-11-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/data-science-systems/</loc>
-      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/depression/</loc>
-      <lastmod>2019-07-03T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/development/</loc>
-      <lastmod>2019-02-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/devtools/</loc>
-      <lastmod>2019-02-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/digital-scholarship/</loc>
-      <lastmod>2018-03-19T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/eda/</loc>
-      <lastmod>2019-01-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/education/</loc>
-      <lastmod>2019-01-24T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/flow-cytometry/</loc>
-      <lastmod>2019-01-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/git/</loc>
-      <lastmod>2018-01-05T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/git-hell/</loc>
-      <lastmod>2018-01-05T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/git-hell/</loc>
-      <lastmod>2018-01-05T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/github-pages/</loc>
-      <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/gwas-active-learning-open-education-oer/</loc>
-      <lastmod>2018-04-04T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/improvisation/</loc>
-      <lastmod>2018-05-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/informatics/</loc>
-      <lastmod>2018-04-25T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/informational-interview/</loc>
-      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/inputs/</loc>
-      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/interactive-visualization/</loc>
-      <lastmod>2018-10-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/introverts/</loc>
-      <lastmod>2018-05-17T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/journal-retraction/</loc>
-      <lastmod>2015-05-24T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/jupyter/</loc>
-      <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/librarians/</loc>
-      <lastmod>2018-03-19T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/list/</loc>
-      <lastmod>2018-05-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/machine-learning/</loc>
-      <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/markdown/</loc>
-      <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/music/</loc>
-      <lastmod>2018-05-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/network/</loc>
-      <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/networking/</loc>
-      <lastmod>2018-05-17T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/neuroscience/</loc>
-      <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/nhanes/</loc>
-      <lastmod>2019-01-25T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/nlmt15/</loc>
-      <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/oer-open-education-informatics/</loc>
-      <lastmod>2018-04-25T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/oncogene/</loc>
-      <lastmod>2014-01-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/open-source/</loc>
-      <lastmod>2017-04-20T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/organizations/</loc>
-      <lastmod>2019-01-24T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/package/</loc>
-      <lastmod>2019-02-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/peer-mentoring-community-university/</loc>
-      <lastmod>2017-04-17T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/project/</loc>
-      <lastmod>2019-01-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/publication/</loc>
-      <lastmod>2015-12-23T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/python/</loc>
-      <lastmod>2018-01-17T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/r/</loc>
-      <lastmod>2019-06-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/r/</loc>
-      <lastmod>2019-06-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/r/</loc>
-      <lastmod>2019-02-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/research/</loc>
-      <lastmod>2019-01-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/rstats/</loc>
-      <lastmod>2018-10-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/rstats-cascadia-r/</loc>
-      <lastmod>2017-06-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/rstats-tidyeval/</loc>
-      <lastmod>2017-12-19T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/rstudio/</loc>
-      <lastmod>2019-01-24T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/self-sacrifice/</loc>
-      <lastmod>2019-09-23T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/self-care/</loc>
-      <lastmod>2019-09-23T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/self-care-self-compassion/</loc>
-      <lastmod>2018-06-05T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/separating-code/</loc>
-      <lastmod>2017-08-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/shiny/</loc>
-      <lastmod>2019-01-25T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/shiny/</loc>
-      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/social/</loc>
-      <lastmod>2018-05-17T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/software-rstats-bioconductor/</loc>
-      <lastmod>2018-01-13T17:28:30-08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/somatic-mutations/</loc>
-      <lastmod>2015-05-26T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/survival/</loc>
-      <lastmod>2018-05-17T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/synthetic-data-data-science/</loc>
-      <lastmod>2017-12-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/systems-science/</loc>
-      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/talking/</loc>
-      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/talking/</loc>
-      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/teaching/</loc>
-      <lastmod>2019-01-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/teaching/</loc>
-      <lastmod>2018-04-04T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/teaching/</loc>
-      <lastmod>2019-06-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/</loc>
-      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/cvitae/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/this/</loc>
-      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/tidyeval/</loc>
-      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/tidyverse/</loc>
-      <lastmod>2019-06-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/user/</loc>
-      <lastmod>2017-07-05T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/visualization/</loc>
-      <lastmod>2018-10-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/visualization/</loc>
-      <lastmod>2018-10-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/workshop/</loc>
-      <lastmod>2019-01-25T00:00:00+00:00</lastmod>
-      <priority>0</priority>
     </url>
     
   

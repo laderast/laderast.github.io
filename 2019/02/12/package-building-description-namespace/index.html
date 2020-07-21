@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.68.3" />
   <meta name="author" content="Ted Laderas">
 
   
@@ -392,24 +392,14 @@ Namespaces: Why Bother? In short, we need namespaces because of the ambiguity of
 
 
       <div class="article-style" itemprop="articleBody">
-        
-
-<p>As part of my new year&rsquo;s resolution to learn new things about R, I&rsquo;m trying to plug some holes in my R knowledge by writing more vignettes to explain them to myself this year.</p>
-
+        <p>As part of my new year&rsquo;s resolution to learn new things about R, I&rsquo;m trying to plug some holes in my R knowledge by writing more vignettes to explain them to myself this year.</p>
 <p>This week I finally think I understand more about namespaces in R and why you should use them in your R package.</p>
-
 <h2 id="namespaces-why-bother">Namespaces: Why Bother?</h2>
-
 <p>In short, we need namespaces because of the <em>ambiguity</em> of function names. Think of how many packages have a <code>filter()</code> function! How does R know which function from which package you’re talking about? One nightmare case is the Bioconductor <code>exprs()</code> method and the <code>rlang</code> <code>exprs()</code> function. These functions do very, very different things (one of them extracts an expression matrix from a Bioconductor <code>ExpressionSet</code>, and the other one is used for quoting multiple expressions).</p>
-
 <p>What happens when you call <code>library</code> on both of these packages? The worst case scenario is that you mean to call one package function and R executes the other one. This is called a namespace collision, and unfortunately it can break your code.</p>
-
 <p>Enter the namespace, which allows us to be package and function specific. If I want to use the function <code>filter</code> from <code>dplyr</code>, I write it as <code>dplyr::filter</code>. The <code>dplyr::</code> part is the namespace of the <code>dplyr</code> package.</p>
-
 <h2 id="description-the-gatekeeper-for-calling-packages"><code>DESCRIPTION</code>: The gatekeeper for calling packages</h2>
-
 <p>The <code>DESCRIPTION</code> file is one of the gatekeepers in your package. Ever wonder how <code>install.packages</code> knows how to install the packages your package depends on? It’s actually because of a field in the <code>DESCRIPTION</code> file. Here&rsquo;s the <code>DESCRIPTION</code> file for my <code>burro</code> package:</p>
-
 <pre><code>Package: burro
 Type: Package
 Title: Shiny App Package for setting up a data exploration session (&quot;burro&quot;w into the data)
@@ -444,85 +434,46 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.0
 Suggests:
     testthat
-</code></pre>
-
-<p>Look at the <code>Imports:</code> field. You can see a list of all of the packages that <code>burro</code> utilizes. In ye olde days of R, we used the <code>Depends:</code> field. Nowadays we use the <code>Imports:</code> fields. <a href="https://stackoverflow.com/questions/8637993/better-explanation-of-when-to-use-imports-depends" target="_blank">Here&rsquo;s a Stack Overflow post explaining why</a>. The main reason is that <code>Imports:</code> requires the package to have a namespace.</p>
-
+</code></pre><p>Look at the <code>Imports:</code> field. You can see a list of all of the packages that <code>burro</code> utilizes. In ye olde days of R, we used the <code>Depends:</code> field. Nowadays we use the <code>Imports:</code> fields. <a href="https://stackoverflow.com/questions/8637993/better-explanation-of-when-to-use-imports-depends">Here&rsquo;s a Stack Overflow post explaining why</a>. The main reason is that <code>Imports:</code> requires the package to have a namespace.</p>
 <p>Modifying the <code>DESCRIPTION</code> file by hand is possible, but I don’t recommend it. Instead, you can use the <code>usethis</code> package to modify it. For example, if I want to use <code>dplyr</code> in my package I can do this in the console, while I am building it.</p>
-
 <pre><code>usethis::use_package(&quot;dplyr&quot;)
-</code></pre>
-
-<p>This will add <code>dplyr</code> to the <code>Imports:</code> field of your <code>DESCRIPTION</code> file.</p>
-
+</code></pre><p>This will add <code>dplyr</code> to the <code>Imports:</code> field of your <code>DESCRIPTION</code> file.</p>
 <p><strong>Addition (Thanks Hao Ye, for the suggestion)</strong>: If the function is in a development version (i.e., hosted on GitHub), you can use <code>usethis::use_dev_package()</code> to add it to your <code>DESCRIPTION</code> file. It will add an additional field called <code>Remotes:</code> to your package:</p>
-
-<pre><code class="language-r">usethis::use_dev_package(&quot;tidyverse/dplyr&quot;)
-</code></pre>
-
-<p>For more info about using remotes, check out the vignette: <a href="https://remotes.r-lib.org/articles/dependencies.html" target="_blank">https://remotes.r-lib.org/articles/dependencies.html</a></p>
-
+<pre><code class="language-{r}" data-lang="{r}">usethis::use_dev_package(&quot;tidyverse/dplyr&quot;)
+</code></pre><p>For more info about using remotes, check out the vignette: <a href="https://remotes.r-lib.org/articles/dependencies.html">https://remotes.r-lib.org/articles/dependencies.html</a></p>
 <h2 id="using-namespaces-to-call-functions-from-other-packages">Using namespaces to call functions from other packages</h2>
-
 <p>Now that we have specified the package in our DESCRIPTION file, we can now call any function in <code>dplyr</code> by adding a <code>dplyr::</code> before the function. So if we wanted to call <code>mutate()</code> in our package function we can do this:</p>
-
 <pre><code>mutate_iris &lt;- function(iris){
     dplyr::mutate(iris, sepal_sum = Sepal.Length + Sepal.Width)
 }
-</code></pre>
-
-<p>In many cases, calling a function by specifying its namespace is good practice. For one, there are many functions called <code>filter()</code>: I can think of at least the ones that are in <code>base</code> and <code>dplyr</code>. Using the namespace makes it <em>unambiguous</em> to both R and other developers which <code>filter()</code> function you&rsquo;re talking about.</p>
-
+</code></pre><p>In many cases, calling a function by specifying its namespace is good practice. For one, there are many functions called <code>filter()</code>: I can think of at least the ones that are in <code>base</code> and <code>dplyr</code>. Using the namespace makes it <em>unambiguous</em> to both R and other developers which <code>filter()</code> function you&rsquo;re talking about.</p>
 <h2 id="how-do-i-call-functions-from-other-packages-using-roxygen-docstrings">How do I call functions from other packages? Using <code>roxygen</code> docstrings</h2>
-
 <p>Ugh, I&rsquo;ve already written a bunch of code and I don&rsquo;t want to add the namespaces before all of the functions from other packages! How can I avoid this?</p>
-
 <p>This is where <code>roxygen</code> and <code>devtools::document()</code> come in.</p>
-
 <p><code>roxygen</code> docstrings are responsible for at least three things in your package: 1) producing the documentation (<code>.Rd</code>) files, but also: 2) specifying what package namespaces you want to utilize, or import in your function, and 3) whether you want to export that function (i.e., make it accessible publicly).</p>
-
 <p>How do they accomplish 2)? When you call <code>devtools::document()</code> to build the documentation, they scan for multiple fields, such as <code>@import</code> and <code>@importFrom</code> in the <code>roxygen</code> doc strings. Then <code>devtools::document()</code> actually modifies the <code>NAMESPACE</code> file in your package.</p>
-
 <h2 id="using-importfrom-when-you-only-need-one-function">Using <code>@importFrom</code>: When you only need one function</h2>
-
 <p>Say you just wanted to use <code>filter</code> from <code>dplyr</code>, but didn&rsquo;t want to write <code>dplyr::filter</code> before all of your functions. You can just import the <code>filter()</code> function by including the following docstring:</p>
-
 <pre><code>#' @importFrom dplyr filter
-</code></pre>
-
-<p>And then you can just use <code>filter()</code> like normal in your code:</p>
-
+</code></pre><p>And then you can just use <code>filter()</code> like normal in your code:</p>
 <pre><code>#' @importFrom dplyr filter               #This is where you add the @importFrom
 use_filter &lt;- function(df, cutoff=0.5) {
 
   filter(df, value &lt; cutoff)
 
 }
-</code></pre>
-
-<h2 id="using-import-when-you-need-a-lot-of-functions-from-a-package">Using <code>@import</code>: When you need a lot of functions from a package</h2>
-
+</code></pre><h2 id="using-import-when-you-need-a-lot-of-functions-from-a-package">Using <code>@import</code>: When you need a lot of functions from a package</h2>
 <p>What if you had a lot of functions from one package, such as <code>shiny</code>, that you want to use? Do you need to add an <code>@importFrom</code> for each of these functions? Nope. You can just use one <code>@import</code> field for the whole package:</p>
-
 <pre><code>#` @import shiny
-</code></pre>
-
-<p>And then code like usual:</p>
-
+</code></pre><p>And then code like usual:</p>
 <pre><code>#` @import shiny            # This is where you add the @import
 shinyUI &lt;- function() {
     selectInput(&quot;&quot;)
 }
-</code></pre>
-
-<h2 id="importing-multiple-packages-just-don-t-do-it-updated">Importing multiple packages: just don&rsquo;t do it (UPDATED).</h2>
-
+</code></pre><h2 id="importing-multiple-packages-just-dont-do-it-updated">Importing multiple packages: just don&rsquo;t do it (UPDATED).</h2>
 <p>Just a note to not import multiple packages using <code>@import</code>. As Hadley Wickham has noted, you have no control over the development of the packages you import. Just because there are no function collisions right now between the packages doesn&rsquo;t mean that one of the developers may add a function down the line that might collide. So, if you need to use multiple packages, <code>@import</code> one package and use <code>@importsFrom</code> or namespaces to refer to functions in the other packages.</p>
-
 <h2 id="exported-versus-internal-functions">Exported versus Internal functions</h2>
-
 <p>Remember I mentioned ‘@export’ above? Specifying in a docstring for your function <em>exports</em> it. Specifying it means that ‘devtools::document()’ will add an <code>Export</code> directive for the function in the NAMESPACE file. That means you can access it using ‘::’. Going back to our <code>use_filter</code> example:</p>
-
 <pre><code>#' @export                              #This is where you add the @export
 #' @importFrom dplyr filter
 use_filter &lt;- function(df, cutoff=0.5) {
@@ -530,56 +481,37 @@ use_filter &lt;- function(df, cutoff=0.5) {
   filter(df, value &lt; cutoff)
 
 }
-</code></pre>
-
-<p>If our package name is <code>mypackage</code>, then this function will be accessible if we use <code>library(mypackage)</code> or <code>mypackage::use_filter()</code>.</p>
-
+</code></pre><p>If our package name is <code>mypackage</code>, then this function will be accessible if we use <code>library(mypackage)</code> or <code>mypackage::use_filter()</code>.</p>
 <p>Why is this important? You may write some <em>internal</em> functions that are useful in your package, but they aren’t necessarily ones you want your users to use in their daily use. <code>@export</code> allows you to control which functions you make publicly accessible in your package.</p>
-
 <p>For example, try typing <code>dplyr::</code> in RStudio and hit the tab key. You’ll see the usual <code>dplyr</code> verbs pop up. But these are only the exported functions. Now try <code>dplyr:::</code> and hit the tab key. You’ll see a list of functions that pop up that’s much longer - these are all the functions, including the internal functions.</p>
-
 <p>So, if there’s a cool bit of internal code you want to use in a package, you can use ‘:::’ to specify it. Just be aware that oftentimes, internal functions may change a lot as code gets refactored, so code that utilizes them may be refactored.</p>
-
-<h2 id="remember-to-run-devtools-document">Remember to run <code>devtools::document()</code></h2>
-
+<h2 id="remember-to-run-devtoolsdocument">Remember to run <code>devtools::document()</code></h2>
 <p>Once you&rsquo;ve written code and want to test it in your package, remember to run <code>devtools::document()</code> before you reinstall your package for testing. Otherwise, the <code>NAMESPACE</code> file won&rsquo;t be modified, and your code won&rsquo;t work.</p>
-
-<p>You can also modify your Project Options for your package and check the <strong>Tools &gt;&gt; Project Options &gt;&gt; Build Tools &gt;&gt; Generate Documentation with Roxygen</strong> box. Next to it, there is also a <code>Configure</code> button that lets you select the option to run <code>devtools::document()</code> whenever you build a package for testing.</p>
-
+<p>You can also modify your Project Options for your package and check the <strong>Tools &raquo; Project Options &raquo; Build Tools &raquo; Generate Documentation with Roxygen</strong> box. Next to it, there is also a <code>Configure</code> button that lets you select the option to run <code>devtools::document()</code> whenever you build a package for testing.</p>
 <h2 id="go-forth-and-package">Go forth and Package!</h2>
-
-<p><img src="/img/imports-workflow.png" alt="Using a function from another package" width = 500></p>
-
+<!-- raw HTML omitted -->
 <p>TL;DR:</p>
-
 <ol>
 <li>Use <code>usethis::use_package()</code> to add packages to your <code>DESCRIPTION</code> file (while in the console) after you&rsquo;ve created your package skeleton using <code>use_package()</code>.</li>
-<li>Use namespaces (such as <code>mypackage::usefilter()</code>) to refer to external functions where possible to avoid collisions in function names when you are writing code.<br /></li>
+<li>Use namespaces (such as <code>mypackage::usefilter()</code>) to refer to external functions where possible to avoid collisions in function names when you are writing code.</li>
 <li>Use <code>@imports</code> and <code>@importsFrom</code> judiciously in your <code>roxygen</code> documentation for a function if you need to use many extenral package functions within a function.  Use only 1 <code>@import</code> statement in a function, use namespaces/<code>@importsFrom</code> for the other packages.</li>
 <li>Expose functions you want to be made public using <code>@export</code> in your <code>roxygen</code> documentation.</li>
-<li>Remember to run <code>devtools::document()</code> in the console after you modify/add these fields to the roxygen documentation when you build for testing, or set it up in <strong>Tools &gt;&gt; Project Options</strong>.</li>
+<li>Remember to run <code>devtools::document()</code> in the console after you modify/add these fields to the roxygen documentation when you build for testing, or set it up in <strong>Tools &raquo; Project Options</strong>.</li>
 </ol>
-
 <p>I hope this helps you to understand exactly the relationships between all of the components that are responsible for accessing namespaces in your package. I was confused about this for years, so writing this has helped me understand these relationships.</p>
-
 <h2 id="further-reading">Further Reading</h2>
-
 <ul>
-<li>If you want to know how R searches for a function across its environments and why namespaces are a good thing, this is an excellent writeup: <a href="http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/" target="_blank">http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/</a></li>
-<li>More about the <code>usethis</code> workflow: <a href="https://www.hvitfeldt.me/blog/usethis-workflow-for-package-development/" target="_blank">https://www.hvitfeldt.me/blog/usethis-workflow-for-package-development/</a></li>
-<li>More about the <code>DESCRIPTION</code> file: <a href="http://r-pkgs.had.co.nz/description.html" target="_blank">http://r-pkgs.had.co.nz/description.html</a></li>
-<li>More about namespaces: <a href="http://r-pkgs.had.co.nz/namespace.html" target="_blank">http://r-pkgs.had.co.nz/namespace.html</a></li>
-<li>More about roxygen: <a href="http://r-pkgs.had.co.nz/man.html#roxygen-comments" target="_blank">http://r-pkgs.had.co.nz/man.html#roxygen-comments</a></li>
+<li>If you want to know how R searches for a function across its environments and why namespaces are a good thing, this is an excellent writeup: <a href="http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/">http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/</a></li>
+<li>More about the <code>usethis</code> workflow: <a href="https://www.hvitfeldt.me/blog/usethis-workflow-for-package-development/">https://www.hvitfeldt.me/blog/usethis-workflow-for-package-development/</a></li>
+<li>More about the <code>DESCRIPTION</code> file: <a href="http://r-pkgs.had.co.nz/description.html">http://r-pkgs.had.co.nz/description.html</a></li>
+<li>More about namespaces: <a href="http://r-pkgs.had.co.nz/namespace.html">http://r-pkgs.had.co.nz/namespace.html</a></li>
+<li>More about roxygen: <a href="http://r-pkgs.had.co.nz/man.html#roxygen-comments">http://r-pkgs.had.co.nz/man.html#roxygen-comments</a></li>
 <li>An alternative workflow to modify the <code>DESCRIPTION</code> file: You can use <code>attachment::att_to_description()</code> to scan code and add packages to the file after coding (thanks,  Sébastien!).</li>
 </ul>
-
 <h2 id="acknowledgements">Acknowledgements</h2>
-
 <p>Thanks to Hao Ye, Sébastien Rochette, Michael Chirico, Tim Hesterberg, and Hadley Wickham for their comments and questions. I&rsquo;ve incorporated your suggestions.</p>
-
 <h2 id="note">Note</h2>
-
-<p>I want this to be clear and correct. Please <a href="mailto:laderast@ohsu.edu" target="_blank">email me</a> if there are any mistakes I&rsquo;ve made.</p>
+<p>I want this to be clear and correct. Please <a href="mailto:laderast@ohsu.edu">email me</a> if there are any mistakes I&rsquo;ve made.</p>
 
       </div>
 
@@ -616,9 +548,9 @@ use_filter &lt;- function(df, cutoff=0.5) {
     
     <li><a href="/2018/01/24/gradual-introduction-to-shiny/">A gRadual Introduction to Shiny</a></li>
     
-    <li><a href="/teaching/data_analytics/">Data Analytics</a></li>
-    
     <li><a href="/teaching/clinical_wrangling/">Clinical Data Wrangling Workshop</a></li>
+    
+    <li><a href="/teaching/data_analytics/">Data Analytics</a></li>
     
     <li><a href="/teaching/igraph_tutorial/">Introduction to igraph</a></li>
     
@@ -637,7 +569,7 @@ use_filter &lt;- function(df, cutoff=0.5) {
   <div class="container">
     <p class="powered-by">
 
-      &copy; 2018 &middot; 
+      © 2018 &middot; 
 
       Powered by the
       <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

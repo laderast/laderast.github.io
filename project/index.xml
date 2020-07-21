@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Ted Laderas, PhD</title>
@@ -18,7 +18,7 @@
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/project/sample_flow_dashboard/</guid>
-      <description></description>
+      <description>A Sample App built with the &lt;a href=&#34;http://github.com/laderast/flowDashboard&#34;&gt;flowDashboard Shiny Modules&lt;/a&gt; package. Meant for visualization of high throughput flow cytometry data. &lt;a href=&#34;http://github.com/laderast/sampleFlowDashboard&#34;&gt;Repo&lt;/a&gt;</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/project/nhanes_explorer/</guid>
-      <description></description>
+      <description>A Depression focused shiny app for the NHANES (National Health and Nutrition Examination Survey) dataset. Built with &lt;a href=&#34;http://laderast.github.io/burro&#34;&gt;burro&lt;/a&gt;.</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/introduction_to_interactive_vis/</guid>
-      <description></description>
+      <description>RMarkdown/Shiny slides introducion for our &lt;a href=&#34;http://laderast.github.io/AnalyticsCourse&#34;&gt;BMI 569/669 Data Analytics&lt;/a&gt; course to interactive visualizations.</description>
     </item>
     
     <item>
@@ -45,7 +45,7 @@
       <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/introduction_to_data_literacy/</guid>
-      <description></description>
+      <description>LearnR Tutorial introducing our &lt;a href=&#34;https://laderast.github.io/HSMP410/&#34;&gt;HSMP Health Informatics Class&lt;/a&gt; to data literacy concepts. Based on a great &lt;a href=&#34;https://github.com/bearloga/wmf-allhands18&#34;&gt;LearnR tutorial from Mikhail Popov&lt;/a&gt;. &lt;a href=&#34;https://github.com/laderast/dataLiteracyTutorial&#34;&gt;Repo&lt;/a&gt;</description>
     </item>
     
     <item>
@@ -54,7 +54,7 @@
       <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/party_explorer/</guid>
-      <description></description>
+      <description>Simple Shiny App to explore decision tree building with the &lt;a href=&#34;https://cran.r-project.org/web/packages/party/index.html&#34;&gt;party&lt;/a&gt; paackage. &lt;a href=&#34;http://github.com/laderast/partyExplorer&#34;&gt;Repo&lt;/a&gt;</description>
     </item>
     
     <item>
@@ -63,7 +63,7 @@
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/project/categorical_data/</guid>
-      <description></description>
+      <description>LearnR tutorial for the &lt;a href=&#34;https://ohsulibrary-datascienceinstitute.github.io/&#34;&gt;OHSU Data Science Institute&lt;/a&gt; introducing students to concepts of categorical data analysis. Part of the &lt;a href=&#34;https://github.com/laderast/DSIExplore&#34;&gt;DSIExplore&lt;/a&gt; package authored with Jessica Minnier.</description>
     </item>
     
     <item>
@@ -72,7 +72,7 @@
       <pubDate>Sun, 22 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>/project/visual_intro_clustering/</guid>
-      <description></description>
+      <description>Interactive slides with apps to explore properties of clustering algorithms. Built with RMarkdown/Shiny</description>
     </item>
     
     <item>
@@ -81,7 +81,7 @@
       <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>
       
       <guid>/project/surrogate_oncogene_explorer/</guid>
-      <description></description>
+      <description>One of my first shiny apps. Heatmap interface to explore the network effect of gene alterations on &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4688377/&#34;&gt;networked oncogene signatures&lt;/a&gt;. &lt;a href=&#34;https://github.com/laderast/surrogateShiny&#34;&gt;Repo&lt;/a&gt;</description>
     </item>
     
   </channel>

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Biodata-club on Ted Laderas, PhD</title>
+    <title>biodata-club on Ted Laderas, PhD</title>
     <link>/tags/biodata-club/</link>
-    <description>Recent content in Biodata-club on Ted Laderas, PhD</description>
+    <description>Recent content in biodata-club on Ted Laderas, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
@@ -18,7 +18,7 @@
       <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/teaching/data_nhanes/</guid>
-      <description></description>
+      <description>An introduction to Exploratory Data Analysis using the &lt;a href=&#34;http://laderast.github.io/burro&#34;&gt;burro&lt;/a&gt; app to explore outcomes using the NHANES (National Health and Nutrition Examination Survey) dataset. With Jessica Minnier and Thomas Frohwein.</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/teaching/github_pages/</guid>
-      <description></description>
+      <description>A pain free introduction to getting a personal academic website started using GitHub pages. With Robin Champieux, Eric Earl, and Eric Leung.</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/teaching/magic_of_markdown/</guid>
-      <description></description>
+      <description>An introduction to the many uses of Markdown, including RMarkdown for reproducible scripting.</description>
     </item>
     
   </channel>

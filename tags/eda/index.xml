@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>EDA on Ted Laderas, PhD</title>
@@ -18,7 +18,7 @@
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/project/nhanes_explorer/</guid>
-      <description></description>
+      <description>A Depression focused shiny app for the NHANES (National Health and Nutrition Examination Survey) dataset. Built with &lt;a href=&#34;http://laderast.github.io/burro&#34;&gt;burro&lt;/a&gt;.</description>
     </item>
     
   </channel>

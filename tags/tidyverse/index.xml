@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tidyverse on Ted Laderas, PhD</title>
+    <title>tidyverse on Ted Laderas, PhD</title>
     <link>/tags/tidyverse/</link>
-    <description>Recent content in Tidyverse on Ted Laderas, PhD</description>
+    <description>Recent content in tidyverse on Ted Laderas, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
@@ -18,7 +18,7 @@
       <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/teaching/r-bootcamp/</guid>
-      <description></description>
+      <description>In this course, we cover the basics of visualization, data munging, and basic statistics using the &lt;a href=&#34;http://tidyverse.org&#34;&gt;tidyverse in R&lt;/a&gt;. It is freely available to everyone and runs off the &lt;a href=&#34;http://mybinder.org&#34;&gt;Binder cloud service&lt;/a&gt;. Written with &lt;a href=&#34;http://jessicaminnier.com/&#34;&gt;Jessica Minnier&lt;/a&gt;.</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/teaching/gradual_tidyverse/</guid>
-      <description></description>
+      <description>A workshop that &lt;a href=&#34;http://ismayc.github.io&#34;&gt;Chester Ismay&lt;/a&gt; and I gave for &lt;a href=&#34;http://cascadiarconf.com&#34;&gt;Cascadia-R&lt;/a&gt; teaching the basics of the &lt;code&gt;tidyverse&lt;/code&gt;: &lt;code&gt;ggplot2&lt;/code&gt;, &lt;code&gt;dplyr&lt;/code&gt;, and &lt;code&gt;tidyr&lt;/code&gt;.</description>
     </item>
     
   </channel>
