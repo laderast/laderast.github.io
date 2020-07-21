@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ted Laderas, PhD</title>
@@ -7,85 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Content tagged as &#39;Academic&#39;</title>
-      <link>/tags/academic/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <title>self sacrifice</title>
+      <link>/tags/self-sacrifice/</link>
+      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/academic/</guid>
-      <description>Here is a list of all the content that has been tagged as academic.</description>
-    </item>
-    
-    <item>
-      <title>Academia</title>
-      <link>/tags/academia/</link>
-      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/academia/</guid>
+      <guid>/tags/self-sacrifice/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Analytics</title>
-      <link>/tags/analytics/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/analytics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Apps</title>
-      <link>/tags/apps/</link>
-      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/apps/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Arts music plasticity cross-discipline</title>
-      <link>/tags/arts-music-plasticity-cross-discipline/</link>
-      <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/arts-music-plasticity-cross-discipline/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Beginners</title>
-      <link>/tags/beginners/</link>
-      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/beginners/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Biodata-club</title>
-      <link>/tags/biodata-club/</link>
-      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/biodata-club/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bioinformatics</title>
-      <link>/tags/bioinformatics/</link>
-      <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/bioinformatics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Burnout</title>
+      <title>burnout</title>
       <link>/tags/burnout/</link>
       <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
       
@@ -94,25 +31,70 @@
     </item>
     
     <item>
-      <title>Cancer</title>
-      <link>/tags/cancer/</link>
-      <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>
+      <title>depression</title>
+      <link>/tags/depression/</link>
+      <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/cancer/</guid>
+      <guid>/tags/depression/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Clinical data</title>
-      <link>/tags/clinical-data/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/clinical-data/</guid>
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Clinical-data</title>
+      <title>tidyverse</title>
+      <link>/tags/tidyverse/</link>
+      <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tidyverse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>development</title>
+      <link>/tags/development/</link>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devtools</title>
+      <link>/tags/devtools/</link>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/devtools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>package</title>
+      <link>/tags/package/</link>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/package/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>biodata-club</title>
+      <link>/tags/biodata-club/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/biodata-club/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>clinical data</title>
       <link>/tags/clinical-data/</link>
       <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -121,29 +103,56 @@
     </item>
     
     <item>
-      <title>Cluster-computing</title>
-      <link>/tags/cluster-computing/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      <title>nhanes</title>
+      <link>/tags/nhanes/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/cluster-computing/</guid>
+      <guid>/tags/nhanes/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Clustering</title>
-      <link>/tags/clustering/</link>
-      <pubDate>Sun, 22 Jan 2017 00:00:00 +0000</pubDate>
+      <title>shiny</title>
+      <link>/tags/shiny/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/clustering/</guid>
+      <guid>/tags/shiny/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Conferences</title>
-      <link>/tags/conferences/</link>
-      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      <title>workshop</title>
+      <link>/tags/workshop/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/conferences/</guid>
+      <guid>/tags/workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>education</title>
+      <link>/tags/education/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>organizations</title>
+      <link>/tags/organizations/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/organizations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rstudio</title>
+      <link>/tags/rstudio/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rstudio/</guid>
       <description></description>
     </item>
     
@@ -166,74 +175,11 @@
     </item>
     
     <item>
-      <title>Data science</title>
-      <link>/tags/data-science/</link>
-      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/data-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data-science ODSC</title>
-      <link>/tags/data-science-odsc/</link>
-      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/data-science-odsc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Depression</title>
-      <link>/tags/depression/</link>
-      <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/depression/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Development</title>
-      <link>/tags/development/</link>
-      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Devtools</title>
-      <link>/tags/devtools/</link>
-      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/devtools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Digital-scholarship</title>
-      <link>/tags/digital-scholarship/</link>
-      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/digital-scholarship/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>EDA</title>
       <link>/tags/eda/</link>
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/eda/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Education</title>
-      <link>/tags/education/</link>
-      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/education/</guid>
       <description></description>
     </item>
     
@@ -247,259 +193,7 @@
     </item>
     
     <item>
-      <title>Git hell</title>
-      <link>/tags/git-hell/</link>
-      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/git-hell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Github pages</title>
-      <link>/tags/github-pages/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/github-pages/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gwas active-learning open-education oer</title>
-      <link>/tags/gwas-active-learning-open-education-oer/</link>
-      <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/gwas-active-learning-open-education-oer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Improvisation</title>
-      <link>/tags/improvisation/</link>
-      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/improvisation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Informatics</title>
-      <link>/tags/informatics/</link>
-      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/informatics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Informational interview</title>
-      <link>/tags/informational-interview/</link>
-      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/informational-interview/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Inputs</title>
-      <link>/tags/inputs/</link>
-      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/inputs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Interactive visualization</title>
-      <link>/tags/interactive-visualization/</link>
-      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/interactive-visualization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introverts</title>
-      <link>/tags/introverts/</link>
-      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/introverts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Journal retraction</title>
-      <link>/tags/journal-retraction/</link>
-      <pubDate>Sun, 24 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/journal-retraction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jupyter</title>
-      <link>/tags/jupyter/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/jupyter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Librarians</title>
-      <link>/tags/librarians/</link>
-      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/librarians/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine-learning</title>
-      <link>/tags/machine-learning/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Markdown</title>
-      <link>/tags/markdown/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Music</title>
-      <link>/tags/music/</link>
-      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/music/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Network</title>
-      <link>/tags/network/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/network/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Neuroscience</title>
-      <link>/tags/neuroscience/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/neuroscience/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nhanes</title>
-      <link>/tags/nhanes/</link>
-      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/nhanes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NlmT15</title>
-      <link>/tags/nlmt15/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/nlmt15/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Oncogene</title>
-      <link>/tags/oncogene/</link>
-      <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/oncogene/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open-source</title>
-      <link>/tags/open-source/</link>
-      <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/open-source/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Organizations</title>
-      <link>/tags/organizations/</link>
-      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/organizations/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Package</title>
-      <link>/tags/package/</link>
-      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/package/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Peer-mentoring community university</title>
-      <link>/tags/peer-mentoring-community-university/</link>
-      <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/peer-mentoring-community-university/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Publication</title>
-      <link>/tags/publication/</link>
-      <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/publication/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>/tags/python/</link>
-      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>/tags/r/</link>
-      <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>/tags/r/</link>
-      <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Research</title>
+      <title>research</title>
       <link>/tags/research/</link>
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -508,133 +202,7 @@
     </item>
     
     <item>
-      <title>Rstats</title>
-      <link>/tags/rstats/</link>
-      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/rstats/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rstats cascadia-R</title>
-      <link>/tags/rstats-cascadia-r/</link>
-      <pubDate>Wed, 07 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/rstats-cascadia-r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rstats tidyeval</title>
-      <link>/tags/rstats-tidyeval/</link>
-      <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/rstats-tidyeval/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rstudio</title>
-      <link>/tags/rstudio/</link>
-      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/rstudio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Self sacrifice</title>
-      <link>/tags/self-sacrifice/</link>
-      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/self-sacrifice/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Self-care self-compassion</title>
-      <link>/tags/self-care-self-compassion/</link>
-      <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/self-care-self-compassion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Separating-code</title>
-      <link>/tags/separating-code/</link>
-      <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/separating-code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shiny</title>
-      <link>/tags/shiny/</link>
-      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/shiny/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software rstats bioconductor</title>
-      <link>/tags/software-rstats-bioconductor/</link>
-      <pubDate>Sat, 13 Jan 2018 17:28:30 -0800</pubDate>
-      
-      <guid>/tags/software-rstats-bioconductor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Somatic mutations</title>
-      <link>/tags/somatic-mutations/</link>
-      <pubDate>Tue, 26 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/somatic-mutations/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Survival</title>
-      <link>/tags/survival/</link>
-      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/survival/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Synthetic-data data-science</title>
-      <link>/tags/synthetic-data-data-science/</link>
-      <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/synthetic-data-data-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Systems science</title>
-      <link>/tags/systems-science/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/systems-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Talking</title>
-      <link>/tags/talking/</link>
-      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/talking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Teaching</title>
+      <title>teaching</title>
       <link>/tags/teaching/</link>
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -643,43 +211,25 @@
     </item>
     
     <item>
-      <title>This</title>
-      <link>/tags/this/</link>
-      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
+      <title>interactive visualization</title>
+      <link>/tags/interactive-visualization/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/this/</guid>
+      <guid>/tags/interactive-visualization/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tidyeval</title>
-      <link>/tags/tidyeval/</link>
-      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
+      <title>rstats</title>
+      <link>/tags/rstats/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/tidyeval/</guid>
+      <guid>/tags/rstats/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tidyverse</title>
-      <link>/tags/tidyverse/</link>
-      <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/tidyverse/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>UseR</title>
-      <link>/tags/user/</link>
-      <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/user/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Visualization</title>
+      <title>visualization</title>
       <link>/tags/visualization/</link>
       <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
       
@@ -688,11 +238,443 @@
     </item>
     
     <item>
-      <title>Workshop</title>
-      <link>/tags/workshop/</link>
-      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      <title>apps</title>
+      <link>/tags/apps/</link>
+      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/workshop/</guid>
+      <guid>/tags/apps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>inputs</title>
+      <link>/tags/inputs/</link>
+      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/inputs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>this</title>
+      <link>/tags/this/</link>
+      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/this/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tidyeval</title>
+      <link>/tags/tidyeval/</link>
+      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tidyeval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>academia</title>
+      <link>/tags/academia/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/academia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>self-care self-compassion</title>
+      <link>/tags/self-care-self-compassion/</link>
+      <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/self-care-self-compassion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>improvisation</title>
+      <link>/tags/improvisation/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/improvisation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music</title>
+      <link>/tags/music/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>conferences</title>
+      <link>/tags/conferences/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/conferences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>introverts</title>
+      <link>/tags/introverts/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/introverts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>survival</title>
+      <link>/tags/survival/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/survival/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>informatics</title>
+      <link>/tags/informatics/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/informatics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gwas active-learning open-education oer</title>
+      <link>/tags/gwas-active-learning-open-education-oer/</link>
+      <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gwas-active-learning-open-education-oer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>digital-scholarship</title>
+      <link>/tags/digital-scholarship/</link>
+      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/digital-scholarship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>librarians</title>
+      <link>/tags/librarians/</link>
+      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/librarians/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>systems science</title>
+      <link>/tags/systems-science/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/systems-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>beginners</title>
+      <link>/tags/beginners/</link>
+      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/beginners/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>/tags/python/</link>
+      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data science</title>
+      <link>/tags/data-science/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>informational interview</title>
+      <link>/tags/informational-interview/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/informational-interview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>talking</title>
+      <link>/tags/talking/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/talking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software rstats bioconductor</title>
+      <link>/tags/software-rstats-bioconductor/</link>
+      <pubDate>Sat, 13 Jan 2018 17:28:30 -0800</pubDate>
+      
+      <guid>/tags/software-rstats-bioconductor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git hell</title>
+      <link>/tags/git-hell/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/git-hell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rstats tidyeval</title>
+      <link>/tags/rstats-tidyeval/</link>
+      <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rstats-tidyeval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>synthetic-data data-science</title>
+      <link>/tags/synthetic-data-data-science/</link>
+      <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/synthetic-data-data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data-science ODSC</title>
+      <link>/tags/data-science-odsc/</link>
+      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data-science-odsc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>separating-code</title>
+      <link>/tags/separating-code/</link>
+      <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/separating-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>useR</title>
+      <link>/tags/user/</link>
+      <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/user/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>analytics</title>
+      <link>/tags/analytics/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cluster-computing</title>
+      <link>/tags/cluster-computing/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cluster-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github pages</title>
+      <link>/tags/github-pages/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/github-pages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jupyter</title>
+      <link>/tags/jupyter/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/jupyter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine-learning</title>
+      <link>/tags/machine-learning/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>/tags/markdown/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network</title>
+      <link>/tags/network/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>neuroscience</title>
+      <link>/tags/neuroscience/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/neuroscience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nlmT15</title>
+      <link>/tags/nlmt15/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/nlmt15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rstats cascadia-R</title>
+      <link>/tags/rstats-cascadia-r/</link>
+      <pubDate>Wed, 07 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rstats-cascadia-r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open-source</title>
+      <link>/tags/open-source/</link>
+      <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>arts music plasticity cross-discipline</title>
+      <link>/tags/arts-music-plasticity-cross-discipline/</link>
+      <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/arts-music-plasticity-cross-discipline/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>peer-mentoring community university</title>
+      <link>/tags/peer-mentoring-community-university/</link>
+      <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/peer-mentoring-community-university/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clustering</title>
+      <link>/tags/clustering/</link>
+      <pubDate>Sun, 22 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/clustering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>/tags/academic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/academic/</guid>
+      <description>Here is a list of all the content that has been tagged as academic.</description>
+    </item>
+    
+    <item>
+      <title>publication</title>
+      <link>/tags/publication/</link>
+      <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/publication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bioinformatics</title>
+      <link>/tags/bioinformatics/</link>
+      <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bioinformatics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>somatic mutations</title>
+      <link>/tags/somatic-mutations/</link>
+      <pubDate>Tue, 26 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/somatic-mutations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>journal retraction</title>
+      <link>/tags/journal-retraction/</link>
+      <pubDate>Sun, 24 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/journal-retraction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cancer</title>
+      <link>/tags/cancer/</link>
+      <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cancer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oncogene</title>
+      <link>/tags/oncogene/</link>
+      <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/oncogene/</guid>
       <description></description>
     </item>
     

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Informatics on Ted Laderas, PhD</title>
+    <title>informatics on Ted Laderas, PhD</title>
     <link>/tags/informatics/</link>
-    <description>Recent content in Informatics on Ted Laderas, PhD</description>
+    <description>Recent content in informatics on Ted Laderas, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
@@ -28,7 +28,7 @@ I&amp;rsquo;m trying to make most of my lectures activity-driven for my students
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/teaching/health_informatics/</guid>
-      <description></description>
+      <description>Course material I have been developing for PHE427, Health Informatics. This is a course that is co-taught with Bill Hersh for the OHSU/PSU School of Public Health. They are intended for students with very little math and programming background. Where possible, I’ve tried to have hands-on activities for each of the subjects.</description>
     </item>
     
   </channel>

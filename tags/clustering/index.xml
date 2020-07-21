@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Clustering on Ted Laderas, PhD</title>
@@ -18,7 +18,7 @@
       <pubDate>Sun, 22 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>/project/visual_intro_clustering/</guid>
-      <description></description>
+      <description>Interactive slides with apps to explore properties of clustering algorithms. Built with RMarkdown/Shiny</description>
     </item>
     
   </channel>

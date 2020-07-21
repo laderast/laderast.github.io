@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Ted Laderas, PhD</title>
@@ -7,79 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 23 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Conference</title>
-      <link>/categories/conference/</link>
-      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      <title>self-care</title>
+      <link>/categories/self-care/</link>
+      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/conference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Creativity science</title>
-      <link>/categories/creativity-science/</link>
-      <pubDate>Mon, 09 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/creativity-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data-science systems</title>
-      <link>/categories/data-science-systems/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/data-science-systems/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>/categories/git/</link>
-      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Git hell</title>
-      <link>/categories/git-hell/</link>
-      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/git-hell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>List</title>
-      <link>/categories/list/</link>
-      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/list/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Networking</title>
-      <link>/categories/networking/</link>
-      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/networking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Oer open-education informatics</title>
-      <link>/categories/oer-open-education-informatics/</link>
-      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/oer-open-education-informatics/</guid>
+      <guid>/categories/self-care/</guid>
       <description></description>
     </item>
     
@@ -93,16 +31,25 @@
     </item>
     
     <item>
-      <title>Self-care</title>
-      <link>/categories/self-care/</link>
-      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
+      <title>conference</title>
+      <link>/categories/conference/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/self-care/</guid>
+      <guid>/categories/conference/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Shiny</title>
+      <title>visualization</title>
+      <link>/categories/visualization/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/visualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shiny</title>
       <link>/categories/shiny/</link>
       <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -111,7 +58,25 @@
     </item>
     
     <item>
-      <title>Social</title>
+      <title>list</title>
+      <link>/categories/list/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/list/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>networking</title>
+      <link>/categories/networking/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/networking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>social</title>
       <link>/categories/social/</link>
       <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
       
@@ -120,16 +85,16 @@
     </item>
     
     <item>
-      <title>Talking</title>
-      <link>/categories/talking/</link>
-      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      <title>oer open-education informatics</title>
+      <link>/categories/oer-open-education-informatics/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/talking/</guid>
+      <guid>/categories/oer-open-education-informatics/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Teaching</title>
+      <title>teaching</title>
       <link>/categories/teaching/</link>
       <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
       
@@ -138,11 +103,38 @@
     </item>
     
     <item>
-      <title>Visualization</title>
-      <link>/categories/visualization/</link>
-      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      <title>data-science systems</title>
+      <link>/categories/data-science-systems/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/visualization/</guid>
+      <guid>/categories/data-science-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>talking</title>
+      <link>/categories/talking/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/talking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>/categories/git/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git hell</title>
+      <link>/categories/git-hell/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/git-hell/</guid>
       <description></description>
     </item>
     
