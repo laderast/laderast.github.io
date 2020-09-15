@@ -36,7 +36,7 @@
 
 &lt;h2 id=&#34;why-would-we-want-to-run-learnr-tutorials-off-mybinder-org&#34;&gt;Why would we want to run learnr tutorials off mybinder.org?&lt;/h2&gt;
 
-&lt;p&gt;The short answer is making your material accessible to as many people as possible. &lt;code&gt;learnr&lt;/code&gt; tutorials can be run from a phone or tablit, and running your tutorial for a lot of people doesn&amp;rsquo;t cost you any bandwidth or usage costs, as you&amp;rsquo;re using the same infrastructure that mybinder.org provides.&lt;/p&gt;
+&lt;p&gt;The short answer is making your material accessible to as many people as possible. &lt;code&gt;learnr&lt;/code&gt; tutorials can be run from a phone or tablet, and running your tutorial for a lot of people doesn&amp;rsquo;t cost you any bandwidth or usage costs, as you&amp;rsquo;re using the same infrastructure that mybinder.org provides.&lt;/p&gt;
 
 &lt;h2 id=&#34;quick-review-of-learnr-package-structure&#34;&gt;Quick Review of &lt;code&gt;learnr&lt;/code&gt; package structure&lt;/h2&gt;
 
@@ -133,7 +133,7 @@ mv inst/tutorials/learning_rowwise/ .
 
 &lt;p&gt;The &lt;code&gt;urlpath&lt;/code&gt; is a signal to mybinder that it will need to run shiny, and you&amp;rsquo;ll put the name of your tutorial folder instead of &lt;code&gt;learning_tidyselect&lt;/code&gt;. Note the trailing slash after &lt;code&gt;learning_tidyselect&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;So, my final URL for the &lt;code&gt;learning_tidyselect&lt;/code&gt; tutorial is this:&lt;/p&gt;
+&lt;p&gt;So, my final URL for the &lt;code&gt;learning_tidyselect&lt;/code&gt; tutorial is this (click it and try it out):&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://mybinder.org/v2/gh/laderast/tidyowl/master?urlpath=shiny/learning_tidyselect/&#34; target=&#34;_blank&#34;&gt;https://mybinder.org/v2/gh/laderast/tidyowl/master?urlpath=shiny/learning_tidyselect/&lt;/a&gt;&lt;/p&gt;
 
