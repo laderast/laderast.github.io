@@ -427,9 +427,7 @@ Since learnr is based on shiny, these tutorials can also be published to a Shiny
 
 <p>In short, you&rsquo;ll need 3 files to make your <code>learnr</code> tutorial mybinder.org ready: a <code>runtime.txt</code>, a <code>install.R</code>, and a <code>postBuild</code> file in order to make your <code>learnr</code> package compatible with mybinder.org. Let&rsquo;s go through the steps:</p>
 
-<ol>
-<li>Specify a <code>runtime.txt</code> file in your root folder. You&rsquo;ll need a file called <code>runtime.txt</code> that contains a single line:</li>
-</ol>
+<p>Step 1. Specify a <code>runtime.txt</code> file in your root folder. You&rsquo;ll need a file called <code>runtime.txt</code> that contains a single line:</p>
 
 <pre><code>r-3.6-2020-08-01
 </code></pre>
@@ -440,18 +438,16 @@ Since learnr is based on shiny, these tutorials can also be published to a Shiny
 
 <p><em>Another Note: I tried to get this to work with a <code>Dockerfile</code> using the <code>rocker/binder</code> images, but I couldn&rsquo;t get this image to work. If anyone has gotten this working, I&rsquo;d appreciate you sharing how you did it.</em></p>
 
-<ol>
-<li>Specify package dependencies using <code>install.R</code> in your root folder - in this file, you&rsquo;ll need to specify all the packages your tutorial is dependent on using <code>install.packages()</code> commands. Here&rsquo;s the contents of my <code>install.R</code> file:</li>
-</ol>
+<p>Step 2. Specify package dependencies using <code>install.R</code> in your root folder - in this file, you&rsquo;ll need to specify all the packages your tutorial is dependent on using <code>install.packages()</code> commands. Here&rsquo;s the contents of my <code>install.R</code> file:</p>
 
 <pre><code>install.packages(&quot;learnr&quot;)
 install.packages(&quot;here&quot;)
 install.packages(&quot;tidyverse&quot;)
 </code></pre>
 
-<ol>
-<li>Specify moving the tutorials in <code>inst/tutorials/</code> to the repository root folder using the <code>postBuild</code> folder. These commands are run after the container is built and will make the tutorials accessible via Binder.</li>
-</ol>
+<p>Note: getting the dependencies right in package building can be major headaches to getting your binder container to work. You may have to specify some <a href="https://mybinder.readthedocs.io/en/latest/config_files.html" target="_blank">system dependencies</a> in your <code>apt.txt</code> file for certain packages. This information is available here: <a href="https://github.com/rstudio/r-system-requirements" target="_blank">https://github.com/rstudio/r-system-requirements</a></p>
+
+<p>Step 3. Specify moving the tutorials in <code>inst/tutorials/</code> to the repository root folder using the <code>postBuild</code> folder. These commands are run after the container is built and will make the tutorials accessible via Binder.</p>
 
 <p>For example, for the <code>tidyowl</code> package, I have these <code>mv</code> commands in my <code>postBuild</code>:</p>
 
@@ -463,7 +459,9 @@ mv inst/tutorials/learning_rowwise/ .
 
 <h3 id="note-using-holepunch">Note: Using <code>holepunch</code></h3>
 
-<p>I believe you can also use <code>holepunch</code> to make setup a little easier. <a href="https://github.com/karthik/holepunch" target="_blank">https://github.com/karthik/holepunch</a> I haven&rsquo;t tried it yet.</p>
+<p>I believe you can also use <code>holepunch</code> to make setup a little easier. <a href="https://github.com/karthik/holepunch" target="_blank">https://github.com/karthik/holepunch</a></p>
+
+<p>I haven&rsquo;t tried it yet, but will update this when I do.</p>
 
 <h2 id="build-the-docker-image-for-your-tutorial">Build the Docker Image for your tutorial</h2>
 
@@ -471,7 +469,7 @@ mv inst/tutorials/learning_rowwise/ .
 
 <p>When you&rsquo;re ready, go to <a href="https://mybinder.org" target="_blank">https://mybinder.org</a> and put in the public location of your repository. Then click the &ldquo;Launch&rdquo; button.</p>
 
-<p>Now your container will build. Note that this will take a little while (10+ minutes), especially if you need to install something like <code>tidyverse</code>.</p>
+<p>Now your container will build. Note that this will take a little while (10+ minutes), especially if you need to install something like <code>tidyverse</code>. Note that this can be one of the hardest steps to get going, especially if you need packages such as <code>sf</code> (see above for a link to system dependencies).</p>
 
 <p><img src="/img/2020-learnr/binder_repo.jpg"></p>
 

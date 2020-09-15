@@ -60,9 +60,7 @@
 
 &lt;p&gt;In short, you&amp;rsquo;ll need 3 files to make your &lt;code&gt;learnr&lt;/code&gt; tutorial mybinder.org ready: a &lt;code&gt;runtime.txt&lt;/code&gt;, a &lt;code&gt;install.R&lt;/code&gt;, and a &lt;code&gt;postBuild&lt;/code&gt; file in order to make your &lt;code&gt;learnr&lt;/code&gt; package compatible with mybinder.org. Let&amp;rsquo;s go through the steps:&lt;/p&gt;
 
-&lt;ol&gt;
-&lt;li&gt;Specify a &lt;code&gt;runtime.txt&lt;/code&gt; file in your root folder. You&amp;rsquo;ll need a file called &lt;code&gt;runtime.txt&lt;/code&gt; that contains a single line:&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;Step 1. Specify a &lt;code&gt;runtime.txt&lt;/code&gt; file in your root folder. You&amp;rsquo;ll need a file called &lt;code&gt;runtime.txt&lt;/code&gt; that contains a single line:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;r-3.6-2020-08-01
 &lt;/code&gt;&lt;/pre&gt;
@@ -73,18 +71,16 @@
 
 &lt;p&gt;&lt;em&gt;Another Note: I tried to get this to work with a &lt;code&gt;Dockerfile&lt;/code&gt; using the &lt;code&gt;rocker/binder&lt;/code&gt; images, but I couldn&amp;rsquo;t get this image to work. If anyone has gotten this working, I&amp;rsquo;d appreciate you sharing how you did it.&lt;/em&gt;&lt;/p&gt;
 
-&lt;ol&gt;
-&lt;li&gt;Specify package dependencies using &lt;code&gt;install.R&lt;/code&gt; in your root folder - in this file, you&amp;rsquo;ll need to specify all the packages your tutorial is dependent on using &lt;code&gt;install.packages()&lt;/code&gt; commands. Here&amp;rsquo;s the contents of my &lt;code&gt;install.R&lt;/code&gt; file:&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;Step 2. Specify package dependencies using &lt;code&gt;install.R&lt;/code&gt; in your root folder - in this file, you&amp;rsquo;ll need to specify all the packages your tutorial is dependent on using &lt;code&gt;install.packages()&lt;/code&gt; commands. Here&amp;rsquo;s the contents of my &lt;code&gt;install.R&lt;/code&gt; file:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;learnr&amp;quot;)
 install.packages(&amp;quot;here&amp;quot;)
 install.packages(&amp;quot;tidyverse&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;ol&gt;
-&lt;li&gt;Specify moving the tutorials in &lt;code&gt;inst/tutorials/&lt;/code&gt; to the repository root folder using the &lt;code&gt;postBuild&lt;/code&gt; folder. These commands are run after the container is built and will make the tutorials accessible via Binder.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;Note: getting the dependencies right in package building can be major headaches to getting your binder container to work. You may have to specify some &lt;a href=&#34;https://mybinder.readthedocs.io/en/latest/config_files.html&#34; target=&#34;_blank&#34;&gt;system dependencies&lt;/a&gt; in your &lt;code&gt;apt.txt&lt;/code&gt; file for certain packages. This information is available here: &lt;a href=&#34;https://github.com/rstudio/r-system-requirements&#34; target=&#34;_blank&#34;&gt;https://github.com/rstudio/r-system-requirements&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Step 3. Specify moving the tutorials in &lt;code&gt;inst/tutorials/&lt;/code&gt; to the repository root folder using the &lt;code&gt;postBuild&lt;/code&gt; folder. These commands are run after the container is built and will make the tutorials accessible via Binder.&lt;/p&gt;
 
 &lt;p&gt;For example, for the &lt;code&gt;tidyowl&lt;/code&gt; package, I have these &lt;code&gt;mv&lt;/code&gt; commands in my &lt;code&gt;postBuild&lt;/code&gt;:&lt;/p&gt;
 
@@ -96,7 +92,9 @@ mv inst/tutorials/learning_rowwise/ .
 
 &lt;h3 id=&#34;note-using-holepunch&#34;&gt;Note: Using &lt;code&gt;holepunch&lt;/code&gt;&lt;/h3&gt;
 
-&lt;p&gt;I believe you can also use &lt;code&gt;holepunch&lt;/code&gt; to make setup a little easier. &lt;a href=&#34;https://github.com/karthik/holepunch&#34; target=&#34;_blank&#34;&gt;https://github.com/karthik/holepunch&lt;/a&gt; I haven&amp;rsquo;t tried it yet.&lt;/p&gt;
+&lt;p&gt;I believe you can also use &lt;code&gt;holepunch&lt;/code&gt; to make setup a little easier. &lt;a href=&#34;https://github.com/karthik/holepunch&#34; target=&#34;_blank&#34;&gt;https://github.com/karthik/holepunch&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I haven&amp;rsquo;t tried it yet, but will update this when I do.&lt;/p&gt;
 
 &lt;h2 id=&#34;build-the-docker-image-for-your-tutorial&#34;&gt;Build the Docker Image for your tutorial&lt;/h2&gt;
 
@@ -104,7 +102,7 @@ mv inst/tutorials/learning_rowwise/ .
 
 &lt;p&gt;When you&amp;rsquo;re ready, go to &lt;a href=&#34;https://mybinder.org&#34; target=&#34;_blank&#34;&gt;https://mybinder.org&lt;/a&gt; and put in the public location of your repository. Then click the &amp;ldquo;Launch&amp;rdquo; button.&lt;/p&gt;
 
-&lt;p&gt;Now your container will build. Note that this will take a little while (10+ minutes), especially if you need to install something like &lt;code&gt;tidyverse&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Now your container will build. Note that this will take a little while (10+ minutes), especially if you need to install something like &lt;code&gt;tidyverse&lt;/code&gt;. Note that this can be one of the hardest steps to get going, especially if you need packages such as &lt;code&gt;sf&lt;/code&gt; (see above for a link to system dependencies).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;/img/2020-learnr/binder_repo.jpg&#34;&gt;&lt;/p&gt;
 
