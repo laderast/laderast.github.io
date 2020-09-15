@@ -126,7 +126,7 @@ mv inst/tutorials/learning_rowwise/ .
 
 &lt;p&gt;You&amp;rsquo;ll add the following to your mybinder.org link:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;urlpath=shiny/learning_tidyselect/
+&lt;pre&gt;&lt;code&gt;?urlpath=shiny/learning_tidyselect/
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The &lt;code&gt;urlpath&lt;/code&gt; is a signal to mybinder that it will need to run shiny, and you&amp;rsquo;ll put the name of your tutorial folder instead of &lt;code&gt;learning_tidyselect&lt;/code&gt;. Note the trailing slash after &lt;code&gt;learning_tidyselect&lt;/code&gt;.&lt;/p&gt;
