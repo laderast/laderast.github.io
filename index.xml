@@ -11,6 +11,151 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Getting LearnR tutorials to run on mybinder.org</title>
+      <link>/2020/09/15/getting-learnr-tutorials-to-run-on-mybinder-org/</link>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/09/15/getting-learnr-tutorials-to-run-on-mybinder-org/</guid>
+      <description>
+
+&lt;p&gt;The &lt;code&gt;learnr&lt;/code&gt; package is a wonderful way to package your tutorials. Anyone can download a &lt;code&gt;learnr&lt;/code&gt; package of tutorials, and use &lt;code&gt;learnr::run_tutorial()&lt;/code&gt; to run them on their own personal system.&lt;/p&gt;
+
+&lt;p&gt;Since &lt;code&gt;learnr&lt;/code&gt; is based on &lt;code&gt;shiny&lt;/code&gt;, these tutorials can also be published to a &lt;code&gt;Shiny&lt;/code&gt; server such as &lt;code&gt;shinyapps.io&lt;/code&gt;. However, one drawback to this is that the more popular the tutorial, the more access time you may be on the hook for, which can rapidly become expensive.&lt;/p&gt;
+
+&lt;p&gt;Enter mybinder.org, which is a way of running reproducible analyses and tutorials. In short, you give a mybinder.org server some information about the software environment needed to run your code, and you can run code based on your repo. Mybinder.org servers are a little limited, (1 Gb RAM), but this is more than capable of running most &lt;code&gt;learnr&lt;/code&gt; tutorials.&lt;/p&gt;
+
+&lt;p&gt;Recently, they added Shiny as a deployable format, which means you can run shiny apps, including &lt;code&gt;learnr&lt;/code&gt; tutorial packages off their servers.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m starting a &lt;code&gt;learnr&lt;/code&gt; tutorial package called &lt;a href=&#34;https://github.com/laderas/tidyowl&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;tidyowl&lt;/code&gt;&lt;/a&gt; and I decided to share what I&amp;rsquo;ve learned.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-s-the-problem&#34;&gt;What&amp;rsquo;s the problem?&lt;/h2&gt;
+
+&lt;p&gt;However, there are some differences between the file structure of a &lt;code&gt;learnr&lt;/code&gt; package and the expected file structure of a shiny-ready mybinder.org repository.&lt;/p&gt;
+
+&lt;p&gt;Can we get both setups to work at the same time? Yes, we can.&lt;/p&gt;
+
+&lt;h2 id=&#34;why-would-we-want-to-run-learnr-tutorials-off-mybinder-org&#34;&gt;Why would we want to run learnr tutorials off mybinder.org?&lt;/h2&gt;
+
+&lt;p&gt;The short answer is making your material accessible to as many people as possible. &lt;code&gt;learnr&lt;/code&gt; tutorials can be run from a phone or tablit, and running your tutorial for a lot of people doesn&amp;rsquo;t cost you any bandwidth or usage costs, as you&amp;rsquo;re using the same infrastructure that mybinder.org provides.&lt;/p&gt;
+
+&lt;h2 id=&#34;quick-review-of-learnr-package-structure&#34;&gt;Quick Review of &lt;code&gt;learnr&lt;/code&gt; package structure&lt;/h2&gt;
+
+&lt;p&gt;For a package, &lt;code&gt;learnr&lt;/code&gt; tutorials are stored in the following folder:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;inst/tutorials/TUTORIAL_NAME&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;So, if you had a tutorial named &lt;code&gt;learning_shiny&lt;/code&gt; it would live in&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;inst/tutorials/learning_shiny/&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;and the &lt;code&gt;.Rmd&lt;/code&gt; file containing the tutorial should be named &lt;code&gt;learning_shiny.Rmd&lt;/code&gt; as well.&lt;/p&gt;
+
+&lt;p&gt;The problem I encountered is that mybinder.org expects your tutorial to exist as a folder in the root of the repo. In other words, it needs to see&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;learning_shiny/&lt;/code&gt; in the root of the repository to run.&lt;/p&gt;
+
+&lt;p&gt;We can fix this by adding a file called &lt;code&gt;postBuild&lt;/code&gt; that gives instructions to run after the software environment is built. We&amp;rsquo;ll use it to copy the tutorials into the root folder.&lt;/p&gt;
+
+&lt;h2 id=&#34;making-your-tutorial-mybinder-org-ready&#34;&gt;Making your tutorial mybinder.org ready&lt;/h2&gt;
+
+&lt;p&gt;In short, you&amp;rsquo;ll need 3 files to make your &lt;code&gt;learnr&lt;/code&gt; tutorial mybinder.org ready: a &lt;code&gt;runtime.txt&lt;/code&gt;, a &lt;code&gt;install.R&lt;/code&gt;, and a &lt;code&gt;postBuild&lt;/code&gt; file in order to make your &lt;code&gt;learnr&lt;/code&gt; package compatible with mybinder.org. Let&amp;rsquo;s go through the steps:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Specify a &lt;code&gt;runtime.txt&lt;/code&gt; file in your root folder. You&amp;rsquo;ll need a file called &lt;code&gt;runtime.txt&lt;/code&gt; that contains a single line:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;r-3.6-2020-08-01
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This gives mybinder.org the signal that the Docker image needs to have R installed. You can see that I specified a version (3.6) and a snapshot date (2020-08-01). These should be a valid version and date for the snapshot - check the MRAN pages for more info: &lt;a href=&#34;https://mran.microsoft.com/&#34; target=&#34;_blank&#34;&gt;https://mran.microsoft.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: When R 4.0 and greater is available in MRAN, you should move to it. It includes RStudio Package Manager, which installs the binary images rather than installing from source code which speeds up building the Docker images by quite a bit.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Another Note: I tried to get this to work with a &lt;code&gt;Dockerfile&lt;/code&gt; using the &lt;code&gt;rocker/binder&lt;/code&gt; images, but I couldn&amp;rsquo;t get this image to work. If anyone has gotten this working, I&amp;rsquo;d appreciate you sharing how you did it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Specify package dependencies using &lt;code&gt;install.R&lt;/code&gt; in your root folder - in this file, you&amp;rsquo;ll need to specify all the packages your tutorial is dependent on using &lt;code&gt;install.packages()&lt;/code&gt; commands. Here&amp;rsquo;s the contents of my &lt;code&gt;install.R&lt;/code&gt; file:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;learnr&amp;quot;)
+install.packages(&amp;quot;here&amp;quot;)
+install.packages(&amp;quot;tidyverse&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Specify moving the tutorials in &lt;code&gt;inst/tutorials/&lt;/code&gt; to the repository root folder using the &lt;code&gt;postBuild&lt;/code&gt; folder. These commands are run after the container is built and will make the tutorials accessible via Binder.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For example, for the &lt;code&gt;tidyowl&lt;/code&gt; package, I have these &lt;code&gt;mv&lt;/code&gt; commands in my &lt;code&gt;postBuild&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mv inst/tutorials/learning_tidyselect/ .
+mv inst/tutorials/learning_rowwise/ .
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You&amp;rsquo;ll need a &lt;code&gt;mv&lt;/code&gt; line for each tutorial that your package contains.&lt;/p&gt;
+
+&lt;h3 id=&#34;note-using-holepunch&#34;&gt;Note: Using &lt;code&gt;holepunch&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;I believe you can also use &lt;code&gt;holepunch&lt;/code&gt; to make setup a little easier. &lt;a href=&#34;https://github.com/karthik/holepunch&#34; target=&#34;_blank&#34;&gt;https://github.com/karthik/holepunch&lt;/a&gt; I haven&amp;rsquo;t tried it yet.&lt;/p&gt;
+
+&lt;h2 id=&#34;build-the-docker-image-for-your-tutorial&#34;&gt;Build the Docker Image for your tutorial&lt;/h2&gt;
+
+&lt;p&gt;Okay, almost there! Now we&amp;rsquo;re going to go to &lt;code&gt;mybinder.org&lt;/code&gt; to build your Docker image. This is the software environment that your tutorial will run off of. This image will have shiny-server and RStudio installed on it automatically, which makes debugging your package easier.&lt;/p&gt;
+
+&lt;p&gt;When you&amp;rsquo;re ready, go to &lt;a href=&#34;https://mybinder.org&#34; target=&#34;_blank&#34;&gt;https://mybinder.org&lt;/a&gt; and put in the public location of your repository. Then click the &amp;ldquo;Launch&amp;rdquo; button.&lt;/p&gt;
+
+&lt;p&gt;Now your container will build. Note that this will take a little while (10+ minutes), especially if you need to install something like &lt;code&gt;tidyverse&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/2020-learnr/binder_repo.jpg&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;When it&amp;rsquo;s done building, you&amp;rsquo;ll be at a Jupyter page. Click &amp;ldquo;New &amp;gt;&amp;gt; RStudio&amp;rdquo; to open up your image with RStudio.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/2020-learnr/binder_open_rstudio.jpg&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;You should see that your tutorial folders have been moved to the root folders. This is good confirmation that the &lt;code&gt;mv&lt;/code&gt; statements of &lt;code&gt;postBuild&lt;/code&gt; work. I personally like to have individual &lt;code&gt;data/&lt;/code&gt; folders in each tutorial, as it makes making them a little easier to deploy.&lt;/p&gt;
+
+&lt;p&gt;Test out running the tutorial by going to the .Rmd file and running it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/2020-learnr/binder_rstudio.jpg&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;ve setup everything right, you should see your &lt;code&gt;learnr&lt;/code&gt; tutorial popup. I will say that this is usually the fine tuning step that takes the longest.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: there is a GitHub action (&lt;a href=&#34;https://github.com/jupyterhub/repo2docker-action&#34; target=&#34;_blank&#34;&gt;https://github.com/jupyterhub/repo2docker-action&lt;/a&gt;) to rebuild your Docker image on new commits. I&amp;rsquo;ll be looking into this in the future.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;specify-the-url-for-running-your-tutorial&#34;&gt;Specify the URL for running your tutorial.&lt;/h2&gt;
+
+&lt;p&gt;Each tutorial in your package will need its own URL to run.&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;ll add the following to your mybinder.org link:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;urlpath=shiny/learning_tidyselect/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;urlpath&lt;/code&gt; is a signal to mybinder that it will need to run shiny, and you&amp;rsquo;ll put the name of your tutorial folder instead of &lt;code&gt;learning_tidyselect&lt;/code&gt;. Note the trailing slash after &lt;code&gt;learning_tidyselect&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;So, my final URL for the &lt;code&gt;learning_tidyselect&lt;/code&gt; tutorial is this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mybinder.org/v2/gh/laderast/tidyowl/master?urlpath=shiny/learning_tidyselect/&#34; target=&#34;_blank&#34;&gt;https://mybinder.org/v2/gh/laderast/tidyowl/master?urlpath=shiny/learning_tidyselect/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can now send this link out and nearly anyone in the world can run your &lt;code&gt;learnr&lt;/code&gt; tutorial without installing R and not using up precious Shinyapps.io CPU time!&lt;/p&gt;
+
+&lt;h2 id=&#34;caveats&#34;&gt;Caveats&lt;/h2&gt;
+
+&lt;p&gt;Shiny apps may suddenly disconnect - have students reload the page if that happens.&lt;/p&gt;
+
+&lt;p&gt;Images get deleted off the mybinder.org servers within a week, so it is worth automating your container build to do so every week so that your students don&amp;rsquo;t have to wait for your container image to rebuild.&lt;/p&gt;
+
+&lt;p&gt;Also, progress is not saved, because the final url is different each time you run it off mybinder.org servers.&lt;/p&gt;
+
+&lt;h2 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h2&gt;
+
+&lt;p&gt;Thanks so much to the &lt;code&gt;mybinder.org&lt;/code&gt; team, what they do is beyond awesome.&lt;/p&gt;
+
+&lt;p&gt;Thanks to Sang Yun Oh, whose repository helped me figure more of these details out. &lt;a href=&#34;https://github.com/syoh/learnr-tutorial&#34; target=&#34;_blank&#34;&gt;https://github.com/syoh/learnr-tutorial&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Notes on the RStudio Instructor Training Experience</title>
       <link>/2019/11/15/my-experience-with-rstudio-instructor-training/</link>
       <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
@@ -806,28 +951,6 @@ use_filter &amp;lt;- function(df, cutoff=0.5) {
 &lt;li&gt;&lt;a href=&#34;https://www.amazon.com/Blind-Spot-Effect-Missing-Whats-ebook/dp/B07413Q5Y7/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;The Blind Spot Effect: How to Stop Missing What&amp;rsquo;s Right in Front of You&lt;/em&gt;&lt;/a&gt; by Kelly Boys. I am really liking this book so far. It&amp;rsquo;s about how meditation and mindfulness can help us find our cognitive blind spots and move beyond them.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.amazon.com/Bird-Some-Instructions-Writing-Life/dp/0385480016/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Bird by Bird: Some Instructions on Writing and Life&lt;/em&gt;&lt;/a&gt; by Anne Lamott. I recently started reading this on vacation. Writing can be a lonely and solitary life, and I find many of her suggestions about living to apply equally well to research.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Asking for help to get better</title>
-      <link>/2018/06/25/asking-for-help-to-get-better/</link>
-      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/06/25/asking-for-help-to-get-better/</guid>
-      <description>&lt;p&gt;I want to thank everyone who has reached out to me after I wrote &lt;a href=&#34;http://laderast.github.io/2018/06/05/self-care-and-self-compassion-in-academia/&#34; target=&#34;_blank&#34;&gt;my post on struggling with my depression and self-care&lt;/a&gt;. I am incredibly grateful for everyone’s concern about me. I wrote that at a low point in my life because I had to. I was suffering too long in silence, and I needed to do something. Writing that post was incredibly scary. I am still worried that it may be used against me somehow down the line when I am reviewed for tenure. But the truth is that I&amp;rsquo;m not a productivity machine; I can be extremely dependable in very uncertain situations, but to do that I need support.&lt;/p&gt;
-
-&lt;p&gt;I wanted to start the conversation because mental health is not something we talk about much in academia. There is still a lot of bias and stigma against those with mental illness, that they are &amp;ldquo;weak&amp;rdquo;, or that they should &amp;ldquo;get out of academia&amp;rdquo;. This stigma prevents a lot of students and postdocs from seeking the treatment they need.  I just want to say this to everyone who is struggles with mental illness: &lt;strong&gt;you aren&amp;rsquo;t weak, and you aren&amp;rsquo;t alone&lt;/strong&gt;. As far as I am concerned, each of you that manages to get through your day despite of your illness should be considered a hero. Because I know how hard it can be to even get out of bed some days. And I would like for PIs to consider that your overall neglect and/or bad advising can contribute to your student&amp;rsquo;s decline in mental health.&lt;/p&gt;
-
-&lt;p&gt;Thank you to all my students, my colleagues, alumni, and everyone in my department (including my department head and division head) who are supporting me. Your kindness and sharing your stories about your struggles really has meant a lot to me. I’ve come to realize that I have an amazing support network and that I just need to ask for help. I am slowly figuring out what that help is. I’m going to 0.8 time for a while to give me more breathing room. I’m exhausted and I just need some time to replenish my energy and reflect where I want to go next.&lt;/p&gt;
-
-&lt;p&gt;I have come to realize that saying yes when I shouldn&amp;rsquo;t comes at a cost to myself and my mental health. Everything I do comes at a cost; I need to have a better gauge of when that cost is worth it, and how much mental reserve I have in my tanks. When my collaborators don&amp;rsquo;t understand the amount of work I do cleaning their data, when they don&amp;rsquo;t respect the work I have done managing their data and reconciling the issues with data collection, that&amp;rsquo;s when I feel like working in research is not worth it.&lt;/p&gt;
-
-&lt;p&gt;One of my industry collaborations was like that, and it pretty much drained nearly all of my energy. I don&amp;rsquo;t like working with people who expect me to give them an answer and aren&amp;rsquo;t willing to educate me about what I&amp;rsquo;m supposed to be looking for. I also don&amp;rsquo;t like working with people who take advantage of my work in open science to further their own work agenda. I need less of these kind of collaborations, and I need the gumption to walk away from them.&lt;/p&gt;
-
-&lt;p&gt;I just want to say this: I am not a rock. I am not strong. But I am a good advocate for others, especially those I feel who have been dealt an unfair hand. I realize that I need to advocate for myself right now. Thank you to other academics such as Dr. Emily Hencken Ritter, who wrote about &lt;a href=&#34;http://duckofminerva.com/2017/04/building-safe-space-for-depression-in-academia.html&#34; target=&#34;_blank&#34;&gt;her struggles with depression and what help she asked for&lt;/a&gt;. I&amp;rsquo;m going to highlight posts about this using the hashtag #DepressionInAcademia on Twitter.&lt;/p&gt;
-
-&lt;p&gt;In short: I&amp;rsquo;m not going to get better overnight, but I&amp;rsquo;m trying to take steps to get better. I&amp;rsquo;ll be taking a little time off this summer as well to recharge and figure out what&amp;rsquo;s next. I&amp;rsquo;ll try to chronicle what works for me and to highlight other people&amp;rsquo;s writings about this.&lt;/p&gt;
 </description>
     </item>
     

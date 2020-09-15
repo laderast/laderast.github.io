@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/2020/09/15/getting-learnr-tutorials-to-run-on-mybinder-org/</loc>
+      <lastmod>2020-09-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2019/11/15/my-experience-with-rstudio-instructor-training/</loc>
       <lastmod>2019-11-15T00:00:00+00:00</lastmod>
     </url>
@@ -131,8 +140,26 @@
     
     <url>
     
+      <loc>/2018/07/09/creativity-and-science/</loc>
+      <lastmod>2018-07-09T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2018/06/25/asking-for-help-to-get-better/</loc>
       <lastmod>2018-06-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/2018/06/15/working-on-the-umapr-package/</loc>
+      <lastmod>2018-06-15T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -223,6 +250,15 @@
     
       <loc>/2018/02/28/data-science-and-systems-science/</loc>
       <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/how-to-be-a-good-collaborator/</loc>
+      <lastmod>2018-01-26T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -1001,6 +1037,16 @@
     
     <url>
     
+      <loc>/categories/creativity-science/</loc>
+      <lastmod>2018-07-09T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/cytof/</loc>
       <lastmod>2019-01-22T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -1131,7 +1177,7 @@
     
     <url>
     
-      <loc>/categories/git-hell/</loc>
+      <loc>/tags/git-hell/</loc>
       <lastmod>2018-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1141,7 +1187,7 @@
     
     <url>
     
-      <loc>/tags/git-hell/</loc>
+      <loc>/categories/git-hell/</loc>
       <lastmod>2018-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1451,28 +1497,28 @@
     
     <url>
     
+      <loc>/tags/r/</loc>
+      <lastmod>2019-06-22T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/r/</loc>
+      <lastmod>2019-06-22T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/categories/r/</loc>
       <lastmod>2019-02-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/r/</loc>
-      <lastmod>2019-06-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/r/</loc>
-      <lastmod>2019-06-22T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1571,8 +1617,8 @@
     
     <url>
     
-      <loc>/categories/shiny/</loc>
-      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
+      <loc>/tags/shiny/</loc>
+      <lastmod>2019-01-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1581,8 +1627,8 @@
     
     <url>
     
-      <loc>/tags/shiny/</loc>
-      <lastmod>2019-01-25T00:00:00+00:00</lastmod>
+      <loc>/categories/shiny/</loc>
+      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1661,16 +1707,6 @@
     
     <url>
     
-      <loc>/categories/talking/</loc>
-      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/tags/talking/</loc>
       <lastmod>2018-01-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -1681,8 +1717,8 @@
     
     <url>
     
-      <loc>/categories/teaching/</loc>
-      <lastmod>2018-04-04T00:00:00+00:00</lastmod>
+      <loc>/categories/talking/</loc>
+      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1693,6 +1729,16 @@
     
       <loc>/tags/teaching/</loc>
       <lastmod>2019-01-22T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/teaching/</loc>
+      <lastmod>2018-04-04T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1769,7 +1815,7 @@
     
     <url>
     
-      <loc>/categories/visualization/</loc>
+      <loc>/tags/visualization/</loc>
       <lastmod>2018-10-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1779,7 +1825,7 @@
     
     <url>
     
-      <loc>/tags/visualization/</loc>
+      <loc>/categories/visualization/</loc>
       <lastmod>2018-10-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
