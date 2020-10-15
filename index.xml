@@ -61,7 +61,7 @@
 
 &lt;h2 id=&#34;ask-yourself-is-this-in-line-with-my-values-goals&#34;&gt;Ask Yourself: Is this in line with my values/goals?&lt;/h2&gt;
 
-&lt;p&gt;Take a deep breath, and ask youself how you feel about the request.&lt;/p&gt;
+&lt;p&gt;Take a deep breath, and ask yourself how you feel about the request.&lt;/p&gt;
 
 &lt;p&gt;Does it help further your goals or the people you&amp;rsquo;re fighting for? Will it upset your current work/life balance? Are you willing to pay that price?&lt;/p&gt;
 
@@ -852,7 +852,10 @@ use_filter &amp;lt;- function(df, cutoff=0.5) {
       <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/10/15/clinical-data-wrangling/</guid>
-      <description>&lt;p&gt;Well, we just finished our &lt;a href=&#34;https://laderast.github.io/clinical_data_wrangling/&#34;&gt;clinical data wrangling workshop&lt;/a&gt;. This was a 12 hour workshop (spread over 4 days) where students got to work with a real research dataset (the &lt;a href=&#34;http://sleepdata.org&#34;&gt;Sleep Heart Health Study&lt;/a&gt; data). This is a workshop that we developed as part of an National Library of Medicine T15 training supplement in Data Science. The following is a short report describing the workshop and its outcomes.&lt;/p&gt;
+      <description>&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Well, we just finished our &lt;a href=&#34;https://laderast.github.io/clinical_data_wrangling/&#34;&gt;clinical data wrangling workshop&lt;/a&gt;. This was a 12 hour workshop (spread over 4 days) where students got to work with a real research dataset (the &lt;a href=&#34;http://sleepdata.org&#34;&gt;Sleep Heart Health Study&lt;/a&gt; data). This is a workshop that we developed as part of an National Library of Medicine T15 training supplement in Data Science. The following is a short report describing the workshop and its outcomes.&lt;/p&gt;
 &lt;div id=&#34;intended-audience&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Intended Audience&lt;/h2&gt;
 &lt;p&gt;We designed the workshop for our incoming informatics students (both clinical and biological majors) in order to introduce them to the difficulties of working with clinical data.&lt;/p&gt;
@@ -946,7 +949,10 @@ use_filter &amp;lt;- function(df, cutoff=0.5) {
       <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/08/07/shiny-and-tidyeval/</guid>
-      <description>&lt;blockquote&gt;
+      <description>&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;blockquote&gt;
 &lt;p&gt;Note: sometimes I write these posts to teach myself a better way to do things in R.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;I have been avoiding &lt;code&gt;tidyeval&lt;/code&gt; somewhat, because I seem to have a bit of a learning block about it. I’m going to try to write some posts that help me understand what’s going on with Tidy Evaluation.&lt;/p&gt;
