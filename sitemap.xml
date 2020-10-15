@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/2020/10/14/setting-boundaries-and-saying-no/</loc>
+      <lastmod>2020-10-14T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2020/09/15/getting-learnr-tutorials-to-run-on-mybinder-org/</loc>
       <lastmod>2020-09-15T00:00:00+00:00</lastmod>
     </url>
@@ -940,6 +949,16 @@
     
     <url>
     
+      <loc>/tags/boundaries/</loc>
+      <lastmod>2020-10-14T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/burnout/</loc>
       <lastmod>2019-07-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -1177,7 +1196,7 @@
     
     <url>
     
-      <loc>/categories/git-hell/</loc>
+      <loc>/tags/git-hell/</loc>
       <lastmod>2018-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1187,7 +1206,7 @@
     
     <url>
     
-      <loc>/tags/git-hell/</loc>
+      <loc>/categories/git-hell/</loc>
       <lastmod>2018-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1497,28 +1516,28 @@
     
     <url>
     
+      <loc>/tags/r/</loc>
+      <lastmod>2019-06-22T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/r/</loc>
+      <lastmod>2019-06-22T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/categories/r/</loc>
       <lastmod>2019-02-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/r/</loc>
-      <lastmod>2019-06-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/r/</loc>
-      <lastmod>2019-06-22T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1587,8 +1606,18 @@
     
     <url>
     
+      <loc>/tags/self-care/</loc>
+      <lastmod>2020-10-14T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/categories/self-care/</loc>
-      <lastmod>2019-09-23T00:00:00+00:00</lastmod>
+      <lastmod>2020-10-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1617,8 +1646,8 @@
     
     <url>
     
-      <loc>/categories/shiny/</loc>
-      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
+      <loc>/tags/shiny/</loc>
+      <lastmod>2019-01-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1627,8 +1656,8 @@
     
     <url>
     
-      <loc>/tags/shiny/</loc>
-      <lastmod>2019-01-25T00:00:00+00:00</lastmod>
+      <loc>/categories/shiny/</loc>
+      <lastmod>2018-08-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1707,16 +1736,6 @@
     
     <url>
     
-      <loc>/categories/talking/</loc>
-      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/tags/talking/</loc>
       <lastmod>2018-01-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -1727,8 +1746,8 @@
     
     <url>
     
-      <loc>/categories/teaching/</loc>
-      <lastmod>2018-04-04T00:00:00+00:00</lastmod>
+      <loc>/categories/talking/</loc>
+      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1739,6 +1758,16 @@
     
       <loc>/tags/teaching/</loc>
       <lastmod>2019-01-22T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/teaching/</loc>
+      <lastmod>2018-04-04T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1815,7 +1844,7 @@
     
     <url>
     
-      <loc>/categories/visualization/</loc>
+      <loc>/tags/visualization/</loc>
       <lastmod>2018-10-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1825,7 +1854,7 @@
     
     <url>
     
-      <loc>/tags/visualization/</loc>
+      <loc>/categories/visualization/</loc>
       <lastmod>2018-10-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
