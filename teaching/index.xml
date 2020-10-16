@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sat, 22 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/teaching/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ready for R</title>
+      <link>/teaching/ready-for-r/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/ready-for-r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistics for Neuroscientists</title>
+      <link>/teaching/stats4neuro/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/stats4neuro/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>R Bootcamp</title>

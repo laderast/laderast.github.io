@@ -243,6 +243,24 @@ mv inst/tutorials/learning_rowwise/ .
     </item>
     
     <item>
+      <title>Ready for R</title>
+      <link>/teaching/ready-for-r/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/ready-for-r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistics for Neuroscientists</title>
+      <link>/teaching/stats4neuro/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/stats4neuro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Notes on the RStudio Instructor Training Experience</title>
       <link>/2019/11/15/my-experience-with-rstudio-instructor-training/</link>
       <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
@@ -930,62 +948,6 @@ use_filter &amp;lt;- function(df, cutoff=0.5) {
 &lt;/ol&gt;
 &lt;p&gt;We were grateful for the incoming informatics students’ enthusiasm and patience as we got this workshop going. Also thanks to the NLM T15 Supplement in Data Science, without which we would not have gotten the opportunity to conceptualize, put together, and deliver this workshop. Thanks again to Susan Redline and the &lt;a href=&#34;http://sleepdata.org&#34;&gt;National Sleep Research Resource&lt;/a&gt; group, especially Dan Mobley who helped us with the last-minute data use agreements.&lt;/p&gt;
 &lt;p&gt;Link to Workshop: &lt;a href=&#34;https://github.com/laderast/clinical_data_wrangling&#34; class=&#34;uri&#34;&gt;https://github.com/laderast/clinical_data_wrangling&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Introduction to Interactive Visualization</title>
-      <link>/project/introduction_to_interactive_vis/</link>
-      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/project/introduction_to_interactive_vis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shiny and Tidyeval Part 1</title>
-      <link>/2018/08/07/shiny-and-tidyeval/</link>
-      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/08/07/shiny-and-tidyeval/</guid>
-      <description>&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;Note: sometimes I write these posts to teach myself a better way to do things in R.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I have been avoiding &lt;code&gt;tidyeval&lt;/code&gt; somewhat, because I seem to have a bit of a learning block about it. I’m going to try to write some posts that help me understand what’s going on with Tidy Evaluation.&lt;/p&gt;
-&lt;div id=&#34;using-sym-in-a-shiny-app&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Using &lt;code&gt;sym()&lt;/code&gt; in a Shiny App&lt;/h2&gt;
-&lt;p&gt;One fairly simple Shiny Application might be selecting a column of the dataset and then doing something with it, such as using it in a &lt;code&gt;select()&lt;/code&gt; or &lt;code&gt;filter()&lt;/code&gt; statement. Say we had a simple app to produce histograms, and we wanted to change the column that is being displayed on the histogram.&lt;/p&gt;
-&lt;p&gt;Try this app out by running the following command. The &lt;a href=&#34;https://gist.github.com/laderast/a5205554324306e642b2df9f80ed6409&#34;&gt;code is here&lt;/a&gt;.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;runGist(&amp;quot;https://gist.github.com/laderast/a5205554324306e642b2df9f80ed6409&amp;quot;, display.mode=&amp;quot;showcase&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Our input is a select input called &lt;code&gt;numeric_var&lt;/code&gt;, which returns a single column name as a &lt;code&gt;character&lt;/code&gt; In our server logic, we’ve built a reactive called &lt;code&gt;selected_data&lt;/code&gt;, which returns the selected column as a vector using &lt;code&gt;pull()&lt;/code&gt;.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;  selected_data &amp;lt;- reactive({
-    ## input$numeric_var is a character, so we cast it to symbol
-    var_name &amp;lt;- sym(input$numeric_var)
-
-    ## Now we evaluate it with !!
-    out_col &amp;lt;- iris %&amp;gt;% pull(!!var_name)
-  })&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The question is: how do we pass the input value into &lt;code&gt;pull()&lt;/code&gt;? We first have to use &lt;code&gt;rlang::sym()&lt;/code&gt; to pass our character in as a &lt;code&gt;symbol&lt;/code&gt; that we’re calling &lt;code&gt;var_name&lt;/code&gt;. But the issue is that our reactive doesn’t know which environment to look in.&lt;/p&gt;
-&lt;p&gt;We want our reactive to look for the column name within the environment of the &lt;code&gt;iris&lt;/code&gt; &lt;code&gt;tibble&lt;/code&gt;. This is where the &lt;code&gt;!!&lt;/code&gt; (bang-bang) comes in. It says, ‘look for the value’ within the &lt;code&gt;tibble&lt;/code&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;using-syms-in-a-shiny-app&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Using &lt;code&gt;syms()&lt;/code&gt; in a Shiny App&lt;/h2&gt;
-&lt;p&gt;What if wanted to pass in &lt;em&gt;multiple&lt;/em&gt; variables from a select box? We’ll need to wrap our input with &lt;code&gt;syms()&lt;/code&gt;, which takes a list.&lt;/p&gt;
-&lt;p&gt;Let’s do a slightly different version where we’re visualizing a box plot and we want to select multiple columns to display in our dataset from a &lt;code&gt;selectInput&lt;/code&gt; where we’ve specified the &lt;code&gt;multiple=TRUE&lt;/code&gt; argument.&lt;/p&gt;
-&lt;p&gt;Our setup is similar, but different. Because we have multiple values, we have to use &lt;code&gt;syms()&lt;/code&gt; to wrap the input from &lt;code&gt;input$numeric_vars&lt;/code&gt;. Then we can evaluate it with &lt;code&gt;!!!&lt;/code&gt; (the triple bang).&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;  selected_data &amp;lt;- reactive({
-    ## input$numeric_var is a character vector, so we cast it to symbol
-    var_list &amp;lt;- syms(input$numeric_vars)
-
-    ## Now we evaluate it with !!!
-    out_col &amp;lt;- iris %&amp;gt;% select(!!!var_list)
-  })&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Try this app out. The &lt;a href=&#34;https://gist.github.com/laderast/952120ac46d1f27c2d2dba5bd1ab5d10&#34;&gt;Code is here&lt;/a&gt;.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;runGist(&amp;quot;https://gist.github.com/laderast/952120ac46d1f27c2d2dba5bd1ab5d10&amp;quot;, display.mode=&amp;quot;showcase&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 </description>
     </item>

@@ -23,6 +23,24 @@
     
     <url>
     
+      <loc>/teaching/ready-for-r/</loc>
+      <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/teaching/stats4neuro/</loc>
+      <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2019/11/15/my-experience-with-rstudio-instructor-training/</loc>
       <lastmod>2019-11-15T00:00:00+00:00</lastmod>
     </url>
@@ -1199,6 +1217,16 @@
     
     <url>
     
+      <loc>/tags/image-processing/</loc>
+      <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/improvisation/</loc>
       <lastmod>2018-05-22T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -1300,7 +1328,7 @@
     <url>
     
       <loc>/tags/machine-learning/</loc>
-      <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+      <lastmod>2020-04-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1480,7 +1508,7 @@
     <url>
     
       <loc>/tags/r/</loc>
-      <lastmod>2019-06-22T00:00:00+00:00</lastmod>
+      <lastmod>2020-04-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1490,7 +1518,7 @@
     <url>
     
       <loc>/tags/r/</loc>
-      <lastmod>2019-06-22T00:00:00+00:00</lastmod>
+      <lastmod>2020-04-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1740,7 +1768,7 @@
     <url>
     
       <loc>/teaching/</loc>
-      <lastmod>2019-06-22T00:00:00+00:00</lastmod>
+      <lastmod>2020-04-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1788,7 +1816,7 @@
     <url>
     
       <loc>/tags/tidyverse/</loc>
-      <lastmod>2019-06-22T00:00:00+00:00</lastmod>
+      <lastmod>2020-04-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
