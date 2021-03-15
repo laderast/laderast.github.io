@@ -1,0 +1,21 @@
+---
+title: "Ted Laderas"
+image: "image/ted.jpg"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/ted-laderas-0714a92/"
+  - label: Twitter
+    url: "https://twitter.com/tladeras"
+  - label: Blog
+    url: "index.html"
+  - label: Email
+    url: "mailto:email@email.com"
+output:
+  postcards::trestles
+---
+ 
+I am an Assistant Professor in the Division of Bioinformatics and Computational Biology in the Department of Medical Informatics and Clinical Epidemiology at OHSU (BCB/DMICE) and a member of the OHSU Knight Cancer Institute. 
+
+Collaboration, training and team science are passions of mine. I believe that research should not be lonely, and building communities of practice in science and research that are psychologically safe and inclusive are the key to doing better, more robust science.
+
+My free [Ready for R](https://ready4r.netlify.app) course currently is at over 1300 external users, and I have built a learning community around it. The course has been lauded by users as being inclusive and less intimidating than other R courses. Our Data Analytics course recently won an award (Sakai Torchbearer Award) from multiple student nominations.

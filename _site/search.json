@@ -1,0 +1,19 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "Ted Laderas",
+      "author": [],
+      "contents": "",
+      "last_modified": "2021-03-15T16:54:21-07:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Ted's Example Portfolio",
+      "author": [],
+      "contents": "\r\nThis is a portfolio of my ongoing projects as a data scientist in training.\r\nFor more info about me, please check out my About page.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-03-15T16:54:21-07:00"
+    }
+  ],
+  "collections": []
+}

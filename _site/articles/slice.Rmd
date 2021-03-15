@@ -1,0 +1,50 @@
+---
+title: "dplyr::slice()"
+linktitle: "dplyr::slice"
+author: "Ted Laderas"
+date: "2021-01-13"
+menu:
+  functions:
+    weight: 1
+output: 
+  distill::distill_article:
+    self_contained: true
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+library(rmarkdown)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Ted Laderas
+
+In this document, I will introduce the `slice()` function and show what it's for.
+
+```{r}
+library(tidyverse)
+library(palmerpenguins)
+data(penguins)
+```
+
+## What is it for?
+
+Say you want the first 7 rows of a table. Well, `slice()` is an easy way to do that. The `slice()` function accepts two arguments: The first is the dataset, and the second is the `range` of values you want to extract.
+
+```{r}
+slice(penguins, 1:7) %>%
+  paged_table()
+```
+
+`slice()` is much more helpful in a tidy workflow, so you can see the first few rows of the data when you're processing. This is really helpful when you're building up a pipeline and need to show intermediate output without showing the entire table.
+
+```{r}
+penguins %>%
+  slice(1:7) %>%
+  paged_table()
+```
+
+## Is it helpful?
+
+Yes, when you need to just show part of a table as an example, `slice()` can come in handy. I don't use it everyday, but it can come in handy.
+

@@ -1,0 +1,9 @@
+---
+title: "Ted's Example Portfolio"
+site: distill::distill_website
+---
+
+This is a portfolio of my ongoing projects as a data scientist in training. 
+
+For more info about me, please check out my [About](about.html) page.
+
