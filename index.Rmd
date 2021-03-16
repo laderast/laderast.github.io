@@ -5,5 +5,10 @@ site: distill::distill_website
 
 This is a portfolio of my ongoing projects as a data scientist in training. 
 
+Here are some example projects to check out:
+
+- [`dplyr::slice()`](articles/slice.html) - a short article introducing the `slice()` function from the `{dplyr}` package
+- [Crop Yields](articles/crops.html) - an article analyzing crop yields across the world from Tidy Tuesday.
+
 For more info about me, please check out my [About](about.html) page.
 

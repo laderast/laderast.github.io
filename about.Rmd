@@ -6,7 +6,7 @@ links:
     url: "https://www.linkedin.com/in/ted-laderas-0714a92/"
   - label: Twitter
     url: "https://twitter.com/tladeras"
-  - label: Blog
+  - label: Portfolio
     url: "index.html"
   - label: Email
     url: "mailto:email@email.com"
