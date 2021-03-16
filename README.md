@@ -147,7 +147,7 @@ We'll take the `_site` folder with our generated website and drop this entire fo
 
 https://app.netlify.com/drop
 
-![Using Netlify Drop](https://www.youtube.com/embed/-LRlQ_jaLAU)
+[![](http://img.youtube.com/vi/-LRlQ_jaLAU/0.jpg)](http://www.youtube.com/watch?v=-LRlQ_jaLAU "Using Netlify Drop")
 
 ## Updating Your Website
 
@@ -155,7 +155,8 @@ The first thing you want to do is claim your site and register for a Netlify acc
 
 When you update your website with the `Build Website` button, you'll drag the `_site` folder onto the deploy zone for your website.
 
-![Updating Your Website with the Deploy Tab](https://www.youtube.com/embed/vywDFg2uIxY)
+[![](http://img.youtube.com/vi/vywDFg2uIxY/0.jpg)](http://www.youtube.com/watch?v=vywDFg2uIxY "Updating Your Website")
+
 
 More info here: https://docs.netlify.com/site-deploys/create-deploys/#drag-and-drop
 
