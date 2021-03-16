@@ -48,10 +48,9 @@ These are the main files for the project.
 
 ## How does {distill} work?
 
-Distill is what is called a *static* site generator. It takes Markdown and Rmarkdown and converts them to . `.html` files. 
+`{distill}` is what is called a *static* site generator. It takes Markdown and Rmarkdown and converts them to . `.html` files. 
 
-Much like any RMarkdown file, `{distill}` uses `{knitr}` and pandoc to build your website files. It knits your `.Rmd` files, converting them to `.html` files to a folder. The default name of this folder is called `_site` and it contains all of them files you need to upload to make a website.
-
+Much like any RMarkdown file, `{distill}` uses `{knitr}` and pandoc to build your website files that are contained in an *RStudio Project*. It knits your `.Rmd` files, converting them to `.html` files to a folder. The default name of this folder is called `_site` and it contains all of them files you need to upload to make a website.
 
 ## What is Netlify?
 
@@ -213,3 +212,9 @@ This is beyond the scope of this tutorial, but you can put your site code up on 
 - Lets others reuse your code for their own website
 
 If you're interested in this, I really recommend [Happy Git with R](https://happygitwithr.com/) as a way to get started.
+
+## Acknowledgements
+
+Thank you to RStudio for the `{distill}` package. It is so great!
+
+Portions of this tutorial are adapted from: https://rstudio.github.io/distill/website.html
