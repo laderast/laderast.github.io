@@ -217,4 +217,6 @@ If you're interested in this, I really recommend [Happy Git with R](https://happ
 
 Thank you to RStudio for the `{distill}` package. It is so great!
 
-Portions of this tutorial are adapted from: https://rstudio.github.io/distill/website.html
+Portions of this tutorial are adapted from: https://rstudio.github.io/distill/website.html and from https://rstudio.com/resources/webinars/sharing-on-short-notice-how-to-get-your-materials-online-with-r-markdown/
+
+
