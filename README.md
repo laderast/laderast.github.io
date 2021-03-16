@@ -35,6 +35,13 @@ usethis::use_course(url="laderast/distill_website",destdir=".")
 
 https://distill-example.netlify.app/
 
+5. Gather up the follwing materials:
+
+- Links to Social Media (twitter, linkedin, etc)
+- Bio
+- Headshot
+- Knitted `.html` files you want to share
+
 ## Taking a tour of the Project
 
 These are the main files for the project.
