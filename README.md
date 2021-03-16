@@ -10,6 +10,8 @@ Ted Laderas
 - **Add** links and entries to your Navbar Menu
 - **Add** knitted html files as article links
 - **Get** your website live using Netlify Drop
+- **Update** your website by claiming it and registering it
+- **Change** your domain name to a better one.
 
 
 ## Before You Start
