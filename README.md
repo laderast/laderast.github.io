@@ -46,10 +46,9 @@ These are the main files for the project.
 
 ## How does {distill} work?
 
-Distill is what is called a *static* site generator. It takes Markdown and Rmarkdown and converts them to . `.html` files. 
+`{distill}` is what is called a *static* site generator. It takes Markdown and Rmarkdown and converts them to . `.html` files. 
 
-Much like any RMarkdown file, `{distill}` uses `{knitr}` and pandoc to build your website files. It knits your `.Rmd` files, converting them to `.html` files to a folder. The default name of this folder is called `_site` and it contains all of them files you need to upload to make a website.
-
+Much like any RMarkdown file, `{distill}` uses `{knitr}` and pandoc to build your website files that are contained in an *RStudio Project*. It knits your `.Rmd` files, converting them to `.html` files to a folder. The default name of this folder is called `_site` and it contains all of them files you need to upload to make a website.
 
 ## What is Netlify?
 
