@@ -137,9 +137,9 @@ navbar:
              href: articles/crops.html
 ```
 
-Add another menu entry under articles, or modify it to have a link to your articles.
+Add another menu entry under articles, or modify the above entries to have a link to your articles.
 
-
+Build your website again and preview it to make sure the links work.
 
 ## Getting Your Website Online
 
@@ -180,6 +180,12 @@ You may want to setup your webpage as a blog, which lets you add posts by date:
 
 https://rstudio.github.io/distill/blog.html
 
-## Putting your site on GitHub
+## Putting your site code on GitHub
 
-This is beyond the scope of this tutorial, but you can put your site up on GitHub as well.
+This is beyond the scope of this tutorial, but you can put your site code up on GitHub as well. This has the following advantages:
+
+- Lets others contribute to your website
+- Can host on GitHub Pages as well
+- Lets others reuse your code for their own website
+
+If you're interested in this, I really recommend [Happy Git with R](https://happygitwithr.com/) as a way to get started.
