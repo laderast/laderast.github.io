@@ -42,6 +42,8 @@ https://distill-example.netlify.app/
 - Headshot
 - Knitted `.html` files you want to share
 
+6. Sign up for a netlify account and log in: https://netlify.com
+
 ## Taking a tour of the Project
 
 These are the main files for the project.
