@@ -81,6 +81,7 @@ Press the `Build Website` to run `knitr`, which will knit your website to the `_
 
 - Open the `_site` folder and click on the `index.html` file (make sure you're viewing in web browser)
   - This is your main link to the website (the entry point). For example, if I was hosting my website at https://laderast.github.io/, this would be the first page that I would see. 
+- Your `about` page is available as `about.html` in the `_site` folder.
 - Click away and make sure that everything works (links in menu, etc). If not, update the `_site.yml` and build it again.
 
 
