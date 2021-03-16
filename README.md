@@ -14,8 +14,7 @@ Ted Laderas
 
 ## Before You Start
 
-1. Install R/RStudio Desktop to your Computer
-
+1. Install R/RStudio Desktop to your Computer.
 2. Install the following packages in R:
 
 ```
@@ -30,9 +29,12 @@ usethis::use_course(url="laderast/distill_website",destdir=".")
 
 ## Taking a tour of the Project
 
+These are the main files for the project.
+
 - `index.Rmd` - This is the *main* website page.
 - `about.Rmd` - This is a nice looking about page built using the `{postcards}` package.
-- `articles/` - This is a nice place to park your articles
+- `image` - A folder. Any images you put in here can be accessed by `image/ted.jpg` in your pages.
+- `articles/` - A folder. This is a nice place to park your articles. For right now, it's probably easier to have self-contained articles (single html files)
 - `_site.yml` - Customize this to change menus and links
 - `_site/` folder - this contains your *rendered* website - you'll drop this folder into Netlify Drop and it will serve it. 
 
@@ -71,34 +73,109 @@ image: "image/jane.jpg"
 
 In the top right panel in RStudio (next to Environment and History), there is a "Build" Tab. 
 
-Press the `Build Website` for the 
+Press the `Build Website` to run `knitr`, which will knit your website to the `_site` folder. This is where your *rendered* content lives.
+
+## Previewing your website
+
+- Open the `_site` folder and click on the `index.html` file (make sure you're viewing in web browser)
+  - This is your main link to the website (the entry point). For example, if I was hosting my website at https://laderast.github.io/, this would be the first page that I would see. 
+- Click away and make sure that everything works (links in menu, etc). If not, update the `_site.yml` and build it again.
+
+
+## Try out different `postcards` themes
+
+The `postcards` package has the following built in themes:
+
+- `jolla`
+- `jolla_blue`
+- `onofre`
+- `trestles` - which your current site uses
+
+Change this line in your `about.Rmd` file to the theme of your interest and start building again:
+
+```
+output:
+  postcards::trestles
+```
+
+
 
 ## Add Your Rendered `.html` files to the `articles/` folder
 
 You can now add your articles to the `articles/` folder.
 
-There are a couple example articles here.
+There are a couple example articles here. Add your own files here.
 
-In general, you'll put **knitted** html articles here. Distill does not rebuild articles, it leaves that up to you. 
+In general, you'll put **knitted** html articles here. Distill does not rebuild articles, it leaves that up to you.
+
+The relative path to access articles is like this:
+
+`articles/crops.html` 
+
+You'll use this when adding links to your menu.
 
 ## Customize the Menu
 
+The menu lives in the `_site.yml` file:
 
 
+```
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Articles"
+      menu:
+          -  text: "dplyr::slice()"
+             href: articles/slice.html
+          -  text: "Crop Yields"
+             href: articles/crops.html
+```
 
+Add another menu entry under articles, or modify it to have a link to your articles.
 
-## Previewing your website
-
-- Open the `_site` folder and click on the `index.html` file (make sure you're viewing in web browser)
-- Click away and make sure that everything works (links in menu, etc)
 
 
 ## Getting Your Website Online
 
 We'll take the `_site` folder with our generated website and drop this entire folder into Netlify Drop.
 
+https://app.netlify.com/drop
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-LRlQ_jaLAU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Updating Your Website
 
+The first thing you want to do is claim your site and register for a Netlify account. That ties your newly created website to your account so you can update it.
+
+When you update your website with the `Build Website` button, you'll drag the `_site` folder onto the deploy zone for your website.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vywDFg2uIxY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+More info here: https://docs.netlify.com/site-deploys/create-deploys/#drag-and-drop
+
+## Customize Your Domain
+
+That crazy name is the address of your site. To change it, you can click on the **Domain Settings** button: 
+
+![Domain Settings Button ](image/site_name.png)
+
+In the following page, click the **Options >> Edit Site Name** button. You can change the first part of the domain, such as "myportfolio.netlify.app).
+
+![Edit Site Name Button](image/site_name2.png)
 
 ## Creating New Websites
+
+If you want to start from scratch, I highly recommend the Distill tutorial here: 
+
+https://rstudio.github.io/distill/website.html
+
+You may want to setup your webpage as a blog, which lets you add posts by date:
+
+https://rstudio.github.io/distill/blog.html
+
+## Putting your site on GitHub
+
+This is beyond the scope of this tutorial, but you can put your site up on GitHub as well.
