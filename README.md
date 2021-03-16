@@ -2,6 +2,8 @@
 
 Ted Laderas
 
+This can also be viewed here: https://github.com/laderast/distill_website/README.md
+
 ## Learning Objectives
 
 - **Learn** the basic components of a `distill` website
