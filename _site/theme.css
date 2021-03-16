@@ -1,5 +1,3 @@
-/* CSS file is from: https://rstudio.github.io/distill/website.html?panelset2=theme.css2&panelset3=theme.css3 */
-
 /* base variables */
 
 /* Edit the CSS properties in this file to create a custom
@@ -11,7 +9,6 @@
 
 /* Optional: embed custom fonts here with `@import`          */
 /* This must remain at the top of this file.                 */
-/* Check out fonts.google.com for more info */
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:300, 300i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');

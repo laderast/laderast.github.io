@@ -52,6 +52,7 @@ These are the main files for the project.
 - `articles/` - A folder. This is a nice place to park your articles. For right now, it's probably easier to have self-contained articles (single html files)
 - `_site.yml` - Customize this to change menus and links
 - `_site/` folder - this contains your *rendered* website - you'll drop this folder into Netlify Drop and it will serve it. 
+- `theme.css` - this is where you can set appearance options, such as font, font-size, and colors.
 
 ## How does {distill} work?
 

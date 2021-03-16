@@ -2,8 +2,8 @@ name: "Ted's Website"
 title: "Ted's Portfolio Website"
 description: |
   My Blog
-exclude: ["README.md"]
-#theme: theme.css
+exclude: ["README.md", "README.html"]
+# theme: theme.css
 output_dir: "_site"
 navbar:
   right:
@@ -17,6 +17,5 @@ navbar:
              href: articles/slice.html
           -  text: "Crop Yields"
              href: articles/crops.html
-output: 
-  distill::distill_article
-    
+output: distill::distill_article
+
