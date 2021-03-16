@@ -211,3 +211,9 @@ This is beyond the scope of this tutorial, but you can put your site code up on 
 - Lets others reuse your code for their own website
 
 If you're interested in this, I really recommend [Happy Git with R](https://happygitwithr.com/) as a way to get started.
+
+## Acknowledgements
+
+Thank you to RStudio for the `{distill}` package. It is so great!
+
+Portions of this tutorial are adapted from: https://rstudio.github.io/distill/website.html
