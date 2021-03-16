@@ -200,6 +200,21 @@ In the following page, click the **Options >> Edit Site Name** button. You can c
 
 ![Edit Site Name Button](image/site_name2.png)
 
+## Styling your website
+
+Note that this only applies to the main distill website and not the `about.html`, since that is styled separately.
+
+In `_site.yml`, try uncommenting this line and seeing how the site changes.
+
+```
+#theme: theme.css
+```
+
+You can modify the appearance of your website by altering the `theme.css` file. Much more info about this here: 
+
+https://rstudio.github.io/distill/website.html#theming
+
+
 ## Creating New Websites
 
 If you want to start from scratch, I highly recommend the Distill tutorial here: 
