@@ -1,5 +1,5 @@
 ---
-title: "Ted's Example Portfolio"
+title: "Welcome to My Portfolio"
 site: distill::distill_website
 ---
 
