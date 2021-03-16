@@ -75,6 +75,8 @@ In the top right panel in RStudio (next to Environment and History), there is a 
 
 Press the `Build Website` to run `knitr`, which will knit your website to the `_site` folder. This is where your *rendered* content lives.
 
+![Build Website Tab](image/build-website.png)
+
 ## Previewing your website
 
 - Open the `_site` folder and click on the `index.html` file (make sure you're viewing in web browser)
@@ -144,7 +146,7 @@ We'll take the `_site` folder with our generated website and drop this entire fo
 
 https://app.netlify.com/drop
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-LRlQ_jaLAU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![Using Netlify Drop](https://www.youtube.com/embed/-LRlQ_jaLAU)
 
 ## Updating Your Website
 
@@ -152,7 +154,7 @@ The first thing you want to do is claim your site and register for a Netlify acc
 
 When you update your website with the `Build Website` button, you'll drag the `_site` folder onto the deploy zone for your website.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vywDFg2uIxY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![Updating Your Website with the Deploy Tab](https://www.youtube.com/embed/vywDFg2uIxY)
 
 More info here: https://docs.netlify.com/site-deploys/create-deploys/#drag-and-drop
 
