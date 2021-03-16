@@ -29,6 +29,10 @@ install.packages(c("tidyverse", "postcards", "distill", "usethis"))
 usethis::use_course(url="laderast/distill_website",destdir=".")
 ```
 
+4. Take a look at the website before we get started:
+
+https://distill-example.netlify.app/
+
 ## Taking a tour of the Project
 
 These are the main files for the project.
