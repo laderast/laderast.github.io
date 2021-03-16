@@ -40,6 +40,20 @@ These are the main files for the project.
 - `_site.yml` - Customize this to change menus and links
 - `_site/` folder - this contains your *rendered* website - you'll drop this folder into Netlify Drop and it will serve it. 
 
+## How does {distill} work?
+
+Distill is what is called a *static* site generator. It takes Markdown and Rmarkdown and converts them to . `.html` files. 
+
+Much like any RMarkdown file, `{distill}` uses `{knitr}` and pandoc to build your website files. It knits your `.Rmd` files, converting them to `.html` files to a folder. The default name of this folder is called `_site` and it contains all of them files you need to upload to make a website.
+
+
+## What is Netlify?
+
+Netlify is what is called a *hosting service*. This is a network of computers called web servers that are accessible via web addresses that will *serve* your website files when they are requested by a web browser.
+
+The amazing thing about Netlify is that it is mostly free and it is very fast, no matter where you are (they have web servers almost everywhere). 
+
+We'll use Netlify Drop to get our website files up and accessible as quickly as possible.
 
 ## Customize your about links
 
@@ -147,7 +161,7 @@ Build your website again and preview it to make sure the links work.
 
 We'll take the `_site` folder with our generated website and drop this entire folder into Netlify Drop.
 
-https://app.netlify.com/drop
+https://drop.netlify.com
 
 [![](http://img.youtube.com/vi/-LRlQ_jaLAU/0.jpg)](http://www.youtube.com/watch?v=-LRlQ_jaLAU "Using Netlify Drop")
 
@@ -155,7 +169,9 @@ https://app.netlify.com/drop
 
 The first thing you want to do is claim your site and register for a Netlify account. That ties your newly created website to your account so you can update it.
 
-When you update your website with the `Build Website` button, you'll drag the `_site` folder onto the deploy zone for your website.
+When you update your website with the `Build Website` button, you'll drag the `_site` folder onto the deploy zone. This is under the `deploy` tab:
+
+![](image/deploy_update.png)
 
 [![](http://img.youtube.com/vi/vywDFg2uIxY/0.jpg)](http://www.youtube.com/watch?v=vywDFg2uIxY "Updating Your Website")
 
