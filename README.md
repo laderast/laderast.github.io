@@ -2,7 +2,7 @@
 
 Ted Laderas
 
-This can also be viewed here: https://github.com/laderast/distill_website/
+This can also be viewed here: https://github.com/laderast/distill_website/README.md
 
 ## Learning Objectives
 

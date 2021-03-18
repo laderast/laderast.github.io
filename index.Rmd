@@ -1,14 +1,23 @@
 ---
-title: "Welcome to My Portfolio"
+title: "Ted Laderas"
+image: "image/ted.jpg"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/ted-laderas-0714a92/"
+  - label: Twitter
+    url: "https://twitter.com/tladeras"
+  - label: Portfolio
+    url: "index.html"
+  - label: Email
+    url: "mailto:email@email.com"
 site: distill::distill_website
+theme: theme.css
+output:
+  postcards::trestles
 ---
+ 
+I am an Assistant Professor in the Division of Bioinformatics and Computational Biology in the Department of Medical Informatics and Clinical Epidemiology at OHSU (BCB/DMICE) and a member of the OHSU Knight Cancer Institute. 
 
-This is a portfolio of my ongoing projects as a data scientist in training. 
+Collaboration, training and team science are passions of mine. I believe that research should not be lonely, and building communities of practice in science and research that are psychologically safe and inclusive are the key to doing better, more robust science.
 
-Here are some example projects to check out:
-
-- [`dplyr::slice()`](articles/slice.html) - a short article introducing the `slice()` function from the `{dplyr}` package
-- [Crop Yields](articles/crops.html) - an article analyzing crop yields across the world from Tidy Tuesday.
-
-For more info about me, please check out my [About](about.html) page.
-
+My free [Ready for R](https://ready4r.netlify.app) course currently is at over 1300 external users, and I have built a learning community around it. The course has been lauded by users as being inclusive and less intimidating than other R courses. Our Data Analytics course recently won an award (Sakai Torchbearer Award) from multiple student nominations.
