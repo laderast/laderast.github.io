@@ -9,9 +9,9 @@
 
 /* Optional: embed custom fonts here with `@import`          */
 /* This must remain at the top of this file.                 */
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:300, 300i&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata');
 
 html {
   /*-- Main font sizes --*/
@@ -21,16 +21,16 @@ html {
   --aside-size:      12px;
   --fig-cap-size:    13px;
   /*-- Main font colors --*/
-  --title-color:     #ca225e;
-  --header-color:    #ca225e;                    /* edited */
+  --title-color:     #d95105;
+  --header-color:    #d95105;                    /* edited */
   --body-color:      #404040;                    /* edited */
   --aside-color:     rgba(0, 0, 0, 0.6);
   --fig-cap-color:   rgba(0, 0, 0, 0.6);
   /*-- Specify custom fonts ~~~ must be imported above   --*/
-  --heading-font:    "Noto Serif JP", sans-serif; /* edited */
+  --heading-font:    "Alata", sans-serif; /* edited */
   --mono-font:       "IBM Plex Mono", monospace;  /* edited */
   --body-font:       "Lato", sans-serif;          /* edited */
-  --navbar-font:     "Lato", sans-serif;          /* edited */
+  --navbar-font:     "Alata", sans-serif;          /* edited */
 }
 
 /*-- ARTICLE METADATA --*/
@@ -60,10 +60,10 @@ d-appendix {
 
 .distill-site-header {
   --title-size:       18px;
-  --text-color:       #1f1f1f;                   /* edited */
+  --text-color:       #fff;                   /* edited */
   --text-size:        15px;
-  --hover-color:      #787878;                   /* edited */
-  --bkgd-color:       #fff;                      /* edited */
+  --hover-color:      #444444;                   /* edited */
+  --bkgd-color:       #d95105;                    /* edited */
 }
 
 .distill-site-footer {
@@ -72,6 +72,7 @@ d-appendix {
   --hover-color:      white;
   --bkgd-color:       #ca225e3d;                 /* edited */
 }
+
 
 /*-- Additional custom styles --*/
 

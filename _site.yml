@@ -1,21 +1,30 @@
 name: "Ted's Website"
-title: "Ted's Portfolio Website"
+title: "Ted Laderas, PhD"
+base_url: https://distill-example.netlify.app/
 description: |
-  My Blog
+  Website for Ted Laderas, PhD
 exclude: ["README.md", "README.html"]
-# theme: theme.css
+theme: theme.css
 output_dir: "_site"
 navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
+    - text: "CV"
+      href: https://laderast.github.io/cv/
+    - text: "Blog"
+      href: blog.html
     - text: "Articles"
       menu:
           -  text: "dplyr::slice()"
              href: articles/slice.html
           -  text: "Crop Yields"
              href: articles/crops.html
+collections:
+  posts:
+    categories: true
+    categories_metadata: true
+    authors_metadata: false
+    share: [twitter, linkedin]
 output: distill::distill_article
 

@@ -48,8 +48,8 @@ https://distill-example.netlify.app/
 
 These are the main files for the project.
 
-- `index.Rmd` - This is the *main* website page.
-- `about.Rmd` - This is a nice looking about page built using the `{postcards}` package.
+- `index.Rmd` - This is a nice looking about page built using the `{postcards}` package.
+- `cv.Rmd` - This is a spot to add your CV. 
 - `image` - A folder. Any images you put in here can be accessed by `image/ted.jpg` in your pages.
 - `articles/` - A folder. This is a nice place to park your articles. For right now, it's probably easier to have self-contained articles (single html files)
 - `_site.yml` - Customize this to change menus and links
@@ -72,7 +72,7 @@ We'll use Netlify Drop to get our website files up and accessible as quickly as 
 
 ## Customize your about links
 
-Take a look at `about.Rmd` and start filling out the front matter with your own links:
+Take a look at `index.Rmd` and start filling out the front matter with your own links:
 
 ```
 links:
@@ -88,7 +88,7 @@ links:
 
 ## Adding a photo
 
-Add your photo to the `images` folder. Change the line in `about.Rmd`:
+Add your photo to the `images` folder. Change the line in `index.Rmd`:
 
 ```
 image: "image/ted.jpg"
@@ -125,14 +125,41 @@ The `postcards` package has the following built in themes:
 - `onofre`
 - `trestles` - which your current site uses
 
-Change this line in your `about.Rmd` file to the theme of your interest and start building again:
+Change this line in your `index.Rmd` file to the theme of your interest and start building again:
 
 ```
 output:
   postcards::trestles
 ```
 
+## Adding a new page
 
+You can use `distill::create_article()` to create a new page in your website:
+
+```
+distill::create_article("cv.Rmd")
+```
+
+This will create a new .Rmd file called `cv.Rmd` with front matter filled out for you:
+
+```
+---
+title: "Untitled"
+description: |
+  A new article created using the Distill format.
+author:
+  - name: Nora Jones 
+    url: https://example.com/norajones
+    affiliation: Spacely Sprockets
+    affiliation_url: https://example.com/spacelysprokets
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+```
+
+Fill out the details and add your Markdown, and build again. 
+
+You can add a link to this page by modifying the navbar menu (see below).
 
 ## Add Your Rendered `.html` files to the `articles/` folder
 
@@ -151,7 +178,6 @@ You'll use this when adding links to your menu.
 ## Customize the Menu
 
 The menu lives in the `_site.yml` file:
-
 
 ```
 navbar:

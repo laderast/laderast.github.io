@@ -1,0 +1,148 @@
+---
+date: '2017-12-19'
+title: Understanding Tidy Evaluation in R
+url: /2017/12/19/understanding-tidyeval
+tags: [rstats tidyeval]
+---
+
+Have you ever had something that no matter how many times someone explained it, you really had no idea what it was for? For me, that was Non Standard Evaluation (NSE) in R, and its newer cousin Tidy Evaluation, or `tidyeval`. I had a real learning block about it. I really wanted to understand it, but for some reason I just really wasn't getting the general concepts.
+
+What is evaluation, really? For the longest time, I was extremely confused about it. When you provide an expression to R such as:
+
+```{r message=FALSE}
+library(tidyverse)
+library(rlang)
+this_variable <- 2
+this_variable * 6
+```
+
+You notice that there is an output to `this_variable * 6`, which is `12`. Evaluation is really about looking up variable names in an environment and then acting on the results. What is going on here is that R looks for an object that is named `this_variable` in our global environment, and then returns the value, `2`, which it then *substitutes* in the expression. So our original expression:
+
+```{r}
+this_variable * 6
+```
+Becomes this expression:
+
+```{r}
+2 * 6
+```
+
+Which R knows how to calculate, the output of which is `12`. But sometimes you want to pass an expression or a variable, as is, without evaluating it first. The best case for this is to passing a variable into a function. We can do this by wrapping them up in `quosures` or `enquosures`.
+
+A `quosure` and an `enquosure` can be thought of as envelopes around an object. They obscure certain properties of the object until they can be delivered into a function. The envelopes basically are a way to sneak variables and expressions into a function's environment. When the envelope is in the function, we can open it up and evaluate what's in the envelope. The trick to NSE and tidyeval is that we can control when the function *evaluates* the expression, by controlling when we open this envelope. We do this by using the `UQ()` or `!!` functions.
+
+In other words, `quosures` and `enquosures` are ways to prevent R from looking up a variable's value in our current environment (usually the global environment), and delay this lookup until we get them into the environment of interest. This might be one level down (in our function of interest), or several levels down (in a function called by our function).
+
+The point is, R won't open the envelope with our variable in it until we tell it to.
+
+## Why Should I Care????
+
+The short answer: if you want to write functions that directly work with the `tidyverse`, you need to understand `tidyeval`.
+
+The best way to understand why you need to do this is to write a function that takes a `data.frame` and a reference to a column within that `data.frame`. You might notice that we can directly refer to a column in a `data.frame` for `select`, for example:
+
+```{r}
+mtcars %>% select(cyl) %>% head(10)
+```
+
+Why does that work? This is the power of NSE and tidy evaluation. Basically, by wrapping up `cyl` in an envelope, we prevent R from *evaluating* it right away. We can then pass the envelope into other functions, or environments, and then tell R to remove the envelope and then *evaluate* it.
+
+Let's try and mimic this. We'll write a function `grab_col(x, colname)` which returns the values in the column whose name we ask for as an object. If we do this, without tidyeval, this will happen.
+
+```{r eval=FALSE}
+grab_col <- function(x, colname){
+  x %>%
+    pull(colname)
+}
+```
+
+Try running `grab_col(mtcars, colname=cyl)`. You'll get an error that `cyl` does not exist as an object. Augh! This is harder than we thought.
+
+How can we fix this? We can wrap `colname` up in an `enquosure` using the `enquo()` function. Once it's into `pull()`, we use `UQ()` to open the envelope and R knows that it should look in the `data.frame`'s environment for our `colname`:
+
+```{r}
+library(rlang)
+
+grab_col <- function(x, colname){
+  ##wrap up colname in an enquosure
+  cc <- rlang::enquo(colname)
+
+  ##use UQ to evaluate it within the pull function
+  x %>%
+    pull(
+      ## unquote and evaluate (open the envelope!)
+      UQ(cc)
+      )
+}
+
+grab_col(mtcars, colname=cyl)
+```
+
+Now try `grab_col(mtcars, colname=cyl)`. Nifty, huh?
+
+## With `quosure`s, values can come along for the ride
+
+Why would we use `quosure`s at all, instead of `enquosure`s? Because with `quosure`s we can actually bring some needed values along for the ride.
+
+```{r}
+
+```
+
+## What about lots of arguments?
+
+That's what `quos()` is for. Ever notice that you can specify a number of unnamed arguments by specifying a `...` in your function definition? And did you ever notice that `select()` can take lots of arguments such as `select(mpg, cyl, wt)`? That is the power of `...` combined with `quos()`!
+
+`quos` takes a list and makes each element of the list a `quosure`.
+
+```{r}
+
+```
+
+## What about expressions?
+
+Say we wanted to pass an expression such as `cyl > 2` into our function. We'll need to wrap it up in `enexpr()` instead of `enquo()`:
+
+```{r}
+filter_on_column <- function(x, col_expr){
+  c_e <- rlang::enexpr(col_expr)
+
+  x %>%
+    ## The !! (called a bangbang) is just another way to use UQ()
+    ## I don't really like it, I'd rather use UQ()
+    filter(!! c_e)
+}
+
+#pass in a simple expression
+mtcars %>% filter_on_column(cyl > 2) %>% head(5)
+#pass in a compound expression
+mtcars %>% filter_on_column(cyl > 2 & qsec > 18) %>% head(5)
+```
+
+## Be really careful with `!!`
+
+In the above example, we used `!!`, called a bangbang, to unquote and evaluate our expression. Be really careful with what you put after the `!!`, since everything after it will be evaluated. If you have elements after the expression you don't want to unquote, wrap the `!!` up in a set of parentheses:
+
+```{r eval=FALSE}
+bang <- function(val2){
+  x <- enquo(val2)
+  return((!! x) + 10)
+}
+
+bang(5)
+```
+
+## Other applications
+
+One of the coolest applications of NSE is to write code that writes code. You have to be very careful with this, but it's potentially really useful. On my list of things to do for my `flowDashboard` package is to write code that generates a standalone app given the data objects you supply it.
+
+## Appendix: What is a `quosure`, really?
+
+
+
+## For more information
+
+Hopefully this was helpful in understanding NSE and tidyeval. I find that sometimes I have to write things up so I more clearly understand it. So, if anything, writing this was useful for clarifying my thinking.
+
+I'm indebted to Edwin Thoen's code examples that helped me finally understand what's going on with `tidyeval`: https://edwinth.github.io/blog/dplyr-recipes/
+
+I didn't really talk about Base-R's NSE, but I would say that this should at least give you enough background to understand what's going on there.

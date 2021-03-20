@@ -1,0 +1,38 @@
+---
+title: If you want to talk with me for an informational interview
+author: ~
+date: '2018-01-15'
+slug: if-you-want-to-talk-with-me-for-an-informational-interview
+categories: [talking]
+tags: [talking, informational interview, data science]
+description: |
+   I get a lot of requests for informational interviews. Here's how to actually get one. 
+output:
+  distill::distill_article:
+    self_contained: true
+---
+
+>> Note: I have come to believe that this post is way too harsh and unwelcoming to
+>> people interested in data science. I will post an update to this, and a FAQ
+>> for those who want informational interviews. But in the spirit of showing my 
+>> mistakes, I'll leave this up here.
+
+I have had many people who have asked me for informational interviews. They tell me that they are interested in Data Science and want to hear about what I do on a day to day basis. To be honest, I've begun to dread these kinds of interviews. 
+
+Inevitably, I spend a *lot* of energy explaining what I do to someone who rarely follows up. Consequently, I don't find these interviews rewarding at all. So I've written this post so that I have a better time doing these kinds of interviews. 
+
+I reserve the right to refuse interviews from people who do not read this.
+
+1) *Do your homework*. Please don't expect me to give the five minute spiel about my research, hoping to look for an "in". Please do some research and try to ask *interesting* questions about my work. I've given you plenty of resources on this website to know more about me. Ask me about my software, ask me about teaching, ask me carefully thought questions about my research. 
+
+2) *Don't offer to buy me coffee*. If I talk with you for 30 minutes, know that my time is worth far more than a cup of coffee. Instead, offer to pay it forwards. Volunteer with a group that does scientific communication or education; I don't work with people who aren't willing to teach others. I don't work or talk with selfish people, having been burned many times by such people.
+
+3) *Be specific in your ask*. Asking about what next steps to take in learning data science and where to get a job is not specific enough. Again, do your research. What kinds of Data Science are you interested in? Are you interested in predictive analytics in healthcare? Or are you interested in systems modeling of disease? Be specific, and if you ask for something, make sure I can [achieve it in five minutes or less](https://www.samuelthomasdavies.com/the-five-minute-favour/). 
+
+4) *Don't ask for a job, ask for connections*. I know a decent number of people around Oregon and OHSU, so if you want me to introduce you to one of my connections, I'm happy to. If I know someone, I'm happy to do this, since it's usually a five-minute ask.
+
+5) *Follow up, and be willing to return the favor*. Even a nice thank-you email is good. I'm happy to make you a Linkedin connection, if it means I can help someone else further down the line. If I expend energy on you, I'd like to see my impact. If my efforts meant that you managed to find a job, please let me know! 
+
+6) *Read [Give and Take](http://www.adamgrant.net)*. This book by Adam Grant really struck me as the way to actually network. In short, I learned that if I want a return on my energy expenditure, I have to spend my energy on Givers, or people who help others. I am a Giver, but I now tend only to give informational interviewers to other Givers. The rest are too draining for me. 
+
+I have given so many of these interviews and have gotten nothing from them. Not even a follow-up, which really is bad practice. So, if I'm considered difficult to approach about these, know it is because your previous askers have really been an energy drain and have been inconsiderate Takers. Make it interesting for me and be considerate. I'm much more likely to help you.

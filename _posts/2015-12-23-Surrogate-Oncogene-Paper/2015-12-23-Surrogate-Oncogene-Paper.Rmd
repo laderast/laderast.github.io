@@ -1,0 +1,29 @@
+---
+date: '2015-12-23'
+title: Surrogate Oncogene Paper is Published
+Description: |
+   Paper on my dissertation work
+url: /2015/12/23/Surrogate-Oncogene-Paper
+tags: [publication]
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+My dissertation paper, [A Network-Based Model of Oncogenic Collaboration for Prediction of Drug Sensitivity](http://journal.frontiersin.org/article/10.3389/fgene.2015.00341/abstract) is now published! Here's a lay summary:
+
+>One outstanding issue in analyzing genomics in the context of personalized medicine is the incorporation of rare
+>or infrequent genetic alterations (copy number alterations and somatic mutations) that are observed in individual 
+> patients. We hypothesize that these mutations may actually 'collaborate' with known oncogenes in the genesis of
+> tumors through their interactions. In order to show this effect, we assess whether these interacting rare
+> mutations cluster around known oncogenes and assess these mutational clusters, which we term *surrogate
+> oncogenes*. We assess their statistical significance using a simple model of mutation. We show that surrogate
+> oncogenes are predictive of drug sensitivity in breast cancer cell lines. Additionally, they are prevalent in
+> three different cancer cohorts (Breast, Glioblastoma, and Bladder Cancer) from The Cancer Genome Atlas. Within
+> the Breast Cancer and Bladder Cancer populations, surrogate oncogenes are predictive of overall patient
+> survival. The chief strength of the surrogate oncogene approach is that it can be run at a single-patient
+> level in comparison to other methods of assessing mutational significance.
+
+If you're interested in learning more, you can check out the [Surrogate Oncogene Explorer](https://tladeras.shinyapps.io/surrogateShiny/) in order to understand the nature of surrogate oncogenes, and my [R/Bioconductor Package on GitHub](https://github.com/laderast/surrogateMutation) if you'd like to try out the analysis.
+
+There's a follow-up paper that I'm working on that I'm very excited about. More news soon.

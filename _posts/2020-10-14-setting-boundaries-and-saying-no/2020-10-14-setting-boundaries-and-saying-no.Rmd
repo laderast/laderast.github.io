@@ -1,0 +1,86 @@
+---
+title: Setting Boundaries and Saying No
+author: ~
+date: '2020-10-14'
+slug: setting-boundaries-and-saying-no
+categories: [self-care]
+tags: [boundaries, self-care]
+header:
+  caption: ''
+  image: ''
+  preview: yes
+description: |
+   How saying no can be the best self-care.   
+output:
+  distill::distill_article:
+    self_contained: true
+---
+
+I hate saying no. But as I go on in life, I realize that I can't be all things to all people. I want to help people, but I also have to have enough energy to get through the day.
+
+It's easy to go through life doing what everyone expects of you and have nothing to show for it. In fact, this is often the [curse of hyper-competent people](http://visionswell.com/self-care/what-is-the-curse-of-competence/). People tend to see you as a gear that fits within their own vision and expect you to do things for them.
+
+I want to outline an approach that will make it easier to say no. It starts with understanding yourself.
+
+## What are your values? Who are you fighting for?
+
+In order to say no, you have to have clarity on your values and goals. What do you see your life as?
+
+Here are some of my values:
+
+-   Make doing data science inclusive, accessible, and fun
+-   Introduce people to data science who hadn't seen it before
+-   Introduce useful and applicable data science skills that learners can provide
+-   Teach others about lifelong learning and participate and foster learning communities in Data Science
+
+An equally useful question to ask yourself is *who are you fighting for*? In my case:
+
+-   Underrepresented Minorities
+-   LGBTQ folks
+-   Myself and my husband
+
+I will say that as I get older, I have achieved greater clarity about what matters to me, and what doesn't matter to me. This clarity helps me understand what is and what isn't important to me.
+
+## Don't respond to requests right away
+
+If you don't want to add to your workload, I beg you to *not give an answer right away*. You need to check in with your feelings.
+
+Here is a boilerplate response if you need something to work off of:
+
+> "Thanks for thinking of me with this opportunity. However, I am extremely busy at the moment. I need to evaluate my current workload in order to tell you yes or no."
+
+This buys you time to think and understand about how you feel about the request. Also, it gives you time to compose a thoughtful reply.
+
+## Ask Yourself: Is this in line with my values/goals?
+
+Take a deep breath, and ask yourself how you feel about the request.
+
+Does it help further your goals or the people you're fighting for? Will it upset your current work/life balance? Are you willing to pay that price?
+
+If the answer is no to all of these, then the answer is no. No matter how noble their goals, if they don't fit with yours and your current workload, you should probably say no. You can leave the door open for future collaborations, though.
+
+The first few times, it may be agonizing to do this. But consulting your feelings about something will become second nature to you.
+
+## Gently Say No. Don't Feel Sorry.
+
+Here's the thing: *it is way easier to say no when the request doesn't align with your values or it doesn't benefit who you're fighting for*. It gives your response much more force.
+
+You may need to do a little verbal/email jujitsu here, because some people don't hear no. Use absolutes for right now, but keep the door open if you see yourself possibly working together in the future.
+
+More boilerplate:
+
+> "I really appreciate you thinking of me. However, I cannot help with your effort at the moment. I am trying to maintain work/life balance, and this would upset that. \[I hope you'll consider me for future efforts.\]"
+
+You don't need to provide more personal reasons than the above, especially if the requestor is a stranger.
+
+## Boundaries Keep You Sane
+
+Saying no doesn't feel good. But the more you do it, the more you can achieve work/life balance.
+
+You can't be everything to everyone, and you will end up dissappointing people. But you should feel okay about that, especially if their efforts are outside your own goals.
+
+I have to admit that I'm still learning how to do this. I've written this as much for myself as for others.
+
+## Further Reading
+
+-   Parts of this article are adapted from [Unfuck Your Boundaries](https://microcosmpublishing.com/catalog/books/8188) by Faith Harper. Her advice is no-nonsense, but it does require some soul searching to really utilize her advice.

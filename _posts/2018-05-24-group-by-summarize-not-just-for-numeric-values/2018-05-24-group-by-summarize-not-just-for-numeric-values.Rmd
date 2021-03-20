@@ -1,0 +1,61 @@
+---
+title: 'group_by/summarize: Not just for numeric values!'
+author: ~
+date: '2018-05-24'
+slug: group-by-summarize-not-just-for-numeric-values
+categories: 
+  - R
+  - tidyverse
+tags: []
+header:
+  caption: ''
+  image: ''
+description: |
+   Learn some more about the many uses of `group_by()`/`summarize()`.  
+output:
+  distill::distill_article:
+    self_contained: true
+---
+```{r setup, include=FALSE, message=FALSE}
+library(tidyverse)
+library(stringr)
+library(DT)
+```
+
+
+Even though I've been using the `tidyverse` for a couple of years, there's always a couple new applications of `tidyverse` verbs.
+
+This one, in retrospect, is pretty simple. I had a one to many table that I wanted to collapse, tidy-style. Let's look at the `diamonds` dataset:
+
+```{r}
+diamonds %>% select(color, cut) %>%
+  head() %>%
+  knitr::kable()
+```
+
+What if we wanted to collapse all the entries for each color into a single line? There's 7 different colors, so we can use a combination of `group_by` on `color` and use the `paste()` function within `summarize()` to get what we want, which I've called `all_colors` here. By specifying the `collapse` argument, we can specify the delimiter within that column: 
+
+```{r}
+diamonds %>% select(color, cut) %>% 
+  group_by(color) %>% 
+  summarize(all_colors=
+              paste(cut, collapse=";"))
+```
+
+Thanks to Ken Butler, who pointed out that the `tidyverse` way (via `stringr`) is to use `str_c` instead: 
+
+```{r}
+diamonds %>% select(color, cut) %>% 
+  group_by(color) %>% 
+  summarize(all_colors=
+              stringr::str_c(cut, collapse=";")) 
+```
+
+Finally, if we wanted to just get the unique values of the cuts in a single line, we can use `unique`:
+
+```{r}
+diamonds %>% select(color, cut) %>% 
+  group_by(color) %>% 
+  summarize(all_colors=
+              paste(unique(cut), collapse=";")) 
+```

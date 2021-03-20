@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Ted Laderas, PhD</title>
+    <link>https://distill-example.netlify.app/</link>
+    <atom:link href="https://distill-example.netlify.app/blog.xml" rel="self" type="application/rss+xml"/>
+    <description>Website for Ted Laderas, PhD
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Thu, 18 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Updated Blog</title>
+      <link>https://distill-example.netlify.app/posts/2021-03-18-updated-blog</link>
+      <description>Reasons why I moved over to {distill} for my blog</description>
+      <guid>https://distill-example.netlify.app/posts/2021-03-18-updated-blog</guid>
+      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Setting Boundaries and Saying No</title>
+      <link>https://distill-example.netlify.app/posts/2020-10-14-setting-boundaries-and-saying-no</link>
+      <description>How saying no can be the best self-care.</description>
+      <category>self-care</category>
+      <guid>https://distill-example.netlify.app/posts/2020-10-14-setting-boundaries-and-saying-no</guid>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Getting LearnR tutorials to run on mybinder.org</title>
+      <link>https://distill-example.netlify.app/posts/2020-09-15-getting-learnr-tutorials-to-run-on-mybinder-org</link>
+      <description>Getting Shiny, LearnR, and Mybinder.org to play together nicely.</description>
+      <guid>https://distill-example.netlify.app/posts/2020-09-15-getting-learnr-tutorials-to-run-on-mybinder-org</guid>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://distill-example.netlify.app/posts/2020-09-15-getting-learnr-tutorials-to-run-on-mybinder-org/binder_repo.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Notes on the RStudio Instructor Training Experience</title>
+      <link>https://distill-example.netlify.app/posts/2019-11-15-my-experience-with-rstudio-instructor-training</link>
+      <description>Notes on the RStudio Instructor Training and certification exams.</description>
+      <guid>https://distill-example.netlify.app/posts/2019-11-15-my-experience-with-rstudio-instructor-training</guid>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kindness at the Cost of Yourself</title>
+      <link>https://distill-example.netlify.app/posts/2019-09-23-kindness-at-the-cost-of-yourself</link>
+      <description>Being overdrawn at the bank of kindness and self-care.</description>
+      <category>self-care</category>
+      <guid>https://distill-example.netlify.app/posts/2019-09-23-kindness-at-the-cost-of-yourself</guid>
+      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Burning Out and Recovering (slowly)</title>
+      <link>https://distill-example.netlify.app/posts/2019-07-03-burning-out-and-recovering-slowly</link>
+      <description>How I'm recovering from burnout.</description>
+      <guid>https://distill-example.netlify.app/posts/2019-07-03-burning-out-and-recovering-slowly</guid>
+      <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Package Building: How `DESCRIPTION`, `NAMESPACE`, `roxygen`, and `devtools::document` work together</title>
+      <link>https://distill-example.netlify.app/posts/2019-02-12-package-building-how-description-namespace-roxygen-and-devtools-document-work-together</link>
+      <description>Some thoughts the package building process and how `devtools::document()` is at the center of it..</description>
+      <category>R</category>
+      <guid>https://distill-example.netlify.app/posts/2019-02-12-package-building-how-description-namespace-roxygen-and-devtools-document-work-together</guid>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
+      <media:content url="https://distill-example.netlify.app/posts/2019-02-12-package-building-how-description-namespace-roxygen-and-devtools-document-work-together/imports-workflow.png" medium="image" type="image/png" width="477" height="767"/>
+    </item>
+    <item>
+      <title>Rstudio Conf 2019: Education and Organizations</title>
+      <link>https://distill-example.netlify.app/posts/2019-01-24-rstudio-conf-2019-education-and-organizations</link>
+      <description>Some notes about RStudioConf 2019.</description>
+      <category>conference</category>
+      <guid>https://distill-example.netlify.app/posts/2019-01-24-rstudio-conf-2019-education-and-organizations</guid>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      <media:content url="https://distill-example.netlify.app/posts/2019-01-24-rstudio-conf-2019-education-and-organizations/poster_laderast.png" medium="image" type="image/png" width="1067" height="801"/>
+    </item>
+    <item>
+      <title>Reframing Impostor Syndrome as the Road to Mastery</title>
+      <link>https://distill-example.netlify.app/posts/2018-12-13-reframing-impostor-syndrome-as-being-on-the-road-to-mastery</link>
+      <description>Some thoughts about impostor syndrome.</description>
+      <guid>https://distill-example.netlify.app/posts/2018-12-13-reframing-impostor-syndrome-as-being-on-the-road-to-mastery</guid>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Things we learned teaching clinical data wrangling</title>
+      <dc:creator>Eilis Boudreau, Ted Laderas, and Nicole Weiskopf</dc:creator>
+      <link>https://distill-example.netlify.app/posts/2018-10-15-clinical-data-wrangling</link>
+      <description>More information about managing depression and anxiety.</description>
+      <category>visualization</category>
+      <category>R</category>
+      <guid>https://distill-example.netlify.app/posts/2018-10-15-clinical-data-wrangling</guid>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      <media:content url="https://distill-example.netlify.app/posts/2018-10-15-clinical-data-wrangling/appview.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Shiny and Tidyeval Part 1</title>
+      <link>https://distill-example.netlify.app/posts/2018-08-07-shiny-and-tidyeval</link>
+      <description>How do you incorporate tidyeval and shiny together?</description>
+      <category>shiny</category>
+      <guid>https://distill-example.netlify.app/posts/2018-08-07-shiny-and-tidyeval</guid>
+      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Turning down the noise</title>
+      <link>https://distill-example.netlify.app/posts/2018-08-02-turning-down-the-noise</link>
+      <description>More information about managing depression and anxiety.</description>
+      <guid>https://distill-example.netlify.app/posts/2018-08-02-turning-down-the-noise</guid>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Asking for help to get better</title>
+      <link>https://distill-example.netlify.app/posts/2018-06-25-asking-for-help-to-get-better</link>
+      <description>Learning more about managing burnout.</description>
+      <guid>https://distill-example.netlify.app/posts/2018-06-25-asking-for-help-to-get-better</guid>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cascadia-R 2018: How we planned it and the reasons why</title>
+      <link>https://distill-example.netlify.app/posts/2018-06-09-cascadia-r-2018-how-we-planned-it</link>
+      <description>More information about the 2018 Cascadia-R conference.</description>
+      <category>conference</category>
+      <guid>https://distill-example.netlify.app/posts/2018-06-09-cascadia-r-2018-how-we-planned-it</guid>
+      <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>
+      <media:content url="https://distill-example.netlify.app/posts/2018-06-09-cascadia-r-2018-how-we-planned-it/pull-plan-cascadia-r.png" medium="image" type="image/png" width="1121" height="588"/>
+    </item>
+    <item>
+      <title>Self Care and Self Compassion in Academia</title>
+      <link>https://distill-example.netlify.app/posts/2018-06-06-self-care-and-self-compassion-in-academia</link>
+      <description>Why self-care is important in academia.</description>
+      <guid>https://distill-example.netlify.app/posts/2018-06-06-self-care-and-self-compassion-in-academia</guid>
+      <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>group_by/summarize: Not just for numeric values!</title>
+      <link>https://distill-example.netlify.app/posts/2018-05-24-group-by-summarize-not-just-for-numeric-values</link>
+      <description>Learn some more about the many uses of `group_by()`/`summarize()`.</description>
+      <category>R</category>
+      <category>tidyverse</category>
+      <guid>https://distill-example.netlify.app/posts/2018-05-24-group-by-summarize-not-just-for-numeric-values</guid>
+      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Introvert's Survival Guide to Conferences</title>
+      <link>https://distill-example.netlify.app/posts/2018-05-17-a-introvert-s-survival-guide-to-conferences</link>
+      <description>Are you an introvert? Here's how to make conferences easier.</description>
+      <category>social</category>
+      <category>networking</category>
+      <guid>https://distill-example.netlify.app/posts/2018-05-17-a-introvert-s-survival-guide-to-conferences</guid>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Health Informatics Course Materials</title>
+      <link>https://distill-example.netlify.app/posts/2018-04-25-health-informatics-course-materials</link>
+      <description>Links to my lectures for our HSMP410 course.</description>
+      <category>oer</category>
+      <category>open-education</category>
+      <category>informatics</category>
+      <guid>https://distill-example.netlify.app/posts/2018-04-25-health-informatics-course-materials</guid>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Simple Intro to Genome Wide Association</title>
+      <link>https://distill-example.netlify.app/posts/2018-04-04-a-simple-intro-to-genome-wide-association</link>
+      <description>Notes on our preprint about synthetic clinical data.</description>
+      <category>teaching</category>
+      <guid>https://distill-example.netlify.app/posts/2018-04-04-a-simple-intro-to-genome-wide-association</guid>
+      <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
+      <media:content url="https://distill-example.netlify.app/posts/2018-04-04-a-simple-intro-to-genome-wide-association/proportions-hsmp410.png" medium="image" type="image/png" width="829" height="395"/>
+    </item>
+    <item>
+      <title>Data Science and Systems Science</title>
+      <link>https://distill-example.netlify.app/posts/2018-02-28-data-science-and-systems-science</link>
+      <description>A talk about how system science and data science are connected.</description>
+      <category>data-science</category>
+      <category>systems</category>
+      <guid>https://distill-example.netlify.app/posts/2018-02-28-data-science-and-systems-science</guid>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A gRadual Introduction to Shiny</title>
+      <link>https://distill-example.netlify.app/posts/2018-01-23-shiny-workshop-materials-posted</link>
+      <description>An workshop introduction to Shiny</description>
+      <category>visualization</category>
+      <category>R</category>
+      <guid>https://distill-example.netlify.app/posts/2018-01-23-shiny-workshop-materials-posted</guid>
+      <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
+      <media:content url="https://distill-example.netlify.app/posts/2018-01-23-shiny-workshop-materials-posted/shiny-architecture.png" medium="image" type="image/png" width="989" height="373"/>
+    </item>
+    <item>
+      <title>What We learned teaching Python to Neuroscience Students</title>
+      <link>https://distill-example.netlify.app/posts/2018-01-17-what-we-learned-teaching-python-to-neuroscience-students</link>
+      <description>Our team-taught class introducing Neuroscience Graduate Program students to Python.</description>
+      <guid>https://distill-example.netlify.app/posts/2018-01-17-what-we-learned-teaching-python-to-neuroscience-students</guid>
+      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
+      <media:content url="https://distill-example.netlify.app/posts/2018-01-17-what-we-learned-teaching-python-to-neuroscience-students/py_class.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>If you want to talk with me for an informational interview</title>
+      <link>https://distill-example.netlify.app/posts/2018-01-15-if-you-want-to-talk-with-me-for-an-informational-interview</link>
+      <description>I get a lot of requests for informational interviews. Here's how to actually get one.</description>
+      <category>talking</category>
+      <guid>https://distill-example.netlify.app/posts/2018-01-15-if-you-want-to-talk-with-me-for-an-informational-interview</guid>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>So You've Accidentally Checked in a Large File Into Git</title>
+      <link>https://distill-example.netlify.app/posts/2018-01-05-so-you-ve-accidentally-checked-in-a-large-file-into-git</link>
+      <description>Don't panic. I'll show you how to scrub your Git history and get rid of it.</description>
+      <category>git</category>
+      <category>git hell</category>
+      <guid>https://distill-example.netlify.app/posts/2018-01-05-so-you-ve-accidentally-checked-in-a-large-file-into-git</guid>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using Synthetic Data for Teaching Data Science</title>
+      <link>https://distill-example.netlify.app/posts/2017-12-14-using-synthetic-data</link>
+      <description>Notes on our preprint about synthetic clinical data.</description>
+      <guid>https://distill-example.netlify.app/posts/2017-12-14-using-synthetic-data</guid>
+      <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Notes on Open Data Science Conference West 2017</title>
+      <link>https://distill-example.netlify.app/posts/2017-11-07-ODSC-Notes</link>
+      <description>Some notes on ODSC West 2017.</description>
+      <guid>https://distill-example.netlify.app/posts/2017-11-07-ODSC-Notes</guid>
+      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Interesting useR 2017 Talks</title>
+      <link>https://distill-example.netlify.app/posts/2017-07-05-interesting-user2017talks</link>
+      <description>useR 2017 talks and links.</description>
+      <guid>https://distill-example.netlify.app/posts/2017-07-05-interesting-user2017talks</guid>
+      <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Not Be Afraid of Your Data</title>
+      <link>https://distill-example.netlify.app/posts/2017-06-28-HowToNotBeAfraid</link>
+      <description>A Past Workshop about EDA and data exploration.</description>
+      <guid>https://distill-example.netlify.app/posts/2017-06-28-HowToNotBeAfraid</guid>
+      <pubDate>Wed, 28 Jun 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Some Lessons We Learned Running Cascadia-R 2017</title>
+      <link>https://distill-example.netlify.app/posts/2017-06-07-CascadiaRNotes</link>
+      <description>How we started and ran the first PNW Regional R Conference, Cascadia-R</description>
+      <guid>https://distill-example.netlify.app/posts/2017-06-07-CascadiaRNotes</guid>
+      <pubDate>Wed, 07 Jun 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>On Breadth and Depth in Your Academic Career</title>
+      <link>https://distill-example.netlify.app/posts/2017-04-19-Breadth-and-depth</link>
+      <description>Why Learning and hobbies outside of your field are important.</description>
+      <guid>https://distill-example.netlify.app/posts/2017-04-19-Breadth-and-depth</guid>
+      <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fostering a Peer Mentoring Culture</title>
+      <link>https://distill-example.netlify.app/posts/2017-04-17-Building-A-Peer-Mentoring</link>
+      <description>A bit about BioData Club</description>
+      <guid>https://distill-example.netlify.app/posts/2017-04-17-Building-A-Peer-Mentoring</guid>
+      <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Statcheck Interview</title>
+      <link>https://distill-example.netlify.app/posts/2015-11-19-statcheck-package</link>
+      <description>Interesting interview with the developer of statcheck</description>
+      <guid>https://distill-example.netlify.app/posts/2015-11-19-statcheck-package</guid>
+      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Somatic Mutations in Skin Paper</title>
+      <link>https://distill-example.netlify.app/posts/2015-05-26-mutational-burden-in-skin</link>
+      <description>More about somatic mutations in skin cancer.</description>
+      <guid>https://distill-example.netlify.app/posts/2015-05-26-mutational-burden-in-skin</guid>
+      <pubDate>Tue, 26 May 2015 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

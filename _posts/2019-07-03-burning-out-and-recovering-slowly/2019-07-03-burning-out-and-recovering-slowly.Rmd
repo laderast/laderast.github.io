@@ -1,0 +1,56 @@
+---
+title: Burning Out and Recovering (slowly)
+author: ~
+date: '2019-07-03'
+slug: burning-out-and-recovering-slowly
+categories: []
+tags: [burnout, depression]
+description: |
+   How I'm recovering from burnout.   
+output:
+  distill::distill_article:
+    self_contained: true
+---
+
+Last year about this time, [I had a meltdown](https://laderast.github.io/2018/06/05/self-care-and-self-compassion-in-academia/), which is a symptom of burnout. I'd like to explain a little bit about my burnout in the hopes that other people can avoid it.
+
+I want to help people, and I’m a people pleaser. I’m a giver, and sometimes I give too much, to the point I have nothing left. I have to be aware when people exploit this. One collaboration, unfortunately took advantage of my giving nature.
+
+I was on a contracted project where I used some of the time to build an open source project to enable our research. With our collaborators, I showed them my work and they seemed excited. Unfortunately, this “excitement” turned into unreasonable demands. I was literally trying to do a full time development position while balancing the demands of other projects, including teaching. I started feeling like a machine, where each of my collaborators just wanted me to output figures and analyses.
+
+The worst I’ve ever felt is when I have been busting my ass for things I don’t believe in, or have been stretched across too many projects. Unlike a lot of faculty at OHSU, I don’t have my own R01. I am a collaborator, and I work hard at it. 
+
+The wake-up call for me was persistent thoughts of suicide. I realized that I didn't care that much about anything and I knew that things had to change.
+
+## Regaining Balance
+
+The past year has been about finding my way back. I’ve been trying to do the following to regain my balance:
+
+1. *Working 4 days/week instead of the usual 5*. On my “day off”, I try my best to contribute to open source projects, work on music, and do other things that recharge me. This has enabled me to say no more often.
+
+2. *Understanding my values and restructuring my work to fit it*. I’m much more focused on education, outreach, and mentoring these days. If a project comes up, I have to ask myself whether it is in line with my values. I'd like my research to include educational and data exploration components, such as Shiny.
+
+3. *Not putting all my eggs in the work basket*. I'm an artist in addition to being a data scientist. I play the cello, compose, and do photography. I make more time for these.
+
+4. *Realizing that excellence does not require self sacrifice*. I try to stop working on things obsessively, and only within the time I'm paid. 
+
+5. *Mindfulness work*. I’ve been using the Calm app to help me reorient me and not immediately react to adversities I encounter. 
+
+6. *Giving up on perfection*. I'm learning to slowly abandon perfection on projects I don't care that much about (more on this later), and instead turn my alerts off, or only respond to them within sane business hours.
+
+## Am I Recovered?
+
+I’d like to say I’m fully recovered, but I’m not. I'm not sure I'll ever be 100% recovered, if recovered means the insane productivity levels I was showing before. I have been slowly asking myself whether projects expect insane levels of work for the amount of time I can dedicate to them. 
+
+Thankfully, I have had really great support from my department and from the university overall throughout. I have had support from the communities I help manage (BioData Club and Portland R User Group), and all the great people involved in open science that I have met (rOpenSci, Mozilla, The Carpentries).
+
+I would say that this support has been wonderful, and I feel like the journey back from research burnout has been ongoing. I wish there was a magic bullet for burnout, but working one's way out of mental and emotional exhaustion ultimately takes a lot of time. 
+
+## Resources
+
+If you are burned out, please seek [mental health assistance](https://www.nami.org/Find-Support/NAMI-HelpLine) if you need help.
+
+- [The Telltale Signs of Burnout](https://www.psychologytoday.com/us/blog/high-octane-women/201311/the-tell-tale-signs-burnout-do-you-have-them) - How to recognize when you're burned out.
+- [Mayo Clinic on Burnout](https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642) - More information on Burnout.
+- [Responding to Burnout](https://www.workplacestrategiesformentalhealth.com/managing-workplace-issues/burnout-response). How can we recognize burnout in others? 
+- [WorkLife Podcast](https://www.ted.com/podcasts/worklife) - This podcast by Adam Grant (organizational psychologist) has been full of ideas on how to make what I work on more meaningful. Highly recommended.

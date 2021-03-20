@@ -1,0 +1,16 @@
+---
+title: "Updated Blog"
+description: |
+   Reasons why I moved over to {distill} for my blog
+date: 2021-03-18
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+I love {distill}.

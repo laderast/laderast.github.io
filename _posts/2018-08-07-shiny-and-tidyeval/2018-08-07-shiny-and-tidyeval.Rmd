@@ -1,0 +1,70 @@
+---
+title: Shiny and Tidyeval Part 1
+author: ~
+date: '2018-08-07'
+slug: shiny-and-tidyeval
+categories: [shiny]
+tags: [shiny, tidyeval, inputs, apps, this]
+header:
+  caption: ''
+  image: ''
+description: |
+  How do you incorporate tidyeval and shiny together? 
+output:
+  distill::distill_article:
+    self_contained: true
+---
+
+> Note: sometimes I write these posts to teach myself a better way to do things in R.
+
+I have been avoiding `tidyeval` somewhat, because I seem to have a bit of a learning block about it. I'm going to try to write some posts that help me understand what's going on with Tidy Evaluation.
+
+## Using `sym()` in a Shiny App
+
+One fairly simple Shiny Application might be selecting a column of the dataset and then doing something with it, such as using it in a `select()` or `filter()` statement. Say we had a simple app to produce histograms, and we wanted to change the column that is being displayed on the histogram. 
+
+Try this app out by running the following command. The [code is here](https://gist.github.com/laderast/a5205554324306e642b2df9f80ed6409).
+
+```{r eval=FALSE}
+runGist("https://gist.github.com/laderast/a5205554324306e642b2df9f80ed6409", display.mode="showcase")
+```
+
+Our input is a select input called `numeric_var`, which returns a single column name as a `character` In our server logic, we've built a reactive called `selected_data`, which returns the selected column as a vector using `pull()`. 
+
+```{r eval=FALSE}
+  selected_data <- reactive({
+    ## input$numeric_var is a character, so we cast it to symbol
+    var_name <- sym(input$numeric_var)
+
+    ## Now we evaluate it with !!
+    out_col <- iris %>% pull(!!var_name)
+  })
+```
+
+The question is: how do we pass the input value into `pull()`? We first have to use `rlang::sym()` to pass our character in as a `symbol` that we're calling `var_name`. But the issue is that our reactive doesn't know which environment to look in. 
+
+We want our reactive to look for the column name within the environment of the `iris` `tibble`. This is where the `!!` (bang-bang) comes in. It says, 'look for the value' within the `tibble`. 
+
+## Using `syms()` in a Shiny App
+
+What if wanted to pass in *multiple* variables from a select box? We'll need to wrap our input with `syms()`, which takes a list.
+
+Let's do a slightly different version where we're visualizing a box plot and we want to select multiple columns to display in our dataset from a `selectInput` where we've specified the `multiple=TRUE` argument. 
+
+Our setup is similar, but different. Because we have multiple values, we have to use `syms()` to wrap the input from `input$numeric_vars`. Then we can evaluate it with `!!!` (the triple bang).
+
+```{r eval=FALSE}
+  selected_data <- reactive({
+    ## input$numeric_var is a character vector, so we cast it to symbol
+    var_list <- syms(input$numeric_vars)
+
+    ## Now we evaluate it with !!!
+    out_col <- iris %>% select(!!!var_list)
+  })
+```
+
+Try this app out. The [Code is here](https://gist.github.com/laderast/952120ac46d1f27c2d2dba5bd1ab5d10).
+
+```{r eval=FALSE}
+runGist("https://gist.github.com/laderast/952120ac46d1f27c2d2dba5bd1ab5d10", display.mode="showcase")
+```

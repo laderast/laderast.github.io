@@ -1,0 +1,30 @@
+---
+title: Asking for help to get better
+author: ~
+date: '2018-06-25'
+slug: asking-for-help-to-get-better
+categories: []
+tags: [depression, academia]
+header:
+  caption: ''
+  image: ''
+description: |
+  Learning more about managing burnout.  
+output:
+  distill::distill_article:
+    self_contained: true
+---
+
+I want to thank everyone who has reached out to me after I wrote [my post on struggling with my depression and self-care](http://laderast.github.io/2018/06/05/self-care-and-self-compassion-in-academia/). I am incredibly grateful for everyone’s concern about me. I wrote that at a low point in my life because I had to. I was suffering too long in silence, and I needed to do something. Writing that post was incredibly scary. I am still worried that it may be used against me somehow down the line when I am reviewed for tenure. But the truth is that I'm not a productivity machine; I can be extremely dependable in very uncertain situations, but to do that I need support.
+
+I wanted to start the conversation because mental health is not something we talk about much in academia. There is still a lot of bias and stigma against those with mental illness, that they are "weak", or that they should "get out of academia". This stigma prevents a lot of students and postdocs from seeking the treatment they need.  I just want to say this to everyone who is struggles with mental illness: **you aren't weak, and you aren't alone**. As far as I am concerned, each of you that manages to get through your day despite of your illness should be considered a hero. Because I know how hard it can be to even get out of bed some days. And I would like for PIs to consider that your overall neglect and/or bad advising can contribute to your student's decline in mental health. 
+
+Thank you to all my students, my colleagues, alumni, and everyone in my department (including my department head and division head) who are supporting me. Your kindness and sharing your stories about your struggles really has meant a lot to me. I’ve come to realize that I have an amazing support network and that I just need to ask for help. I am slowly figuring out what that help is. I’m going to 0.8 time for a while to give me more breathing room. I’m exhausted and I just need some time to replenish my energy and reflect where I want to go next.
+
+I have come to realize that saying yes when I shouldn't comes at a cost to myself and my mental health. Everything I do comes at a cost; I need to have a better gauge of when that cost is worth it, and how much mental reserve I have in my tanks. When my collaborators don't understand the amount of work I do cleaning their data, when they don't respect the work I have done managing their data and reconciling the issues with data collection, that's when I feel like working in research is not worth it.
+
+One of my industry collaborations was like that, and it pretty much drained nearly all of my energy. I don't like working with people who expect me to give them an answer and aren't willing to educate me about what I'm supposed to be looking for. I also don't like working with people who take advantage of my work in open science to further their own work agenda. I need less of these kind of collaborations, and I need the gumption to walk away from them.
+
+I just want to say this: I am not a rock. I am not strong. But I am a good advocate for others, especially those I feel who have been dealt an unfair hand. I realize that I need to advocate for myself right now. Thank you to other academics such as Dr. Emily Hencken Ritter, who wrote about [her struggles with depression and what help she asked for](http://duckofminerva.com/2017/04/building-safe-space-for-depression-in-academia.html). I'm going to highlight posts about this using the hashtag #DepressionInAcademia on Twitter.
+
+In short: I'm not going to get better overnight, but I'm trying to take steps to get better. I'll be taking a little time off this summer as well to recharge and figure out what's next. I'll try to chronicle what works for me and to highlight other people's writings about this.
