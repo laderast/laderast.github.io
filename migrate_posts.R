@@ -3,7 +3,6 @@ library(dplyr)
 fis <- list.files(path="_posts", pattern = "\\.md", full.names = TRUE) 
 bare_file_names <- list.files(path="_posts", pattern = "\\.md") 
 
-
 file_frame <- data.frame(fis, bare_file_names)
 
 file_frame %<>%
@@ -16,5 +15,5 @@ for(i in 1:nrow(file_frame)){
   row <- file_frame[i,]
   dir.create(row$file_folder)
   file.copy(from = row$fis, row$new_location)
-  
+  file.remove(row$ris)
 }

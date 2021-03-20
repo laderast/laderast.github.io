@@ -1,7 +1,7 @@
 ---
 title: "Updated Blog"
 description: |
-   Reasons why I moved over to {distill} for my blog
+   Reasons why I moved over to {distill} for my blog.
 date: 2021-03-18
 output:
   distill::distill_article:
@@ -13,4 +13,8 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-I love {distill}.
+I've imported most of my blog posts over from my Hugo/Blogdown blog over to this new `{distill}` site.
+
+Why? `{distill}` is much more lightweight and easier to maintain. If I want, I can drag over articles from tidytuesday explorations or such and easily link to them. The `{blogdown}` workflow was really becoming a pain, especially in maintaining different Hugo versions, and honestly, the page was getting much too busy.
+
+So, really, theoretically, you should see more content from me soon.

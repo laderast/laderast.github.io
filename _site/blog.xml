@@ -7,11 +7,18 @@
     <description>Website for Ted Laderas, PhD
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Thu, 18 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>An Introduction to {distill} for websites</title>
+      <link>https://distill-example.netlify.app/posts/2021-03-19-an-introduction-to-distill</link>
+      <description>How you too can learn to {distill}.</description>
+      <guid>https://distill-example.netlify.app/posts/2021-03-19-an-introduction-to-distill</guid>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Updated Blog</title>
       <link>https://distill-example.netlify.app/posts/2021-03-18-updated-blog</link>
-      <description>Reasons why I moved over to {distill} for my blog</description>
+      <description>Reasons why I moved over to {distill} for my blog.</description>
       <guid>https://distill-example.netlify.app/posts/2021-03-18-updated-blog</guid>
       <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
     </item>
