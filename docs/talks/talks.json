@@ -34,6 +34,23 @@
     "input_file": {}
   },
   {
+    "path": "talks/2021-03-22-the-md-in-rmd-teaching-clinicians-analytics-usin-r/",
+    "title": "The MD in .Rmd: Teaching Clinicians Analytics using R",
+    "description": "A talk given for R/Medicine 2020 about our Data Analytics course.",
+    "author": [
+      {
+        "name": "Ted Laderas",
+        "url": {}
+      }
+    ],
+    "date": "2021-03-22",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-03-22T15:06:02-07:00",
+    "input_file": {}
+  },
+  {
     "path": "talks/2021-03-20-data-storytelling/",
     "title": "Data Storytelling",
     "description": "Learn about tailoring your visualization to an audience through reducing cognitive load.",

@@ -25,6 +25,14 @@
       <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>The MD in .Rmd: Teaching Clinicians Analytics using R</title>
+      <dc:creator>Ted Laderas</dc:creator>
+      <link>https://laderast.github.io/talks/2021-03-22-the-md-in-rmd-teaching-clinicians-analytics-usin-r</link>
+      <description>A talk given for R/Medicine 2020 about our Data Analytics course.</description>
+      <guid>https://laderast.github.io/talks/2021-03-22-the-md-in-rmd-teaching-clinicians-analytics-usin-r</guid>
+      <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Data Storytelling</title>
       <dc:creator>Ted Laderas</dc:creator>
       <link>https://laderast.github.io/talks/2021-03-20-data-storytelling</link>
