@@ -1,0 +1,30 @@
+---
+title: "Data Scavenger Hunt: Exploring NHANES"
+description: |
+  A short workshop teaching exploratory data analysis using the NHANES dataset.
+category: 
+  - workshop
+  - biodata-club
+  - free
+author:
+  - name: Ted Laderas
+    url: {}
+  - name: Jessica Minnier
+    url: {}
+  - name: Thomas Frohwein
+    url: {}
+date: 2019-01-25
+output:
+  distill::distill_article:
+    self_contained: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+knitr::include_url("https://laderast.github.io/nhanes_explore/#(1)")
+```
+

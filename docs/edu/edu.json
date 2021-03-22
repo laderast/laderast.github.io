@@ -211,6 +211,31 @@
     "input_file": {}
   },
   {
+    "path": "edu/2021-03-22-data-scavenger-hunt-exploring-nhanes/",
+    "title": "Data Scavenger Hunt: Exploring NHANES",
+    "description": "A short workshop teaching exploratory data analysis using the NHANES dataset.",
+    "author": [
+      {
+        "name": "Ted Laderas",
+        "url": {}
+      },
+      {
+        "name": "Jessica Minnier",
+        "url": {}
+      },
+      {
+        "name": "Thomas Frohwein",
+        "url": {}
+      }
+    ],
+    "date": "2019-01-25",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-03-22T15:15:49-07:00",
+    "input_file": "data-scavenger-hunt-exploring-nhanes.utf8.md"
+  },
+  {
     "path": "edu/2021-03-20-r-bootcamp/",
     "title": "R Bootcamp",
     "description": "Our free online interactive course teaching the `tidyverse`.",
