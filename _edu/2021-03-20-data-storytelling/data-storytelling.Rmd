@@ -9,6 +9,7 @@ categories:
   - free
   - workshop
   - biodata-club
+  - tidyverse
 output:
   distill::distill_article:
     self_contained: true

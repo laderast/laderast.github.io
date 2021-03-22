@@ -2,7 +2,7 @@
   {
     "path": "edu/2021-03-20-bsta-504-r-programming/",
     "title": "BSTA 504: R Programming",
-    "description": "Our course for OHSU/PSU School of Public Health teaching te basics of R-Programming",
+    "description": "Our course for OHSU/PSU School of Public Health teaching the basics of R-Programming",
     "author": [
       {
         "name": "Ted Laderas",
@@ -15,12 +15,13 @@
     ],
     "date": "2021-03-20",
     "categories": [
-      "course"
+      "course",
+      "tidyverse"
     ],
     "contents": "\r\n\r\n\r\n\r\nLearning Objectives\r\nUnderstand and utilize R/RStudio.\r\nUnderstand basic data types and data structures in R.\r\nFamiliarize and load data files (Excel, Comma Separated Value files) into R/Rstudio, with tips on formatting.\r\nVisualize datasets using ggplot2 and understand how to build basic plots using {ggplot2} grammar.\r\nFilter and format data in R for use with various routines using {dplyr}.\r\nExecute and Interpret some basic statistics in R using {broom}.\r\nAutomate repetitive tasks in R, such as loading a folder of files using {purrr}.\r\nExecute basic machine learning workflows using {tidymodels}.\r\nCourse Links\r\nCourse Website Course Syllabus\r\n\r\n\r\n\r\n",
     "preview": "edu/2021-03-20-bsta-504-r-programming/social-image.png",
-    "last_modified": "2021-03-20T13:23:24-07:00",
-    "input_file": {},
+    "last_modified": "2021-03-21T20:25:40-07:00",
+    "input_file": "bsta-504-r-programming.utf8.md",
     "preview_width": 784,
     "preview_height": 401
   },
@@ -32,12 +33,13 @@
     "date": "2021-03-20",
     "categories": [
       "self-learning",
-      "free"
+      "free",
+      "tidyverse"
     ],
     "contents": "\r\nDescription\r\n{tidyowl} is my LearnR Package for going further in the tidyverse.\r\nSo far, it covers the following:\r\nLearning tidyselect (verbs and methods for selecting and processing columns of data)\r\nLearning rowwise (verbs and methods for processing data row-by-row)\r\nLink\r\nLearnR Repository\r\nInstall on your own machine with:\r\ninstall.packages(\"remotes\")\r\nremotes::install_github(\"laderast/tidyowl\")\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-03-20T13:33:52-07:00",
-    "input_file": {}
+    "last_modified": "2021-03-21T20:29:07-07:00",
+    "input_file": "tidyowl.utf8.md"
   },
   {
     "path": "edu/2021-03-19-an-introduction-to-distill/",
@@ -106,12 +108,13 @@
     ],
     "date": "2020-04-20",
     "categories": [
-      "course"
+      "course",
+      "data-science"
     ],
     "contents": "\r\nCourse Description\r\nPractical coursework in R/SQL for our hybrid Data Analytics Course taught with Kaiser Permanente. This course has been taught from 2013 to the present during summer quarter for students in the Biomedical Informatics program at OHSU.\r\nThis repo includes the practical coursework in R/SQL for our hybrid Data Analytics Course taught with Kaiser Permanente. This course has been taught from 2013 to the present during summer quarter for students in the Biomedical Informatics program at OHSU.\r\nPlease note that this is only half of the course, which also includes discussions on organizational behavior, implementing analytics projects within an organization, and discussions of the LACE score.\r\nLearning Objectives:\r\nUnderstand the basics of using R/Rstudio\r\nLearn and apply basic SQL queries to a synthetic patient cohort\r\nImplement a metric for predicting 30 day hospital readmissions (LACE score) for this patient cohort.\r\nLearn, understand, and apply simple visualizations to communicate findings\r\nUnderstand how to build and interpret logistic regression models\r\nLink\r\nCourse Website Course Repo\r\nLicensing\r\nThis course material is released under an Apache 2.0 License.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-03-20T13:42:16-07:00",
-    "input_file": {}
+    "last_modified": "2021-03-21T20:28:36-07:00",
+    "input_file": "bmi-569-data-analytics.utf8.md"
   },
   {
     "path": "edu/2020-04-01-neus-643-stats-for-neuroscientists/",
@@ -199,12 +202,13 @@
     "categories": [
       "workshop",
       "biodata-club",
-      "free"
+      "free",
+      "reproducibility"
     ],
     "contents": "\r\nPresentation Code\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-03-20T13:48:42-07:00",
-    "input_file": {}
+    "last_modified": "2021-03-21T20:28:01-07:00",
+    "input_file": "a-practical-guide-to-reproducible-papers.utf8.md"
   },
   {
     "path": "edu/2021-03-20-r-bootcamp/",
@@ -223,12 +227,13 @@
     "date": "2019-01-20",
     "categories": [
       "self-learning",
-      "free"
+      "free",
+      "tidyverse"
     ],
-    "contents": "\r\n\r\n\r\n\r\nIn this course, we cover the basics of visualization, data munging, and basic statistics using the tidyverse in R. It is freely available to everyone and runs off the Binder cloud service. Written with Jessica Minnier.\r\nLink\r\nCourse Website\r\n\r\n\r\n\r\n",
+    "contents": "\r\n\r\n\r\n\r\nCourse Description\r\nIn this course, we cover the basics of visualization, data munging, and basic statistics using the tidyverse in R. It is freely available to everyone and runs off the Binder cloud service. Written with Jessica Minnier.\r\nLink\r\nCourse Website\r\n\r\n\r\n\r\n",
     "preview": "edu/2021-03-20-r-bootcamp/r-bootcamp.png",
-    "last_modified": "2021-03-20T18:02:15-07:00",
-    "input_file": {},
+    "last_modified": "2021-03-21T20:32:21-07:00",
+    "input_file": "r-bootcamp.utf8.md",
     "preview_width": 386,
     "preview_height": 170
   },
@@ -240,11 +245,12 @@
     "date": "2017-06-22",
     "categories": [
       "free",
-      "workshop"
+      "workshop",
+      "hpc"
     ],
     "contents": "\r\nDescription\r\nSelf paced tutorial for learning about cluster computing using exacloud, the exascale computing cluster at OHSU. Covers simple jobs, batch jobs, and interactive jobs using SLURM.\r\nLearning Objectives\r\nLearn about cluster computing architectures, including compute nodes and head nodes\r\nUnderstand the role of the head node in a SLURM architecture.\r\nQuery and learn about job queues, nodes\r\nRun a simple SLURM job using srun\r\nBatch multiple jobs using sbatch\r\nExecute interactive jobs using srun\r\nLinks\r\nWorkshop Website Workshop Repo\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-03-20T13:29:13-07:00",
-    "input_file": {}
+    "last_modified": "2021-03-21T20:31:40-07:00",
+    "input_file": "hpc-tutorial.utf8.md"
   }
 ]

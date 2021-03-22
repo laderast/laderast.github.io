@@ -5,6 +5,7 @@ description: |
 author: [Ted Laderas, Mark Klick, Aaron Coyner]
 categories:
   - course
+  - data-science
 date: 2020-04-20
 output:
   distill::distill_article:

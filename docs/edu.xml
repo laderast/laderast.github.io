@@ -13,8 +13,9 @@
       <dc:creator>Ted Laderas</dc:creator>
       <dc:creator>Jessica Minnier</dc:creator>
       <link>https://laderast.github.io/edu/2021-03-20-bsta-504-r-programming</link>
-      <description>Our course for OHSU/PSU School of Public Health teaching te basics of R-Programming</description>
+      <description>Our course for OHSU/PSU School of Public Health teaching the basics of R-Programming</description>
       <category>course</category>
+      <category>tidyverse</category>
       <guid>https://laderast.github.io/edu/2021-03-20-bsta-504-r-programming</guid>
       <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
       <media:content url="https://laderast.github.io/edu/2021-03-20-bsta-504-r-programming/social-image.png" medium="image" type="image/png" width="784" height="401"/>
@@ -25,6 +26,7 @@
       <description>Intermediate lessons in R</description>
       <category>self-learning</category>
       <category>free</category>
+      <category>tidyverse</category>
       <guid>https://laderast.github.io/edu/2021-03-20-tidyowl</guid>
       <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
     </item>
@@ -58,6 +60,7 @@
       <link>https://laderast.github.io/edu/2021-03-20-bmi-569-data-analytics</link>
       <description>Practical coursework in R/SQL for our hybrid Data Analytics Course taught with Kaiser Permanente.</description>
       <category>course</category>
+      <category>data-science</category>
       <guid>https://laderast.github.io/edu/2021-03-20-bmi-569-data-analytics</guid>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
     </item>
@@ -103,6 +106,7 @@
       <category>workshop</category>
       <category>biodata-club</category>
       <category>free</category>
+      <category>reproducibility</category>
       <guid>https://laderast.github.io/edu/2021-03-20-a-practical-guide-to-reproducible-papers</guid>
       <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
     </item>
@@ -114,6 +118,7 @@
       <description>Our free online interactive course teaching the `tidyverse`.</description>
       <category>self-learning</category>
       <category>free</category>
+      <category>tidyverse</category>
       <guid>https://laderast.github.io/edu/2021-03-20-r-bootcamp</guid>
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       <media:content url="https://laderast.github.io/edu/2021-03-20-r-bootcamp/r-bootcamp.png" medium="image" type="image/png" width="386" height="170"/>
@@ -124,6 +129,7 @@
       <description>Self paced tutorial for learning about cluster computing and SLURM.</description>
       <category>free</category>
       <category>workshop</category>
+      <category>hpc</category>
       <guid>https://laderast.github.io/edu/2021-03-20-hpc-tutorial</guid>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
     </item>

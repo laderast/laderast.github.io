@@ -6,6 +6,8 @@ date: 2017-06-22
 categories:
   - free
   - workshop
+  - hpc
+creative_commons: CC BY
 output:
   distill::distill_article:
     self_contained: false
