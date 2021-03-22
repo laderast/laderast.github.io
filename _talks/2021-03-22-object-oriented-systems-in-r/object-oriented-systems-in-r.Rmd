@@ -1,0 +1,35 @@
+---
+title: "Object Oriented Systems in R"
+description: |
+  A talk/workshop talking about three object oriented programming systems in R.
+author:
+  - name: Ted Laderas
+    url: {}
+  - name: Scott Chamberlain
+    url: 
+date: 2019-05-21
+output:
+  distill::distill_article:
+    self_contained: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Description
+
+This is a talk/workshop summarizing three different object oriented programming systems in R: S3, S4, and R6. It is meant for intermediate R Programmers.
+
+This talk contains two notebooks explaining S4 and R6 that can be found at the repository link below.
+
+# Introductory Slides
+
+```{r}
+knitr::include_url("https://laderast.github.io/oop_talk/")
+```
+
+# Links
+
+[Workshop Repository](https://github.com/laderast/oop_talk/){.btn .btn--info}

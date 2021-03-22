@@ -9,6 +9,14 @@
     <generator>Distill</generator>
     <lastBuildDate>Mon, 22 Mar 2021 00:00:00 +0000</lastBuildDate>
     <item>
+      <title>Conversations about Sleep: Clinical Data Wrangling</title>
+      <dc:creator>Ted Laderas</dc:creator>
+      <link>https://laderast.github.io/talks/2021-03-22-conversations-about-sleep-clinical-data-wrangling</link>
+      <description>Talk given for AMIA Informatics Educators Meeting about our clinical data wrangling workshop.</description>
+      <guid>https://laderast.github.io/talks/2021-03-22-conversations-about-sleep-clinical-data-wrangling</guid>
+      <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Psychological Safety</title>
       <dc:creator>Ted Laderas</dc:creator>
       <link>https://laderast.github.io/talks/2021-03-22-psychological-safety</link>
@@ -23,6 +31,15 @@
       <description>Learn about tailoring your visualization to an audience through reducing cognitive load.</description>
       <guid>https://laderast.github.io/talks/2021-03-20-data-storytelling</guid>
       <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Object Oriented Systems in R</title>
+      <dc:creator>Ted Laderas</dc:creator>
+      <dc:creator>Scott Chamberlain</dc:creator>
+      <link>https://laderast.github.io/talks/2021-03-22-object-oriented-systems-in-r</link>
+      <description>A short description of the post.</description>
+      <guid>https://laderast.github.io/talks/2021-03-22-object-oriented-systems-in-r</guid>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>System Science and Data Science</title>

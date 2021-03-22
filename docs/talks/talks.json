@@ -1,5 +1,22 @@
 [
   {
+    "path": "talks/2021-03-22-conversations-about-sleep-clinical-data-wrangling/",
+    "title": "Conversations about Sleep: Clinical Data Wrangling",
+    "description": "Talk given for AMIA Informatics Educators Meeting about our clinical data wrangling workshop.",
+    "author": [
+      {
+        "name": "Ted Laderas",
+        "url": {}
+      }
+    ],
+    "date": "2021-03-22",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-03-22T14:55:43-07:00",
+    "input_file": {}
+  },
+  {
     "path": "talks/2021-03-22-psychological-safety/",
     "title": "Psychological Safety",
     "description": "Slides talking about the importance of psychological safety and codes of conduct in the classroom.",
@@ -31,6 +48,27 @@
     "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
     "last_modified": "2021-03-22T11:22:41-07:00",
+    "input_file": {}
+  },
+  {
+    "path": "talks/2021-03-22-object-oriented-systems-in-r/",
+    "title": "Object Oriented Systems in R",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Ted Laderas",
+        "url": {}
+      },
+      {
+        "name": "Scott Chamberlain",
+        "url": {}
+      }
+    ],
+    "date": "2019-05-21",
+    "categories": [],
+    "contents": "\r\nDescription\r\nThis is a talk/workshop summarizing three different object oriented programming systems in R: S3, S4, and R6. It is meant for intermediate R Programmers.\r\nThis talk contains two notebooks explaining S4 and R6 that can be found at the repository link below.\r\nIntroductory Slides\r\n\r\n\r\n\r\n\r\nLinks\r\nWorkshop Repository\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-03-22T14:52:28-07:00",
     "input_file": {}
   },
   {

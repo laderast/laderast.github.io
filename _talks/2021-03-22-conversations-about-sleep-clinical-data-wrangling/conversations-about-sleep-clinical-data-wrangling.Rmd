@@ -1,0 +1,21 @@
+---
+title: "Conversations about Sleep: Clinical Data Wrangling"
+description: |
+  Talk given for AMIA Informatics Educators Meeting about our clinical data wrangling workshop.
+author:
+  - name: Ted Laderas
+    url: {}
+date: 2021-03-22
+output:
+  distill::distill_article:
+    self_contained: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+knitr::include_url("https://laderast.github.io/ief_talk_2019/#1")
+```
