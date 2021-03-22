@@ -1,8 +1,25 @@
 [
   {
+    "path": "talks/2021-03-22-psychological-safety/",
+    "title": "Psychological Safety",
+    "description": "Slides talking about the importance of psychological safety and codes of conduct in the classroom.",
+    "author": [
+      {
+        "name": "Ted Laderas",
+        "url": {}
+      }
+    ],
+    "date": "2021-03-22",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-03-22T11:21:23-07:00",
+    "input_file": "psychological-safety.utf8.md"
+  },
+  {
     "path": "talks/2021-03-20-data-storytelling/",
     "title": "Data Storytelling",
-    "description": "A short description of the post.",
+    "description": "Learn about tailoring your visualization to an audience through reducing cognitive load.",
     "author": [
       {
         "name": "Ted Laderas",
@@ -13,8 +30,8 @@
     "categories": [],
     "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-03-20T20:56:03-07:00",
-    "input_file": {}
+    "last_modified": "2021-03-22T11:22:41-07:00",
+    "input_file": "data-storytelling.utf8.md"
   },
   {
     "path": "talks/2021-03-20-system-science-and-data-science/",

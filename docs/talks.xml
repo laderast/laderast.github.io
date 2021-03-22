@@ -7,12 +7,20 @@
     <description>Website for Ted Laderas, PhD
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Sat, 20 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Psychological Safety</title>
+      <dc:creator>Ted Laderas</dc:creator>
+      <link>https://laderast.github.io/talks/2021-03-22-psychological-safety</link>
+      <description>Slides talking about the importance of psychological safety and codes of conduct in the classroom.</description>
+      <guid>https://laderast.github.io/talks/2021-03-22-psychological-safety</guid>
+      <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Data Storytelling</title>
       <dc:creator>Ted Laderas</dc:creator>
       <link>https://laderast.github.io/talks/2021-03-20-data-storytelling</link>
-      <description>A short description of the post.</description>
+      <description>Learn about tailoring your visualization to an audience through reducing cognitive load.</description>
       <guid>https://laderast.github.io/talks/2021-03-20-data-storytelling</guid>
       <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
     </item>

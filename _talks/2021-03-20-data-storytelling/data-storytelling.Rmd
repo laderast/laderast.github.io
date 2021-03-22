@@ -1,7 +1,7 @@
 ---
 title: "Data Storytelling"
 description: |
-  A short description of the post.
+  Learn about tailoring your visualization to an audience through reducing cognitive load.
 author:
   - name: Ted Laderas
 date: 2021-03-20
