@@ -82,15 +82,6 @@
       <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>group_by/summarize: Not just for numeric values!</title>
-      <link>https://laderast.github.io/posts/2018-05-24-group-by-summarize-not-just-for-numeric-values</link>
-      <description>Learn some more about the many uses of `group_by()`/`summarize()`.</description>
-      <category>R</category>
-      <category>tidyverse</category>
-      <guid>https://laderast.github.io/posts/2018-05-24-group-by-summarize-not-just-for-numeric-values</guid>
-      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>A Introvert's Survival Guide to Conferences</title>
       <link>https://laderast.github.io/posts/2018-05-17-a-introvert-s-survival-guide-to-conferences</link>
       <description>Are you an introvert? Here's how to make conferences easier.</description>
