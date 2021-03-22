@@ -4,7 +4,6 @@ author: ~
 date: '2018-05-24'
 slug: group-by-summarize-not-just-for-numeric-values
 categories: 
-  - R
   - tidyverse
 tags: []
 header:

@@ -63,6 +63,14 @@
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>group_by/summarize: Not just for numeric values!</title>
+      <link>https://laderast.github.io/articles/2018-05-24-group-by-summarize-not-just-for-numeric-values</link>
+      <description>Learn some more about the many uses of `group_by()`/`summarize()`.</description>
+      <category>tidyverse</category>
+      <guid>https://laderast.github.io/articles/2018-05-24-group-by-summarize-not-just-for-numeric-values</guid>
+      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>What We learned teaching Python to Neuroscience Students</title>
       <link>https://laderast.github.io/articles/2018-01-17-what-we-learned-teaching-python-to-neuroscience-students</link>
       <description>Our team-taught class introducing Neuroscience Graduate Program students to Python.</description>

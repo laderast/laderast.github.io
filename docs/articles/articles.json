@@ -95,6 +95,20 @@
     "input_file": {}
   },
   {
+    "path": "articles/2018-05-24-group-by-summarize-not-just-for-numeric-values/",
+    "title": "group_by/summarize: Not just for numeric values!",
+    "description": "Learn some more about the many uses of `group_by()`/`summarize()`.",
+    "author": [],
+    "date": "2018-05-24",
+    "categories": [
+      "tidyverse"
+    ],
+    "contents": "\r\nEven though I’ve been using the tidyverse for a couple of years, there’s always a couple new applications of tidyverse verbs.\r\nThis one, in retrospect, is pretty simple. I had a one to many table that I wanted to collapse, tidy-style. Let’s look at the diamonds dataset:\r\n\r\n\r\ndiamonds %>% select(color, cut) %>%\r\n  head() %>%\r\n  knitr::kable()\r\n\r\n\r\ncolor\r\ncut\r\nE\r\nIdeal\r\nE\r\nPremium\r\nE\r\nGood\r\nI\r\nPremium\r\nJ\r\nGood\r\nJ\r\nVery Good\r\n\r\nWhat if we wanted to collapse all the entries for each color into a single line? There’s 7 different colors, so we can use a combination of group_by on color and use the paste() function within summarize() to get what we want, which I’ve called all_colors here. By specifying the collapse argument, we can specify the delimiter within that column:\r\n\r\n\r\ndiamonds %>% select(color, cut) %>% \r\n  group_by(color) %>% \r\n  summarize(all_colors=\r\n              paste(cut, collapse=\";\"))\r\n\r\n\r\n# A tibble: 7 x 2\r\n  color all_colors                                                    \r\n* <ord> <chr>                                                         \r\n1 D     Very Good;Very Good;Very Good;Good;Good;Premium;Premium;Ideal~\r\n2 E     Ideal;Premium;Good;Fair;Premium;Premium;Very Good;Very Good;V~\r\n3 F     Premium;Very Good;Very Good;Very Good;Good;Premium;Very Good;~\r\n4 G     Very Good;Ideal;Ideal;Very Good;Premium;Premium;Ideal;Very Go~\r\n5 H     Very Good;Very Good;Very Good;Good;Good;Very Good;Good;Very G~\r\n6 I     Premium;Very Good;Ideal;Good;Premium;Ideal;Ideal;Ideal;Ideal;~\r\n7 J     Good;Very Good;Good;Ideal;Ideal;Good;Good;Very Good;Very Good~\r\n\r\nThanks to Ken Butler, who pointed out that the tidyverse way (via stringr) is to use str_c instead:\r\n\r\n\r\ndiamonds %>% select(color, cut) %>% \r\n  group_by(color) %>% \r\n  summarize(all_colors=\r\n              stringr::str_c(cut, collapse=\";\")) \r\n\r\n\r\n# A tibble: 7 x 2\r\n  color all_colors                                                    \r\n* <ord> <chr>                                                         \r\n1 D     Very Good;Very Good;Very Good;Good;Good;Premium;Premium;Ideal~\r\n2 E     Ideal;Premium;Good;Fair;Premium;Premium;Very Good;Very Good;V~\r\n3 F     Premium;Very Good;Very Good;Very Good;Good;Premium;Very Good;~\r\n4 G     Very Good;Ideal;Ideal;Very Good;Premium;Premium;Ideal;Very Go~\r\n5 H     Very Good;Very Good;Very Good;Good;Good;Very Good;Good;Very G~\r\n6 I     Premium;Very Good;Ideal;Good;Premium;Ideal;Ideal;Ideal;Ideal;~\r\n7 J     Good;Very Good;Good;Ideal;Ideal;Good;Good;Very Good;Very Good~\r\n\r\nFinally, if we wanted to just get the unique values of the cuts in a single line, we can use unique:\r\n\r\n\r\ndiamonds %>% select(color, cut) %>% \r\n  group_by(color) %>% \r\n  summarize(all_colors=\r\n              paste(unique(cut), collapse=\";\")) \r\n\r\n\r\n# A tibble: 7 x 2\r\n  color all_colors                       \r\n* <ord> <chr>                            \r\n1 D     Very Good;Good;Premium;Ideal;Fair\r\n2 E     Ideal;Premium;Good;Fair;Very Good\r\n3 F     Premium;Very Good;Good;Fair;Ideal\r\n4 G     Very Good;Ideal;Premium;Good;Fair\r\n5 H     Very Good;Good;Premium;Fair;Ideal\r\n6 I     Premium;Very Good;Ideal;Good;Fair\r\n7 J     Good;Very Good;Ideal;Premium;Fair\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-03-21T20:37:23-07:00",
+    "input_file": "2018-05-24-group-by-summarize-not-just-for-numeric-values.utf8.md"
+  },
+  {
     "path": "articles/2018-01-17-what-we-learned-teaching-python-to-neuroscience-students/",
     "title": "What We learned teaching Python to Neuroscience Students",
     "description": "Our team-taught class introducing Neuroscience Graduate Program students to Python.",
