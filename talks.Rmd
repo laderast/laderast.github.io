@@ -1,0 +1,12 @@
+---
+title: "Talks"
+description: |
+  Selected list of Educational Resources that I've developed.
+listing: talks
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+

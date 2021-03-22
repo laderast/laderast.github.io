@@ -1,0 +1,36 @@
+---
+title: "HPC Tutorial"
+description: |
+  Self paced tutorial for learning about cluster computing and SLURM.
+date: 2017-06-22
+categories:
+  - free
+  - workshop
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Description
+
+Self paced tutorial for learning about cluster computing using exacloud, the exascale computing cluster at OHSU. Covers simple jobs, batch jobs, and interactive jobs using SLURM.
+
+# Learning Objectives
+
+- **Learn** about cluster computing architectures, including compute nodes and head nodes
+- **Understand** the role of the head node in a SLURM architecture.
+- **Query** and **learn** about job queues, nodes
+- **Run** a simple SLURM job using `srun`
+- **Batch** multiple jobs using `sbatch`
+- **Execute** interactive jobs using `srun`
+
+# Links
+
+[Workshop Website](https://laderast.github.io/exacloud_tutorial){.btn .btn--info}
+[Workshop Repo](https://github.com/laderast/exacloud_tutorial){.btn .btn--info}
+

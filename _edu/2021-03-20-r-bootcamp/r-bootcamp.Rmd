@@ -1,0 +1,29 @@
+---
+title: "R Bootcamp"
+description: |
+  Our free online interactive course teaching the `tidyverse`.
+author: [Ted Laderas, Jessica Minnier]
+date: 2019-01-20
+categories:
+  - self-learning
+  - free
+preview: r-bootcamp.png
+output:
+  distill::distill_article:
+    self_contained: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+knitr::include_graphics("r-bootcamp.png")
+```
+
+In this course, we cover the basics of visualization, data munging, and basic statistics using the [tidyverse in R](http://tidyverse.org). It is freely available to everyone and runs off the [Binder cloud service](http://mybinder.org). Written with [Jessica Minnier](http://jessicaminnier.com/).
+
+# Link
+
+[Course Website](https://r-bootcamp.netlify.app){.btn .btn--info}

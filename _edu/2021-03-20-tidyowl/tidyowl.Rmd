@@ -1,0 +1,38 @@
+---
+title: "{tidyowl}"
+description: |
+  Intermediate lessons in R
+date: 2021-03-20
+categories: 
+  - self-learning
+  - free
+output:
+  distill::distill_article:
+    self_contained: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Description
+
+`{tidyowl}` is my LearnR Package for going further in the `tidyverse`.
+
+So far, it covers the following:
+
+- Learning `tidyselect` (verbs and methods for selecting and processing columns of data)
+- Learning `rowwise` (verbs and methods for processing data row-by-row)
+
+## Link
+
+[LearnR Repository](https://github.com/laderast/tidyowl){.btn .btn--info}
+
+Install on your own machine with:
+
+```
+install.packages("remotes")
+remotes::install_github("laderast/tidyowl")
+
+```

@@ -1,0 +1,36 @@
+[
+  {
+    "path": "talks/2021-03-20-data-storytelling/",
+    "title": "Data Storytelling",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Ted Laderas",
+        "url": {}
+      }
+    ],
+    "date": "2021-03-20",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-03-20T20:56:03-07:00",
+    "input_file": {}
+  },
+  {
+    "path": "talks/2021-03-20-system-science-and-data-science/",
+    "title": "System Science and Data Science",
+    "description": "How are System Science and Data Science connected?",
+    "author": [
+      {
+        "name": "Ted Laderas",
+        "url": {}
+      }
+    ],
+    "date": "2018-02-15",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-03-20T20:56:34-07:00",
+    "input_file": {}
+  }
+]

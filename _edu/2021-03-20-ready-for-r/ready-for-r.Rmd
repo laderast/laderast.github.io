@@ -1,0 +1,46 @@
+---
+title: "Ready for R"
+description: |
+  Get started with R/RStudio and the `tidyverse`
+categories: 
+  - course
+  - free
+author: [Ted Laderas, Aaron Coyner]
+date: 2020-03-20
+preview: social-image.png
+output:
+  distill::distill_article:
+    self_contained: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+knitr::include_graphics("social-image.png")
+```
+
+# Course Description
+
+This course is meant to be a gentle introduction to using R/Rstudio in your daily work. It aims to teach useful skills (visualization, data loading, data filtering and manipulation, simple statistics) that students can immediately use in their work. No prerequisites or previous experience required.
+
+It is not meant to be a substitute for a full programming course or a full course in statistics. In the end, students will apply these skills to a final project. 
+
+# Learning Objectives
+
+1. **Understand** and **utilize** **R/RStudio**.
+2. **Understand** basic data types and data structures in R.
+3. **Familiarize** and **load** data files (Excel, Comma Separated Value files) into R/Rstudio, with tips on formatting.
+4. **Visualize** datasets using **ggplot2** and understand how to build basic plots using **ggplot2** syntax.
+5. **Filter** and **format** data in R for use with various routines.
+6. **Execute** and **Interpret** some basic statistics in R.
+
+# Course Links
+
+[Course Website](https://ready4r.netlify.app){.btn .btn--info}
+[Course Syllabus](https://ready4r.netlify.app/syllabus/){.btn .btn--info}
+[Course Mailing List](https://ready4r.netlify.app/mailing){.btn .btn--info}
+
+Sign up for the course at: https://ready4r.netlify.com/mailing/

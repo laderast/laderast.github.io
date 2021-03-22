@@ -1,0 +1,44 @@
+---
+title: "A gRadual intRoduction to Shiny"
+description: |
+  A Workshop that covers the basics behind learning Shiny.
+date: 2021-01-28
+author: [Ted Laderas, Jessica Minnier, Dar'ya Pozhidayeva, Pierrette Lo]
+categories:
+  - workshop
+  - free
+output:
+  distill::distill_article:
+    self_contained: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Description
+
+This was a two hour workshop given for [OHSU BioData Club](https://biodata-club.github.io) on 2021-01-28 introducing the basic concepts of Shiny. It runs about two hours long.
+
+There are videos for each part, along with slides. We use an RStudio.cloud project to try the basic Shiny concepts.
+
+# Audience
+
+Intermediate R users and students. Students should be familiar with `{ggplot2}`, `{dplyr}`, and how functions work.
+
+# Learning Objectives
+
+- **Learn** the basic architecture of Shiny Apps
+- **Learn** how `server` and `ui` communicate with the `input` and `output` objects
+- **Add** `ggplot2` code to our app and display it with `plotOutput` and `renderOutput`
+- **Add** a control to control the aesthetics of our `ggplot`
+- **Make** a reactive dataset using reactive expressions and control it with a slider
+- **Use** `{plotly}` to add tooltips to our data
+- **Learn** about the Shiny Widget Gallery and how to use it to add controls to your app
+
+# Link
+
+[Workshop Website](https://laderast.github.io/gradual_shiny){.btn .btn--info}
+
+

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Ted Laderas, PhD</title>
+    <link>https://laderast.github.io/</link>
+    <atom:link href="https://laderast.github.io/edu.xml" rel="self" type="application/rss+xml"/>
+    <description>Website for Ted Laderas, PhD
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Sat, 20 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>BSTA 504: R Programming</title>
+      <dc:creator>Ted Laderas</dc:creator>
+      <dc:creator>Jessica Minnier</dc:creator>
+      <link>https://laderast.github.io/edu/2021-03-20-bsta-504-r-programming</link>
+      <description>Our course for OHSU/PSU School of Public Health teaching te basics of R-Programming</description>
+      <category>course</category>
+      <guid>https://laderast.github.io/edu/2021-03-20-bsta-504-r-programming</guid>
+      <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://laderast.github.io/edu/2021-03-20-bsta-504-r-programming/social-image.png" medium="image" type="image/png" width="784" height="401"/>
+    </item>
+    <item>
+      <title>{tidyowl}</title>
+      <link>https://laderast.github.io/edu/2021-03-20-tidyowl</link>
+      <description>Intermediate lessons in R</description>
+      <category>self-learning</category>
+      <category>free</category>
+      <guid>https://laderast.github.io/edu/2021-03-20-tidyowl</guid>
+      <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An Introduction to {distill} for websites</title>
+      <link>https://laderast.github.io/edu/2021-03-19-an-introduction-to-distill</link>
+      <description>How you too can learn to {distill}.</description>
+      <category>workshop</category>
+      <category>free</category>
+      <guid>https://laderast.github.io/edu/2021-03-19-an-introduction-to-distill</guid>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A gRadual intRoduction to Shiny</title>
+      <dc:creator>Ted Laderas</dc:creator>
+      <dc:creator>Jessica Minnier</dc:creator>
+      <dc:creator>Dar'ya Pozhidayeva</dc:creator>
+      <dc:creator>Pierrette Lo</dc:creator>
+      <link>https://laderast.github.io/edu/2021-03-20-a-gradual-introduction-to-shiny</link>
+      <description>A Workshop that covers the basics behind learning Shiny.</description>
+      <category>workshop</category>
+      <category>free</category>
+      <guid>https://laderast.github.io/edu/2021-03-20-a-gradual-introduction-to-shiny</guid>
+      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>BMI 569: Data Analytics</title>
+      <dc:creator>Ted Laderas</dc:creator>
+      <dc:creator>Mark Klick</dc:creator>
+      <dc:creator>Aaron Coyner</dc:creator>
+      <link>https://laderast.github.io/edu/2021-03-20-bmi-569-data-analytics</link>
+      <description>Practical coursework in R/SQL for our hybrid Data Analytics Course taught with Kaiser Permanente.</description>
+      <category>course</category>
+      <guid>https://laderast.github.io/edu/2021-03-20-bmi-569-data-analytics</guid>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>NEUS 643: Stats for Neuroscientists</title>
+      <dc:creator>Ted Laderas</dc:creator>
+      <link>https://laderast.github.io/edu/2020-04-01-neus-643-stats-for-neuroscientists</link>
+      <description>Course that applies statistics and machine learning using image processing.</description>
+      <category>course</category>
+      <guid>https://laderast.github.io/edu/2020-04-01-neus-643-stats-for-neuroscientists</guid>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://laderast.github.io/edu/2020-04-01-neus-643-stats-for-neuroscientists/social-image.png" medium="image" type="image/png" width="616" height="316"/>
+    </item>
+    <item>
+      <title>Data Storytelling</title>
+      <dc:creator>Ted Laderas</dc:creator>
+      <link>https://laderast.github.io/edu/2021-03-20-data-storytelling</link>
+      <description>Learn how to make effective visualizations using insights from cognitive psychology.</description>
+      <category>free</category>
+      <category>workshop</category>
+      <category>biodata-club</category>
+      <guid>https://laderast.github.io/edu/2021-03-20-data-storytelling</guid>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ready for R</title>
+      <dc:creator>Ted Laderas</dc:creator>
+      <dc:creator>Aaron Coyner</dc:creator>
+      <link>https://laderast.github.io/edu/2021-03-20-ready-for-r</link>
+      <description>Get started with R/RStudio and the `tidyverse`</description>
+      <category>course</category>
+      <category>free</category>
+      <guid>https://laderast.github.io/edu/2021-03-20-ready-for-r</guid>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://laderast.github.io/edu/2021-03-20-ready-for-r/social-image.png" medium="image" type="image/png" width="449" height="247"/>
+    </item>
+    <item>
+      <title>A Practical Guide to Reproducible Papers</title>
+      <dc:creator>Aurora Blucher</dc:creator>
+      <dc:creator>Ted Laderas</dc:creator>
+      <link>https://laderast.github.io/edu/2021-03-20-a-practical-guide-to-reproducible-papers</link>
+      <description>Guidelines on making your project reproducible by others. Includes a short tour of mybinder.org.</description>
+      <category>workshop</category>
+      <category>biodata-club</category>
+      <category>free</category>
+      <guid>https://laderast.github.io/edu/2021-03-20-a-practical-guide-to-reproducible-papers</guid>
+      <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>R Bootcamp</title>
+      <dc:creator>Ted Laderas</dc:creator>
+      <dc:creator>Jessica Minnier</dc:creator>
+      <link>https://laderast.github.io/edu/2021-03-20-r-bootcamp</link>
+      <description>Our free online interactive course teaching the `tidyverse`.</description>
+      <category>self-learning</category>
+      <category>free</category>
+      <guid>https://laderast.github.io/edu/2021-03-20-r-bootcamp</guid>
+      <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
+      <media:content url="https://laderast.github.io/edu/2021-03-20-r-bootcamp/r-bootcamp.png" medium="image" type="image/png" width="386" height="170"/>
+    </item>
+    <item>
+      <title>HPC Tutorial</title>
+      <link>https://laderast.github.io/edu/2021-03-20-hpc-tutorial</link>
+      <description>Self paced tutorial for learning about cluster computing and SLURM.</description>
+      <category>free</category>
+      <category>workshop</category>
+      <guid>https://laderast.github.io/edu/2021-03-20-hpc-tutorial</guid>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
