@@ -6,14 +6,14 @@
       "description": "Selected list of Educational Resources that I've developed.\n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-03-23T09:49:26-07:00"
+      "last_modified": "2021-03-23T09:51:13-07:00"
     },
     {
       "path": "blog.html",
       "title": "Blog Posts",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-03-23T09:49:27-07:00"
+      "last_modified": "2021-03-23T09:51:14-07:00"
     },
     {
       "path": "edu.html",
@@ -21,14 +21,14 @@
       "description": "Selected list of Educational Resources that I've developed.\n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-03-23T09:49:28-07:00"
+      "last_modified": "2021-03-23T09:51:15-07:00"
     },
     {
       "path": "index.html",
       "title": "Ted Laderas",
       "author": [],
       "contents": "\r\n\r\n          \r\n          \r\n          Ted Laderas, PhD\r\n          \r\n          \r\n          Home\r\n          Articles\r\n          Teaching\r\n          Talks\r\n          CV\r\n          Blog\r\n          \r\n          \r\n          \r\n          ☰\r\n          \r\n          \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Ted Laderas\r\n            \r\n            \r\n              \r\n                \r\n                    \r\n                      \r\n                        LinkedIn\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        Twitter\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        Email\r\n                      \r\n                    \r\n                  \r\n                                  \r\n            \r\n          \r\n        \r\n        \r\n        \r\n          \r\n            I am an Assistant Professor in the Division of Bioinformatics and Computational Biology in the Department of Medical Informatics and Clinical Epidemiology at OHSU (BCB/DMICE) and a member of the OHSU Knight Cancer Institute.\r\n            Collaboration, training, and team science are passions of mine. I believe that research should not be lonely, and building communities of practice in science and research that are psychologically safe and inclusive are the key to doing better, more robust science. To this end, I use evidence based pedagogy, especially utilizing the concepts of psychological safety and active learning. I am a certified instructor for both The Carpentries and RStudio.\r\n            My free Ready for R course currently is at over 1300 external users, and I have built a learning community around it. The course has been lauded by users as being inclusive and less intimidating than other R courses. Our Data Analytics course recently won an award (Sakai Torchbearer Award) from multiple student nominations.\r\n          \r\n        \r\n      \r\n    \r\n\r\n    \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Ted Laderas\r\n            \r\n            \r\n              \r\n                \r\n                                    \r\n                    \r\n                      LinkedIn\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      Twitter\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      Email\r\n                    \r\n                  \r\n                                  \r\n              \r\n            \r\n            \r\n              I am an Assistant Professor in the Division of Bioinformatics and Computational Biology in the Department of Medical Informatics and Clinical Epidemiology at OHSU (BCB/DMICE) and a member of the OHSU Knight Cancer Institute.\r\n              Collaboration, training, and team science are passions of mine. I believe that research should not be lonely, and building communities of practice in science and research that are psychologically safe and inclusive are the key to doing better, more robust science. To this end, I use evidence based pedagogy, especially utilizing the concepts of psychological safety and active learning. I am a certified instructor for both The Carpentries and RStudio.\r\n              My free Ready for R course currently is at over 1300 external users, and I have built a learning community around it. The course has been lauded by users as being inclusive and less intimidating than other R courses. Our Data Analytics course recently won an award (Sakai Torchbearer Award) from multiple student nominations.\r\n            \r\n        \r\n      \r\n    \r\n\r\n    \r\n    \r\n    ",
-      "last_modified": "2021-03-23T09:49:29-07:00"
+      "last_modified": "2021-03-23T09:51:15-07:00"
     },
     {
       "path": "talks.html",
@@ -36,7 +36,7 @@
       "description": "Invited Talks.\n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-03-23T09:49:29-07:00"
+      "last_modified": "2021-03-23T09:51:16-07:00"
     }
   ],
   "collections": ["posts/posts.json", "edu/edu.json", "talks/talks.json", "articles/articles.json"]
