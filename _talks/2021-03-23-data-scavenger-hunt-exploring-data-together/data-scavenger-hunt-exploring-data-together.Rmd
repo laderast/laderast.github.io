@@ -1,0 +1,21 @@
+---
+title: "Data Scavenger Hunt: Exploring Data Together"
+description: |
+  Talk for CSV Conf 2019 about the {burro} package.
+author:
+  - name: Ted Laderas
+    url: {}
+date: 2019-05-09
+output:
+  distill::distill_article:
+    self_contained: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+knitr::include_url("https://laderast.github.io/csv_talk/#1")
+```

@@ -50,6 +50,14 @@
       <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Data Scavenger Hunt: Exploring Data Together</title>
+      <dc:creator>Ted Laderas</dc:creator>
+      <link>https://laderast.github.io/talks/2021-03-23-data-scavenger-hunt-exploring-data-together</link>
+      <description>Talk for CSV Conf 2019 about the {burro} package.</description>
+      <guid>https://laderast.github.io/talks/2021-03-23-data-scavenger-hunt-exploring-data-together</guid>
+      <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>System Science and Data Science</title>
       <dc:creator>Ted Laderas</dc:creator>
       <link>https://laderast.github.io/talks/2021-03-20-system-science-and-data-science</link>

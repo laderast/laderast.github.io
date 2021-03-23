@@ -89,6 +89,23 @@
     "input_file": {}
   },
   {
+    "path": "talks/2021-03-23-data-scavenger-hunt-exploring-data-together/",
+    "title": "Data Scavenger Hunt: Exploring Data Together",
+    "description": "Talk for CSV Conf 2019 about the {burro} package.",
+    "author": [
+      {
+        "name": "Ted Laderas",
+        "url": {}
+      }
+    ],
+    "date": "2019-05-09",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-03-23T09:43:10-07:00",
+    "input_file": {}
+  },
+  {
     "path": "talks/2021-03-20-system-science-and-data-science/",
     "title": "System Science and Data Science",
     "description": "How are System Science and Data Science connected?",
