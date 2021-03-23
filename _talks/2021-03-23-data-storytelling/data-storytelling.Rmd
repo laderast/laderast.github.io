@@ -1,0 +1,23 @@
+---
+title: "Data Storytelling"
+description: |
+  A short lecture about making data visualizations more effective using evidence-based cognitive psychology.
+author:
+  - name: Ted Laderas
+    url: {}
+categories: 
+  - data-visualization
+date: 2020-09-06
+output:
+  distill::distill_article:
+    self_contained: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+knitr::include_url("https://laderast.github.io/data_storytelling_talk/#1")
+```
