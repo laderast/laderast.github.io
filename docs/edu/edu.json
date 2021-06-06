@@ -20,7 +20,7 @@
     ],
     "contents": "\r\n\r\n\r\n\r\nLearning Objectives\r\nUnderstand and utilize R/RStudio.\r\nUnderstand basic data types and data structures in R.\r\nFamiliarize and load data files (Excel, Comma Separated Value files) into R/Rstudio, with tips on formatting.\r\nVisualize datasets using ggplot2 and understand how to build basic plots using {ggplot2} grammar.\r\nFilter and format data in R for use with various routines using {dplyr}.\r\nExecute and Interpret some basic statistics in R using {broom}.\r\nAutomate repetitive tasks in R, such as loading a folder of files using {purrr}.\r\nExecute basic machine learning workflows using {tidymodels}.\r\nCourse Links\r\nCourse Website Course Syllabus\r\n\r\n\r\n\r\n",
     "preview": "edu/2021-03-20-bsta-504-r-programming/social-image.png",
-    "last_modified": "2021-04-29T10:30:57-07:00",
+    "last_modified": "2021-03-21T20:25:40-07:00",
     "input_file": {},
     "preview_width": 784,
     "preview_height": 401
@@ -38,7 +38,7 @@
     ],
     "contents": "\r\nDescription\r\n{tidyowl} is my LearnR Package for going further in the tidyverse.\r\nSo far, it covers the following:\r\nLearning tidyselect (verbs and methods for selecting and processing columns of data)\r\nLearning rowwise (verbs and methods for processing data row-by-row)\r\nLink\r\nLearnR Repository\r\nInstall on your own machine with:\r\ninstall.packages(\"remotes\")\r\nremotes::install_github(\"laderast/tidyowl\")\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-04-29T10:30:57-07:00",
+    "last_modified": "2021-03-21T20:29:07-07:00",
     "input_file": {}
   },
   {
@@ -53,7 +53,7 @@
     ],
     "contents": "\r\n\r\nContents\r\nWorkshop Video\r\nLearning Objectives\r\nBefore You Start\r\nTaking a tour of the Project\r\nHow does {distill} work?\r\nWhat is Netlify?\r\nCustomize your about links\r\nAdding a photo\r\nBuilding your website using the Build Tab\r\nPreviewing your website\r\nTry out different postcards themes\r\nAdd Your Rendered .html files to the articles/ folder\r\nCustomize the Menu\r\nGetting Your Website Online\r\nUpdating Your Website\r\nCustomize Your Domain\r\nStyling your website\r\nCreating New Websites\r\nPutting your site code on GitHub\r\nAcknowledgements\r\n\r\nWant to learn how to build a website using {distill}? This is a short blog post explaining the basics of Distill.\r\nhttps://github.com/laderast/distill_website/\r\nWorkshop Video\r\n\r\n\r\nLearning Objectives\r\nLearn the basic components of a distill website\r\nBuild and preview your website using the Build tab\r\nCustomize the website with your bio and your picture\r\nAdd links and entries to your Navbar Menu\r\nAdd knitted html files as article links\r\nGet your website live using Netlify Drop\r\nUpdate your website by claiming it and registering it\r\nChange your domain name to a better one.\r\nBefore You Start\r\nInstall R/RStudio Desktop to your Computer.\r\nInstall the following packages in R:\r\ninstall.packages(c(\"tidyverse\", \"postcards\", \"distill\", \"usethis\"))\r\nCreate a website project in your home directory using usethis.\r\nusethis::use_course(url=\"laderast/distill_website\",destdir=\".\")\r\nTake a look at the website before we get started:\r\nhttps://distill-example.netlify.app/\r\nGather up the follwing materials:\r\nLinks to Social Media (twitter, linkedin, etc)\r\nBio\r\nHeadshot\r\nKnitted .html files you want to share\r\nSign up for a netlify account and log in: https://netlify.com\r\nTaking a tour of the Project\r\nThese are the main files for the project.\r\nindex.Rmd - This is the main website page.\r\nabout.Rmd - This is a nice looking about page built using the {postcards} package.\r\nimage - A folder. Any images you put in here can be accessed by image/ted.jpg in your pages.\r\narticles/ - A folder. This is a nice place to park your articles. For right now, it’s probably easier to have self-contained articles (single html files)\r\n_site.yml - Customize this to change menus and links\r\n_site/ folder - this contains your rendered website - you’ll drop this folder into Netlify Drop and it will serve it.\r\ntheme.css - this is where you can set appearance options, such as font, font-size, and colors.\r\nHow does {distill} work?\r\n{distill} is what is called a static site generator. It takes Markdown and Rmarkdown and converts them to . .html files.\r\nMuch like any RMarkdown file, {distill} uses {knitr} and pandoc to build your website files that are contained in an RStudio Project. It knits your .Rmd files, converting them to .html files to a folder. The default name of this folder is called _site and it contains all of them files you need to upload to make a website.\r\nWhat is Netlify?\r\nNetlify is what is called a hosting service. This is a network of computers called web servers that are accessible via web addresses that will serve your website files when they are requested by a web browser.\r\nThe amazing thing about Netlify is that it is mostly free and it is very fast, no matter where you are (they have web servers almost everywhere).\r\nWe’ll use Netlify Drop to get our website files up and accessible as quickly as possible.\r\nCustomize your about links\r\nTake a look at about.Rmd and start filling out the front matter with your own links:\r\nlinks:\r\n  - label: LinkedIn\r\n    url: \"https://www.linkedin.com/in/ted-laderas-0714a92/\"\r\n  - label: Twitter\r\n    url: \"https://twitter.com/tladeras\"\r\n  - label: Portfolio\r\n    url: \"index.html\"\r\n  - label: Email\r\n    url: \"mailto:email@email.com\"\r\nAdding a photo\r\nAdd your photo to the images folder. Change the line in about.Rmd:\r\nimage: \"image/ted.jpg\"\r\nto the name of your file. For example, if your file is named jane.jpg and you put it in images:\r\nimage: \"image/jane.jpg\"\r\nBuilding your website using the Build Tab\r\nIn the top right panel in RStudio (next to Environment and History), there is a “Build” Tab.\r\nPress the Build Website to run knitr, which will knit your website to the _site folder. This is where your rendered content lives.\r\nBuild Website TabPreviewing your website\r\nOpen the _site folder and click on the index.html file (make sure you’re viewing in web browser)\r\nThis is your main link to the website (the entry point). For example, if I was hosting my website at https://laderast.github.io/, this would be the first page that I would see.\r\n\r\nYour about page is available as about.html in the _site folder.\r\nClick away and make sure that everything works (links in menu, etc). If not, update the _site.yml and build it again.\r\nTry out different postcards themes\r\nThe postcards package has the following built in themes:\r\njolla\r\njolla_blue\r\nonofre\r\ntrestles - which your current site uses\r\nChange this line in your about.Rmd file to the theme of your interest and start building again:\r\noutput:\r\n  postcards::trestles\r\nAdd Your Rendered .html files to the articles/ folder\r\nYou can now add your articles to the articles/ folder.\r\nThere are a couple example articles here. Add your own files here.\r\nIn general, you’ll put knitted html articles here. Distill does not rebuild articles, it leaves that up to you.\r\nThe relative path to access articles is like this:\r\narticles/crops.html\r\nYou’ll use this when adding links to your menu.\r\nCustomize the Menu\r\nThe menu lives in the _site.yml file:\r\nnavbar:\r\n  right:\r\n    - text: \"Home\"\r\n      href: index.html\r\n    - text: \"About\"\r\n      href: about.html\r\n    - text: \"Articles\"\r\n      menu:\r\n          -  text: \"dplyr::slice()\"\r\n             href: articles/slice.html\r\n          -  text: \"Crop Yields\"\r\n             href: articles/crops.html\r\nAdd another menu entry under articles, or modify the above entries to have a link to your articles.\r\nBuild your website again and preview it to make sure the links work.\r\nGetting Your Website Online\r\nWe’ll take the _site folder with our generated website and drop this entire folder into Netlify Drop.\r\nhttps://drop.netlify.com\r\n\r\nUpdating Your Website\r\nThe first thing you want to do is claim your site and register for a Netlify account. That ties your newly created website to your account so you can update it.\r\nWhen you update your website with the Build Website button, you’ll drag the _site folder onto the deploy zone. This is under the deploy tab:\r\n\r\n\r\nMore info here: https://docs.netlify.com/site-deploys/create-deploys/#drag-and-drop\r\nCustomize Your Domain\r\nThat crazy name is the address of your site. To change it, you can click on the Domain Settings button:\r\nDomain Settings ButtonIn the following page, click the Options >> Edit Site Name button. You can change the first part of the domain, such as \"myportfolio.netlify.app).\r\nEdit Site Name ButtonStyling your website\r\nNote that this only applies to the main distill website and not the about.html, since that is styled separately.\r\nIn _site.yml, try uncommenting this line and seeing how the site changes.\r\n#theme: theme.css\r\nYou can modify the appearance of your website by altering the theme.css file. Much more info about this here:\r\nhttps://rstudio.github.io/distill/website.html#theming\r\nCreating New Websites\r\nIf you want to start from scratch, I highly recommend the Distill tutorial here:\r\nhttps://rstudio.github.io/distill/website.html\r\nYou may want to setup your webpage as a blog, which lets you add posts by date:\r\nhttps://rstudio.github.io/distill/blog.html\r\nPutting your site code on GitHub\r\nThis is beyond the scope of this tutorial, but you can put your site code up on GitHub as well. This has the following advantages:\r\nLets others contribute to your website\r\nCan host on GitHub Pages as well\r\nLets others reuse your code for their own website\r\nIf you’re interested in this, I really recommend Happy Git with R as a way to get started.\r\nAcknowledgements\r\nThank you to RStudio for the {distill} package. It is so great!\r\nPortions of this tutorial are adapted from: https://rstudio.github.io/distill/website.html and from https://rstudio.com/resources/webinars/sharing-on-short-notice-how-to-get-your-materials-online-with-r-markdown/\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-04-29T10:30:57-07:00",
+    "last_modified": "2021-03-20T09:29:08-07:00",
     "input_file": {}
   },
   {
@@ -85,7 +85,7 @@
     ],
     "contents": "\r\nDescription\r\nThis was a two hour workshop given for OHSU BioData Club on 2021-01-28 introducing the basic concepts of Shiny. It runs about two hours long.\r\nThere are videos for each part, along with slides. We use an RStudio.cloud project to try the basic Shiny concepts.\r\nAudience\r\nIntermediate R users and students. Students should be familiar with {ggplot2}, {dplyr}, and how functions work.\r\nLearning Objectives\r\nLearn the basic architecture of Shiny Apps\r\nLearn how server and ui communicate with the input and output objects\r\nAdd ggplot2 code to our app and display it with plotOutput and renderOutput\r\nAdd a control to control the aesthetics of our ggplot\r\nMake a reactive dataset using reactive expressions and control it with a slider\r\nUse {plotly} to add tooltips to our data\r\nLearn about the Shiny Widget Gallery and how to use it to add controls to your app\r\nLink\r\nWorkshop Website\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-04-29T10:30:57-07:00",
+    "last_modified": "2021-03-20T13:39:29-07:00",
     "input_file": {}
   },
   {
@@ -113,7 +113,7 @@
     ],
     "contents": "\r\nCourse Description\r\nPractical coursework in R/SQL for our hybrid Data Analytics Course taught with Kaiser Permanente. This course has been taught from 2013 to the present during summer quarter for students in the Biomedical Informatics program at OHSU.\r\nThis repo includes the practical coursework in R/SQL for our hybrid Data Analytics Course taught with Kaiser Permanente. This course has been taught from 2013 to the present during summer quarter for students in the Biomedical Informatics program at OHSU.\r\nPlease note that this is only half of the course, which also includes discussions on organizational behavior, implementing analytics projects within an organization, and discussions of the LACE score.\r\nLearning Objectives:\r\nUnderstand the basics of using R/Rstudio\r\nLearn and apply basic SQL queries to a synthetic patient cohort\r\nImplement a metric for predicting 30 day hospital readmissions (LACE score) for this patient cohort.\r\nLearn, understand, and apply simple visualizations to communicate findings\r\nUnderstand how to build and interpret logistic regression models\r\nLink\r\nCourse Website Course Repo\r\nLicensing\r\nThis course material is released under an Apache 2.0 License.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-04-29T10:30:57-07:00",
+    "last_modified": "2021-03-21T20:28:36-07:00",
     "input_file": {}
   },
   {
@@ -132,7 +132,7 @@
     ],
     "contents": "\r\n\r\n\r\n\r\nDescription\r\nThis is a full quarter course that teaches the basics of image processing, statistics, and machine learning using Bioconductor. It consists of an RStudio.cloud workspace and online lectures.\r\nLearning Objectives\r\nLearn and execute the basic steps of image analysis in R/Bioconductor.\r\nAssess whether image processing algorithms are working correctly.\r\nUnderstand basic spatial statistics and how to assess null models of spatial data.\r\nExecute and Interpret basic spatial statistics on data that are involved with fluoresence microscopy analysis.\r\nLinks\r\nCourse Website Course Syllabus\r\n\r\n\r\n\r\n",
     "preview": "edu/2020-04-01-neus-643-stats-for-neuroscientists/social-image.png",
-    "last_modified": "2021-04-29T10:30:57-07:00",
+    "last_modified": "2021-03-20T13:37:59-07:00",
     "input_file": {},
     "preview_width": 616,
     "preview_height": 316
@@ -155,7 +155,7 @@
     ],
     "contents": "\r\nYou are making a figure for your paper and want it to be the best it can be. Come and learn techniques for communicating your findings clearly. Learn about the role of color, annotations, and simplifying your figures to communicate effectively.\r\nRecording Presentation Code\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-04-29T10:30:57-07:00",
+    "last_modified": "2021-03-20T15:20:38-07:00",
     "input_file": {}
   },
   {
@@ -179,7 +179,7 @@
     ],
     "contents": "\r\n\r\n\r\n\r\nCourse Description\r\nThis course is meant to be a gentle introduction to using R/Rstudio in your daily work. It aims to teach useful skills (visualization, data loading, data filtering and manipulation, simple statistics) that students can immediately use in their work. No prerequisites or previous experience required.\r\nIt is not meant to be a substitute for a full programming course or a full course in statistics. In the end, students will apply these skills to a final project.\r\nLearning Objectives\r\nUnderstand and utilize R/RStudio.\r\nUnderstand basic data types and data structures in R.\r\nFamiliarize and load data files (Excel, Comma Separated Value files) into R/Rstudio, with tips on formatting.\r\nVisualize datasets using ggplot2 and understand how to build basic plots using ggplot2 syntax.\r\nFilter and format data in R for use with various routines.\r\nExecute and Interpret some basic statistics in R.\r\nCourse Links\r\nCourse Website Course Syllabus Course Mailing List\r\nSign up for the course at: https://ready4r.netlify.com/mailing/\r\n\r\n\r\n\r\n",
     "preview": "edu/2021-03-20-ready-for-r/social-image.png",
-    "last_modified": "2021-04-29T10:30:57-07:00",
+    "last_modified": "2021-03-20T18:01:54-07:00",
     "input_file": {},
     "preview_width": 449,
     "preview_height": 247
@@ -207,7 +207,7 @@
     ],
     "contents": "\r\nPresentation Code\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-04-29T10:30:57-07:00",
+    "last_modified": "2021-03-21T20:28:02-07:00",
     "input_file": {}
   },
   {
@@ -232,7 +232,7 @@
     "categories": [],
     "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-04-29T10:30:57-07:00",
+    "last_modified": "2021-03-22T15:15:49-07:00",
     "input_file": {}
   },
   {
@@ -257,7 +257,7 @@
     ],
     "contents": "\r\n\r\n\r\n\r\nCourse Description\r\nIn this course, we cover the basics of visualization, data munging, and basic statistics using the tidyverse in R. It is freely available to everyone and runs off the Binder cloud service. Written with Jessica Minnier.\r\nLink\r\nCourse Website\r\n\r\n\r\n\r\n",
     "preview": "edu/2021-03-20-r-bootcamp/r-bootcamp.png",
-    "last_modified": "2021-04-29T10:30:57-07:00",
+    "last_modified": "2021-03-21T20:32:21-07:00",
     "input_file": {},
     "preview_width": 386,
     "preview_height": 170
@@ -275,7 +275,7 @@
     ],
     "contents": "\r\nDescription\r\nSelf paced tutorial for learning about cluster computing using exacloud, the exascale computing cluster at OHSU. Covers simple jobs, batch jobs, and interactive jobs using SLURM.\r\nLearning Objectives\r\nLearn about cluster computing architectures, including compute nodes and head nodes\r\nUnderstand the role of the head node in a SLURM architecture.\r\nQuery and learn about job queues, nodes\r\nRun a simple SLURM job using srun\r\nBatch multiple jobs using sbatch\r\nExecute interactive jobs using srun\r\nLinks\r\nWorkshop Website Workshop Repo\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-04-29T10:30:57-07:00",
+    "last_modified": "2021-03-21T20:31:41-07:00",
     "input_file": {}
   }
 ]
