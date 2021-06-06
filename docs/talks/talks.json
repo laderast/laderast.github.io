@@ -1,5 +1,39 @@
 [
   {
+    "path": "talks/2021-06-06-why-shiny-modules/",
+    "title": "Why Shiny Modules",
+    "description": "Lightning talk for PDX-R Shiny Happy Hour on why to use Shiny Modules.",
+    "author": [
+      {
+        "name": "Ted Laderas",
+        "url": {}
+      }
+    ],
+    "date": "2021-06-06",
+    "categories": [],
+    "contents": "\r\nSlides\r\n\r\n\r\n\r\n\r\nVideo\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nLinks\r\nRepository\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-06-06T10:11:36-07:00",
+    "input_file": {}
+  },
+  {
+    "path": "talks/2021-06-06-using-gratitude-to-learn-the-tidyverse-together/",
+    "title": "Using gRatitude to learn the `tidyverse` together",
+    "description": "My lightning talk for Cascadia-R 2021 talking about our tidyverse assignment.",
+    "author": [
+      {
+        "name": "Ted Laderas",
+        "url": {}
+      }
+    ],
+    "date": "2021-06-04",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-06-06T10:05:02-07:00",
+    "input_file": {}
+  },
+  {
     "path": "talks/2021-03-22-conversations-about-sleep-clinical-data-wrangling/",
     "title": "Conversations about Sleep: Clinical Data Wrangling",
     "description": "Talk given for AMIA Informatics Educators Meeting about our clinical data wrangling workshop.",

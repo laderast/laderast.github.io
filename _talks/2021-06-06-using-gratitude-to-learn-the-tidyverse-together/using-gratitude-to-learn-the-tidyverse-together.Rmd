@@ -1,0 +1,21 @@
+---
+title: "Using gRatitude to learn the `tidyverse` together"
+description: |
+  My lightning talk for Cascadia-R 2021 talking about our tidyverse assignment.
+author:
+  - name: Ted Laderas
+date: 2021-06-04
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+knitr::include_url("https://laderast.github.io/gratitude_talk/")
+```
+

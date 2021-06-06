@@ -7,7 +7,23 @@
     <description>Website for Ted Laderas, PhD
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Mon, 22 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Why Shiny Modules</title>
+      <dc:creator>Ted Laderas</dc:creator>
+      <link>https://laderast.github.io/talks/2021-06-06-why-shiny-modules</link>
+      <description>Lightning talk for PDX-R Shiny Happy Hour on why to use Shiny Modules.</description>
+      <guid>https://laderast.github.io/talks/2021-06-06-why-shiny-modules</guid>
+      <pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using gRatitude to learn the `tidyverse` together</title>
+      <dc:creator>Ted Laderas</dc:creator>
+      <link>https://laderast.github.io/talks/2021-06-06-using-gratitude-to-learn-the-tidyverse-together</link>
+      <description>My lightning talk for Cascadia-R 2021 talking about our tidyverse assignment.</description>
+      <guid>https://laderast.github.io/talks/2021-06-06-using-gratitude-to-learn-the-tidyverse-together</guid>
+      <pubDate>Fri, 04 Jun 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Conversations about Sleep: Clinical Data Wrangling</title>
       <dc:creator>Ted Laderas</dc:creator>
