@@ -1,0 +1,51 @@
+---
+title: "Life After Academia"
+description: |
+  After 3 months leaving academia, how am I doing?
+author: ~
+date: 2021-07-20
+output:
+  distill::distill_article:
+    self_contained: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Well, it's been over 3 months since I [left my academic position](https://laderast.github.io/posts/2021-04-29-moving-on-and-upwards/) to become a Bioinformatics Trainer for [DNAnexus](https://dnanexus.com).
+
+For the most part, it has been a very positive shift. And I do mean shift - there was a bit of culture shock coming to DNAnexus from academia. There are a lot of differences.
+
+I thought I'd summarize my experience here so far in terms of both positives and negatives. 
+
+## Real positives
+
+1. **My collaboration skills that I spent a lot of time developing has served me well in industry so far.** DNAnexus has a very collaborative culture and there is not that much distance between new employees and senior employees. I also never liked the hierarchy between PhDs and non-PhDs, and there is very little condescension here.
+
+2. **My desire and passion to onboard students has directly translated to training in industry.** There is a need for developing training that uses active learning techniques, and our customers want it. Not all of them are highly technical and used to the cloud, and it is an exciting challenge trying to help them learn what they need to learn.
+
+3. **There is program management.** One of the worst things about being paid under multiple grants was that the sum total of my work was not visible. Everyone was always expecting everything, all the time. I really like how program management here helps to balance everyone's workload and help them avoid burnout.
+
+4. **Roles and responsibilities are specialized.** I like this as one of the best benefits. I don't have to wear all the hats, so I can specialize and get better at my specialty. I really want to help develop a kick-ass training plan to get more people working efffectively on our platform. 
+
+5. **Being a beginner really helps in developing training.** I have to confess that I haven't stayed 100% on top of the cutting edge of bioinformatics. I am well versed in high performance computing, but transitioning to cloud computing has had a pretty high learning curve.
+
+6. **Culture is a positive force and drives almost everything**. Management, including PeopleOps (our version of HR) has been aware that the pandemic has increased productivity, but also that burnout has been increasing. They've been trying to be aware of this and instituting blackout days where the office is closed, encouraging employees to unplug.  A lot of my understanding of organizations has helped me realize that this is a pretty positive place.
+
+7. **Pay and benefits are definitely better than academia**. The pay increase is considerable, since they actually value your contributions. 
+
+## Real Negatives
+
+It's not all roses and puppies, however. Here are a few negatives.
+
+1. **Starting is pretty overwhelming.** There is a lot to learn. The first two weeks here were dedicated to a very extensive onboarding process. Every quarter, we have a Bootcamp for new employees, and it is about 2 weeks of classes, where we meet people from each team, and learn about the platform. It's a pretty hardcore onboarding process, which was pretty overwhelming. On the plus side, I have a big picture of how the parts work together and who to ask for help.
+
+2. **You are specialized and part of a larger plan.** I am part of the service organization within DNAnexus, which helps customers implement and utilize the platform effectively. I work with customers who need training, and we provide a set of coursework to get them onboard the platform. This means that my work is always in the context of the organization, and that thinking about my work as billable is important to achieving our goals as an organization. 
+
+3. **The pace is faster than academia**. Projects need to be in the context of the overall strategy of the organization. If you can pitch in, you can do some neat things. But your time is valuable, so you have to spend your time wisely.
+
+In all, was the transition what I expected? I would say yes, but it's not for everyone. I think that overall, my emotional intelligence serves me much better in the current position than it has in academia, where it was just a way for others to mindlessly take advantage of me. My desire to be a respectful collaborator has served me well so far.
+
+Definitely do your research and ask the hard questions if you are making the switch. And find other people who are thinking about making the change, and ask others who have made the switch. You will need their support.
