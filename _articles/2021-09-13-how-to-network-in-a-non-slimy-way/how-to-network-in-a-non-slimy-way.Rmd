@@ -1,0 +1,85 @@
+---
+title: "How to Network in a Non-slimy Way"
+description: |
+  Use your curiosity to connect with others in a meaningful way.
+author: ~
+date: 09-13-2021
+output:
+  distill::distill_article:
+    self_contained: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Everyone talks about the importance of networking, but there is still a negative perception of networking. In some ways, there is this negative perception that it is inauthentic, slimy, and self-serving.
+
+Here's the thing. **Networking is not about selling yourself. It's about finding real and meaningful connections to people.** And that comes from being curious about other people, not from selling yourself.
+
+After a long time of networking the wrong way, I think I've found a way of networking that works for me. There are some major ideas to this:
+
+1) Only network as your authentic self, don't try to impress other people.
+2) Bring your curiosity and do informational interviews.
+3) Participate in activities that allow for natural networking opportunities.
+4) Practice with people you are comfortable with. Then practice again.
+5) Moderate your expectations from each connection. Don't put all of your networking ideas in one basket.
+
+## 1. Networking as Your Authentic Self
+
+**Be Yourself**. This can be really hard, especially if you're uncomfortable in large social situations. You have to find ways to make yourself comfortable. 
+
+I will be honest and say that I can be tremendously awkward. But I've learned to let my curiosity show, and that seems to be what works for me. 
+
+**Don’t come in with the intention to blow away or impress someone with your accomplishments.** Another pitfall of networking is being too eager to impress someone. This can result in a lot of discomfort on both sides.  
+
+The best thing about informational interviewing is that it helps you find the deep connections with someone else. If you ask questions about these deep connections, you’ll start forging bonds. Remember, play the long game. 
+
+**When you meet someone, ask yourself: how could we work together? How could we help each other?** This gets you into the right frame of mind. For one, you aren’t intimidated by the accomplishments of someone you meet. On the other hand, you aren’t being condescending to them. Remember, curiosity is a great way to forge connections.
+
+If you can help someone with a [five minute favor](https://giveandtakeinc.com/blog/culture/the-five-minute-favor/), that is a low key way to connect. 
+
+## 2. Bring Your Curiosity
+
+**Let curiosity be your guide. Ask authentic questions.** I was taught early on that informational interviewing was the most important way to network. What is an informational interview? I define it as being curious about someone and asking good questions to get the conversation going. 
+
+Active listening and asking questions are some of the fastest ways to connect with people. It’s true, but you need to find a style that works for you. 
+
+You have to find yourself in a mindset where you are curious about the other person. And that mindset is where you can start asking interesting questions that show that you’re really curious about them and their passions. Curiosity is the great democratizer and leveler. 
+
+If someone asks an interesting question during a session, that’s a good person to talk with afterwards. You have something to talk about. Just be careful of those people who seem to be intentionally antagonistic; you want someone who is also curious.
+
+**Don’t be so quick to swipe left. Give people a chance to share their story.** It is true that most people are not immediately relevant to you and your chosen field. But these people can be an incredible asset to you. Again, let curiosity be your guide. This is your opportunity to learn from them, and the gratitude that arises from learning something new can be a powerful motivator. 
+
+You never know. Most of the literature of successful networkers point out that it is usually our acquaintances to which we have [weak ties that helps us find new work](https://techcrunch.com/2016/04/26/weak-ties-matter/).  
+
+## 3. Participate in Activities
+
+**Do activities together.** I have mentioned before that organizing and actively participating in conferences has been one way that I’ve met a ton of people. If there are volunteer opportunities or hackathons, these are low key ways of doing activities together. Especially when you’re working on things together in small groups, the opportunities to be curious about each other will come up. 
+
+One of the most fruitful activities I participated in was the rOpenSci unconference in 2018. I met a ton of people I am still really good friends with. I also participated in the 2019 Symposium on Statistics and Data Science. Through moderating a session on education, and a speed mentoring session, I met a ton of like-minded people. I also gained a reputation as a booster - I was as supportive as I could be of everyone in that session. CSVconf and RStudioConf were also great opportunities to meet people.
+
+There are usually student volunteer opportunities at nearly every event, which let you not only meet people, but participate in events for free or for a reduced discount. Also, there are great groups such as R-Ladies and PyLadies which are great places to meet like-minded people. 
+
+
+## 4. Practice, Practice
+
+As an introvert, one of your strengths is that you can come prepared. Good informational interviewing takes time to learn; you need to practice at it, and especially with people you feel comfortable with. That way, if you slip up, it won’t feel as catastrophic. Being able to be gentle with yourself and laugh at your mistakes will really help you here.		
+
+You’ll begin to identify, through active listening, the deep connection points. It's easier to learn this by practicing with someone you know.
+
+Don’t start with the cold informational interview, where you ask your neighbor about something. This is actually the highest level of difficulty, where you know nothing about someone. 
+
+## 5. Moderate Your Expectations
+
+**Don’t put all your networking eggs in one basket.** One thing I used to do was identify one or two people and put all of my networking eggs in one basket, especially if they were well known. If I couldn't meet that person, then I thought I was wasting my time. Again, everyone is interesting, so adjust your expectations.
+
+**Networking can be exhausting. Don't push yourself too hard**. Set some hard limits when networking. Don't expect to be able to talk with everyone. Maybe talking to three people at a conference is all you can do right now. That's fine. With practice, you'll be able to do more. 
+
+Remember, almost everyone at conferences is in the same boat as you. Be gentle on yourself, and you'll figure it out. 	
+
+## Conclusion: You can do it
+
+In summary, networking is a skill that you have to tailor to your own personal style. Even as an introvert, there are a lot of opportunities to connect with others in a way that feels natural to you. Bringing your most authentic and curious self to the table will help you find those ways to connect.
+

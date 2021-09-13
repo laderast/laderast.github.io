@@ -7,7 +7,14 @@
     <description>Website for Ted Laderas, PhD
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>How to Network in a Non-slimy Way</title>
+      <link>https://laderast.github.io/articles/2021-09-13-how-to-network-in-a-non-slimy-way</link>
+      <description>Use your curiosity to connect with others in a meaningful way.</description>
+      <guid>https://laderast.github.io/articles/2021-09-13-how-to-network-in-a-non-slimy-way</guid>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Underrated Tidyverse Functions</title>
       <dc:creator>Ted Laderas</dc:creator>
