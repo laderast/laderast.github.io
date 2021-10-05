@@ -7,7 +7,15 @@
     <description>Website for Ted Laderas, PhD
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Mon, 13 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Registered Nurses in the United States and Territories</title>
+      <dc:creator>Ted Laderas</dc:creator>
+      <link>https://laderast.github.io/articles/2021-10-05-registered-nurses</link>
+      <description>Understanding wages for Registered Nurses.</description>
+      <guid>https://laderast.github.io/articles/2021-10-05-registered-nurses</guid>
+      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How to Network in a Non-slimy Way</title>
       <link>https://laderast.github.io/articles/2021-09-13-how-to-network-in-a-non-slimy-way</link>
