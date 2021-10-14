@@ -1,0 +1,88 @@
+---
+title: "Tidy Tuesday Template"
+author: "You!"
+date: "3/26/2020"
+output: html_notebook
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+# Look at the available datasets
+
+```{r}
+library(tidytuesdayR)
+#This will open up in the help window
+tidytuesdayR::tt_available()
+```
+
+# What was your dataset?
+
+Load your dataset in with the function below. The input is the date the dataset was issued. You should be able to get this from the `tt_available()` function.
+
+```{r}
+#incoming data comes in as a list
+datasets <- tidytuesdayR::tt_load("2020-09-01")
+#show the names of the individual datasets
+names(datasets)
+```
+
+## Key Crop Yields
+
+```{r}
+key_crop_yields <- datasets$key_crop_yields
+```
+
+
+## Visdat
+
+```{r}
+visdat::vis_dat(key_crop_yields)
+
+```
+
+## Skimr
+
+```{r}
+skimr::skim(key_crop_yields)
+
+```
+
+
+# What was your question?
+
+Given your inital exploration of the data, what was the question you wanted to answer?
+
+> How have key crop yields changed over time?
+
+# What were your findings?
+
+Put your findings and your visualization code here.
+
+```{r}
+key_crop_yields %>%
+  filter(Entity %in% c("United States", ))
+  tidyr::pivot_longer(cols = contains("(tonnes"), names_to="crop",
+                      values_to="Yield") %>%
+  ggplot() + aes(x=Year, y= Yield, group=crop, color=crop) + geom_line() + facet_wrap(~Entity)
+```
+
+```{r}
+key_crop_yields %>%
+  tidyr::pivot_longer(cols = contains("(tonnes"), names_to="crop",
+                      values_to="Yield") %>%
+  tidyr::drop_na(Yield) %>%
+  nest_by(Entity, crop) %>%
+  mutate(model=list(lm(Yield ~ Year, data=data))) %>%
+  summarize(broom::tidy(model)) %>%
+  filter(term == "Year") %>%
+  arrange(Entity, desc(estimate))
+
+```
+
+
+# What did you learn?
+
+Were there any lessons you learned? Any cool packages you want to talk about?

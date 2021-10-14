@@ -1,0 +1,157 @@
+---
+title: "Coffee Data Exploration"
+author: "Ted Laderas"
+description: Understanding coffee production and consumption across the world.
+categories: tidytuesday
+date: "7/8/2020"
+output: 
+  distill::distill_article:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+
+# What was your dataset?
+
+Load your dataset in with the function below. The input is the date the dataset was issued. You should be able to get this from the `tt_available()` function.
+
+```{r}
+coffee <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-07-07/coffee_ratings.csv')
+
+```
+
+# What was your question?
+
+Given your inital exploration of the data, what was the question you wanted to answer?
+
+Does processing method affect overall coffee rating?
+
+# Initial Skim of Data
+
+```{r}
+skimr::skim(coffee)
+```
+
+
+# Total Number of Samples Per Country
+
+```{r}
+coffee %>%
+  janitor::tabyl(country_of_origin) %>%
+  arrange(desc(n)) %>%
+  gt::gt()
+
+```
+
+
+# Distribution of `total_cup_points` versus `processing_method`
+
+```{r}
+ggplot(coffee) + 
+  aes(y=total_cup_points, x=processing_method, fill=processing_method) +
+  geom_boxplot() +
+  theme(axis.text.x = element_text(angle=90, hjust = 1)) +
+  coord_flip() 
+```
+
+# Counts of Country of Origin versus Processing Method
+
+```{r fig.height=8}
+coffee %>%
+  mutate(country_of_origin= fct_rev(country_of_origin)) %>%
+  ggplot() +
+  aes(y=country_of_origin, x=processing_method, 
+      color=processing_method) +
+  geom_count() +
+  theme(axis.text.x = element_text(angle=90))
+```
+
+Here's a sortable table of the above table
+
+```{r}
+library(reactable)
+coffee %>%
+  janitor::tabyl(country_of_origin, processing_method) %>%
+  reactable::reactable()
+```
+
+
+# Sorted Heatmap of scores by `total_cup_points`
+
+```{r}
+coffee %>% mutate(sample_id = rownames(coffee)) %>%
+  select(sample_id, country_of_origin, total_cup_points, aroma, flavor, acidity, body, balance, uniformity, clean_cup, sweetness, cupper_points)%>%
+  pivot_longer(cols = c(aroma, flavor, acidity, body, balance, uniformity, clean_cup, sweetness, cupper_points), names_to="type", values_to="score") %>%
+  mutate(sample_id = fct_reorder(sample_id, total_cup_points)) %>%
+  ggplot() +
+  aes(y=sample_id, x=type, fill=score) +
+    geom_tile()
+```
+
+# Bi-clustered Heatmap of Scores
+
+```{r}
+library(heatmaply)
+
+coffee %>% mutate(sample_id = rownames(coffee)) %>%
+  select(aroma, flavor, acidity, body, balance, uniformity, clean_cup, sweetness, cupper_points) %>% heatmaply()
+```
+
+## Processing Method: `Dry / Natural`
+
+```{r}
+coffee %>%
+  filter(processing_method == "Natural / Dry") %>%
+  mutate(country_of_origin = fct_reorder(country_of_origin, total_cup_points, median)) %>%
+ggplot() + 
+  aes(y=total_cup_points, x=country_of_origin, fill=country_of_origin) +
+  geom_boxplot() +
+  theme(axis.text.x = element_text(angle=90), legend.position = "none") +
+  coord_flip() +
+  labs(title="Tanzania leads with ratings in Natural/Dry")
+```
+
+## Processing Method: `Washed / Wet`
+
+```{r}
+coffee %>%
+  filter(processing_method == "Washed / Wet") %>%
+  mutate(country_of_origin = fct_reorder(country_of_origin, total_cup_points, median)) %>%
+ggplot() + 
+  aes(y=total_cup_points, x=country_of_origin, fill=country_of_origin) +
+  geom_boxplot() +
+  theme(axis.text.x = element_text(angle=90), legend.position = "none") +
+  coord_flip() +
+  labs(title="US leads in Ratings in Washed/Wet")
+```
+
+## Mexico: Processing Methods
+
+```{r}
+coffee %>%
+  filter(country_of_origin == "Mexico") %>%
+  mutate(processing_method = fct_reorder(processing_method, total_cup_points, median)) %>%
+  ggplot() +
+  aes(y=total_cup_points, x=processing_method,  fill=processing_method) +
+  geom_boxplot(color="black") +
+  coord_flip()
+  
+
+```
+
+# Linear model of `total_cup_points`
+
+```{r}
+broom::tidy(lm(total_cup_points ~
+                 country_of_origin +
+                 category_one_defects, data=coffee)) %>%
+  filter(p.value < 0.05) %>%
+  arrange(p.value)
+
+```
+
