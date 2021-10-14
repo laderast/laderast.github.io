@@ -1,7 +1,8 @@
 ---
-title: "Seafood Production and Consumption"
+title: "Tidy Tuesday: Seafood Production and Consumption"
 author: "Ted Laderas"
 description: Understanding global cephalopod production.
+category: tidytuesday
 date: "10/12/2021"
 output: 
   distill::distill_article:
@@ -19,7 +20,7 @@ library(dplyr)
 
 ## Understanding Seafood Production
 
-I decided to tackle a relatively easy question this week by understanding seafood production over the years. Since I am a big octopus fan. Which countries were responsible for the top production of cephalopods over the years?
+For Tidy Tuesday, this week I decided to tackle a relatively easy question this week by understanding seafood production over the years. Since I am a big octopus fan. Which countries were responsible for the top production of cephalopods over the years?
 
 ## Loading the Data
 
