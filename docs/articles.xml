@@ -7,7 +7,16 @@
     <description>Website for Ted Laderas, PhD
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 05 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Seafood Production and Consumption</title>
+      <dc:creator>Ted Laderas</dc:creator>
+      <link>https://laderast.github.io/articles/2021-10-12-seafood</link>
+      <description>Understanding global cephalopod production.</description>
+      <guid>https://laderast.github.io/articles/2021-10-12-seafood</guid>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://laderast.github.io/articles/2021-10-12-seafood/distill-preview.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
     <item>
       <title>Registered Nurses in the United States and Territories</title>
       <dc:creator>Ted Laderas</dc:creator>
@@ -15,6 +24,7 @@
       <description>Understanding wages for Registered Nurses.</description>
       <guid>https://laderast.github.io/articles/2021-10-05-registered-nurses</guid>
       <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://laderast.github.io/articles/2021-10-05-registered-nurses/distill-preview.png" medium="image" type="image/png" width="1248" height="768"/>
     </item>
     <item>
       <title>How to Network in a Non-slimy Way</title>
