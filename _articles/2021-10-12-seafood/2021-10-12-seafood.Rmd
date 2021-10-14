@@ -2,7 +2,7 @@
 title: "Tidy Tuesday: Seafood Production and Consumption"
 author: "Ted Laderas"
 description: Understanding global cephalopod production.
-category: tidytuesday
+categories: tidytuesday
 date: "10/12/2021"
 output: 
   distill::distill_article:

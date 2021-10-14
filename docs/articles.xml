@@ -13,6 +13,7 @@
       <dc:creator>Ted Laderas</dc:creator>
       <link>https://laderast.github.io/articles/2021-10-12-seafood</link>
       <description>Understanding global cephalopod production.</description>
+      <category>tidytuesday</category>
       <guid>https://laderast.github.io/articles/2021-10-12-seafood</guid>
       <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
       <media:content url="https://laderast.github.io/articles/2021-10-12-seafood/distill-preview.png" medium="image" type="image/png" width="1248" height="768"/>
@@ -22,6 +23,7 @@
       <dc:creator>Ted Laderas</dc:creator>
       <link>https://laderast.github.io/articles/2021-10-05-registered-nurses</link>
       <description>Understanding wages for Registered Nurses.</description>
+      <category>tidytuesday</category>
       <guid>https://laderast.github.io/articles/2021-10-05-registered-nurses</guid>
       <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
       <media:content url="https://laderast.github.io/articles/2021-10-05-registered-nurses/distill-preview.png" medium="image" type="image/png" width="1248" height="768"/>
