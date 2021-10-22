@@ -1,5 +1,5 @@
 ---
-title: "Pumpkins, Pumpkins, Pumpkins (and other veggies)"
+title: "Pumpkins, Pumpkins, Pumpkins"
 description: |
   Learning about giant pumpkin contest winners.
 categories: tidytuesday
