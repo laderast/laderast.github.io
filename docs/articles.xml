@@ -7,7 +7,17 @@
     <description>Website for Ted Laderas, PhD
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 12 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Pumpkins, Pumpkins, Pumpkins (and other veggies)</title>
+      <dc:creator>Ted Laderas</dc:creator>
+      <link>https://laderast.github.io/articles/2021-10-19-great-pumpkins</link>
+      <description>Learning about giant pumpkin contest winners.</description>
+      <category>tidytuesday</category>
+      <guid>https://laderast.github.io/articles/2021-10-19-great-pumpkins</guid>
+      <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://laderast.github.io/articles/2021-10-19-great-pumpkins/distill-preview.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
     <item>
       <title>Tidy Tuesday: Seafood Production and Consumption</title>
       <dc:creator>Ted Laderas</dc:creator>
