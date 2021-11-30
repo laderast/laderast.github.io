@@ -1,0 +1,129 @@
+---
+title: "Tidy Tuesday: Crop Production"
+author: "Ted Laderas"
+description: Understanding crop production across the world.
+categories: tidytuesday
+date: "9/3/2020"
+output: 
+  distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+# Look at the available datasets
+
+```{r eval=FALSE}
+library(tidytuesdayR)
+#This will open up in the help window
+tidytuesdayR::tt_available()
+```
+
+# What was your dataset?
+
+Load your dataset in with the function below. The input is the date the dataset was issued. You should be able to get this from the `tt_available()` function.
+
+```{r}
+#incoming data comes in as a list
+datasets <- tidytuesdayR::tt_load("2020-09-01")
+#show the names of the individual datasets
+names(datasets)
+```
+
+## Key Crop Yields
+
+```{r}
+key_crop_yields <- datasets$key_crop_yields
+```
+
+
+## Visdat
+
+```{r}
+visdat::vis_dat(key_crop_yields)
+
+```
+
+## Skimr
+
+```{r}
+skimr::skim(key_crop_yields)
+
+```
+
+
+# What was your question?
+
+Given your inital exploration of the data, what was the question you wanted to answer?
+
+> How have key crop yields changed over time?
+
+# What were your findings?
+
+Put your findings and your visualization code here.
+
+```{r fig.height=14, fig.width=14}
+key_crop_yields %>%
+  tidyr::pivot_longer(cols = contains("(tonnes"), names_to="crop",
+                      values_to="Yield") %>%
+  ggplot() + aes(x=Year, y= Yield, group=crop, color=crop) + geom_line() + facet_wrap(~Entity)
+```
+
+Let's try and estimate whether a country is increasing its yield or decreaing its yield over time. I'll use `lm()` to run a linear regression on each entity in the data, and use `broom::tidy()` to pull out the estimates of the slopes.
+
+```{r}
+model_results <- key_crop_yields %>%
+  tidyr::pivot_longer(cols = contains("(tonnes"), names_to="crop",
+                      values_to="Yield") %>%
+  mutate(crop=str_replace(crop,"\\(tonnes per hectare\\)", "")) %>%
+  tidyr::drop_na(Yield) %>%
+  nest_by(Entity, crop) %>%
+  mutate(num_points = nrow(data)) %>%
+  mutate(model=list(lm(Yield ~ Year, data=data))) %>%
+  summarize(num_points, broom::tidy(model)) %>%
+  filter(term == "Year") %>%
+  arrange(Entity, desc(estimate))
+
+model_results
+```
+
+Looking at the United States, there are mostly increases in crop yield.
+
+```{r}
+model_results %>%
+  filter(Entity == "United States") 
+
+```
+
+We can rank the top producers by crop:
+
+```{r}
+ranked_by_slope <- model_results %>%
+  ungroup() %>%
+  group_by(crop) %>%
+  summarize(Entity, crop, num_points, estimate=signif(estimate, digits = 3), rank = row_number(desc(estimate))) %>%
+  arrange(crop, rank)
+
+ranked_by_slope
+```
+
+Finally, let's do histograms by crop:
+
+```{r}
+ranked_by_slope %>%
+  ggplot() +
+  aes(x=estimate, fill=crop) +
+  geom_histogram() +
+  geom_vline(xintercept = 0, lty =2) +
+  labs(title = "Crop productivity across countries (tonnes/hectare/year)",
+       subtitle = "Positive values = increase, Negative values = decrease") +
+  theme_minimal() +
+  theme(legend.position = "none") +
+  facet_wrap(~crop, scales = "free")
+```
+
+# What did you learn?
+
+Were there any lessons you learned? Any cool packages you want to talk about?

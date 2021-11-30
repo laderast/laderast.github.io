@@ -1,0 +1,117 @@
+---
+title: "Tidy Tuesday: Seafood Production and Consumption"
+author: "Ted Laderas"
+description: Understanding global cephalopod production.
+categories: tidytuesday
+date: "10/12/2021"
+output: 
+  distill::distill_article:
+    toc: true
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readr)
+library(ggplot2)
+library(tidyr)
+library(dplyr)
+```
+
+## Understanding Seafood Production
+
+For Tidy Tuesday, this week I decided to tackle a relatively easy question this week by understanding seafood production over the years. Since I am a big octopus fan. Which countries were responsible for the top production of cephalopods over the years?
+
+## Loading the Data
+
+```{r cars}
+farmed <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-10-12/aquaculture-farmed-fish-production.csv')
+consumption <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-10-12/fish-and-seafood-consumption-per-capita.csv')
+production <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-10-12/seafood-and-fish-production-thousand-tonnes.csv')
+
+```
+
+```{r}
+production <- janitor::clean_names(production)
+skimr::skim(production)
+
+colnames(production) <- stringr::str_replace(colnames(production), "commodity_balances_livestock_and_fish_primary_equivalent_",replacement = "")
+
+colnames(production) <- stringr::str_replace(colnames(production), "_production_5510_tonnes", replacement="")
+
+skimr::skim(production)
+```
+
+I'll pivot the `production` data frame to a longer one using `pivot_longer()`. 
+
+```{r}
+production_long <- production %>% tidyr::pivot_longer(cols=contains("_"), names_to = "seafood_type",values_to = "production")
+
+head(production_long)
+```
+
+Now we have the long form data frame, we can now ask some interesting time questions and compare across categories. As you can see below, total seafood production has risen steadily over the years.
+
+```{r}
+production_long %>%
+  group_by(year, seafood_type) %>%
+  summarize(production = mean(production, na.rm=TRUE)) %>%
+  ggplot() + 
+  aes(x=year, y=production, fill=seafood_type) +
+  geom_area() + 
+  viridis::scale_fill_viridis(discrete=TRUE) +
+  hrbrthemes::theme_ipsum() + 
+  ggtitle("Production of Seafood has Risen Steadily over the Years")
+```
+Drilling into the cephalpods, I'm interested in percent production of the total for the top 10 producing countries.
+
+Interesting that Japan's share of production has decreased steadily, and that China is a leading producer lately. 
+
+```{r}
+production_long <- production %>% 
+  tidyr::pivot_longer(cols=contains("_"), 
+  names_to = "seafood_type",values_to = "production")
+
+top_squid_eaters <- production_long %>%
+  filter(seafood_type == "cephalopods_2766") %>%
+  filter(code != "OWID_WRL") %>%
+  group_by(code) %>%
+  summarize(total_eating = sum(production)) %>%
+  arrange(desc(total_eating)) %>%
+  slice(1:10) %>%
+  pull(code)
+
+total_production <- production_long %>%
+  filter(seafood_type == "cephalopods_2766") %>%
+  filter(code != "OWID_WRL") %>%
+  filter(code %in% top_squid_eaters) %>%
+  group_by(year) %>%
+  summarize(total_eating = sum(production, na.rm=TRUE)) 
+
+total_ceph <- production_long %>%
+  filter(seafood_type == "cephalopods_2766") %>%
+  filter(code %in% top_squid_eaters) %>%
+  group_by(year, code) %>%
+  summarize(production = mean(production, na.rm=TRUE), entity) %>%
+  left_join(y=total_production, by="year") %>%
+  mutate(percent = production/total_eating * 100) %>%
+  ggplot() + 
+  aes(x=year, y=percent, fill=entity) +
+  geom_area() + 
+  viridis::scale_fill_viridis(discrete=TRUE, option="plasma") +
+  hrbrthemes::theme_ipsum() 
+
+total_ceph
+
+```
+
+```{r}
+total_ceph + annotate(geom="text", x= 1969, y=60, label = "Japan", colour="lightgrey", size=4) +
+  annotate(geom="text", x=2005, y=80, label="China", colour="lightgrey", size=4) + 
+  annotate(geom="text", x=1991, y=44, label="South Korea", color="lightgrey", size=4) +
+    annotate(geom="text", x=2008, y=40, label="Peru", color="lightgrey", size=4) +
+  labs(title="Top 10 cephalopod producers", subtitle = "Japan, South Korea, Peru, and China compete for top market share") + scale_x_continuous(breaks = c(1960, 1970, 1980, 1990, 2000, 2010))
+
+ggsave("top_mollusk_production.jpg")
+
+```

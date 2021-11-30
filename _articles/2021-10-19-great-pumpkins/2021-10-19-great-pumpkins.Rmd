@@ -1,0 +1,106 @@
+---
+title: "Pumpkins, Pumpkins, Pumpkins"
+description: |
+  Learning about giant pumpkin contest winners.
+categories: tidytuesday
+author:
+  - name: Ted Laderas 
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(plotly)
+library(janitor)
+pumpkins <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-10-19/pumpkins.csv')
+library(hrbrthemes)
+
+```
+
+# Intial EDA
+
+```{r}
+glimpse(pumpkins)
+
+pumpkins <- pumpkins %>%
+  mutate(weight_lbs=as.numeric(weight_lbs), city=factor(city), place=as.numeric(place),
+         seed_mother=factor(seed_mother), pollinator_father=factor(pollinator_father),
+         state_prov = factor(state_prov), gpc_site=factor(gpc_site),
+         ott=as.numeric(ott), est_weight=as.numeric(est_weight), pct_chart=as.numeric(pct_chart),
+         variety=factor(variety))
+```
+
+```{r}
+skimr::skim(pumpkins)
+```
+
+Ugh. We need to do some data cleaning.
+
+```{r}
+pumpkins %>%
+  tabyl(state_prov)
+```
+
+Let's filter out all of those entries that have `damaged` as `state_prov`. This should simplify our summaries.
+
+```{r}
+pumpkins <- pumpkins %>%
+   filter(!str_detect(as.character(state_prov), "damaged")) %>%
+    mutate(state_prov = fct_drop(state_prov)) %>%
+  separate(id,into=c("year", "type"))
+
+  
+
+pumpkins_us <- pumpkins %>%
+  filter(country=="United States") 
+ 
+  
+top_pumpkins <- pumpkins_us %>%
+  tabyl(state_prov) %>%
+  arrange(desc(n)) %>%
+  slice(1:10) %>%
+  pull(state_prov)
+
+top_pumpkins
+```
+
+Let's visualize the top 10 states by median pumpkin weight in these contests. California has the highest median pumpkin weight of these states.
+
+```{r}
+new_order <- pumpkins_us %>%
+  filter(state_prov %in% top_pumpkins) %>% 
+  group_by(state_prov) %>%
+  summarize(median_lbs = median(weight_lbs, na.rm=TRUE)) %>%
+  arrange(desc(median_lbs))
+
+new_ord <- new_order %>%
+  pull(state_prov) %>%
+  as.character()
+
+pumpkins_us %>%
+  filter(state_prov %in% top_pumpkins) %>%
+  filter(country == "United States" ) %>%
+  mutate(state_prov=ordered(state_prov, level=new_ord)) %>%
+  mutate(state_prov=fct_rev(state_prov)) %>%
+  ggplot() +
+  aes(y=state_prov, x=weight_lbs, fill=state_prov) +
+  geom_boxplot() +
+  theme(axis.text.x = element_text(angle=90), legend.position = "none") +
+  theme_ipsum() +
+  ggtitle("Top 10 US States by median pumpkin weight")
+```
+Let's separate the pumpkins out by type, and compare the distributions over the years for United States, United Kingdom and Canada. You can click on the legend to remove or show the different countries. 
+
+```{r}
+highlight_countries <- pumpkins %>%
+  filter(country %in% c("United States", "United Kingdom", "Canada")) %>%
+  ggplot() +
+  aes(x=year, y=weight_lbs, fill=country, group=country) +
+  geom_boxplot(alpha=0.5) +
+  theme(axis.text.x = element_text(angle=90)) +
+  facet_wrap(~type)
+
+ggplotly(highlight_countries)
+```    

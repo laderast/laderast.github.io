@@ -3,6 +3,7 @@ title: "Registered Nurses in the United States and Territories"
 author: "Ted Laderas"
 description: Understanding wages for Registered Nurses.
 date: "10/5/2021"
+categories: tidytuesday
 tags: [tidytuesday]
 output: 
   distill::distill_article:

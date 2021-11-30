@@ -7,14 +7,36 @@
     <description>Website for Ted Laderas, PhD
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 05 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Pumpkins, Pumpkins, Pumpkins (and other veggies)</title>
+      <dc:creator>Ted Laderas</dc:creator>
+      <link>https://laderast.github.io/articles/2021-10-19-great-pumpkins</link>
+      <description>Learning about giant pumpkin contest winners.</description>
+      <category>tidytuesday</category>
+      <guid>https://laderast.github.io/articles/2021-10-19-great-pumpkins</guid>
+      <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://laderast.github.io/articles/2021-10-19-great-pumpkins/distill-preview.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
+    <item>
+      <title>Tidy Tuesday: Seafood Production and Consumption</title>
+      <dc:creator>Ted Laderas</dc:creator>
+      <link>https://laderast.github.io/articles/2021-10-12-seafood</link>
+      <description>Understanding global cephalopod production.</description>
+      <category>tidytuesday</category>
+      <guid>https://laderast.github.io/articles/2021-10-12-seafood</guid>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://laderast.github.io/articles/2021-10-12-seafood/distill-preview.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
     <item>
       <title>Registered Nurses in the United States and Territories</title>
       <dc:creator>Ted Laderas</dc:creator>
       <link>https://laderast.github.io/articles/2021-10-05-registered-nurses</link>
       <description>Understanding wages for Registered Nurses.</description>
+      <category>tidytuesday</category>
       <guid>https://laderast.github.io/articles/2021-10-05-registered-nurses</guid>
       <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://laderast.github.io/articles/2021-10-05-registered-nurses/distill-preview.png" medium="image" type="image/png" width="1248" height="768"/>
     </item>
     <item>
       <title>How to Network in a Non-slimy Way</title>
@@ -38,6 +60,46 @@
       <guid>https://laderast.github.io/articles/2020-09-15-getting-learnr-tutorials-to-run-on-mybinder-org</guid>
       <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
       <media:content url="https://laderast.github.io/articles/2020-09-15-getting-learnr-tutorials-to-run-on-mybinder-org/binder_repo.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Tidy Tuesday: Crop Production</title>
+      <dc:creator>Ted Laderas</dc:creator>
+      <link>https://laderast.github.io/articles/2020-9-3_crops</link>
+      <description>Understanding crop production across the world.</description>
+      <category>tidytuesday</category>
+      <guid>https://laderast.github.io/articles/2020-9-3_crops</guid>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://laderast.github.io/articles/2020-9-3_crops/distill-preview.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
+    <item>
+      <title>Sentiment analysis of Avatar</title>
+      <dc:creator>Ted Laderas</dc:creator>
+      <link>https://laderast.github.io/articles/2020-08-11-avatar_last_airbender</link>
+      <description>Understanding Characters through Avatar Episode Scripts.</description>
+      <category>tidytuesday</category>
+      <guid>https://laderast.github.io/articles/2020-08-11-avatar_last_airbender</guid>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://laderast.github.io/articles/2020-08-11-avatar_last_airbender/distill-preview.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
+    <item>
+      <title>Coffee Data Exploration</title>
+      <dc:creator>Ted Laderas</dc:creator>
+      <link>https://laderast.github.io/articles/2020-07-08_coffee</link>
+      <description>Understanding coffee production and consumption across the world.</description>
+      <category>tidytuesday</category>
+      <guid>https://laderast.github.io/articles/2020-07-08_coffee</guid>
+      <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://laderast.github.io/articles/2020-07-08_coffee/distill-preview.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
+    <item>
+      <title>Animal Crossing</title>
+      <dc:creator>Ted Laderas</dc:creator>
+      <link>https://laderast.github.io/articles/2020-05-05_animal-crossing</link>
+      <description>Looking at the unique animal personalities in Animal Crossing.</description>
+      <category>tidytuesday</category>
+      <guid>https://laderast.github.io/articles/2020-05-05_animal-crossing</guid>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://laderast.github.io/articles/2020-05-05_animal-crossing/distill-preview.png" medium="image" type="image/png" width="1920" height="576"/>
     </item>
     <item>
       <title>Notes on the RStudio Instructor Training Experience</title>
