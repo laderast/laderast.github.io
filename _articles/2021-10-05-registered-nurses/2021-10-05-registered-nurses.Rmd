@@ -15,6 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(bplots)
 library(heatmaply)
+library(hrbrthemes)
 ```
 
 # Research Question(s)
@@ -72,7 +73,8 @@ nurses %>%
   mutate(state=forcats::fct_rev(state)) %>%
   ggplot() +
   aes(x=year, y=state, fill=hourly_wage_median) +
-  geom_tile()
+  geom_tile() +
+  theme_ipsum_pub()
 ```
 
 ## Scaling the data by `state`
@@ -92,6 +94,7 @@ nurses %>%
   aes(x=year, y=state, fill=scaled_income) +
   geom_tile(color="grey10") +
   scale_fill_distiller() +
+  #theme_ipsum_ps()
   bplots::theme_avenir()
 ```
 
