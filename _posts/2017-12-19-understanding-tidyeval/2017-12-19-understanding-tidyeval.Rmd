@@ -1,9 +1,16 @@
 ---
 date: '2017-12-19'
 title: Understanding Tidy Evaluation in R
+description: A metaphor for understanding Tidy Evaluation
 url: /2017/12/19/understanding-tidyeval
 tags: [rstats tidyeval]
+output: 
+  distill::distill_article:
+    self-contained: true
+    toc: true
 ---
+
+# Introduction
 
 Have you ever had something that no matter how many times someone explained it, you really had no idea what it was for? For me, that was Non Standard Evaluation (NSE) in R, and its newer cousin Tidy Evaluation, or `tidyeval`. I had a real learning block about it. I really wanted to understand it, but for some reason I just really wasn't getting the general concepts.
 
@@ -29,13 +36,15 @@ Becomes this expression:
 
 Which R knows how to calculate, the output of which is `12`. But sometimes you want to pass an expression or a variable, as is, without evaluating it first. The best case for this is to passing a variable into a function. We can do this by wrapping them up in `quosures` or `enquosures`.
 
+## Enter quosures
+
 A `quosure` and an `enquosure` can be thought of as envelopes around an object. They obscure certain properties of the object until they can be delivered into a function. The envelopes basically are a way to sneak variables and expressions into a function's environment. When the envelope is in the function, we can open it up and evaluate what's in the envelope. The trick to NSE and tidyeval is that we can control when the function *evaluates* the expression, by controlling when we open this envelope. We do this by using the `UQ()` or `!!` functions.
 
 In other words, `quosures` and `enquosures` are ways to prevent R from looking up a variable's value in our current environment (usually the global environment), and delay this lookup until we get them into the environment of interest. This might be one level down (in our function of interest), or several levels down (in a function called by our function).
 
 The point is, R won't open the envelope with our variable in it until we tell it to.
 
-## Why Should I Care????
+# Why Should I Care????
 
 The short answer: if you want to write functions that directly work with the `tidyverse`, you need to understand `tidyeval`.
 
@@ -134,10 +143,6 @@ bang(5)
 ## Other applications
 
 One of the coolest applications of NSE is to write code that writes code. You have to be very careful with this, but it's potentially really useful. On my list of things to do for my `flowDashboard` package is to write code that generates a standalone app given the data objects you supply it.
-
-## Appendix: What is a `quosure`, really?
-
-
 
 ## For more information
 

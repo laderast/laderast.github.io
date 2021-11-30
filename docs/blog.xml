@@ -151,6 +151,13 @@
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Understanding Tidy Evaluation in R</title>
+      <link>https://laderast.github.io/posts/2017-12-19-understanding-tidyeval</link>
+      <description>A metaphor for understanding Tidy Evaluation</description>
+      <guid>https://laderast.github.io/posts/2017-12-19-understanding-tidyeval</guid>
+      <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Using Synthetic Data for Teaching Data Science</title>
       <link>https://laderast.github.io/posts/2017-12-14-using-synthetic-data</link>
       <description>Notes on our preprint about synthetic clinical data.</description>
