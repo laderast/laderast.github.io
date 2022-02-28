@@ -1,0 +1,137 @@
+---
+title: "'Yes, and...' is the foundation of collaboration"
+description: "How the rules of comedy improv can improve your collaborations."
+author: ~
+date: 02-27-2022
+output:
+  distill::distill_article:
+    self_contained: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Collaboration as Improvisation
+
+Collaboration is a delicate thing. It needs to be nurtured and encouraged, especially in the early stages. It is easy to destroy it if you go in with the wrong expectations and attitude. 
+
+A lot of what I have learned about collaboration can be summed in the “Yes, and…” rule of comic improvisation:
+
+> The basic concept of these two words is that you are up for anything, and will go along with whatever gets thrown your way. Essentially, you don’t use the word “No” in improv very often! The “And” part comes in when you are in a scene and can **add** to what your partner started rather than **detract** from it. - [Second City](https://www.secondcity.com/how-to-say-yes-and/)
+
+In collaboration, you need to *build on what your partner is doing*. Doing so requires openness and lack of ego. You are extending and supporting each other. You are creating something new in your journey together, and it will not be like what you do on your own. That is a wonderful thing.
+
+This is obviously the opposite of what we’re taught in academia. In academia, we’re taught that we need to *analyze* things and take them apart. 
+
+
+
+```{r}
+vembedr::embed_url("https://youtu.be/FLhV7Ovaza0")
+```
+
+Using the “Yes, and…” rule, we are *synthesizing* instead of analyzing. We are putting things together, taking risks, and hopefully having fun and being energized on the way.
+
+# “Yes, and…” IRL Example
+
+What does the “Yes, and…” rule look like in real life? 
+
+As an example, I worked with other members of the OHSU’s Educator’s Collaborative. We were having a discussion during our virtual coffee break about how we can best support online students during COVID. 
+
+Eventually, we realized that we wanted to work on something together. We wanted to show fellow educators concrete advice on how to support students. 
+
+Through talking some more, we identified ways of doing this: [encouraging psychological safety through a code of conduct](https://laderast.github.io/talks/2021-03-22-psychological-safety/), providing a forum and space for student support in courses, and identifying open educational resources to utilize in courses rather than making students purchase expensive textbooks.
+
+The result was an hour-long presentation that came together on these themes. It was a really positive experience that leveraged each of our strengths and demonstrated concrete and evidence-based steps to support students.
+
+# Respect and Sharing Values is Key to Taking Risks Together
+
+At the heart of this collaboration was our respect for each other’s knowledge and values. We knew we could share our experiences and our desire to help students. 
+
+Imagine if one of us proposed something, and another of us just shot it down. Where can we go from there? Not many places. 
+
+But if we build and encourage each other, we can find new paths by taking risks together. Tina Fey had a great perspective on this:
+
+> **Add to the discussion**. In the example above, the second person did not just say, “Yes we’re at the beach,” she said, “I can’t wait to get in the water, I hope it’s not too cold.” This statement **adds value** to the scene. Now the audience knows it’s cold and that we plan to enjoy the ocean as opposed to looking for gold or taking a yoga class.
+
+> To me, this rule challenges you to contribute. Whether you are developing an ad campaign or deciding where to eat dinner, **put your neck out there**, give your thoughts and have a say. Two minds are always better than one. - Tina Fey, *Bossypants*
+
+In collaboration, you need to focus on *adding* value, not *subtracting* from other’s contributions. Don’t judge your collaborator's contributions. Nothing is more demotivating nor more destructive of a fledgling collaboration. 
+
+Encourage each other, make your own psychologically safe space together. This space can be difficult to establish, but if you respect each other, it will be ok to take risks together.
+
+# TJ and Dave: Tapping Into the Flow
+
+
+```{r}
+vembedr::embed_url("https://youtu.be/ODe2Fx7rCRs")
+```
+
+As an extreme example of the “Yes, and…” rule, look at [TJ and Dave](https://www.wnycstudios.org/podcasts/radiolab/articles/279566-radiolab-presents-tj-dave), two masters of long-form improvisation. Their shows are completely improvised from scratch each time. Somehow, for every performance, they manage to fill an hour and make people collapse with laughter. It is creation on the edge of chaos, and they always manage to make *something*.
+
+TJ and Dave talk about their improv as tapping into a flow of events that’s external to them, and that the improv is just tapping into that flow. Ego or who authored what doesn’t come into play - they are just vessels for this flow. They seem incredibly humbled and grateful to be able to tap into this, and this keeps their collaboration fresh.
+
+When you find a good collaborative partner, you can channel the flow together. It is a form of play, and it is energizing and fun.
+
+# Asking Great Questions for the Setup: The 2000 year old man
+
+The 2000 Year Old Man was a comedy routine that Carl Reiner and Mel Brooks came up with together while working together in a writer’s room. Carl played an interviewer asking a 2000 year old man (played by Brooks) questions about daily life as 2000 year old man, did he meet certain historical figures, etc. It was completely improvised and Mel’s responses were usually pretty darn funny.
+
+```{r}
+vembedr::embed_url("https://youtu.be/UVkyv1aEpIg")
+```
+
+Mel’s responses always got the laughs, but Carl’s role was especially important. He asked the right questions that Mel could build his answers on. His questions set up Mel for success:
+
+> Carl Reiner was a master of the underrated art of the setup. Most “straight men” are known for their responses that release the laugh. Carl did that too, but even more brilliantly, he subtly puts all of the pieces into play for Mel Brooks to push off of into the comedy stratosphere.  - [Anne Librera](https://www.openculture.com/2020/07/carl-reiner-mel-brooks-timeless-comedy-sketch-the-2000-year-old-man.html)
+
+What lessons can we apply from Carl Reiner? When collaborating, ask yourself: *how can I ask these kinds of questions and set up my collaborators to push off into that stratosphere?* *How can I set ourselves up to capture lightning in a bottle?* 
+
+# How to FInd IRL Collaborators: Share Values
+
+The best way to find collaborators is to find people who share your values.
+
+There are a lot of opportunties for this: help organize a conference, join a community of practice, find an open-source project that encourages first-time contributors. Work on putting together a workshop with someone - this is a great way to make connections quickly. Be curious about other people’s work; that curiosity can be the start of a great relationship. Again, early on, focus on the relationship, not the output product.
+
+The majority of my educational collaborations have come about because I share values with my collaborators. Wanting to make education more inclusive and accessible has been a great value to unify on.
+
+If you meet someone who shares your values and could be fun, try and find a way to work together. 
+
+# It’s All About Fun, Energy, and Connection
+
+Collaboration is an antidote to the loneliness we all feel nowadays. Science can be a very lonely place, and it sometimes seems that when you present ideas to others, there’s always someone who wants to shoot it down. (I've often felt like a grant could best be defined as a dream a reviewer stomps to death.) This is very draining.
+
+In contrast, a good collaboration can be energizing and fun. We may downplay fun, but it is an important part of any collaboration.
+
+We need to know when we need to re-evaluate our collaborations. The canary in the coal mine for any collaboration is the question: **am I having fun in this collaboration?**
+
+If this collaboration is something you volunteered to do (that is, you’re not being paid), and it’s no longer fun, you have my permission to drop the collaboration. Life is too short to spend on voluntary activities that are not fun.
+
+# TL; DR
+
+Here’s a quick list of ground rules that synthesizes the above.
+
+1. Work with those who respect you and share your values.
+2. Value the collaborative relationship (which is long-term) over any short-term products.
+3. Use the “Yes, and…” rule. Add to your collaborator’s contributions, don’t detract from them.
+4. Take risks and make something cool together.
+5. Set each other up for success.
+6. Have fun together. Stop if it’s no longer fun.
+
+# Thank You, Open Science Communities
+
+Finally, I want to end on a personal note and express gratitude for everyone who has helped me on my journey.
+
+At an especially low time in my life, the communities of Open Science saved me, showing me a positive way to do science. This started with [Mozilla Open Leaders](https://foundation.mozilla.org/en/initiatives/mozilla-open-leaders/), [BioData Club](https://biodata-club.github.io) and [Code for Science and Society](https://codeforscience.org).  There are countless others, including [rOpenSci](https://ropensci.org), [csvconf](https://csvconf.com), [RStudio Certified Educators](), [RStudioConf](https://www.rstudio.com/blog/save-the-date/), [R/Medicine](https://r-medicine.org), [PDX-R](https://pdxrlang.com), [Cascadia-R Conf](https://cascadiarconf.com), [R-Ladies](https://rladies.org), [SDSS](https://ww2.amstat.org/meetings/sdss/2022/), and [The Carpentries](https://carpentries.org).  Grateful for everyone I’ve met through participating that showed me a way forward.
+
+This post is my love letter to them. Thank you, everyone.
+
+# For More Info
+
+* [*Bossypants*]() by Tina Fey has a great summary of why “Yes, And…” can change your life.
+* Read the [oral history of the Upright Citizen’s Brigade](https://uproxx.com/movies/ucb-oral-history/) to learn more about “Yes, and...” and Del Close, whose philosophy of performance is the foundation of theatre sports.
+* [Mel Brooks’ Autobiography *All about me!*]() is full of his kudos for his collaborators, and awe at his education in comedy. Highly recommended.
+* The Carpentries material has [much more information about teaching together](https://carpentries.github.io/instructor-training/aio/index.html) (search for “Never Teach Alone” on this page). 
+* Greg Wilson’s book [Teaching Tech Together](https://teachtogether.tech/#s:classroom-together) has even more information about this.  
+
