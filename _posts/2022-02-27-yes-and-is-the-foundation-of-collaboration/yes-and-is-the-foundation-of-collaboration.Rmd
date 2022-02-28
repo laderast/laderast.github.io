@@ -129,7 +129,7 @@ This post is my love letter to them. Thank you, everyone.
 
 # For More Info
 
-* [*Bossypants*]() by Tina Fey has a great summary of why “Yes, And…” can change your life.
+* [*Bossypants*](https://www.goodreads.com/book/show/9418327-bossypants) by Tina Fey has a great summary of why “Yes, And…” can change your life.
 * Read the [oral history of the Upright Citizen’s Brigade](https://uproxx.com/movies/ucb-oral-history/) to learn more about “Yes, and...” and Del Close, whose philosophy of performance is the foundation of theatre sports.
 * [Mel Brooks’ Autobiography *All about me!*]() is full of his kudos for his collaborators, and awe at his education in comedy. Highly recommended.
 * The Carpentries material has [much more information about teaching together](https://carpentries.github.io/instructor-training/aio/index.html) (search for “Never Teach Alone” on this page). 
