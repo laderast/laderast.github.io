@@ -79,7 +79,7 @@ When you find a good collaborative partner, you can channel the flow together. I
 The 2000 Year Old Man was a comedy routine that Carl Reiner and Mel Brooks came up with together while working together in a writer’s room. Carl played an interviewer asking a 2000 year old man (played by Brooks) questions about daily life as 2000 year old man, did he meet certain historical figures, etc. It was completely improvised and Mel’s responses were usually pretty darn funny.
 
 ```{r}
-vembedr::embed_url("https://youtu.be/UVkyv1aEpIg")
+vembedr::embed_url("https://youtu.be/7XqNdI6kvyI")
 ```
 
 Mel’s responses always got the laughs, but Carl’s role was especially important. He asked the right questions that Mel could build his answers on. His questions set up Mel for success:
