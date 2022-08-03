@@ -1,0 +1,7 @@
+---
+title: "Talks"
+editor: visual
+listing:
+  contents: talks
+  sort: date desc
+---

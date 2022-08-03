@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "Ted Laderas, PhD"
+  description: "Ted's R and Teaching Blog"
+  navbar:
+    right:
+      - teaching.qmd
+      - articles.qmd
+      - blog.qmd
+      - talks.qmd
+      - icon: github
+        href: https://github.com/laderast/
+      - icon: twitter
+        href: https://twitter.com/tladeras/
+  twitter-card: 
+    card-style: summary
+    creator: "@tladeras"
+format:
+  html:
+    theme: cosmo
+    css: styles.css

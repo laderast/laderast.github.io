@@ -1,0 +1,32 @@
+---
+title: Creativity and Science
+author: ~
+date: '2018-07-09'
+draft: true
+categories: [creativity, science]
+tags: []
+description: |
+  More information about the 2018 Cascadia-R conference.   
+format: html
+---
+
+I decided to write this post in celebration of my newest album, [*Tiny Fugues*, being released](). I consider myself a scientist and I am a musician in almost equal parts. There has been a lot of talking about the role of creativity in science. Honestly, I rarely try to cross the streams of science and music, mostly because it really hasn't been encouraged in my career. 
+
+I do think that I do use the same problem solving skills that I do in science that I also use in composition. The essential skill in both fields is understanding transitions and *how to get from here to there*. In science, that transition is logical, leading from one fact to the other, whereas in music, that transition can often be experimental. In other words, I do a lot of project management when I work on something scientific or musical. 
+
+Working in science today requires a lot of *in the box* and *across-box* thinking. In the box thinking in the sense that we must deal with constraints: funding is the most obvious one, but also prior scientific knowledge, which we must leverage to gain a foothold. What are the experimental constraints of the data type? What conditions are required for an assay to be informative, and statitically, how many times must we run the experiment for our results to be meaningful? Most importantly, how do we interpret our results in the context of previous knowledge and experiments?
+
+Problem solving within these constraints is a creative act and is part of my day to day work. It requires ingenuity that is often not recognized by funding agencies. In many ways, integrative analysis and modeling is a puzzle solving effort. 
+
+I think about the cleverness of the early biological experiments such as determining the structure of DNA, the weight of the ribosomal protein. These experiments used clever experimental design to infer truths about unseeable concepts such as genes and proteins. The concept of statistical power was invented to disprove the effectiveness of a bad surgical technique, that of radical masectomy.
+
+## Across-Box Thinking
+
+Bioinformatics increasingly enables interdisciplinary collaboration, at the confluence of biology, chemistry, and computer science. I currently am building an analysis pipeline for cyTOF data as part of my postdoc work. CyTOF combines concepts from immunology, proteomics, mass spectrometry, and flow cytometry into a single datatype. That takes incredible teamwork and creativity to put together.
+
+Imaging as well requires multiple fields of expertise as well, from straight physics (imaging dyes, fluorophores, and other techniques such as quantum dots), immunology again (antibodies to specifically target proteins), image analysis, and mathematical modeling.
+
+Science is full of rediscoveries. A well known example is the
+
+## Misadventures in Collaboration
+

@@ -1,0 +1,16 @@
+---
+title: Data Science and Systems Science
+author: ~
+date: '2018-02-28'
+slug: data-science-and-systems-science
+categories: [data-science, systems]
+tags: [systems science]
+description: |
+   A talk about how system science and data science are connected.   
+---
+
+I gave a talk for the Portland State University Systems Science seminar called *[How are Data Science and Systems Science Connected?](https://laderast.github.io/sysc_data_sci/)*. In this talk, I was highlighting current blind spots in Data Science that I think Systems Science approaches can address, especially that of interactions between features. I talked a little about my dissertation research (surrogate oncogenes), and the problem of *black-box interpretability* of predictive models. 
+
+If you're interested in listening to the recording, the playback is available here: https://us.bbcollab.com/recording/059acf5cfed64f9abbf7cf432fdfb566
+
+Slides are here: https://laderast.github.io/sysc_data_sci

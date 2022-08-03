@@ -1,0 +1,19 @@
+---
+title: "A Practical Guide to Reproducible Papers"
+description: |
+  Guidelines on making your project reproducible by others. Includes a short tour of mybinder.org.
+author:
+  - name: Aurora Blucher
+    url: {}
+  - name: Ted Laderas
+    url: {}
+categories: 
+  - workshop
+  - biodata-club
+  - free 
+  - reproducibility
+date: 2020-02-20
+---
+
+[<button type="button" class="btn btn-primary">Presentation</button>](https://biodata-club.github.io/talks/repro_paper.pdf)
+[<button type="button" class="btn btn-primary">Code</button>](https://github.com/ablucher/Workshop_ReproduciblePaper)

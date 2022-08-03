@@ -1,0 +1,17 @@
+---
+title: "Data Storytelling"
+description: |
+  Learn about tailoring your visualization to an audience through reducing cognitive load.
+author:
+  - name: Ted Laderas
+date: 2021-03-20
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+knitr::include_url("https://laderast.github.io/data_storytelling_bdc/#1")
+```

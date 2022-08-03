@@ -1,0 +1,28 @@
+---
+title: Some Notes from the Evidence to Scholarship Conference
+author: ~
+date: '2018-03-19'
+categories: []
+tags: [digital-scholarship, librarians]
+description: |
+   Notes on the Evidence to Scholarship Conference at Reed College.
+format: html
+---
+
+Last week I had the good fortune to attend the [From Evidence to Scholarship Conference](http://www.reed.edu/e2s/conference/index.html) at my alma mater, Reed College. The focus of the conference was improving the research process for undergraduates using digital scholarship. I came away from it excited about the work other people are doing in this realm and thinking about ways we could adapt these approaches.
+
+Nicole Vasilevsky and I (both former Reedies) each gave talks, about our [experience developing materials for Data Science](http://laderast.github.io/data-sci-resources/) and [giving data science workshops to undergraduates](https://www.slideshare.net/NicoleVasilevsky/teaching-data-science-to-undergraduate-students).
+
+I found the conference to be very exciting and friendly overall. Laurie Allen kicked off the conference with a plenary session talking about the role digital scholarship librarians can have in the community surrounding them, talking about her work with [Monument Lab](http://monumentlab.com) and [Data Refuge](https://www.datarefuge.org). Key takeaway point: it's ok to do something badly if it gets the conversation started with the community. 
+
+One of the key takeaway points from the conference is the role that digital scholarship librarians have in revamping current curricula at the liberal arts colleges. They often do short-form training (in digital scholarship tools, such as webpage building and network analysis), which when integrated into a current course, can revitalize the course. [Laura O'Brien and Hélène Bilis](https://fromevidencetoscholarshipco2018.sched.com/event/DfDC/two-sessions-undergraduate-mvps-the-modernist-versions-project-digital-humanities-open-education-resources-connecting-text-and-data-a-collaborative-teaching-approach-to-a-literary-network-analysis-project-for-undergraduates) talked about integrating digital scholarship tools into a french literature course, talking about modeling the social networks of characters and how they evolved over time. 
+
+An exciting talk was about the [ILiADS](http://iliads.org) program, which is a multi-disciplinary digital scholarship program. It's run as a summer institute which starts as teams of students, faculty and staff. The projects are student driven and they try to incorporate both students with the technical skills and those who are non-technical. I really liked this idea of teaming up students from different fields and having faculty to advise them as needed. I'd like to try something similar at OHSU.
+
+Collaboration with allied departments led to enhanced interdisciplinary courses. Jon Caris' talk about his [Spatial Analysis Lab](http://www.science.smith.edu/sal/) at Smith College and the unexpected collaborations they had was a really great one, talking about using spatial analysis to analyze painting styles in the Painting III course, and using GIS to map out invasive species at a pond at Smith College for an intro Biology class. One of the best quotes from his talk was talking about emerging technology: "Emerging technology means that you're in a perpetual state of incompetence. And that's a fun place to be."
+
+I'd be remiss if I didn't mention Parveneh Abbaspour and Jeremy McWilliams' talk about [LCPhysX](http://lcphysx.lclark.edu), which is an online video archive showcasing student projects in the physics department. The videos are really great, especially the one about the [Golf Robot](http://lcphysx.lclark.edu/project/golf-robot/). The engagement of the students actually seems to have had an effect on admissions; a few of the new physics students actually noted that the LCPhysX site made them decide to go to Lewis and Clark.
+
+Finally, I really enjoyed Andrew Bray's talk about his collaborative course, "[Case Studies in Data Science: Elections](https://github.com/ds-elections)", where he solicited political scientists about important problems in voting for the students to tackle. By giving them some basic analyses in R, the students managed to complete a number of projects, including a package for [visualizing ranked choice voting](https://github.com/ds-elections/rcv), which is actually being utilized for visualizing these results. 
+
+I emerged from this conference excited about the passion that undergraduates have and excited about how digital scholarship librarians can change curricula for the better. 

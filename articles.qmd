@@ -1,0 +1,7 @@
+---
+title: "Articles"
+editor: visual
+listing:
+  contents: articles
+  sort: "date desc"
+---

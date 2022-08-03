@@ -1,0 +1,7 @@
+---
+title: "Teaching"
+editor: visual
+listing:
+  contents: edu
+  sort: "date desc"
+---
