@@ -8,7 +8,7 @@
 
 <meta name="author" content="Ted Laderas">
 
-<title>Ted Laderas, PhD - RStudio Conf 2022 Highlights</title>
+<title>Ted Laderas, PhD - RStudio Conf 2022 Highlights: Days 1 and 2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -57,8 +57,9 @@ ul.task-list{list-style: none;}
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta name="twitter:title" content="Ted Laderas, PhD - RStudio Conf 2022 Highlights">
-<meta name="twitter:description" content="Well, RStudio Conference 2022 has come and gone, and I thought I’d just write a blog post of my experience.">
+<meta name="twitter:title" content="Ted Laderas, PhD - RStudio Conf 2022 Highlights: Days 1 and 2">
+<meta name="twitter:description" content="Well, RStudio Conference 2022 has come and gone, and I thought I’d just write a couple blog posts of my experience attending it.">
+<meta name="twitter:image" content="https://laderast.github.io/posts/2022-08-04-RStudio-Conf/ussie1.jpeg">
 <meta name="twitter:creator" content="@tladeras">
 <meta name="twitter:card" content="summary">
 </head>
@@ -109,7 +110,7 @@ ul.task-list{list-style: none;}
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">RStudio Conf 2022 Highlights</h1>
+      <h1 class="title">RStudio Conf 2022 Highlights: Days 1 and 2</h1>
                       </div>
   </div>
     
@@ -145,7 +146,10 @@ ul.task-list{list-style: none;}
    
   <ul>
   <li><a href="#so-much-to-talk-about" id="toc-so-much-to-talk-about" class="nav-link active" data-scroll-target="#so-much-to-talk-about">So much to talk about!</a></li>
-  <li><a href="#days-1-and-2-taing-for-the-tidytools-workshop" id="toc-days-1-and-2-taing-for-the-tidytools-workshop" class="nav-link" data-scroll-target="#days-1-and-2-taing-for-the-tidytools-workshop">Days 1 and 2: TAing for the Tidytools Workshop</a></li>
+  <li><a href="#day-1-tidy-tools-package-building-unit-testing-and-documentation" id="toc-day-1-tidy-tools-package-building-unit-testing-and-documentation" class="nav-link" data-scroll-target="#day-1-tidy-tools-package-building-unit-testing-and-documentation">Day 1: Tidy Tools: Package Building, Unit Testing and Documentation</a>
+  <ul class="collapse">
+  <li><a href="#day-2" id="toc-day-2" class="nav-link" data-scroll-target="#day-2">Day 2</a></li>
+  </ul></li>
   <li><a href="#day-3-really-big-announcements" id="toc-day-3-really-big-announcements" class="nav-link" data-scroll-target="#day-3-really-big-announcements">Day 3: Really Big Announcements</a></li>
   <li><a href="#day-3-shiny-past-and-present" id="toc-day-3-shiny-past-and-present" class="nav-link" data-scroll-target="#day-3-shiny-past-and-present">Day 3: Shiny, Past and Present</a></li>
   <li><a href="#day-3-awesome-sessions-i-attended" id="toc-day-3-awesome-sessions-i-attended" class="nav-link" data-scroll-target="#day-3-awesome-sessions-i-attended">Day 3: Awesome sessions I attended</a></li>
@@ -162,18 +166,22 @@ ul.task-list{list-style: none;}
 
 <section id="so-much-to-talk-about" class="level1">
 <h1>So much to talk about!</h1>
-<p>Well, RStudio Conference 2022 has come and gone, and I thought I’d just write a blog post of my experience.</p>
-<p>Before I start, I just want to mention the big news: RStudio the company is becoming Posit. This new name reflects the fact that a lot of their new products, including Quarto, Shiny for Python, and Tidymodels/Vetiver are cross-language.</p>
+<p>Well, RStudio Conference 2022 has come and gone, and I thought I’d just write a couple blog posts of my experience attending it.</p>
+<p>Before I start, I just want to mention the big news: RStudio (the company) is becoming Posit. This new name reflects the fact that a lot of their new products, including Quarto, Shiny for Python, and Tidymodels/Vetiver are cross-language.</p>
 <p>Just to be 100% crystal clear: the products, such as RStudio, are not undergoing a name change. Posit is the new name of the company, not necessarily its products.</p>
 </section>
-<section id="days-1-and-2-taing-for-the-tidytools-workshop" class="level1">
-<h1>Days 1 and 2: TAing for the Tidytools Workshop</h1>
-<p>I was a TA for the <a href="https://rstd.io/btt">Building Tidy Tools workshop</a>, which is a great intermediate course that helped fill in some of the development gaps that we all have. I learned a ton from the workshop, and the other TAs: Beatriz Milz,</p>
-<p>Ian Lyttle and Emma Rand taught the workshop, and did a wonderful job breaking up the material into eas(ier) to understand sections, starting with package development, documentation, and unit testing. I especially appreciated that the entire workshop was structured around building a package called <code>{ussie}</code> <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> that let a user work with soccerdata from packages such as <code>{engsoccerdata}</code>.</p>
-<p>TL;DR: Use the <code>{usethis}</code> package for building your package frameworks and making your unit tests. That and <code>{devtools}</code> are your guides into the wilderness of developing packages.</p>
-<p>Day 2 started with a more philosophical bent; that of function design. Specifically, the difference between <em>pure functions</em> (that only process what you give them), and <em>functions with side effects</em> (which alter the outside universe - the canonical example is saving files).</p>
-<p>Ian is way better at grokking the tidyeval documentation than me, so it was a pleasure watching him teach the two main uses of tidyeval: 1) data-masking and 2) tidyselect. Specifically, he</p>
+<section id="day-1-tidy-tools-package-building-unit-testing-and-documentation" class="level1">
+<h1>Day 1: Tidy Tools: Package Building, Unit Testing and Documentation</h1>
+<p>I was a TA for the <a href="https://rstd.io/btt">Building Tidy Tools workshop</a>, which is a great intermediate course that helped fill in some of the development gaps that we all have. I learned a ton from the workshop, and the other TAs: <a href="https://twitter.com/beamilz">Beatriz Milz</a>, <a href="https://twitter.com/heyhayhay__">Haley Jeppsen</a>, Kailey Mulligan, and Elliot Murphy.</p>
+<p>Ian Lyttle and Emma Rand taught the workshop<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, and did a wonderful job breaking up the material into eas(ier) to understand sections, starting with <a href="https://rstudio-conf-2022.github.io/build-tidy-tools/materials/day-1-session-1-introduction.html#/title-slide">package development</a>, <a href="https://rstudio-conf-2022.github.io/build-tidy-tools/materials/day-1-session-2-doc-minimal.html#/title-slide">documentation</a> including <a href="https://rstudio-conf-2022.github.io/build-tidy-tools/materials/day-1-session-4-doc-sharing.html#/title-slide"><code>{pkgdown}</code> sites</a> and <a href="https://rstudio-conf-2022.github.io/build-tidy-tools/materials/day-1-session-3-testing.html#/title-slide">unit testing</a>. I especially appreciated that the entire workshop was structured around building a package called <code>{ussie}</code><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> that let a user work with soccerdata from packages such as <code>{engsoccerdata}</code>.</p>
+<p>Day 1 TL;DR: Use the <code>{usethis}</code> package for building your package frameworks and making your unit tests. That and <code>{devtools}</code> are your guides into the wilderness of developing packages.</p>
+<section id="day-2" class="level2">
+<h2 class="anchored" data-anchor-id="day-2">Day 2</h2>
+<p>Day 2 started with a more philosophical bent; that of function design. Specifically, the difference between <em>pure functions</em> (that only process what you give them), and <em>functions with side effects</em> (which alter the outside universe<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>). One of the key insights is that it is way easier to write unit tests for pure functions, and it is harder to write tests for functions with side effects.</p>
+<p>We talked more about testing functions with side effects using snapshot testing.</p>
+<p>Ian is way better at grokking the tidyeval documentation than me, so it was a pleasure watching him teach the two main uses of tidyeval: 1) data-masking and 2) tidyselect. Specifically, he talked about different ways to implement</p>
 <p>I think there is a special bond that’s formed when you teach together, and it was great to work with the entire team.</p>
+</section>
 </section>
 <section id="day-3-really-big-announcements" class="level1">
 <h1>Day 3: Really Big Announcements</h1>
@@ -197,16 +205,19 @@ ul.task-list{list-style: none;}
 <div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1" role="doc-endnote"><p>Ted Lasso fans will get the reference.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1" role="doc-endnote"><p>All materials are available here: https://rstd.io/btt<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p><em>Ted Lasso</em> fans will get the reference.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>The canonical example is saving files.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{laderas,
   author = {Ted Laderas},
-  title = {RStudio {Conf} 2022 {Highlights}},
+  title = {RStudio {Conf} 2022 {Highlights:} {Days} 1 and 2},
   url = {https://laderast.github.io//posts/2022-08-04-RStudio-Conf},
   langid = {en}
 }
 </code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-laderas" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
-Ted Laderas. n.d. <span>“RStudio Conf 2022 Highlights.”</span> <a href="https://laderast.github.io//posts/2022-08-04-RStudio-Conf">https://laderast.github.io//posts/2022-08-04-RStudio-Conf</a>.
+Ted Laderas. n.d. <span>“RStudio Conf 2022 Highlights: Days 1 and
+2.”</span> <a href="https://laderast.github.io//posts/2022-08-04-RStudio-Conf">https://laderast.github.io//posts/2022-08-04-RStudio-Conf</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

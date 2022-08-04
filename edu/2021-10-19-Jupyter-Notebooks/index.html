@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Anastazie Sedlakova">
+<meta name="dcterms.date" content="2021-10-19">
 
-<title>Ted Laderas, PhD</title>
+<title>Ted Laderas, PhD - UK Biobank Webinar: Using JupyterLab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -18,21 +20,22 @@ ul.task-list{list-style: none;}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -54,21 +57,20 @@ ul.task-list{list-style: none;}
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="Ted Laderas, PhD">
-<meta name="twitter:description" content="I am a bioinformatics trainer for DNANexus, formerly an Assistant Professor in Biomedical Informatics at OHSU.">
-<meta name="twitter:image" content="https://laderast.github.io/ted.jpg">
+<link rel="stylesheet" href="../../styles.css">
+<meta name="twitter:title" content="Ted Laderas, PhD - UK Biobank Webinar: Using JupyterLab">
+<meta name="twitter:description" content="Two part webinar on utilizing JupyterLab on the DNAnexus platform.">
 <meta name="twitter:creator" content="@tladeras">
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
+      <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Ted Laderas, PhD</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -77,16 +79,16 @@ ul.task-list{list-style: none;}
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html">Teaching</a>
+    <a class="nav-link" href="../../teaching.html">Teaching</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./articles.html">Articles</a>
+    <a class="nav-link" href="../../articles.html">Articles</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html">Blog</a>
+    <a class="nav-link" href="../../blog.html">Blog</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./talks.html">Talks</a>
+    <a class="nav-link" href="../../talks.html">Talks</a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/laderast/"><i class="bi bi-github" role="img">
@@ -105,38 +107,77 @@ ul.task-list{list-style: none;}
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">UK Biobank Webinar: Using JupyterLab</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Anastazie Sedlakova </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 19, 2021</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#part-1-jupyterlab-basics" id="toc-part-1-jupyterlab-basics" class="nav-link active" data-scroll-target="#part-1-jupyterlab-basics">Part 1: JupyterLab Basics</a></li>
+  <li><a href="#part-2-using-spark-jupyterlab-to-access-phenotype-data" id="toc-part-2-using-spark-jupyterlab-to-access-phenotype-data" class="nav-link" data-scroll-target="#part-2-using-spark-jupyterlab-to-access-phenotype-data">Part 2: Using Spark JupyterLab to access phenotype data</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="ted.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <main class="content" id="quarto-document-content">
-<p>I am a bioinformatics trainer for DNANexus, formerly an Assistant Professor in Biomedical Informatics at OHSU. I train bioinformaticians how to use the DNAnexus cloud-based platform, including giving webinars for the <a href="https://www.youtube.com/playlist?list=PLRkZ0Fz-n3Z7Jg0Vz4vudLYnBza4EUGLM">UK Biobank Research Analysis Platform</a>.</p>
-<p>Collaboration, training, and team science are passions of mine. I believe that research should not be lonely, and building communities of practice in science and research that are psychologically safe and inclusive are the key to doing better, more robust science. To this end, I use evidence based pedagogy, especially utilizing the concepts of psychological safety and active learning. I am a certified instructor for both The Carpentries and RStudio.</p>
-<p>My free <a href="https://ready4r.netlify.app">Ready for R</a> course currently is at over 1500 external users, and I have built a learning community around it. The course has been lauded by users as being inclusive and less intimidating than other R courses. Our Data Analytics course recently won an award (Sakai Torchbearer Award) from multiple student nominations.</p>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://twitter.com/tladeras" class="about-link">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">Twitter</span>
-  </a>
-  <a href="https://www.linkedin.com/in/ted-laderas-0714a92/" class="about-link">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com/laderast" class="about-link">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-</div>
-</div>
- <!-- /main -->
+
+
+<p>Two part webinar on utilizing JupyterLab on the DNAnexus platform.</p>
+<section id="part-1-jupyterlab-basics" class="level1">
+<h1>Part 1: JupyterLab Basics</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YIPdhf3qbQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+</section>
+<section id="part-2-using-spark-jupyterlab-to-access-phenotype-data" class="level1">
+<h1>Part 2: Using Spark JupyterLab to access phenotype data</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jodNjrYF8po" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{laderas2021,
+  author = {Ted Laderas and Anastazie Sedlakova},
+  title = {UK {Biobank} {Webinar:} {Using} {JupyterLab}},
+  date = {2021-10-19},
+  url = {https://laderast.github.io//edu/2021-10-19-Jupyter-Notebooks},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-laderas2021" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
+Ted Laderas, and Anastazie Sedlakova. 2021. <span>“UK Biobank Webinar:
+Using JupyterLab.”</span> October 19, 2021. <a href="https://laderast.github.io//edu/2021-10-19-Jupyter-Notebooks">https://laderast.github.io//edu/2021-10-19-Jupyter-Notebooks</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -157,6 +198,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;

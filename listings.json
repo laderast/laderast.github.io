@@ -2,6 +2,10 @@
   {
     "listing": "/teaching.html",
     "items": [
+      "/edu/2022-01-28-Workflow-Description-Language/index.html",
+      "/edu/2021-11-03-GWAS-on-UKB-RAP/index.html",
+      "/edu/2021-10-19-Jupyter-Notebooks/index.html",
+      "/edu/2021-10-14-ukbiobank-webinar/index.html",
       "/edu/2021-03-20-tidyowl/tidyowl.html",
       "/edu/2021-03-20-bsta-504-r-programming/bsta-504-r-programming.html",
       "/edu/2021-03-19-an-introduction-to-distill/an-introduction-to-distill.html",
