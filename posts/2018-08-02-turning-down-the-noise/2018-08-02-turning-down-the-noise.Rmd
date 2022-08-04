@@ -5,9 +5,6 @@ date: '2018-08-02'
 slug: turning-down-the-noise
 categories: []
 tags: []
-header:
-  caption: ''
-  image: ''
 description: |
   More information about managing depression and anxiety.   
 output:

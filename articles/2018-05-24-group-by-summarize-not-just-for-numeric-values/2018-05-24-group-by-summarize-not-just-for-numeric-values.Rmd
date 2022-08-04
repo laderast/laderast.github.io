@@ -6,9 +6,6 @@ slug: group-by-summarize-not-just-for-numeric-values
 categories: 
   - tidyverse
 tags: []
-header:
-  caption: ''
-  image: ''
 description: |
    Learn some more about the many uses of `group_by()`/`summarize()`.  
 output:

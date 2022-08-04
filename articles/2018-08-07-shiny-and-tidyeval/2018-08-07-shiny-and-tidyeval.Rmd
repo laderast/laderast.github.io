@@ -5,9 +5,6 @@ date: '2018-08-07'
 slug: shiny-and-tidyeval
 categories: [shiny]
 tags: [shiny, tidyeval, inputs, apps, this]
-header:
-  caption: ''
-  image: ''
 description: |
   How do you incorporate tidyeval and shiny together? 
 output:

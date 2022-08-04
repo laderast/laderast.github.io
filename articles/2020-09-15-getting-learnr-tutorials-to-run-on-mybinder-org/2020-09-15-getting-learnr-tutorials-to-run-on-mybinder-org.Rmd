@@ -5,16 +5,9 @@ date: '2020-09-15'
 slug: getting-learnr-tutorials-to-run-on-mybinder-org
 categories: []
 tags: []
-header:
-  caption: ''
-  image: ''
-  preview: yes
-preview: binder_repo.jpg
+image: binder_repo.jpg
 description: |
    Getting Shiny, LearnR, and Mybinder.org to play together nicely.   
-output:
-  distill::distill_article:
-    self_contained: true
 ---
 
 The `learnr` package is a wonderful way to package your tutorials. Anyone can download a `learnr` package of tutorials, and use `learnr::run_tutorial()` to run them on their own personal system. 

@@ -2,10 +2,7 @@
 title: "Data Scavenger Hunt: Exploring NHANES"
 description: |
   A short workshop teaching exploratory data analysis using the NHANES dataset.
-category: 
-  - workshop
-  - biodata-club
-  - free
+category: "workshop"
 author:
   - name: Ted Laderas
     url: {}
