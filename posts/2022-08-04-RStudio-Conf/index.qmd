@@ -1,0 +1,52 @@
+---
+title: "RStudio Conf 2022 Highlights: Days 1 and 2"
+format: html
+draft: true
+image: ussie1.jpeg
+---
+
+# So much to talk about!
+
+Well, RStudio Conference 2022 has come and gone, and I thought I'd just write a couple blog posts of my experience attending it.
+
+Before I start, I just want to mention the big news: RStudio (the company) is becoming Posit. This new name reflects the fact that a lot of their new products, including Quarto, Shiny for Python, and Tidymodels/Vetiver are cross-language.
+
+Just to be 100% crystal clear: the products, such as RStudio, are not undergoing a name change. Posit is the new name of the company, not necessarily its products. 
+
+
+# Day 1: Tidy Tools: Package Building, Unit Testing and Documentation
+
+I was a TA for the [Building Tidy Tools workshop](https://rstd.io/btt), which is a great intermediate course that helped fill in some of the development gaps that we 
+all have. I learned a ton from the workshop, and the other TAs: [Beatriz Milz](https://twitter.com/beamilz), [Haley Jeppsen](https://twitter.com/heyhayhay__), Kailey Mulligan, and Elliot Murphy. 
+
+Ian Lyttle and Emma Rand taught the workshop[^1], and did a wonderful job breaking up the
+material into eas(ier) to understand sections, starting with [package development](https://rstudio-conf-2022.github.io/build-tidy-tools/materials/day-1-session-1-introduction.html#/title-slide), [documentation](https://rstudio-conf-2022.github.io/build-tidy-tools/materials/day-1-session-2-doc-minimal.html#/title-slide) including [`{pkgdown}` sites](https://rstudio-conf-2022.github.io/build-tidy-tools/materials/day-1-session-4-doc-sharing.html#/title-slide) and [unit testing](https://rstudio-conf-2022.github.io/build-tidy-tools/materials/day-1-session-3-testing.html#/title-slide). I especially appreciated that the entire workshop was structured around building a package called `{ussie}`[^2] that let a user work with soccerdata from packages such as `{engsoccerdata}`. 
+
+[^1]: All materials are available here: https://rstd.io/btt
+[^2]: *Ted Lasso* fans will get the reference.
+
+Day 1 TL;DR: Use the `{usethis}` package for building your package frameworks and making your unit tests. That and `{devtools}` are your guides into the wilderness of developing packages. 
+
+## Day 2
+
+Day 2 started with a more philosophical bent; that of function design. Specifically, the difference between *pure functions* (that only process what you give them), and *functions with side effects* (which alter the outside universe[^3]). One of the key insights is that it is way easier to write unit tests for pure functions, and it is harder to write tests for functions with side effects.
+
+We talked more about testing functions with side effects using snapshot testing. 
+
+Ian is way better at grokking the tidyeval documentation than me, so it was a pleasure watching him teach the two main uses of tidyeval: 1) data-masking and 2) tidyselect. Specifically, he talked about different ways to implement 
+
+I think there is a special bond that's formed when you teach together, and it was great to work with the entire team. 
+
+[^3]: The canonical example is saving files.
+
+# Day 3: Really Big Announcements
+
+# Day 3: Shiny, Past and Present
+
+# Day 3: Awesome sessions I attended
+
+# Day 4: Quarto is incredible
+
+# Day 4: Other awesome sessions
+
+

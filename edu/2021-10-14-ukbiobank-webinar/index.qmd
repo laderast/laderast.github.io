@@ -1,0 +1,14 @@
+---
+title: "UK Biobank Overview Webinar"
+format: html
+editor: visual
+date: "2021-10-14"
+author:
+  - name: Anastazie Sedlakova
+---
+
+Introductory Webinar for the UK Biobank Research Analysis Platform.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sVsEfE7J_QU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+</iframe>

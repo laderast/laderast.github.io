@@ -1,0 +1,20 @@
+---
+title: "Workflow Description Language (WDL) on RAP"
+format: html
+editor: visual
+date: "2022-01-28"
+author:
+  - name: Anastazie Sedlakova
+---
+
+Two part Webinar about how to run workflows building using Workflow Description Lanage (WDL) on the UK Biobank Research Analysis Platform.
+
+# Intro to WDL, Part 1
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2X3gbS_BHiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Building Apps on UKB RAP
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A_iki_50Ig0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+</iframe>

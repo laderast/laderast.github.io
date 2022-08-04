@@ -2,9 +2,6 @@
 title: "Data Scavenger Hunt: Exploring Data Together"
 description: |
   Talk for CSV Conf 2019 about the {burro} package.
-author:
-  - name: Ted Laderas
-    url: {}
 date: 2019-05-09
 output:
   distill::distill_article:

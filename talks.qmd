@@ -4,4 +4,5 @@ editor: visual
 listing:
   contents: talks
   sort: date desc
+title-block-banner: true
 ---

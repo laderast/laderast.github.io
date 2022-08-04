@@ -4,4 +4,7 @@ editor: visual
 listing:
   contents: edu
   sort: "date desc"
+title-block-banner: true
 ---
+
+This is a continually updated list of my teaching materials. Unless indicated, all material is released under CC-NonCommercial license. For other uses, please contact me.

@@ -1,0 +1,18 @@
+---
+title: "UK Biobank Webinar: Using JupyterLab"
+format: html
+editor: visual
+date: "2021-10-19"
+author:
+  - name: Anastazie Sedlakova
+---
+
+Two part webinar on utilizing JupyterLab on the DNAnexus platform. 
+
+# Part 1: JupyterLab Basics
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YIPdhf3qbQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Part 2: Using Spark JupyterLab to access phenotype data
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jodNjrYF8po" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

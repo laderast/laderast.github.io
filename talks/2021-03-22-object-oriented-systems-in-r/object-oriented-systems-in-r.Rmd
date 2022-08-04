@@ -3,8 +3,6 @@ title: "Object Oriented Systems in R"
 description: |
   A talk/workshop talking about three object oriented programming systems in R.
 author:
-  - name: Ted Laderas
-    url: {}
   - name: Scott Chamberlain
     url: 
 date: 2019-05-21

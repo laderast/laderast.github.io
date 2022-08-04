@@ -6,9 +6,6 @@ slug: so-you-ve-accidentally-checked-in-a-large-file-into-git
 categories: [git, git hell]
 description: |
    Don't panic. I'll show you how to scrub your Git history and get rid of it.
-output:
-  distill::distill_article:
-    self_contained: true
 ---
 
 *Note: after posting this, I heard back from Roberto Tyley, the creator of the BFG. I'd like to note that the BFG actually does its job really well. I was mostly really frustrated about how Git/GitHub doesn't prevent a user from doing something that's hard to undo. So my frustration is really about that, not really about the BFG. This post has been edited to reflect that.*

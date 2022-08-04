@@ -2,9 +2,6 @@
 title: "Why Shiny Modules"
 description: |
   Lightning talk for PDX-R Shiny Happy Hour on why to use Shiny Modules.
-author:
-  - name: Ted Laderas
-    url: {}
 date: 2021-06-06
 output:
   distill::distill_article:

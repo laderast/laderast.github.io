@@ -1,0 +1,14 @@
+---
+title: "GWAS on UKB RAP"
+format: html
+editor: visual
+date: "2021-11-03"
+author:
+  - name: Anastazie Sedlakova
+---
+
+Webinar about how to run Regenie (GWAS executable) on the Research Analysis Platform.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/762PVlyZJ-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+</iframe>
