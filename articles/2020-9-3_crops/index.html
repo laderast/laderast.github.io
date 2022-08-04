@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Ted Laderas">
+<meta name="dcterms.date" content="2020-09-03">
+<meta name="description" content="Understanding crop production across the world.">
+
+<title>Ted Laderas, PhD - Tidy Tuesday: Crop Production</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta name="twitter:title" content="Ted Laderas, PhD - Tidy Tuesday: Crop Production">
+<meta name="twitter:description" content="Understanding crop production across the world.">
+<meta name="twitter:creator" content="@tladeras">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Ted Laderas, PhD</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../teaching.html">Teaching</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../articles.html">Articles</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html">Blog</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../talks.html">Talks</a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/laderast/"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/tladeras/"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Tidy Tuesday: Crop Production</h1>
+                  <div>
+        <div class="description">
+          Understanding crop production across the world.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">tidytuesday</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Ted Laderas </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">September 3, 2020</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#look-at-the-available-datasets" id="toc-look-at-the-available-datasets" class="nav-link active" data-scroll-target="#look-at-the-available-datasets">Look at the available datasets</a></li>
+  <li><a href="#what-was-your-dataset" id="toc-what-was-your-dataset" class="nav-link" data-scroll-target="#what-was-your-dataset">What was your dataset?</a>
+  <ul class="collapse">
+  <li><a href="#key-crop-yields" id="toc-key-crop-yields" class="nav-link" data-scroll-target="#key-crop-yields">Key Crop Yields</a></li>
+  <li><a href="#visdat" id="toc-visdat" class="nav-link" data-scroll-target="#visdat">Visdat</a></li>
+  <li><a href="#skimr" id="toc-skimr" class="nav-link" data-scroll-target="#skimr">Skimr</a></li>
+  </ul></li>
+  <li><a href="#what-was-your-question" id="toc-what-was-your-question" class="nav-link" data-scroll-target="#what-was-your-question">What was your question?</a></li>
+  <li><a href="#what-were-your-findings" id="toc-what-were-your-findings" class="nav-link" data-scroll-target="#what-were-your-findings">What were your findings?</a></li>
+  <li><a href="#what-did-you-learn" id="toc-what-did-you-learn" class="nav-link" data-scroll-target="#what-did-you-learn">What did you learn?</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<section id="look-at-the-available-datasets" class="level1">
+<h1>Look at the available datasets</h1>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidytuesdayR)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">#This will open up in the help window</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>tidytuesdayR<span class="sc">::</span><span class="fu">tt_available</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="what-was-your-dataset" class="level1">
+<h1>What was your dataset?</h1>
+<p>Load your dataset in with the function below. The input is the date the dataset was issued. You should be able to get this from the <code>tt_available()</code> function.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#incoming data comes in as a list</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>datasets <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">"2020-09-01"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>--- Compiling #TidyTuesday Information for 2020-09-01 ----</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>--- There are 5 files available ---</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>--- Starting Download ---</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Downloading file 1 of 5: `arable_land_pin.csv`
+    Downloading file 2 of 5: `cereal_crop_yield_vs_fertilizer_application.csv`
+    Downloading file 3 of 5: `cereal_yields_vs_tractor_inputs_in_agriculture.csv`
+    Downloading file 4 of 5: `key_crop_yields.csv`
+    Downloading file 5 of 5: `land_use_vs_yield_change_in_cereal_production.csv`</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>--- Download complete ---</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">#show the names of the individual datasets</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(datasets)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "arable_land_pin"                               
+[2] "cereal_crop_yield_vs_fertilizer_application"   
+[3] "cereal_yields_vs_tractor_inputs_in_agriculture"
+[4] "key_crop_yields"                               
+[5] "land_use_vs_yield_change_in_cereal_production" </code></pre>
+</div>
+</div>
+<section id="key-crop-yields" class="level2">
+<h2 class="anchored" data-anchor-id="key-crop-yields">Key Crop Yields</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>key_crop_yields <span class="ot">&lt;-</span> datasets<span class="sc">$</span>key_crop_yields</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="visdat" class="level2">
+<h2 class="anchored" data-anchor-id="visdat">Visdat</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>visdat<span class="sc">::</span><span class="fu">vis_dat</span>(key_crop_yields)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="skimr" class="level2">
+<h2 class="anchored" data-anchor-id="skimr">Skimr</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>skimr<span class="sc">::</span><span class="fu">skim</span>(key_crop_yields)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<table class="table table-sm table-striped">
+<caption>Data summary</caption>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Name</td>
+<td style="text-align: left;">key_crop_yields</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Number of rows</td>
+<td style="text-align: left;">13075</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Number of columns</td>
+<td style="text-align: left;">14</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">_______________________</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Column type frequency:</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">numeric</td>
+<td style="text-align: left;">12</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">________________________</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Group variables</td>
+<td style="text-align: left;">None</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Variable type: character</strong></p>
+<table class="table table-sm table-striped">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 13%">
+<col style="width: 19%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 8%">
+<col style="width: 12%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">skim_variable</th>
+<th style="text-align: right;">n_missing</th>
+<th style="text-align: right;">complete_rate</th>
+<th style="text-align: right;">min</th>
+<th style="text-align: right;">max</th>
+<th style="text-align: right;">empty</th>
+<th style="text-align: right;">n_unique</th>
+<th style="text-align: right;">whitespace</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Entity</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1.00</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">39</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">249</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Code</td>
+<td style="text-align: right;">1919</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">214</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Variable type: numeric</strong></p>
+<table class="table table-sm table-striped">
+<colgroup>
+<col style="width: 28%">
+<col style="width: 8%">
+<col style="width: 11%">
+<col style="width: 6%">
+<col style="width: 5%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">skim_variable</th>
+<th style="text-align: right;">n_missing</th>
+<th style="text-align: right;">complete_rate</th>
+<th style="text-align: right;">mean</th>
+<th style="text-align: right;">sd</th>
+<th style="text-align: right;">p0</th>
+<th style="text-align: right;">p25</th>
+<th style="text-align: right;">p50</th>
+<th style="text-align: right;">p75</th>
+<th style="text-align: right;">p100</th>
+<th style="text-align: left;">hist</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Year</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1.00</td>
+<td style="text-align: right;">1990.37</td>
+<td style="text-align: right;">16.73</td>
+<td style="text-align: right;">1961.00</td>
+<td style="text-align: right;">1976.00</td>
+<td style="text-align: right;">1991.00</td>
+<td style="text-align: right;">2005.00</td>
+<td style="text-align: right;">2018.00</td>
+<td style="text-align: left;">▇▆▇▇▇</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Wheat (tonnes per hectare)</td>
+<td style="text-align: right;">4974</td>
+<td style="text-align: right;">0.62</td>
+<td style="text-align: right;">2.43</td>
+<td style="text-align: right;">1.69</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">1.23</td>
+<td style="text-align: right;">1.99</td>
+<td style="text-align: right;">3.12</td>
+<td style="text-align: right;">10.67</td>
+<td style="text-align: left;">▇▅▂▁▁</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Rice (tonnes per hectare)</td>
+<td style="text-align: right;">4604</td>
+<td style="text-align: right;">0.65</td>
+<td style="text-align: right;">3.16</td>
+<td style="text-align: right;">1.85</td>
+<td style="text-align: right;">0.20</td>
+<td style="text-align: right;">1.77</td>
+<td style="text-align: right;">2.74</td>
+<td style="text-align: right;">4.16</td>
+<td style="text-align: right;">10.68</td>
+<td style="text-align: left;">▇▇▃▁▁</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Maize (tonnes per hectare)</td>
+<td style="text-align: right;">2301</td>
+<td style="text-align: right;">0.82</td>
+<td style="text-align: right;">3.02</td>
+<td style="text-align: right;">3.13</td>
+<td style="text-align: right;">0.03</td>
+<td style="text-align: right;">1.14</td>
+<td style="text-align: right;">1.83</td>
+<td style="text-align: right;">3.92</td>
+<td style="text-align: right;">36.76</td>
+<td style="text-align: left;">▇▁▁▁▁</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Soybeans (tonnes per hectare)</td>
+<td style="text-align: right;">7114</td>
+<td style="text-align: right;">0.46</td>
+<td style="text-align: right;">1.45</td>
+<td style="text-align: right;">0.75</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.86</td>
+<td style="text-align: right;">1.33</td>
+<td style="text-align: right;">1.90</td>
+<td style="text-align: right;">5.95</td>
+<td style="text-align: left;">▇▇▂▁▁</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Potatoes (tonnes per hectare)</td>
+<td style="text-align: right;">3059</td>
+<td style="text-align: right;">0.77</td>
+<td style="text-align: right;">15.40</td>
+<td style="text-align: right;">9.29</td>
+<td style="text-align: right;">0.84</td>
+<td style="text-align: right;">8.64</td>
+<td style="text-align: right;">13.41</td>
+<td style="text-align: right;">20.05</td>
+<td style="text-align: right;">75.30</td>
+<td style="text-align: left;">▇▅▁▁▁</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Beans (tonnes per hectare)</td>
+<td style="text-align: right;">5066</td>
+<td style="text-align: right;">0.61</td>
+<td style="text-align: right;">1.09</td>
+<td style="text-align: right;">0.82</td>
+<td style="text-align: right;">0.03</td>
+<td style="text-align: right;">0.59</td>
+<td style="text-align: right;">0.83</td>
+<td style="text-align: right;">1.35</td>
+<td style="text-align: right;">9.18</td>
+<td style="text-align: left;">▇▁▁▁▁</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Peas (tonnes per hectare)</td>
+<td style="text-align: right;">6840</td>
+<td style="text-align: right;">0.48</td>
+<td style="text-align: right;">1.48</td>
+<td style="text-align: right;">1.01</td>
+<td style="text-align: right;">0.04</td>
+<td style="text-align: right;">0.72</td>
+<td style="text-align: right;">1.15</td>
+<td style="text-align: right;">1.99</td>
+<td style="text-align: right;">7.16</td>
+<td style="text-align: left;">▇▃▁▁▁</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Cassava (tonnes per hectare)</td>
+<td style="text-align: right;">5887</td>
+<td style="text-align: right;">0.55</td>
+<td style="text-align: right;">9.34</td>
+<td style="text-align: right;">5.11</td>
+<td style="text-align: right;">1.00</td>
+<td style="text-align: right;">5.55</td>
+<td style="text-align: right;">8.67</td>
+<td style="text-align: right;">11.99</td>
+<td style="text-align: right;">38.58</td>
+<td style="text-align: left;">▇▇▁▁▁</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Barley (tonnes per hectare)</td>
+<td style="text-align: right;">6342</td>
+<td style="text-align: right;">0.51</td>
+<td style="text-align: right;">2.23</td>
+<td style="text-align: right;">1.50</td>
+<td style="text-align: right;">0.09</td>
+<td style="text-align: right;">1.05</td>
+<td style="text-align: right;">1.88</td>
+<td style="text-align: right;">3.02</td>
+<td style="text-align: right;">9.15</td>
+<td style="text-align: left;">▇▆▂▁▁</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Cocoa beans (tonnes per hectare)</td>
+<td style="text-align: right;">8466</td>
+<td style="text-align: right;">0.35</td>
+<td style="text-align: right;">0.39</td>
+<td style="text-align: right;">0.28</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.24</td>
+<td style="text-align: right;">0.36</td>
+<td style="text-align: right;">0.49</td>
+<td style="text-align: right;">3.43</td>
+<td style="text-align: left;">▇▁▁▁▁</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bananas (tonnes per hectare)</td>
+<td style="text-align: right;">4166</td>
+<td style="text-align: right;">0.68</td>
+<td style="text-align: right;">15.20</td>
+<td style="text-align: right;">12.08</td>
+<td style="text-align: right;">0.66</td>
+<td style="text-align: right;">5.94</td>
+<td style="text-align: right;">11.78</td>
+<td style="text-align: right;">20.79</td>
+<td style="text-align: right;">77.59</td>
+<td style="text-align: left;">▇▃▁▁▁</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+</section>
+<section id="what-was-your-question" class="level1">
+<h1>What was your question?</h1>
+<p>Given your inital exploration of the data, what was the question you wanted to answer?</p>
+<blockquote class="blockquote">
+<p>How have key crop yields changed over time?</p>
+</blockquote>
+</section>
+<section id="what-were-your-findings" class="level1">
+<h1>What were your findings?</h1>
+<p>Put your findings and your visualization code here.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>key_crop_yields <span class="sc">%&gt;%</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">pivot_longer</span>(<span class="at">cols =</span> <span class="fu">contains</span>(<span class="st">"(tonnes"</span>), <span class="at">names_to=</span><span class="st">"crop"</span>,</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>                      <span class="at">values_to=</span><span class="st">"Yield"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> <span class="fu">aes</span>(<span class="at">x=</span>Year, <span class="at">y=</span> Yield, <span class="at">group=</span>crop, <span class="at">color=</span>crop) <span class="sc">+</span> <span class="fu">geom_line</span>() <span class="sc">+</span> <span class="fu">facet_wrap</span>(<span class="sc">~</span>Entity)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Removed 669 row(s) containing missing values (geom_path).</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid" width="1344"></p>
+</div>
+</div>
+<p>Let’s try and estimate whether a country is increasing its yield or decreaing its yield over time. I’ll use <code>lm()</code> to run a linear regression on each entity in the data, and use <code>broom::tidy()</code> to pull out the estimates of the slopes.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>model_results <span class="ot">&lt;-</span> key_crop_yields <span class="sc">%&gt;%</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">pivot_longer</span>(<span class="at">cols =</span> <span class="fu">contains</span>(<span class="st">"(tonnes"</span>), <span class="at">names_to=</span><span class="st">"crop"</span>,</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>                      <span class="at">values_to=</span><span class="st">"Yield"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">crop=</span><span class="fu">str_replace</span>(crop,<span class="st">"</span><span class="sc">\\</span><span class="st">(tonnes per hectare</span><span class="sc">\\</span><span class="st">)"</span>, <span class="st">""</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">drop_na</span>(Yield) <span class="sc">%&gt;%</span></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">nest_by</span>(Entity, crop) <span class="sc">%&gt;%</span></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">num_points =</span> <span class="fu">nrow</span>(data)) <span class="sc">%&gt;%</span></span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">model=</span><span class="fu">list</span>(<span class="fu">lm</span>(Yield <span class="sc">~</span> Year, <span class="at">data=</span>data))) <span class="sc">%&gt;%</span></span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(num_points, broom<span class="sc">::</span><span class="fu">tidy</span>(model)) <span class="sc">%&gt;%</span></span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(term <span class="sc">==</span> <span class="st">"Year"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(Entity, <span class="fu">desc</span>(estimate))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in summary.lm(x): essentially perfect fit: summary may be unreliable
+
+Warning in summary.lm(x): essentially perfect fit: summary may be unreliable</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>`summarise()` has grouped output by 'Entity', 'crop'. You can override using the
+`.groups` argument.</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>model_results</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 1,691 × 8
+# Groups:   Entity, crop [1,691]
+   Entity      crop       num_points term  estimate std.error statistic  p.value
+   &lt;chr&gt;       &lt;chr&gt;           &lt;int&gt; &lt;chr&gt;    &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
+ 1 Afghanistan "Potatoes…         58 Year   0.102    0.0197        5.15 3.45e- 6
+ 2 Afghanistan "Rice "            58 Year   0.0238   0.00253       9.40 4.10e-13
+ 3 Afghanistan "Wheat "           58 Year   0.0169   0.00199       8.52 1.10e-11
+ 4 Afghanistan "Maize "           58 Year   0.00987  0.00272       3.63 6.23e- 4
+ 5 Afghanistan "Barley "          58 Year   0.00711  0.00198       3.60 6.73e- 4
+ 6 Africa      "Potatoes…         58 Year   0.121    0.00630      19.1  3.20e-26
+ 7 Africa      "Cassava "         58 Year   0.0742   0.00305      24.4  1.79e-31
+ 8 Africa      "Bananas "         58 Year   0.0724   0.00653      11.1  9.80e-16
+ 9 Africa      "Wheat "           58 Year   0.0369   0.00123      30.0  3.39e-36
+10 Africa      "Soybeans…         58 Year   0.0172   0.000931     18.4  1.89e-25
+# … with 1,681 more rows</code></pre>
+</div>
+</div>
+<p>Looking at the United States, there are mostly increases in crop yield.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>model_results <span class="sc">%&gt;%</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Entity <span class="sc">==</span> <span class="st">"United States"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 9 × 8
+# Groups:   Entity, crop [9]
+  Entity        crop      num_points term  estimate std.error statistic  p.value
+  &lt;chr&gt;         &lt;chr&gt;          &lt;int&gt; &lt;chr&gt;    &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
+1 United States "Potatoe…         58 Year   0.497    0.00795      62.6  1.61e-53
+2 United States "Bananas…         58 Year   0.215    0.0207       10.4  1.28e-14
+3 United States "Maize "          58 Year   0.121    0.00554      21.8  5.14e-29
+4 United States "Rice "           58 Year   0.0770   0.00239      32.2  7.44e-38
+5 United States "Barley "         58 Year   0.0355   0.00169      21.0  2.93e-28
+6 United States "Soybean…         58 Year   0.0295   0.00138      21.5  1.07e-28
+7 United States "Wheat "          58 Year   0.0256   0.00129      19.8  5.68e-27
+8 United States "Beans "          58 Year   0.0126   0.000812     15.6  5.11e-22
+9 United States "Peas "           58 Year   0.00902  0.00375       2.40 1.96e- 2</code></pre>
+</div>
+</div>
+<p>We can rank the top producers by crop:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>ranked_by_slope <span class="ot">&lt;-</span> model_results <span class="sc">%&gt;%</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(crop) <span class="sc">%&gt;%</span></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(Entity, crop, num_points, <span class="at">estimate=</span><span class="fu">signif</span>(estimate, <span class="at">digits =</span> <span class="dv">3</span>), <span class="at">rank =</span> <span class="fu">row_number</span>(<span class="fu">desc</span>(estimate))) <span class="sc">%&gt;%</span></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(crop, rank)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>`summarise()` has grouped output by 'crop'. You can override using the `.groups`
+argument.</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>ranked_by_slope</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 1,691 × 5
+# Groups:   crop [11]
+   crop       Entity          num_points estimate  rank
+   &lt;chr&gt;      &lt;chr&gt;                &lt;int&gt;    &lt;dbl&gt; &lt;int&gt;
+ 1 "Bananas " South Korea              6    6.56      1
+ 2 "Bananas " Indonesia               58    1.27      2
+ 3 "Bananas " Peru                    14    1.25      3
+ 4 "Bananas " Syria                   49    1.01      4
+ 5 "Bananas " South Africa            58    0.947     5
+ 6 "Bananas " Turkey                  58    0.839     6
+ 7 "Bananas " Southern Africa         58    0.835     7
+ 8 "Bananas " Cote d'Ivoire           58    0.749     8
+ 9 "Bananas " Guatemala               58    0.723     9
+10 "Bananas " Morocco                 40    0.654    10
+# … with 1,681 more rows</code></pre>
+</div>
+</div>
+<p>Finally, let’s do histograms by crop:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>ranked_by_slope <span class="sc">%&gt;%</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(<span class="at">x=</span>estimate, <span class="at">fill=</span>crop) <span class="sc">+</span></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>() <span class="sc">+</span></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> <span class="dv">0</span>, <span class="at">lty =</span><span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Crop productivity across countries (tonnes/hectare/year)"</span>,</span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">"Positive values = increase, Negative values = decrease"</span>) <span class="sc">+</span></span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>) <span class="sc">+</span></span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span>crop, <span class="at">scales =</span> <span class="st">"free"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Removed 3 rows containing non-finite values (stat_bin).</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-20-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="what-did-you-learn" class="level1">
+<h1>What did you learn?</h1>
+<p>Were there any lessons you learned? Any cool packages you want to talk about?</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{laderas2020,
+  author = {Ted Laderas and Ted Laderas},
+  title = {Tidy {Tuesday:} {Crop} {Production}},
+  date = {2020-09-03},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-laderas2020" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
+Ted Laderas, and Ted Laderas. 2020. <span>“Tidy Tuesday: Crop
+Production.”</span> September 3, 2020.
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

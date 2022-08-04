@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="">
+<meta name="dcterms.date" content="2018-06-15">
+<meta name="description" content="UMAP compared to other dimensionality reduction algorithms">
+
+<title>Ted Laderas, PhD - Working on the umapr package</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta name="twitter:title" content="Ted Laderas, PhD - Working on the umapr package">
+<meta name="twitter:description" content="UMAP compared to other dimensionality reduction algorithms">
+<meta name="twitter:image" content="multiple_algorithms_cancer.png">
+<meta name="twitter:creator" content="@tladeras">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Ted Laderas, PhD</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../teaching.html">Teaching</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../articles.html">Articles</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html">Blog</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../talks.html">Talks</a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/laderast/"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/tladeras/"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Working on the <code>umapr</code> package</h1>
+                  <div>
+        <div class="description">
+          UMAP compared to other dimensionality reduction algorithms
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">June 15, 2018</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation">Motivation</a></li>
+  <li><a href="#making-a-development-plan" id="toc-making-a-development-plan" class="nav-link" data-scroll-target="#making-a-development-plan">Making a Development Plan</a></li>
+  <li><a href="#learning-about-package-building-testing-and-documentation" id="toc-learning-about-package-building-testing-and-documentation" class="nav-link" data-scroll-target="#learning-about-package-building-testing-and-documentation">Learning about Package Building, Testing, and Documentation</a></li>
+  <li><a href="#profiling-umapr-using-different-datasets" id="toc-profiling-umapr-using-different-datasets" class="nav-link" data-scroll-target="#profiling-umapr-using-different-datasets">Profiling <code>umapr</code> using different datasets</a></li>
+  <li><a href="#exploring-the-results-with-shiny" id="toc-exploring-the-results-with-shiny" class="nav-link" data-scroll-target="#exploring-the-results-with-shiny">Exploring the Results with Shiny</a></li>
+  <li><a href="#final-results-get-umapr" id="toc-final-results-get-umapr" class="nav-link" data-scroll-target="#final-results-get-umapr">Final Results: Get <code>umapr</code></a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="multiple_algorithms_cancer.png" class="img-fluid" width="900"></p>
+</div>
+</div>
+<section id="motivation" class="level2">
+<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
+<p>A few weeks ago, as part of the <a href="">rOpenSci Unconference</a>, a group of us (Sean Hughes, Malisa Smith, Angela Li, Ju Kim and me) decided to work on making the UMAP algorithm accessible within R. UMAP (Uniform Manifold Approximation and Projection) is a <a href="">dimensionality reduction technique</a> that allows the user to reduce high dimensional data (multiple columns) into a smaller number of columns for visualization purposes (Usually two). It is related to both Priniciple Components Analysis (PCA) and t-SNE, which are techniques often used in the single-cell omics world to visualize high dimensional data.</p>
+<p>We decided to start working on the <code>umapr</code> package to make this technique accessible within R. As with most rOpenSci Unconf projects, this started with an issue entry in the rOpenSci unconf repo from Sean:</p>
+<blockquote class="blockquote">
+<p>I recently read about a new non-linear dimensionality reduction algorithm called UMAP, which is much faster than t-SNE, while producing two-dimensional visualizations that share many characteristics with t-SNE. I initially found out about it in the context of use on high-dimensional single-cell data in this paper.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>….</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>My thought is that the ideal would be a package focused on UMAP specifically, implemented in R or Rcpp. Unfortunately I am not at all an expert in this topic or familiar with the mathematics involved, so the best I would be able to do is try to translate the Python implementation into R.</p>
+</blockquote>
+<p>We all met at the unconference the first day and decided that this was a project worth working on. Since TSNE is so used in the single cell and flow-cytometry community, we thought that having an alternative that was just as good, but faster to run would be helpful.</p>
+</section>
+<section id="making-a-development-plan" class="level2">
+<h2 class="anchored" data-anchor-id="making-a-development-plan">Making a Development Plan</h2>
+<p>Rather than recreate the UMAP code completely from scratch in R, we decided to use the <code>reticulate</code> package to call the implementation in Python from R. It is tempting to just wrap the function’s arguments with <code>...</code> and let the user refer to the python documentation. However, we didn’t really think that was in the spirit of the unconf. We wanted to make UMAP much more accessible.</p>
+<p>In the future, we plan to implement the UMAP algorithm in C++ in order to make it accessible to more languages.</p>
+</section>
+<section id="learning-about-package-building-testing-and-documentation" class="level2">
+<h2 class="anchored" data-anchor-id="learning-about-package-building-testing-and-documentation">Learning about Package Building, Testing, and Documentation</h2>
+<p>Although our package only really has one main function, we felt it was important to have good documentation and unit tests. We spent some time learning about <code>roxygen</code> for function documentation and <code>testthat</code> for unit testing, and setting up our package with Travis-CI for continuous integration testing. This included unit tests on each argument and including examples varying the essential parameters.</p>
+<p>We used a lot of time learning more about the specifics of package building and vignette building in R. We were definitely excited by all of the available tools and built a vignette profiling the performance of the UMAP algorithm versus other dimensionality reduction techniques, such as TSNE.</p>
+</section>
+<section id="profiling-umapr-using-different-datasets" class="level2">
+<h2 class="anchored" data-anchor-id="profiling-umapr-using-different-datasets">Profiling <code>umapr</code> using different datasets</h2>
+<p>Part of the appeal of UMAP is that it is faster than tSNE. So we profiled the performance of UMAP on a number of different datasets: <code>iris</code> (of course!),</p>
+</section>
+<section id="exploring-the-results-with-shiny" class="level2">
+<h2 class="anchored" data-anchor-id="exploring-the-results-with-shiny">Exploring the Results with Shiny</h2>
+<p>We built a small Shiny app that lets people explore their embedding vectors (the reduced vectors) and how they separate the data into different populations. The app is simple, but allows users to immediate assess the results of the UMAP algorithm in differentiating the different populations in the data.</p>
+</section>
+<section id="final-results-get-umapr" class="level2">
+<h2 class="anchored" data-anchor-id="final-results-get-umapr">Final Results: Get <code>umapr</code></h2>
+<p><code>umapr</code> is in the <code>ropenscilabs</code> organization, and can be installed with the following commands, <a href="https://github.com/lmcinnes/umap#installing">after the python modules are installed</a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"devtools"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"ropenscilabs/umapr"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>As a group, we learned a lot by building the <code>umapr</code> package, including specifics of package building, documentation using roxygen, and building unit tests using <code>testthat</code> and automating testing using Appveyor and Travis-CI.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{laderas2018,
+  author = {Ted Laderas},
+  title = {Working on the `Umapr` Package},
+  date = {2018-06-15},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-laderas2018" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
+Ted Laderas. 2018. <span>“Working on the `Umapr` Package.”</span> June
+15, 2018.
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
