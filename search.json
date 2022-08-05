@@ -1071,67 +1071,67 @@
     "text": "Acknowledgements\nThanks so much to the mybinder.org team, what they do is beyond awesome.\nThanks to Sang Yun Oh, whose repository helped me figure more of these details out. https://github.com/syoh/learnr-tutorial"
   },
   {
-    "objectID": "talks/2021-03-22-the-md-in-rmd-teaching-clinicians-analytics-usin-r/the-md-in-rmd-teaching-clinicians-analytics-usin-r.html",
-    "href": "talks/2021-03-22-the-md-in-rmd-teaching-clinicians-analytics-usin-r/the-md-in-rmd-teaching-clinicians-analytics-usin-r.html",
+    "objectID": "talks/2021-03-22-the-md-in-rmd-teaching-clinicians-analytics-usin-r/index.html",
+    "href": "talks/2021-03-22-the-md-in-rmd-teaching-clinicians-analytics-usin-r/index.html",
     "title": "The MD in .Rmd: Teaching Clinicians Analytics using R",
     "section": "",
-    "text": "CitationBibTeX citation:@online{laderas2021,\n  author = {Ted Laderas},\n  title = {The {MD} in {.Rmd:} {Teaching} {Clinicians} {Analytics} Using\n    {R}},\n  date = {2021-03-22},\n  url = {https://laderast.github.io//talks/2021-03-22-the-md-in-rmd-teaching-clinicians-analytics-usin-r/the-md-in-rmd-teaching-clinicians-analytics-usin-r.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nTed Laderas. 2021. “The MD in .Rmd: Teaching Clinicians Analytics\nUsing R.” March 22, 2021. https://laderast.github.io//talks/2021-03-22-the-md-in-rmd-teaching-clinicians-analytics-usin-r/the-md-in-rmd-teaching-clinicians-analytics-usin-r.html."
+    "text": "CitationBibTeX citation:@online{laderas2021,\n  author = {Ted Laderas},\n  title = {The {MD} in {.Rmd:} {Teaching} {Clinicians} {Analytics} Using\n    {R}},\n  date = {2021-03-22},\n  url = {https://laderast.github.io//talks/2021-03-22-the-md-in-rmd-teaching-clinicians-analytics-usin-r},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nTed Laderas. 2021. “The MD in .Rmd: Teaching Clinicians Analytics\nUsing R.” March 22, 2021. https://laderast.github.io//talks/2021-03-22-the-md-in-rmd-teaching-clinicians-analytics-usin-r."
   },
   {
-    "objectID": "talks/2021-03-22-object-oriented-systems-in-r/object-oriented-systems-in-r.html",
-    "href": "talks/2021-03-22-object-oriented-systems-in-r/object-oriented-systems-in-r.html",
+    "objectID": "talks/2021-03-22-object-oriented-systems-in-r/index.html",
+    "href": "talks/2021-03-22-object-oriented-systems-in-r/index.html",
     "title": "Object Oriented Systems in R",
     "section": "",
-    "text": "Introductory Slides\n\n\n\n\n\n\nLinks\nWorkshop Repository\n\n\n\n\nCitationBibTeX citation:@online{laderas2019,\n  author = {Ted Laderas and Scott Chamberlain},\n  title = {Object {Oriented} {Systems} in {R}},\n  date = {2019-05-21},\n  url = {https://laderast.github.io//talks/2021-03-22-object-oriented-systems-in-r/object-oriented-systems-in-r.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nTed Laderas, and Scott Chamberlain. 2019. “Object Oriented Systems\nin R.” May 21, 2019. https://laderast.github.io//talks/2021-03-22-object-oriented-systems-in-r/object-oriented-systems-in-r.html."
+    "text": "Introductory Slides\n\n\n\n\n\n\nLinks\nWorkshop Repository\n\n\n\n\nCitationBibTeX citation:@online{laderas2019,\n  author = {Ted Laderas and Scott Chamberlain},\n  title = {Object {Oriented} {Systems} in {R}},\n  date = {2019-05-21},\n  url = {https://laderast.github.io//talks/2021-03-22-object-oriented-systems-in-r},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nTed Laderas, and Scott Chamberlain. 2019. “Object Oriented Systems\nin R.” May 21, 2019. https://laderast.github.io//talks/2021-03-22-object-oriented-systems-in-r."
   },
   {
-    "objectID": "talks/2021-03-22-psychological-safety/psychological-safety.html",
-    "href": "talks/2021-03-22-psychological-safety/psychological-safety.html",
+    "objectID": "talks/2021-03-22-psychological-safety/index.html",
+    "href": "talks/2021-03-22-psychological-safety/index.html",
     "title": "Psychological Safety",
     "section": "",
-    "text": "CitationBibTeX citation:@online{laderas2021,\n  author = {Ted Laderas},\n  title = {Psychological {Safety}},\n  date = {2021-03-22},\n  url = {https://laderast.github.io//talks/2021-03-22-psychological-safety/psychological-safety.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nTed Laderas. 2021. “Psychological Safety.” March 22, 2021.\nhttps://laderast.github.io//talks/2021-03-22-psychological-safety/psychological-safety.html."
+    "text": "CitationBibTeX citation:@online{laderas2021,\n  author = {Ted Laderas},\n  title = {Psychological {Safety}},\n  date = {2021-03-22},\n  url = {https://laderast.github.io//talks/2021-03-22-psychological-safety},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nTed Laderas. 2021. “Psychological Safety.” March 22, 2021.\nhttps://laderast.github.io//talks/2021-03-22-psychological-safety."
   },
   {
-    "objectID": "talks/2021-03-20-system-science-and-data-science/system-science-and-data-science.html",
-    "href": "talks/2021-03-20-system-science-and-data-science/system-science-and-data-science.html",
+    "objectID": "talks/2021-03-20-system-science-and-data-science/index.html",
+    "href": "talks/2021-03-20-system-science-and-data-science/index.html",
     "title": "System Science and Data Science",
     "section": "",
-    "text": "CitationBibTeX citation:@online{laderas2018,\n  author = {Ted Laderas},\n  title = {System {Science} and {Data} {Science}},\n  date = {2018-02-15},\n  url = {https://laderast.github.io//talks/2021-03-20-system-science-and-data-science/system-science-and-data-science.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nTed Laderas. 2018. “System Science and Data Science.”\nFebruary 15, 2018. https://laderast.github.io//talks/2021-03-20-system-science-and-data-science/system-science-and-data-science.html."
+    "text": "CitationBibTeX citation:@online{laderas2018,\n  author = {Ted Laderas},\n  title = {System {Science} and {Data} {Science}},\n  date = {2018-02-15},\n  url = {https://laderast.github.io//talks/2021-03-20-system-science-and-data-science},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nTed Laderas. 2018. “System Science and Data Science.”\nFebruary 15, 2018. https://laderast.github.io//talks/2021-03-20-system-science-and-data-science."
   },
   {
-    "objectID": "talks/2021-03-23-data-scavenger-hunt-exploring-data-together/data-scavenger-hunt-exploring-data-together.html",
-    "href": "talks/2021-03-23-data-scavenger-hunt-exploring-data-together/data-scavenger-hunt-exploring-data-together.html",
+    "objectID": "talks/2021-03-23-data-scavenger-hunt-exploring-data-together/index.html",
+    "href": "talks/2021-03-23-data-scavenger-hunt-exploring-data-together/index.html",
     "title": "Data Scavenger Hunt: Exploring Data Together",
     "section": "",
-    "text": "CitationBibTeX citation:@online{laderas2019,\n  author = {Ted Laderas},\n  title = {Data {Scavenger} {Hunt:} {Exploring} {Data} {Together}},\n  date = {2019-05-09},\n  url = {https://laderast.github.io//talks/2021-03-23-data-scavenger-hunt-exploring-data-together/data-scavenger-hunt-exploring-data-together.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nTed Laderas. 2019. “Data Scavenger Hunt: Exploring Data\nTogether.” May 9, 2019. https://laderast.github.io//talks/2021-03-23-data-scavenger-hunt-exploring-data-together/data-scavenger-hunt-exploring-data-together.html."
+    "text": "CitationBibTeX citation:@online{laderas2019,\n  author = {Ted Laderas},\n  title = {Data {Scavenger} {Hunt:} {Exploring} {Data} {Together}},\n  date = {2019-05-09},\n  url = {https://laderast.github.io//talks/2021-03-23-data-scavenger-hunt-exploring-data-together},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nTed Laderas. 2019. “Data Scavenger Hunt: Exploring Data\nTogether.” May 9, 2019. https://laderast.github.io//talks/2021-03-23-data-scavenger-hunt-exploring-data-together."
   },
   {
-    "objectID": "talks/2021-06-06-why-shiny-modules/why-shiny-modules.html",
-    "href": "talks/2021-06-06-why-shiny-modules/why-shiny-modules.html",
+    "objectID": "talks/2021-06-06-why-shiny-modules/index.html",
+    "href": "talks/2021-06-06-why-shiny-modules/index.html",
     "title": "Why Shiny Modules",
     "section": "",
-    "text": "Video\n\n\n\n\n\n\n\n\n\n\n\nLinks\nRepository\n\n\n\n\nCitationBibTeX citation:@online{laderas2021,\n  author = {Ted Laderas},\n  title = {Why {Shiny} {Modules}},\n  date = {2021-06-06},\n  url = {https://laderast.github.io//talks/2021-06-06-why-shiny-modules/why-shiny-modules.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nTed Laderas. 2021. “Why Shiny Modules.” June 6, 2021. https://laderast.github.io//talks/2021-06-06-why-shiny-modules/why-shiny-modules.html."
+    "text": "Video\n\n\n\n\n\n\n\n\n\n\n\nLinks\nRepository\n\n\n\n\nCitationBibTeX citation:@online{laderas2021,\n  author = {Ted Laderas},\n  title = {Why {Shiny} {Modules}},\n  date = {2021-06-06},\n  url = {https://laderast.github.io//talks/2021-06-06-why-shiny-modules},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nTed Laderas. 2021. “Why Shiny Modules.” June 6, 2021. https://laderast.github.io//talks/2021-06-06-why-shiny-modules."
   },
   {
-    "objectID": "talks/2021-03-20-data-storytelling/data-storytelling.html",
-    "href": "talks/2021-03-20-data-storytelling/data-storytelling.html",
+    "objectID": "talks/2021-03-20-data-storytelling/index.html",
+    "href": "talks/2021-03-20-data-storytelling/index.html",
     "title": "Data Storytelling",
     "section": "",
-    "text": "CitationBibTeX citation:@online{laderas2021,\n  author = {Ted Laderas},\n  title = {Data {Storytelling}},\n  date = {2021-03-20},\n  url = {https://laderast.github.io//talks/2021-03-20-data-storytelling/data-storytelling.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nTed Laderas. 2021. “Data Storytelling.” March 20, 2021. https://laderast.github.io//talks/2021-03-20-data-storytelling/data-storytelling.html."
+    "text": "CitationBibTeX citation:@online{laderas2021,\n  author = {Ted Laderas},\n  title = {Data {Storytelling}},\n  date = {2021-03-20},\n  url = {https://laderast.github.io//talks/2021-03-20-data-storytelling},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nTed Laderas. 2021. “Data Storytelling.” March 20, 2021. https://laderast.github.io//talks/2021-03-20-data-storytelling."
   },
   {
-    "objectID": "talks/2021-03-22-conversations-about-sleep-clinical-data-wrangling/conversations-about-sleep-clinical-data-wrangling.html",
-    "href": "talks/2021-03-22-conversations-about-sleep-clinical-data-wrangling/conversations-about-sleep-clinical-data-wrangling.html",
+    "objectID": "talks/2021-03-22-conversations-about-sleep-clinical-data-wrangling/index.html",
+    "href": "talks/2021-03-22-conversations-about-sleep-clinical-data-wrangling/index.html",
     "title": "Conversations about Sleep: Clinical Data Wrangling",
     "section": "",
-    "text": "CitationBibTeX citation:@online{laderas2021,\n  author = {Ted Laderas},\n  title = {Conversations about {Sleep:} {Clinical} {Data} {Wrangling}},\n  date = {2021-03-22},\n  url = {https://laderast.github.io//talks/2021-03-22-conversations-about-sleep-clinical-data-wrangling/conversations-about-sleep-clinical-data-wrangling.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nTed Laderas. 2021. “Conversations about Sleep: Clinical Data\nWrangling.” March 22, 2021. https://laderast.github.io//talks/2021-03-22-conversations-about-sleep-clinical-data-wrangling/conversations-about-sleep-clinical-data-wrangling.html."
+    "text": "CitationBibTeX citation:@online{laderas2021,\n  author = {Ted Laderas},\n  title = {Conversations about {Sleep:} {Clinical} {Data} {Wrangling}},\n  date = {2021-03-22},\n  url = {https://laderast.github.io//talks/2021-03-22-conversations-about-sleep-clinical-data-wrangling},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nTed Laderas. 2021. “Conversations about Sleep: Clinical Data\nWrangling.” March 22, 2021. https://laderast.github.io//talks/2021-03-22-conversations-about-sleep-clinical-data-wrangling."
   },
   {
-    "objectID": "talks/2021-06-06-using-gratitude-to-learn-the-tidyverse-together/using-gratitude-to-learn-the-tidyverse-together.html",
-    "href": "talks/2021-06-06-using-gratitude-to-learn-the-tidyverse-together/using-gratitude-to-learn-the-tidyverse-together.html",
+    "objectID": "talks/2021-06-06-using-gratitude-to-learn-the-tidyverse-together/index.html",
+    "href": "talks/2021-06-06-using-gratitude-to-learn-the-tidyverse-together/index.html",
     "title": "Using gRatitude to learn the tidyverse together",
     "section": "",
-    "text": "CitationBibTeX citation:@online{laderas2021,\n  author = {Ted Laderas},\n  title = {Using {gRatitude} to Learn the `Tidyverse` Together},\n  date = {2021-06-04},\n  url = {https://laderast.github.io//talks/2021-06-06-using-gratitude-to-learn-the-tidyverse-together/using-gratitude-to-learn-the-tidyverse-together.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nTed Laderas. 2021. “Using gRatitude to Learn the `Tidyverse`\nTogether.” June 4, 2021. https://laderast.github.io//talks/2021-06-06-using-gratitude-to-learn-the-tidyverse-together/using-gratitude-to-learn-the-tidyverse-together.html."
+    "text": "CitationBibTeX citation:@online{laderas2021,\n  author = {Ted Laderas},\n  title = {Using {gRatitude} to Learn the `Tidyverse` Together},\n  date = {2021-06-04},\n  url = {https://laderast.github.io//talks/2021-06-06-using-gratitude-to-learn-the-tidyverse-together},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nTed Laderas. 2021. “Using gRatitude to Learn the `Tidyverse`\nTogether.” June 4, 2021. https://laderast.github.io//talks/2021-06-06-using-gratitude-to-learn-the-tidyverse-together."
   },
   {
     "objectID": "index.html",

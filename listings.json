@@ -24,15 +24,15 @@
   {
     "listing": "/talks.html",
     "items": [
-      "/talks/2021-06-06-why-shiny-modules/why-shiny-modules.html",
-      "/talks/2021-06-06-using-gratitude-to-learn-the-tidyverse-together/using-gratitude-to-learn-the-tidyverse-together.html",
-      "/talks/2021-03-22-the-md-in-rmd-teaching-clinicians-analytics-usin-r/the-md-in-rmd-teaching-clinicians-analytics-usin-r.html",
-      "/talks/2021-03-22-psychological-safety/psychological-safety.html",
-      "/talks/2021-03-22-conversations-about-sleep-clinical-data-wrangling/conversations-about-sleep-clinical-data-wrangling.html",
-      "/talks/2021-03-20-data-storytelling/data-storytelling.html",
-      "/talks/2021-03-22-object-oriented-systems-in-r/object-oriented-systems-in-r.html",
-      "/talks/2021-03-23-data-scavenger-hunt-exploring-data-together/data-scavenger-hunt-exploring-data-together.html",
-      "/talks/2021-03-20-system-science-and-data-science/system-science-and-data-science.html"
+      "/talks/2021-06-06-why-shiny-modules/index.html",
+      "/talks/2021-06-06-using-gratitude-to-learn-the-tidyverse-together/index.html",
+      "/talks/2021-03-22-the-md-in-rmd-teaching-clinicians-analytics-usin-r/index.html",
+      "/talks/2021-03-22-psychological-safety/index.html",
+      "/talks/2021-03-22-conversations-about-sleep-clinical-data-wrangling/index.html",
+      "/talks/2021-03-20-data-storytelling/index.html",
+      "/talks/2021-03-22-object-oriented-systems-in-r/index.html",
+      "/talks/2021-03-23-data-scavenger-hunt-exploring-data-together/index.html",
+      "/talks/2021-03-20-system-science-and-data-science/index.html"
     ]
   },
   {
