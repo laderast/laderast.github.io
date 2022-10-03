@@ -1,6 +1,5 @@
 ---
 title: Getting LearnR tutorials to run on mybinder.org
-author: ~
 date: '2020-09-15'
 slug: getting-learnr-tutorials-to-run-on-mybinder-org
 categories: []

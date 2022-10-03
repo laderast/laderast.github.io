@@ -1,6 +1,5 @@
 ---
 title: Turning down the noise
-author: ~
 date: '2018-08-02'
 slug: turning-down-the-noise
 categories: []

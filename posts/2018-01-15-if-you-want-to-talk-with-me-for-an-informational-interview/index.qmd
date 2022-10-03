@@ -1,6 +1,5 @@
 ---
 title: If you want to talk with me for an informational interview
-author: ~
 date: '2018-01-15'
 slug: if-you-want-to-talk-with-me-for-an-informational-interview
 categories: [talking]

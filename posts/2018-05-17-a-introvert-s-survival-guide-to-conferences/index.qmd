@@ -1,6 +1,5 @@
 ---
 title: A Introvert's Survival Guide to Conferences
-author: ~
 date: '2018-05-17'
 slug: a-introvert-s-survival-guide-to-conferences
 categories: [social, networking]

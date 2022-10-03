@@ -9,6 +9,17 @@ author:
 
 Introductory Webinar for the UK Biobank Research Analysis Platform.
 
+## Learning Objectives
+
+1.  **Articulate** the benefits of analyzing UKB data on RAP
+2.  **List** the different kinds of analysis strategies on RAP and how they map to your research interests
+3.  **Explain** projects, bulk data, and project structure on UKB RAP
+4.  **Articulate** the relationship between a *dataset* and a *cohort*
+5.  **Identify** which best practices and applications are right for your research interests
+6.  **Know** about the UKB RAP community and further skills courses
+
+## Video
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sVsEfE7J_QU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
 </iframe>

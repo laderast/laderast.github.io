@@ -1,6 +1,5 @@
 ---
 title: A Simple Intro to Genome Wide Association
-author: ~
 date: '2018-04-04'
 slug: a-simple-intro-to-genome-wide-association
 categories: [teaching]

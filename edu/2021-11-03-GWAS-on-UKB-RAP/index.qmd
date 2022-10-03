@@ -9,6 +9,20 @@ author:
 
 Webinar about how to run Regenie (GWAS executable) on the Research Analysis Platform.
 
+## Learning Objectives
+
+1.  **Describe** how regenie utilizes genotype and phenotype information for GWAS
+
+2.  **Prepare** input files of merged assay genotypes
+
+3.  **Prepare** phenotype information for use in regenie
+
+4.  **Perform** single variant association tests on human genomic data using regenie
+
+5.  **Explain** next steps for GWAS analysis on the RAP platform
+
+## Video
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/762PVlyZJ-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
 </iframe>

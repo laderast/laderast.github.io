@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="">
+<meta name="dcterms.date" content="2019-02-12">
+<meta name="description" content="Some thoughts the package building process and how devtools::document() is at the center of it..">
+
+<title>Ted Laderas, PhD - Package Building: How DESCRIPTION, NAMESPACE, roxygen, and devtools::document work together</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta name="twitter:title" content="Ted Laderas, PhD - Package Building: How DESCRIPTION, NAMESPACE, roxygen, and devtools::document work together">
+<meta name="twitter:description" content="Some thoughts the package building process and how devtools::document() is at the center of it..">
+<meta name="twitter:image" content="https://laderast.github.io/articles/2019-02-12-package-building-how-description-namespace-roxygen-and-devtools-document-work-together/imports-workflow.png">
+<meta name="twitter:creator" content="@tladeras">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image-height" content="767">
+<meta name="twitter:image-width" content="477">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Ted Laderas, PhD</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../teaching.html">Teaching</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../articles.html">Articles</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html">Blog</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../talks.html">Talks</a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/laderast/"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/tladeras/"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Package Building: How <code>DESCRIPTION</code>, <code>NAMESPACE</code>, <code>roxygen</code>, and <code>devtools::document</code> work together</h1>
+                  <div>
+        <div class="description">
+          <p>Some thoughts the package building process and how <code>devtools::document()</code> is at the center of it..</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">R</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 12, 2019</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#namespaces-why-bother" id="toc-namespaces-why-bother" class="nav-link active" data-scroll-target="#namespaces-why-bother">Namespaces: Why Bother?</a></li>
+  <li><a href="#description-the-gatekeeper-for-calling-packages" id="toc-description-the-gatekeeper-for-calling-packages" class="nav-link" data-scroll-target="#description-the-gatekeeper-for-calling-packages"><code>DESCRIPTION</code>: The gatekeeper for calling packages</a></li>
+  <li><a href="#using-namespaces-to-call-functions-from-other-packages" id="toc-using-namespaces-to-call-functions-from-other-packages" class="nav-link" data-scroll-target="#using-namespaces-to-call-functions-from-other-packages">Using namespaces to call functions from other packages</a></li>
+  <li><a href="#how-do-i-call-functions-from-other-packages-using-roxygen-docstrings" id="toc-how-do-i-call-functions-from-other-packages-using-roxygen-docstrings" class="nav-link" data-scroll-target="#how-do-i-call-functions-from-other-packages-using-roxygen-docstrings">How do I call functions from other packages? Using <code>roxygen</code> docstrings</a></li>
+  <li><a href="#using-importfrom-when-you-only-need-one-function" id="toc-using-importfrom-when-you-only-need-one-function" class="nav-link" data-scroll-target="#using-importfrom-when-you-only-need-one-function">Using <code>@importFrom</code>: When you only need one function</a></li>
+  <li><a href="#using-import-when-you-need-a-lot-of-functions-from-a-package" id="toc-using-import-when-you-need-a-lot-of-functions-from-a-package" class="nav-link" data-scroll-target="#using-import-when-you-need-a-lot-of-functions-from-a-package">Using <code>@import</code>: When you need a lot of functions from a package</a></li>
+  <li><a href="#importing-multiple-packages-just-dont-do-it-updated." id="toc-importing-multiple-packages-just-dont-do-it-updated." class="nav-link" data-scroll-target="#importing-multiple-packages-just-dont-do-it-updated.">Importing multiple packages: just don’t do it (UPDATED).</a></li>
+  <li><a href="#exported-versus-internal-functions" id="toc-exported-versus-internal-functions" class="nav-link" data-scroll-target="#exported-versus-internal-functions">Exported versus Internal functions</a></li>
+  <li><a href="#remember-to-run-devtoolsdocument" id="toc-remember-to-run-devtoolsdocument" class="nav-link" data-scroll-target="#remember-to-run-devtoolsdocument">Remember to run <code>devtools::document()</code></a></li>
+  <li><a href="#go-forth-and-package" id="toc-go-forth-and-package" class="nav-link" data-scroll-target="#go-forth-and-package">Go forth and Package!</a></li>
+  <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading">Further Reading</a></li>
+  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
+  <li><a href="#note" id="toc-note" class="nav-link" data-scroll-target="#note">Note</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p>As part of my new year’s resolution to learn new things about R, I’m trying to plug some holes in my R knowledge by writing more vignettes to explain them to myself this year.</p>
+<p>This week I finally think I understand more about namespaces in R and why you should use them in your R package.</p>
+<section id="namespaces-why-bother" class="level2">
+<h2 class="anchored" data-anchor-id="namespaces-why-bother">Namespaces: Why Bother?</h2>
+<p>In short, we need namespaces because of the <em>ambiguity</em> of function names. Think of how many packages have a <code>filter()</code> function! How does R know which function from which package you’re talking about? One nightmare case is the Bioconductor <code>exprs()</code> method and the <code>rlang</code> <code>exprs()</code> function. These functions do very, very different things (one of them extracts an expression matrix from a Bioconductor <code>ExpressionSet</code>, and the other one is used for quoting multiple expressions).</p>
+<p>What happens when you call <code>library</code> on both of these packages? The worst case scenario is that you mean to call one package function and R executes the other one. This is called a namespace collision, and unfortunately it can break your code.</p>
+<p>Enter the namespace, which allows us to be package and function specific. If I want to use the function <code>filter</code> from <code>dplyr</code>, I write it as <code>dplyr::filter</code>. The <code>dplyr::</code> part is the namespace of the <code>dplyr</code> package.</p>
+</section>
+<section id="description-the-gatekeeper-for-calling-packages" class="level2">
+<h2 class="anchored" data-anchor-id="description-the-gatekeeper-for-calling-packages"><code>DESCRIPTION</code>: The gatekeeper for calling packages</h2>
+<p>The <code>DESCRIPTION</code> file is one of the gatekeepers in your package. Ever wonder how <code>install.packages</code> knows how to install the packages your package depends on? It’s actually because of a field in the <code>DESCRIPTION</code> file. Here’s the <code>DESCRIPTION</code> file for my <code>burro</code> package:</p>
+<pre><code>Package: burro
+Type: Package
+Title: Shiny App Package for setting up a data exploration session ("burro"w into the data)
+Version: 0.1.0
+Authors@R: as.person(c(
+    "Ted Laderas &lt;tedladeras@gmail.com&gt; [aut, cre]",
+    "Jessica Minnier &lt;minnier@ohsu.edu&gt; [ctb]",
+    "Gabrielle Choonoo &lt;choonoo@ohsu.edu&gt; [ctb]"
+  ))
+Maintainer: Ted Laderas &lt;ted.laderas@gmail.com&gt;
+Description: Allows the teacher to deploy a simple data exploration app for exploring a dataset (mostly for teaching purposes).
+License: MIT LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    shinydashboard,
+    ggplot2,
+    visdat,
+    skimr,
+    naniar,
+    data.table,
+    magrittr,
+    glue,
+    usethis,
+    here,
+    viridis,
+    DT
+Depends:
+    shiny
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.0
+Suggests:
+    testthat</code></pre>
+<p>Look at the <code>Imports:</code> field. You can see a list of all of the packages that <code>burro</code> utilizes. In ye olde days of R, we used the <code>Depends:</code> field. Nowadays we use the <code>Imports:</code> fields. <a href="https://stackoverflow.com/questions/8637993/better-explanation-of-when-to-use-imports-depends">Here’s a Stack Overflow post explaining why</a>. The main reason is that <code>Imports:</code> requires the package to have a namespace.</p>
+<p>Modifying the <code>DESCRIPTION</code> file by hand is possible, but I don’t recommend it. Instead, you can use the <code>usethis</code> package to modify it. For example, if I want to use <code>dplyr</code> in my package I can do this in the console, while I am building it.</p>
+<pre><code>usethis::use_package("dplyr")</code></pre>
+<p>This will add <code>dplyr</code> to the <code>Imports:</code> field of your <code>DESCRIPTION</code> file.</p>
+<p><strong>Addition (Thanks Hao Ye, for the suggestion)</strong>: If the function is in a development version (i.e., hosted on GitHub), you can use <code>usethis::use_dev_package()</code> to add it to your <code>DESCRIPTION</code> file. It will add an additional field called <code>Remotes:</code> to your package:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">use_dev_package</span>(<span class="st">"tidyverse/dplyr"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>For more info about using remotes, check out the vignette: https://remotes.r-lib.org/articles/dependencies.html</p>
+</section>
+<section id="using-namespaces-to-call-functions-from-other-packages" class="level2">
+<h2 class="anchored" data-anchor-id="using-namespaces-to-call-functions-from-other-packages">Using namespaces to call functions from other packages</h2>
+<p>Now that we have specified the package in our DESCRIPTION file, we can now call any function in <code>dplyr</code> by adding a <code>dplyr::</code> before the function. So if we wanted to call <code>mutate()</code> in our package function we can do this:</p>
+<pre><code>mutate_iris &lt;- function(iris){
+    dplyr::mutate(iris, sepal_sum = Sepal.Length + Sepal.Width)
+}</code></pre>
+<p>In many cases, calling a function by specifying its namespace is good practice. For one, there are many functions called <code>filter()</code>: I can think of at least the ones that are in <code>base</code> and <code>dplyr</code>. Using the namespace makes it <em>unambiguous</em> to both R and other developers which <code>filter()</code> function you’re talking about.</p>
+</section>
+<section id="how-do-i-call-functions-from-other-packages-using-roxygen-docstrings" class="level2">
+<h2 class="anchored" data-anchor-id="how-do-i-call-functions-from-other-packages-using-roxygen-docstrings">How do I call functions from other packages? Using <code>roxygen</code> docstrings</h2>
+<p>Ugh, I’ve already written a bunch of code and I don’t want to add the namespaces before all of the functions from other packages! How can I avoid this?</p>
+<p>This is where <code>roxygen</code> and <code>devtools::document()</code> come in.</p>
+<p><code>roxygen</code> docstrings are responsible for at least three things in your package: 1) producing the documentation (<code>.Rd</code>) files, but also: 2) specifying what package namespaces you want to utilize, or import in your function, and 3) whether you want to export that function (i.e., make it accessible publicly).</p>
+<p>How do they accomplish 2)? When you call <code>devtools::document()</code> to build the documentation, they scan for multiple fields, such as <code>@import</code> and <code>@importFrom</code> in the <code>roxygen</code> doc strings. Then <code>devtools::document()</code> actually modifies the <code>NAMESPACE</code> file in your package.</p>
+</section>
+<section id="using-importfrom-when-you-only-need-one-function" class="level2">
+<h2 class="anchored" data-anchor-id="using-importfrom-when-you-only-need-one-function">Using <code>@importFrom</code>: When you only need one function</h2>
+<p>Say you just wanted to use <code>filter</code> from <code>dplyr</code>, but didn’t want to write <code>dplyr::filter</code> before all of your functions. You can just import the <code>filter()</code> function by including the following docstring:</p>
+<pre><code>#' @importFrom dplyr filter</code></pre>
+<p>And then you can just use <code>filter()</code> like normal in your code:</p>
+<pre><code>#' @importFrom dplyr filter               #This is where you add the @importFrom
+use_filter &lt;- function(df, cutoff=0.5) {
+
+  filter(df, value &lt; cutoff)
+
+}</code></pre>
+</section>
+<section id="using-import-when-you-need-a-lot-of-functions-from-a-package" class="level2">
+<h2 class="anchored" data-anchor-id="using-import-when-you-need-a-lot-of-functions-from-a-package">Using <code>@import</code>: When you need a lot of functions from a package</h2>
+<p>What if you had a lot of functions from one package, such as <code>shiny</code>, that you want to use? Do you need to add an <code>@importFrom</code> for each of these functions? Nope. You can just use one <code>@import</code> field for the whole package:</p>
+<pre><code>#` @import shiny</code></pre>
+<p>And then code like usual:</p>
+<pre><code>#` @import shiny            # This is where you add the @import
+shinyUI &lt;- function() {
+    selectInput("")
+}</code></pre>
+</section>
+<section id="importing-multiple-packages-just-dont-do-it-updated." class="level2">
+<h2 class="anchored" data-anchor-id="importing-multiple-packages-just-dont-do-it-updated.">Importing multiple packages: just don’t do it (UPDATED).</h2>
+<p>Just a note to not import multiple packages using <code>@import</code>. As Hadley Wickham has noted, you have no control over the development of the packages you import. Just because there are no function collisions right now between the packages doesn’t mean that one of the developers may add a function down the line that might collide. So, if you need to use multiple packages, <code>@import</code> one package and use <code>@importsFrom</code> or namespaces to refer to functions in the other packages.</p>
+</section>
+<section id="exported-versus-internal-functions" class="level2">
+<h2 class="anchored" data-anchor-id="exported-versus-internal-functions">Exported versus Internal functions</h2>
+<p>Remember I mentioned ‘<span class="citation" data-cites="export">@export</span>’ above? Specifying in a docstring for your function <em>exports</em> it. Specifying it means that ‘devtools::document()’ will add an <code>Export</code> directive for the function in the NAMESPACE file. That means you can access it using ‘::’. Going back to our <code>use_filter</code> example:</p>
+<pre><code>#' @export                              #This is where you add the @export
+#' @importFrom dplyr filter
+use_filter &lt;- function(df, cutoff=0.5) {
+
+  filter(df, value &lt; cutoff)
+
+}</code></pre>
+<p>If our package name is <code>mypackage</code>, then this function will be accessible if we use <code>library(mypackage)</code> or <code>mypackage::use_filter()</code>.</p>
+<p>Why is this important? You may write some <em>internal</em> functions that are useful in your package, but they aren’t necessarily ones you want your users to use in their daily use. <code>@export</code> allows you to control which functions you make publicly accessible in your package.</p>
+<p>For example, try typing <code>dplyr::</code> in RStudio and hit the tab key. You’ll see the usual <code>dplyr</code> verbs pop up. But these are only the exported functions. Now try <code>dplyr:::</code> and hit the tab key. You’ll see a list of functions that pop up that’s much longer - these are all the functions, including the internal functions.</p>
+<p>So, if there’s a cool bit of internal code you want to use in a package, you can use ‘:::’ to specify it. Just be aware that oftentimes, internal functions may change a lot as code gets refactored, so code that utilizes them may be refactored.</p>
+</section>
+<section id="remember-to-run-devtoolsdocument" class="level2">
+<h2 class="anchored" data-anchor-id="remember-to-run-devtoolsdocument">Remember to run <code>devtools::document()</code></h2>
+<p>Once you’ve written code and want to test it in your package, remember to run <code>devtools::document()</code> before you reinstall your package for testing. Otherwise, the <code>NAMESPACE</code> file won’t be modified, and your code won’t work.</p>
+<p>You can also modify your Project Options for your package and check the <strong>Tools &gt;&gt; Project Options &gt;&gt; Build Tools &gt;&gt; Generate Documentation with Roxygen</strong> box. Next to it, there is also a <code>Configure</code> button that lets you select the option to run <code>devtools::document()</code> whenever you build a package for testing.</p>
+</section>
+<section id="go-forth-and-package" class="level2">
+<h2 class="anchored" data-anchor-id="go-forth-and-package">Go forth and Package!</h2>
+<p><img src="imports-workflow.png" alt="Using a function from another package" width="500"></p>
+<p>TL;DR:</p>
+<ol type="1">
+<li>Use <code>usethis::use_package()</code> to add packages to your <code>DESCRIPTION</code> file (while in the console) after you’ve created your package skeleton using <code>use_package()</code>.</li>
+<li>Use namespaces (such as <code>mypackage::usefilter()</code>) to refer to external functions where possible to avoid collisions in function names when you are writing code.<br>
+</li>
+<li>Use <code>@imports</code> and <code>@importsFrom</code> judiciously in your <code>roxygen</code> documentation for a function if you need to use many extenral package functions within a function. Use only 1 <code>@import</code> statement in a function, use namespaces/<code>@importsFrom</code> for the other packages.</li>
+<li>Expose functions you want to be made public using <code>@export</code> in your <code>roxygen</code> documentation.</li>
+<li>Remember to run <code>devtools::document()</code> in the console after you modify/add these fields to the roxygen documentation when you build for testing, or set it up in <strong>Tools &gt;&gt; Project Options</strong>.</li>
+</ol>
+<p>I hope this helps you to understand exactly the relationships between all of the components that are responsible for accessing namespaces in your package. I was confused about this for years, so writing this has helped me understand these relationships.</p>
+</section>
+<section id="further-reading" class="level2">
+<h2 class="anchored" data-anchor-id="further-reading">Further Reading</h2>
+<ul>
+<li>If you want to know how R searches for a function across its environments and why namespaces are a good thing, this is an excellent writeup: http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/</li>
+<li>More about the <code>usethis</code> workflow: https://www.hvitfeldt.me/blog/usethis-workflow-for-package-development/</li>
+<li>More about the <code>DESCRIPTION</code> file: http://r-pkgs.had.co.nz/description.html</li>
+<li>More about namespaces: http://r-pkgs.had.co.nz/namespace.html</li>
+<li>More about roxygen: http://r-pkgs.had.co.nz/man.html#roxygen-comments</li>
+<li>An alternative workflow to modify the <code>DESCRIPTION</code> file: You can use <code>attachment::att_to_description()</code> to scan code and add packages to the file after coding (thanks, Sébastien!).</li>
+</ul>
+</section>
+<section id="acknowledgements" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
+<p>Thanks to Hao Ye, Sébastien Rochette, Michael Chirico, Tim Hesterberg, and Hadley Wickham for their comments and questions. I’ve incorporated your suggestions.</p>
+</section>
+<section id="note" class="level2">
+<h2 class="anchored" data-anchor-id="note">Note</h2>
+<p>I want this to be clear and correct. Please <a href="mailto:laderast@ohsu.edu">email me</a> if there are any mistakes I’ve made.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{laderas2019,
+  author = {Ted Laderas},
+  editor = {},
+  title = {Package {Building:} {How} {`DESCRIPTION`,} {`NAMESPACE`,}
+    `Roxygen`, and `Devtools::document` Work Together},
+  date = {2019-02-12},
+  url = {https://laderast.github.io//articles/2019-02-12-package-building-how-description-namespace-roxygen-and-devtools-document-work-together/2019-02-12-package-building-how-description-namespace-roxygen-and-devtools-document-work-together.html},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-laderas2019" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
+Ted Laderas. 2019. <span>“Package Building: How `DESCRIPTION`,
+`NAMESPACE`, `Roxygen`, and `Devtools::document` Work Together.”</span>
+February 12, 2019. <a href="https://laderast.github.io//articles/2019-02-12-package-building-how-description-namespace-roxygen-and-devtools-document-work-together/2019-02-12-package-building-how-description-namespace-roxygen-and-devtools-document-work-together.html">https://laderast.github.io//articles/2019-02-12-package-building-how-description-namespace-roxygen-and-devtools-document-work-together/2019-02-12-package-building-how-description-namespace-roxygen-and-devtools-document-work-together.html</a>.
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

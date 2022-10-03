@@ -1,6 +1,5 @@
 ---
 title: 'group_by/summarize: Not just for numeric values!'
-author: ~
 date: '2018-05-24'
 slug: group-by-summarize-not-just-for-numeric-values
 categories: 

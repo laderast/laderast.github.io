@@ -1,6 +1,5 @@
 ---
 title: Kindness at the Cost of Yourself
-author: ~
 date: '2019-09-23'
 slug: kindness-at-the-cost-of-yourself
 categories: [self-care]

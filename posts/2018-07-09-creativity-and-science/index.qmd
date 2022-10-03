@@ -1,6 +1,5 @@
 ---
 title: Creativity and Science
-author: ~
 date: '2018-07-09'
 draft: true
 categories: [creativity, science]

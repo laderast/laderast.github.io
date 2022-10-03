@@ -6,6 +6,7 @@ freeze: true
 
 # Enable banner style title blocks
 title-block-banner: true
+
 toc: true
 page-layout: article
 citation: true

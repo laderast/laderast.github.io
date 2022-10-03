@@ -1,6 +1,5 @@
 ---
 title: Reframing Impostor Syndrome as the Road to Mastery
-author: ~
 date: '2018-12-13'
 slug: reframing-impostor-syndrome-as-being-on-the-road-to-mastery
 categories: []

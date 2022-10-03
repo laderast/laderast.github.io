@@ -1,6 +1,5 @@
 ---
 title: Health Informatics Course Materials
-author: ~
 date: '2018-04-25'
 slug: health-informatics-course-materials
 categories: [oer, open-education, informatics]

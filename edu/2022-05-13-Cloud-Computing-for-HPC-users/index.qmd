@@ -9,6 +9,16 @@ author:
 
 Introductory webinar translating High Performance Computing (HPC) skills to cloud computing.
 
+## Learning Objectives
+
+-   **Identify** similarities and differences between **HPC** and **Cloud** computing
+
+-   **Run** any script (BASH, R, Python) on the UKB RAP platform
+
+-   **Run** *single* and *distributed* jobs
+
+## Slides
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lGxna-ZVYUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
 </iframe>

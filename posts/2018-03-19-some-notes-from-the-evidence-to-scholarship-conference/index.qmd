@@ -1,6 +1,5 @@
 ---
 title: Some Notes from the Evidence to Scholarship Conference
-author: ~
 date: '2018-03-19'
 categories: []
 tags: [digital-scholarship, librarians]

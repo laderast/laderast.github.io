@@ -1,9 +1,9 @@
 ---
 title: "RStudio Conf 2022 Highlights: Days 1 and 2"
 format: html
-draft: true
 image: ussie1.jpeg
 ---
+
 
 # So much to talk about!
 

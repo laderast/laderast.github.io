@@ -1,6 +1,5 @@
 ---
 title: 'Rstudio Conf 2019: Education and Organizations'
-author: ~
 date: '2019-01-24'
 slug: rstudio-conf-2019-education-and-organizations
 categories: [conference]

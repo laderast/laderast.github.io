@@ -1,7 +1,6 @@
 ---
 title: 'Package Building: How `DESCRIPTION`, `NAMESPACE`, `roxygen`, and `devtools::document`
   work together'
-author: ~
 date: '2019-02-12'
 slug: package-building-description-namespace
 categories: ["R"]

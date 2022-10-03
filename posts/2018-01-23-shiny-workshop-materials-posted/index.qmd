@@ -1,6 +1,5 @@
 ---
 title: A gRadual Introduction to Shiny
-author: ~
 date: '2018-01-24'
 slug: gradual-introduction-to-shiny
 categories: [visualization,R]

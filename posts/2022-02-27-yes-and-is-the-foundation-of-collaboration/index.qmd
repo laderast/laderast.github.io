@@ -1,7 +1,6 @@
 ---
 title: "'Yes, and...' is the foundation of collaboration"
 description: "How the rules of comedy improv can improve your collaborations."
-author: ~
 date: 02-27-2022
 output:
   distill::distill_article:

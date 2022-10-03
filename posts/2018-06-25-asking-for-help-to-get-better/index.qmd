@@ -1,6 +1,5 @@
 ---
 title: Asking for help to get better
-author: ~
 date: '2018-06-25'
 slug: asking-for-help-to-get-better
 categories: []

@@ -9,11 +9,24 @@ author:
 
 Two part Webinar about how to run workflows building using Workflow Description Lanage (WDL) on the UK Biobank Research Analysis Platform.
 
-# Intro to WDL, Part 1
+## Learning Objectives
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2X3gbS_BHiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+1.  **List** the advantages of the WDL apps and workflows
+2.  **Use** dxCompiler to compile workflows
+3.  **Define** data types, and basic WDL syntax
+4.  **Write** tasks and workflows using the WDL Libraries built-in resources
+5.  **Refine** workflows with metadata
+6.  **Compute** dynamic resource requirements
+7.  **Integrate** the use of containers into workflows
+8.  **Create** a Docker image from scratch.
 
-# Building Apps on UKB RAP
+## Intro to WDL, Part 1
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2X3gbS_BHiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+</iframe>
+
+## Building Apps on UKB RAP
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A_iki_50Ig0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 

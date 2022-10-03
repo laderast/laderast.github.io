@@ -6,3 +6,5 @@ listing:
   sort: "date desc"
 title-block-banner: true
 ---
+
+Articles (usually instructional) are listed here.

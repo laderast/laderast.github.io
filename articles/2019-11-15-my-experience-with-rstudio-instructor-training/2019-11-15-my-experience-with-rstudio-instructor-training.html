@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="">
+<meta name="dcterms.date" content="2019-11-15">
+<meta name="description" content="Notes on the RStudio Instructor Training and certification exams.">
+
+<title>Ted Laderas, PhD - Notes on the RStudio Instructor Training Experience</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta name="twitter:title" content="Ted Laderas, PhD - Notes on the RStudio Instructor Training Experience">
+<meta name="twitter:description" content="Notes on the RStudio Instructor Training and certification exams.">
+<meta name="twitter:creator" content="@tladeras">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Ted Laderas, PhD</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../teaching.html">Teaching</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../articles.html">Articles</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html">Blog</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../talks.html">Talks</a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/laderast/"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/tladeras/"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Notes on the RStudio Instructor Training Experience</h1>
+                  <div>
+        <div class="description">
+          <p>Notes on the RStudio Instructor Training and certification exams.</p>
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">November 15, 2019</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#instructor-training" id="toc-instructor-training" class="nav-link active" data-scroll-target="#instructor-training">Instructor Training</a></li>
+  <li><a href="#instructor-certification-exam" id="toc-instructor-certification-exam" class="nav-link" data-scroll-target="#instructor-certification-exam">Instructor Certification Exam</a></li>
+  <li><a href="#tidyverse-certification-exam" id="toc-tidyverse-certification-exam" class="nav-link" data-scroll-target="#tidyverse-certification-exam">Tidyverse Certification Exam</a></li>
+  <li><a href="#shiny-certification-exam" id="toc-shiny-certification-exam" class="nav-link" data-scroll-target="#shiny-certification-exam">Shiny Certification Exam</a></li>
+  <li><a href="#overall-experience" id="toc-overall-experience" class="nav-link" data-scroll-target="#overall-experience">Overall Experience</a></li>
+  <li><a href="#for-more-info" id="toc-for-more-info" class="nav-link" data-scroll-target="#for-more-info">For More Info</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<blockquote class="blockquote">
+<p>Full Disclosure: my department paid for the training and two of the certification exams. I did the Shiny exam for free with the stipulation that I would provide feedback on the exam itself.</p>
+</blockquote>
+<p>I recently became a <a href="https://education.rstudio.com/trainers/">certified RStudio Instructor in both Shiny and the Tidyverse</a>. I thought I would write a little about the experience. I haven’t really had any formal pedagogical training, and having some of the state of the art and evidence-based practices were really helpful in extending my approaches to teaching.</p>
+<section id="instructor-training" class="level2">
+<h2 class="anchored" data-anchor-id="instructor-training">Instructor Training</h2>
+<p>The instructor training is online, but delivered via Zoom. The session themselves are 4 hours apiece and at set times, with a small cohort overall (I think mine was about 14). Greg Wilson delivered a short set of slides for each activity, and depending on the activity, we were sent out into smaller groups to discuss the topic. I liked how the course was paced - I felt like having activities almost every half hour definitely kept me awake.</p>
+<p>The training for me (I am on PST) was from 8 AM to 12 PM two days in a row, and my cohort was from all over the US/Canada.</p>
+<p>Here are the parts of the instructor training that I found especially useful. Note that since Greg also helped develop the Carpentries instructor training, there is some overlap between the two training programs (in fact, if you’ve taught a Carpentries course and done the Carpentries training, you can waive the instructor training altogether).</p>
+<p><strong>Building concept maps</strong>. If you can, you should map out the concepts you want to teach, along with how these concepts are related. This concept map is important in helping your students build the mental models that will guide them towards mastery. I did a concept map of Tidy data for my example. Concept maps themselves are a bit tricky to build, but I think they help clarify your understanding of what you are teaching, and thus your lessons will be more understandable.</p>
+<p><strong>Thinking about cognitive overload.</strong> This was a call to think about limiting the number of concepts and connections covered per unit. Humans have a short term memory of about 5 +/- 2 things at a time. This is an extremely helpful guideline to consider when developing training units, as your course objectives and training should keep these in mind. Also, there are different kinds of cognitive overload, and some of them (like extraneous details), you can remove to help with the other kinds. There are lots of ways to teach coding, such as Parsons Problems (where students have to put lines of code in order), or faded examples (fill in the blank style coding assignments), that can focus on particular aspects of coding. (As an unrelated topic, I have been thinking about reading code as being an essential skill and I try to teach students to learn how to read code.)</p>
+<p><strong>Teaching needs to be dynamic.</strong> As instructors, part of our value lies in tailoring our training for our students and their previous knowledge. Unlike YouTube videos, we can assess what our students already know, and focus on the concepts that they don’t. In order to do this, though, we need to have ways of assessing what our students know. Formative assessments (assessments during a lesson) are essential in figuring out whether you can proceed, or whether you need to spend more time.</p>
+<p><strong>Providing feedback.</strong> We were to teach each other a short lesson of our choosing, which was pretty fun. After a test run with a larger group, my partner and I got to teach each other - she taught me about making jam (and the food safety issues) and I taught her about making cornbread. (It was close to lunchtime when we did this, I think we were both hungry.) The exercise was super useful in helping us to not be afraid of giving feedback and to be aware of what kinds of feedback to give.</p>
+<p><strong>What demotivates students.</strong> This was an important section, and a bit emotionally difficult. I have been guilty of some of the teaching behavior that demotivates students, such as taking over their keyboard, instead of letting them fix it. If we are to be inclusive and welcoming to everyone, we need to be aware of these (sometimes subtle) behaviors that can discourage and demotivate all of our students.</p>
+<p><strong>Other tips from other instructors</strong>. I really enjoyed hearing other instructor’s experiences and I had a lot of respect for my cohort. There were lots of little tips we shared with each other that were super helpful, such as the types of mics to use. I also thought that it was helpful when we shared our struggles with each other. It made me feel much more as part of a group of instructors, which was very helpful for me.</p>
+</section>
+<section id="instructor-certification-exam" class="level2">
+<h2 class="anchored" data-anchor-id="instructor-certification-exam">Instructor Certification Exam</h2>
+<p>The instructor certification covered the pedagogical techniques we discussed in the instructor training. This exam, like the others, was open book, open note, open internet, but not open person (no lifeline, no talking with others).</p>
+<p>As part of the exam, we were required to develop and deliver a lesson. I ended up reworking one of my SQL lessons in my Analytics course. I found it a really useful exercise in rethinking my examples discussing left and inner joins, especially in my table examples. You can see my lesson here: <a href="https://rstudio.cloud/project/413048">SQL Joins in R</a>.</p>
+<p>This part of the exam is only about 10 minutes long, but you should be prepared, especially in figuring out how you will assess the learning of the students.</p>
+</section>
+<section id="tidyverse-certification-exam" class="level2">
+<h2 class="anchored" data-anchor-id="tidyverse-certification-exam">Tidyverse Certification Exam</h2>
+<p>After I had done my instructor certification, I had to do the technical qualifications. This was also done online, with Greg delivering the exam over Zoom. Most of the exam had to be done via RStudio on my computer. This exam, like the others, was open book, open note, open internet, but not open person (no lifeline, no talking with others).</p>
+<p>What did the exam cover? Roughly, it covered almost all of <a href="https://r4ds.had.co.nz">R for Data Science</a> and was very task-focused. There was a focus on debugging, data transformation, markdown and visualization. The tasks were mostly problem driven, on the order of recreating a figure, or parametrizing a workflow. It was emphasized that we should solve the problems the way we usually work and talk out our problems aloud. For one of the problems, I actually had to search and teach myself on the fly. This was actually a good way to confirm that my conceptual models of the tidyverse were helpful.</p>
+<p>One tip: 90 minutes is a long amount of time for an exam, especially where you are actively thinking and talking out loud. You should have something to eat by your side so you can replenish your blood glucose. It is also slightly unnerving to have someone watch you actively solve problems and program. If you get flustered, take a breath. There’s not usually a single way to solve the problems.</p>
+</section>
+<section id="shiny-certification-exam" class="level2">
+<h2 class="anchored" data-anchor-id="shiny-certification-exam">Shiny Certification Exam</h2>
+<p>A few weeks later, I took the Shiny certification. In terms of coverage, there is not currently a good text to study for the Shiny Certification exam (<a href="https://mastering-shiny.org">Mastering Shiny</a> is probably going to be the reference to study when it is finished). In order to prepare, I went over the <a href="https://shiny.rstudio.com">RStudio articles about Shiny</a>, and looked over the <a href="https://shiny.rstudio.com/gallery/">RStudio Shiny Gallery</a> to bone up on the different programming techniques used in Shiny, such as UI elements, reactives, the observe/update pattern, and modules.</p>
+<p>Again, the exam covered debugging, including fixing applications, understanding control logic between ui and server, and building an app from scratch. I would say much of the exam covers how well established your own mental model of Shiny progamming is.</p>
+<p>One thing to remember: as the technology and code changes, the certification exams will change and you may have to get re-certified. So my experience of these exams may be different than your experience.</p>
+</section>
+<section id="overall-experience" class="level2">
+<h2 class="anchored" data-anchor-id="overall-experience">Overall Experience</h2>
+<p>Would I recommend the training? I thought it was extremely useful, especially in terms of learning more about evidence based methods in effective education. As someone who is thinking about starting a consulting group focusing on training, having the certifications are extremely valuable to me and my future career. I look forward to teaching and training more people in R.</p>
+</section>
+<section id="for-more-info" class="level2">
+<h2 class="anchored" data-anchor-id="for-more-info">For More Info</h2>
+<p>Please consult the <a href="https://education.rstudio.com/trainers/">RStudio Trainer Website</a> for info on how to register for the instructor training.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{laderas2019,
+  author = {Ted Laderas},
+  editor = {},
+  title = {Notes on the {RStudio} {Instructor} {Training} {Experience}},
+  date = {2019-11-15},
+  url = {https://laderast.github.io//articles/2019-11-15-my-experience-with-rstudio-instructor-training/2019-11-15-my-experience-with-rstudio-instructor-training.html},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-laderas2019" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
+Ted Laderas. 2019. <span>“Notes on the RStudio Instructor Training
+Experience.”</span> November 15, 2019. <a href="https://laderast.github.io//articles/2019-11-15-my-experience-with-rstudio-instructor-training/2019-11-15-my-experience-with-rstudio-instructor-training.html">https://laderast.github.io//articles/2019-11-15-my-experience-with-rstudio-instructor-training/2019-11-15-my-experience-with-rstudio-instructor-training.html</a>.
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

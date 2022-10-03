@@ -1,6 +1,5 @@
 ---
 title: Working on the `umapr` package
-author: ~
 date: '2018-06-15'
 slug: working-on-the-umapr-package
 categories: []

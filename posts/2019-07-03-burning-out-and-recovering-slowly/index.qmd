@@ -1,6 +1,5 @@
 ---
 title: Burning Out and Recovering (slowly)
-author: ~
 date: '2019-07-03'
 slug: burning-out-and-recovering-slowly
 categories: []

@@ -1,6 +1,5 @@
 ---
 title: So You've Accidentally Checked in a Large File Into Git
-author: ~
 date: '2018-01-05'
 slug: so-you-ve-accidentally-checked-in-a-large-file-into-git
 categories: [git, git hell]

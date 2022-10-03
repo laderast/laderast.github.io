@@ -17,7 +17,6 @@ website:
   twitter-card: 
     card-style: summary
     creator: "@tladeras"
-  title-block-banner: true
 format:
   html:
     theme: cosmo

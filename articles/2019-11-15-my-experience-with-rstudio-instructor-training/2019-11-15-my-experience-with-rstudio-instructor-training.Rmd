@@ -1,6 +1,5 @@
 ---
 title: Notes on the RStudio Instructor Training Experience
-author: ~
 date: '2019-11-15'
 slug: my-experience-with-rstudio-instructor-training
 categories: []

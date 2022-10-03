@@ -1,6 +1,5 @@
 ---
 title: Shiny and Tidyeval Part 1
-author: ~
 date: '2018-08-07'
 slug: shiny-and-tidyeval
 categories: [shiny]

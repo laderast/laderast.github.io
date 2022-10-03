@@ -7,12 +7,31 @@ author:
   - name: Anastazie Sedlakova
 ---
 
-Two part webinar on utilizing JupyterLab on the DNAnexus platform. 
+Two part webinar on utilizing JupyterLab on the DNAnexus platform.
 
-# Part 1: JupyterLab Basics
+## Learning Objectives (Part 1)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YIPdhf3qbQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+1.  **Explain** the relationship between JupyterLab and a UKB RAP project 
+2.  **Select**  the appropriate JupyterLab instance given your workflow requirements
+3.  **Access**  files and Jupyter Notebooks from a project into the JupyterLab environment
+4.  **Run** a Jupyter Notebook in the JupyterLab environment and **upload** results back into the project 
+5.  **Utilize** and **install** software dependencies into the JupyterLab environment
 
-# Part 2: Using Spark JupyterLab to access phenotype data
+## Video Part 1: JupyterLab Basics
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jodNjrYF8po" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YIPdhf3qbQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+</iframe>
+
+## Learning Objectives (Part 1)
+
+1.  **Explain** the difference between a single JupyterLab instance and a Spark JupyterLab cluster
+2.  **Explain** the basic structure of the RAP Dataset
+3.  **Access** and **manipulate** RAP Data and cohorts using the dxdata package on Spark JupyterLab
+4.  **Articulate** possible further Spark enabled analyses
+
+## Part 2: Using Spark JupyterLab to access phenotype data
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jodNjrYF8po" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+</iframe>

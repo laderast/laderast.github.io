@@ -1,0 +1,17 @@
+---
+title: "Quarto vs. RMarkdown - What's Different?"
+date: 9/15/22
+---
+
+Talk given for FCT Abuja useR group. Learn about:
+
+- What Quarto Is
+- Why switch to Quarto?
+- Workflow for switching to Quarto from RMarkdown
+
+<iframe class="slide-deck" src="https://laderast.github.io/qmd_rmd/#/title-slide" height=300 width=600></iframe>
+
+```{r}
+#| echo: false
+vembedr::embed_youtube("xC6I5OVOnKI")
+```

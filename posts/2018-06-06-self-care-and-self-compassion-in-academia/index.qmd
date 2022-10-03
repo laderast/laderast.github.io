@@ -1,6 +1,5 @@
 ---
 title: Self Care and Self Compassion in Academia
-author: ~
 date: '2018-06-05'
 slug: self-care-and-self-compassion-in-academia
 categories: []

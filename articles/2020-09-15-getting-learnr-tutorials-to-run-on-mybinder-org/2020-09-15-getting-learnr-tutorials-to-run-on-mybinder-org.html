@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="">
+<meta name="dcterms.date" content="2020-09-15">
+<meta name="description" content="Getting Shiny, LearnR, and Mybinder.org to play together nicely.">
+
+<title>Ted Laderas, PhD - Getting LearnR tutorials to run on mybinder.org</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta name="twitter:title" content="Ted Laderas, PhD - Getting LearnR tutorials to run on mybinder.org">
+<meta name="twitter:description" content="Getting Shiny, LearnR, and Mybinder.org to play together nicely.">
+<meta name="twitter:image" content="https://laderast.github.io/articles/2020-09-15-getting-learnr-tutorials-to-run-on-mybinder-org/binder_repo.jpg">
+<meta name="twitter:creator" content="@tladeras">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Ted Laderas, PhD</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../teaching.html">Teaching</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../articles.html">Articles</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html">Blog</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../talks.html">Talks</a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/laderast/"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/tladeras/"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Getting LearnR tutorials to run on mybinder.org</h1>
+                  <div>
+        <div class="description">
+          <p>Getting Shiny, LearnR, and Mybinder.org to play together nicely.</p>
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">September 15, 2020</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#whats-the-problem" id="toc-whats-the-problem" class="nav-link active" data-scroll-target="#whats-the-problem">What’s the problem?</a></li>
+  <li><a href="#why-would-we-want-to-run-learnr-tutorials-off-mybinder.org" id="toc-why-would-we-want-to-run-learnr-tutorials-off-mybinder.org" class="nav-link" data-scroll-target="#why-would-we-want-to-run-learnr-tutorials-off-mybinder.org">Why would we want to run learnr tutorials off mybinder.org?</a></li>
+  <li><a href="#quick-review-of-learnr-package-structure" id="toc-quick-review-of-learnr-package-structure" class="nav-link" data-scroll-target="#quick-review-of-learnr-package-structure">Quick Review of <code>learnr</code> package structure</a></li>
+  <li><a href="#making-your-tutorial-mybinder.org-ready" id="toc-making-your-tutorial-mybinder.org-ready" class="nav-link" data-scroll-target="#making-your-tutorial-mybinder.org-ready">Making your tutorial mybinder.org ready</a>
+  <ul class="collapse">
+  <li><a href="#note-using-holepunch" id="toc-note-using-holepunch" class="nav-link" data-scroll-target="#note-using-holepunch">Note: Using <code>holepunch</code></a></li>
+  </ul></li>
+  <li><a href="#build-the-docker-image-for-your-tutorial" id="toc-build-the-docker-image-for-your-tutorial" class="nav-link" data-scroll-target="#build-the-docker-image-for-your-tutorial">Build the Docker Image for your tutorial</a></li>
+  <li><a href="#specify-the-url-for-running-your-tutorial." id="toc-specify-the-url-for-running-your-tutorial." class="nav-link" data-scroll-target="#specify-the-url-for-running-your-tutorial.">Specify the URL for running your tutorial.</a></li>
+  <li><a href="#caveats" id="toc-caveats" class="nav-link" data-scroll-target="#caveats">Caveats</a></li>
+  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p>The <code>learnr</code> package is a wonderful way to package your tutorials. Anyone can download a <code>learnr</code> package of tutorials, and use <code>learnr::run_tutorial()</code> to run them on their own personal system.</p>
+<p>Since <code>learnr</code> is based on <code>shiny</code>, these tutorials can also be published to a <code>Shiny</code> server such as <code>shinyapps.io</code>. However, one drawback to this is that the more popular the tutorial, the more access time you may be on the hook for, which can rapidly become expensive.</p>
+<p>Enter mybinder.org, which is a way of running reproducible analyses and tutorials. In short, you give a mybinder.org server some information about the software environment needed to run your code, and you can run code based on your repo. Mybinder.org servers are a little limited, (1 Gb RAM), but this is more than capable of running most <code>learnr</code> tutorials.</p>
+<p>Recently, they added Shiny as a deployable format, which means you can run shiny apps, including <code>learnr</code> tutorial packages off their servers.</p>
+<p>I’m starting a <code>learnr</code> tutorial package called <a href="https://github.com/laderas/tidyowl"><code>tidyowl</code></a> and I decided to share what I’ve learned.</p>
+<section id="whats-the-problem" class="level2">
+<h2 class="anchored" data-anchor-id="whats-the-problem">What’s the problem?</h2>
+<p>However, there are some differences between the file structure of a <code>learnr</code> package and the expected file structure of a shiny-ready mybinder.org repository.</p>
+<p>Can we get both setups to work at the same time? Yes, we can.</p>
+</section>
+<section id="why-would-we-want-to-run-learnr-tutorials-off-mybinder.org" class="level2">
+<h2 class="anchored" data-anchor-id="why-would-we-want-to-run-learnr-tutorials-off-mybinder.org">Why would we want to run learnr tutorials off mybinder.org?</h2>
+<p>The short answer is making your material accessible to as many people as possible. <code>learnr</code> tutorials can be run from a phone or tablet, and running your tutorial for a lot of people doesn’t cost you any bandwidth or usage costs, as you’re using the same infrastructure that mybinder.org provides.</p>
+</section>
+<section id="quick-review-of-learnr-package-structure" class="level2">
+<h2 class="anchored" data-anchor-id="quick-review-of-learnr-package-structure">Quick Review of <code>learnr</code> package structure</h2>
+<p>For a package, <code>learnr</code> tutorials are stored in the following folder:</p>
+<p><code>inst/tutorials/TUTORIAL_NAME</code></p>
+<p>So, if you had a tutorial named <code>learning_shiny</code> it would live in</p>
+<p><code>inst/tutorials/learning_shiny/</code></p>
+<p>and the <code>.Rmd</code> file containing the tutorial should be named <code>learning_shiny.Rmd</code> as well.</p>
+<p>The problem I encountered is that mybinder.org expects your tutorial to exist as a folder in the root of the repo. In other words, it needs to see</p>
+<p><code>learning_shiny/</code> in the root of the repository to run.</p>
+<p>We can fix this by adding a file called <code>postBuild</code> that gives instructions to run after the software environment is built. We’ll use it to copy the tutorials into the root folder.</p>
+</section>
+<section id="making-your-tutorial-mybinder.org-ready" class="level2">
+<h2 class="anchored" data-anchor-id="making-your-tutorial-mybinder.org-ready">Making your tutorial mybinder.org ready</h2>
+<p>In short, you’ll need 3 files to make your <code>learnr</code> tutorial mybinder.org ready: a <code>runtime.txt</code>, a <code>install.R</code>, and a <code>postBuild</code> file in order to make your <code>learnr</code> package compatible with mybinder.org. Let’s go through the steps:</p>
+<p>Step 1. Specify a <code>runtime.txt</code> file in your root folder. You’ll need a file called <code>runtime.txt</code> that contains a single line:</p>
+<pre><code>r-3.6-2020-08-01</code></pre>
+<p>This gives mybinder.org the signal that the Docker image needs to have R installed. You can see that I specified a version (3.6) and a snapshot date (2020-08-01). These should be a valid version and date for the snapshot - check the MRAN pages for more info: https://mran.microsoft.com/</p>
+<p><em>Note: When R 4.0 and greater is available in MRAN, you should move to it. It includes RStudio Package Manager, which installs the binary images rather than installing from source code which speeds up building the Docker images by quite a bit.</em></p>
+<p><em>Another Note: I tried to get this to work with a <code>Dockerfile</code> using the <code>rocker/binder</code> images, but I couldn’t get this image to work. If anyone has gotten this working, I’d appreciate you sharing how you did it.</em></p>
+<p>Step 2. Specify package dependencies using <code>install.R</code> in your root folder - in this file, you’ll need to specify all the packages your tutorial is dependent on using <code>install.packages()</code> commands. Here’s the contents of my <code>install.R</code> file:</p>
+<pre><code>install.packages("learnr")
+install.packages("here")
+install.packages("tidyverse")</code></pre>
+<p>Note: getting the dependencies right in package building can be major headaches to getting your binder container to work. You may have to specify some <a href="https://mybinder.readthedocs.io/en/latest/config_files.html">system dependencies</a> in your <code>apt.txt</code> file for certain packages. This information is available here: https://github.com/rstudio/r-system-requirements</p>
+<p>Step 3. Specify moving the tutorials in <code>inst/tutorials/</code> to the repository root folder using the <code>postBuild</code> folder. These commands are run after the container is built and will make the tutorials accessible via Binder.</p>
+<p>For example, for the <code>tidyowl</code> package, I have these <code>mv</code> commands in my <code>postBuild</code>:</p>
+<pre><code>mv inst/tutorials/learning_tidyselect/ .
+mv inst/tutorials/learning_rowwise/ .</code></pre>
+<p>You’ll need a <code>mv</code> line for each tutorial that your package contains.</p>
+<section id="note-using-holepunch" class="level3">
+<h3 class="anchored" data-anchor-id="note-using-holepunch">Note: Using <code>holepunch</code></h3>
+<p>I believe you can also use <code>holepunch</code> to make setup a little easier. https://github.com/karthik/holepunch</p>
+<p>I haven’t tried it yet, but will update this when I do.</p>
+</section>
+</section>
+<section id="build-the-docker-image-for-your-tutorial" class="level2">
+<h2 class="anchored" data-anchor-id="build-the-docker-image-for-your-tutorial">Build the Docker Image for your tutorial</h2>
+<p>Okay, almost there! Now we’re going to go to <code>mybinder.org</code> to build your Docker image. This is the software environment that your tutorial will run off of. This image will have shiny-server and RStudio installed on it automatically, which makes debugging your package easier.</p>
+<p>When you’re ready, go to https://mybinder.org and put in the public location of your repository. Then click the “Launch” button.</p>
+<p>Now your container will build. Note that this will take a little while (10+ minutes), especially if you need to install something like <code>tidyverse</code>. Note that this can be one of the hardest steps to get going, especially if you need packages such as <code>sf</code> (see above for a link to system dependencies).</p>
+<p><img src="binder_repo.jpg"></p>
+<p>When it’s done building, you’ll be at a Jupyter page. Click “New &gt;&gt; RStudio” to open up your image with RStudio.</p>
+<p><img src="binder_open_rstudio.jpg"></p>
+<p>You should see that your tutorial folders have been moved to the root folders. This is good confirmation that the <code>mv</code> statements of <code>postBuild</code> work. I personally like to have individual <code>data/</code> folders in each tutorial, as it makes making them a little easier to deploy.</p>
+<p>Test out running the tutorial by going to the .Rmd file and running it.</p>
+<p><img src="binder_rstudio.jpg"></p>
+<p>If you’ve setup everything right, you should see your <code>learnr</code> tutorial popup. I will say that this is usually the fine tuning step that takes the longest.</p>
+<p><em>Note: there is a GitHub action (https://github.com/jupyterhub/repo2docker-action) to rebuild your Docker image on new commits. I’ll be looking into this in the future.</em></p>
+</section>
+<section id="specify-the-url-for-running-your-tutorial." class="level2">
+<h2 class="anchored" data-anchor-id="specify-the-url-for-running-your-tutorial.">Specify the URL for running your tutorial.</h2>
+<p>Each tutorial in your package will need its own URL to run.</p>
+<p>You’ll add the following to your mybinder.org link:</p>
+<pre><code>?urlpath=shiny/learning_tidyselect/</code></pre>
+<p>The <code>urlpath</code> is a signal to mybinder that it will need to run shiny, and you’ll put the name of your tutorial folder instead of <code>learning_tidyselect</code>. Note the trailing slash after <code>learning_tidyselect</code>.</p>
+<p>So, my final URL for the <code>learning_tidyselect</code> tutorial is this (click it and try it out):</p>
+<p>https://mybinder.org/v2/gh/laderast/tidyowl/master?urlpath=shiny/learning_tidyselect/</p>
+<p>You can now send this link out and nearly anyone in the world can run your <code>learnr</code> tutorial without installing R and not using up precious Shinyapps.io CPU time!</p>
+</section>
+<section id="caveats" class="level2">
+<h2 class="anchored" data-anchor-id="caveats">Caveats</h2>
+<p>Shiny apps may suddenly disconnect - have students reload the page if that happens.</p>
+<p>Images get deleted off the mybinder.org servers within a week, so it is worth automating your container build to do so every week so that your students don’t have to wait for your container image to rebuild.</p>
+<p>Also, progress is not saved, because the final url is different each time you run it off mybinder.org servers.</p>
+</section>
+<section id="acknowledgements" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
+<p>Thanks so much to the <code>mybinder.org</code> team, what they do is beyond awesome.</p>
+<p>Thanks to Sang Yun Oh, whose repository helped me figure more of these details out. https://github.com/syoh/learnr-tutorial</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{laderas2020,
+  author = {Ted Laderas},
+  editor = {},
+  title = {Getting {LearnR} Tutorials to Run on Mybinder.org},
+  date = {2020-09-15},
+  url = {https://laderast.github.io//articles/2020-09-15-getting-learnr-tutorials-to-run-on-mybinder-org/2020-09-15-getting-learnr-tutorials-to-run-on-mybinder-org.html},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-laderas2020" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
+Ted Laderas. 2020. <span>“Getting LearnR Tutorials to Run on
+Mybinder.org.”</span> September 15, 2020. <a href="https://laderast.github.io//articles/2020-09-15-getting-learnr-tutorials-to-run-on-mybinder-org/2020-09-15-getting-learnr-tutorials-to-run-on-mybinder-org.html">https://laderast.github.io//articles/2020-09-15-getting-learnr-tutorials-to-run-on-mybinder-org/2020-09-15-getting-learnr-tutorials-to-run-on-mybinder-org.html</a>.
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

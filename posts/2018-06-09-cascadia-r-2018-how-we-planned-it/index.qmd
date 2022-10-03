@@ -1,6 +1,5 @@
 ---
 title: 'Cascadia-R 2018: How we planned it and the reasons why'
-author: ~
 date: '2018-06-09'
 slug: cascadia-r-2018-how-we-planned-it
 categories: [conference]
