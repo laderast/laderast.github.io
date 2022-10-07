@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.37">
+<meta name="generator" content="quarto-1.1.251">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -14,10 +14,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -56,7 +61,7 @@ code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
 code span.at { color: #7d9029; } /* Attribute */
 code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
+code span.bu { color: #008000; } /* BuiltIn */
 code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4070a0; } /* Char */
 code span.cn { color: #880000; } /* Constant */
@@ -69,7 +74,7 @@ code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #40a070; } /* Float */
 code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
+code span.im { color: #008000; font-weight: bold; } /* Import */
 code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #007020; font-weight: bold; } /* Keyword */
 code span.op { color: #666666; } /* Operator */
@@ -134,9 +139,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="../../index.html">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Ted Laderas, PhD</span>
-  </a>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -204,42 +211,42 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
   <li><a href="#available-teaching-resources" id="toc-available-teaching-resources" class="nav-link active" data-scroll-target="#available-teaching-resources">Available Teaching Resources</a>
   <ul class="collapse">
-  <li><a href="#carl-howes-talk-the-next-million-r-users" id="toc-carl-howes-talk-the-next-million-r-users" class="nav-link" data-scroll-target="#carl-howes-talk-the-next-million-r-users"><span>Carl Howe’s Talk: The Next Million R Users</span></a></li>
-  <li><a href="#mel-gregory-rstudio-for-education" id="toc-mel-gregory-rstudio-for-education" class="nav-link" data-scroll-target="#mel-gregory-rstudio-for-education"><span>Mel Gregory: RStudio for Education</span></a></li>
-  <li><a href="#irene-stevens-talk-teaching-data-science-with-puzzles" id="toc-irene-stevens-talk-teaching-data-science-with-puzzles" class="nav-link" data-scroll-target="#irene-stevens-talk-teaching-data-science-with-puzzles"><span>Irene Stevens’ Talk: Teaching Data Science With Puzzles</span></a></li>
-  <li><a href="#kelly-bodwin-introductory-statistics-with-r" id="toc-kelly-bodwin-introductory-statistics-with-r" class="nav-link" data-scroll-target="#kelly-bodwin-introductory-statistics-with-r"><span>Kelly Bodwin: Introductory Statistics with R</span></a></li>
+  <li><a href="#carl-howes-talk-the-next-million-r-users" id="toc-carl-howes-talk-the-next-million-r-users" class="nav-link" data-scroll-target="#carl-howes-talk-the-next-million-r-users">Carl Howe’s Talk: The Next Million R Users</a></li>
+  <li><a href="#mel-gregory-rstudio-for-education" id="toc-mel-gregory-rstudio-for-education" class="nav-link" data-scroll-target="#mel-gregory-rstudio-for-education">Mel Gregory: RStudio for Education</a></li>
+  <li><a href="#irene-stevens-talk-teaching-data-science-with-puzzles" id="toc-irene-stevens-talk-teaching-data-science-with-puzzles" class="nav-link" data-scroll-target="#irene-stevens-talk-teaching-data-science-with-puzzles">Irene Stevens’ Talk: Teaching Data Science With Puzzles</a></li>
+  <li><a href="#kelly-bodwin-introductory-statistics-with-r" id="toc-kelly-bodwin-introductory-statistics-with-r" class="nav-link" data-scroll-target="#kelly-bodwin-introductory-statistics-with-r">Kelly Bodwin: Introductory Statistics with R</a></li>
   </ul></li>
   <li><a href="#diversity-and-inclusiveness-make-for-better-data-science" id="toc-diversity-and-inclusiveness-make-for-better-data-science" class="nav-link" data-scroll-target="#diversity-and-inclusiveness-make-for-better-data-science">Diversity and Inclusiveness Make for Better Data Science</a>
   <ul class="collapse">
-  <li><a href="#jesse-mostipak-r4ds-online-learning-community-improvements-to-self-taught-data-science-the-critical-need-for-diversity-equity-and-inclusion-in-data-science-education" id="toc-jesse-mostipak-r4ds-online-learning-community-improvements-to-self-taught-data-science-the-critical-need-for-diversity-equity-and-inclusion-in-data-science-education" class="nav-link" data-scroll-target="#jesse-mostipak-r4ds-online-learning-community-improvements-to-self-taught-data-science-the-critical-need-for-diversity-equity-and-inclusion-in-data-science-education"><span>Jesse Mostipak: R4DS online learning community: Improvements to self-taught data science &amp; the critical need for diversity, equity, and inclusion in data science education</span></a></li>
-  <li><a href="#caitlin-hudon-learning-from-eight-years-of-data-science-mistakes" id="toc-caitlin-hudon-learning-from-eight-years-of-data-science-mistakes" class="nav-link" data-scroll-target="#caitlin-hudon-learning-from-eight-years-of-data-science-mistakes"><span>Caitlin Hudon: Learning from Eight Years of Data Science Mistakes</span></a></li>
-  <li><a href="#tracy-teal-teaching-r-using-inclusive-pedagogy-practices-and-lessons-learned-from-over-700-carpentries-workshops" id="toc-tracy-teal-teaching-r-using-inclusive-pedagogy-practices-and-lessons-learned-from-over-700-carpentries-workshops" class="nav-link" data-scroll-target="#tracy-teal-teaching-r-using-inclusive-pedagogy-practices-and-lessons-learned-from-over-700-carpentries-workshops"><span>Tracy Teal: Teaching R using inclusive pedagogy: Practices and lessons learned from over 700 Carpentries workshops</span></a></li>
+  <li><a href="#jesse-mostipak-r4ds-online-learning-community-improvements-to-self-taught-data-science-the-critical-need-for-diversity-equity-and-inclusion-in-data-science-education" id="toc-jesse-mostipak-r4ds-online-learning-community-improvements-to-self-taught-data-science-the-critical-need-for-diversity-equity-and-inclusion-in-data-science-education" class="nav-link" data-scroll-target="#jesse-mostipak-r4ds-online-learning-community-improvements-to-self-taught-data-science-the-critical-need-for-diversity-equity-and-inclusion-in-data-science-education">Jesse Mostipak: R4DS online learning community: Improvements to self-taught data science &amp; the critical need for diversity, equity, and inclusion in data science education</a></li>
+  <li><a href="#caitlin-hudon-learning-from-eight-years-of-data-science-mistakes" id="toc-caitlin-hudon-learning-from-eight-years-of-data-science-mistakes" class="nav-link" data-scroll-target="#caitlin-hudon-learning-from-eight-years-of-data-science-mistakes">Caitlin Hudon: Learning from Eight Years of Data Science Mistakes</a></li>
+  <li><a href="#tracy-teal-teaching-r-using-inclusive-pedagogy-practices-and-lessons-learned-from-over-700-carpentries-workshops" id="toc-tracy-teal-teaching-r-using-inclusive-pedagogy-practices-and-lessons-learned-from-over-700-carpentries-workshops" class="nav-link" data-scroll-target="#tracy-teal-teaching-r-using-inclusive-pedagogy-practices-and-lessons-learned-from-over-700-carpentries-workshops">Tracy Teal: Teaching R using inclusive pedagogy: Practices and lessons learned from over 700 Carpentries workshops</a></li>
   </ul></li>
   <li><a href="#making-teaching-resources-for-community-college-instructors" id="toc-making-teaching-resources-for-community-college-instructors" class="nav-link" data-scroll-target="#making-teaching-resources-for-community-college-instructors">Making Teaching Resources for Community College Instructors</a>
   <ul class="collapse">
-  <li><a href="#mary-rudis-catching-the-r-wave-how-r-and-rstudio-are-revolutionizing-statistics-education-in-community-colleges-and-beyond" id="toc-mary-rudis-catching-the-r-wave-how-r-and-rstudio-are-revolutionizing-statistics-education-in-community-colleges-and-beyond" class="nav-link" data-scroll-target="#mary-rudis-catching-the-r-wave-how-r-and-rstudio-are-revolutionizing-statistics-education-in-community-colleges-and-beyond"><span>Mary Rudis: Catching the R wave: How R and RStudio are revolutionizing statistics education in community colleges (and beyond)</span></a></li>
+  <li><a href="#mary-rudis-catching-the-r-wave-how-r-and-rstudio-are-revolutionizing-statistics-education-in-community-colleges-and-beyond" id="toc-mary-rudis-catching-the-r-wave-how-r-and-rstudio-are-revolutionizing-statistics-education-in-community-colleges-and-beyond" class="nav-link" data-scroll-target="#mary-rudis-catching-the-r-wave-how-r-and-rstudio-are-revolutionizing-statistics-education-in-community-colleges-and-beyond">Mary Rudis: Catching the R wave: How R and RStudio are revolutionizing statistics education in community colleges (and beyond)</a></li>
   </ul></li>
   <li><a href="#organizational-considerations-in-data-science" id="toc-organizational-considerations-in-data-science" class="nav-link" data-scroll-target="#organizational-considerations-in-data-science">Organizational Considerations in Data Science</a>
   <ul class="collapse">
-  <li><a href="#joe-cheng-shiny-in-production" id="toc-joe-cheng-shiny-in-production" class="nav-link" data-scroll-target="#joe-cheng-shiny-in-production"><span>Joe Cheng: Shiny in Production</span></a></li>
-  <li><a href="#tonya-filz-the-resilient-r-champion" id="toc-tonya-filz-the-resilient-r-champion" class="nav-link" data-scroll-target="#tonya-filz-the-resilient-r-champion"><span>Tonya Filz: The Resilient R Champion</span></a></li>
-  <li><a href="#hilary-parker-cultivating-creativity-in-data-work" id="toc-hilary-parker-cultivating-creativity-in-data-work" class="nav-link" data-scroll-target="#hilary-parker-cultivating-creativity-in-data-work"><span>Hilary Parker: Cultivating creativity in Data work</span></a></li>
-  <li><a href="#angela-bassa-data-science-as-a-team-sport" id="toc-angela-bassa-data-science-as-a-team-sport" class="nav-link" data-scroll-target="#angela-bassa-data-science-as-a-team-sport"><span>Angela Bassa: Data science as a team sport</span></a></li>
+  <li><a href="#joe-cheng-shiny-in-production" id="toc-joe-cheng-shiny-in-production" class="nav-link" data-scroll-target="#joe-cheng-shiny-in-production">Joe Cheng: Shiny in Production</a></li>
+  <li><a href="#tonya-filz-the-resilient-r-champion" id="toc-tonya-filz-the-resilient-r-champion" class="nav-link" data-scroll-target="#tonya-filz-the-resilient-r-champion">Tonya Filz: The Resilient R Champion</a></li>
+  <li><a href="#hilary-parker-cultivating-creativity-in-data-work" id="toc-hilary-parker-cultivating-creativity-in-data-work" class="nav-link" data-scroll-target="#hilary-parker-cultivating-creativity-in-data-work">Hilary Parker: Cultivating creativity in Data work</a></li>
+  <li><a href="#angela-bassa-data-science-as-a-team-sport" id="toc-angela-bassa-data-science-as-a-team-sport" class="nav-link" data-scroll-target="#angela-bassa-data-science-as-a-team-sport">Angela Bassa: Data science as a team sport</a></li>
   </ul></li>
   <li><a href="#encouraging-a-growth-mindset" id="toc-encouraging-a-growth-mindset" class="nav-link" data-scroll-target="#encouraging-a-growth-mindset">Encouraging a Growth Mindset</a>
   <ul class="collapse">
-  <li><a href="#panel-growth-change-of-careers-organizations-and-responsibility-in-data-science" id="toc-panel-growth-change-of-careers-organizations-and-responsibility-in-data-science" class="nav-link" data-scroll-target="#panel-growth-change-of-careers-organizations-and-responsibility-in-data-science"><span>Panel: Growth &amp; change of careers, organizations and responsibility in data science</span></a></li>
-  <li><a href="#david-robinson-the-unreasonable-effectiveness-of-public-work" id="toc-david-robinson-the-unreasonable-effectiveness-of-public-work" class="nav-link" data-scroll-target="#david-robinson-the-unreasonable-effectiveness-of-public-work"><span>David Robinson: The Unreasonable Effectiveness of Public Work</span></a></li>
+  <li><a href="#panel-growth-change-of-careers-organizations-and-responsibility-in-data-science" id="toc-panel-growth-change-of-careers-organizations-and-responsibility-in-data-science" class="nav-link" data-scroll-target="#panel-growth-change-of-careers-organizations-and-responsibility-in-data-science">Panel: Growth &amp; change of careers, organizations and responsibility in data science</a></li>
+  <li><a href="#david-robinson-the-unreasonable-effectiveness-of-public-work" id="toc-david-robinson-the-unreasonable-effectiveness-of-public-work" class="nav-link" data-scroll-target="#david-robinson-the-unreasonable-effectiveness-of-public-work">David Robinson: The Unreasonable Effectiveness of Public Work</a></li>
   </ul></li>
   <li><a href="#direct-explicit-instruction-in-education" id="toc-direct-explicit-instruction-in-education" class="nav-link" data-scroll-target="#direct-explicit-instruction-in-education">Direct Explicit Instruction in Education</a>
   <ul class="collapse">
-  <li><a href="#felienne-hermans-explicit-direct-instruction-in-education" id="toc-felienne-hermans-explicit-direct-instruction-in-education" class="nav-link" data-scroll-target="#felienne-hermans-explicit-direct-instruction-in-education"><span>Felienne Hermans: Explicit Direct Instruction in Education</span></a></li>
+  <li><a href="#felienne-hermans-explicit-direct-instruction-in-education" id="toc-felienne-hermans-explicit-direct-instruction-in-education" class="nav-link" data-scroll-target="#felienne-hermans-explicit-direct-instruction-in-education">Felienne Hermans: Explicit Direct Instruction in Education</a></li>
   </ul></li>
   <li><a href="#so-many-people-to-teach-so-many-ways-to-teach" id="toc-so-many-people-to-teach-so-many-ways-to-teach" class="nav-link" data-scroll-target="#so-many-people-to-teach-so-many-ways-to-teach">So Many People to Teach, So Many Ways to Teach!</a></li>
   </ul>
@@ -364,6 +371,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{laderas2019,
   author = {Ted Laderas},
+  editor = {},
   title = {Rstudio {Conf} 2019: {Education} and {Organizations}},
   date = {2019-01-24},
   url = {https://laderast.github.io//posts/2019-01-24-rstudio-conf-2019-education-and-organizations},
@@ -442,7 +450,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.37">
+<meta name="generator" content="quarto-1.1.251">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -14,10 +14,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -56,7 +61,7 @@ code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
 code span.at { color: #7d9029; } /* Attribute */
 code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
+code span.bu { color: #008000; } /* BuiltIn */
 code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4070a0; } /* Char */
 code span.cn { color: #880000; } /* Constant */
@@ -69,7 +74,7 @@ code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #40a070; } /* Float */
 code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
+code span.im { color: #008000; font-weight: bold; } /* Import */
 code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #007020; font-weight: bold; } /* Keyword */
 code span.op { color: #666666; } /* Operator */
@@ -148,9 +153,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="../../index.html">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Ted Laderas, PhD</span>
-  </a>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -224,7 +231,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
@@ -883,7 +890,7 @@ dbl (19): total_cup_points, number_of_bags, aroma, flavor, aftertaste, acidi...
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#ufbyvzcgzx .gt_table {
+:where(#ufbyvzcgzx) .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -908,7 +915,7 @@ dbl (19): total_cup_points, number_of_bags, aroma, flavor, aftertaste, acidi...
   border-left-color: #D3D3D3;
 }
 
-#ufbyvzcgzx .gt_heading {
+:where(#ufbyvzcgzx) .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -920,7 +927,7 @@ dbl (19): total_cup_points, number_of_bags, aroma, flavor, aftertaste, acidi...
   border-right-color: #D3D3D3;
 }
 
-#ufbyvzcgzx .gt_title {
+:where(#ufbyvzcgzx) .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -930,7 +937,7 @@ dbl (19): total_cup_points, number_of_bags, aroma, flavor, aftertaste, acidi...
   border-bottom-width: 0;
 }
 
-#ufbyvzcgzx .gt_subtitle {
+:where(#ufbyvzcgzx) .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -940,13 +947,13 @@ dbl (19): total_cup_points, number_of_bags, aroma, flavor, aftertaste, acidi...
   border-top-width: 0;
 }
 
-#ufbyvzcgzx .gt_bottom_border {
+:where(#ufbyvzcgzx) .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#ufbyvzcgzx .gt_col_headings {
+:where(#ufbyvzcgzx) .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -961,7 +968,7 @@ dbl (19): total_cup_points, number_of_bags, aroma, flavor, aftertaste, acidi...
   border-right-color: #D3D3D3;
 }
 
-#ufbyvzcgzx .gt_col_heading {
+:where(#ufbyvzcgzx) .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -981,7 +988,7 @@ dbl (19): total_cup_points, number_of_bags, aroma, flavor, aftertaste, acidi...
   overflow-x: hidden;
 }
 
-#ufbyvzcgzx .gt_column_spanner_outer {
+:where(#ufbyvzcgzx) .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -993,15 +1000,15 @@ dbl (19): total_cup_points, number_of_bags, aroma, flavor, aftertaste, acidi...
   padding-right: 4px;
 }
 
-#ufbyvzcgzx .gt_column_spanner_outer:first-child {
+:where(#ufbyvzcgzx) .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#ufbyvzcgzx .gt_column_spanner_outer:last-child {
+:where(#ufbyvzcgzx) .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#ufbyvzcgzx .gt_column_spanner {
+:where(#ufbyvzcgzx) .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1013,7 +1020,7 @@ dbl (19): total_cup_points, number_of_bags, aroma, flavor, aftertaste, acidi...
   width: 100%;
 }
 
-#ufbyvzcgzx .gt_group_heading {
+:where(#ufbyvzcgzx) .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1035,7 +1042,7 @@ dbl (19): total_cup_points, number_of_bags, aroma, flavor, aftertaste, acidi...
   vertical-align: middle;
 }
 
-#ufbyvzcgzx .gt_empty_group_heading {
+:where(#ufbyvzcgzx) .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1050,15 +1057,15 @@ dbl (19): total_cup_points, number_of_bags, aroma, flavor, aftertaste, acidi...
   vertical-align: middle;
 }
 
-#ufbyvzcgzx .gt_from_md > :first-child {
+:where(#ufbyvzcgzx) .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#ufbyvzcgzx .gt_from_md > :last-child {
+:where(#ufbyvzcgzx) .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#ufbyvzcgzx .gt_row {
+:where(#ufbyvzcgzx) .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1077,7 +1084,7 @@ dbl (19): total_cup_points, number_of_bags, aroma, flavor, aftertaste, acidi...
   overflow-x: hidden;
 }
 
-#ufbyvzcgzx .gt_stub {
+:where(#ufbyvzcgzx) .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1089,7 +1096,7 @@ dbl (19): total_cup_points, number_of_bags, aroma, flavor, aftertaste, acidi...
   padding-left: 12px;
 }
 
-#ufbyvzcgzx .gt_summary_row {
+:where(#ufbyvzcgzx) .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1099,7 +1106,7 @@ dbl (19): total_cup_points, number_of_bags, aroma, flavor, aftertaste, acidi...
   padding-right: 5px;
 }
 
-#ufbyvzcgzx .gt_first_summary_row {
+:where(#ufbyvzcgzx) .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1109,7 +1116,7 @@ dbl (19): total_cup_points, number_of_bags, aroma, flavor, aftertaste, acidi...
   border-top-color: #D3D3D3;
 }
 
-#ufbyvzcgzx .gt_grand_summary_row {
+:where(#ufbyvzcgzx) .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1119,7 +1126,7 @@ dbl (19): total_cup_points, number_of_bags, aroma, flavor, aftertaste, acidi...
   padding-right: 5px;
 }
 
-#ufbyvzcgzx .gt_first_grand_summary_row {
+:where(#ufbyvzcgzx) .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1129,11 +1136,11 @@ dbl (19): total_cup_points, number_of_bags, aroma, flavor, aftertaste, acidi...
   border-top-color: #D3D3D3;
 }
 
-#ufbyvzcgzx .gt_striped {
+:where(#ufbyvzcgzx) .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#ufbyvzcgzx .gt_table_body {
+:where(#ufbyvzcgzx) .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1142,7 +1149,7 @@ dbl (19): total_cup_points, number_of_bags, aroma, flavor, aftertaste, acidi...
   border-bottom-color: #D3D3D3;
 }
 
-#ufbyvzcgzx .gt_footnotes {
+:where(#ufbyvzcgzx) .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1156,13 +1163,13 @@ dbl (19): total_cup_points, number_of_bags, aroma, flavor, aftertaste, acidi...
   border-right-color: #D3D3D3;
 }
 
-#ufbyvzcgzx .gt_footnote {
+:where(#ufbyvzcgzx) .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#ufbyvzcgzx .gt_sourcenotes {
+:where(#ufbyvzcgzx) .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1176,41 +1183,41 @@ dbl (19): total_cup_points, number_of_bags, aroma, flavor, aftertaste, acidi...
   border-right-color: #D3D3D3;
 }
 
-#ufbyvzcgzx .gt_sourcenote {
+:where(#ufbyvzcgzx) .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#ufbyvzcgzx .gt_left {
+:where(#ufbyvzcgzx) .gt_left {
   text-align: left;
 }
 
-#ufbyvzcgzx .gt_center {
+:where(#ufbyvzcgzx) .gt_center {
   text-align: center;
 }
 
-#ufbyvzcgzx .gt_right {
+:where(#ufbyvzcgzx) .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#ufbyvzcgzx .gt_font_normal {
+:where(#ufbyvzcgzx) .gt_font_normal {
   font-weight: normal;
 }
 
-#ufbyvzcgzx .gt_font_bold {
+:where(#ufbyvzcgzx) .gt_font_bold {
   font-weight: bold;
 }
 
-#ufbyvzcgzx .gt_font_italic {
+:where(#ufbyvzcgzx) .gt_font_italic {
   font-style: italic;
 }
 
-#ufbyvzcgzx .gt_super {
+:where(#ufbyvzcgzx) .gt_super {
   font-size: 65%;
 }
 
-#ufbyvzcgzx .gt_footnote_marks {
+:where(#ufbyvzcgzx) .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 65%;
@@ -1581,6 +1588,7 @@ Or contact: &lt;tal.galili@gmail.com&gt;
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{laderas2020,
   author = {Ted Laderas and Ted Laderas},
+  editor = {},
   title = {Coffee {Data} {Exploration}},
   date = {2020-07-08},
   url = {https://laderast.github.io//articles/2020-07-08_coffee},
@@ -1659,7 +1667,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);

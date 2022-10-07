@@ -24,6 +24,7 @@
   {
     "listing": "/talks.html",
     "items": [
+      "/talks/2022-09-14-qmd-rmd/index.html",
       "/talks/2021-06-06-why-shiny-modules/index.html",
       "/talks/2021-06-06-using-gratitude-to-learn-the-tidyverse-together/index.html",
       "/talks/2021-03-22-the-md-in-rmd-teaching-clinicians-analytics-usin-r/index.html",
@@ -46,7 +47,7 @@
       "/articles/2020-9-3_crops/index.html",
       "/articles/2020-08-11-avatar_last_airbender/index.html",
       "/articles/2020-07-08_coffee/index.html",
-      "/articles/2020-05-05_animal-crossing/animal_crossing.html",
+      "/articles/2020-05-05-animal-crossing/index.html",
       "/articles/2019-11-15-my-experience-with-rstudio-instructor-training/2019-11-15-my-experience-with-rstudio-instructor-training.html",
       "/articles/2019-02-12-package-building-how-description-namespace-roxygen-and-devtools-document-work-together/2019-02-12-package-building-how-description-namespace-roxygen-and-devtools-document-work-together.html",
       "/articles/2018-12-13-reframing-impostor-syndrome-as-being-on-the-road-to-mastery/2018-12-13-reframing-impostor-syndrome-as-being-on-the-road-to-mastery.html",
