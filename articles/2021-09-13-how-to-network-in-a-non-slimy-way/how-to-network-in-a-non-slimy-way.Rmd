@@ -2,7 +2,6 @@
 title: "How to Network in a Non-slimy Way"
 description: |
   Use your curiosity to connect with others in a meaningful way.
-author: ~
 date: 09-13-2021
 output:
   distill::distill_article:
