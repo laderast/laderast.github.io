@@ -540,8 +540,8 @@ dbl  (1): row_n
 <span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="fu">datatable</span>(species_count)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 
-<div id="htmlwidget-00405aa8eeb9f28b68e6" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-00405aa8eeb9f28b68e6">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35"],["octopus","cow","bull","rhino","alligator","anteater","hippo","lion","tiger","goat","hamster","kangaroo","monkey","chicken","eagle","gorilla","koala","deer","ostrich","elephant","wolf","bird","penguin","sheep","bear","horse","mouse","pig","cub","dog","duck","frog","squirrel","rabbit","cat"],[3,4,6,6,7,7,7,7,7,8,8,8,8,9,9,9,9,10,10,11,11,13,13,13,15,15,15,15,16,16,17,18,18,20,23]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>species<\/th>\n      <th>species_count<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":2},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-2a793c30bc17cb609dc2" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-2a793c30bc17cb609dc2">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35"],["octopus","cow","bull","rhino","alligator","anteater","hippo","lion","tiger","goat","hamster","kangaroo","monkey","chicken","eagle","gorilla","koala","deer","ostrich","elephant","wolf","bird","penguin","sheep","bear","horse","mouse","pig","cub","dog","duck","frog","squirrel","rabbit","cat"],[3,4,6,6,7,7,7,7,7,8,8,8,8,9,9,9,9,10,10,11,11,13,13,13,15,15,15,15,16,16,17,18,18,20,23]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>species<\/th>\n      <th>species_count<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":2},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>level_order <span class="ot">&lt;-</span> villagers <span class="sc">%&gt;%</span></span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(species) <span class="sc">%&gt;%</span> <span class="fu">count</span>() <span class="sc">%&gt;%</span></span>
@@ -555,7 +555,7 @@ dbl  (1): row_n
 <span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>   <span class="fu">theme_light</span>() <span class="sc">+</span> <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>) <span class="sc">+</span></span>
 <span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">90</span>)) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="animal_crossing_files/figure-html/unnamed-chunk-4-2.png" class="img-fluid" width="960"></p>
+<p><img src="animal-crossing_files/figure-html/unnamed-chunk-4-2.png" class="img-fluid" width="960"></p>
 </div>
 </div>
 <div class="cell">
@@ -582,7 +582,7 @@ dbl  (1): row_n
 </div>
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>out_image</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="animal_crossing_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
+<p><img src="animal-crossing_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
 </div>
 <div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsave</span>(<span class="at">plot=</span>out_image, <span class="at">filename =</span> <span class="st">"unique_animal_personalities.pdf"</span>, <span class="at">width=</span><span class="dv">10</span>, <span class="at">height =</span> <span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -601,8 +601,8 @@ dbl  (1): row_n
 <span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">datatable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 
-<div id="htmlwidget-4d5380c33d4532f429e7" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-4d5380c33d4532f429e7">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60","61","62","63","64","65","66","67","68","69","70","71","72","73","74","75","76","77","78","79","80","81","82","83","84","85","86","87","88","89","90","91","92","93","94","95","96","97","98","99","100","101","102","103","104","105","106","107","108","109","110","111","112","113","114","115","116","117","118","119","120","121","122","123","124","125","126","127","128","129","130","131","132","133","134","135","136","137","138","139","140","141","142","143","144","145","146","147","148","149","150","151","152","153","154","155","156","157","158","159","160","161","162","163","164","165","166","167","168","169","170","171","172","173","174","175","176","177","178","179","180","181","182","183","184","185","186","187","188","189","190","191","192","193","194","195","196","197","198","199","200","201","202","203","204","205","206","207","208","209","210","211","212","213","214","215","216","217"],["peppy","lazy","cranky","peppy","snooty","jock","normal","cranky","jock","lazy","normal","lazy","peppy","snooty","cranky","lazy","peppy","lazy","lazy","snooty","snooty","uchi","cranky","jock","lazy","normal","normal","normal","cranky","lazy","cranky","lazy","smug","normal","normal","jock","jock","snooty","jock","normal","normal","peppy","jock","snooty","jock","lazy","peppy","peppy","smug","lazy","peppy","smug","lazy","cranky","lazy","snooty","snooty","cranky","jock","peppy","lazy","smug","uchi","peppy","jock","normal","jock","snooty","normal","smug","normal","jock","smug","cranky","normal","peppy","snooty","cranky","snooty","smug","lazy","cranky","normal","snooty","normal","jock","snooty","cranky","lazy","peppy","jock","snooty","normal","smug","uchi","cranky","peppy","cranky","normal","snooty","cranky","jock","normal","smug","snooty","jock","lazy","normal","cranky","normal","snooty","jock","smug","uchi","cranky","jock","normal","smug","uchi","normal","peppy","snooty","uchi","cranky","jock","normal","snooty","cranky","jock","smug","snooty","uchi","smug","normal","smug","snooty","cranky","jock","peppy","snooty","uchi","cranky","jock","lazy","smug","snooty","uchi","lazy","smug","snooty","uchi","cranky","jock","lazy","normal","peppy","snooty","jock","normal","peppy","smug","snooty","cranky","jock","uchi","uchi","cranky","jock","lazy","smug","snooty","uchi","cranky","lazy","cranky","jock","normal","peppy","snooty","uchi","lazy","smug","cranky","lazy","normal","jock","lazy","peppy","smug","uchi","cranky","normal","peppy","smug","uchi","smug","snooty","uchi","cranky","normal","smug","uchi","cranky","jock","lazy","uchi","jock","peppy","jock","lazy","smug","uchi","cranky","snooty","normal","peppy","smug"],["rabbit","dog","bear","cat","cat","frog","squirrel","wolf","bird","cub","cub","duck","duck","duck","eagle","elephant","mouse","penguin","rabbit","sheep","squirrel","bear","bull","cat","cat","cat","dog","elephant","frog","frog","gorilla","horse","horse","kangaroo","koala","lion","mouse","ostrich","pig","pig","sheep","squirrel","tiger","wolf","alligator","alligator","anteater","bear","bear","bird","bird","bird","bull","cat","chicken","chicken","cow","cub","cub","cub","deer","deer","deer","dog","duck","duck","eagle","elephant","frog","frog","goat","gorilla","hamster","hippo","horse","horse","horse","kangaroo","kangaroo","lion","monkey","mouse","mouse","mouse","ostrich","penguin","penguin","pig","pig","pig","rabbit","rabbit","rhino","sheep","sheep","squirrel","tiger","alligator","alligator","alligator","anteater","anteater","anteater","anteater","anteater","bear","bear","bear","bird","bird","bird","bull","cat","cat","chicken","chicken","chicken","chicken","chicken","cow","cow","cub","cub","deer","deer","deer","deer","dog","dog","dog","dog","dog","duck","eagle","eagle","eagle","elephant","elephant","frog","frog","frog","goat","goat","goat","goat","goat","goat","gorilla","gorilla","gorilla","gorilla","hamster","hamster","hamster","hamster","hamster","hamster","hippo","hippo","hippo","hippo","hippo","horse","horse","horse","kangaroo","koala","koala","koala","koala","koala","koala","lion","lion","monkey","monkey","monkey","monkey","monkey","monkey","mouse","mouse","octopus","octopus","octopus","ostrich","ostrich","ostrich","ostrich","ostrich","penguin","penguin","penguin","penguin","penguin","pig","pig","pig","rabbit","rabbit","rabbit","rabbit","rhino","rhino","rhino","rhino","sheep","sheep","squirrel","squirrel","squirrel","squirrel","tiger","tiger","wolf","wolf","wolf"],[8,6,5,5,5,5,5,5,4,4,4,4,4,4,4,4,4,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>personality<\/th>\n      <th>species<\/th>\n      <th>count<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":3},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-d775c7f25380071c6b4b" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-d775c7f25380071c6b4b">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60","61","62","63","64","65","66","67","68","69","70","71","72","73","74","75","76","77","78","79","80","81","82","83","84","85","86","87","88","89","90","91","92","93","94","95","96","97","98","99","100","101","102","103","104","105","106","107","108","109","110","111","112","113","114","115","116","117","118","119","120","121","122","123","124","125","126","127","128","129","130","131","132","133","134","135","136","137","138","139","140","141","142","143","144","145","146","147","148","149","150","151","152","153","154","155","156","157","158","159","160","161","162","163","164","165","166","167","168","169","170","171","172","173","174","175","176","177","178","179","180","181","182","183","184","185","186","187","188","189","190","191","192","193","194","195","196","197","198","199","200","201","202","203","204","205","206","207","208","209","210","211","212","213","214","215","216","217"],["peppy","lazy","cranky","peppy","snooty","jock","normal","cranky","jock","lazy","normal","lazy","peppy","snooty","cranky","lazy","peppy","lazy","lazy","snooty","snooty","uchi","cranky","jock","lazy","normal","normal","normal","cranky","lazy","cranky","lazy","smug","normal","normal","jock","jock","snooty","jock","normal","normal","peppy","jock","snooty","jock","lazy","peppy","peppy","smug","lazy","peppy","smug","lazy","cranky","lazy","snooty","snooty","cranky","jock","peppy","lazy","smug","uchi","peppy","jock","normal","jock","snooty","normal","smug","normal","jock","smug","cranky","normal","peppy","snooty","cranky","snooty","smug","lazy","cranky","normal","snooty","normal","jock","snooty","cranky","lazy","peppy","jock","snooty","normal","smug","uchi","cranky","peppy","cranky","normal","snooty","cranky","jock","normal","smug","snooty","jock","lazy","normal","cranky","normal","snooty","jock","smug","uchi","cranky","jock","normal","smug","uchi","normal","peppy","snooty","uchi","cranky","jock","normal","snooty","cranky","jock","smug","snooty","uchi","smug","normal","smug","snooty","cranky","jock","peppy","snooty","uchi","cranky","jock","lazy","smug","snooty","uchi","lazy","smug","snooty","uchi","cranky","jock","lazy","normal","peppy","snooty","jock","normal","peppy","smug","snooty","cranky","jock","uchi","uchi","cranky","jock","lazy","smug","snooty","uchi","cranky","lazy","cranky","jock","normal","peppy","snooty","uchi","lazy","smug","cranky","lazy","normal","jock","lazy","peppy","smug","uchi","cranky","normal","peppy","smug","uchi","smug","snooty","uchi","cranky","normal","smug","uchi","cranky","jock","lazy","uchi","jock","peppy","jock","lazy","smug","uchi","cranky","snooty","normal","peppy","smug"],["rabbit","dog","bear","cat","cat","frog","squirrel","wolf","bird","cub","cub","duck","duck","duck","eagle","elephant","mouse","penguin","rabbit","sheep","squirrel","bear","bull","cat","cat","cat","dog","elephant","frog","frog","gorilla","horse","horse","kangaroo","koala","lion","mouse","ostrich","pig","pig","sheep","squirrel","tiger","wolf","alligator","alligator","anteater","bear","bear","bird","bird","bird","bull","cat","chicken","chicken","cow","cub","cub","cub","deer","deer","deer","dog","duck","duck","eagle","elephant","frog","frog","goat","gorilla","hamster","hippo","horse","horse","horse","kangaroo","kangaroo","lion","monkey","mouse","mouse","mouse","ostrich","penguin","penguin","pig","pig","pig","rabbit","rabbit","rhino","sheep","sheep","squirrel","tiger","alligator","alligator","alligator","anteater","anteater","anteater","anteater","anteater","bear","bear","bear","bird","bird","bird","bull","cat","cat","chicken","chicken","chicken","chicken","chicken","cow","cow","cub","cub","deer","deer","deer","deer","dog","dog","dog","dog","dog","duck","eagle","eagle","eagle","elephant","elephant","frog","frog","frog","goat","goat","goat","goat","goat","goat","gorilla","gorilla","gorilla","gorilla","hamster","hamster","hamster","hamster","hamster","hamster","hippo","hippo","hippo","hippo","hippo","horse","horse","horse","kangaroo","koala","koala","koala","koala","koala","koala","lion","lion","monkey","monkey","monkey","monkey","monkey","monkey","mouse","mouse","octopus","octopus","octopus","ostrich","ostrich","ostrich","ostrich","ostrich","penguin","penguin","penguin","penguin","penguin","pig","pig","pig","rabbit","rabbit","rabbit","rabbit","rhino","rhino","rhino","rhino","sheep","sheep","squirrel","squirrel","squirrel","squirrel","tiger","tiger","wolf","wolf","wolf"],[8,6,5,5,5,5,5,5,4,4,4,4,4,4,4,4,4,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>personality<\/th>\n      <th>species<\/th>\n      <th>count<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":3},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section>
@@ -910,7 +910,7 @@ dbl  (1): row_n
 <pre><code>Warning: Removed 1094 rows containing non-finite values (stat_boxplot).</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="animal_crossing_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
+<p><img src="animal-crossing_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -940,12 +940,12 @@ dbl  (1): row_n
 </div>
 <div class="cell-output-display">
 
-<div id="aaiozslign" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="kzqxlacxvh" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-:where(#aaiozslign) .gt_table {
+:where(#kzqxlacxvh) .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -970,7 +970,7 @@ dbl  (1): row_n
   border-left-color: #D3D3D3;
 }
 
-:where(#aaiozslign) .gt_heading {
+:where(#kzqxlacxvh) .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -982,7 +982,7 @@ dbl  (1): row_n
   border-right-color: #D3D3D3;
 }
 
-:where(#aaiozslign) .gt_title {
+:where(#kzqxlacxvh) .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -992,7 +992,7 @@ dbl  (1): row_n
   border-bottom-width: 0;
 }
 
-:where(#aaiozslign) .gt_subtitle {
+:where(#kzqxlacxvh) .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1002,13 +1002,13 @@ dbl  (1): row_n
   border-top-width: 0;
 }
 
-:where(#aaiozslign) .gt_bottom_border {
+:where(#kzqxlacxvh) .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-:where(#aaiozslign) .gt_col_headings {
+:where(#kzqxlacxvh) .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1023,7 +1023,7 @@ dbl  (1): row_n
   border-right-color: #D3D3D3;
 }
 
-:where(#aaiozslign) .gt_col_heading {
+:where(#kzqxlacxvh) .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1043,7 +1043,7 @@ dbl  (1): row_n
   overflow-x: hidden;
 }
 
-:where(#aaiozslign) .gt_column_spanner_outer {
+:where(#kzqxlacxvh) .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1055,15 +1055,15 @@ dbl  (1): row_n
   padding-right: 4px;
 }
 
-:where(#aaiozslign) .gt_column_spanner_outer:first-child {
+:where(#kzqxlacxvh) .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-:where(#aaiozslign) .gt_column_spanner_outer:last-child {
+:where(#kzqxlacxvh) .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-:where(#aaiozslign) .gt_column_spanner {
+:where(#kzqxlacxvh) .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1075,7 +1075,7 @@ dbl  (1): row_n
   width: 100%;
 }
 
-:where(#aaiozslign) .gt_group_heading {
+:where(#kzqxlacxvh) .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1097,7 +1097,7 @@ dbl  (1): row_n
   vertical-align: middle;
 }
 
-:where(#aaiozslign) .gt_empty_group_heading {
+:where(#kzqxlacxvh) .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1112,15 +1112,15 @@ dbl  (1): row_n
   vertical-align: middle;
 }
 
-:where(#aaiozslign) .gt_from_md > :first-child {
+:where(#kzqxlacxvh) .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-:where(#aaiozslign) .gt_from_md > :last-child {
+:where(#kzqxlacxvh) .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-:where(#aaiozslign) .gt_row {
+:where(#kzqxlacxvh) .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1139,7 +1139,7 @@ dbl  (1): row_n
   overflow-x: hidden;
 }
 
-:where(#aaiozslign) .gt_stub {
+:where(#kzqxlacxvh) .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1151,7 +1151,7 @@ dbl  (1): row_n
   padding-left: 12px;
 }
 
-:where(#aaiozslign) .gt_summary_row {
+:where(#kzqxlacxvh) .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1161,7 +1161,7 @@ dbl  (1): row_n
   padding-right: 5px;
 }
 
-:where(#aaiozslign) .gt_first_summary_row {
+:where(#kzqxlacxvh) .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1171,7 +1171,7 @@ dbl  (1): row_n
   border-top-color: #D3D3D3;
 }
 
-:where(#aaiozslign) .gt_grand_summary_row {
+:where(#kzqxlacxvh) .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1181,7 +1181,7 @@ dbl  (1): row_n
   padding-right: 5px;
 }
 
-:where(#aaiozslign) .gt_first_grand_summary_row {
+:where(#kzqxlacxvh) .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1191,11 +1191,11 @@ dbl  (1): row_n
   border-top-color: #D3D3D3;
 }
 
-:where(#aaiozslign) .gt_striped {
+:where(#kzqxlacxvh) .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-:where(#aaiozslign) .gt_table_body {
+:where(#kzqxlacxvh) .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1204,7 +1204,7 @@ dbl  (1): row_n
   border-bottom-color: #D3D3D3;
 }
 
-:where(#aaiozslign) .gt_footnotes {
+:where(#kzqxlacxvh) .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1218,13 +1218,13 @@ dbl  (1): row_n
   border-right-color: #D3D3D3;
 }
 
-:where(#aaiozslign) .gt_footnote {
+:where(#kzqxlacxvh) .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-:where(#aaiozslign) .gt_sourcenotes {
+:where(#kzqxlacxvh) .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1238,41 +1238,41 @@ dbl  (1): row_n
   border-right-color: #D3D3D3;
 }
 
-:where(#aaiozslign) .gt_sourcenote {
+:where(#kzqxlacxvh) .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-:where(#aaiozslign) .gt_left {
+:where(#kzqxlacxvh) .gt_left {
   text-align: left;
 }
 
-:where(#aaiozslign) .gt_center {
+:where(#kzqxlacxvh) .gt_center {
   text-align: center;
 }
 
-:where(#aaiozslign) .gt_right {
+:where(#kzqxlacxvh) .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-:where(#aaiozslign) .gt_font_normal {
+:where(#kzqxlacxvh) .gt_font_normal {
   font-weight: normal;
 }
 
-:where(#aaiozslign) .gt_font_bold {
+:where(#kzqxlacxvh) .gt_font_bold {
   font-weight: bold;
 }
 
-:where(#aaiozslign) .gt_font_italic {
+:where(#kzqxlacxvh) .gt_font_italic {
   font-style: italic;
 }
 
-:where(#aaiozslign) .gt_super {
+:where(#kzqxlacxvh) .gt_super {
   font-size: 65%;
 }
 
-:where(#aaiozslign) .gt_footnote_marks {
+:where(#kzqxlacxvh) .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 65%;
@@ -1389,12 +1389,12 @@ dbl  (1): row_n
 </div>
 <div class="cell-output-display">
 
-<div id="tadfsujhms" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="stahlldcua" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-:where(#tadfsujhms) .gt_table {
+:where(#stahlldcua) .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -1419,7 +1419,7 @@ dbl  (1): row_n
   border-left-color: #D3D3D3;
 }
 
-:where(#tadfsujhms) .gt_heading {
+:where(#stahlldcua) .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1431,7 +1431,7 @@ dbl  (1): row_n
   border-right-color: #D3D3D3;
 }
 
-:where(#tadfsujhms) .gt_title {
+:where(#stahlldcua) .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1441,7 +1441,7 @@ dbl  (1): row_n
   border-bottom-width: 0;
 }
 
-:where(#tadfsujhms) .gt_subtitle {
+:where(#stahlldcua) .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1451,13 +1451,13 @@ dbl  (1): row_n
   border-top-width: 0;
 }
 
-:where(#tadfsujhms) .gt_bottom_border {
+:where(#stahlldcua) .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-:where(#tadfsujhms) .gt_col_headings {
+:where(#stahlldcua) .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1472,7 +1472,7 @@ dbl  (1): row_n
   border-right-color: #D3D3D3;
 }
 
-:where(#tadfsujhms) .gt_col_heading {
+:where(#stahlldcua) .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1492,7 +1492,7 @@ dbl  (1): row_n
   overflow-x: hidden;
 }
 
-:where(#tadfsujhms) .gt_column_spanner_outer {
+:where(#stahlldcua) .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1504,15 +1504,15 @@ dbl  (1): row_n
   padding-right: 4px;
 }
 
-:where(#tadfsujhms) .gt_column_spanner_outer:first-child {
+:where(#stahlldcua) .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-:where(#tadfsujhms) .gt_column_spanner_outer:last-child {
+:where(#stahlldcua) .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-:where(#tadfsujhms) .gt_column_spanner {
+:where(#stahlldcua) .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1524,7 +1524,7 @@ dbl  (1): row_n
   width: 100%;
 }
 
-:where(#tadfsujhms) .gt_group_heading {
+:where(#stahlldcua) .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1546,7 +1546,7 @@ dbl  (1): row_n
   vertical-align: middle;
 }
 
-:where(#tadfsujhms) .gt_empty_group_heading {
+:where(#stahlldcua) .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1561,15 +1561,15 @@ dbl  (1): row_n
   vertical-align: middle;
 }
 
-:where(#tadfsujhms) .gt_from_md > :first-child {
+:where(#stahlldcua) .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-:where(#tadfsujhms) .gt_from_md > :last-child {
+:where(#stahlldcua) .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-:where(#tadfsujhms) .gt_row {
+:where(#stahlldcua) .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1588,7 +1588,7 @@ dbl  (1): row_n
   overflow-x: hidden;
 }
 
-:where(#tadfsujhms) .gt_stub {
+:where(#stahlldcua) .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1600,7 +1600,7 @@ dbl  (1): row_n
   padding-left: 12px;
 }
 
-:where(#tadfsujhms) .gt_summary_row {
+:where(#stahlldcua) .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1610,7 +1610,7 @@ dbl  (1): row_n
   padding-right: 5px;
 }
 
-:where(#tadfsujhms) .gt_first_summary_row {
+:where(#stahlldcua) .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1620,7 +1620,7 @@ dbl  (1): row_n
   border-top-color: #D3D3D3;
 }
 
-:where(#tadfsujhms) .gt_grand_summary_row {
+:where(#stahlldcua) .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1630,7 +1630,7 @@ dbl  (1): row_n
   padding-right: 5px;
 }
 
-:where(#tadfsujhms) .gt_first_grand_summary_row {
+:where(#stahlldcua) .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1640,11 +1640,11 @@ dbl  (1): row_n
   border-top-color: #D3D3D3;
 }
 
-:where(#tadfsujhms) .gt_striped {
+:where(#stahlldcua) .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-:where(#tadfsujhms) .gt_table_body {
+:where(#stahlldcua) .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1653,7 +1653,7 @@ dbl  (1): row_n
   border-bottom-color: #D3D3D3;
 }
 
-:where(#tadfsujhms) .gt_footnotes {
+:where(#stahlldcua) .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1667,13 +1667,13 @@ dbl  (1): row_n
   border-right-color: #D3D3D3;
 }
 
-:where(#tadfsujhms) .gt_footnote {
+:where(#stahlldcua) .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-:where(#tadfsujhms) .gt_sourcenotes {
+:where(#stahlldcua) .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1687,41 +1687,41 @@ dbl  (1): row_n
   border-right-color: #D3D3D3;
 }
 
-:where(#tadfsujhms) .gt_sourcenote {
+:where(#stahlldcua) .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-:where(#tadfsujhms) .gt_left {
+:where(#stahlldcua) .gt_left {
   text-align: left;
 }
 
-:where(#tadfsujhms) .gt_center {
+:where(#stahlldcua) .gt_center {
   text-align: center;
 }
 
-:where(#tadfsujhms) .gt_right {
+:where(#stahlldcua) .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-:where(#tadfsujhms) .gt_font_normal {
+:where(#stahlldcua) .gt_font_normal {
   font-weight: normal;
 }
 
-:where(#tadfsujhms) .gt_font_bold {
+:where(#stahlldcua) .gt_font_bold {
   font-weight: bold;
 }
 
-:where(#tadfsujhms) .gt_font_italic {
+:where(#stahlldcua) .gt_font_italic {
   font-style: italic;
 }
 
-:where(#tadfsujhms) .gt_super {
+:where(#stahlldcua) .gt_super {
   font-size: 65%;
 }
 
-:where(#tadfsujhms) .gt_footnote_marks {
+:where(#stahlldcua) .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 65%;
@@ -1812,12 +1812,12 @@ dbl  (1): row_n
 </div>
 <div class="cell-output-display">
 
-<div id="icfcnpubam" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="xviwkguczp" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-:where(#icfcnpubam) .gt_table {
+:where(#xviwkguczp) .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -1842,7 +1842,7 @@ dbl  (1): row_n
   border-left-color: #D3D3D3;
 }
 
-:where(#icfcnpubam) .gt_heading {
+:where(#xviwkguczp) .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1854,7 +1854,7 @@ dbl  (1): row_n
   border-right-color: #D3D3D3;
 }
 
-:where(#icfcnpubam) .gt_title {
+:where(#xviwkguczp) .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1864,7 +1864,7 @@ dbl  (1): row_n
   border-bottom-width: 0;
 }
 
-:where(#icfcnpubam) .gt_subtitle {
+:where(#xviwkguczp) .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1874,13 +1874,13 @@ dbl  (1): row_n
   border-top-width: 0;
 }
 
-:where(#icfcnpubam) .gt_bottom_border {
+:where(#xviwkguczp) .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-:where(#icfcnpubam) .gt_col_headings {
+:where(#xviwkguczp) .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1895,7 +1895,7 @@ dbl  (1): row_n
   border-right-color: #D3D3D3;
 }
 
-:where(#icfcnpubam) .gt_col_heading {
+:where(#xviwkguczp) .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1915,7 +1915,7 @@ dbl  (1): row_n
   overflow-x: hidden;
 }
 
-:where(#icfcnpubam) .gt_column_spanner_outer {
+:where(#xviwkguczp) .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1927,15 +1927,15 @@ dbl  (1): row_n
   padding-right: 4px;
 }
 
-:where(#icfcnpubam) .gt_column_spanner_outer:first-child {
+:where(#xviwkguczp) .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-:where(#icfcnpubam) .gt_column_spanner_outer:last-child {
+:where(#xviwkguczp) .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-:where(#icfcnpubam) .gt_column_spanner {
+:where(#xviwkguczp) .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1947,7 +1947,7 @@ dbl  (1): row_n
   width: 100%;
 }
 
-:where(#icfcnpubam) .gt_group_heading {
+:where(#xviwkguczp) .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1969,7 +1969,7 @@ dbl  (1): row_n
   vertical-align: middle;
 }
 
-:where(#icfcnpubam) .gt_empty_group_heading {
+:where(#xviwkguczp) .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1984,15 +1984,15 @@ dbl  (1): row_n
   vertical-align: middle;
 }
 
-:where(#icfcnpubam) .gt_from_md > :first-child {
+:where(#xviwkguczp) .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-:where(#icfcnpubam) .gt_from_md > :last-child {
+:where(#xviwkguczp) .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-:where(#icfcnpubam) .gt_row {
+:where(#xviwkguczp) .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2011,7 +2011,7 @@ dbl  (1): row_n
   overflow-x: hidden;
 }
 
-:where(#icfcnpubam) .gt_stub {
+:where(#xviwkguczp) .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2023,7 +2023,7 @@ dbl  (1): row_n
   padding-left: 12px;
 }
 
-:where(#icfcnpubam) .gt_summary_row {
+:where(#xviwkguczp) .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2033,7 +2033,7 @@ dbl  (1): row_n
   padding-right: 5px;
 }
 
-:where(#icfcnpubam) .gt_first_summary_row {
+:where(#xviwkguczp) .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2043,7 +2043,7 @@ dbl  (1): row_n
   border-top-color: #D3D3D3;
 }
 
-:where(#icfcnpubam) .gt_grand_summary_row {
+:where(#xviwkguczp) .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2053,7 +2053,7 @@ dbl  (1): row_n
   padding-right: 5px;
 }
 
-:where(#icfcnpubam) .gt_first_grand_summary_row {
+:where(#xviwkguczp) .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2063,11 +2063,11 @@ dbl  (1): row_n
   border-top-color: #D3D3D3;
 }
 
-:where(#icfcnpubam) .gt_striped {
+:where(#xviwkguczp) .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-:where(#icfcnpubam) .gt_table_body {
+:where(#xviwkguczp) .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2076,7 +2076,7 @@ dbl  (1): row_n
   border-bottom-color: #D3D3D3;
 }
 
-:where(#icfcnpubam) .gt_footnotes {
+:where(#xviwkguczp) .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2090,13 +2090,13 @@ dbl  (1): row_n
   border-right-color: #D3D3D3;
 }
 
-:where(#icfcnpubam) .gt_footnote {
+:where(#xviwkguczp) .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-:where(#icfcnpubam) .gt_sourcenotes {
+:where(#xviwkguczp) .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2110,41 +2110,41 @@ dbl  (1): row_n
   border-right-color: #D3D3D3;
 }
 
-:where(#icfcnpubam) .gt_sourcenote {
+:where(#xviwkguczp) .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-:where(#icfcnpubam) .gt_left {
+:where(#xviwkguczp) .gt_left {
   text-align: left;
 }
 
-:where(#icfcnpubam) .gt_center {
+:where(#xviwkguczp) .gt_center {
   text-align: center;
 }
 
-:where(#icfcnpubam) .gt_right {
+:where(#xviwkguczp) .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-:where(#icfcnpubam) .gt_font_normal {
+:where(#xviwkguczp) .gt_font_normal {
   font-weight: normal;
 }
 
-:where(#icfcnpubam) .gt_font_bold {
+:where(#xviwkguczp) .gt_font_bold {
   font-weight: bold;
 }
 
-:where(#icfcnpubam) .gt_font_italic {
+:where(#xviwkguczp) .gt_font_italic {
   font-style: italic;
 }
 
-:where(#icfcnpubam) .gt_super {
+:where(#xviwkguczp) .gt_super {
   font-size: 65%;
 }
 
-:where(#icfcnpubam) .gt_footnote_marks {
+:where(#xviwkguczp) .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 65%;
@@ -2231,12 +2231,12 @@ dbl  (1): row_n
 </div>
 <div class="cell-output-display">
 
-<div id="bznxkhkhtp" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="yvavjxnxee" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-:where(#bznxkhkhtp) .gt_table {
+:where(#yvavjxnxee) .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -2261,7 +2261,7 @@ dbl  (1): row_n
   border-left-color: #D3D3D3;
 }
 
-:where(#bznxkhkhtp) .gt_heading {
+:where(#yvavjxnxee) .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -2273,7 +2273,7 @@ dbl  (1): row_n
   border-right-color: #D3D3D3;
 }
 
-:where(#bznxkhkhtp) .gt_title {
+:where(#yvavjxnxee) .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -2283,7 +2283,7 @@ dbl  (1): row_n
   border-bottom-width: 0;
 }
 
-:where(#bznxkhkhtp) .gt_subtitle {
+:where(#yvavjxnxee) .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -2293,13 +2293,13 @@ dbl  (1): row_n
   border-top-width: 0;
 }
 
-:where(#bznxkhkhtp) .gt_bottom_border {
+:where(#yvavjxnxee) .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-:where(#bznxkhkhtp) .gt_col_headings {
+:where(#yvavjxnxee) .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2314,7 +2314,7 @@ dbl  (1): row_n
   border-right-color: #D3D3D3;
 }
 
-:where(#bznxkhkhtp) .gt_col_heading {
+:where(#yvavjxnxee) .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2334,7 +2334,7 @@ dbl  (1): row_n
   overflow-x: hidden;
 }
 
-:where(#bznxkhkhtp) .gt_column_spanner_outer {
+:where(#yvavjxnxee) .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2346,15 +2346,15 @@ dbl  (1): row_n
   padding-right: 4px;
 }
 
-:where(#bznxkhkhtp) .gt_column_spanner_outer:first-child {
+:where(#yvavjxnxee) .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-:where(#bznxkhkhtp) .gt_column_spanner_outer:last-child {
+:where(#yvavjxnxee) .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-:where(#bznxkhkhtp) .gt_column_spanner {
+:where(#yvavjxnxee) .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -2366,7 +2366,7 @@ dbl  (1): row_n
   width: 100%;
 }
 
-:where(#bznxkhkhtp) .gt_group_heading {
+:where(#yvavjxnxee) .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2388,7 +2388,7 @@ dbl  (1): row_n
   vertical-align: middle;
 }
 
-:where(#bznxkhkhtp) .gt_empty_group_heading {
+:where(#yvavjxnxee) .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2403,15 +2403,15 @@ dbl  (1): row_n
   vertical-align: middle;
 }
 
-:where(#bznxkhkhtp) .gt_from_md > :first-child {
+:where(#yvavjxnxee) .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-:where(#bznxkhkhtp) .gt_from_md > :last-child {
+:where(#yvavjxnxee) .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-:where(#bznxkhkhtp) .gt_row {
+:where(#yvavjxnxee) .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2430,7 +2430,7 @@ dbl  (1): row_n
   overflow-x: hidden;
 }
 
-:where(#bznxkhkhtp) .gt_stub {
+:where(#yvavjxnxee) .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2442,7 +2442,7 @@ dbl  (1): row_n
   padding-left: 12px;
 }
 
-:where(#bznxkhkhtp) .gt_summary_row {
+:where(#yvavjxnxee) .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2452,7 +2452,7 @@ dbl  (1): row_n
   padding-right: 5px;
 }
 
-:where(#bznxkhkhtp) .gt_first_summary_row {
+:where(#yvavjxnxee) .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2462,7 +2462,7 @@ dbl  (1): row_n
   border-top-color: #D3D3D3;
 }
 
-:where(#bznxkhkhtp) .gt_grand_summary_row {
+:where(#yvavjxnxee) .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2472,7 +2472,7 @@ dbl  (1): row_n
   padding-right: 5px;
 }
 
-:where(#bznxkhkhtp) .gt_first_grand_summary_row {
+:where(#yvavjxnxee) .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2482,11 +2482,11 @@ dbl  (1): row_n
   border-top-color: #D3D3D3;
 }
 
-:where(#bznxkhkhtp) .gt_striped {
+:where(#yvavjxnxee) .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-:where(#bznxkhkhtp) .gt_table_body {
+:where(#yvavjxnxee) .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2495,7 +2495,7 @@ dbl  (1): row_n
   border-bottom-color: #D3D3D3;
 }
 
-:where(#bznxkhkhtp) .gt_footnotes {
+:where(#yvavjxnxee) .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2509,13 +2509,13 @@ dbl  (1): row_n
   border-right-color: #D3D3D3;
 }
 
-:where(#bznxkhkhtp) .gt_footnote {
+:where(#yvavjxnxee) .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-:where(#bznxkhkhtp) .gt_sourcenotes {
+:where(#yvavjxnxee) .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2529,41 +2529,41 @@ dbl  (1): row_n
   border-right-color: #D3D3D3;
 }
 
-:where(#bznxkhkhtp) .gt_sourcenote {
+:where(#yvavjxnxee) .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-:where(#bznxkhkhtp) .gt_left {
+:where(#yvavjxnxee) .gt_left {
   text-align: left;
 }
 
-:where(#bznxkhkhtp) .gt_center {
+:where(#yvavjxnxee) .gt_center {
   text-align: center;
 }
 
-:where(#bznxkhkhtp) .gt_right {
+:where(#yvavjxnxee) .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-:where(#bznxkhkhtp) .gt_font_normal {
+:where(#yvavjxnxee) .gt_font_normal {
   font-weight: normal;
 }
 
-:where(#bznxkhkhtp) .gt_font_bold {
+:where(#yvavjxnxee) .gt_font_bold {
   font-weight: bold;
 }
 
-:where(#bznxkhkhtp) .gt_font_italic {
+:where(#yvavjxnxee) .gt_font_italic {
   font-style: italic;
 }
 
-:where(#bznxkhkhtp) .gt_super {
+:where(#yvavjxnxee) .gt_super {
   font-size: 65%;
 }
 
-:where(#bznxkhkhtp) .gt_footnote_marks {
+:where(#yvavjxnxee) .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 65%;
@@ -2664,12 +2664,12 @@ dbl  (1): row_n
 </div>
 <div class="cell-output-display">
 
-<div id="gvklpuyfeu" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="lllqzvxjuk" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-:where(#gvklpuyfeu) .gt_table {
+:where(#lllqzvxjuk) .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -2694,7 +2694,7 @@ dbl  (1): row_n
   border-left-color: #D3D3D3;
 }
 
-:where(#gvklpuyfeu) .gt_heading {
+:where(#lllqzvxjuk) .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -2706,7 +2706,7 @@ dbl  (1): row_n
   border-right-color: #D3D3D3;
 }
 
-:where(#gvklpuyfeu) .gt_title {
+:where(#lllqzvxjuk) .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -2716,7 +2716,7 @@ dbl  (1): row_n
   border-bottom-width: 0;
 }
 
-:where(#gvklpuyfeu) .gt_subtitle {
+:where(#lllqzvxjuk) .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -2726,13 +2726,13 @@ dbl  (1): row_n
   border-top-width: 0;
 }
 
-:where(#gvklpuyfeu) .gt_bottom_border {
+:where(#lllqzvxjuk) .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-:where(#gvklpuyfeu) .gt_col_headings {
+:where(#lllqzvxjuk) .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2747,7 +2747,7 @@ dbl  (1): row_n
   border-right-color: #D3D3D3;
 }
 
-:where(#gvklpuyfeu) .gt_col_heading {
+:where(#lllqzvxjuk) .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2767,7 +2767,7 @@ dbl  (1): row_n
   overflow-x: hidden;
 }
 
-:where(#gvklpuyfeu) .gt_column_spanner_outer {
+:where(#lllqzvxjuk) .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2779,15 +2779,15 @@ dbl  (1): row_n
   padding-right: 4px;
 }
 
-:where(#gvklpuyfeu) .gt_column_spanner_outer:first-child {
+:where(#lllqzvxjuk) .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-:where(#gvklpuyfeu) .gt_column_spanner_outer:last-child {
+:where(#lllqzvxjuk) .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-:where(#gvklpuyfeu) .gt_column_spanner {
+:where(#lllqzvxjuk) .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -2799,7 +2799,7 @@ dbl  (1): row_n
   width: 100%;
 }
 
-:where(#gvklpuyfeu) .gt_group_heading {
+:where(#lllqzvxjuk) .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2821,7 +2821,7 @@ dbl  (1): row_n
   vertical-align: middle;
 }
 
-:where(#gvklpuyfeu) .gt_empty_group_heading {
+:where(#lllqzvxjuk) .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2836,15 +2836,15 @@ dbl  (1): row_n
   vertical-align: middle;
 }
 
-:where(#gvklpuyfeu) .gt_from_md > :first-child {
+:where(#lllqzvxjuk) .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-:where(#gvklpuyfeu) .gt_from_md > :last-child {
+:where(#lllqzvxjuk) .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-:where(#gvklpuyfeu) .gt_row {
+:where(#lllqzvxjuk) .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2863,7 +2863,7 @@ dbl  (1): row_n
   overflow-x: hidden;
 }
 
-:where(#gvklpuyfeu) .gt_stub {
+:where(#lllqzvxjuk) .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2875,7 +2875,7 @@ dbl  (1): row_n
   padding-left: 12px;
 }
 
-:where(#gvklpuyfeu) .gt_summary_row {
+:where(#lllqzvxjuk) .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2885,7 +2885,7 @@ dbl  (1): row_n
   padding-right: 5px;
 }
 
-:where(#gvklpuyfeu) .gt_first_summary_row {
+:where(#lllqzvxjuk) .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2895,7 +2895,7 @@ dbl  (1): row_n
   border-top-color: #D3D3D3;
 }
 
-:where(#gvklpuyfeu) .gt_grand_summary_row {
+:where(#lllqzvxjuk) .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2905,7 +2905,7 @@ dbl  (1): row_n
   padding-right: 5px;
 }
 
-:where(#gvklpuyfeu) .gt_first_grand_summary_row {
+:where(#lllqzvxjuk) .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2915,11 +2915,11 @@ dbl  (1): row_n
   border-top-color: #D3D3D3;
 }
 
-:where(#gvklpuyfeu) .gt_striped {
+:where(#lllqzvxjuk) .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-:where(#gvklpuyfeu) .gt_table_body {
+:where(#lllqzvxjuk) .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2928,7 +2928,7 @@ dbl  (1): row_n
   border-bottom-color: #D3D3D3;
 }
 
-:where(#gvklpuyfeu) .gt_footnotes {
+:where(#lllqzvxjuk) .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2942,13 +2942,13 @@ dbl  (1): row_n
   border-right-color: #D3D3D3;
 }
 
-:where(#gvklpuyfeu) .gt_footnote {
+:where(#lllqzvxjuk) .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-:where(#gvklpuyfeu) .gt_sourcenotes {
+:where(#lllqzvxjuk) .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2962,41 +2962,41 @@ dbl  (1): row_n
   border-right-color: #D3D3D3;
 }
 
-:where(#gvklpuyfeu) .gt_sourcenote {
+:where(#lllqzvxjuk) .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-:where(#gvklpuyfeu) .gt_left {
+:where(#lllqzvxjuk) .gt_left {
   text-align: left;
 }
 
-:where(#gvklpuyfeu) .gt_center {
+:where(#lllqzvxjuk) .gt_center {
   text-align: center;
 }
 
-:where(#gvklpuyfeu) .gt_right {
+:where(#lllqzvxjuk) .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-:where(#gvklpuyfeu) .gt_font_normal {
+:where(#lllqzvxjuk) .gt_font_normal {
   font-weight: normal;
 }
 
-:where(#gvklpuyfeu) .gt_font_bold {
+:where(#lllqzvxjuk) .gt_font_bold {
   font-weight: bold;
 }
 
-:where(#gvklpuyfeu) .gt_font_italic {
+:where(#lllqzvxjuk) .gt_font_italic {
   font-style: italic;
 }
 
-:where(#gvklpuyfeu) .gt_super {
+:where(#lllqzvxjuk) .gt_super {
   font-size: 65%;
 }
 
-:where(#gvklpuyfeu) .gt_footnote_marks {
+:where(#lllqzvxjuk) .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 65%;
@@ -3115,7 +3115,7 @@ dbl  (1): row_n
 <span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x=</span>category)) <span class="sc">+</span> <span class="fu">geom_bar</span>() <span class="sc">+</span></span>
 <span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle=</span><span class="dv">90</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="animal_crossing_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid" width="672"></p>
+<p><img src="animal-crossing_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <div class="cell">
@@ -3139,7 +3139,7 @@ dbl  (1): row_n
 Use `aes(label = after_stat(stratum))`.</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="animal_crossing_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid" width="672"></p>
+<p><img src="animal-crossing_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 
@@ -3151,12 +3151,12 @@ Use `aes(label = after_stat(stratum))`.</code></pre>
   editor = {},
   title = {Animal {Crossing}},
   date = {2020-05-05},
-  url = {https://laderast.github.io//articles/2020-05-05_animal-crossing/animal_crossing.html},
+  url = {https://laderast.github.io//articles/2020-05-05_animal-crossing/animal-crossing.html},
   langid = {en}
 }
 </code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-laderas2020" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
 Ted Laderas, and Ted Laderas. 2020. <span>“Animal Crossing.”</span> May
-5, 2020. <a href="https://laderast.github.io//articles/2020-05-05_animal-crossing/animal_crossing.html">https://laderast.github.io//articles/2020-05-05_animal-crossing/animal_crossing.html</a>.
+5, 2020. <a href="https://laderast.github.io//articles/2020-05-05_animal-crossing/animal-crossing.html">https://laderast.github.io//articles/2020-05-05_animal-crossing/animal-crossing.html</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
