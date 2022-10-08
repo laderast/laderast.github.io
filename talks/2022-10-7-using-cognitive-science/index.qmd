@@ -1,0 +1,12 @@
+---
+title: "Using Cognitive Science to Make Training Stick"
+date: 10/7/2022
+---
+
+Talk given for DNAnexus Science Deep Dive
+
+- Describe the central tenet of cognitive load theory
+- Describe the process behind instructional design and how it benefits students
+- Explain why designing active Learning exercises are difficult
+
+<iframe class="slide-deck" src="https://laderast.github.io/talks/2022-10-7-using-cognitive-science/using_cognitive_sci.pdf" height=300 width=600></iframe>
