@@ -24,6 +24,7 @@
   {
     "listing": "/talks.html",
     "items": [
+      "/talks/2022-10-7-using-cognitive-science/index.html",
       "/talks/2022-09-14-qmd-rmd/index.html",
       "/talks/2021-06-06-why-shiny-modules/index.html",
       "/talks/2021-06-06-using-gratitude-to-learn-the-tidyverse-together/index.html",
