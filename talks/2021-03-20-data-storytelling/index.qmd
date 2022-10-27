@@ -13,3 +13,5 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r}
 knitr::include_url("https://laderast.github.io/data_storytelling_bdc/#1")
 ```
+
+[Slides](https://laderast.github.io/data_storytelling_bdc/#1){.btn .btn-primary role="button"}

@@ -17,3 +17,5 @@ knitr::opts_chunk$set(echo = FALSE)
 knitr::include_url("https://laderast.github.io/gratitude_talk/")
 ```
 
+
+[Slides](https://laderast.github.io/gratitude_talk/){.btn .btn-primary role="button"}

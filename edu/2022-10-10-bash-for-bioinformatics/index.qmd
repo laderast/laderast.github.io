@@ -1,0 +1,16 @@
+---
+title: "Bash for Bioinformatics"
+---
+
+This is an online and free textbook that covers the essential Bash scripting skills you'll need to do execute work on the DNAnexus cloud platform.
+
+## Learning Objectives
+
+-   **Apply** bash scripting to your own work
+-   **Articulate** basic Cloud Computing concepts that apply to the DNAnexus platform
+-   **Leverage** bash scripting and the dx-toolkit to execute jobs on the DNAnexus platform
+-   **Execute** batch processing of multiple files in a project on the DNAnexus platform
+-   **Monitor**, **profile**, **terminate** and **retry** jobs to optimize costs
+-   **Manage** software dependencies reproducibly using container-based technologies such as Docker
+
+[Book](https://laderast.github.io/bash_for_bioinformatics/){.btn .btn-primary role="button"} [Repository](https://github.com/laderast/bash_for_bioinformatics){.btn .btn-primary role="button"}

@@ -12,6 +12,9 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/laderast
+    - icon: email
+      text: Email
+      href: mailto:tedladeras[at]gmail[dot]com
 
 ---
 

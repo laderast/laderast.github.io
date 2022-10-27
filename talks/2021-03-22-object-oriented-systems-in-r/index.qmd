@@ -30,4 +30,4 @@ knitr::include_url("https://laderast.github.io/oop_talk/")
 
 # Links
 
-[Workshop Repository](https://github.com/laderast/oop_talk/){.btn .btn--info}
+[Workshop Repository](https://github.com/laderast/oop_talk/){.btn .btn-primary role="button"}

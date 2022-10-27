@@ -15,3 +15,5 @@ Talk given for FCT Abuja useR group. Learn about:
 #| echo: false
 vembedr::embed_youtube("xC6I5OVOnKI")
 ```
+
+[Slides](https://laderast.github.io/qmd_rmd/#/title-slide){.btn .btn-primary role="button"}

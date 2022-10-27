@@ -16,3 +16,5 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r}
 knitr::include_url("https://laderast.github.io/psych_safety")
 ```
+
+[Slides](https://laderast.github.io/psych_safety){.btn .btn-primary role="button"}

@@ -16,3 +16,5 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r}
 knitr::include_url("https://laderast.github.io/ief_talk_2019/#1")
 ```
+
+[Slides](https://laderast.github.io/ief_talk_2019/#1){.btn .btn-primary role="button"}

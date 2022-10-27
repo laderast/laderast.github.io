@@ -31,4 +31,4 @@ vembedr::embed_youtube("K1WrY9tOGB0") %>%
 
 # Links
 
-[Repository](https://github.com/laderast/shiny_module_tutorial/){.btn .btn--info}
+[Repository](https://github.com/laderast/shiny_module_tutorial/){.btn .btn-primary role="button"}
