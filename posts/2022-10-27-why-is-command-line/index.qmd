@@ -2,21 +2,32 @@
 title: "Why is Learning Command Line so hard?"
 ---
 
-1. It's not one skill, but a bunch of skills together. Instructors often forget how many skills that are needed to even install tools. 
-1. There are conflicting toolchains and we don't emphasizes advantges/disadvantages of each.
-1. It's a new paradigm for interacting with the computer for most people.
-1. File systems are hard. One unforseen consequence of mobile phones and browsers hiding file locations has been this unawareness of file structure. 
-1. It's unforgiving. You think that you understand how to input a command, but the responses from the shell 
-1. The options are overwhelming.
-1. It can be hard to spot mistakes. 
-1. Sequencing learning is difficult.
-1. There is always a pervasive feeling of "am I doing this right?"
+I have been reflecting on what it's so hard to learn command-line tools, especially for new students. 
 
+The truth is that working well on the command line requires a lot of practice. The time between feeling like a newbie versus feeling comfortable on the command line is a lot.  
+
+```{mermaid}
+
+
+```
+
+
+1. **Command line work is not one skill, but a bunch of skills together.** Instructors often forget how many skills that are needed to even install tools, much less work with text editors, and it's easy for students to get frustrated here. 
+1. **There are conflicting toolchains and we don't emphasize advantges/disadvantages of each.** One example is: using Conda versus Homebrew - what are the differences and can they work together? Conda environments are extremely powerful, but again, it's something else to learn on top of everything else.
+1. **Command line a new paradigm for interacting with the computer for most people.** It is a brave new world that many of us have heard about, but has seemed daunting for a lot of people. 
+1. **File systems are hard.** One unforseen consequence of mobile phones and browsers hiding file locations has been this unawareness of file structure. 
+1. **It's unforgiving. It can be hard to spot mistakes** You think that you understand how to input a command, but the responses from the shell can be very hard to understand and read.
+1. **The options are overwhelming.** You look at the manual page for something like `ls`, and there are literally 20 options with no guidance.  
+1. **Sequencing learning is difficult.** One example: when you teach piping, do you cover the individual functions and then discuss the pipe? What about pipelines where the format is changing from command to command?
+1. **There is always a pervasive feeling of "am I doing this right?"** Even after years of working on the command line, I still have a pervasive sense that I don't understand certain commands, such as remembering the options for `tar`. 
+1. **Variable expansion has so many gotchas.** Variable expansion (substituting the value of a variable in an expression) is extremely powerful. However, there are many ways to expand variables: `$var_name`, `${var_name}`, and `$(var_name)`. 
+1. **Quoting and escaping**. Without IDEs, nested quotations can be a pain. 
 
 ## Solutions
 
-1. Emphasize code reading and literacy before anything else. Take code apart word for word so that every part is accounted for. 
-1. Use a gradual approach to teaching options/flags.
-1. Emphasize the main use cases/options for commands.
-1. De-emphasize reading of man pages for concrete examples. 
+1. **Emphasize code reading and literacy before anything else.** Take code apart word for word so that every part is accounted for. Don't use "that part is just there because..." Explain everything.
+1. **Use a gradual approach to teaching options/flags.** Use examples that build on each other to teach new concepts, or start from scratch. 
+1. **Emphasize the main use cases/options for commands.** I really love Julia Evans' comics, where she highlights the main uses for a function (see below for an example with `xargs`). She doesn't get bogged down in all of the minutiae, which can really overwhelm students. Utilities such as `tldr` are very helpful to students.
+1. **Use iterative learning to build knowledge.** This is especially helpful when building pipelines that transform incoming data from one format to another. 
 1. Show intermediate outputs for pipes. 
+1. De-emphasize reading of man pages for concrete examples. 

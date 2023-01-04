@@ -1,0 +1,138 @@
+---
+title: "Retrospective and Themes for 2022"
+---
+> Note: I found it incredibly useful (and empowering) to write a retrospective of everything that I worked on last year. This is a list of things I accomplished in 2022 at DNAnexus that do not include course development. I may summarize course development in a separate post.
+
+2022 was a fairly busy year for me, not just with DNAnexus Academy engagements,
+but also in outreach and working on improving the user experience with
+effective workshops, courses, and developing optimal workflows for
+getting the main tasks on the platform done.
+
+I've achieved this by observing user experiences and questions from the
+UKB RAP community, and from questions customers have asked during
+training sessions.
+
+## Improving User Experience Through Establishing Best Practices
+
+One of my major passions in my work is to improve the overall user
+experience of the DNAnexus platform by establishing and suggesting
+effective workflows and best practices for getting tasks accomplished on
+the platform. These tasks include: 
+
+1. Executing batch jobs on the platform
+1. Working with RStudio Effectively on RAP 
+1. Working with Docker
+1. Decoding pheno data from raw values
+1. Using bash effectively on RAP.
+
+Each of these accomplishments has stemmed from observing gaps in
+customer knowledge in the platform. I believe that one of the biggest
+barriers to using the platform is still the feeling of impostor syndrome
+and I am passionate about giving customers the knowledge they need in
+formats that are helpful for them.
+
+- **104 - Cloud Computing for HPC Users**. This was a course and
+    webinar that I developed with Anastazie Sedlakova and Scott
+    Funkhouser. It attempts to directly map skills and concepts that
+    incoming users already have with on-premise HPC and directly
+    translates these skills to cloud HPC. It has been rated highly by
+    both UKB RAP users and other customers.
+
+-   **312 - JSON for the DNAnexus Platform** - This is a course that I
+    developed that fills in a lot of the gaps with utilizing JSON
+    effectively on the DNAnexus platform. It helps users who are
+    unfamiliar with JSON read and modify JSON for use in applets, but
+    also in parsing JSON responses with the platform using jq, and
+    doing batch submissions with jq.
+
+-   [**Bash for Bioinformatics**](https://laderast.github.io/bash_for_bioinformatics/) -
+    In response to many of the challenges that I have seen with
+    customers and app development and running jobs, I put together a
+    "missing manual" that addresses the gaps in knowledge of bash
+    scripting and where this knowledge is helpful on the platform. It
+    has gotten positive reception not only on the UKB RAP community,
+    but also by Solution Science as a resource they can point
+    potential customers to.
+
+-   **RStudio for RAP webinar** - With Anastazie Sedlakova, I developed
+    a webinar that outlined how to work reproducibly with RStudio on
+    UKB RAP. This involved not only showing users how to use RStudio
+    Projects, but also how to save software environments for
+    reproducible research, and run RStudio/Bioconductor via Docker
+    containers.
+
+-   **Docker for RAP webinar** - This was a webinar that I developed
+    with Ondrej Klempir on how to effectively use Docker on UKB RAP
+    for batch processing. It provides specific bash recipes for saving
+    docker image files, extending docker images, and running batch
+    jobs with Docker image files.
+
+-   [**xvhelper**](https://laderast.github.io/xvhelper/) -
+    this is an R Package I have developed to help R users with
+    decoding Pheno data extracted from the new `dx extract_dataset`
+    functionality in dx-toolkit. R users are a major percentage of UKB
+    RAP users, and this package will helps them with their overall
+    user experience with the pheno data.
+
+## Improving Internal Training and Communication
+
+I have helped onboard a number of our new employees through both
+Bootcamp and a formal set of courses. This was in direct response to
+Dick\'s call for more internal training specifically for our sales team.
+
+-   **Trained 2 incoming groups on platform, including Apollo
+    features.** We have increased our overall training in our
+    onboarding program, including incoming members of the Sales team.
+
+    -   This has included frank discussions and addressing questions the
+        Sales team has about the product, and helping them develop the
+        language to effectively communicate about the platform.
+
+    -   I believe this has helped not only in increasing knowledge, but
+        also communication between various groups at DNAnexus.
+
+-   **Gave Science Deep Dive talk on Teaching**: [[Using Cognitive
+    Science to Make Training
+    Stick]{.underline}](https://docs.google.com/presentation/d/1RVuCnQy_sshmeB9Bc6s75PZJfpKOqVJ5CL_CD0KUR-E/edit?usp=sharing)
+
+-   **Talk for xVantage Day:** Using Quarto:
+    [[https://laderast.github.io/qmd_rmd/]{.underline}](https://laderast.github.io/qmd_rmd/#/title-slide)
+
+-   **Trained VN team on platform**. As part of the Vietnam Team\'s
+    onboarding, we delivered the Titan/Apollo courses to them.
+
+-   **Outreach to other groups.** I continue to work and communicate
+    with members of Customer Care, Translational Medicine, Customer
+    Success, UKB RAP, and Solution Science
+
+## Outreach to New Audiences
+
+I want others to effectively utilize the platform and accomplish work
+with it. To this end, I have helped with outreach to a number of new
+audiences with Ben Busby and the UKB RAP team. 
+
+-   **RAP getting started workshops.** I sat in on 5 sessions that were
+    a combination of workshop and Q&A for new UKB RAP users. I was
+    actively answering questions in the chat and providing links to
+    material.
+
+-   **HDR UK** - I was part of a group of educators talking about TREs
+    and their role in working with clinical data. Specifically I
+    talked about the role of UKB RAP and how it fulfilled the
+    requirements of a TRE (patient security) in spite of it being a
+    cloud-based solution
+
+-   **Imaging Workshop** - I helped Renee Qian with setup and running
+    the MATLAB container on UKB RAP for the imaging workshop,
+    including showing her how to use dxFUSE for her demo.
+
+-   **ISCB Academy** - Ben and I presented various UKB RAP features as a
+    workshop for ISCB Academy, and shared Bash for Bioinformatics as a
+    resource for others.
+
+-   **I developed and shared an R specific workflow** for UKB RAP for
+    exporting, decoding, and working with Pheno data using my dxhelper
+    package. It was used for the in-person UKB RAP workshop this
+    December.
+    
+
