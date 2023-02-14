@@ -25,6 +25,7 @@
   {
     "listing": "/talks.html",
     "items": [
+      "/talks/2023-02-13-compassion-data-science/index.html",
       "/talks/2022-10-7-using-cognitive-science/index.html",
       "/talks/2022-09-14-qmd-rmd/index.html",
       "/talks/2021-06-06-why-shiny-modules/index.html",
@@ -41,6 +42,7 @@
   {
     "listing": "/articles.html",
     "items": [
+      "/articles/2023-02-14-learning-data-science-is-hard/index.html",
       "/articles/2021-10-12-seafood/2021-10-12-seafood.html",
       "/articles/2021-10-05-registered-nurses/2021-10-05-registered-nurses.html",
       "/articles/2021-09-13-how-to-network-in-a-non-slimy-way/how-to-network-in-a-non-slimy-way.html",

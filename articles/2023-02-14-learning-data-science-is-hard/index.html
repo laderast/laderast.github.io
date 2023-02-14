@@ -7,10 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ted Laderas">
-<meta name="dcterms.date" content="2017-11-07">
-<meta name="description" content="Some notes on ODSC West 2017.">
 
-<title>Ted Laderas, PhD - Notes on Open Data Science Conference West 2017</title>
+<title>Ted Laderas, PhD - Learning Data Science is Hard (and why that matters)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -64,8 +62,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta name="twitter:title" content="Ted Laderas, PhD - Notes on Open Data Science Conference West 2017">
-<meta name="twitter:description" content="Some notes on ODSC West 2017.">
+<meta name="twitter:title" content="Ted Laderas, PhD - Learning Data Science is Hard (and why that matters)">
+<meta name="twitter:description" content="When I gave my keynote for University of Pittsburgh’s Love Data week about being compassionate when learning data science, there were a couple of great questions that came up.">
 <meta name="twitter:creator" content="@tladeras">
 <meta name="twitter:card" content="summary">
 </head>
@@ -122,13 +120,8 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Notes on Open Data Science Conference West 2017</h1>
-                  <div>
-        <div class="description">
-          <p>Some notes on ODSC West 2017.</p>
-        </div>
-      </div>
-                </div>
+      <h1 class="title">Learning Data Science is Hard (and why that matters)</h1>
+                      </div>
   </div>
     
   <div class="quarto-title-meta-author">
@@ -150,12 +143,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-meta">
 
         
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">November 7, 2017</p>
-      </div>
-    </div>
     
       
     </div>
@@ -169,8 +156,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#workshops" id="toc-workshops" class="nav-link active" data-scroll-target="#workshops">Workshops</a></li>
-  <li><a href="#talks" id="toc-talks" class="nav-link" data-scroll-target="#talks">Talks</a></li>
+  <li><a href="#demotivation" id="toc-demotivation" class="nav-link active" data-scroll-target="#demotivation">Demotivation</a></li>
+  <li><a href="#normalize-the-data-science-struggle" id="toc-normalize-the-data-science-struggle" class="nav-link" data-scroll-target="#normalize-the-data-science-struggle">Normalize the Data Science Struggle</a></li>
+  <li><a href="#reward-questions" id="toc-reward-questions" class="nav-link" data-scroll-target="#reward-questions">Reward Questions</a></li>
+  <li><a href="#avoid-demotivating-terms-like-easy-or-just" id="toc-avoid-demotivating-terms-like-easy-or-just" class="nav-link" data-scroll-target="#avoid-demotivating-terms-like-easy-or-just">Avoid demotivating terms like “easy” or “just”</a></li>
   </ul>
 </nav>
     </div>
@@ -180,42 +169,39 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>I just came back from the <a href="https://odscwest.pathable.com">Open Data Science Conference</a> (ODSC) in San Francisco and I found it really stimulating and interesting. I learned a ton, met some great people working in very different fields, and overall found it quite worthwhile.</p>
-<p>Here are some of the highlights from my notes:</p>
-<section id="workshops" class="level2">
-<h2 class="anchored" data-anchor-id="workshops">Workshops</h2>
-<p><a href="https://github.com/amueller/ml-training-intro">scikit-learn intro Workshop</a> and <a href="https://github.com/amueller/ml-training-advanced">Advanced</a></p>
-<p>I admit that I am not really a Python person. But I am helping to develop some materials for an introductory workshop and I found this workshop and its materials to be a very beginner-friendly to <code>scikit-learn</code> and machine learning concepts, much like <code>caret</code> for R. All the slides and workshop materials are available at the above links.</p>
-<p><a href="https://github.com/WinVector/ODSCWest2017">SparklyR Workshop</a></p>
-<p>I liked this workshop from John Mount of Win-Vector. It started out with a <em>dplyr</em> intro, and introduced us to the basics of Apache Spark, which is a cluster-computing based machine learning framework, which is designed to do very large queries and machine learning. RStudio’s Edgar Ruiz managed to get us each an RStudio Pro Instance running on AWS with all the required packages installed so we could test out the SparklyR package, which uses dplyr’s commands to run Spark jobs.</p>
-<p><a href="https://drive.google.com/file/d/0B3MFD2S4MhtGd1ltVHZkbFhHX0ZUbGlGZmtNRjllQ2NtQkJN/view?usp=sharing">In-Memory Computing Essentials for Data Scientists</a></p>
-<p>This was an introduction to Apache Ignite, which is a distributed, in-memory database that can be leveraged by different languages. The really interesting thing about Ignite is that it will colocate related data on the same cluster node, resulting in rapid queries within each node. I think this technology will become very important as we need more datasets to be openly accessible to compute on.</p>
+<p>When I gave my keynote for University of Pittsburgh’s Love Data week about being compassionate when learning data science, there were a couple of great questions that came up.</p>
+<ol type="1">
+<li>How do we talk about learning data science for new learners?</li>
+<li>How do we change our language about data science tasks?</li>
+</ol>
+<p>A lot of my thinking about this has come from my Carpentries Instructor Training, but I thought I’d just talk about this in a post for others who teach Data Science, especially to new learners.</p>
+<section id="demotivation" class="level2">
+<h2 class="anchored" data-anchor-id="demotivation">Demotivation</h2>
+<p>For new learners, we have to be aware of demotivating them.</p>
 </section>
-<section id="talks" class="level2">
-<h2 class="anchored" data-anchor-id="talks">Talks</h2>
-<p>These were the most interesting talks that I attended.</p>
-<p><a href="http://mfviz.com/odsc-2017/#/">Visually Explaining Statistical and Machine Learning Concepts</a></p>
-<p>This was a great talk by Mike Freedman about his process of how he put together D3.js based visualizations to explain some statistical concepts. I thought the explanation of his process (isolate specific ideas, identify data structures, leverage visualization algorithms). Check out the slides above. They’re very cool.</p>
-<p><a href="https://odscwest.pathable.com/meetings/596522">The Wonder Twins: Data Science and Human Centered Design</a></p>
-<p>This was a really interesting talk about the interplay between data science and design in helping encourage a mobile money system in Tanzania. It was inspiring to see how they had both designers and data scientists embedded and looking at how the mobile payment system worked. One interesting example was doing network analysis of the Mobile Money Agents, who distribute cash. They targeted a highly influential group of these agents based on this analysis. Very cool.</p>
-<p><a href="https://odscwest.pathable.com/meetings/601861">The People’s Data</a> and <a href="https://odscwest.pathable.com/meetings/604496">The Deontology of Data Science</a></p>
-<p>I thought these were really interesting sides about the human side of data science. DJ Patil, who was chief data scientist under the Obama administration, talked about citizen-driven data projects and how it enabled a number of advances. The most interesting case was basically a parent built an online community of people who had a very rare disease condition so he could help his son with the condition.</p>
-<p>Igor Perisic (of LinkedIn) followed this with a talk about ethical issues in data science. In particular, he identified three different areas to concentrate on: 1) The Ethics of Data, 2) The Ethics of Algorithms, and 3) The Ethics of practice. He concentrated on the recent New York Times article about using <a href="https://www.nytimes.com/2017/05/01/us/politics/sent-to-prison-by-a-software-programs-secret-algorithms.html">machine learning to identify potential re-offenders in the prison system</a>. The lack of transparency in how the algorithm identifies potential reoffenders is a huge ethical problem.</p>
-<p>In all, I had an interesting time and I met lots of people in industry, which was a nice contrast to the academic side of things.</p>
+<section id="normalize-the-data-science-struggle" class="level2">
+<h2 class="anchored" data-anchor-id="normalize-the-data-science-struggle">Normalize the Data Science Struggle</h2>
+<p>Data Science isn’t easy to learn.</p>
+</section>
+<section id="reward-questions" class="level2">
+<h2 class="anchored" data-anchor-id="reward-questions">Reward Questions</h2>
+<p>I note that questions require courage</p>
+</section>
+<section id="avoid-demotivating-terms-like-easy-or-just" class="level2">
+<h2 class="anchored" data-anchor-id="avoid-demotivating-terms-like-easy-or-just">Avoid demotivating terms like “easy” or “just”</h2>
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{laderas2017,
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{laderas,
   author = {Ted Laderas},
-  title = {Notes on {Open} {Data} {Science} {Conference} {West} 2017},
-  date = {2017-11-07},
-  url = {https://laderast.github.io//posts/2017-11-07-ODSC-Notes},
+  title = {Learning {Data} {Science} Is {Hard} (and Why That Matters)},
+  url = {https://laderast.github.io//articles/2023-02-14-learning-data-science-is-hard},
   langid = {en}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-laderas2017" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
-Ted Laderas. 2017. <span>“Notes on Open Data Science Conference West
-2017.”</span> November 7, 2017. <a href="https://laderast.github.io//posts/2017-11-07-ODSC-Notes">https://laderast.github.io//posts/2017-11-07-ODSC-Notes</a>.
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-laderas" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
+Ted Laderas. n.d. <span>“Learning Data Science Is Hard (and Why That
+Matters).”</span> <a href="https://laderast.github.io//articles/2023-02-14-learning-data-science-is-hard">https://laderast.github.io//articles/2023-02-14-learning-data-science-is-hard</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
