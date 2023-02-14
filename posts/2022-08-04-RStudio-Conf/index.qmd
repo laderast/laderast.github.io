@@ -1,6 +1,7 @@
 ---
 title: "RStudio Conf 2022 Highlights: Days 1 and 2"
 format: html
+date: '2022-7-05'
 image: ussie1.jpeg
 ---
 

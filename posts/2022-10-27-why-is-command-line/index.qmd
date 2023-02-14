@@ -1,5 +1,6 @@
 ---
 title: "Why is Learning Command Line so hard?"
+draft: true
 ---
 
 I have been reflecting on what it's so hard to learn command-line tools, especially for new students. 

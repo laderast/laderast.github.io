@@ -1,5 +1,6 @@
 ---
 title: "Retrospective and Themes for 2022"
+date: '2023-1-04'
 ---
 > Note: I found it incredibly useful (and empowering) to write a retrospective of everything that I worked on last year. This is a list of things I accomplished in 2022 at DNAnexus that do not include course development. I may summarize course development in a separate post.
 
