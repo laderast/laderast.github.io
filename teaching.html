@@ -70,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -99,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -167,7 +167,9 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(18)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(6)</span></div><div class="category" data-category="bash">bash <span class="quarto-category-count">(1)</span></div><div class="category" data-category="biodata-club">biodata-club <span class="quarto-category-count">(2)</span></div><div class="category" data-category="course">course <span class="quarto-category-count">(4)</span></div><div class="category" data-category="datascience">datascience <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dnanexus">dnanexus <span class="quarto-category-count">(1)</span></div><div class="category" data-category="free">free <span class="quarto-category-count">(15)</span></div><div class="category" data-category="hpc">hpc <span class="quarto-category-count">(1)</span></div><div class="category" data-category="python">python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="reproducibility">reproducibility <span class="quarto-category-count">(1)</span></div><div class="category" data-category="self-learning">self-learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="shiny">shiny <span class="quarto-category-count">(2)</span></div><div class="category" data-category="tidyverse">tidyverse <span class="quarto-category-count">(4)</span></div><div class="category" data-category="ukbiobank">ukbiobank <span class="quarto-category-count">(6)</span></div><div class="category" data-category="webinar">webinar <span class="quarto-category-count">(6)</span></div><div class="category" data-category="workshop">workshop <span class="quarto-category-count">(6)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -197,6 +199,25 @@ Bash for Bioinformatics
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('ukbiobank'); return false;">
+ukbiobank
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('dnanexus'); return false;">
+dnanexus
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('bash'); return false;">
+bash
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('webinar'); return false;">
+webinar
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('free'); return false;">
+free
+</div>
+</div>
+<a href="./edu/2022-10-10-bash-for-bioinformatics/index.html">
 <div class="listing-description">
 This is an online and free textbook that covers the essential Bash scripting skills you’ll need to do execute work on the DNAnexus cloud platform.
 </div>
@@ -226,6 +247,19 @@ Cloud Computing for HPC Users
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('ukbiobank'); return false;">
+ukbiobank
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('webinar'); return false;">
+webinar
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('free'); return false;">
+free
+</div>
+</div>
+<a href="./edu/2022-05-13-Cloud-Computing-for-HPC-users/index.html">
 <div class="listing-description">
 Introductory webinar translating High Performance Computing (HPC) skills to cloud computing.
 </div>
@@ -258,6 +292,19 @@ Workflow Description Language (WDL) on RAP
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('ukbiobank'); return false;">
+ukbiobank
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('webinar'); return false;">
+webinar
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('free'); return false;">
+free
+</div>
+</div>
+<a href="./edu/2022-01-28-Workflow-Description-Language/index.html">
 <div class="listing-description">
 Two part Webinar about how to run workflows building using Workflow Description Lanage (WDL) on the UK Biobank Research Analysis Platform.
 </div>
@@ -290,6 +337,19 @@ GWAS on UKB RAP
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('ukbiobank'); return false;">
+ukbiobank
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('webinar'); return false;">
+webinar
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('free'); return false;">
+free
+</div>
+</div>
+<a href="./edu/2021-11-03-GWAS-on-UKB-RAP/index.html">
 <div class="listing-description">
 Webinar about how to run Regenie (GWAS executable) on the Research Analysis Platform.
 </div>
@@ -322,6 +382,19 @@ UK Biobank Webinar: Using JupyterLab
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('ukbiobank'); return false;">
+ukbiobank
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('webinar'); return false;">
+webinar
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('free'); return false;">
+free
+</div>
+</div>
+<a href="./edu/2021-10-19-Jupyter-Notebooks/index.html">
 <div class="listing-description">
 Two part webinar on utilizing JupyterLab on the DNAnexus platform.
 </div>
@@ -354,6 +427,19 @@ UK Biobank Overview Webinar
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('ukbiobank'); return false;">
+ukbiobank
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('webinar'); return false;">
+webinar
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('free'); return false;">
+free
+</div>
+</div>
+<a href="./edu/2021-10-14-ukbiobank-webinar/index.html">
 <div class="listing-description">
 Introductory Webinar for the UK Biobank Research Analysis Platform.
 </div>
@@ -386,6 +472,19 @@ Ted Laderas, Anastazie Sedlakova
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('self-learning'); return false;">
+self-learning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('free'); return false;">
+free
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tidyverse'); return false;">
+tidyverse
+</div>
+</div>
+<a href="./edu/2021-03-20-tidyowl/index.html">
 <div class="listing-description">
 <p>Intermediate lessons in R</p>
 </div>
@@ -418,6 +517,19 @@ BSTA 504: R Programming
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('course'); return false;">
+course
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tidyverse'); return false;">
+tidyverse
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+</div>
+<a href="./edu/2021-03-20-bsta-504-r-programming/index.html">
 <div class="listing-description">
 <p>Our course for OHSU/PSU School of Public Health teaching the basics of R-Programming</p>
 </div>
@@ -446,6 +558,16 @@ An Introduction to {distill} for websites
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('workshop'); return false;">
+workshop
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('free'); return false;">
+free
+</div>
+</div>
+<a href="./edu/2021-03-19-an-introduction-to-distill/index.html">
 <div class="listing-description">
 <p>How you too can learn to {distill}.</p>
 </div>
@@ -478,6 +600,22 @@ A gRadual intRoduction to Shiny
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('workshop'); return false;">
+workshop
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('free'); return false;">
+free
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('shiny'); return false;">
+shiny
+</div>
+</div>
+<a href="./edu/2021-03-20-a-gradual-introduction-to-shiny/index.html">
 <div class="listing-description">
 <p>A Workshop that covers the basics behind learning Shiny.</p>
 </div>
@@ -510,6 +648,19 @@ BMI 569: Data Analytics
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('course'); return false;">
+course
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('datascience'); return false;">
+datascience
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+</div>
+<a href="./edu/2021-03-20-bmi-569-data-analytics/index.html">
 <div class="listing-description">
 <p>Practical coursework in R/SQL for our hybrid Data Analytics Course taught with Kaiser Permanente.</p>
 </div>
@@ -542,6 +693,25 @@ Data Storytelling
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('free'); return false;">
+free
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('workshop'); return false;">
+workshop
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('biodata-club'); return false;">
+biodata-club
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tidyverse'); return false;">
+tidyverse
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+</div>
+<a href="./edu/2021-03-20-data-storytelling/index.html">
 <div class="listing-description">
 <p>Learn how to make effective visualizations using insights from cognitive psychology.</p>
 </div>
@@ -570,6 +740,16 @@ NEUS 643: Stats for Neuroscientists
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('course'); return false;">
+course
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
+python
+</div>
+</div>
+<a href="./edu/2020-04-01-neus-643-stats-for-neuroscientists/index.html">
 <div class="listing-description">
 <p>Course that applies statistics and machine learning using image processing.</p>
 </div>
@@ -602,6 +782,19 @@ Ready for R
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('course'); return false;">
+course
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('free'); return false;">
+free
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+</div>
+<a href="./edu/2021-03-20-ready-for-r/index.html">
 <div class="listing-description">
 <p>Get started with R/RStudio and the <code>tidyverse</code></p>
 </div>
@@ -634,6 +827,22 @@ A Practical Guide to Reproducible Papers
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('workshop'); return false;">
+workshop
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('biodata-club'); return false;">
+biodata-club
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('free'); return false;">
+free
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('reproducibility'); return false;">
+reproducibility
+</div>
+</div>
+<a href="./edu/2021-03-20-a-practical-guide-to-reproducible-papers/index.html">
 <div class="listing-description">
 <p>Guidelines on making your project reproducible by others. Includes a short tour of mybinder.org.</p>
 </div>
@@ -666,6 +875,22 @@ Data Scavenger Hunt: Exploring NHANES
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('workshop'); return false;">
+workshop
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('free'); return false;">
+free
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('shiny'); return false;">
+shiny
+</div>
+</div>
+<a href="./edu/2021-03-22-data-scavenger-hunt-exploring-nhanes/index.html">
 <div class="listing-description">
 <p>A short workshop teaching exploratory data analysis using the NHANES dataset.</p>
 </div>
@@ -698,6 +923,19 @@ R Bootcamp
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('self-learning'); return false;">
+self-learning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('free'); return false;">
+free
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tidyverse'); return false;">
+tidyverse
+</div>
+</div>
+<a href="./edu/2021-03-20-r-bootcamp/index.html">
 <div class="listing-description">
 <p>Our free online interactive course teaching the <code>tidyverse</code>.</p>
 </div>
@@ -730,6 +968,19 @@ HPC Tutorial
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('free'); return false;">
+free
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('workshop'); return false;">
+workshop
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('hpc'); return false;">
+hpc
+</div>
+</div>
+<a href="./edu/2021-03-20-hpc-tutorial/index.html">
 <div class="listing-description">
 <p>Self paced tutorial for learning about cluster computing and SLURM.</p>
 </div>
