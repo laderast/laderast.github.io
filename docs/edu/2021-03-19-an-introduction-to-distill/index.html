@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Ted Laderas">
+<meta name="dcterms.date" content="2021-03-19">
+<meta name="description" content="How you too can learn to {distill}.">
+
+<title>Ted Laderas, PhD - An Introduction to {distill} for websites</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta name="twitter:title" content="Ted Laderas, PhD - An Introduction to {distill} for websites">
+<meta name="twitter:description" content="How you too can learn to {distill}.">
+<meta name="twitter:creator" content="@tladeras">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Ted Laderas, PhD</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../teaching.html">
+ <span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../articles.html">
+ <span class="menu-text">Articles</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../talks.html">
+ <span class="menu-text">Talks</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/laderast/"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/tladeras/"><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">An Introduction to {distill} for websites</h1>
+                  <div>
+        <div class="description">
+          <p>How you too can learn to {distill}.</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">workshop</div>
+                <div class="quarto-category">free</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Ted Laderas </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">March 19, 2021</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#workshop-video" id="toc-workshop-video" class="nav-link active" data-scroll-target="#workshop-video">Workshop Video</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
+  <li><a href="#before-you-start" id="toc-before-you-start" class="nav-link" data-scroll-target="#before-you-start">Before You Start</a></li>
+  <li><a href="#taking-a-tour-of-the-project" id="toc-taking-a-tour-of-the-project" class="nav-link" data-scroll-target="#taking-a-tour-of-the-project">Taking a tour of the Project</a></li>
+  <li><a href="#how-does-distill-work" id="toc-how-does-distill-work" class="nav-link" data-scroll-target="#how-does-distill-work">How does {distill} work?</a></li>
+  <li><a href="#what-is-netlify" id="toc-what-is-netlify" class="nav-link" data-scroll-target="#what-is-netlify">What is Netlify?</a></li>
+  <li><a href="#customize-your-about-links" id="toc-customize-your-about-links" class="nav-link" data-scroll-target="#customize-your-about-links">Customize your about links</a></li>
+  <li><a href="#adding-a-photo" id="toc-adding-a-photo" class="nav-link" data-scroll-target="#adding-a-photo">Adding a photo</a></li>
+  <li><a href="#building-your-website-using-the-build-tab" id="toc-building-your-website-using-the-build-tab" class="nav-link" data-scroll-target="#building-your-website-using-the-build-tab">Building your website using the Build Tab</a></li>
+  <li><a href="#previewing-your-website" id="toc-previewing-your-website" class="nav-link" data-scroll-target="#previewing-your-website">Previewing your website</a></li>
+  <li><a href="#try-out-different-postcards-themes" id="toc-try-out-different-postcards-themes" class="nav-link" data-scroll-target="#try-out-different-postcards-themes">Try out different <code>postcards</code> themes</a></li>
+  <li><a href="#add-your-rendered-.html-files-to-the-articles-folder" id="toc-add-your-rendered-.html-files-to-the-articles-folder" class="nav-link" data-scroll-target="#add-your-rendered-.html-files-to-the-articles-folder">Add Your Rendered <code>.html</code> files to the <code>articles/</code> folder</a></li>
+  <li><a href="#customize-the-menu" id="toc-customize-the-menu" class="nav-link" data-scroll-target="#customize-the-menu">Customize the Menu</a></li>
+  <li><a href="#getting-your-website-online" id="toc-getting-your-website-online" class="nav-link" data-scroll-target="#getting-your-website-online">Getting Your Website Online</a></li>
+  <li><a href="#updating-your-website" id="toc-updating-your-website" class="nav-link" data-scroll-target="#updating-your-website">Updating Your Website</a></li>
+  <li><a href="#customize-your-domain" id="toc-customize-your-domain" class="nav-link" data-scroll-target="#customize-your-domain">Customize Your Domain</a></li>
+  <li><a href="#styling-your-website" id="toc-styling-your-website" class="nav-link" data-scroll-target="#styling-your-website">Styling your website</a></li>
+  <li><a href="#creating-new-websites" id="toc-creating-new-websites" class="nav-link" data-scroll-target="#creating-new-websites">Creating New Websites</a></li>
+  <li><a href="#putting-your-site-code-on-github" id="toc-putting-your-site-code-on-github" class="nav-link" data-scroll-target="#putting-your-site-code-on-github">Putting your site code on GitHub</a></li>
+  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p>Want to learn how to build a website using <code>{distill}</code>? This is a short blog post explaining the basics of Distill.</p>
+<p>https://github.com/laderast/distill_website/</p>
+<section id="workshop-video" class="level1">
+<h1>Workshop Video</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0IWTJNMga-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+</section>
+<section id="learning-objectives" class="level1">
+<h1>Learning Objectives</h1>
+<ul>
+<li><strong>Learn</strong> the basic components of a <code>distill</code> website</li>
+<li><strong>Build</strong> and <strong>preview</strong> your website using the <em>Build</em> tab</li>
+<li><strong>Customize</strong> the website with your bio and your picture</li>
+<li><strong>Add</strong> links and entries to your Navbar Menu</li>
+<li><strong>Add</strong> knitted html files as article links</li>
+<li><strong>Get</strong> your website live using Netlify Drop</li>
+<li><strong>Update</strong> your website by claiming it and registering it</li>
+<li><strong>Change</strong> your domain name to a better one.</li>
+</ul>
+</section>
+<section id="before-you-start" class="level1">
+<h1>Before You Start</h1>
+<ol type="1">
+<li>Install R/RStudio Desktop to your Computer.</li>
+<li>Install the following packages in R:</li>
+</ol>
+<pre><code>install.packages(c("tidyverse", "postcards", "distill", "usethis"))</code></pre>
+<ol start="3" type="1">
+<li>Create a website project in your home directory using <code>usethis</code>.</li>
+</ol>
+<pre><code>usethis::use_course(url="laderast/distill_website",destdir=".")</code></pre>
+<ol start="4" type="1">
+<li>Take a look at the website before we get started:</li>
+</ol>
+<p>https://distill-example.netlify.app/</p>
+<ol start="5" type="1">
+<li>Gather up the follwing materials:</li>
+</ol>
+<ul>
+<li>Links to Social Media (twitter, linkedin, etc)</li>
+<li>Bio</li>
+<li>Headshot</li>
+<li>Knitted <code>.html</code> files you want to share</li>
+</ul>
+<ol start="6" type="1">
+<li>Sign up for a netlify account and log in: https://netlify.com</li>
+</ol>
+</section>
+<section id="taking-a-tour-of-the-project" class="level1">
+<h1>Taking a tour of the Project</h1>
+<p>These are the main files for the project.</p>
+<ul>
+<li><code>index.Rmd</code> - This is the <em>main</em> website page.</li>
+<li><code>about.Rmd</code> - This is a nice looking about page built using the <code>{postcards}</code> package.</li>
+<li><code>image</code> - A folder. Any images you put in here can be accessed by <code>image/ted.jpg</code> in your pages.</li>
+<li><code>articles/</code> - A folder. This is a nice place to park your articles. For right now, it’s probably easier to have self-contained articles (single html files)</li>
+<li><code>_site.yml</code> - Customize this to change menus and links</li>
+<li><code>_site/</code> folder - this contains your <em>rendered</em> website - you’ll drop this folder into Netlify Drop and it will serve it.</li>
+<li><code>theme.css</code> - this is where you can set appearance options, such as font, font-size, and colors.</li>
+</ul>
+</section>
+<section id="how-does-distill-work" class="level1">
+<h1>How does {distill} work?</h1>
+<p><code>{distill}</code> is what is called a <em>static</em> site generator. It takes Markdown and Rmarkdown and converts them to . <code>.html</code> files.</p>
+<p>Much like any RMarkdown file, <code>{distill}</code> uses <code>{knitr}</code> and pandoc to build your website files that are contained in an <em>RStudio Project</em>. It knits your <code>.Rmd</code> files, converting them to <code>.html</code> files to a folder. The default name of this folder is called <code>_site</code> and it contains all of them files you need to upload to make a website.</p>
+</section>
+<section id="what-is-netlify" class="level1">
+<h1>What is Netlify?</h1>
+<p>Netlify is what is called a <em>hosting service</em>. This is a network of computers called web servers that are accessible via web addresses that will <em>serve</em> your website files when they are requested by a web browser.</p>
+<p>The amazing thing about Netlify is that it is mostly free and it is very fast, no matter where you are (they have web servers almost everywhere).</p>
+<p>We’ll use Netlify Drop to get our website files up and accessible as quickly as possible.</p>
+</section>
+<section id="customize-your-about-links" class="level1">
+<h1>Customize your about links</h1>
+<p>Take a look at <code>about.Rmd</code> and start filling out the front matter with your own links:</p>
+<pre><code>links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/ted-laderas-0714a92/"
+  - label: Twitter
+    url: "https://twitter.com/tladeras"
+  - label: Portfolio
+    url: "index.html"
+  - label: Email
+    url: "mailto:email@email.com"</code></pre>
+</section>
+<section id="adding-a-photo" class="level1">
+<h1>Adding a photo</h1>
+<p>Add your photo to the <code>images</code> folder. Change the line in <code>about.Rmd</code>:</p>
+<pre><code>image: "image/ted.jpg"</code></pre>
+<p>to the name of your file. For example, if your file is named <code>jane.jpg</code> and you put it in <code>images</code>:</p>
+<pre><code>image: "image/jane.jpg"</code></pre>
+</section>
+<section id="building-your-website-using-the-build-tab" class="level1">
+<h1>Building your website using the Build Tab</h1>
+<p>In the top right panel in RStudio (next to Environment and History), there is a “Build” Tab.</p>
+<p>Press the <code>Build Website</code> to run <code>knitr</code>, which will knit your website to the <code>_site</code> folder. This is where your <em>rendered</em> content lives.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/build-website.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Build Website Tab</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="previewing-your-website" class="level1">
+<h1>Previewing your website</h1>
+<ul>
+<li>Open the <code>_site</code> folder and click on the <code>index.html</code> file (make sure you’re viewing in web browser)
+<ul>
+<li>This is your main link to the website (the entry point). For example, if I was hosting my website at https://laderast.github.io/, this would be the first page that I would see.</li>
+</ul></li>
+<li>Your <code>about</code> page is available as <code>about.html</code> in the <code>_site</code> folder.</li>
+<li>Click away and make sure that everything works (links in menu, etc). If not, update the <code>_site.yml</code> and build it again.</li>
+</ul>
+</section>
+<section id="try-out-different-postcards-themes" class="level1">
+<h1>Try out different <code>postcards</code> themes</h1>
+<p>The <code>postcards</code> package has the following built in themes:</p>
+<ul>
+<li><code>jolla</code></li>
+<li><code>jolla_blue</code></li>
+<li><code>onofre</code></li>
+<li><code>trestles</code> - which your current site uses</li>
+</ul>
+<p>Change this line in your <code>about.Rmd</code> file to the theme of your interest and start building again:</p>
+<pre><code>output:
+  postcards::trestles</code></pre>
+</section>
+<section id="add-your-rendered-.html-files-to-the-articles-folder" class="level1">
+<h1>Add Your Rendered <code>.html</code> files to the <code>articles/</code> folder</h1>
+<p>You can now add your articles to the <code>articles/</code> folder.</p>
+<p>There are a couple example articles here. Add your own files here.</p>
+<p>In general, you’ll put <strong>knitted</strong> html articles here. Distill does not rebuild articles, it leaves that up to you.</p>
+<p>The relative path to access articles is like this:</p>
+<p><code>articles/crops.html</code></p>
+<p>You’ll use this when adding links to your menu.</p>
+</section>
+<section id="customize-the-menu" class="level1">
+<h1>Customize the Menu</h1>
+<p>The menu lives in the <code>_site.yml</code> file:</p>
+<pre><code>navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Articles"
+      menu:
+          -  text: "dplyr::slice()"
+             href: articles/slice.html
+          -  text: "Crop Yields"
+             href: articles/crops.html</code></pre>
+<p>Add another menu entry under articles, or modify the above entries to have a link to your articles.</p>
+<p>Build your website again and preview it to make sure the links work.</p>
+</section>
+<section id="getting-your-website-online" class="level1">
+<h1>Getting Your Website Online</h1>
+<p>We’ll take the <code>_site</code> folder with our generated website and drop this entire folder into Netlify Drop.</p>
+<p>https://drop.netlify.com</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="http://www.youtube.com/watch?v=-LRlQ_jaLAU" title="Using Netlify Drop"><img src="http://img.youtube.com/vi/-LRlQ_jaLAU/0.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="updating-your-website" class="level1">
+<h1>Updating Your Website</h1>
+<p>The first thing you want to do is claim your site and register for a Netlify account. That ties your newly created website to your account so you can update it.</p>
+<p>When you update your website with the <code>Build Website</code> button, you’ll drag the <code>_site</code> folder onto the deploy zone. This is under the <code>deploy</code> tab:</p>
+<p><img src="image/deploy_update.png" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="http://www.youtube.com/watch?v=vywDFg2uIxY" title="Updating Your Website"><img src="http://img.youtube.com/vi/vywDFg2uIxY/0.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<p>More info here: https://docs.netlify.com/site-deploys/create-deploys/#drag-and-drop</p>
+</section>
+<section id="customize-your-domain" class="level1">
+<h1>Customize Your Domain</h1>
+<p>That crazy name is the address of your site. To change it, you can click on the <strong>Domain Settings</strong> button:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/site_name.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Domain Settings Button</figcaption><p></p>
+</figure>
+</div>
+<p>In the following page, click the <strong>Options &gt;&gt; Edit Site Name</strong> button. You can change the first part of the domain, such as “myportfolio.netlify.app).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/site_name2.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Edit Site Name Button</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="styling-your-website" class="level1">
+<h1>Styling your website</h1>
+<p>Note that this only applies to the main distill website and not the <code>about.html</code>, since that is styled separately.</p>
+<p>In <code>_site.yml</code>, try uncommenting this line and seeing how the site changes.</p>
+<pre><code>#theme: theme.css</code></pre>
+<p>You can modify the appearance of your website by altering the <code>theme.css</code> file. Much more info about this here:</p>
+<p>https://rstudio.github.io/distill/website.html#theming</p>
+</section>
+<section id="creating-new-websites" class="level1">
+<h1>Creating New Websites</h1>
+<p>If you want to start from scratch, I highly recommend the Distill tutorial here:</p>
+<p>https://rstudio.github.io/distill/website.html</p>
+<p>You may want to setup your webpage as a blog, which lets you add posts by date:</p>
+<p>https://rstudio.github.io/distill/blog.html</p>
+</section>
+<section id="putting-your-site-code-on-github" class="level1">
+<h1>Putting your site code on GitHub</h1>
+<p>This is beyond the scope of this tutorial, but you can put your site code up on GitHub as well. This has the following advantages:</p>
+<ul>
+<li>Lets others contribute to your website</li>
+<li>Can host on GitHub Pages as well</li>
+<li>Lets others reuse your code for their own website</li>
+</ul>
+<p>If you’re interested in this, I really recommend <a href="https://happygitwithr.com/">Happy Git with R</a> as a way to get started.</p>
+</section>
+<section id="acknowledgements" class="level1">
+<h1>Acknowledgements</h1>
+<p>Thank you to RStudio for the <code>{distill}</code> package. It is so great!</p>
+<p>Portions of this tutorial are adapted from: https://rstudio.github.io/distill/website.html and from https://rstudio.com/resources/webinars/sharing-on-short-notice-how-to-get-your-materials-online-with-r-markdown/</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{laderas2021,
+  author = {Ted Laderas and Ted Laderas},
+  title = {An {Introduction} to \{Distill\} for Websites},
+  date = {2021-03-19},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-laderas2021" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
+Ted Laderas, and Ted Laderas. 2021. <span>“An Introduction to {Distill}
+for Websites.”</span> March 19, 2021.
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
