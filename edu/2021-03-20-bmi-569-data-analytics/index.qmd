@@ -3,9 +3,7 @@ title: "BMI 569: Data Analytics"
 description: |
   Practical coursework in R/SQL for our hybrid Data Analytics Course taught with Kaiser Permanente.
 author: [Ted Laderas, Mark Klick, Aaron Coyner]
-categories:
-  - course
-  - data-science
+categories: ["course", "datascience", "R"]
 date: 2020-04-20
 output:
   distill::distill_article:

@@ -1,7 +1,5 @@
 ---
 title: "The MD in .Rmd: Teaching Clinicians Analytics using R"
-description: |
-  A talk given for R/Medicine 2020 about our Data Analytics course.
 date: 2021-03-22
 output:
   distill::distill_article:
@@ -13,9 +11,11 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+A talk given for R/Medicine 2020 about our Data Analytics course and how we work with clinicians and bioinformaticians to learn data transformation and modeling using a synthetic dataset.
+
+[Slides](https://laderast.github.io/rmed_2020_talk/#1){.btn .btn-primary role="button"}
 
 ```{r}
 knitr::include_url("https://laderast.github.io/rmed_2020_talk/#1")
 ```
 
-[Slides](https://laderast.github.io/rmed_2020_talk/#1){.btn .btn-primary role="button"}

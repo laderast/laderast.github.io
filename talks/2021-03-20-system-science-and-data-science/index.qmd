@@ -8,6 +8,9 @@ output:
     self_contained: true
 ---
 
+Talk about the connections between System Science and Data Science. System Science is very good at understanding interactions and we should leverage this more in Machine Learning approaches.
+
+[Slides](https://laderast.github.io/sysc_data_sci/#(1)){.btn .btn-primary role="button"}
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)

@@ -1,8 +1,6 @@
 ---
-# Date this page was created.
 date: "2017-06-22"
 draft: true
-# Project title.
 title: "Cardiovascular Risk Workshop"
 categories: ["shiny", "machine-learning", "clinical-data", "workshop"]
 ---

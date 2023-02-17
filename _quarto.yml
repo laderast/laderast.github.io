@@ -19,5 +19,5 @@ website:
     creator: "@tladeras"
 format:
   html:
-    theme: cosmo
+    theme: lux
     css: styles.css

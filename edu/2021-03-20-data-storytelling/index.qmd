@@ -5,11 +5,7 @@ description: |
 author:
   - name: Ted Laderas
 date: 2020-04-01
-categories:
-  - free
-  - workshop
-  - biodata-club
-  - tidyverse
+categories: ["free", "workshop", "biodata-club", "tidyverse", "R"]
 output:
   distill::distill_article:
     self_contained: true

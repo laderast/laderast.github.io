@@ -1,7 +1,5 @@
 ---
-title: "Data Scavenger Hunt: Exploring Data Together"
-description: |
-  Talk for CSV Conf 2019 about the {burro} package.
+title: "Data Scavenger Hunts: Exploring Data Together"
 date: 2019-05-09
 output:
   distill::distill_article:
@@ -13,8 +11,10 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+Talk for CSV Conf 2019 about the [{burro}](https://github.com/laderast/burro) Shiny package, which lets new users explore new datasets and guides them through the basic phases of exploratory data analysis (EDA).
+
+[Slides](https://laderast.github.io/csv_talk/#1){.btn .btn-primary role="button"}
+
 ```{r}
 knitr::include_url("https://laderast.github.io/csv_talk/#1")
 ```
-
-[Slides](https://laderast.github.io/csv_talk/#1){.btn .btn-primary role="button"}

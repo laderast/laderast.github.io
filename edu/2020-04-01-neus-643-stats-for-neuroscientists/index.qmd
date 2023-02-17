@@ -3,8 +3,7 @@ title: "NEUS 643: Stats for Neuroscientists"
 description: |
    Course that applies statistics and machine learning using image processing.
 author: Ted Laderas
-categories: 
-  - course
+categories: ["course", "python"]
 image: social-image.png
 date: 2020-04-01
 ---
@@ -18,6 +17,11 @@ knitr::opts_chunk$set(echo = FALSE)
 knitr::include_graphics("social-image.png")
 ```
 
+# Links
+
+[<button type="button" class="btn btn-primary">Course Webiste</button>](https://stats4neuro.netlify.app)
+[<button type="button" class="btn btn-primary">Syllabus</button>](https://stats4neuro.netlify.app/syllabus/)
+
 # Description
 
 This is a full quarter course that teaches the basics of image processing, statistics, and machine learning using Bioconductor. It consists of an RStudio.cloud workspace and online lectures.
@@ -29,7 +33,3 @@ This is a full quarter course that teaches the basics of image processing, stati
 - **Understand** basic spatial statistics and how to assess null models of spatial data.
 - **Execute** and **Interpret** basic spatial statistics on data that are involved with fluoresence microscopy analysis.
 
-# Links
-
-[<button type="button" class="btn btn-primary">Course Webiste</button>](https://stats4neuro.netlify.app)
-[<button type="button" class="btn btn-primary">Syllabus</button>](https://stats4neuro.netlify.app/syllabus/)

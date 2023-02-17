@@ -1,20 +1,20 @@
 ---
 title: "Psychological Safety"
-description: |
-  Slides talking about the importance of psychological safety and codes of conduct in the classroom.
+categories: ["Psychological Safety", "Mental Health"]
 date: 2021-03-22
 output:
   distill::distill_article:
-    self_contained: false
+    self_contained: true
 ---
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+Talk about the importance of psychological safety and codes of conduct in the classroom. Learn how to encourage safety in the classroom through the use of a Code of Conduct.
+
+[Slides](https://laderast.github.io/psych_safety){.btn .btn-primary role="button"}
+
 ```{r}
 knitr::include_url("https://laderast.github.io/psych_safety")
 ```
-
-[Slides](https://laderast.github.io/psych_safety){.btn .btn-primary role="button"}

@@ -3,9 +3,7 @@ title: "BSTA 504: R Programming"
 description: |
   Our course for OHSU/PSU School of Public Health teaching the basics of R-Programming
 authors: [Ted Laderas, Jessica Minnier]
-categories:
-  - course
-  - tidyverse
+categories: ["course", "tidyverse", "R"]
 preview: social-image.png
 date: 2021-03-20
 output:

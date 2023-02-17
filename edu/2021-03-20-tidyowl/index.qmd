@@ -3,10 +3,7 @@ title: "{tidyowl}"
 description: |
   Intermediate lessons in R
 date: 2021-03-20
-categories: 
-  - self-learning
-  - free
-  - tidyverse
+categories: ["self-learning", "free", "tidyverse"]
 output:
   distill::distill_article:
     self_contained: true

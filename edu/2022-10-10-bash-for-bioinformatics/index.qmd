@@ -1,8 +1,14 @@
 ---
 title: "Bash for Bioinformatics"
+categories: ["ukbiobank", "dnanexus", "bash", "webinar", "free"]
 ---
 
 This is an online and free textbook that covers the essential Bash scripting skills you'll need to do execute work on the DNAnexus cloud platform.
+
+# Links
+
+[Book](https://laderast.github.io/bash_for_bioinformatics/){.btn .btn-primary role="button"} [Repository](https://github.com/laderast/bash_for_bioinformatics){.btn .btn-primary role="button"}
+
 
 ## Learning Objectives
 
@@ -13,4 +19,3 @@ This is an online and free textbook that covers the essential Bash scripting ski
 -   **Monitor**, **profile**, **terminate** and **retry** jobs to optimize costs
 -   **Manage** software dependencies reproducibly using container-based technologies such as Docker
 
-[Book](https://laderast.github.io/bash_for_bioinformatics/){.btn .btn-primary role="button"} [Repository](https://github.com/laderast/bash_for_bioinformatics){.btn .btn-primary role="button"}

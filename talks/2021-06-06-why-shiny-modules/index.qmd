@@ -1,7 +1,7 @@
 ---
 title: "Why Shiny Modules"
 description: |
-  Lightning talk for PDX-R Shiny Happy Hour on why to use Shiny Modules.
+ 
 date: 2021-06-06
 output:
   distill::distill_article:
@@ -15,20 +15,17 @@ library(vembedr)
 library(dplyr)
 ```
 
-# Slides
+Lightning talk for PDX-R Shiny Happy Hour on why and when to use Shiny Modules.
+
+[Repository](https://github.com/laderast/shiny_module_tutorial/){.btn .btn-primary role="button"}
+[Slides](https://laderast.github.io/shiny_module_tutorial/)
 
 ```{r}
 knitr::include_url("https://laderast.github.io/shiny_module_tutorial/#1")
 ```
-
-# Video
 
 ```{r}
 vembedr::embed_youtube("K1WrY9tOGB0") %>%
   vembedr::use_start_time("5m22s")
 ```
 
-
-# Links
-
-[Repository](https://github.com/laderast/shiny_module_tutorial/){.btn .btn-primary role="button"}

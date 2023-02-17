@@ -4,6 +4,7 @@ editor: visual
 listing:
   contents: edu
   sort: "date desc"
+  categories: true
 title-block-banner: true
 ---
 

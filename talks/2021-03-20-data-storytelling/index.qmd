@@ -1,10 +1,13 @@
 ---
 title: "Data Storytelling"
-description: |
-  Learn about tailoring your visualization to an audience through reducing cognitive load.
 date: 2021-03-20
+categories: ["visualization", "R"]
 ---
 
+Learn about tailoring your visualization to an audience through reducing cognitive load. Slides and workshop practicing making effective visualizations using R/RStudio.
+
+[Slides](https://laderast.github.io/data_storytelling_bdc/#1){.btn .btn-primary role="button"}
+[Workshop Repository](https://github.com/laderast/data_storytelling_bdc){.btn .btn-primary role="button"}
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -14,4 +17,3 @@ knitr::opts_chunk$set(echo = FALSE)
 knitr::include_url("https://laderast.github.io/data_storytelling_bdc/#1")
 ```
 
-[Slides](https://laderast.github.io/data_storytelling_bdc/#1){.btn .btn-primary role="button"}

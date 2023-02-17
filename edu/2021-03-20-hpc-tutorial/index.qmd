@@ -3,10 +3,7 @@ title: "HPC Tutorial"
 description: |
   Self paced tutorial for learning about cluster computing and SLURM.
 date: 2017-06-22
-categories:
-  - free
-  - workshop
-  - hpc
+categories: ["free", "workshop", "hpc"]
 creative_commons: CC BY
 output:
   distill::distill_article:

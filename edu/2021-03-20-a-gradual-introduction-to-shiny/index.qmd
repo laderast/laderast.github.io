@@ -4,9 +4,7 @@ description: |
   A Workshop that covers the basics behind learning Shiny.
 date: 2021-01-28
 author: [Ted Laderas, Jessica Minnier, Dar'ya Pozhidayeva, Pierrette Lo]
-categories:
-  - workshop
-  - free
+categories: ["workshop", "free", "R", "shiny"]
 output:
   distill::distill_article:
     self_contained: true

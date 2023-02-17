@@ -1,13 +1,9 @@
 ---
-draft: true
+date: "2019-01-25"
+title: "Data Scavenger Hunt: NHANES"
 ---
 
-+++
-# Date this page was created.
-date = "2019-01-25"
 
-# Project title.
-title = "Data Scavenger Hunt: NHANES"
 
 # Project summary to display on homepage.
 summary = "An introduction to Exploratory Data Analysis using the [burro](http://laderast.github.io/burro) app to explore outcomes using the NHANES (National Health and Nutrition Examination Survey) dataset. With Jessica Minnier and Thomas Frohwein."

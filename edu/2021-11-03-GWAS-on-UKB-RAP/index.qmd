@@ -3,6 +3,7 @@ title: "GWAS on UKB RAP"
 format: html
 editor: visual
 date: "2021-11-03"
+categories: ["ukbiobank", "webinar", "free"]
 author:
   - name: Anastazie Sedlakova
 ---

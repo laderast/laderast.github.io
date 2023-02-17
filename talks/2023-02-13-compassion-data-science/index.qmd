@@ -2,9 +2,11 @@
 title: "The Value of Compassion in Learning Data Science"
 ---
 
-Keynote for [University of Pittburgh's Love Data Week](https://lovedatapgh.io/#keynote-address-the-value-of-compassion-in-learning-data-science).
+Keynote for [University of Pittburgh's Love Data Week](https://lovedatapgh.io/#keynote-address-the-value-of-compassion-in-learning-data-science). Learning data science skills effectively requires a culture of compassion and psychological safety. However, this culture is not guaranteed within academia. In this talk, I will share effective strategies for building a culture of compassion, starting with yourself, and building up a safe learning environment for others. I will highlight this with examples on my own learning and teaching journey. I will show you strategies for learning, teaching, and building an inclusive learning environment for you and your peers.
 
-Learning data science skills effectively requires a culture of compassion and psychological safety. However, this culture is not guaranteed within academia. In this talk, I will share effective strategies for building a culture of compassion, starting with yourself, and building up a safe learning environment for others. I will highlight this with examples on my own learning and teaching journey. I will show you strategies for learning, teaching, and building an inclusive learning environment for you and your peers.
+[Slides](https://laderast.github.io/pitt_keynote/#/title-slide){.btn .btn-primary role="button"}
+[Slide Repo](https://github.com/laderast/pitt_keynote){.btn .btn-primary role="button"}
+[YouTube Video](https://youtu.be/za0xX10G7mU){.btn .btn-primary role="button"}
 
 <iframe class="slide-deck" src="https://laderast.github.io/pitt_keynote/#/title-slide" height=300 width=600></iframe>
 
@@ -13,6 +15,3 @@ Learning data science skills effectively requires a culture of compassion and ps
 vembedr::embed_youtube("za0xX10G7mU")
 ```
 
-[Slides](https://laderast.github.io/pitt_keynote/#/title-slide){.btn .btn-primary role="button"}
-[Slide Repo](https://github.com/laderast/pitt_keynote){.btn .btn-primary role="button"}
-[YouTube Video](https://youtu.be/za0xX10G7mU){.btn .btn-primary role="button"}

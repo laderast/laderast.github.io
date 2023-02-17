@@ -3,6 +3,7 @@ title: "Cloud Computing for HPC Users"
 format: html
 editor: visual
 date: "2022-03-28"
+categories: ["ukbiobank", "webinar", "free"]
 author:
   - name: Anastazie Sedlakova
 ---

@@ -4,9 +4,7 @@ description: |
   How you too can learn to {distill}.
 author: Ted Laderas
 date: 2021-03-19
-categories: 
-  - workshop
-  - free
+categories: ["workshop", "free"]
 output:
   distill::distill_article:
     self_contained: false

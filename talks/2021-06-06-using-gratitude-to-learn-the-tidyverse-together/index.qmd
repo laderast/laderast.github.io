@@ -1,21 +1,23 @@
 ---
 title: "Using gRatitude to learn the `tidyverse` together"
 description: |
-  My lightning talk for Cascadia-R 2021 talking about our tidyverse assignment.
+  
 date: 2021-06-04
 output:
   distill::distill_article:
     self_contained: false
 ---
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+My lightning talk for Cascadia-R 2021 talking about our tidyverse assignment for my R Programming course. Learn about how we taught each other useful tidyverse functions. 
+
+[Slides](https://laderast.github.io/gratitude_talk/){.btn .btn-primary role="button"}
 
 ```{r}
 knitr::include_url("https://laderast.github.io/gratitude_talk/")
 ```
 
 
-[Slides](https://laderast.github.io/gratitude_talk/){.btn .btn-primary role="button"}

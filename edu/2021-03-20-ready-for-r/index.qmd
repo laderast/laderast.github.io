@@ -2,9 +2,7 @@
 title: "Ready for R"
 description: |
   Get started with R/RStudio and the `tidyverse`
-categories: 
-  - course
-  - free
+categories: ["course", "free", "R"]
 author: [Ted Laderas, Aaron Coyner]
 date: 2020-03-20
 preview: social-image.png

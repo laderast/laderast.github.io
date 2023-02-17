@@ -3,6 +3,7 @@ title: "Workflow Description Language (WDL) on RAP"
 format: html
 editor: visual
 date: "2022-01-28"
+categories: ["ukbiobank", "webinar", "free"]
 author:
   - name: Anastazie Sedlakova
 ---

@@ -3,6 +3,7 @@ title: "UK Biobank Webinar: Using JupyterLab"
 format: html
 editor: visual
 date: "2021-10-19"
+categories: ["ukbiobank", "webinar", "free"]
 author:
   - name: Anastazie Sedlakova
 ---
