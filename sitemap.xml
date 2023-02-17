@@ -2,358 +2,362 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://laderast.github.io/edu/2022-05-13-Cloud-Computing-for-HPC-users/index.html</loc>
-    <lastmod>2023-02-16T20:59:20.632Z</lastmod>
+    <lastmod>2023-02-17T17:14:04.313Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/edu/2022-01-28-Workflow-Description-Language/index.html</loc>
-    <lastmod>2023-02-16T20:59:21.094Z</lastmod>
+    <lastmod>2023-02-17T17:14:04.773Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/edu/2021-03-20-r-bootcamp/index.html</loc>
-    <lastmod>2023-02-16T20:59:21.563Z</lastmod>
+    <lastmod>2023-02-17T17:14:05.323Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laderast.github.io/edu/data_nhanes.html</loc>
+    <lastmod>2023-02-17T17:14:05.836Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/edu/2021-03-19-an-introduction-to-distill/index.html</loc>
-    <lastmod>2023-02-16T20:59:22.609Z</lastmod>
+    <lastmod>2023-02-17T17:14:06.463Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/edu/2021-03-20-ready-for-r/index.html</loc>
-    <lastmod>2023-02-16T20:59:23.107Z</lastmod>
+    <lastmod>2023-02-17T17:14:06.964Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/edu/2021-03-20-bmi-569-data-analytics/index.html</loc>
-    <lastmod>2023-02-16T20:59:23.582Z</lastmod>
+    <lastmod>2023-02-17T17:14:07.461Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/edu/2021-10-14-ukbiobank-webinar/index.html</loc>
-    <lastmod>2023-02-16T20:59:24.064Z</lastmod>
+    <lastmod>2023-02-17T17:14:07.938Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/edu/2022-10-10-bash-for-bioinformatics/index.html</loc>
-    <lastmod>2023-02-16T20:59:24.518Z</lastmod>
+    <lastmod>2023-02-17T17:14:08.416Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/edu/2021-03-20-a-gradual-introduction-to-shiny/index.html</loc>
-    <lastmod>2023-02-16T20:59:25.031Z</lastmod>
+    <lastmod>2023-02-17T17:14:08.910Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/edu/2021-03-22-data-scavenger-hunt-exploring-nhanes/index.html</loc>
-    <lastmod>2023-02-16T20:59:25.960Z</lastmod>
+    <lastmod>2023-02-17T17:14:09.865Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/edu/2021-03-20-hpc-tutorial/index.html</loc>
-    <lastmod>2023-02-16T20:59:28.709Z</lastmod>
+    <lastmod>2023-02-17T17:14:12.198Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/edu/2021-03-20-data-storytelling/index.html</loc>
-    <lastmod>2023-02-16T20:59:29.194Z</lastmod>
+    <lastmod>2023-02-17T17:14:12.672Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/edu/2021-10-19-Jupyter-Notebooks/index.html</loc>
-    <lastmod>2023-02-16T20:59:30.133Z</lastmod>
+    <lastmod>2023-02-17T17:14:13.600Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/edu/2021-11-03-GWAS-on-UKB-RAP/index.html</loc>
-    <lastmod>2023-02-16T20:59:30.598Z</lastmod>
+    <lastmod>2023-02-17T17:14:14.064Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/edu/2021-03-20-tidyowl/index.html</loc>
-    <lastmod>2023-02-16T20:59:31.084Z</lastmod>
+    <lastmod>2023-02-17T17:14:14.545Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/edu/2020-04-01-neus-643-stats-for-neuroscientists/index.html</loc>
-    <lastmod>2023-02-16T20:59:32.070Z</lastmod>
+    <lastmod>2023-02-17T17:14:15.493Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/edu/2021-03-20-bsta-504-r-programming/index.html</loc>
-    <lastmod>2023-02-16T20:59:32.535Z</lastmod>
+    <lastmod>2023-02-17T17:14:15.960Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/edu/2021-03-20-a-practical-guide-to-reproducible-papers/index.html</loc>
-    <lastmod>2023-02-16T20:59:33.024Z</lastmod>
+    <lastmod>2023-02-17T17:14:16.417Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/teaching.html</loc>
-    <lastmod>2023-02-16T20:59:33.577Z</lastmod>
+    <lastmod>2023-02-17T17:14:17.475Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2018-01-15-if-you-want-to-talk-with-me-for-an-informational-interview/index.html</loc>
-    <lastmod>2023-02-16T20:59:34.086Z</lastmod>
+    <lastmod>2023-02-17T17:14:17.962Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2017-06-28-HowToNotBeAfraid/index.html</loc>
-    <lastmod>2023-02-16T20:59:34.542Z</lastmod>
+    <lastmod>2023-02-17T17:14:18.442Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2017-04-19-Breadth-and-depth/index.html</loc>
-    <lastmod>2023-02-16T20:59:35.055Z</lastmod>
+    <lastmod>2023-02-17T17:14:18.927Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2017-06-07-CascadiaRNotes/index.html</loc>
-    <lastmod>2023-02-16T20:59:35.556Z</lastmod>
+    <lastmod>2023-02-17T17:14:19.442Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2015-12-23-Surrogate-Oncogene-Paper/index.html</loc>
-    <lastmod>2023-02-16T20:59:36.064Z</lastmod>
+    <lastmod>2023-02-17T17:14:19.912Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2021-03-18-updated-blog/index.html</loc>
-    <lastmod>2023-02-16T20:59:36.527Z</lastmod>
+    <lastmod>2023-02-17T17:14:20.399Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2017-04-17-Building-A-Peer-Mentoring/index.html</loc>
-    <lastmod>2023-02-16T20:59:37.001Z</lastmod>
+    <lastmod>2023-02-17T17:14:20.861Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2019-09-23-kindness-at-the-cost-of-yourself/index.html</loc>
-    <lastmod>2023-02-16T20:59:37.544Z</lastmod>
+    <lastmod>2023-02-17T17:14:21.397Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2018-04-04-a-simple-intro-to-genome-wide-association/2018-04-04-a-simple-intro-to-genome-wide-association.html</loc>
-    <lastmod>2023-02-16T20:59:38.018Z</lastmod>
+    <lastmod>2023-02-17T17:14:21.871Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2022-08-04-RStudio-Conf/index.html</loc>
-    <lastmod>2023-02-16T20:59:38.507Z</lastmod>
+    <lastmod>2023-02-17T17:14:22.370Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2018-03-19-some-notes-from-the-evidence-to-scholarship-conference/index.html</loc>
-    <lastmod>2023-02-16T20:59:39.037Z</lastmod>
+    <lastmod>2023-02-17T17:14:22.855Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2021-04-29-moving-on-and-upwards/index.html</loc>
-    <lastmod>2023-02-16T20:59:39.514Z</lastmod>
+    <lastmod>2023-02-17T17:14:23.367Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2015-05-26-mutational-burden-in-skin/index.html</loc>
-    <lastmod>2023-02-16T20:59:39.993Z</lastmod>
+    <lastmod>2023-02-17T17:14:23.824Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2018-06-09-cascadia-r-2018-how-we-planned-it/index.html</loc>
-    <lastmod>2023-02-16T20:59:40.520Z</lastmod>
+    <lastmod>2023-02-17T17:14:24.348Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2022-02-27-yes-and-is-the-foundation-of-collaboration/index.html</loc>
-    <lastmod>2023-02-16T20:59:41.177Z</lastmod>
+    <lastmod>2023-02-17T17:14:24.917Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2015-11-19-statcheck-package/index.html</loc>
-    <lastmod>2023-02-16T20:59:41.629Z</lastmod>
+    <lastmod>2023-02-17T17:14:25.391Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2018-06-25-asking-for-help-to-get-better/index.html</loc>
-    <lastmod>2023-02-16T20:59:42.129Z</lastmod>
+    <lastmod>2023-02-17T17:14:25.885Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2019-07-03-burning-out-and-recovering-slowly/index.html</loc>
-    <lastmod>2023-02-16T20:59:42.630Z</lastmod>
+    <lastmod>2023-02-17T17:14:26.396Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2018-02-28-data-science-and-systems-science/index.html</loc>
-    <lastmod>2023-02-16T20:59:43.101Z</lastmod>
+    <lastmod>2023-02-17T17:14:26.869Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2020-10-14-setting-boundaries-and-saying-no/index.html</loc>
-    <lastmod>2023-02-16T20:59:44.757Z</lastmod>
+    <lastmod>2023-02-17T17:14:28.516Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2017-11-07-ODSC-Notes/index.html</loc>
-    <lastmod>2023-02-16T20:59:45.240Z</lastmod>
+    <lastmod>2023-02-17T17:14:29.003Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2018-06-06-self-care-and-self-compassion-in-academia/index.html</loc>
-    <lastmod>2023-02-16T20:59:45.742Z</lastmod>
+    <lastmod>2023-02-17T17:14:29.495Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2019-01-24-rstudio-conf-2019-education-and-organizations/index.html</loc>
-    <lastmod>2023-02-16T20:59:46.490Z</lastmod>
+    <lastmod>2023-02-17T17:14:30.255Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2021-07-20-life-after-academia/index.html</loc>
-    <lastmod>2023-02-16T20:59:47.003Z</lastmod>
+    <lastmod>2023-02-17T17:14:30.747Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2018-01-23-shiny-workshop-materials-posted/index.html</loc>
-    <lastmod>2023-02-16T20:59:47.476Z</lastmod>
+    <lastmod>2023-02-17T17:14:31.236Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2018-10-15-clinical-data-wrangling/index.html</loc>
-    <lastmod>2023-02-16T20:59:48.021Z</lastmod>
+    <lastmod>2023-02-17T17:14:31.804Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2023-01-04-retrospective-laderas/index.html</loc>
-    <lastmod>2023-02-16T20:59:48.564Z</lastmod>
+    <lastmod>2023-02-17T17:14:32.349Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2018-08-02-turning-down-the-noise/2018-08-02-turning-down-the-noise.html</loc>
-    <lastmod>2023-02-16T20:59:49.110Z</lastmod>
+    <lastmod>2023-02-17T17:14:32.891Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2018-04-25-health-informatics-course-materials/index.html</loc>
-    <lastmod>2023-02-16T20:59:49.568Z</lastmod>
+    <lastmod>2023-02-17T17:14:33.356Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2015-05-24-The-Rise-Of-Fraud-in-High-IF-journals/index.html</loc>
-    <lastmod>2023-02-16T20:59:50.043Z</lastmod>
+    <lastmod>2023-02-17T17:14:33.825Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2018-05-17-a-introvert-s-survival-guide-to-conferences/index.html</loc>
-    <lastmod>2023-02-16T20:59:50.570Z</lastmod>
+    <lastmod>2023-02-17T17:14:34.359Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2017-12-19-understanding-tidyeval/index.html</loc>
-    <lastmod>2023-02-16T20:59:51.322Z</lastmod>
+    <lastmod>2023-02-17T17:14:35.057Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2017-07-05-interesting-user2017talks/index.html</loc>
-    <lastmod>2023-02-16T20:59:51.783Z</lastmod>
+    <lastmod>2023-02-17T17:14:35.533Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/posts/2017-12-14-using-synthetic-data/index.html</loc>
-    <lastmod>2023-02-16T20:59:52.746Z</lastmod>
+    <lastmod>2023-02-17T17:14:36.513Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/talks.html</loc>
-    <lastmod>2023-02-16T20:59:53.238Z</lastmod>
+    <lastmod>2023-02-17T17:14:36.969Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/articles/2020-9-3_crops/index.html</loc>
-    <lastmod>2023-02-16T20:59:53.993Z</lastmod>
+    <lastmod>2023-02-17T17:14:37.700Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/articles/2021-10-05-registered-nurses/2021-10-05-registered-nurses.html</loc>
-    <lastmod>2023-02-16T20:59:54.855Z</lastmod>
+    <lastmod>2023-02-17T17:14:38.606Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/articles/2020-08-11-avatar_last_airbender/index.html</loc>
-    <lastmod>2023-02-16T20:59:55.751Z</lastmod>
+    <lastmod>2023-02-17T17:14:39.490Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/articles/2023-02-14-learning-data-science-is-hard/index.html</loc>
-    <lastmod>2023-02-16T20:59:56.232Z</lastmod>
+    <lastmod>2023-02-17T17:14:39.958Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/articles/2018-12-13-reframing-impostor-syndrome-as-being-on-the-road-to-mastery/2018-12-13-reframing-impostor-syndrome-as-being-on-the-road-to-mastery.html</loc>
-    <lastmod>2023-02-16T20:59:56.766Z</lastmod>
+    <lastmod>2023-02-17T17:14:40.506Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/articles/tidyverse_functions/index.html</loc>
-    <lastmod>2023-02-16T20:59:57.573Z</lastmod>
+    <lastmod>2023-02-17T17:14:41.303Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/articles/2018-01-17-what-we-learned-teaching-python-to-neuroscience-students/2018-01-17-what-we-learned-teaching-python-to-neuroscience-students.html</loc>
-    <lastmod>2023-02-16T20:59:58.185Z</lastmod>
+    <lastmod>2023-02-17T17:14:41.885Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/articles/2021-09-13-how-to-network-in-a-non-slimy-way/how-to-network-in-a-non-slimy-way.html</loc>
-    <lastmod>2023-02-16T20:59:58.734Z</lastmod>
+    <lastmod>2023-02-17T17:14:42.442Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/articles/2020-07-08_coffee/index.html</loc>
-    <lastmod>2023-02-16T21:00:00.003Z</lastmod>
+    <lastmod>2023-02-17T17:14:43.705Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/articles/2021-10-19-great-pumpkins/2021-10-19-great-pumpkins.html</loc>
-    <lastmod>2023-02-16T21:00:00.627Z</lastmod>
+    <lastmod>2023-02-17T17:14:44.301Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/articles/2018-05-24-group-by-summarize-not-just-for-numeric-values/2018-05-24-group-by-summarize-not-just-for-numeric-values.html</loc>
-    <lastmod>2023-02-16T21:00:01.336Z</lastmod>
+    <lastmod>2023-02-17T17:14:45.001Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/articles/2020-05-05_animal-crossing/animal-crossing.html</loc>
-    <lastmod>2023-02-16T21:00:02.458Z</lastmod>
+    <lastmod>2023-02-17T17:14:46.141Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/articles/2019-02-12-package-building-how-description-namespace-roxygen-and-devtools-document-work-together/2019-02-12-package-building-how-description-namespace-roxygen-and-devtools-document-work-together.html</loc>
-    <lastmod>2023-02-16T21:00:03.227Z</lastmod>
+    <lastmod>2023-02-17T17:14:46.910Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/articles/2021-10-12-seafood/2021-10-12-seafood.html</loc>
-    <lastmod>2023-02-16T21:00:04.052Z</lastmod>
+    <lastmod>2023-02-17T17:14:47.715Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/articles/2018-01-05-so-you-ve-accidentally-checked-in-a-large-file-into-git/index.html</loc>
-    <lastmod>2023-02-16T21:00:04.602Z</lastmod>
+    <lastmod>2023-02-17T17:14:48.276Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/articles/2018-08-07-shiny-and-tidyeval/2018-08-07-shiny-and-tidyeval.html</loc>
-    <lastmod>2023-02-16T21:00:05.297Z</lastmod>
+    <lastmod>2023-02-17T17:14:48.967Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/articles/2019-11-15-my-experience-with-rstudio-instructor-training/2019-11-15-my-experience-with-rstudio-instructor-training.html</loc>
-    <lastmod>2023-02-16T21:00:05.839Z</lastmod>
+    <lastmod>2023-02-17T17:14:49.535Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/articles/2020-09-15-getting-learnr-tutorials-to-run-on-mybinder-org/2020-09-15-getting-learnr-tutorials-to-run-on-mybinder-org.html</loc>
-    <lastmod>2023-02-16T21:00:06.394Z</lastmod>
+    <lastmod>2023-02-17T17:14:50.119Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/talks/2021-03-22-the-md-in-rmd-teaching-clinicians-analytics-usin-r/index.html</loc>
-    <lastmod>2023-02-16T21:00:06.940Z</lastmod>
+    <lastmod>2023-02-17T17:14:50.591Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/talks/2021-03-22-object-oriented-systems-in-r/index.html</loc>
-    <lastmod>2023-02-16T21:00:07.404Z</lastmod>
+    <lastmod>2023-02-17T17:14:51.058Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/talks/2021-03-22-psychological-safety/index.html</loc>
-    <lastmod>2023-02-16T21:00:07.901Z</lastmod>
+    <lastmod>2023-02-17T17:14:51.523Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/talks/2021-03-20-system-science-and-data-science/index.html</loc>
-    <lastmod>2023-02-16T21:00:08.370Z</lastmod>
+    <lastmod>2023-02-17T17:14:51.991Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/talks/2021-03-23-data-scavenger-hunt-exploring-data-together/index.html</loc>
-    <lastmod>2023-02-16T21:00:08.839Z</lastmod>
+    <lastmod>2023-02-17T17:14:52.480Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/talks/2023-02-13-compassion-data-science/index.html</loc>
-    <lastmod>2023-02-16T21:00:09.309Z</lastmod>
+    <lastmod>2023-02-17T17:14:52.961Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/talks/2021-06-06-why-shiny-modules/index.html</loc>
-    <lastmod>2023-02-16T21:00:09.805Z</lastmod>
+    <lastmod>2023-02-17T17:14:53.472Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/talks/2021-03-20-data-storytelling/index.html</loc>
-    <lastmod>2023-02-16T21:00:10.273Z</lastmod>
+    <lastmod>2023-02-17T17:14:53.943Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/talks/2021-03-22-conversations-about-sleep-clinical-data-wrangling/index.html</loc>
-    <lastmod>2023-02-16T21:00:10.740Z</lastmod>
+    <lastmod>2023-02-17T17:14:54.452Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/talks/2022-09-14-qmd-rmd/index.html</loc>
-    <lastmod>2023-02-16T21:00:11.206Z</lastmod>
+    <lastmod>2023-02-17T17:14:54.924Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/talks/2022-10-7-using-cognitive-science/index.html</loc>
-    <lastmod>2023-02-16T21:00:11.670Z</lastmod>
+    <lastmod>2023-02-17T17:14:55.402Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/talks/2021-06-06-using-gratitude-to-learn-the-tidyverse-together/index.html</loc>
-    <lastmod>2023-02-16T21:00:12.144Z</lastmod>
+    <lastmod>2023-02-17T17:14:55.868Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/index.html</loc>
-    <lastmod>2023-02-16T21:00:12.483Z</lastmod>
+    <lastmod>2023-02-17T17:14:56.193Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/2022-retrospective.html</loc>
-    <lastmod>2023-02-16T21:00:12.948Z</lastmod>
+    <lastmod>2023-02-17T17:14:56.678Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/test.html</loc>
-    <lastmod>2023-02-16T21:00:13.395Z</lastmod>
+    <lastmod>2023-02-17T17:14:57.125Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/articles.html</loc>
-    <lastmod>2023-02-16T21:00:13.886Z</lastmod>
+    <lastmod>2023-02-17T17:14:57.604Z</lastmod>
   </url>
   <url>
     <loc>https://laderast.github.io/blog.html</loc>
-    <lastmod>2023-02-16T21:00:14.544Z</lastmod>
+    <lastmod>2023-02-17T17:14:58.293Z</lastmod>
   </url>
 </urlset>

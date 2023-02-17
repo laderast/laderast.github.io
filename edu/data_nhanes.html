@@ -7,8 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ted Laderas">
+<meta name="dcterms.date" content="2019-01-25">
 
-<title>Ted Laderas, PhD – data_nhanes</title>
+<title>Ted Laderas, PhD - Data Scavenger Hunt: NHANES</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -62,6 +63,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../styles.css">
+<meta name="twitter:title" content="Ted Laderas, PhD - Data Scavenger Hunt: NHANES">
+<meta name="twitter:description" content="summary = “An introduction to Exploratory Data Analysis using the burro app to explore outcomes using the NHANES (National Health and Nutrition Examination Survey) dataset.">
+<meta name="twitter:creator" content="@tladeras">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
@@ -113,7 +118,44 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Data Scavenger Hunt: NHANES</h1>
+                      </div>
+  </div>
+    
+  <div class="quarto-title-meta-author">
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-heading">Affiliation</div>
+    
+      <div class="quarto-title-meta-contents">
+      <a href="https://laderast.github.io">Ted Laderas</a> <a href="https://orcid.org/0000-0002-6207-7068" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
+    </div>
+      <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              <a href="https://dnanexus.com">
+              DNAnexus
+              </a>
+            </p>
+        </div>
+      </div>
+
+  <div class="quarto-title-meta">
+
+        
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">January 25, 2019</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -121,8 +163,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#project-title." id="toc-project-title." class="nav-link active" data-scroll-target="#project-title.">Project title.</a></li>
-  <li><a href="#project-summary-to-display-on-homepage." id="toc-project-summary-to-display-on-homepage." class="nav-link" data-scroll-target="#project-summary-to-display-on-homepage.">Project summary to display on homepage.</a></li>
+  <li><a href="#project-summary-to-display-on-homepage." id="toc-project-summary-to-display-on-homepage." class="nav-link active" data-scroll-target="#project-summary-to-display-on-homepage.">Project summary to display on homepage.</a></li>
   <li><a href="#optional-image-to-display-on-homepage-relative-to-staticimg-folder." id="toc-optional-image-to-display-on-homepage-relative-to-staticimg-folder." class="nav-link" data-scroll-target="#optional-image-to-display-on-homepage-relative-to-staticimg-folder.">Optional image to display on homepage (relative to <code>static/img/</code> folder).</a></li>
   <li><a href="#tags-can-be-used-for-filtering-projects." id="toc-tags-can-be-used-for-filtering-projects." class="nav-link" data-scroll-target="#tags-can-be-used-for-filtering-projects.">Tags: can be used for filtering projects.</a></li>
   <li><a href="#example-tags-machine-learning-deep-learning" id="toc-example-tags-machine-learning-deep-learning" class="nav-link" data-scroll-target="#example-tags-machine-learning-deep-learning">Example: <code>tags = ["machine-learning", "deep-learning"]</code></a></li>
@@ -136,11 +177,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>+++ # Date this page was created. date = “2019-01-25”</p>
-<section id="project-title." class="level1">
-<h1>Project title.</h1>
-<p>title = “Data Scavenger Hunt: NHANES”</p>
-</section>
+
 <section id="project-summary-to-display-on-homepage." class="level1">
 <h1>Project summary to display on homepage.</h1>
 <p>summary = “An introduction to Exploratory Data Analysis using the <a href="http://laderast.github.io/burro">burro</a> app to explore outcomes using the NHANES (National Health and Nutrition Examination Survey) dataset. With Jessica Minnier and Thomas Frohwein.”</p>
@@ -168,13 +205,16 @@ ul.task-list li input[type="checkbox"] {
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{laderas,
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{laderas2019,
   author = {Ted Laderas},
+  title = {Data {Scavenger} {Hunt:} {NHANES}},
+  date = {2019-01-25},
   url = {https://laderast.github.io//data_nhanes.html},
   langid = {en}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-laderas" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
-Ted Laderas. n.d. <a href="https://laderast.github.io//data_nhanes.html">https://laderast.github.io//data_nhanes.html</a>.
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-laderas2019" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
+Ted Laderas. 2019. <span>“Data Scavenger Hunt: NHANES.”</span> January
+25, 2019. <a href="https://laderast.github.io//data_nhanes.html">https://laderast.github.io//data_nhanes.html</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
