@@ -1,0 +1,19 @@
+---
+title: "A gRadual Introduction to Web APIs and JSON"
+date: 2/23/23
+---
+
+Talk given for PDX-R about interacting with web APIs using `{httr2}`, extracting data using `{jsonlite}` and `{tidyjson}`, and building your own APIs using `{plumber}`.
+
+[Slides](https://laderast.github.io/intro_apis_json/){.btn .btn-primary role="button"}
+[Video](https://youtu.be/nDyiIx0BVq0){.btn .btn-primary role="button"}
+[Posit.cloud Project](https://posit.cloud/content/5481225){.btn .btn-primary role="button"}
+
+
+<iframe class="slide-deck" src="https://laderast.github.io/intro_apis_json/#/title-slide" height=300 width=600></iframe>
+
+```{r}
+#| echo: false
+vembedr::embed_youtube("nDyiIx0BVq0")
+```
+

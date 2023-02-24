@@ -26,6 +26,7 @@
   {
     "listing": "/talks.html",
     "items": [
+      "/talks/2023-02-23-web-apis-json-r/index.html",
       "/talks/2023-02-13-compassion-data-science/index.html",
       "/talks/2022-10-7-using-cognitive-science/index.html",
       "/talks/2022-09-14-qmd-rmd/index.html",
