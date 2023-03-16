@@ -4,5 +4,8 @@ editor: visual
 listing:
   contents: talks
   sort: date desc
+  categories: true
+  sort-ui: true
+  filter-ui: true
 title-block-banner: true
 ---
