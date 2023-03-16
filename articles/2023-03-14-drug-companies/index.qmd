@@ -1,6 +1,9 @@
 ---
 title: "European Drug Companies"
+categories: [tidytuesday]
 ---
+
+For Tidy Tuesday this week (3/14), I took a quick look at the drugs brought out by European Drug companies.
 
 ```{r}
 library(tidyverse)
@@ -16,11 +19,15 @@ visdat::vis_dat(drugs)
 
 # Drugs by Therapeutic Area
 
+Not surprisingly, Diabetes Type 2 is the top therapeutic area, followed by HIV infections, and hypertension.
+
 ```{r}
 drugs |> count(therapeutic_area) |> arrange(desc(n)) |> dplyr::filter(n > 10)
 ```
 
 # Most Common Therapeutic Area Plot
+
+Here's a plotly plot that shows those therapeutic areas that have more than 10 drugs. Mouse over them to get the drug name
 
 ```{r}
 my_plot <- drugs |> tidyr::drop_na(therapeutic_area) |> count(therapeutic_area) |> arrange(desc(n)) |>
@@ -33,6 +40,8 @@ plotly::ggplotly(my_plot)
 ```
 
 # Orphan Medicines
+
+Looking at the therapeutic areas for orphan drugs, we see different priorities.
 
 ```{r}
 drugs |>
