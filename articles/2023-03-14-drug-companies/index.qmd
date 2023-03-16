@@ -39,8 +39,12 @@ drugs |>
 Here's a plotly plot that shows those therapeutic areas that have more than 10 drugs. Mouse over them to get the drug name.
 
 ```{r}
-my_plot <- drugs |> tidyr::drop_na(therapeutic_area) |> count(therapeutic_area) |> arrange(desc(n)) |>
-  dplyr::filter(n > 10) |> dplyr::mutate(therapeutic_area = fct_reorder(therapeutic_area, n)) |>
+my_plot <- drugs |> 
+  tidyr::drop_na(therapeutic_area) |> 
+  count(therapeutic_area) |> 
+  arrange(desc(n)) |>
+  dplyr::filter(n > 10) |> 
+  dplyr::mutate(therapeutic_area = fct_reorder(therapeutic_area, n)) |>
   ggplot() + aes(x=therapeutic_area, y=n) + geom_bar(stat = "identity") + coord_flip() +
   theme(axis.title.x = element_blank(), axis.title.y = element_blank()) +
   ggtitle("Number of Drugs by Therapeutic Area")
@@ -57,15 +61,21 @@ drugs |>
   filter(orphan_medicine == TRUE) |>
   count(therapeutic_area) |>
   arrange(desc(n)) |>
+  head(n=20) |>
   gt::gt()
 
 ```
 
+
+
 # Which Companies?
+
+What companies have the most drugs in this set?
 
 ```{r}
 drugs |>
   count(marketing_authorisation_holder_company_name) |>
   arrange(desc(n)) |>
-  head(n = 20)
+  head(n = 20) |>
+  gt::gt()
 ```
