@@ -3,7 +3,10 @@ title: "Articles"
 editor: visual
 listing:
   contents: articles
+  categories: true
   sort: "date desc"
+  sort-ui: true
+  filter-ui: true
 title-block-banner: true
 ---
 

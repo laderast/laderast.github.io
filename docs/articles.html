@@ -70,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -99,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -167,7 +167,9 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(19)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="git">git <span class="quarto-category-count">(1)</span></div><div class="category" data-category="git hell">git hell <span class="quarto-category-count">(1)</span></div><div class="category" data-category="shiny">shiny <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tidytuesday">tidytuesday <span class="quarto-category-count">(8)</span></div><div class="category" data-category="tidyverse">tidyverse <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -180,6 +182,31 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
 <div class="list quarto-listing-default">
 <div class="quarto-post image-right" data-index="0" data-categories="tidytuesday" data-listing-file-modified-sort="1678995564191" data-listing-reading-time-sort="1.095">
 <div class="thumbnail">
@@ -197,6 +224,13 @@ European Drug Companies
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('tidytuesday'); return false;">
+tidytuesday
+</div>
+</div>
+<a href="./articles/2023-03-14-drug-companies/index.html">
 <div class="listing-description">
 For Tidy Tuesday this week (3/14), I took a quick look at the drugs brought out by European Drug companies.
 </div>
@@ -255,6 +289,13 @@ Tidy Tuesday: Seafood Production and Consumption
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('tidytuesday'); return false;">
+tidytuesday
+</div>
+</div>
+<a href="./articles/2021-10-12-seafood/2021-10-12-seafood.html">
 <div class="listing-description">
 <p>Understanding global cephalopod production.</p>
 </div>
@@ -287,6 +328,13 @@ Registered Nurses in the United States and Territories
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('tidytuesday'); return false;">
+tidytuesday
+</div>
+</div>
+<a href="./articles/2021-10-05-registered-nurses/2021-10-05-registered-nurses.html">
 <div class="listing-description">
 <p>Understanding wages for Registered Nurses.</p>
 </div>
@@ -379,6 +427,11 @@ Getting LearnR tutorials to run on mybinder.org
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+
+</div>
+<a href="./articles/2020-09-15-getting-learnr-tutorials-to-run-on-mybinder-org/2020-09-15-getting-learnr-tutorials-to-run-on-mybinder-org.html">
 <div class="listing-description">
 <p>Getting Shiny, LearnR, and Mybinder.org to play together nicely.</p>
 </div>
@@ -411,6 +464,13 @@ Tidy Tuesday: Crop Production
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('tidytuesday'); return false;">
+tidytuesday
+</div>
+</div>
+<a href="./articles/2020-9-3_crops/index.html">
 <div class="listing-description">
 <p>Understanding crop production across the world.</p>
 </div>
@@ -443,6 +503,13 @@ Sentiment analysis of Avatar
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('tidytuesday'); return false;">
+tidytuesday
+</div>
+</div>
+<a href="./articles/2020-08-11-avatar_last_airbender/index.html">
 <div class="listing-description">
 <p>Understanding Characters through Avatar Episode Scripts.</p>
 </div>
@@ -475,6 +542,13 @@ Coffee Data Exploration
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('tidytuesday'); return false;">
+tidytuesday
+</div>
+</div>
+<a href="./articles/2020-07-08_coffee/index.html">
 <div class="listing-description">
 <p>Understanding coffee production and consumption across the world.</p>
 </div>
@@ -507,6 +581,13 @@ Animal Crossing
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('tidytuesday'); return false;">
+tidytuesday
+</div>
+</div>
+<a href="./articles/2020-05-05_animal-crossing/animal-crossing.html">
 <div class="listing-description">
 <p>Looking at the unique animal personalities in Animal Crossing.</p>
 </div>
@@ -539,6 +620,11 @@ Notes on the RStudio Instructor Training Experience
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+
+</div>
+<a href="./articles/2019-11-15-my-experience-with-rstudio-instructor-training/2019-11-15-my-experience-with-rstudio-instructor-training.html">
 <div class="listing-description">
 <p>Notes on the RStudio Instructor Training and certification exams.</p>
 </div>
@@ -567,6 +653,13 @@ Package Building: How <code>DESCRIPTION</code>, <code>NAMESPACE</code>, <code>ro
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+</div>
+<a href="./articles/2019-02-12-package-building-how-description-namespace-roxygen-and-devtools-document-work-together/2019-02-12-package-building-how-description-namespace-roxygen-and-devtools-document-work-together.html">
 <div class="listing-description">
 <p>Some thoughts the package building process and how <code>devtools::document()</code> is at the center of it..</p>
 </div>
@@ -599,6 +692,11 @@ Reframing Impostor Syndrome as the Road to Mastery
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+
+</div>
+<a href="./articles/2018-12-13-reframing-impostor-syndrome-as-being-on-the-road-to-mastery/2018-12-13-reframing-impostor-syndrome-as-being-on-the-road-to-mastery.html">
 <div class="listing-description">
 <p>Some thoughts about impostor syndrome.</p>
 </div>
@@ -631,6 +729,13 @@ Shiny and Tidyeval Part 1
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('shiny'); return false;">
+shiny
+</div>
+</div>
+<a href="./articles/2018-08-07-shiny-and-tidyeval/2018-08-07-shiny-and-tidyeval.html">
 <div class="listing-description">
 <p>How do you incorporate tidyeval and shiny together?</p>
 </div>
@@ -663,6 +768,11 @@ What We learned teaching Python to Neuroscience Students
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+
+</div>
+<a href="./articles/2018-01-17-what-we-learned-teaching-python-to-neuroscience-students/2018-01-17-what-we-learned-teaching-python-to-neuroscience-students.html">
 <div class="listing-description">
 <p>Our team-taught class introducing Neuroscience Graduate Program students to Python.</p>
 </div>
@@ -695,6 +805,13 @@ Pumpkins, Pumpkins, Pumpkins
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('tidytuesday'); return false;">
+tidytuesday
+</div>
+</div>
+<a href="./articles/2021-10-19-great-pumpkins/2021-10-19-great-pumpkins.html">
 <div class="listing-description">
 <p>Learning about giant pumpkin contest winners.</p>
 </div>
@@ -727,6 +844,13 @@ group_by/summarize: Not just for numeric values!
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('tidyverse'); return false;">
+tidyverse
+</div>
+</div>
+<a href="./articles/2018-05-24-group-by-summarize-not-just-for-numeric-values/2018-05-24-group-by-summarize-not-just-for-numeric-values.html">
 <div class="listing-description">
 <p>Learn some more about the many uses of <code>group_by()</code>/<code>summarize()</code>.</p>
 </div>
@@ -759,6 +883,16 @@ So You’ve Accidentally Checked in a Large File Into Git
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('git'); return false;">
+git
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('git hell'); return false;">
+git hell
+</div>
+</div>
+<a href="./articles/2018-01-05-so-you-ve-accidentally-checked-in-a-large-file-into-git/index.html">
 <div class="listing-description">
 <p>Don’t panic. I’ll show you how to scrub your Git history and get rid of it.</p>
 </div>
