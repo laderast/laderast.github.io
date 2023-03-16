@@ -5,6 +5,8 @@ categories: [tidytuesday]
 
 For Tidy Tuesday this week (3/14), I took a quick look at the drugs brought out by European Drug companies.
 
+The first thing we'll do is load the data in and use `skimr::skim()` to understand the data structure.
+
 ```{r}
 library(tidyverse)
 
@@ -12,6 +14,8 @@ drugs <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidy
 
 skimr::skim(drugs)
 ```
+Then we'll take a look at the data using `visdat::vis_dat()` 
+
 ```{r}
 visdat::vis_dat(drugs)
 
@@ -22,12 +26,17 @@ visdat::vis_dat(drugs)
 Not surprisingly, Diabetes Type 2 is the top therapeutic area, followed by HIV infections, and hypertension.
 
 ```{r}
-drugs |> count(therapeutic_area) |> arrange(desc(n)) |> dplyr::filter(n > 10)
+drugs |> 
+  tidyr::drop_na(therapeutic_area) |>
+  count(therapeutic_area) |> 
+  arrange(desc(n)) |> 
+  dplyr::filter(n > 10) |>
+  gt::gt()
 ```
 
 # Most Common Therapeutic Area Plot
 
-Here's a plotly plot that shows those therapeutic areas that have more than 10 drugs. Mouse over them to get the drug name
+Here's a plotly plot that shows those therapeutic areas that have more than 10 drugs. Mouse over them to get the drug name.
 
 ```{r}
 my_plot <- drugs |> tidyr::drop_na(therapeutic_area) |> count(therapeutic_area) |> arrange(desc(n)) |>
@@ -47,6 +56,16 @@ Looking at the therapeutic areas for orphan drugs, we see different priorities.
 drugs |>
   filter(orphan_medicine == TRUE) |>
   count(therapeutic_area) |>
-  arrange(desc(n))
+  arrange(desc(n)) |>
+  gt::gt()
 
+```
+
+# Which Companies?
+
+```{r}
+drugs |>
+  count(marketing_authorisation_holder_company_name) |>
+  arrange(desc(n)) |>
+  head(n = 20)
 ```

@@ -233,6 +233,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <li><a href="#drugs-by-therapeutic-area" id="toc-drugs-by-therapeutic-area" class="nav-link active" data-scroll-target="#drugs-by-therapeutic-area">Drugs by Therapeutic Area</a></li>
   <li><a href="#most-common-therapeutic-area-plot" id="toc-most-common-therapeutic-area-plot" class="nav-link" data-scroll-target="#most-common-therapeutic-area-plot">Most Common Therapeutic Area Plot</a></li>
   <li><a href="#orphan-medicines" id="toc-orphan-medicines" class="nav-link" data-scroll-target="#orphan-medicines">Orphan Medicines</a></li>
+  <li><a href="#which-companies" id="toc-which-companies" class="nav-link" data-scroll-target="#which-companies">Which Companies?</a></li>
   </ul>
 </nav>
     </div>
@@ -243,6 +244,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 
 <p>For Tidy Tuesday this week (3/14), I took a quick look at the drugs brought out by European Drug companies.</p>
+<p>The first thing we’ll do is load the data in and use <code>skimr::skim()</code> to understand the data structure.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
@@ -711,6 +713,7 @@ date  (4): marketing_authorisation_date, date_of_refusal_of_marketing_author...
 </table>
 </div>
 </div>
+<p>Then we’ll take a look at the data using <code>visdat::vis_dat()</code></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>visdat<span class="sc">::</span><span class="fu">vis_dat</span>(drugs)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
@@ -727,39 +730,437 @@ date  (4): marketing_authorisation_date, date_of_refusal_of_marketing_author...
 <h1>Drugs by Therapeutic Area</h1>
 <p>Not surprisingly, Diabetes Type 2 is the top therapeutic area, followed by HIV infections, and hypertension.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>drugs <span class="sc">|&gt;</span> <span class="fu">count</span>(therapeutic_area) <span class="sc">|&gt;</span> <span class="fu">arrange</span>(<span class="fu">desc</span>(n)) <span class="sc">|&gt;</span> dplyr<span class="sc">::</span><span class="fu">filter</span>(n <span class="sc">&gt;</span> <span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 28 × 2
-   therapeutic_area                           n
-   &lt;chr&gt;                                  &lt;int&gt;
- 1 &lt;NA&gt;                                     285
- 2 Diabetes Mellitus, Type 2                 73
- 3 HIV Infections                            71
- 4 Hypertension                              47
- 5 Diabetes Mellitus                         37
- 6 Pulmonary Disease, Chronic Obstructive    30
- 7 Hepatitis C, Chronic                      22
- 8 Multiple Myeloma                          22
- 9 Parkinson Disease                         20
-10 Carcinoma, Non-Small-Cell Lung            19
-# … with 18 more rows</code></pre>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>drugs <span class="sc">|&gt;</span> </span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">drop_na</span>(therapeutic_area) <span class="sc">|&gt;</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(therapeutic_area) <span class="sc">|&gt;</span> </span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(n)) <span class="sc">|&gt;</span> </span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(n <span class="sc">&gt;</span> <span class="dv">10</span>) <span class="sc">|&gt;</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>  gt<span class="sc">::</span><span class="fu">gt</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+
+<div id="akufzbnkuv" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+:where(#akufzbnkuv) .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+:where(#akufzbnkuv) .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#akufzbnkuv) .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+:where(#akufzbnkuv) .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 6px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+:where(#akufzbnkuv) .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#akufzbnkuv) .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#akufzbnkuv) .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+:where(#akufzbnkuv) .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+:where(#akufzbnkuv) .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+:where(#akufzbnkuv) .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+:where(#akufzbnkuv) .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+:where(#akufzbnkuv) .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+:where(#akufzbnkuv) .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+:where(#akufzbnkuv) .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+:where(#akufzbnkuv) .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+:where(#akufzbnkuv) .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+:where(#akufzbnkuv) .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+:where(#akufzbnkuv) .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#akufzbnkuv) .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+:where(#akufzbnkuv) .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#akufzbnkuv) .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+:where(#akufzbnkuv) .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+:where(#akufzbnkuv) .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#akufzbnkuv) .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#akufzbnkuv) .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+:where(#akufzbnkuv) .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#akufzbnkuv) .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+:where(#akufzbnkuv) .gt_left {
+  text-align: left;
+}
+
+:where(#akufzbnkuv) .gt_center {
+  text-align: center;
+}
+
+:where(#akufzbnkuv) .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+:where(#akufzbnkuv) .gt_font_normal {
+  font-weight: normal;
+}
+
+:where(#akufzbnkuv) .gt_font_bold {
+  font-weight: bold;
+}
+
+:where(#akufzbnkuv) .gt_font_italic {
+  font-style: italic;
+}
+
+:where(#akufzbnkuv) .gt_super {
+  font-size: 65%;
+}
+
+:where(#akufzbnkuv) .gt_footnote_marks {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 65%;
+}
+</style>
+<table class="gt_table">
+  
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">therapeutic_area</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1">n</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td class="gt_row gt_left">Diabetes Mellitus, Type 2</td>
+<td class="gt_row gt_right">73</td></tr>
+    <tr><td class="gt_row gt_left">HIV Infections</td>
+<td class="gt_row gt_right">71</td></tr>
+    <tr><td class="gt_row gt_left">Hypertension</td>
+<td class="gt_row gt_right">47</td></tr>
+    <tr><td class="gt_row gt_left">Diabetes Mellitus</td>
+<td class="gt_row gt_right">37</td></tr>
+    <tr><td class="gt_row gt_left">Pulmonary Disease, Chronic Obstructive</td>
+<td class="gt_row gt_right">30</td></tr>
+    <tr><td class="gt_row gt_left">Hepatitis C, Chronic</td>
+<td class="gt_row gt_right">22</td></tr>
+    <tr><td class="gt_row gt_left">Multiple Myeloma</td>
+<td class="gt_row gt_right">22</td></tr>
+    <tr><td class="gt_row gt_left">Parkinson Disease</td>
+<td class="gt_row gt_right">20</td></tr>
+    <tr><td class="gt_row gt_left">Carcinoma, Non-Small-Cell Lung</td>
+<td class="gt_row gt_right">19</td></tr>
+    <tr><td class="gt_row gt_left">Epilepsy</td>
+<td class="gt_row gt_right">19</td></tr>
+    <tr><td class="gt_row gt_left">Schizophrenia;  Bipolar Disorder</td>
+<td class="gt_row gt_right">18</td></tr>
+    <tr><td class="gt_row gt_left">Breast Neoplasms</td>
+<td class="gt_row gt_right">17</td></tr>
+    <tr><td class="gt_row gt_left">Hemophilia A</td>
+<td class="gt_row gt_right">16</td></tr>
+    <tr><td class="gt_row gt_left">Multiple Sclerosis</td>
+<td class="gt_row gt_right">16</td></tr>
+    <tr><td class="gt_row gt_left">Erectile Dysfunction</td>
+<td class="gt_row gt_right">15</td></tr>
+    <tr><td class="gt_row gt_left">Influenza, Human;  Immunization;  Disease Outbreaks</td>
+<td class="gt_row gt_right">14</td></tr>
+    <tr><td class="gt_row gt_left">Prostatic Neoplasms</td>
+<td class="gt_row gt_right">14</td></tr>
+    <tr><td class="gt_row gt_left">Asthma</td>
+<td class="gt_row gt_right">13</td></tr>
+    <tr><td class="gt_row gt_left">COVID-19 virus infection</td>
+<td class="gt_row gt_right">13</td></tr>
+    <tr><td class="gt_row gt_left">Hypertension, Pulmonary</td>
+<td class="gt_row gt_right">13</td></tr>
+    <tr><td class="gt_row gt_left">Neutropenia</td>
+<td class="gt_row gt_right">13</td></tr>
+    <tr><td class="gt_row gt_left">Osteoporosis, Postmenopausal</td>
+<td class="gt_row gt_right">13</td></tr>
+    <tr><td class="gt_row gt_left">Alzheimer Disease</td>
+<td class="gt_row gt_right">12</td></tr>
+    <tr><td class="gt_row gt_left">Peripheral Vascular Diseases;  Stroke;  Myocardial Infarction</td>
+<td class="gt_row gt_right">12</td></tr>
+    <tr><td class="gt_row gt_left">Carcinoma, Non-Small-Cell Lung;  Mesothelioma</td>
+<td class="gt_row gt_right">11</td></tr>
+    <tr><td class="gt_row gt_left">Multiple Sclerosis, Relapsing-Remitting</td>
+<td class="gt_row gt_right">11</td></tr>
+    <tr><td class="gt_row gt_left">Radionuclide Imaging</td>
+<td class="gt_row gt_right">11</td></tr>
+  </tbody>
+  
+  
+</table>
+</div>
 </div>
 </div>
 </section>
 <section id="most-common-therapeutic-area-plot" class="level1">
 <h1>Most Common Therapeutic Area Plot</h1>
-<p>Here’s a plotly plot that shows those therapeutic areas that have more than 10 drugs. Mouse over them to get the drug name</p>
+<p>Here’s a plotly plot that shows those therapeutic areas that have more than 10 drugs. Mouse over them to get the drug name.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>my_plot <span class="ot">&lt;-</span> drugs <span class="sc">|&gt;</span> tidyr<span class="sc">::</span><span class="fu">drop_na</span>(therapeutic_area) <span class="sc">|&gt;</span> <span class="fu">count</span>(therapeutic_area) <span class="sc">|&gt;</span> <span class="fu">arrange</span>(<span class="fu">desc</span>(n)) <span class="sc">|&gt;</span></span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(n <span class="sc">&gt;</span> <span class="dv">10</span>) <span class="sc">|&gt;</span> dplyr<span class="sc">::</span><span class="fu">mutate</span>(<span class="at">therapeutic_area =</span> <span class="fu">fct_reorder</span>(therapeutic_area, n)) <span class="sc">|&gt;</span></span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> <span class="fu">aes</span>(<span class="at">x=</span>therapeutic_area, <span class="at">y=</span>n) <span class="sc">+</span> <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>) <span class="sc">+</span> <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
-<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.title.x =</span> <span class="fu">element_blank</span>(), <span class="at">axis.title.y =</span> <span class="fu">element_blank</span>()) <span class="sc">+</span></span>
-<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggtitle</span>(<span class="st">"Number of Drugs by Therapeutic Area"</span>)</span>
-<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>plotly<span class="sc">::</span><span class="fu">ggplotly</span>(my_plot)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>my_plot <span class="ot">&lt;-</span> drugs <span class="sc">|&gt;</span> tidyr<span class="sc">::</span><span class="fu">drop_na</span>(therapeutic_area) <span class="sc">|&gt;</span> <span class="fu">count</span>(therapeutic_area) <span class="sc">|&gt;</span> <span class="fu">arrange</span>(<span class="fu">desc</span>(n)) <span class="sc">|&gt;</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(n <span class="sc">&gt;</span> <span class="dv">10</span>) <span class="sc">|&gt;</span> dplyr<span class="sc">::</span><span class="fu">mutate</span>(<span class="at">therapeutic_area =</span> <span class="fu">fct_reorder</span>(therapeutic_area, n)) <span class="sc">|&gt;</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> <span class="fu">aes</span>(<span class="at">x=</span>therapeutic_area, <span class="at">y=</span>n) <span class="sc">+</span> <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>) <span class="sc">+</span> <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.title.x =</span> <span class="fu">element_blank</span>(), <span class="at">axis.title.y =</span> <span class="fu">element_blank</span>()) <span class="sc">+</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggtitle</span>(<span class="st">"Number of Drugs by Therapeutic Area"</span>)</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>plotly<span class="sc">::</span><span class="fu">ggplotly</span>(my_plot)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<div id="htmlwidget-5556206d7048380200f7" style="width:100%;height:464px;" class="plotly html-widget"></div>
-<script type="application/json" data-for="htmlwidget-5556206d7048380200f7">{"x":{"data":[{"orientation":"h","width":[0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.9,0.9,0.899999999999999,0.899999999999999,0.899999999999999,0.9,0.9,0.9,0.9,0.9],"base":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"x":[73,71,47,37,30,22,22,20,19,19,18,17,16,16,15,14,14,13,13,13,13,13,12,12,11,11,11],"y":[27,26,25,24,23,21,22,20,18,19,17,16,14,15,13,11,12,6,7,8,9,10,4,5,1,2,3],"text":["therapeutic_area: Diabetes Mellitus, Type 2<br />n: 73","therapeutic_area: HIV Infections<br />n: 71","therapeutic_area: Hypertension<br />n: 47","therapeutic_area: Diabetes Mellitus<br />n: 37","therapeutic_area: Pulmonary Disease, Chronic Obstructive<br />n: 30","therapeutic_area: Hepatitis C, Chronic<br />n: 22","therapeutic_area: Multiple Myeloma<br />n: 22","therapeutic_area: Parkinson Disease<br />n: 20","therapeutic_area: Carcinoma, Non-Small-Cell Lung<br />n: 19","therapeutic_area: Epilepsy<br />n: 19","therapeutic_area: Schizophrenia;  Bipolar Disorder<br />n: 18","therapeutic_area: Breast Neoplasms<br />n: 17","therapeutic_area: Hemophilia A<br />n: 16","therapeutic_area: Multiple Sclerosis<br />n: 16","therapeutic_area: Erectile Dysfunction<br />n: 15","therapeutic_area: Influenza, Human;  Immunization;  Disease Outbreaks<br />n: 14","therapeutic_area: Prostatic Neoplasms<br />n: 14","therapeutic_area: Asthma<br />n: 13","therapeutic_area: COVID-19 virus infection<br />n: 13","therapeutic_area: Hypertension, Pulmonary<br />n: 13","therapeutic_area: Neutropenia<br />n: 13","therapeutic_area: Osteoporosis, Postmenopausal<br />n: 13","therapeutic_area: Alzheimer Disease<br />n: 12","therapeutic_area: Peripheral Vascular Diseases;  Stroke;  Myocardial Infarction<br />n: 12","therapeutic_area: Carcinoma, Non-Small-Cell Lung;  Mesothelioma<br />n: 11","therapeutic_area: Multiple Sclerosis, Relapsing-Remitting<br />n: 11","therapeutic_area: Radionuclide Imaging<br />n: 11"],"type":"bar","marker":{"autocolorscale":false,"color":"rgba(89,89,89,1)","line":{"width":null,"color":"transparent"}},"showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":43.7625570776256,"r":7.30593607305936,"b":25.5707762557078,"l":367.488584474886},"plot_bgcolor":"rgba(235,235,235,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"title":{"text":"Number of Drugs by Therapeutic Area","font":{"color":"rgba(0,0,0,1)","family":"","size":17.5342465753425},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-3.65,76.65],"tickmode":"array","ticktext":["0","20","40","60"],"tickvals":[4.44089209850063e-16,20,40,60],"categoryorder":"array","categoryarray":["0","20","40","60"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0,"zeroline":false,"anchor":"y","title":{"text":"","font":{"color":null,"family":null,"size":0}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[0.4,27.6],"tickmode":"array","ticktext":["Carcinoma, Non-Small-Cell Lung;  Mesothelioma","Multiple Sclerosis, Relapsing-Remitting","Radionuclide Imaging","Alzheimer Disease","Peripheral Vascular Diseases;  Stroke;  Myocardial Infarction","Asthma","COVID-19 virus infection","Hypertension, Pulmonary","Neutropenia","Osteoporosis, Postmenopausal","Influenza, Human;  Immunization;  Disease Outbreaks","Prostatic Neoplasms","Erectile Dysfunction","Hemophilia A","Multiple Sclerosis","Breast Neoplasms","Schizophrenia;  Bipolar Disorder","Carcinoma, Non-Small-Cell Lung","Epilepsy","Parkinson Disease","Hepatitis C, Chronic","Multiple Myeloma","Pulmonary Disease, Chronic Obstructive","Diabetes Mellitus","Hypertension","HIV Infections","Diabetes Mellitus, Type 2"],"tickvals":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27],"categoryorder":"array","categoryarray":["Carcinoma, Non-Small-Cell Lung;  Mesothelioma","Multiple Sclerosis, Relapsing-Remitting","Radionuclide Imaging","Alzheimer Disease","Peripheral Vascular Diseases;  Stroke;  Myocardial Infarction","Asthma","COVID-19 virus infection","Hypertension, Pulmonary","Neutropenia","Osteoporosis, Postmenopausal","Influenza, Human;  Immunization;  Disease Outbreaks","Prostatic Neoplasms","Erectile Dysfunction","Hemophilia A","Multiple Sclerosis","Breast Neoplasms","Schizophrenia;  Bipolar Disorder","Carcinoma, Non-Small-Cell Lung","Epilepsy","Parkinson Disease","Hepatitis C, Chronic","Multiple Myeloma","Pulmonary Disease, Chronic Obstructive","Diabetes Mellitus","Hypertension","HIV Infections","Diabetes Mellitus, Type 2"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0,"zeroline":false,"anchor":"x","title":{"text":"","font":{"color":null,"family":null,"size":0}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","showSendToCloud":false},"source":"A","attrs":{"cb2a47861b18":{"x":{},"y":{},"type":"bar"}},"cur_data":"cb2a47861b18","visdat":{"cb2a47861b18":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-53446ab3407cdf5d1b53" style="width:100%;height:464px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-53446ab3407cdf5d1b53">{"x":{"data":[{"orientation":"h","width":[0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.9,0.9,0.899999999999999,0.899999999999999,0.899999999999999,0.9,0.9,0.9,0.9,0.9],"base":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"x":[73,71,47,37,30,22,22,20,19,19,18,17,16,16,15,14,14,13,13,13,13,13,12,12,11,11,11],"y":[27,26,25,24,23,21,22,20,18,19,17,16,14,15,13,11,12,6,7,8,9,10,4,5,1,2,3],"text":["therapeutic_area: Diabetes Mellitus, Type 2<br />n: 73","therapeutic_area: HIV Infections<br />n: 71","therapeutic_area: Hypertension<br />n: 47","therapeutic_area: Diabetes Mellitus<br />n: 37","therapeutic_area: Pulmonary Disease, Chronic Obstructive<br />n: 30","therapeutic_area: Hepatitis C, Chronic<br />n: 22","therapeutic_area: Multiple Myeloma<br />n: 22","therapeutic_area: Parkinson Disease<br />n: 20","therapeutic_area: Carcinoma, Non-Small-Cell Lung<br />n: 19","therapeutic_area: Epilepsy<br />n: 19","therapeutic_area: Schizophrenia;  Bipolar Disorder<br />n: 18","therapeutic_area: Breast Neoplasms<br />n: 17","therapeutic_area: Hemophilia A<br />n: 16","therapeutic_area: Multiple Sclerosis<br />n: 16","therapeutic_area: Erectile Dysfunction<br />n: 15","therapeutic_area: Influenza, Human;  Immunization;  Disease Outbreaks<br />n: 14","therapeutic_area: Prostatic Neoplasms<br />n: 14","therapeutic_area: Asthma<br />n: 13","therapeutic_area: COVID-19 virus infection<br />n: 13","therapeutic_area: Hypertension, Pulmonary<br />n: 13","therapeutic_area: Neutropenia<br />n: 13","therapeutic_area: Osteoporosis, Postmenopausal<br />n: 13","therapeutic_area: Alzheimer Disease<br />n: 12","therapeutic_area: Peripheral Vascular Diseases;  Stroke;  Myocardial Infarction<br />n: 12","therapeutic_area: Carcinoma, Non-Small-Cell Lung;  Mesothelioma<br />n: 11","therapeutic_area: Multiple Sclerosis, Relapsing-Remitting<br />n: 11","therapeutic_area: Radionuclide Imaging<br />n: 11"],"type":"bar","marker":{"autocolorscale":false,"color":"rgba(89,89,89,1)","line":{"width":null,"color":"transparent"}},"showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":43.7625570776256,"r":7.30593607305936,"b":25.5707762557078,"l":367.488584474886},"plot_bgcolor":"rgba(235,235,235,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"title":{"text":"Number of Drugs by Therapeutic Area","font":{"color":"rgba(0,0,0,1)","family":"","size":17.5342465753425},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-3.65,76.65],"tickmode":"array","ticktext":["0","20","40","60"],"tickvals":[4.44089209850063e-16,20,40,60],"categoryorder":"array","categoryarray":["0","20","40","60"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0,"zeroline":false,"anchor":"y","title":{"text":"","font":{"color":null,"family":null,"size":0}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[0.4,27.6],"tickmode":"array","ticktext":["Carcinoma, Non-Small-Cell Lung;  Mesothelioma","Multiple Sclerosis, Relapsing-Remitting","Radionuclide Imaging","Alzheimer Disease","Peripheral Vascular Diseases;  Stroke;  Myocardial Infarction","Asthma","COVID-19 virus infection","Hypertension, Pulmonary","Neutropenia","Osteoporosis, Postmenopausal","Influenza, Human;  Immunization;  Disease Outbreaks","Prostatic Neoplasms","Erectile Dysfunction","Hemophilia A","Multiple Sclerosis","Breast Neoplasms","Schizophrenia;  Bipolar Disorder","Carcinoma, Non-Small-Cell Lung","Epilepsy","Parkinson Disease","Hepatitis C, Chronic","Multiple Myeloma","Pulmonary Disease, Chronic Obstructive","Diabetes Mellitus","Hypertension","HIV Infections","Diabetes Mellitus, Type 2"],"tickvals":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27],"categoryorder":"array","categoryarray":["Carcinoma, Non-Small-Cell Lung;  Mesothelioma","Multiple Sclerosis, Relapsing-Remitting","Radionuclide Imaging","Alzheimer Disease","Peripheral Vascular Diseases;  Stroke;  Myocardial Infarction","Asthma","COVID-19 virus infection","Hypertension, Pulmonary","Neutropenia","Osteoporosis, Postmenopausal","Influenza, Human;  Immunization;  Disease Outbreaks","Prostatic Neoplasms","Erectile Dysfunction","Hemophilia A","Multiple Sclerosis","Breast Neoplasms","Schizophrenia;  Bipolar Disorder","Carcinoma, Non-Small-Cell Lung","Epilepsy","Parkinson Disease","Hepatitis C, Chronic","Multiple Myeloma","Pulmonary Disease, Chronic Obstructive","Diabetes Mellitus","Hypertension","HIV Infections","Diabetes Mellitus, Type 2"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0,"zeroline":false,"anchor":"x","title":{"text":"","font":{"color":null,"family":null,"size":0}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","showSendToCloud":false},"source":"A","attrs":{"ea076feb8c56":{"x":{},"y":{},"type":"bar"}},"cur_data":"ea076feb8c56","visdat":{"ea076feb8c56":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section>
@@ -767,25 +1168,657 @@ date  (4): marketing_authorisation_date, date_of_refusal_of_marketing_author...
 <h1>Orphan Medicines</h1>
 <p>Looking at the therapeutic areas for orphan drugs, we see different priorities.</p>
 <div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>drugs <span class="sc">|&gt;</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(orphan_medicine <span class="sc">==</span> <span class="cn">TRUE</span>) <span class="sc">|&gt;</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(therapeutic_area) <span class="sc">|&gt;</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(n)) <span class="sc">|&gt;</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  gt<span class="sc">::</span><span class="fu">gt</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+
+<div id="tektatyxmb" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+:where(#tektatyxmb) .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+:where(#tektatyxmb) .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#tektatyxmb) .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+:where(#tektatyxmb) .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 6px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+:where(#tektatyxmb) .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#tektatyxmb) .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#tektatyxmb) .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+:where(#tektatyxmb) .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+:where(#tektatyxmb) .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+:where(#tektatyxmb) .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+:where(#tektatyxmb) .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+:where(#tektatyxmb) .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+:where(#tektatyxmb) .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+:where(#tektatyxmb) .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+:where(#tektatyxmb) .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+:where(#tektatyxmb) .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+:where(#tektatyxmb) .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+:where(#tektatyxmb) .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#tektatyxmb) .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+:where(#tektatyxmb) .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#tektatyxmb) .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+:where(#tektatyxmb) .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+:where(#tektatyxmb) .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#tektatyxmb) .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#tektatyxmb) .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+:where(#tektatyxmb) .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#tektatyxmb) .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+:where(#tektatyxmb) .gt_left {
+  text-align: left;
+}
+
+:where(#tektatyxmb) .gt_center {
+  text-align: center;
+}
+
+:where(#tektatyxmb) .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+:where(#tektatyxmb) .gt_font_normal {
+  font-weight: normal;
+}
+
+:where(#tektatyxmb) .gt_font_bold {
+  font-weight: bold;
+}
+
+:where(#tektatyxmb) .gt_font_italic {
+  font-style: italic;
+}
+
+:where(#tektatyxmb) .gt_super {
+  font-size: 65%;
+}
+
+:where(#tektatyxmb) .gt_footnote_marks {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 65%;
+}
+</style>
+<table class="gt_table">
+  
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">therapeutic_area</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1">n</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td class="gt_row gt_left">Multiple Myeloma</td>
+<td class="gt_row gt_right">7</td></tr>
+    <tr><td class="gt_row gt_left">Leukemia, Myeloid, Acute</td>
+<td class="gt_row gt_right">5</td></tr>
+    <tr><td class="gt_row gt_left">Gastrointestinal Stromal Tumors</td>
+<td class="gt_row gt_right">3</td></tr>
+    <tr><td class="gt_row gt_left">Hemophilia B</td>
+<td class="gt_row gt_right">3</td></tr>
+    <tr><td class="gt_row gt_left">Muscular Atrophy, Spinal</td>
+<td class="gt_row gt_right">3</td></tr>
+    <tr><td class="gt_row gt_left">Tuberculosis, Multidrug-Resistant</td>
+<td class="gt_row gt_right">3</td></tr>
+    <tr><td class="gt_row gt_left">Amyloidosis</td>
+<td class="gt_row gt_right">2</td></tr>
+    <tr><td class="gt_row gt_left">Cushing Syndrome</td>
+<td class="gt_row gt_right">2</td></tr>
+    <tr><td class="gt_row gt_left">Cystic Fibrosis</td>
+<td class="gt_row gt_right">2</td></tr>
+    <tr><td class="gt_row gt_left">Cystinosis</td>
+<td class="gt_row gt_right">2</td></tr>
+    <tr><td class="gt_row gt_left">Cytomegalovirus Infections</td>
+<td class="gt_row gt_right">2</td></tr>
+    <tr><td class="gt_row gt_left">Gaucher Disease</td>
+<td class="gt_row gt_right">2</td></tr>
+    <tr><td class="gt_row gt_left">Growth and Development</td>
+<td class="gt_row gt_right">2</td></tr>
+    <tr><td class="gt_row gt_left">Hemoglobinuria, Paroxysmal</td>
+<td class="gt_row gt_right">2</td></tr>
+    <tr><td class="gt_row gt_left">Hypertension, Pulmonary</td>
+<td class="gt_row gt_right">2</td></tr>
+    <tr><td class="gt_row gt_left">Lymphoma, Non-Hodgkin</td>
+<td class="gt_row gt_right">2</td></tr>
+    <tr><td class="gt_row gt_left">Muscular Dystrophy, Duchenne</td>
+<td class="gt_row gt_right">2</td></tr>
+    <tr><td class="gt_row gt_left">Pancreatic Neoplasms</td>
+<td class="gt_row gt_right">2</td></tr>
+    <tr><td class="gt_row gt_left">Precursor Cell Lymphoblastic Leukemia-Lymphoma</td>
+<td class="gt_row gt_right">2</td></tr>
+    <tr><td class="gt_row gt_left">Urea Cycle Disorders, Inborn</td>
+<td class="gt_row gt_right">2</td></tr>
+    <tr><td class="gt_row gt_left">NA</td>
+<td class="gt_row gt_right">2</td></tr>
+    <tr><td class="gt_row gt_left">Achondroplasia</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Acid sphingomyelinase deficiency (ASMD) type A/B or type B</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Acromegaly</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Acromegaly;  Pituitary ACTH Hypersecretion</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Alagille Syndrome</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">alpha-Mannosidosis</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Amino Acid Metabolism, Inborn Errors</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Amyloid Neuropathies, Familial</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Amyloidosis, Familial</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Amyotrophic Lateral Sclerosis</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Anemia, Sickle Cell</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Anemia;  Anemia, Hemolytic;  Anemia, Sickle Cell</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Anemia;  Myelodysplastic Syndromes;  beta-Thalassemia</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Angioedemas, Hereditary</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Anthrax</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Aspergillosis</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Carcinoid Tumor;  Neuroendocrine Tumors</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Carcinoma, Hepatocellular;  Carcinoma, Renal Cell</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Cholangiocarcinoma</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Cholestasis, Intrahepatic</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Conjunctivitis;  Keratitis</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Corneal Diseases;  Cystinosis</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Cystic Fibrosis;  Respiratory Tract Infections</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Desensitization, Immunologic;  Kidney Transplantation</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Diabetes Mellitus</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Digestive System Diseases;  Metabolism, Inborn Errors</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Epidermolysis Bullosa Dystrophica;  Epidermolysis Bullosa, Junctional</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Epilepsies, Myoclonic</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Esophageal Diseases</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Fabry Disease</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Factor X Deficiency</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Fallopian Tube Neoplasms;  Peritoneal Neoplasms;  Ovarian Neoplasms</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Friedreich Ataxia</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Genetic Diseases, Inborn;  Anemia, Hemolytic</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Giant Cell Tumor of Tendon Sheath;  Synovitis, Pigmented Villonodular</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Giant Lymph Node Hyperplasia</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Glomerulonephritis, IGA</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Growth</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Hematopoietic Stem Cell Transplantation</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Hemolysis;  Anemia, Hemolytic, Autoimmune</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Hepatic Veno-Occlusive Disease</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Hepatitis D, Chronic</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Hyperlipoproteinemia Type I</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Hyperoxaluria, Primary</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Hypoparathyroidism</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Hypophosphatasia</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Hypophosphatemia, Familial;  Hypophosphatemic Rickets, X-Linked Dominant;  Osteomalacia</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Immune System Diseases</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Keratitis</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Leber Congenital Amaurosis;  Retinitis Pigmentosa</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Lennox Gastaut Syndrome;  Epilepsies, Myoclonic</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Leukemia, Lymphocytic, Chronic, B-Cell</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Leukemia, Myelogenous, Chronic, BCR-ABL Positive</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Leukemia, Myeloid</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Leukemia, Myeloid, Acute;  Mastocytosis</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Leukemia, Myeloid;  Leukemia, Lymphoid</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Leukodystrophy, Metachromatic</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Lipid Metabolism, Inborn Errors</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Lipodystrophy, Familial Partial</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Liver Cirrhosis, Biliary</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Lymphoma</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Lymphoma, B-Cell</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Lymphoma, Follicular</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Lymphoma, Follicular;  Lymphoma, Large B-Cell, Diffuse</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Lymphoma, Large B-Cell, Diffuse</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Lymphoma, Mantle-Cell</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Lymphoma, Non-Hodgkin;  Hodgkin Disease</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Lymphoma, T-Cell</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Lymphoproliferative Disorders</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Malabsorption Syndromes</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Malaria</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Mastocytosis</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Metabolic Side Effects of Drugs and Substances</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Metal Metabolism, Inborn Errors</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Microscopic Polyangiitis;  Wegener Granulomatosis</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Mucopolysaccharidosis IV</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Mucopolysaccharidosis VII</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Multiple Myeloma;  Neoplasms;  Cancer;  Neoplasms, Plasma Cell;  Hemostatic Disorders;  Vascular Diseases;  Cardiovascular Diseases;  Paraproteinemias;  Blood Protein Disorders;  Hematologic Diseases;  Hemic and Lymphatic Diseases;  Hemorrhagic Disorders;  Infectious Mononucleosis;  Lymphoproliferative Disorders;  Immunoproliferative Disorders;  Immune System Diseases</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Myasthenia Gravis</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Mycosis Fungoides</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Myeloproliferative Disorders;  Primary Myelofibrosis</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Myotonic Disorders</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Narcolepsy</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Neuroblastoma</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Neuroendocrine Tumors</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Neuroendocrine Tumors;  Radionuclide Imaging</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Neurofibromatosis 1</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Neuromyelitis Optica</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Neuronal Ceroid-Lipofuscinoses</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Obesity</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Optic Atrophy, Hereditary, Leber</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Phenylketonurias</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Porphyrias, Hepatic</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Precursor B-Cell Lymphoblastic Leukemia-Lymphoma;  Lymphoma, Large B-Cell, Diffuse</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Progeria;  Laminopathies</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Protoporphyria, Erythropoietic</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Purpura, Thrombotic Thrombocytopenic</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Rectal Fistula</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Respiratory Tract Infections</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Severe Combined Immunodeficiency</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Sezary Syndrome;  Mycosis Fungoides</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Sleep Disorders, Circadian Rhythm</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Stem Cell Transplantation;  Corneal Diseases</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Thyroid Neoplasms</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Tuberculosis</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Tuberous Sclerosis</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Uveal Neoplasms</td>
+<td class="gt_row gt_right">1</td></tr>
+    <tr><td class="gt_row gt_left">Xanthomatosis, Cerebrotendinous;  Metabolism, Inborn Errors</td>
+<td class="gt_row gt_right">1</td></tr>
+  </tbody>
+  
+  
+</table>
+</div>
+</div>
+</div>
+</section>
+<section id="which-companies" class="level1">
+<h1>Which Companies?</h1>
+<div class="cell">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>drugs <span class="sc">|&gt;</span></span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(orphan_medicine <span class="sc">==</span> <span class="cn">TRUE</span>) <span class="sc">|&gt;</span></span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(therapeutic_area) <span class="sc">|&gt;</span></span>
-<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(n))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(marketing_authorisation_holder_company_name) <span class="sc">|&gt;</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(n)) <span class="sc">|&gt;</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(<span class="at">n =</span> <span class="dv">20</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 129 × 2
-   therapeutic_area                      n
-   &lt;chr&gt;                             &lt;int&gt;
- 1 Multiple Myeloma                      7
- 2 Leukemia, Myeloid, Acute              5
- 3 Gastrointestinal Stromal Tumors       3
- 4 Hemophilia B                          3
- 5 Muscular Atrophy, Spinal              3
- 6 Tuberculosis, Multidrug-Resistant     3
- 7 Amyloidosis                           2
- 8 Cushing Syndrome                      2
- 9 Cystic Fibrosis                       2
-10 Cystinosis                            2
-# … with 119 more rows</code></pre>
+<pre><code># A tibble: 20 × 2
+   marketing_authorisation_holder_company_name     n
+   &lt;chr&gt;                                       &lt;int&gt;
+ 1 Accord Healthcare S.L.U.                       58
+ 2 Novartis Europharm Limited                     58
+ 3 Pfizer Europe MA EEIG                          43
+ 4 Zoetis Belgium SA                              40
+ 5 AstraZeneca AB                                 36
+ 6 Boehringer Ingelheim Vetmedica GmbH            36
+ 7 Merck Sharp &amp; Dohme B.V.                       32
+ 8 Teva B.V.                                      32
+ 9 Intervet International BV                      31
+10 Eli Lilly Nederland B.V.                       30
+11 Novo Nordisk A/S                               28
+12 Bristol-Myers Squibb Pharma EEIG               26
+13 Mylan Pharmaceuticals Limited                  26
+14 Roche Registration GmbH                        26
+15 Janssen-Cilag International NV                 23
+16 Boehringer Ingelheim International GmbH        22
+17 Gilead Sciences Ireland UC                     21
+18 Sanofi Winthrop Industrie                      19
+19 GlaxoSmithKline Biologicals S.A.               18
+20 Sandoz GmbH                                    18</code></pre>
 </div>
 </div>
 
