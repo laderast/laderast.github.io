@@ -1,0 +1,43 @@
+---
+title: "European Drug Companies"
+---
+
+```{r}
+library(tidyverse)
+
+drugs <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-03-14/drugs.csv')
+
+skimr::skim(drugs)
+```
+```{r}
+visdat::vis_dat(drugs)
+
+```
+
+# Drugs by Therapeutic Area
+
+```{r}
+drugs |> count(therapeutic_area) |> arrange(desc(n)) |> dplyr::filter(n > 10)
+```
+
+# Most Common Therapeutic Area Plot
+
+```{r}
+my_plot <- drugs |> tidyr::drop_na(therapeutic_area) |> count(therapeutic_area) |> arrange(desc(n)) |>
+  dplyr::filter(n > 10) |> dplyr::mutate(therapeutic_area = fct_reorder(therapeutic_area, n)) |>
+  ggplot() + aes(x=therapeutic_area, y=n) + geom_bar(stat = "identity") + coord_flip() +
+  theme(axis.title.x = element_blank(), axis.title.y = element_blank()) +
+  ggtitle("Number of Drugs by Therapeutic Area")
+
+plotly::ggplotly(my_plot)
+```
+
+# Orphan Medicines
+
+```{r}
+drugs |>
+  filter(orphan_medicine == TRUE) |>
+  count(therapeutic_area) |>
+  arrange(desc(n))
+
+```

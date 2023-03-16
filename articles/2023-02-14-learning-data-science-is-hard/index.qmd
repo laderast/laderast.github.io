@@ -7,33 +7,89 @@ When I gave my keynote for University of Pittsburgh's Love Data Week about being
 1. How do we talk about learning data science for new learners?
 2. How do we change our language about data science tasks so that it doesn't demotivate learners?
 
-A lot of my thinking about this has come from my [Carpentries Instructor Training](https://preview.carpentries.org/instructor-training/08-motivation.html), but I thought I'd just talk about this in a post for others who teach Data Science, especially to new learners.
+A lot of my thinking about this has come from my [Carpentries Instructor Training](https://preview.carpentries.org/instructor-training/08-motivation.html). For those who haven't had the Instructor Training, I thought I'd just talk about this in a post for others who teach Data Science to new learners.
 
-## Demotivation
+I will say that there is a lot of shame and feelings involved in talking about this; but the more you understand your own feelings when you are trying to learn something new, the more empathy you will have for your students.
 
-For new learners to a subject need to be nutured. In particular, we have to be aware of demotivating them. 
+## Fighting Demotivation in Students
+
+New learners to a subject need to be gently nutured. When students are new to a subject, you want to encourage and empower them. In particular, we have to be aware of what demotivates them. 
 
 Learning Data Science is an inherently difficult task, and it's even harder to learn when the learner is beating themselves up because they feel inadequate or don't understand what you're demonstrating. 
 
+Whether this arises from Stereotype Threat, or from a bad experience with math, we have to nurture new students and be gentle with them. It is very easy to discourage students and make them think that Data Science is not for them.
+
 Think about it this way: I think all of us have had a really bad mathematics instructor who made us feel like math was not something for us. That's what we're working against. We have to let our learners know that they're not learning alone. 
+
+## Start with a class Code of Conduct
+
+Respect is the foundation of every course. You want to establish that the baseline is to ask questions and speak up. I do this by a Code of Conduct.
+
+A Code of Conduct specifies the intention of your group, and what is not acceptable behavior in class. It sets the ground rules.
+
+You should also be held accountable for your Code of Conduct. I do this by providing students with an external person to communicate with
 
 ## Normalize the Data Science Struggle
 
 Again, Data Science isn't easy to learn. A lot of the Data Science tasks we do requires understanding the paradigm of tabular data, which can be a heavy lift for some learners.
 
-
+I acknowledge that certain concepts are difficult by explaining my own confusion when I tried to learn something. I make mistakes, and I acknowledge them. 
 
 ## Reward Questions
 
-Before we get started, I acknowledge two things about questions:
+Before we get started with a class, I acknowledge two things about questions:
 
-1. Asking questions requires courage
-1. Asking questions is a way of taking care other people in your group, because they probably have that same question. 
+1. Asking questions requires courage.
+1. Asking questions is a way of taking care of  other people in your group, because they probably have that same question. 
 
+Because of this, you should be curious about why they asked that question; is it because of a preconceived notion that they have? Is it because of a misunderstanding of previous material? 
 
+I was reminded of this when I tried to teach Masters Students in Statistics the basics of for loops. The first time I taught it I had never thought about how confusing a placeholder variable is for students who have never seen it. So we needed to work through that confusion.
 
-## Avoid demotivating terms like "easy" or "just"
+## Ask for feedback and take it seriously
 
-Why should we avoid using "easy" and "just" when we talk about data science? Such as "Oh you *just* need to do XXXX", or "YYYYY is really *easy*".
+In my BSTA course, I made students fill out a mandatory qualtrics form for every class (I made it a mandatory way of checking attendance). The questions I asked were:
 
-Think about those who don't get something you say is "easy". It makes them feel less than the rest of your learners who "get it". 
+1. What was the clearest point of today's class?
+2. What was the muddiest point of today's class?
+3. Anything else you want to tell me? 
+
+Question 2 is the most important, because it gives you a gauge of what students are not understanding. It is vital that you address points raised by feedback the next time you talk. 
+
+For example, with the for loop lesson, I received the following feedback:
+
+> For Loops. I still don’t understand how to read the for loop code and what exactly it is doing.
+
+A number of students said the same. I ended up creating a new [smaller presentation explaining for loops](https://sph-r-programming.netlify.com/slides/02-for_loops#1). 
+
+This feedback loop between you and the students is vital to understanding their issues. 
+
+## Language Matters
+
+Avoid using words like "easy" or "just" when you are teaching a concept. For example:
+
+> Working with tidyverse is sooo **easy**.
+
+> All you need to do to transform the data is **just** mutate these columns.
+
+Why should we avoid using "easy" and "just" when we talk about data science? Think about those who don't get something you say is "easy". It makes them feel less capable  than the rest of your learners who "get it". 
+
+When you trivialize concepts, you run the risk of demotivating students if they don't immediate grasp the concept.
+
+## Make Mistakes when you demo
+
+I am not 100% smooth when I demo something. I make a lot of mistakes, especially when I am coding from scratch. That is reassuring for a lot of learners. This is also why live coding is the basis for teaching in The Carpentries. 
+
+I also spend a lot of time finding answers in documentation and saying that I don't know the answer offhand, but we can try and find it.  The best is when students know the answer and offer it. 
+
+## Keep the Pace Slow
+
+I am very slow and deliberate when I teach a concept. I bring not only my experience as a data scientist, but also my experience teaching a wide variety of different adult learners. 
+
+Especially when I am having students follow along, I make sure that everyone has reached stopping points (such as launching an app), before we move on. 
+
+## Prioritize Understanding
+
+I know that there is often a fixed agenda of topics to cover when we start a class. However, because the courses build on each other, you need to prioritize understanding of material rather than covering everything.
+
+Otherwise, what is the point of teaching something? 

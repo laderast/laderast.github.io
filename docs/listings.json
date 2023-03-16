@@ -44,6 +44,7 @@
   {
     "listing": "/articles.html",
     "items": [
+      "/articles/2023-03-14-drug-companies/index.html",
       "/articles/2023-02-14-learning-data-science-is-hard/index.html",
       "/articles/2021-10-12-seafood/2021-10-12-seafood.html",
       "/articles/2021-10-05-registered-nurses/2021-10-05-registered-nurses.html",
@@ -58,9 +59,9 @@
       "/articles/2019-02-12-package-building-how-description-namespace-roxygen-and-devtools-document-work-together/2019-02-12-package-building-how-description-namespace-roxygen-and-devtools-document-work-together.html",
       "/articles/2018-12-13-reframing-impostor-syndrome-as-being-on-the-road-to-mastery/2018-12-13-reframing-impostor-syndrome-as-being-on-the-road-to-mastery.html",
       "/articles/2018-08-07-shiny-and-tidyeval/2018-08-07-shiny-and-tidyeval.html",
-      "/articles/2018-05-24-group-by-summarize-not-just-for-numeric-values/2018-05-24-group-by-summarize-not-just-for-numeric-values.html",
       "/articles/2018-01-17-what-we-learned-teaching-python-to-neuroscience-students/2018-01-17-what-we-learned-teaching-python-to-neuroscience-students.html",
       "/articles/2021-10-19-great-pumpkins/2021-10-19-great-pumpkins.html",
+      "/articles/2018-05-24-group-by-summarize-not-just-for-numeric-values/2018-05-24-group-by-summarize-not-just-for-numeric-values.html",
       "/articles/2018-01-05-so-you-ve-accidentally-checked-in-a-large-file-into-git/index.html"
     ]
   },
