@@ -7,6 +7,7 @@ execute:
 
 website:
   title: "Ted Laderas, PhD"
+  google-analytics: "G-SKN5BS6ZBZ"
   description: "Ted's R and Teaching Blog"
   navbar:
     right:

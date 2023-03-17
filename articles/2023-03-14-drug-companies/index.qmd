@@ -73,9 +73,19 @@ drugs |>
 What companies have the most drugs in this set?
 
 ```{r}
-drugs |>
+companies <- drugs |>
   count(marketing_authorisation_holder_company_name) |>
   arrange(desc(n)) |>
-  head(n = 20) |>
+  head(n = 20) 
+
+companies |>
   gt::gt()
+```
+
+```{r}
+out_plot <- ggplot(drugs) +
+  aes(x=decision_date, y=revision_number, color=therapeutic_area) +
+  geom_point() + theme(legend.position = "none")
+
+plotly::ggplotly(out_plot, tooltip = c("medicine_name", "decision_date", "revision_number", "therapeutic_area"))
 ```
