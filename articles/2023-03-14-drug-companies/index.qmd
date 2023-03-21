@@ -1,6 +1,8 @@
 ---
 title: "European Drug Companies"
 categories: [tidytuesday]
+date: 03-14-2023
+self-contained: true
 ---
 
 For Tidy Tuesday this week (3/14), I took a quick look at the drugs brought out by European Drug companies.
