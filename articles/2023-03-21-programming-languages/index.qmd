@@ -1,0 +1,58 @@
+---
+title: "Programming Languages"
+categories: ["tidytuesday"]
+self-contained: true
+---
+
+```{r}
+library(tidyverse)
+library(skimr)
+library(visdat)
+languages <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-03-21/languages.csv')
+```
+## Skim the Dataset
+
+```{r}
+skimr::skim(languages)
+```
+
+## Looking at Data Science Languages
+
+```{r}
+languages |>
+  select(-contains("wikipedia")) |>
+  filter(title %in% c("R", "Julia", "Python", "SQL")) |>
+  knitr::kable()
+
+```
+
+
+## Date Appeared vs. Number of Users
+
+```{r}
+lang_plot <- languages |>
+  filter(appeared > 1980) |>
+  ggplot() +
+  aes(title=title, x=appeared, y=number_of_users) +
+  geom_point() +
+  labs(title = "Languages: Date Appeared vs Number of Users after 1980")
+
+plotly::ggplotly(lang_plot)
+```
+
+## Language Rank versus Number of Users
+
+```{r}
+lang_plot <- languages |>
+  filter(appeared > 1980) |>
+  filter(language_rank < 60) |>
+  mutate(ds_language = if_else(title %in% c("R", "MATLAB", "SAS", "Julia", "Python"), "Y", "N")) |>
+  ggplot() +
+  aes(title=title, x=language_rank, y=number_of_users, color=ds_language) +
+  geom_point() +
+  labs(title = "Languages: Date Appeared vs Number of Users after 1980") +
+    scale_color_manual(values=c("Y"="blue", 
+                             "N" = "grey"))
+
+plotly::ggplotly(lang_plot)
+```
