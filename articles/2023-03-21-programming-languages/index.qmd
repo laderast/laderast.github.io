@@ -19,9 +19,11 @@ skimr::skim(languages)
 ## Looking at Data Science Languages
 
 ```{r}
+ds_langs <- c("R", "Julia", "Python", "SAS", "Excel")
+
 languages |>
   select(-contains("wikipedia")) |>
-  filter(title %in% c("R", "Julia", "Python", "SQL")) |>
+  filter(title %in% ds_langs) |>
   knitr::kable()
 
 ```
@@ -50,7 +52,7 @@ lang_plot <- languages |>
   ggplot() +
   aes(title=title, x=language_rank, y=number_of_users, color=ds_language) +
   geom_point() +
-  labs(title = "Languages: Date Appeared vs Number of Users after 1980") +
+  labs(title = "Languages: Rank vs Number of Users after 1980") +
     scale_color_manual(values=c("Y"="blue", 
                              "N" = "grey"))
 
