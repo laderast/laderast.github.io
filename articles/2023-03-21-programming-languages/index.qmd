@@ -17,9 +17,18 @@ languages <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/
 skimr::skim(languages)
 ```
 
+## Visdat
+
+```{r}
+suppressWarnings(vis_dat(languages))
+```
+
 ## Looking at Data Science Languages
 
 ```{r}
+#| label: tbl-ds-lang
+#| tbl-cap: Data Science Languages
+
 ds_langs <- c("R", "Julia", "Python", "SAS", "Excel")
 
 languages |>
@@ -58,4 +67,16 @@ lang_plot <- languages |>
                              "N" = "grey"))
 
 plotly::ggplotly(lang_plot)
+```
+
+## Languages by Type
+
+```{r}
+#| tbl-cap: Languages sorted by Type
+#| label: tbl-lang-type
+
+languages |>
+  count(type) |>
+  arrange(desc(n)) |>
+  knitr::kable()
 ```
