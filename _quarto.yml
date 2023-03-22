@@ -24,5 +24,8 @@ website:
     creator: "@tladeras"
 format:
   html:
+    embed-resources: true
+    link-external-icon: true
+    link-external-newwindow: true
     theme: lux
     css: styles.css
