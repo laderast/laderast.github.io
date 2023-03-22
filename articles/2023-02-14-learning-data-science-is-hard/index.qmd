@@ -1,5 +1,6 @@
 ---
 title: "Learning Data Science is Hard (and why that matters)"
+
 ---
 
 When I gave my keynote for University of Pittsburgh's Love Data Week about being [compassionate when learning data science](https://youtu.be/za0xX10G7mU), there were a couple of great questions that came up.
@@ -10,6 +11,10 @@ When I gave my keynote for University of Pittsburgh's Love Data Week about being
 A lot of my thinking about this has come from my [Carpentries Instructor Training](https://preview.carpentries.org/instructor-training/08-motivation.html). For those who haven't had the Instructor Training, I thought I'd just talk about this in a post for others who teach Data Science to new learners.
 
 I will say that there is a lot of shame and feelings involved in talking about this; but the more you understand your own feelings when you are trying to learn something new, the more empathy you will have for your students.
+
+## Cognitive Learning Barriers
+
+<https://takinglearningseriously.com/barriers-to-learning/>
 
 ## Fighting Demotivation in Students
 

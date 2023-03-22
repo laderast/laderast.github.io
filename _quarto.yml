@@ -19,6 +19,8 @@ website:
         href: https://github.com/laderast/
       - icon: twitter
         href: https://twitter.com/tladeras/
+      - icon: envelope
+        href: "mailto: tedladeras[at]gmail"
   twitter-card: 
     card-style: summary
     creator: "@tladeras"
