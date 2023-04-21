@@ -1,0 +1,31 @@
+---
+title: "Egg Production"
+---
+
+```{r}
+# Or read in the data manually
+library(tidyverse)
+library(skimr)
+
+eggproduction  <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-04-11/egg-production.csv')
+cagefreepercentages <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-04-11/cage-free-percentages.csv')
+
+```
+
+## Skim the Data
+
+`eggproduction` has no missing values. 
+
+```{r}
+skimr::skim(eggproduction)
+
+```
+
+```{r}
+skimr::skim(cagefreepercentages)
+
+```
+
+```{r}
+eggproduction |> janitor::tabyl(prod_process, prod_type)
+```
