@@ -1,0 +1,101 @@
+---
+title: "Data Science Organizer Burnout" 
+subtitle: "Part 1: Self Care"
+---
+
+## Overview of These Posts
+
+I'm going to give a talk at PositConf this year about Data Science meetup burnout and how to make your meetup more sustainable. I think that we can start with self-care and work outwards, finding buddies to help us organize, and improving the meetup and make it more sustainable.
+
+[diagram]
+
+What can we work towards? We can make a sustainable meetup that doesn't depend on us. We'll talk much more about this in Part 1.
+
+But let's first define Burnout and how it specifically applies to Data Science Organizers. 
+
+## Symptoms of Burnout
+
+Let's start with some of the symptoms of burnout and how they apply to Data Science Meetup Organizers. It is a lot of work, especially when organizing talks and setting up speakers.
+
+Here are 4 major symptoms of burnout and how they might manifest in you, the meetup organizer.
+
+- Lack of Motivation and Dread 
+    - ("Oh crap! I need to organize next month's meetup")
+- Cynicism 
+    - ("This isn't helping anyone")
+- Detachment 
+    - ("I'm the only one keeping the meetup afloat")
+- Sense of Failure 
+    - ("I'm not doing enough")
+
+Overall, unpacking these feelings is going to take some doing. I think we can address some of these issues and feelings head on. Let's start with some self-care strategies.
+
+## 1. You are doing enough
+
+Take a breath and realize what you do is valuable. You are connecting people. You are bridging everyone's interests in data science. You are helping others learn, while hopefully learning something yourself. Be patient with yourself and don't set unrealistic expecations. 
+
+What I mean by unrealistic expectations is that we expect ourselves to be superhuman in a very limited amount of time. Many of us are doing the organizing on a volunteer basis. We need to scale our expectations of what can be done into that limited amount of time. 
+
+You're not going to make everyone happy. You don't necessarily want the unhappy people in your meetup anyhow.
+
+## 2. A Meetup Can Be Anything
+
+Part of being patient with ourselves as organizers is resetting our expectations for what a meetup should be. I think a lot of us are stuck in the seminar mindset: every event should be a didactic talk where some expert is teaching us something.
+
+These expectations are what drive us to meetup burnout. 
+
+A meetup event doesn't need to be this. It can just be social. The point is to do something together: watching a video together, doing a workshop together, or troubleshooting problems together. You'll be surprised by the knowledge in your group. Everyone knows something, and when we come together, we will always be more than the sum of our knowledge.
+
+In a later part, I'm going to talk more about meetup activities that work for us, and more importantly, the importance of having meetups where it is easy for your attendees to contribute to. 
+
+## 3. Schedule Events on Your Own Time
+
+If you are the sole organizer, don't send out doodle polls to your group to find the exact right date and time. Find the date that works for you.
+
+I know a lot of us are people pleasers. We want people to attend events, and we think that we can find the perfect time for everyone. But if we're the ones organizing events, then we need to work according to our schedule. 
+
+Not everyone is going to make every meetup, and that's ok.
+
+## 4. Scope Your Effort to Your Time
+
+Setting up didactic talks are a huge effort, even if you're not giving the talk. You have to find someone to give the talk that is knowledgable, you need to find times that work, and inform them of their audience and set expectations of your topic.
+
+Again, I think the expectation is for us to want to be superhuman when we don't have time for even being human. So, we need to be more gentle with ourselves and find activities and events that don't eat up our very limited time.
+
+## 5. Redefine Success in Terms of Your Values
+
+In terms of unrealistic expectations, we need to redfine what a successful meetup is for you. I think many of us think that we want everyone to be happy with the topic, and have our meetup grow with every event.
+
+Your values matter. They're what drive you to organize, and you need to define your success in terms of those values. What are the fun parts of your meetup? 
+
+I have redefined my success with meetups by how many repeat attendees we have. We have a core group of people who nearly always come, and it's wonderful to see new attendees.
+
+If you do have lofty expectations, make them a long term goal and focus on one aspect at a time, such as making your meetup more welcoming, or finding someone else to help host the meetups. 
+
+## 6. It's OK to Pause or Quit
+
+Life gets in the way of organzing meetups. If organizing the meetup is no longer fun or it feels like a total drain, it's ok to take a break. I give you permission. 
+
+You have to take care of yourself, otherwise everyone's expectations will drain you of all your energy.
+
+Sometimes it's just better to take time off to recharge, get more control of your life. 
+
+I give you permission.
+
+## Conclusion: Organizer, Be Gentle With Yourself
+
+I hope reading this has helped you rethink of what your role and your expectations are of your meetup. Organizing doesn't have to feel like a slog uphill. Meetup organizing should energize you and help you in your career.
+
+In the next section, we'll talk about a key strategy to make your meetup sustainable: having buddies or co-organizers to help with the meetup. 
+
+## Acknowledgements
+
+Thanks so much to the following data science organizers for talking with me about this topic:
+
+- Julia Stewart-Lowndes
+- Kate Hertweck
+- Libby Heeren
+- Yanina Saibene
+- Rachael Dempsey
+- Donald
+- 
