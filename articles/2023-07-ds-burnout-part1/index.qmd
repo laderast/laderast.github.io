@@ -7,7 +7,7 @@ subtitle: "Part 1: Self Care"
 
 I'm going to give a talk at PositConf this year about Data Science meetup burnout and how to make your meetup more sustainable. I think that we can start with self-care and work outwards, finding buddies to help us organize, and improving the meetup and make it more sustainable.
 
-[diagram]
+![Fighting Burnout by Expanding Outwards](circle-out.png)
 
 What can we work towards? We can make a sustainable meetup that doesn't depend on us. We'll talk much more about this in Part 1.
 
@@ -72,6 +72,12 @@ I have redefined my success with meetups by how many repeat attendees we have. W
 
 If you do have lofty expectations, make them a long term goal and focus on one aspect at a time, such as making your meetup more welcoming, or finding someone else to help host the meetups. 
 
+## 6. Be Vulnerable
+
+I think this is one of the hardest pieces of advice to follow. But you should not try and be an expert at everything, know when you don't know something, and know when to ask for help. 
+
+I try and model this for our meetup group by letting others answer questions. 
+
 ## 6. It's OK to Pause or Quit
 
 Life gets in the way of organzing meetups. If organizing the meetup is no longer fun or it feels like a total drain, it's ok to take a break. I give you permission. 
@@ -90,12 +96,14 @@ In the next section, we'll talk about a key strategy to make your meetup sustain
 
 ## Acknowledgements
 
-Thanks so much to the following data science organizers for talking with me about this topic:
+Thanks so much to the following data science organizers for talking with me about this topic. Discussing it has been super helpful in understanding what we can do about it. 
 
 - Julia Stewart-Lowndes
 - Kate Hertweck
 - Libby Heeren
 - Yanina Saibene
 - Rachael Dempsey
-- Donald
-- 
+- Donald Szlosek
+- Priyanka Gagneja
+- Natalia Andriychuk
+- Marcos Huerta
