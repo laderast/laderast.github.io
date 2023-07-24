@@ -1,6 +1,6 @@
 ---
 title: "Learning Data Science is Hard (and why that matters)"
-
+draft: true
 ---
 
 When I gave my keynote for University of Pittsburgh's Love Data Week about being [compassionate when learning data science](https://youtu.be/za0xX10G7mU), there were a couple of great questions that came up.
@@ -10,11 +10,7 @@ When I gave my keynote for University of Pittsburgh's Love Data Week about being
 
 A lot of my thinking about this has come from my [Carpentries Instructor Training](https://preview.carpentries.org/instructor-training/08-motivation.html). For those who haven't had the Instructor Training, I thought I'd just talk about this in a post for others who teach Data Science to new learners.
 
-I will say that there is a lot of shame and feelings involved in talking about this; but the more you understand your own feelings when you are trying to learn something new, the more empathy you will have for your students.
-
-## Cognitive Learning Barriers
-
-<https://takinglearningseriously.com/barriers-to-learning/>
+I will say that there is a lot of shame and feelings involved in talking about the difficulty of learning; but the more you understand your own feelings when you are trying to learn something new, the more empathy you will have for your students.
 
 ## Fighting Demotivation in Students
 
@@ -32,7 +28,7 @@ Respect is the foundation of every course. You want to establish that the baseli
 
 A Code of Conduct specifies the intention of your group, and what is not acceptable behavior in class. It sets the ground rules.
 
-You should also be held accountable for your Code of Conduct. I do this by providing students with an external person to communicate with
+You should also be held accountable for your Code of Conduct. I do this by providing students with an external person to communicate with who is not involved in the course.
 
 ## Normalize the Data Science Struggle
 
@@ -45,7 +41,7 @@ I acknowledge that certain concepts are difficult by explaining my own confusion
 Before we get started with a class, I acknowledge two things about questions:
 
 1. Asking questions requires courage.
-1. Asking questions is a way of taking care of  other people in your group, because they probably have that same question. 
+1. Asking questions is a way of taking care of other people in your group, because they probably have that same question. 
 
 Because of this, you should be curious about why they asked that question; is it because of a preconceived notion that they have? Is it because of a misunderstanding of previous material? 
 
@@ -77,9 +73,9 @@ Avoid using words like "easy" or "just" when you are teaching a concept. For exa
 
 > All you need to do to transform the data is **just** mutate these columns.
 
-Why should we avoid using "easy" and "just" when we talk about data science? Think about those who don't get something you say is "easy". It makes them feel less capable  than the rest of your learners who "get it". 
+Why should we avoid using "easy" and "just" when we talk about data science? Think about those who don't get something you say is "easy". It makes them feel less capable than the rest of your learners who immediately "get it". 
 
-When you trivialize concepts, you run the risk of demotivating students if they don't immediate grasp the concept.
+When you trivialize concepts, you run the risk of demotivating students if they don't immediately grasp the concept.
 
 ## Make Mistakes when you demo
 
@@ -98,3 +94,7 @@ Especially when I am having students follow along, I make sure that everyone has
 I know that there is often a fixed agenda of topics to cover when we start a class. However, because the courses build on each other, you need to prioritize understanding of material rather than covering everything.
 
 Otherwise, what is the point of teaching something? 
+
+## Cognitive Learning Barriers
+
+<https://takinglearningseriously.com/barriers-to-learning/>

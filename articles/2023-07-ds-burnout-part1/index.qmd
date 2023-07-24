@@ -5,11 +5,17 @@ subtitle: "Part 1: Self Care"
 
 ## Overview of These Posts
 
-I'm going to give a talk at PositConf this year about Data Science meetup burnout and how to make your meetup more sustainable. I think that we can start with self-care and work outwards, finding buddies to help us organize, and improving the meetup and make it more sustainable.
+I'm going to give a talk at PositConf this year about Data Science meetup burnout and how to make your meetup more sustainable. 
 
-![Fighting Burnout by Expanding Outwards](circle-out.png)
+Think of these posts as starting with yourself, and working to improve bits of your community. Here is the outline of the posts.
 
-What can we work towards? We can make a sustainable meetup that doesn't depend on us. We'll talk much more about this in Part 1.
+1. Self-care
+2. Finding buddies to help us organize
+3. Improving the meetup and make it more sustainable.
+
+![Fighting Burnout by Expanding Outwards](circle-out.png){width=300}
+
+What can we work towards? We can make a sustainable meetup that doesn't depend on us. We'll talk much more about this in Part 3.
 
 But let's first define Burnout and how it specifically applies to Data Science Organizers. 
 
@@ -74,11 +80,11 @@ If you do have lofty expectations, make them a long term goal and focus on one a
 
 ## 6. Be Vulnerable
 
-I think this is one of the hardest pieces of advice to follow. But you should not try and be an expert at everything, know when you don't know something, and know when to ask for help. 
+I think this is one of the hardest pieces of advice to follow. But you should not try and be an expert at everything, know when you don't know something, and know when to ask for help. Don't take this burden up - the gaps in knowledge will be filled by your community members.
 
-I try and model this for our meetup group by letting others answer questions. 
+I try and model this for our meetup group by letting others answer questions, and I freely admit when I don't know something. 
 
-## 6. It's OK to Pause or Quit
+## 7. It's OK to Pause or Quit
 
 Life gets in the way of organzing meetups. If organizing the meetup is no longer fun or it feels like a total drain, it's ok to take a break. I give you permission. 
 
