@@ -4,7 +4,7 @@ date: 7/28/2023
 ---
 
 ```{r}
-#include: false
+#! include: false
 knitr::include_graphics("sysc_1_3.jpeg")
 ```
 
