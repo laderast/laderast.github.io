@@ -3,6 +3,10 @@ title: Goodbye to Harder House
 date: 7/28/2023
 ---
 
+```{r}
+knitr::include_graphics("sysc_1_3.jpeg")
+```
+
 i was driving by the Portland State University campus and discovered to my shock that Harder House was no more.
 
 Harder House was a run down Victorian house that housed the Systems Science program. I took a number of courses in the program, including courses in Systems Theory and different modeling methods. The largest room, where classes were mostly held, was probably no larger that 15 feet by 15 feet, and we were crammed in there in a very tight square of tables.
