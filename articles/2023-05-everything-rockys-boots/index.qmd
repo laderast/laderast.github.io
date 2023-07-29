@@ -1,0 +1,29 @@
+---
+title: "Everything I know about programming I learned from Rocky's Boots"
+---
+
+I was 6 when we got our Apple IIe computer. One of my favorite games at the time was "Rocky's Boots", which was a game about building machines using Boolean Logic.
+
+The goal of Rocky's boots was to build a kicking machine/logic circuit that would take a sequence of shapes and only "kick out" certain shapes. 
+
+![Circuit Picture/GIF]()
+
+The boot component was always at the end of the circuit, and you programmed it with a set of logic gates, switches, and flip-flops.
+
+The parts are pretty minimal; OR, NOT, and AND gates, flip-flops, clocks, and delays. 
+
+The beauty of Rocky's Boots was not just the freedom it gave you but also how gradually concepts were introduced to you. 
+
+Written by Warren Robinett (the famed Atari programmer), you were a little orange cursor that wandered around various rooms in an open world, and most of the rooms introduced a concept or had a challenge.
+
+Everything in Rocky's boots is powered by electricity, and you (as the cursor) are a source of electricity. So just touching an input will make objects work. 
+
+![Room to Room Example]()
+
+For example, the section on logic gates is very clever. It starts with gates such as AND and NOT gates and then moves to OR gates. Throughout, you are trying different things with the gates. What happens when you hook up a sensor to a NOT gate?
+
+Once you have learned the basic componenets, it is time to tackle the challenges. 
+
+Given an array of sensors, can you design a circuit that makes the boot kick the right shapes?
+
+
