@@ -14,7 +14,7 @@ Harder House was a run down Victorian house that housed the [Systems Science pro
 
 Sure it was run down, but we always thought it fit the Systems Science program, and it made us feel like the underdogs. I spent countless hours in that room, having wonderful conversations with students of so many backhrounds.
 
-My time there was intertwined with reading many of the classics of systems science: Herbert Simon, information theory, network theory, differential equations among others. Conversations with other students in the courses was always super productive. And fascinating, because you were equally likely to talk with marketing folks, economists, and biologists. All different walks of life. 
+My time there was intertwined with reading many of the classics of systems science: [Herbert Simon](https://en.wikipedia.org/wiki/The_Sciences_of_the_Artificial), [information theory](https://www.nowpublishers.com/article/BookDetails/9781638281146), network theory, differential equations, queue theory, among others. Conversations with other students in the courses was always super productive. And fascinating, because you were equally likely to talk with marketing folks, economists, and biologists. All different walks of life. 
 
 I've often said that the strength of systems science is it's treatment of relationships and interactions, of understanding these relationships holistically [^1]. In fact, I gave a talk for their weekly seminar called ["How Are Data Science and System Science connected?"](https://pdxscholar.library.pdx.edu/systems_science_seminar_series/81/) where I talked about how systems science can improve feature engineering in machine learning.
 
