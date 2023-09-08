@@ -17,8 +17,10 @@ website:
       - talks.qmd
       - icon: github
         href: https://github.com/laderast/
+      - icon: mastodon
+        href: https://mastodon.cloud/@tladeras/
       - icon: twitter
-        href: https://twitter.com/tladeras/
+        href: https://laderast.github.io/tweets/
   twitter-card: 
     card-style: summary
     creator: "@tladeras"
