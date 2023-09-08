@@ -4703,7 +4703,7 @@ P[10]=!0;P[13]=!0;P[14]=!0;P[15]=!0;
 P[17]=!0;
 P[23]=!0;P[24]=!0;P[25]=!0;
 P[27]=!0;P[19]=!0;P[28]=!0;P[31]=!0;P[32]=!0;
-P[33]=!0;P[34]=!0;P[35]=!0;P[36]=!0;P[37]=!0;
+P[33]=!0;P[34]=!0;P[36]=!0;P[37]=!0;
 P[39]=!0;P[41]=!0;
 P[42]=!0;P[43]=!0;P[44]=!0;
 
@@ -4716,8 +4716,7 @@ a:{for(var hj=void 0,ij=void 0,jj=0;hj===ij;)if(hj=Math.floor(2*Math.random()),i
 P[79]=!0;
 P[85]=!0;
 P[86]=!0;
-P[89]=!0;P[92]=!0;P[95]=!0;
-P[97]=!0;function Q(a){return!!P[a]}var kj=function(a){yb("HEALTH",a)};var lj;try{lj=JSON.parse(wb("eyIwIjoiVVMiLCIxIjoiVVMtT1IiLCIyIjpmYWxzZSwiMyI6IiIsIjQiOiIiLCI1Ijp0cnVlLCI2IjpmYWxzZSwiNyI6ImFkX3N0b3JhZ2V8YW5hbHl0aWNzX3N0b3JhZ2V8YWRfdXNlcl9kYXRhfGFkX3BlcnNvbmFsaXphdGlvbiJ9"))}catch(a){M(123),kj(2),lj={}}
+P[89]=!0;P[92]=!0;P[95]=!0;function Q(a){return!!P[a]}var kj=function(a){yb("HEALTH",a)};var lj;try{lj=JSON.parse(wb("eyIwIjoiVVMiLCIxIjoiVVMtT1IiLCIyIjpmYWxzZSwiMyI6IiIsIjQiOiIiLCI1Ijp0cnVlLCI2IjpmYWxzZSwiNyI6ImFkX3N0b3JhZ2V8YW5hbHl0aWNzX3N0b3JhZ2V8YWRfdXNlcl9kYXRhfGFkX3BlcnNvbmFsaXphdGlvbiJ9"))}catch(a){M(123),kj(2),lj={}}
 var mj=function(){return lj["0"]||""},nj=function(){return lj["1"]||""},oj=function(){var a=!1;a=!!lj["2"];return a},pj=function(){var a="";a=lj["4"]||"";return a},qj=function(){var a=!1;a=!!lj["5"];return a},rj=function(){var a="";a=lj["3"]||"";
 return a};var sj=new function(a,b){this.h=a;this.defaultValue=void 0===b?!1:b}(1933);var tj=function(a){tj[" "](a);return a};tj[" "]=function(){};var vj=function(){var a=uj,b="kh";if(a.kh&&a.hasOwnProperty(b))return a.kh;var c=new a;return a.kh=c};var uj=function(){var a={};this.h=function(){var b=sj.h,c=sj.defaultValue;return null!=a[b]?a[b]:c};this.B=function(){a[sj.h]=!0}};var wj=!1,xj=!1,yj={},zj={},Aj=!1,Bj={ad_storage:!1,ad_user_data:!1,ad_personalization:!1};function Cj(){var a=Fc("google_tag_data",{});return a.ics=a.ics||new Dj}var Dj=function(){this.entries={};this.cps={};this.wasSetLate=this.accessedAny=this.accessedDefault=this.usedSetCps=this.usedImplicit=this.usedUpdate=this.usedDefault=this.usedDeclare=this.active=!1;this.h=[]};
 Dj.prototype.default=function(a,b,c,d,e,f){this.usedDefault||!this.accessedDefault&&!this.accessedAny||(this.wasSetLate=!0);this.usedDefault=this.active=!0;yb("TAGGING",19);void 0==b?yb("TAGGING",18):Ej(this,a,"granted"===b,c,d,e,f)};Dj.prototype.waitForUpdate=function(a,b){for(var c=0;c<a.length;c++)Ej(this,a[c],void 0,void 0,"","",b)};
@@ -4972,7 +4971,7 @@ var lE=function(a){var b=U(a.s,N.g.Da),c=a.s.B[N.g.Da];if(c===b)return c;var d=l
 ho(function(){var g={},k=$D(a);k&&(g[d]=k);var m=jE(a);m&&(g[e]=m);var n=Am("FPLC",void 0,void 0,N.g.R);n.length&&(g._fplc=n[0]);return g},b[N.g.T],b[N.g.Kb],!!b[N.g.wb]);return f},rE=function(a){if(!U(a.s,N.g.Ab))return{};var b=a.metadata.cookie_options,c=b.prefix+"_ga",d=gE(a,b);io(function(){var e;if(S("analytics_storage"))e={};else{var f={};e=(f._up="1",f[c]=a.h[N.g.Za],f[d]=kE(a),f)}return e},1);return!S("analytics_storage")&&qE()?mE(c,d):{}},qE=function(){var a=Cn(z.location,"host"),b=Cn(Fn(C.referrer),
 "host");return a&&b?a===b||0<=a.indexOf("."+b)||0<=b.indexOf("."+a)?!0:!1:!1},sE=function(a){if(!a)return a;var b=String(a);b=$n(b);return b=$n(b,"_ga")};var tE=function(){var a=Ra(),b=a+864E5,c=20,d=5E3;return function(){var e=Ra();e>=b&&(b=e+864E5,d=5E3);if(1>d)return!1;c=Math.min(c+(e-a)/1E3*5,20);a=e;if(1>c)return!1;d--;c--;return!0}};
 var uE=function(a,b){if(Lj()||Q(45))a.gcs=lm(),Q(49)&&(a.gcd=pm(b.s)),b.metadata.is_consent_update&&(a.gcu="1");Q(100)&&(km(b.s)&&(Q(82)||sC())?Q(53)&&(a.npa="0"):a.npa="1")},xE=function(a){if(a.metadata.is_merchant_center)return"https://www.merchant-center-analytics.goog/mc/collect";var b=Ct(Et(a.s),"/g/collect");if(b)return b;var c=zp(a,N.g.eb,U(a.s,N.g.eb));c=c||MD(a);var d=U(a.s,
-N.g.qb);return c&&!oj()&&!1!==d&&rC()&&S(N.g.I)&&S(N.g.R)?vE():wE()},yE=!1;yE=!0;var zE={};zE[N.g.Za]="cid";zE[N.g.cf]="_fid";zE[N.g.pg]="_geo";zE[N.g.ub]="gdid";zE[N.g.Sc]="ir";zE[N.g.Ia]="ul";zE[N.g.Wc]="_rdi";zE[N.g.yb]="sr";zE[N.g.Ii]="tid";zE[N.g.nf]="tt";zE[N.g.pf]="ec_mode";zE[N.g.Ri]="gtm_up";zE[N.g.Td]="uaa",zE[N.g.Ud]="uab",zE[N.g.Vd]="uafvl",zE[N.g.Wd]="uamb",zE[N.g.Xd]="uam",zE[N.g.Yd]="uap",zE[N.g.Zd]="uapv",zE[N.g.ae]="uaw";zE[N.g.Hb]="are";
+N.g.qb);return c&&!oj()&&!1!==d&&rC()&&S(N.g.I)&&S(N.g.R)?vE():wE()},yE=!1;yE=!0;var zE={};zE[N.g.Za]="cid";zE[N.g.cf]="_fid";zE[N.g.pg]="_geo";zE[N.g.ub]="gdid";zE[N.g.Sc]="ir";zE[N.g.Ia]="ul";zE[N.g.Wc]="_rdi";zE[N.g.yb]="sr";zE[N.g.Ii]="tid";zE[N.g.nf]="tt";zE[N.g.pf]="ec_mode";zE[N.g.Ri]="gtm_up";zE[N.g.Td]="uaa",zE[N.g.Ud]="uab",zE[N.g.Vd]="uafvl",zE[N.g.Wd]="uamb",zE[N.g.Xd]="uam",zE[N.g.Yd]="uap",zE[N.g.Zd]="uapv",zE[N.g.ae]="uaw";
 zE[N.g.zi]="lps";var AE={};AE[N.g.Dc]="cc";AE[N.g.Ec]="ci";AE[N.g.Fc]="cm";AE[N.g.Gc]="cn";AE[N.g.Ic]="cs";AE[N.g.Jc]="ck";AE[N.g.qa]="cu";AE[N.g.ra]="dl";AE[N.g.Ea]="dr";AE[N.g.xb]="dt";AE[N.g.Qd]="seg";AE[N.g.zb]="sid";AE[N.g.Rd]="sct";AE[N.g.za]="uid";Q(36)&&
 (AE[N.g.Uc]="dp");var BE={};BE[N.g.Dd]="_et";BE[N.g.sb]="edid";var CE={};CE[N.g.Dc]="cc";CE[N.g.Ec]="ci";CE[N.g.Fc]="cm";CE[N.g.Gc]="cn";CE[N.g.Ic]="cs";CE[N.g.Jc]="ck";var DE={},EE=Object.freeze((DE[N.g.wa]=1,DE)),wE=function(){var a="www";yE&&pj()&&(a=pj());return"https://"+a+".google-analytics.com/g/collect"},vE=function(){var a;yE&&""!==pj()&&(a=pj());return"https://"+(a?a+".":"")+"analytics.google.com/g/collect"},FE=function(a,b,c){var d={},e={},f={};d.v="2";d.tid=a.target.ba;
 MD(a)&&!oj()&&(d._ono=1);d.gtm=fn();d._p=XD();c&&(d.em=c);a.metadata.create_google_join&&(d._gaz=1);uE(d,a);Q(51)&&(tm()&&(d.dma_cps=qm()),d.dma=sm());Q(82)&&Nl(Wl())&&(d.tcfd=um());var g=a.h[N.g.ub];g&&(d.gdid=g);e.en=String(a.eventName);a.metadata.is_first_visit&&(e._fv=a.metadata.is_first_visit_conversion?2:1);a.metadata.is_new_to_site&&(e._nsi=1);a.metadata.is_session_start&&(e._ss=a.metadata.is_session_start_conversion?2:1);a.metadata.is_conversion&&
@@ -5217,10 +5216,7 @@ color: white;
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#links" id="toc-links" class="nav-link active" data-scroll-target="#links">Links</a>
-  <ul class="collapse">
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
-  </ul></li>
+  <li><a href="#links" id="toc-links" class="nav-link active" data-scroll-target="#links">Links</a></li>
   </ul>
 </nav>
     </div>
@@ -5242,19 +5238,8 @@ color: white;
 <section id="links" class="level1">
 <h1>Links</h1>
 <p><a href="https://laderast.github.io/best_practices_dnanexus/" class="btn btn-primary" role="button">Book</a> <a href="https://github.com/laderast/best_practices_dnanexus" class="btn btn-primary" role="button">Repository</a></p>
-<section id="learning-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
-<ul>
-<li><strong>Apply</strong> bash scripting to your own work</li>
-<li><strong>Articulate</strong> basic Cloud Computing concepts that apply to the DNAnexus platform</li>
-<li><strong>Leverage</strong> bash scripting and the dx-toolkit to execute jobs on the DNAnexus platform</li>
-<li><strong>Execute</strong> batch processing of multiple files in a project on the DNAnexus platform</li>
-<li><strong>Monitor</strong>, <strong>profile</strong>, <strong>terminate</strong> and <strong>retry</strong> jobs to optimize costs</li>
-<li><strong>Manage</strong> software dependencies reproducibly using container-based technologies such as Docker</li>
-</ul>
 
 
-</section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{laderas2023,

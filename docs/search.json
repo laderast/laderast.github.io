@@ -1740,7 +1740,7 @@
     "href": "edu/2023-09-09-best-practices-on-the-dnanexus-platform/index.html",
     "title": "Best Practices on the DNAnexus Platform",
     "section": "",
-    "text": "This is an online and free textbook that covers essential skills and best practices for working on the DNAnexus platform.\nIt covers the following topics:"
+    "text": "This is an online and free textbook that covers essential skills and best practices for working on the DNAnexus platform.\nIt covers the following topics:\n\nIntroduction to Object Oriented Filesystems\nProject and File Management on the DNAnexus Platform\nUtilizing Spark on the DNAnexus Platform\nExtracting Phenotypic Data on the DNAnexus Platform\nWorking effectively with Hail on the DNAnexus Platform\n\n\nLinks\nBook Repository\n\n\n\n\nCitationBibTeX citation:@online{laderas2023,\n  author = {Laderas, Ted},\n  title = {Best {Practices} on the {DNAnexus} {Platform}},\n  date = {2023-09-10},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nLaderas, Ted. 2023. “Best Practices on the DNAnexus\nPlatform.” September 10, 2023."
   },
   {
     "objectID": "edu/2023-09-09-best-practices-on-the-dnanexus-platform/index.html#learning-objectives",

@@ -4971,7 +4971,7 @@ var Ei=""+pi.Ue+(wi?"/gtag/js":"/gtm.js"),Fi=null,Gi=null,Hi={},Ii={},Ji={},Qi=f
 var bj=function(a,b,c){if(!c)return!1;var d=c.selector_type,e=String(c.value),f;if("js_variable"===d){e=e.replace(/\["?'?/g,".").replace(/"?'?\]/g,"");for(var g=e.split(","),k=0;k<g.length;k++){var m=g[k].trim();if(m){if(0===m.indexOf("dataLayer."))f=Wi(m.substring(10));else{var n=m.split(".");f=z[n.shift()];for(var p=0;p<n.length;p++)f=f&&f[n[p]]}if(void 0!==f)break}}}else if("css_selector"===d&&yh){var q=zh(e);if(q&&0<q.length){f=[];for(var r=0;r<q.length&&r<("email"===b||"phone_number"===b?5:1);r++)f.push(Sc(q[r])||
 Oa(q[r].value));f=1===f.length?f[0]:f}}return f?(a[b]=f,!0):!1},cj=function(a){if(a){var b={},c=!1;c=bj(b,"email",a.email)||c;c=bj(b,"phone_number",a.phone)||c;b.address=[];for(var d=a.name_and_address||[],e=0;e<d.length;e++){var f={};c=bj(f,"first_name",d[e].first_name)||c;c=bj(f,"last_name",d[e].last_name)||c;c=bj(f,"street",d[e].street)||c;c=bj(f,"city",d[e].city)||c;c=bj(f,"region",d[e].region)||c;c=bj(f,"country",d[e].country)||c;c=bj(f,"postal_code",d[e].postal_code)||c;b.address.push(f)}return c?
 b:void 0}},dj=function(a){return kb(a)?!!a.enable_code:!1};var P=[];P[5]=!0;P[6]=!0;P[11]=!0;
-P[12]=!0;P[7]=!0;P[8]=!0;P[21]=!0;P[9]=!0;
+P[7]=!0;P[8]=!0;P[21]=!0;P[9]=!0;
 P[10]=!0;P[13]=!0;P[14]=!0;P[15]=!0;
 P[17]=!0;
 P[23]=!0;P[24]=!0;P[25]=!0;
@@ -4989,7 +4989,8 @@ a:{for(var hj=void 0,ij=void 0,jj=0;hj===ij;)if(hj=Math.floor(2*Math.random()),i
 P[79]=!0;
 P[85]=!0;
 P[86]=!0;
-P[89]=!0;P[92]=!0;P[95]=!0;function Q(a){return!!P[a]}var kj=function(a){yb("HEALTH",a)};var lj;try{lj=JSON.parse(wb("eyIwIjoiVVMiLCIxIjoiVVMtT1IiLCIyIjpmYWxzZSwiMyI6IiIsIjQiOiIiLCI1Ijp0cnVlLCI2IjpmYWxzZSwiNyI6ImFkX3N0b3JhZ2V8YW5hbHl0aWNzX3N0b3JhZ2V8YWRfdXNlcl9kYXRhfGFkX3BlcnNvbmFsaXphdGlvbiJ9"))}catch(a){M(123),kj(2),lj={}}
+P[89]=!0;P[92]=!0;P[95]=!0;
+P[97]=!0;function Q(a){return!!P[a]}var kj=function(a){yb("HEALTH",a)};var lj;try{lj=JSON.parse(wb("eyIwIjoiVVMiLCIxIjoiVVMtT1IiLCIyIjpmYWxzZSwiMyI6IiIsIjQiOiIiLCI1Ijp0cnVlLCI2IjpmYWxzZSwiNyI6ImFkX3N0b3JhZ2V8YW5hbHl0aWNzX3N0b3JhZ2V8YWRfdXNlcl9kYXRhfGFkX3BlcnNvbmFsaXphdGlvbiJ9"))}catch(a){M(123),kj(2),lj={}}
 var mj=function(){return lj["0"]||""},nj=function(){return lj["1"]||""},oj=function(){var a=!1;a=!!lj["2"];return a},pj=function(){var a="";a=lj["4"]||"";return a},qj=function(){var a=!1;a=!!lj["5"];return a},rj=function(){var a="";a=lj["3"]||"";
 return a};var sj=new function(a,b){this.h=a;this.defaultValue=void 0===b?!1:b}(1933);var tj=function(a){tj[" "](a);return a};tj[" "]=function(){};var vj=function(){var a=uj,b="kh";if(a.kh&&a.hasOwnProperty(b))return a.kh;var c=new a;return a.kh=c};var uj=function(){var a={};this.h=function(){var b=sj.h,c=sj.defaultValue;return null!=a[b]?a[b]:c};this.B=function(){a[sj.h]=!0}};var wj=!1,xj=!1,yj={},zj={},Aj=!1,Bj={ad_storage:!1,ad_user_data:!1,ad_personalization:!1};function Cj(){var a=Fc("google_tag_data",{});return a.ics=a.ics||new Dj}var Dj=function(){this.entries={};this.cps={};this.wasSetLate=this.accessedAny=this.accessedDefault=this.usedSetCps=this.usedImplicit=this.usedUpdate=this.usedDefault=this.usedDeclare=this.active=!1;this.h=[]};
 Dj.prototype.default=function(a,b,c,d,e,f){this.usedDefault||!this.accessedDefault&&!this.accessedAny||(this.wasSetLate=!0);this.usedDefault=this.active=!0;yb("TAGGING",19);void 0==b?yb("TAGGING",18):Ej(this,a,"granted"===b,c,d,e,f)};Dj.prototype.waitForUpdate=function(a,b){for(var c=0;c<a.length;c++)Ej(this,a[c],void 0,void 0,"","",b)};
@@ -5651,7 +5652,7 @@ Ted Laderas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="ukbiobank,dnanexus,best-practices,webinar,free" data-listing-date-sort="1694329200000" data-listing-file-modified-sort="1694197992562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="1" data-categories="ukbiobank,dnanexus,best-practices,webinar,free" data-listing-date-sort="1694329200000" data-listing-file-modified-sort="1694198064685" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
 <p><a href="./edu/2023-09-09-best-practices-on-the-dnanexus-platform/index.html"> <!-- img(9CEB782EFEE6)[progressive=false, height=]:edu/2023-09-09-best-practices-on-the-dnanexus-platform/index.html --> </a></p>
 </div>
