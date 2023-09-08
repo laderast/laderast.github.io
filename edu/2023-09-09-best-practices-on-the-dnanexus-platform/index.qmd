@@ -1,5 +1,6 @@
 ---
 title: "Best Practices on the DNAnexus Platform"
+date: 09-10-2023
 categories: ["ukbiobank", "dnanexus", "best-practices", "webinar", "free"]
 ---
 
