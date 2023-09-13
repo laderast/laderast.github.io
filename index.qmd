@@ -5,13 +5,16 @@ about:
   links:
     - icon: twitter
       text: Twitter
-      href: https://twitter.com/tladeras
+      href: https://laderast.github.io/tweets
     - icon: linkedin
       text: LinkedIn
       href: "https://www.linkedin.com/in/ted-laderas-0714a92/"
     - icon: github
       text: GitHub
       href: https://github.com/laderast
+    - icon: mastodon
+      text: Mastodon
+      href: https://mastodon.cloud/@tladeras
 
 ---
 
@@ -19,4 +22,6 @@ I am a bioinformatics trainer for DNANexus, formerly an Assistant Professor in B
 
 Collaboration, training, and team science are passions of mine. I believe that research should not be lonely, and building communities of practice in science and research that are psychologically safe and inclusive are the key to doing better, more robust science. To this end, I use evidence based pedagogy, especially utilizing the concepts of psychological safety and active learning. I am a certified instructor for both [The Carpentries](https://carpentries.org/) and [Posit Academy](https://posit.co/products/enterprise/academy/).
 
-My free [Ready for R](https://ready4r.netlify.app) course currently is at over 1500 external users, and I have built a learning community around it. The course has been lauded by users as being inclusive and less intimidating than other R courses. Our Data Analytics course recently won an award (Sakai Torchbearer Award) from multiple student nominations.
+My free [Ready for R](https://ready4r.netlify.app) course currently is at over 1800 external users, and I have built a learning community around it. The course has been lauded by users as being more inclusive and less intimidating than other R courses. 
+
+Note: I am no longer on Twitter. [The Twitter link](https://laderast.github.io/tweets) goes to an archive of my tweets, including [my most popular ones](https://laderast.github.io/tweets/popular/).
