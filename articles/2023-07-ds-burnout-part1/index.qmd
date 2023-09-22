@@ -1,6 +1,6 @@
 ---
-title: "Data Science Organizer Burnout" 
-subtitle: "Part 1: Self Care"
+title: "Data Science Organizer Burnout Part 1" 
+subtitle: "Self Care"
 ---
 
 ## Overview of These Posts
