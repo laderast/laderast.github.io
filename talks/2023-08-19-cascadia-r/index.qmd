@@ -1,0 +1,28 @@
+---
+title: "Cascadia-R: Then/Now/Next"
+date: 8/19/2023
+---
+
+Retrospective Talk of Cascadia-R's history and founding, discussing how the conference has evolved.
+
+## Answered Questions
+
+- Can you organize a conference with just 6 people?
+- What is the Cascadia R Community Like?
+- Should you volunteer for the next Cascadia-R?
+- What is that Barbie ggplot2 theme?
+
+## Slides
+
+<iframe class="slide-deck" src="https://cascadia-r.github.io/cascadia_r_then_now/#/title-slide" height=300 width=600></iframe>
+
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sDCt_pu5ky4?si=SgyiKNB3Z76g51bL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Resources
+
+[Slides](https://cascadia-r.github.io/cascadia_r_then_now/#/title-slide){.btn .btn-primary role="button"}
+[Slide Repo](https://github.com/cascadia-r/cascadia_r_then_now){.btn .btn-primary role="button"}
+[YouTube Video](https://www.youtube.com/watch?v=sDCt_pu5ky4){.btn .btn-primary role="button"}
+
