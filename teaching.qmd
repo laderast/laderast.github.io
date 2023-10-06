@@ -10,3 +10,10 @@ title-block-banner: true
 ---
 
 This is a continually updated list of my teaching materials. Unless indicated, all material is released under CC-NonCommercial license. For other uses, please contact me.
+
+# Highlights
+
+- [BSTA 504 R Programming](edu/2021-03-20-bsta-504-r-programming/) - This is a course that I taught at Oregon Health Science University/Portland State University School of Public Health. My colleague, Jessica Minnier still teaches it. It has a number of innovations, including a [tidyverse function of the week assignment](https://sph-r-programming.netlify.app/functions/), and [midterm projects using Tidy Tuesday data](https://sph-midterm-projects.netlify.app/).
+- My [Ready for R](edu/2021-03-20-ready-for-r/) online course teaching the Tidyverse is currently at 1800+ users. This is a self paced course with video lessons, and a Posit Cloud project for doing your work.
+- My Books: [Bash for Bioinformatics](edu/2022-10-10-bash-for-bioinformatics/) and [Best Practices on the DNAnexus Platform](edu/2023-09-09-best-practices-on-the-dnanexus-platform/) are used by users of the UK Biobank Research Analysis platform and our customers on the Core DNAnexus platform
+- Video Webinars: [Cloud Computing for HPC Users](edu/2022-05-13-Cloud-Computing-for-HPC-users/), [Gradual Introduction to Shiny](edu/2021-03-20-a-gradual-introduction-toshiny) showcase my teaching techniques.
