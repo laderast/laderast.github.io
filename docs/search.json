@@ -823,7 +823,7 @@
     "href": "edu/2021-03-20-a-gradual-introduction-to-shiny/index.html",
     "title": "A gRadual intRoduction to Shiny",
     "section": "",
-    "text": "Description\nThis was a two hour workshop given for OHSU BioData Club on 2021-01-28 introducing the basic concepts of Shiny. It runs about two hours long.\nThere are videos for each part, along with slides. We use an RStudio.cloud project to try the basic Shiny concepts.\n\n\nAudience\nIntermediate R users and students. Students should be familiar with {ggplot2}, {dplyr}, and how functions work.\n\n\nLearning Objectives\n\nLearn the basic architecture of Shiny Apps\nLearn how server and ui communicate with the input and output objects\nAdd ggplot2 code to our app and display it with plotOutput and renderOutput\nAdd a control to control the aesthetics of our ggplot\nMake a reactive dataset using reactive expressions and control it with a slider\nUse {plotly} to add tooltips to our data\nLearn about the Shiny Widget Gallery and how to use it to add controls to your app\n\n\n\nLink\nWorkshop Website\n\n\n\n\nCitationBibTeX citation:@online{laderas2021,\n  author = {Laderas, Ted and Laderas, Ted and Minnier, Jessica and\n    Pozhidayeva, Dar’ya and Lo, Pierrette},\n  title = {A {gRadual} {intRoduction} to {Shiny}},\n  date = {2021-01-28},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nLaderas, Ted, Ted Laderas, Jessica Minnier, Dar’ya Pozhidayeva, and\nPierrette Lo. 2021. “A gRadual intRoduction to Shiny.”\nJanuary 28, 2021."
+    "text": "This was a two hour workshop given for OHSU BioData Club on 2021-01-28 introducing the basic concepts of Shiny. It runs about two hours long.\nThere are videos for each part, along with slides. We use an RStudio.cloud project to try the basic Shiny concepts."
   },
   {
     "objectID": "edu/2021-10-14-ukbiobank-webinar/index.html",
@@ -1825,5 +1825,40 @@
     "title": "Blog",
     "section": "",
     "text": "An Introvert’s Guide to Conferences - One of my most popular blog posts, about how to conference while introverted.\n“Yes, and…” is the Foundation for Collaboration - What can improvisational comedy teach us about collaboration?\nMoving on and Upwards - yes, I am a recovering academic that works in industry. This article is about why academia was not compatible with my goals.\nGoodbye to Harder House - A short musing about Harder House, the former home for the Portland State University’s System Science Program"
+  },
+  {
+    "objectID": "edu/2021-03-20-a-gradual-introduction-to-shiny/index.html#description",
+    "href": "edu/2021-03-20-a-gradual-introduction-to-shiny/index.html#description",
+    "title": "A gRadual intRoduction to Shiny",
+    "section": "",
+    "text": "This was a two hour workshop given for OHSU BioData Club on 2021-01-28 introducing the basic concepts of Shiny. It runs about two hours long.\nThere are videos for each part, along with slides. We use an RStudio.cloud project to try the basic Shiny concepts."
+  },
+  {
+    "objectID": "edu/2021-03-20-a-gradual-introduction-to-shiny/index.html#audience",
+    "href": "edu/2021-03-20-a-gradual-introduction-to-shiny/index.html#audience",
+    "title": "A gRadual intRoduction to Shiny",
+    "section": "Audience",
+    "text": "Audience\nIntermediate R users and students. Students should be familiar with {ggplot2}, {dplyr}, and how functions work."
+  },
+  {
+    "objectID": "edu/2021-03-20-a-gradual-introduction-to-shiny/index.html#learning-objectives",
+    "href": "edu/2021-03-20-a-gradual-introduction-to-shiny/index.html#learning-objectives",
+    "title": "A gRadual intRoduction to Shiny",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nLearn the basic architecture of Shiny Apps\nLearn how server and ui communicate with the input and output objects\nAdd ggplot2 code to our app and display it with plotOutput and renderOutput\nAdd a control to control the aesthetics of our ggplot\nMake a reactive dataset using reactive expressions and control it with a slider\nUse {plotly} to add tooltips to our data\nLearn about the Shiny Widget Gallery and how to use it to add controls to your app"
+  },
+  {
+    "objectID": "edu/2021-03-20-a-gradual-introduction-to-shiny/index.html#video",
+    "href": "edu/2021-03-20-a-gradual-introduction-to-shiny/index.html#video",
+    "title": "A gRadual intRoduction to Shiny",
+    "section": "Video",
+    "text": "Video"
+  },
+  {
+    "objectID": "edu/2021-03-20-a-gradual-introduction-to-shiny/index.html#links",
+    "href": "edu/2021-03-20-a-gradual-introduction-to-shiny/index.html#links",
+    "title": "A gRadual intRoduction to Shiny",
+    "section": "Links",
+    "text": "Links\nWorkshop Website"
   }
 ]
