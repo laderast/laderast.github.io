@@ -1790,5 +1790,12 @@
     "title": "Cascadia-R: Then/Now/Next",
     "section": "Resources",
     "text": "Resources\nSlides Slide Repo YouTube Video"
+  },
+  {
+    "objectID": "edu/2022-05-13-Cloud-Computing-for-HPC-users/index.html#video",
+    "href": "edu/2022-05-13-Cloud-Computing-for-HPC-users/index.html#video",
+    "title": "Cloud Computing for HPC Users",
+    "section": "Video",
+    "text": "Video\n\nvembedr::embed_youtube(\"lGxna-ZVYUg\")"
   }
 ]

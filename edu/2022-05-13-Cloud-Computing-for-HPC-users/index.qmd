@@ -1,7 +1,6 @@
 ---
 title: "Cloud Computing for HPC Users"
 format: html
-editor: visual
 date: "2022-03-28"
 categories: ["ukbiobank", "webinar", "free"]
 author:
@@ -18,8 +17,9 @@ Introductory webinar translating High Performance Computing (HPC) skills to clou
 
 -   **Run** *single* and *distributed* jobs
 
-## Slides
+## Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lGxna-ZVYUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+```{r}
+vembedr::embed_youtube("lGxna-ZVYUg")
+```
 
-</iframe>
