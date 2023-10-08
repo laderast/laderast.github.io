@@ -11,4 +11,9 @@ page-layout: full
 title-block-banner: true
 ---
 
+## Highlights
 
+- [An Introvert's Guide to Conferences](posts/2018-05-17-a-introvert-s-survival-guide-to-conferences/) - One of my most popular blog posts, about how to conference while introverted.
+- ["Yes, and..." is the Foundation for Collaboration](posts/2022-02-27-yes-and-is-the-foundation-of-collaboration/) - What can improvisational comedy teach us about collaboration?
+- [Moving on and Upwards](posts/2021-04-29-moving-on-and-upwards/) - yes, I am a recovering academic that works in industry. This article is about why academia was not compatible with my goals.
+- [Goodbye to Harder House](posts/2023-07-28-goodbye-to-harder-house/) - A short musing about Harder House, the former home for the Portland State University's System Science Program

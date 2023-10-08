@@ -10,3 +10,10 @@ title-block-banner: true
 ---
 
 Articles (usually instructional) are listed here.
+
+## Highlights
+
+- [Data Science Organizer Burnout](https://laderast.github.io/meetup_burnout) - My minisite for my PositConf talk about Data Science Organizer burnout and how to build a sustainable community.
+- [Getting LearnR to run on Binder](articles/2020-09-15-getting-learnr-tutorials-to-run-on-mybinder-org/) - Write up of how to setup a LearnR respository (basically a Shiny App) to run on Binder, a free to use network. Empowers teachers to host their LearnR tutorials.
+- [Package Building: How Document works with Roxygen and Namespaces]("articles/2019-02-12-package-building-how-description-namespace-roxygen-and-devtools-document-work-together/") - I wrote this up because I was confused about using the `@export` and `@import` directives in roxygen.
+- [Tidy Tuesday: Animal Crossing](articles/2020-05-05_animal-crossing/) - One of my favorite Tidy Tuesday writeups. Shows how to work with `{gt}` and plot animal villagers as images on a plot. 
