@@ -15,17 +15,17 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# Description
+## Description
 
 This was a two hour workshop given for [OHSU BioData Club](https://biodata-club.github.io) on 2021-01-28 introducing the basic concepts of Shiny. It runs about two hours long.
 
 There are videos for each part, along with slides. We use an RStudio.cloud project to try the basic Shiny concepts.
 
-# Audience
+## Audience
 
 Intermediate R users and students. Students should be familiar with `{ggplot2}`, `{dplyr}`, and how functions work.
 
-# Learning Objectives
+## Learning Objectives
 
 - **Learn** the basic architecture of Shiny Apps
 - **Learn** how `server` and `ui` communicate with the `input` and `output` objects
@@ -35,7 +35,15 @@ Intermediate R users and students. Students should be familiar with `{ggplot2}`,
 - **Use** `{plotly}` to add tooltips to our data
 - **Learn** about the Shiny Widget Gallery and how to use it to add controls to your app
 
-# Link
+## Video
+
+```{r}
+#| echo: false
+
+vembedr::embed_youtube("6XBb5J6U05Y",query = "t=2956")
+```
+
+## Links
 
 [Workshop Website](https://laderast.github.io/gradual_shiny){.btn .btn--info}
 

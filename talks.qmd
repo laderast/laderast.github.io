@@ -12,7 +12,7 @@ title-block-banner: true
 
 ## Highlights
 
-- [Introduction to Web APIs in R](talks/2023-08-19-web-apis-json/) - I gave this talk for Cascadia-R 2023 introducing Web APIs and accessing them in R
-- [Quarto vs. RMarkdown - What's Different?](talks/2023-09-14-qmd-rmd) - Introduction to the Quarto publishing system and how it differs from RMarkdown. Given for PDX-R, R Ladies Paris
-- [The Value of Compassion in Learning Data Science](talks/2023-02-14-compassion-data-science) - Keynote for University of Pittburgh's Love Data Week.
-- [Cascadia-R: Then/Now/Next](2023-08-19-cascadia-r) - Keynote for the Cascadia-R conference about the origins of Cascadia R and its history through the year.
+-   [Introduction to Web APIs in R](talks/2023-08-19-web-apis-json/) - I gave this talk for Cascadia-R 2023 introducing Web APIs and accessing them in R
+-   [Quarto vs. RMarkdown - What's Different?](talks/2023-09-14-qmd-rmd/) - Introduction to the Quarto publishing system and how it differs from RMarkdown. Given for PDX-R, R Ladies Paris
+-   [The Value of Compassion in Learning Data Science](talks/2023-02-14-compassion-data-science/) - Keynote for University of Pittburgh's Love Data Week.
+-   [Cascadia-R: Then/Now/Next](2023-08-19-cascadia-r/) - Keynote for the Cascadia-R conference about the origins of Cascadia R and its history through the year.

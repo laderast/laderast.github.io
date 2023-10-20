@@ -1,0 +1,78 @@
+---
+title: "Data Science Organizer Burnout Part 2"
+subtitle: "Finding Allies and Sponsors"
+---
+
+> I'm going to give a talk at PositConf this year about Data Science meetup burnout and how to make your meetup more sustainable. 
+
+> Think of these posts as starting with yourself, and working to improve bits of your community by expanding outwards
+
+In this section, I want to talk about building a strong core group of allies and supporters for your meetup and why it's important.
+
+## Don't Organize Alone
+
+Remember those burnout feelings of overwhelm and inadequacy that we were fighting in Part 1? There is a cure for that, and that is finding co-organizers for your meetup.
+
+These co-organizers should be people you can trust and depend on, that you want to hang out with. Even if no one else came to a meetup event, you will still get to hang out with them and it won't feel like wasted effort. You should have shared values. 
+
+It's better to identify people and approach them directly rather than putting out a call for organizers. Perhaps there was a member of previous meetups that was especially helpful to others. 
+
+The key piece of advice that I've gotten from many organizers is to: **start small** with your core group, rather than starting with large events from the get-go. Having a strong core group will naturally grow through word of mouth. 
+
+## Establish Values
+
+Now that you have some buddies, you'll need to do some work. What are your meetup values? This is a hard question and is probably best discussed with your meetup co-organizers over beverages.
+
+Values are important because they inform everything about your meetup, from its presentation, to how you communicate, and how you welcome new attendees. 
+
+- What skill level are you targeting? Advanced users are very different than beginner users.
+- Do you want your meetup to be accessible?
+- Do you want your meetup to be psychologically safe?
+
+In the end, these values will also help define roles and responsibilities for your meetup, which we'll discuss more in Part 3. 
+
+## Spread Duties and Responsibilities
+
+Now that you have more than one meetup organizer, you can divide and conquer. Split events up - one person can take hosting for one event and one can take hosting for another. Or you can divide duties - such as communications and moderation between you. 
+
+Support each other - some months may not good for organizing for you, and hopefully the other members of your team will be able to step up. 
+
+Part of the point of spreading the duties is to be able to take breaks so that organizing is not a burden on you. Especially in online situations, having more than one organizer can be very helpful. 
+
+## Find Sponsors
+
+Finding sponsors and allies is especially important if you're organizing a meetup within your own organization. There are specific needs for your meetup:
+
+- Meetup Space
+- Dedicated online discussion forums (such as Slack/Microsoft Teams/Discord)
+- Prep time for talks/activities
+
+Sponsors can help with these needs. I've heard time and again from internal meetup attendees that they like the meetup, but they're often too busy with other work to attend regularly. This is often a sign of an organizational culture that prizes busy-ness (not business) over personal development. Sponsors can help with this by opening up work schedules for personal development.
+
+## Get Recognized For Organizing
+
+Most importantly, if you organize an internal group, you should be getting [recognition for your own work organizing the meetup](https://colorado.posit.co/rsc/ds-community-builder/receive-recognition.html). Organizing meetups is important emotional labor, as you are building ties across groups in your organization. Negotiating for protected time when you can do this work is a very good start. Making sure that the meetup is included as criteria for yearly reviews is also important. If you are doing it to benefit your organization, you should be recognized for it.
+
+Meetups often result in collaboration across groups, and improved morale in an organization. Organizations often brag that they are a learning organization. Hold their feet to the fire so that they support this important venue for learning, collaboration, and development. Some of this may have to do with managing up: understanding the motivations of your supervisors and showing the benefits of the meetup in language that matters to them. At the very least, show alignment of your group with their overall strategy - show how the meetup will contribute to their goals.
+
+Gathering testimonies from meetup attendees is another important type of evidence of impact. Approaching people who are getting a lot out of your meetup and asking for a couple sentences about the benefits they've enjoyed from the meetup can be very useful, especially in a final report used in a performance review.
+
+## Recap: It's dangerous to organize alone
+
+I hope this section has convinced you that you need to expand your circle of influence. Having this support system takes a lot of pressure off of you as an organizer. It is also the first step to making your meetup resilient. I believe that the test of any good group is whether you can leave it and it can continue on. 
+
+In the final part, we'll talk about how to make your meetup welcoming to new attendees. Sustaining a meetup has to do a lot with making it appealing to people who will contribute, and making it easy for those people to contribute. We'll talk about some low-key activities that will help with this.
+
+## Acknowledgements
+
+Thanks so much to the following data science organizers for talking with me about this topic. Discussing it has been super helpful in understanding what we can do about it. 
+
+- Julia Stewart-Lowndes
+- Kate Hertweck
+- Libby Heeren
+- Yanina Saibene
+- Rachael Dempsey
+- Donald Szlosek
+- Priyanka Gagneja
+- Natalia Andriychuk
+- Marcos Huerta
