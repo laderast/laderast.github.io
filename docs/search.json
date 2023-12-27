@@ -1257,21 +1257,21 @@
     "href": "posts/2023-12-19-moving-on-retrospective/index.html#february---july-bash-for-bioinformatics-and-best-practices-on-the-dnanexus-platform",
     "title": "Year in Review/Moving On",
     "section": "February - July: Bash for Bioinformatics and Best Practices on the DNAnexus Platform",
-    "text": "February - July: Bash for Bioinformatics and Best Practices on the DNAnexus Platform\nI continued working on my book Bash for Bioinformatics, refining Bash recipes for working on the platform. Part of my work at DNAnexus this year was compiling best practices for working effectively on the platform. From understanding object oriented filesystems to setting up projects effectively on the DNAnexus platform, to working with Hail on the DNAnexus platform."
+    "text": "February - July: Bash for Bioinformatics and Best Practices on the DNAnexus Platform\nI continued working on my book Bash for Bioinformatics, refining Bash recipes for working on the platform. Part of my work at DNAnexus this year was compiling best practices for working effectively on the platform. From understanding object oriented filesystems to setting up projects effectively on the DNAnexus platform, to working with Hail on the DNAnexus platform. That’s the subject of the new book, Best Practices on the DNAnexus platform."
   },
   {
     "objectID": "posts/2023-12-19-moving-on-retrospective/index.html#july-goodbye-to-harder-house",
     "href": "posts/2023-12-19-moving-on-retrospective/index.html#july-goodbye-to-harder-house",
     "title": "Year in Review/Moving On",
     "section": "July: Goodbye to Harder House",
-    "text": "July: Goodbye to Harder House\nhttps://laderast.github.io/posts/2023-07-28-goodbye-to-harder-house/\nI wrote a small piece about Harder House, which was the home of the Systems Science program at Portland State University. Harder House is no more, but I still have fond memories of taking classes there."
+    "text": "July: Goodbye to Harder House\nI wrote a small piece about Harder House, which was the home of the Systems Science program at Portland State University. Harder House is no more, but I still have fond memories of taking classes there."
   },
   {
     "objectID": "posts/2023-12-19-moving-on-retrospective/index.html#september-keynote-for-cascadia-r",
     "href": "posts/2023-12-19-moving-on-retrospective/index.html#september-keynote-for-cascadia-r",
     "title": "Year in Review/Moving On",
     "section": "September: Keynote for Cascadia R",
-    "text": "September: Keynote for Cascadia R\n\nvembedr::embed_youtube(\"sDCt_pu5ky4\")\n\n\n\n\n\n\n\n\nAnother honor to give a keynote (with Jessica Minnier) for the conference I helped found and talking about our insane 2 1/2 month journey to organizing the first two Cascadia-R conferences."
+    "text": "September: Keynote for Cascadia R\n\nvembedr::embed_youtube(\"sDCt_pu5ky4\")\n\n\n\n\n\n\n\n\nAnother honor to give a keynote (with Jessica Minnier) for the conference I helped found (Cascadia-R) and talking about our insane 2 1/2 month journey to organizing the first two Cascadia-R conferences."
   },
   {
     "objectID": "posts/2023-12-19-moving-on-retrospective/index.html#september-a-gradual-introduction-to-apis-in-r",
