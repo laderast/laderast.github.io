@@ -53,7 +53,7 @@
     "href": "index.html",
     "title": "Ted Laderas, PhD",
     "section": "",
-    "text": "I am a former bioinformatics trainer for DNANexus, formerly an Assistant Professor in Biomedical Informatics at OHSU. I trained bioinformaticians how to use the DNAnexus cloud-based platform. This includes giving webinars for the UK Biobank Research Analysis Platform, as well as authoring the book Bash for Bioinformatics. I am also a Data Science Mentor for Posit Academy, helping data apprenctices learn the tidyverse.\nCollaboration, training, and team science are passions of mine. I believe that research should not be lonely, and building communities of practice in science and research that are psychologically safe and inclusive are the key to doing better, more robust science. To this end, I use evidence based pedagogy, especially utilizing the concepts of psychological safety and active learning. I am a certified instructor for both The Carpentries and Posit Academy.\nMy free Ready for R course currently is at over 1800 external users, and I have built a learning community around it. The course has been lauded by users as being more inclusive and less intimidating than other R courses.\nNote: I am no longer on Twitter. The Twitter link goes to an archive of my tweets, including my most popular ones."
+    "text": "I am a Data Scientist and Community Builder at the Fred Hutch Cancer Center in the Data Science Lab (DaSL). I’ve worked previously at DNAnexus and Oregon Health & Science University. Over 10 years of teaching, I’ve trained learners in many topics, including Machine Learning, the DNAnexus cloud-based genomics platform, R and the Tidyverse, and Shiny. I’ve given webinars to empower users of the UK Biobank Research Analysis Platform, as well as authoring the book Bash for Bioinformatics and my Introductory Ready for R Course. In my spare time, I’m also a Data Science Mentor for Posit Academy, helping data apprentices learn Tidyverse and Python. I also wrestle with a cello to make ambient music.\nCollaboration, training, and team science are passions of mine. I believe that research should not be lonely, and building communities of practice in science and research that are psychologically safe and inclusive are the key to doing better, more robust science. To this end, I use evidence based pedagogy, especially utilizing the concepts of psychological safety and active learning. I am a certified instructor for both The Carpentries and Posit Academy.\nMy free Ready for R course currently is at over 1800 external users, and I have built a learning community and mailing list around the course. The course has been lauded by users as being more inclusive and less intimidating than other R courses.\nNote: I am no longer on Twitter. The Twitter link goes to an archive of my tweets, including my most popular ones."
   },
   {
     "objectID": "talks/2022-10-7-using-cognitive-science/index.html",
@@ -2091,5 +2091,12 @@
     "title": "Data Science for Decision Makers",
     "section": "Understanding Uncertainty",
     "text": "Understanding Uncertainty"
+  },
+  {
+    "objectID": "bio.html",
+    "href": "bio.html",
+    "title": "Untitled",
+    "section": "",
+    "text": "Ted Laderas is a Data Scientist and Community Builder at the Fred Hutch Cancer Center in the Data Science Lab (DaSL). Over 10 years of teaching, he has trained many learners in Machine Learning, the DNAnexus cloud-based genomics platform, R and the Tidyverse, and Shiny. In his spare time, he is also a Data Science Mentor for Posit Academy, helping data apprentices learn Tidyverse and Python, and he wrestles with a cello to make ambient music.\nHe’s worked with lots of different kinds of learners of Shiny, through many workshops, and seen them grow from beginners to mastering shiny to build many different kinds of exciting apps."
   }
 ]

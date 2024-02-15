@@ -11,6 +11,7 @@ website:
   description: "Ted's R and Teaching Blog"
   navbar:
     right:
+      - consulting.qmd
       - teaching.qmd
       - articles.qmd
       - blog.qmd
@@ -18,7 +19,7 @@ website:
       - icon: github
         href: https://github.com/laderast/
       - icon: mastodon
-        href: https://mastodon.cloud/@tladeras/
+        href: https://vmst.io/@tladeras
       - icon: twitter
         href: https://laderast.github.io/tweets/
   twitter-card: 
