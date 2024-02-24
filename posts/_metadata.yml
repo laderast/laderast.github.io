@@ -13,6 +13,6 @@ citation: true
 author:
   - name: Ted Laderas
     url: https://laderast.github.io
-    affiliation: DNAnexus
-    affiliation-url: https://dnanexus.com
+    affiliation: Fred Hutch
+    affiliation-url: https://fredhutch.org
     orcid: 0000-0002-6207-7068
