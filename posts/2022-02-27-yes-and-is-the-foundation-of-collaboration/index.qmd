@@ -12,7 +12,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# Collaboration as Improvisation
+## Collaboration as Improvisation
 
 Collaboration is a delicate thing. It needs to be nurtured and encouraged, especially in the early stages. It is easy to destroy it if you go in with the wrong expectations and attitude. 
 
@@ -32,7 +32,7 @@ vembedr::embed_url("https://youtu.be/FLhV7Ovaza0")
 
 Using the “Yes, and…” rule, we are *synthesizing* instead of analyzing. We are putting things together, taking risks, and hopefully having fun and being energized on the way.
 
-# “Yes, and…” IRL Example
+## “Yes, and…” IRL Example
 
 What does the “Yes, and…” rule look like in real life? 
 
@@ -44,7 +44,7 @@ Through talking some more, we identified ways of doing this: [encouraging psycho
 
 The result was an hour-long presentation that came together on these themes. It was a really positive experience that leveraged each of our strengths and demonstrated concrete and evidence-based steps to support students.
 
-# Respect and Sharing Values is Key to Taking Risks Together
+## Respect and Sharing Values is Key to Taking Risks Together
 
 At the heart of this collaboration was our respect for each other’s knowledge and values. We knew we could share our experiences and our desire to help students. 
 
@@ -60,7 +60,7 @@ In collaboration, you need to focus on *adding* value, not *subtracting* from ot
 
 Encourage each other, make your own psychologically safe space together. This space can be difficult to establish, but if you respect each other, it will be ok to take risks together.
 
-# TJ and Dave: Tapping Into the Flow
+## TJ and Dave: Tapping Into the Flow
 
 
 ```{r}
@@ -73,7 +73,7 @@ TJ and Dave talk about their improv as tapping into a flow of events that’s ex
 
 When you find a good collaborative partner, you can channel the flow together. It is a form of play, and it is energizing and fun.
 
-# Asking Great Questions for the Setup: The 2000 year old man
+## Asking Great Questions for the Setup: The 2000 year old man
 
 The 2000 Year Old Man was a comedy routine that Carl Reiner and Mel Brooks came up with together while working together in a writer’s room. Carl played an interviewer asking a 2000 year old man (played by Brooks) questions about daily life as 2000 year old man, did he meet certain historical figures, etc. It was completely improvised and Mel’s responses were usually pretty darn funny.
 
@@ -87,7 +87,7 @@ Mel’s responses always got the laughs, but Carl’s role was especially import
 
 What lessons can we apply from Carl Reiner? When collaborating, ask yourself: *how can I ask these kinds of questions and set up my collaborators to push off into that stratosphere?* *How can I set ourselves up to capture lightning in a bottle?* 
 
-# How to Find IRL Collaborators: Share Values
+## How to Find IRL Collaborators: Share Values
 
 The best way to find collaborators is to find people who share your values.
 
@@ -97,7 +97,7 @@ The majority of my educational collaborations have come about because I share va
 
 If you meet someone who shares your values and could be fun, try and find a way to work together. 
 
-# It’s All About Fun, Energy, and Connection
+## It’s All About Fun, Energy, and Connection
 
 Collaboration is an antidote to the loneliness we all feel nowadays. Science can be a very lonely place, and it sometimes seems that when you present ideas to others, there’s always someone who wants to shoot it down. (I've often felt like a grant could best be defined as a dream a reviewer stomps to death.) This is very draining.
 
@@ -107,7 +107,7 @@ We need to know when we need to re-evaluate our collaborations. The canary in th
 
 If this collaboration is something you volunteered to do (that is, you’re not being paid), and it’s no longer fun, you have my permission to drop the collaboration. Life is too short to spend on voluntary activities that are not fun.
 
-# TL; DR
+## TL; DR
 
 Here’s a quick list of ground rules that synthesizes the above.
 
@@ -118,7 +118,7 @@ Here’s a quick list of ground rules that synthesizes the above.
 5. Set each other up for success.
 6. Have fun together. Stop if it’s no longer fun.
 
-# Thank You, Open Science Communities
+## Thank You, Open Science Communities
 
 Finally, I want to end on a personal note and express gratitude for everyone who has helped me on my journey.
 
@@ -126,7 +126,7 @@ At an especially low time in my life, the communities of Open Science saved me, 
 
 This post is my love letter to them. Thank you, everyone.
 
-# For More Info
+## For More Info
 
 * [*Bossypants*](https://www.goodreads.com/book/show/9418327-bossypants) by Tina Fey has a great summary of why “Yes, And…” can change your life.
 * Read the [oral history of the Upright Citizen’s Brigade](https://uproxx.com/movies/ucb-oral-history/) to learn more about “Yes, and...” and Del Close, whose philosophy of performance is the foundation of theatre sports.
