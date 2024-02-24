@@ -16,6 +16,7 @@ website:
       - articles.qmd
       - blog.qmd
       - talks.qmd
+      - newsletter.qmd
       - icon: github
         href: https://github.com/laderast/
       - icon: mastodon
