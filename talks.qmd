@@ -16,3 +16,9 @@ title-block-banner: true
 -   [Quarto vs. RMarkdown - What's Different?](talks/2023-09-14-qmd-rmd/) - Introduction to the Quarto publishing system and how it differs from RMarkdown. Given for PDX-R, R Ladies Paris
 -   [The Value of Compassion in Learning Data Science](talks/2023-02-14-compassion-data-science/) - Keynote for University of Pittburgh's Love Data Week.
 -   [Cascadia-R: Then/Now/Next](2023-08-19-cascadia-r/) - Keynote for the Cascadia-R conference about the origins of Cascadia R and its history through the year.
+
+## YouTube Playlist of Talks
+
+This is an incomplete list of my talks that are available online.
+
+{{< video https://youtube.com/playlist?list=PLQ6MBGBxkwl1GTyT86wdhtcBlsrGDIhjR&si=DVo1vDzpT9z2n1Xa >}}
