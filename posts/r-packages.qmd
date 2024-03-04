@@ -1,0 +1,75 @@
+---
+title: "Tidy Tuesday R packages"
+---
+
+```{r}
+tuesdata <- tidytuesdayR::tt_load('2023-12-26')
+## OR
+tuesdata <- tidytuesdayR::tt_load(2023, week = 52)
+
+cran_20221122 <- tuesdata$cran_20221122
+external_calls <- tuesdata$external_calls
+internal_calls <- tuesdata$internal_calls
+```
+
+```{r}
+library(tidyverse)
+library(tidygraph)
+library(forcats)
+```
+
+## What are the top packages by centrality?
+
+I'm actually really surprised that the top ranking package by centrality is `{duckdb}`. It's really become very ubiquitous.
+
+```{r}
+cran_20221122 |> dplyr::filter(centrality_dir_mn_no0 > 2000) |> 
+  mutate(package=fct_reorder(package, centrality_dir_md_no0)) |> 
+  slice_max(centrality_dir_md_no0, n=20) |> 
+  ggplot() + aes(x=package, y=centrality_dir_md_no0) +
+  geom_col() + theme(axis.text = element_text(angle = 0)) + coord_flip()
+```
+
+```{r}
+cran_20221122 |> #dplyr::filter(centrality_dir_mn_no0 > 2000) |> 
+  mutate(package=fct_reorder(package, node_degree_max)) |> 
+  slice_max(node_degree_max, n=20) |> 
+  ggplot() + aes(x=package, y=node_degree_max) +
+  geom_col() + theme(axis.text = element_text(angle = 0)) + coord_flip()
+```
+
+## Centrality Measures
+
+```{r}
+my_graph <- cran_20221122 |>
+  ggplot() +
+  aes(x= centrality_dir_md_no0, y=centrality_dir_md, package=package) +
+  geom_point()
+
+plotly::ggplotly(my_graph)
+```
+
+The undirected versus directed measures are less correlated, indicating there are some packages that have high undirected centrality but not high directed centrality.
+
+```{r}
+my_graph <- cran_20221122 |>
+  ggplot() +
+  aes(x= centrality_undir_md_no0, y=centrality_dir_md_no0, package=package) +
+  geom_point()
+
+plotly::ggplotly(my_graph)
+```
+
+## Documentation versus Centrality
+
+```{r}
+my_graph <- cran_20221122 |>
+  dplyr::filter(centrality_dir_md_no0 < 1000) |>
+  dplyr::filter(docchars_per_par_exp_md < 1000) |>
+  ggplot() +
+  aes(x=docchars_per_par_exp_md, y=centrality_dir_mn_no0, package=package) +
+  geom_point()
+
+plotly::ggplotly(my_graph)
+```
+

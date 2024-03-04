@@ -1,0 +1,20 @@
+---
+title: "The Analyst's Nightmares"
+---
+
+I have a lot of nightmares about data. Especially when I'm at the verge of publishing or sharing an analysis. I've come to learn that this is one of the hallmarks of a good analyst.
+
+What are these nightmares? Let me know if any of these seem familiar to you:
+
+- *Did I load the data correctly?*
+- *Was the data transformations/cleaning correct?*
+- *Did I set up the model correctly?*
+
+A good analyst is conscientious about answering questions of the data. One of your jobs as an analyst is to absorb and communicate uncertainty about the data. This is especially important when working with decision makers. 
+
+One of the things that's taken me a long time to learn is:
+
+> There are no 100% "correct" analyses - only more defensible ones.
+
+The most important thing to defend are the relationships between variables. Do these relationships make sense? Or is the relationship possibly due to confounding variables?
+

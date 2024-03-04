@@ -1,0 +1,58 @@
+---
+title: "Year in Review/Moving On"
+---
+
+This has been a very difficult and rewarding year for me. I currently am between jobs, having resigned from my position at DNAnexus. I won't go into the reasons other than saying that I had to leave there because of a very toxic person. 
+
+I have spent a good deal of time dealing with the aftermath of my father's death, both physically and emotionally. I did not have a good relationship with him. He was a textbook narcissist. I never felt completely sure of myself around him. So dealing with that emotional baggage and the physical baggage he left was pretty difficult for me. 
+
+## February: Keynote for Love Data Week at UPitt
+
+```{r}
+vembedr::embed_youtube("za0xX10G7mU")
+```
+
+I gave a keynote talk for University of Pittburgh's Love Data Week, about being gentle with yourself as you progress in your data science journey. I was extremely grateful for this opportunity to look back on my career and encourage others to be curious in their data science journey.
+
+## February - July: Bash for Bioinformatics and Best Practices on the DNAnexus Platform
+
+I continued working on my book [Bash for Bioinformatics](https://laderast.github.io/bash_for_bioinformatics/), refining Bash recipes for working on the platform. Part of my work at DNAnexus this year was compiling best practices for working effectively on the platform. From understanding object oriented filesystems to setting up projects effectively on the DNAnexus platform, to working with Hail on the DNAnexus platform. That's the subject of the new book, [Best Practices on the DNAnexus platform](https://laderast.github.io/best_practices_dnanexus/).
+
+## July: [Goodbye to Harder House](https://laderast.github.io/posts/2023-07-28-goodbye-to-harder-house/)
+
+I wrote a small piece about Harder House, which was the home of the Systems Science program at Portland State University. Harder House is no more, but I still have fond memories of taking classes there.
+
+## September: Keynote for Cascadia R
+
+```{r}
+vembedr::embed_youtube("sDCt_pu5ky4")
+```
+
+Another honor to give a keynote (with Jessica Minnier) for the conference I helped found (Cascadia-R) and talking about our insane 2 1/2 month journey to organizing the first two Cascadia-R conferences.
+
+## September: A Gradual Introduction to APIs in R
+
+
+```{r}
+vembedr::embed_youtube("HA7KfdEsdpo")
+```
+
+My other talk was about learning how to access web APIs and making the topic more accessible. Note to self: `{httr2}` package is pronounced "hitter2". :)
+
+## September (PositConf): How to make you data science meetup sustainable
+
+```{r}
+vembedr::embed_youtube("QfcC56gSC9g")
+```
+
+Finally, at the end of September, I gave a talk about meetup organizer burnout and how to engineer your group to avoid it. It was a lot of fun chatting with other community organizers about success factors.
+
+## November: An Introduction to Docker
+
+I gave two webinars in November about Docker: Both about using docker in a cloud computing context, and about building your own Docker containers.
+
+## The Overall Year: Busy, Looking for Something New
+
+December I put in my resignation at DNAnexus. I may write about it some day, but it's a little too fresh at the moment. 
+
+I thought I was going to get a position elsewhere, but that did not work out, so I'm on the job market. 
