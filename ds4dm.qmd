@@ -1,0 +1,65 @@
+---
+title: "Data Science for Decision Makers"
+---
+
+I've decided to write up a small set of articles showing decision makers about how to communicate with their data science teams and utilize them effectively.
+
+This article focuses less on data science and more about setting up a data science team for success. Because of this, there will be very little math but more visual explanations.
+
+Specifically, I will discuss barriers to success that you as a decision-maker can tackle to make your team more effective. 
+
+## The Role of a Data Science Team
+
+> Data Scientists should only be part of the picture in making a decision. They should not be expected to make decisions on behalf of the decision maker. 
+
+The buck stops with you. Any decision needs to be done by you as the decision maker. Data Science teams provide evidence, not decisions. They are decision support.
+
+The evidence may be counter to your expectations, and you must be able to evaluate how strong the evidence is in the data before you change your mind. For example, a strong trend of upward growth over 6 months is better than a relatively weak trend observed over two weeks. 
+
+This is also the fallacy of what people want out of AI systems. As we've seen, when AI systems don't know a specific answer, it is able to make stuff up using similar concepts. 
+
+## Formulating Your Question
+
+In order to get your Data Science team to work on data, you need a reasonable question given:
+
+- Data Availability - are the measurements available?
+- Data Quantity - Is there enough data?
+- Data Quality - Is the data 
+- Time and Effort - What is the timeline?
+
+Data Scientists are detectives. They will need to ask questions about things they've noticed that affect data quality. Such as missingness of the data. Some measurements may be missing. Why?  Is it because your unit stopped collecting data after a certain point? Or did those measurements end up in a completely different data field. 
+
+You do not need to be available to facilitate all of these questions. But you may need to make time available for the other cross-function teams so they can help the data science team. 
+
+https://hbr.org/2020/02/data-driven-decisions-start-with-these-4-questions
+
+## Descriptive versus Prescriptive Models
+
+## Collaborating effectively with a data science team
+
+> Data Scientists need some degree of iteration to be successful.
+
+It's easy to be impatient and just want to see results. However, Data Science teams need your feedback if the patterns in the data they find are useful. They will need time with subject matter experts (SMEs) to understand the concepts of your domain. A data scientist + a domain expert will almost always be better than a data scientist by themselves. 
+
+Oftentimes, a task force structure can be extremely helpful for fast and accurate work, where the task force is cross-functional. However, expectations need to be clearly communicated, and everyone in the team needs a degree of psychological safety. 
+
+## Understanding other staffing needs (data engineering/IT)
+
+> Data scientists are depenendent on other staff. Effort needs to be allocated to this other staff to make an effort successful.
+
+One thing to keep in mind is that data science teams are cross-disciplinary in general. They will need to work with many other teams and stakeholders, including the data engineering/IT team.
+
+I've seen multiple times where an IT/Data Engineering group will say NO to Data Science requests. Absolutely no. Usually these teams are stretched beyond thin, and they need more effort to collaborate with their Data Science colleagues. 
+
+If that is not possible, you may need to reprioritize their tasks to make brain room for the Data Scientist's requests. 
+
+## Expectations for Data Science Results
+
+What if the data doesn't fit my expectations?
+
+
+
+## OKRs for Data Science Teams
+## Understanding Uncertainty
+
+

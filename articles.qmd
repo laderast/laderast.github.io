@@ -1,7 +1,10 @@
 ---
 title: "Articles"
 listing:
-  contents: articles
+  contents: 
+    - "articles"
+    - "posts"
+  feed: true
   categories: true
   sort: "date desc"
   sort-ui: true

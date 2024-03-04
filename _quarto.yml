@@ -5,18 +5,21 @@ project:
 execute: 
   freeze: true
 
+
 website:
   title: "Ted Laderas, PhD"
   google-analytics: "G-SKN5BS6ZBZ"
   description: "Ted's R and Teaching Blog"
+  site-url: https://laderast.github.io/
   navbar:
     right:
       - consulting.qmd
       - teaching.qmd
       - articles.qmd
-      - blog.qmd
       - talks.qmd
       - newsletter.qmd
+      - icon: rssd
+        href: index.xml
       - icon: github
         href: https://github.com/laderast/
       - icon: mastodon
