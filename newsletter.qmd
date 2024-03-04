@@ -1,0 +1,21 @@
+---
+title: "Newsletter"
+---
+
+If you're interested in a weekly newsletter talking about R, data science, and exploratory data analysis, you should join my newsletter.
+
+<form
+  action="https://buttondown.email/api/emails/embed-subscribe/ready4r"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.email/ready4r', 'popupwindow')"
+  class="embeddable-buttondown-form"
+>
+  <label for="bd-email">Enter your email</label>
+  <input type="email" name="email" id="bd-email" />
+  
+  <input type="submit" value="Subscribe" />
+  <p>
+    <a href="https://buttondown.email/refer/ready4r" target="_blank">Powered by Buttondown.</a>
+  </p>
+</form>

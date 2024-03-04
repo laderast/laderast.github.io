@@ -1,0 +1,25 @@
+---
+title: "Consulting"
+---
+
+## Training and Community Consulting
+
+I can bring my extensive training experience and my compassionate approach to help your organization upskill and grow in data science, machine learning/AI, and cloud-based workflows.
+
+## Don't lose your talent!
+
+More and more employees state that they leave a position because of the lack of training opporunities and career development. Because of more lucrative and career growth oriented Data Science positions, it is increasingly hard to retain employees. The cost of re-hiring and retraining for a position can be prohibitive.
+
+The good news is that you can create a learning culture and community at your organization that will motivate your employees and make them more effective and motivated at their work.
+
+I have over 10 years of experience in data science training and community management. I can help your organization to
+
+ - **Develop** a data science training program to upskill your employees
+ - **Build** sustainable learning communities at your organization
+ - **Train** your team in data science/machine learning/cloud-based workflows
+
+I have worked extensively in the pharma/genomics/life sciences/clincial spaces and have successfully trained clinicians, public health students, computational biologists to do effective data science and bioinformatics. My students have gone on to effective careers in bioinformatics, consulting, and clinical informatics.
+
+Happy to schedule time to talk about your training needs at your organization. Please fill out the form below:
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeuaHEQuC0fRJ08yrmC9KEbHvIaXZ3hNqQh1Hbivmb7y-teeA/viewform?embedded=true" width="640" height="780" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
