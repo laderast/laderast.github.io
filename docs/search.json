@@ -1215,14 +1215,14 @@
     "href": "edu/2024-06-15-Intermediate-Shiny/index.html",
     "title": "Intermediate Shiny: Drawing the Owl",
     "section": "",
-    "text": "This workshop aims to get you over the hill to faster, better looking, and dynamic Shiny Apps.\n\nCustomize dashboards with {bslib} and {thematic}\nExplain fundamentals of Reactive Programming\nUtilize Shiny modules in your projects\n\nCourse Website Course Repo"
+    "text": "This workshop aims to get you over the hill to faster, better looking, and dynamic Shiny Apps.\n\nCustomize dashboards with {bslib} and {thematic}\nExplain fundamentals of Reactive Programming\nUtilize Shiny modules in your projects"
   },
   {
     "objectID": "edu/2024-06-15-Intermediate-Shiny/index.html#learning-objectives",
     "href": "edu/2024-06-15-Intermediate-Shiny/index.html#learning-objectives",
     "title": "Intermediate Shiny: Drawing the Owl",
     "section": "",
-    "text": "This workshop aims to get you over the hill to faster, better looking, and dynamic Shiny Apps.\n\nCustomize dashboards with {bslib} and {thematic}\nExplain fundamentals of Reactive Programming\nUtilize Shiny modules in your projects\n\nCourse Website Course Repo"
+    "text": "This workshop aims to get you over the hill to faster, better looking, and dynamic Shiny Apps.\n\nCustomize dashboards with {bslib} and {thematic}\nExplain fundamentals of Reactive Programming\nUtilize Shiny modules in your projects"
   },
   {
     "objectID": "edu/2023-09-09-best-practices-on-the-dnanexus-platform/index.html",
@@ -2203,5 +2203,12 @@
     "title": "Sentiment analysis of Avatar",
     "section": "Iroh is so chill and positive",
     "text": "Iroh is so chill and positive\n\niroh &lt;- sentiment_index %&gt;%\n  filter(character==\"Iroh\")\n\nout_plot &lt;- ggplot(iroh) +\n  aes(x=index, y=sentiment, fill=character, episode=chapter, book = book_num, episode_number=chapter_num) +\n  geom_col(show_legend = FALSE) +\n  labs(title= \"Iroh is just so chill and positive\", x=\"Episode Number\",\n       subtitle = \"mouse over for more episode information\") +\n  ylim(c(-13, 13)) +\n    geom_vline(xintercept = 21, lty=2) +\n  geom_vline(xintercept = 41, lty=2)\n\nWarning in geom_col(show_legend = FALSE): Ignoring unknown parameters:\n`show_legend`\n\nplotly::ggplotly(out_plot)"
+  },
+  {
+    "objectID": "edu/2024-06-15-Intermediate-Shiny/index.html#links",
+    "href": "edu/2024-06-15-Intermediate-Shiny/index.html#links",
+    "title": "Intermediate Shiny: Drawing the Owl",
+    "section": "Links",
+    "text": "Links\nCourse Website Course Repo"
   }
 ]
