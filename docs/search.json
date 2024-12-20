@@ -238,13 +238,6 @@
     "text": "Acknowledgements\nThanks so much to the mybinder.org team, what they do is beyond awesome.\nThanks to Sang Yun Oh, whose repository helped me figure more of these details out. https://github.com/syoh/learnr-tutorial"
   },
   {
-    "objectID": "articles/2023-05-everything-rockys-boots/index.html",
-    "href": "articles/2023-05-everything-rockys-boots/index.html",
-    "title": "Everything I know about programming I learned from Rocky’s Boots",
-    "section": "",
-    "text": "I was 6 when we got our Apple IIe computer. One of my favorite games at the time was “Rocky’s Boots”, which was a game about building machines using Boolean Logic.\nThe goal of Rocky’s boots was to build a kicking machine/logic circuit that would take a sequence of shapes and only “kick out” certain shapes.\n\n\n\nCircuit Picture/GIF\n\n\nThe boot component was always at the end of the circuit, and you programmed it with a set of logic gates, switches, and flip-flops.\nThe parts are pretty minimal; OR, NOT, and AND gates, flip-flops, clocks, and delays.\nThe beauty of Rocky’s Boots was not just the freedom it gave you but also how gradually concepts were introduced to you.\nWritten by Warren Robinett (the famed Atari programmer), you were a little orange cursor that wandered around various rooms in an open world, and most of the rooms introduced a concept or had a challenge.\nEverything in Rocky’s boots is powered by electricity, and you (as the cursor) are a source of electricity. So just touching an input will make objects work.\n\n\n\nRoom to Room Example\n\n\nFor example, the section on logic gates is very clever. It starts with gates such as AND and NOT gates and then moves to OR gates. Throughout, you are trying different things with the gates. What happens when you hook up a sensor to a NOT gate?\nOnce you have learned the basic componenets, it is time to tackle the challenges.\nGiven an array of sensors, can you design a circuit that makes the boot kick the right shapes?\n\n\n\nCitationBibTeX citation:@online{laderas,\n  author = {Laderas, Ted},\n  title = {Everything {I} Know about Programming {I} Learned from\n    {Rocky’s} {Boots}},\n  url = {https://laderast.github.io/articles/2023-05-everything-rockys-boots/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nLaderas, Ted. n.d. “Everything I Know about Programming I Learned\nfrom Rocky’s Boots.” https://laderast.github.io/articles/2023-05-everything-rockys-boots/."
-  },
-  {
     "objectID": "articles/2018-08-07-shiny-and-tidyeval/2018-08-07-shiny-and-tidyeval.html",
     "href": "articles/2018-08-07-shiny-and-tidyeval/2018-08-07-shiny-and-tidyeval.html",
     "title": "Shiny and Tidyeval Part 1",
@@ -1321,13 +1314,6 @@
     "title": "Kindness at the Cost of Yourself",
     "section": "Resources",
     "text": "Resources\n\nGive and Take - this is the book that opened my eyes to the power of being a social giver.\nUnfuck Your Adulting - this book by Faith Harper is full of good advice about navigating situations, emotions, and taking responsibility for what you can take responsibility for.\nHow to be a giver, not a self-sacrificer - talks about giving in the spirit of generosity, and not self-sacrifice. Again, keep something for yourself.\nWhen to take initiative at work, and when not to\nAvoiding Burnout: Tips for self-care - again, very good tips on taking care of yourself, because no one else will."
-  },
-  {
-    "objectID": "posts/2023-12-29-analysts-nightmares/index.html",
-    "href": "posts/2023-12-29-analysts-nightmares/index.html",
-    "title": "The Analyst’s Nightmares",
-    "section": "",
-    "text": "I have a lot of nightmares about data. Especially when I’m at the verge of publishing or sharing an analysis. I’ve come to learn that this is one of the hallmarks of a good analyst.\nWhat are these nightmares? Let me know if any of these seem familiar to you:\n\nDid I load the data correctly?\nWas the data transformations/cleaning correct?\nDid I set up the model correctly?\n\nA good analyst is conscientious about answering questions of the data. One of your jobs as an analyst is to absorb and communicate uncertainty about the data. This is especially important when working with decision makers.\nOne of the things that’s taken me a long time to learn is:\n\nThere are no 100% “correct” analyses - only more defensible ones.\n\nThe most important thing to defend are the relationships between variables. Do these relationships make sense? Or is the relationship possibly due to confounding variables?\n\n\n\nCitationBibTeX citation:@online{laderas,\n  author = {Laderas, Ted},\n  title = {The {Analyst’s} {Nightmares}},\n  url = {https://laderast.github.io/posts/2023-12-29-analysts-nightmares/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nLaderas, Ted. n.d. “The Analyst’s Nightmares.” https://laderast.github.io/posts/2023-12-29-analysts-nightmares/."
   },
   {
     "objectID": "posts/2018-03-19-some-notes-from-the-evidence-to-scholarship-conference/index.html",
